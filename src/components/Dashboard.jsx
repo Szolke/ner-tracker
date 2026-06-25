@@ -98,6 +98,22 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const scatterData   = useMemo(() => categoryData.map(cat=>({name:cat.name,count:data?.cases.filter(c=>c.category===cat.name).length||0,total:+((data?.cases.filter(c=>c.category===cat.name).reduce((s,c)=>s+c.amount_huf,0)||0)/1e9).toFixed(1)})), [data,categoryData]);
   const allPersons    = useMemo(() => { if(!data)return[]; const seen=new Set(); return data.cases.flatMap(c=>c.involved_persons).filter(p=>{if(seen.has(p.id))return false;seen.add(p.id);return true;}); }, [data]);
 
+  const yearlyStats = useMemo(() => {
+    if (!data) return [];
+    const m = {};
+    data.cases.forEach(c => {
+      const y = c.date.slice(0,4);
+      if (!m[y]) m[y] = { year:y, korrupció:0, pénzügyi:0, közbeszerzés:0, total:0 };
+      m[y][c.category] = (m[y][c.category]||0) + 1;
+      m[y].total++;
+    });
+    return Object.values(m).sort((a,b)=>a.year.localeCompare(b.year));
+  }, [data]);
+
+  const lastUpdated = data?.metadata?.last_updated
+    ? new Date(data.metadata.last_updated).toLocaleString('hu-HU')
+    : null;
+
   const tt = { backgroundColor:darkMode?'#1f2937':'#fff', border:`1px solid ${darkMode?'#374151':'#e5e7eb'}`, color:darkMode?'#f9fafb':'#111' };
 
   const csvExport = () => {
@@ -169,7 +185,10 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
         <div className={`px-6 py-4 border-b flex justify-between items-center ${darkMode?'border-gray-700':'border-gray-200'}`}>
           <div>
             <h1 className="text-2xl font-bold flex items-center gap-2"><Globe className="w-7 h-7"/> NER Tracker</h1>
-            <p className={`text-xs mt-0.5 ${darkMode?'text-gray-400':'text-gray-500'}`}>Magyar kormányzati korrupciós ügyek nyilvántartása</p>
+            <p className={`text-xs mt-0.5 ${darkMode?'text-gray-400':'text-gray-500'}`}>
+              Magyar kormányzati korrupciós ügyek nyilvántartása
+              {lastUpdated && <span className="ml-2 opacity-60">· Frissítve: {lastUpdated}</span>}
+            </p>
           </div>
           <div className="flex items-center gap-2">
             {watched.size > 0 && (
@@ -366,6 +385,16 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
       </div>
     </div>
   );
+}
+
+
+// ── Keresési kiemelés ────────────────────────────────────────────────
+function Highlight({ text, query }) {
+  if (!query || !text) return <>{text}</>;
+  const parts = text.split(new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi'));
+  return <>{parts.map((p,i) => p.toLowerCase()===query.toLowerCase()
+    ? <mark key={i} className="bg-yellow-300 text-gray-900 rounded px-0.5">{p}</mark>
+    : p)}</>;
 }
 
 function CaseDetail({ c, darkMode, watched, toggleWatch, onClose }) {
