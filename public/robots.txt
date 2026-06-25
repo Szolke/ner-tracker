@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ner-tracker.pages.dev/sitemap.xml
+
+# Disallow admin
+Disallow: /admin
