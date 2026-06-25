@@ -33,6 +33,22 @@
           "name": "Polt Péter",
           "position": "legfőbb ügyész"
         }
+      ],
+      "verified": true,
+      "media_count": 47,
+      "status_history": [
+        {
+          "date": "2017-03-02",
+          "status": "active"
+        },
+        {
+          "date": "2017-09-15",
+          "status": "investigation"
+        },
+        {
+          "date": "2019-06-01",
+          "status": "closed"
+        }
       ]
     },
     {
@@ -61,6 +77,18 @@
           "id": "p001",
           "name": "Mészáros Lőrinc",
           "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ],
+      "verified": true,
+      "media_count": 189,
+      "status_history": [
+        {
+          "date": "2023-04-12",
+          "status": "active"
+        },
+        {
+          "date": "2023-11-01",
+          "status": "investigation"
         }
       ]
     },
@@ -96,6 +124,22 @@
           "name": "Lázár János",
           "position": "építési és közlekedési miniszter"
         }
+      ],
+      "verified": true,
+      "media_count": 23,
+      "status_history": [
+        {
+          "date": "2019-06-15",
+          "status": "active"
+        },
+        {
+          "date": "2020-03-01",
+          "status": "investigation"
+        },
+        {
+          "date": "2021-05-10",
+          "status": "closed"
+        }
       ]
     },
     {
@@ -129,6 +173,18 @@
           "id": "p011",
           "name": "Rogán Antal",
           "position": "miniszter, Kabinetirodát vezető"
+        }
+      ],
+      "verified": true,
+      "media_count": 134,
+      "status_history": [
+        {
+          "date": "2023-09-05",
+          "status": "active"
+        },
+        {
+          "date": "2024-01-15",
+          "status": "investigation"
         }
       ]
     },
@@ -164,6 +220,14 @@
           "name": "Mészáros Lőrinc",
           "position": "vállalkozó"
         }
+      ],
+      "verified": true,
+      "media_count": 31,
+      "status_history": [
+        {
+          "date": "2024-01-22",
+          "status": "appeal"
+        }
       ]
     },
     {
@@ -198,6 +262,14 @@
           "name": "Palkovics László",
           "position": "volt innovációs miniszter"
         }
+      ],
+      "verified": true,
+      "media_count": 88,
+      "status_history": [
+        {
+          "date": "2023-11-30",
+          "status": "investigation"
+        }
       ]
     },
     {
@@ -226,6 +298,14 @@
           "id": "p011",
           "name": "Rogán Antal",
           "position": "miniszter, Kabinetirodát vezető"
+        }
+      ],
+      "verified": true,
+      "media_count": 12,
+      "status_history": [
+        {
+          "date": "2021-07-18",
+          "status": "closed"
         }
       ]
     },
@@ -262,6 +342,14 @@
           "name": "Gulyás Gergely",
           "position": "miniszterelnöki kabinetfőnök"
         }
+      ],
+      "verified": false,
+      "media_count": 156,
+      "status_history": [
+        {
+          "date": "2024-03-15",
+          "status": "active"
+        }
       ]
     },
     {
@@ -295,6 +383,14 @@
           "id": "p002",
           "name": "Szijjártó Péter",
           "position": "külügyminiszter"
+        }
+      ],
+      "verified": false,
+      "media_count": 44,
+      "status_history": [
+        {
+          "date": "2023-11-20",
+          "status": "active"
         }
       ]
     },
@@ -330,6 +426,18 @@
           "name": "Gulyás Gergely",
           "position": "miniszterelnöki kabinetfőnök"
         }
+      ],
+      "verified": true,
+      "media_count": 67,
+      "status_history": [
+        {
+          "date": "2023-05-12",
+          "status": "active"
+        },
+        {
+          "date": "2024-02-01",
+          "status": "investigation"
+        }
       ]
     },
     {
@@ -358,6 +466,22 @@
           "id": "p015",
           "name": "Borkai Zsolt",
           "position": "volt győri polgármester"
+        }
+      ],
+      "verified": true,
+      "media_count": 92,
+      "status_history": [
+        {
+          "date": "2019-10-04",
+          "status": "active"
+        },
+        {
+          "date": "2019-10-20",
+          "status": "investigation"
+        },
+        {
+          "date": "2020-07-15",
+          "status": "closed"
         }
       ]
     },
@@ -388,6 +512,22 @@
           "name": "Tarsoly Csaba",
           "position": "Quaestor-vezér"
         }
+      ],
+      "verified": true,
+      "media_count": 201,
+      "status_history": [
+        {
+          "date": "2015-03-09",
+          "status": "active"
+        },
+        {
+          "date": "2015-04-01",
+          "status": "investigation"
+        },
+        {
+          "date": "2017-12-01",
+          "status": "closed"
+        }
       ]
     },
     {
@@ -417,6 +557,14 @@
           "name": "Veres Pál",
           "position": "volt miskolci polgármester"
         }
+      ],
+      "verified": false,
+      "media_count": 8,
+      "status_history": [
+        {
+          "date": "2023-08-30",
+          "status": "investigation"
+        }
       ]
     },
     {
@@ -445,6 +593,14 @@
           "id": "p018",
           "name": "Péterffy Attila",
           "position": "Pécs polgármestere"
+        }
+      ],
+      "verified": false,
+      "media_count": 5,
+      "status_history": [
+        {
+          "date": "2024-04-18",
+          "status": "active"
         }
       ]
     },
@@ -479,6 +635,14 @@
           "id": "p009",
           "name": "Gulyás Gergely",
           "position": "miniszterelnöki kabinetfőnök"
+        }
+      ],
+      "verified": false,
+      "media_count": 19,
+      "status_history": [
+        {
+          "date": "2024-03-01",
+          "status": "active"
         }
       ]
     }
@@ -618,7 +782,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-26T08:00:00Z",
+    "last_updated": "2026-06-26T10:00:00Z",
     "version": "2.3.0",
     "total_cases": 15,
     "total_investigations": 4,
