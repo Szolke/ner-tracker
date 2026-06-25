@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import AdminPanel from './components/AdminPanel';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -16,10 +18,12 @@ function App() {
   }, [darkMode]);
 
   return (
-    <Dashboard
-      darkMode={darkMode}
-      toggleDarkMode={() => setDarkMode(d => !d)}
-    />
+    <Routes>
+      <Route path="/" element={
+        <Dashboard darkMode={darkMode} toggleDarkMode={() => setDarkMode(d => !d)} />
+      } />
+      <Route path="/admin" element={<AdminPanel />} />
+    </Routes>
   );
 }
 
