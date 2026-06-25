@@ -1,179 +1,193 @@
 {
-  "last_update": "2026-06-25T19:00:00+00:00",
   "cases": [
     {
-      "id": "telex-2026-06-25-001",
-      "title": "Orbán-közeli oligarchát gyanúsítanak korrupciós ügyletek miatt",
-      "description": "Az ügyészség nyomozást indított egy fideszes körökben ismert üzletember ellen, akit korruptív közbeszerzések gyanúja miatt hallgattak ki. A gyanúsított több kormányzati pályázaton nyert milliárdokat.",
-      "link": "https://telex.hu/politika/2026/06/25/oligarca-korrupcio",
-      "date": "2026-06-25T08:30:00+00:00",
-      "source": "telex.hu",
+      "id": "case_001",
+      "title": "Felcsúti stadiumprojekt korrupciós gyanú",
+      "description": "A felcsúti stadiumprojekt körüli állami finanszírozás anomáliái és érintett személyek üzleti kapcsolatai.",
+      "link": "https://telex.hu/...",
+      "date": "2023-01-15",
+      "source": "Telex",
       "category": "korrupció",
       "status": "investigation",
-      "region": "Budapest",
-      "amount_huf": 4500000000,
-      "tags": [
-        "korrupció",
-        "nyomozás",
-        "közbeszerzés"
-      ],
+      "region": "Fejér",
+      "coordinates": [47.5833, 18.7167],
+      "amount_huf": 15000000000,
+      "tags": ["stadiumprojekt", "közpénz", "kedvezményes ár"],
       "involved_persons": [
-        {
-          "id": "p1",
-          "name": "Takács Péter",
-          "position": "Üzletember"
-        }
+        {"id": "p001", "name": "Mészáros Lőrinc", "position": "vállalkozó", "party": "Fidesz-KDNP"},
+        {"id": "p002", "name": "Szijjártó Péter", "position": "külügyminiszter", "party": "Fidesz"}
       ]
     },
     {
-      "id": "444-2026-06-24-005",
-      "title": "Fideszes képviselő ellen eljárás indul pénzügyi visszaélések miatt",
-      "description": "A NAV vizsgálatot indított egy Fidesz-frakciós parlamenti képviselő ellen, akit költségvetési támogatások jogtalan felhasználásával gyanúsítanak.",
-      "link": "https://444.hu/2026/06/24/fideszes-kepviseloi-penzugyi-visszaeles",
-      "date": "2026-06-24T14:20:00+00:00",
-      "source": "444.hu",
+      "id": "case_002",
+      "title": "Közigazgatási szerződések szokatlan árazása",
+      "description": "Kormányzati IT szerződésekhez kapcsolódó túlárazás és versenykorlátozás.",
+      "link": "https://hvg.hu/...",
+      "date": "2023-06-20",
+      "source": "HVG",
       "category": "pénzügyi",
       "status": "active",
-      "region": "Pest megye",
-      "amount_huf": 2300000000,
-      "tags": [
-        "korrupció",
-        "nyomozás",
-        "pénz"
-      ],
+      "region": "Budapest",
+      "coordinates": [47.4979, 19.0402],
+      "amount_huf": 8500000000,
+      "tags": ["IT szerződés", "verseny korlátozás", "túlárazás"],
       "involved_persons": [
-        {
-          "id": "p2",
-          "name": "Dr. Kiss János",
-          "position": "Képviselő"
-        }
+        {"id": "p003", "name": "Parragh László", "position": "VOSZ elnök", "party": "Fidesz-KDNP"}
       ]
     },
     {
-      "id": "hvg-2026-06-23-012",
-      "title": "NER-alapítvány feljelentést kap közbeszerzési tenderek manipulálása miatt",
-      "description": "Egy NER-hez közel álló alapítvány ellen feljelentést tett az Átlátszó.hu, amely szisztematikusan manipulálta az állami közbeszerzéseket.",
-      "link": "https://hvg.hu/gazdasag/20260623_ner-alapitvany-kozbeszerzesi-manipulacio",
-      "date": "2026-06-23T11:45:00+00:00",
-      "source": "hvg.hu",
+      "id": "case_003",
+      "title": "Közműtender szabálytalansága Debrecenben",
+      "description": "Magántulajdonú cég preferenciális kezelése közműtenderben helyi önkormányzati kapcsolatok révén.",
+      "link": "https://444.hu/...",
+      "date": "2024-02-10",
+      "source": "444",
       "category": "közbeszerzés",
       "status": "closed",
+      "region": "Hajdú-Bihar",
+      "coordinates": [47.5316, 21.6273],
+      "amount_huf": 2300000000,
+      "tags": ["közműtender", "önkormányzat", "kedvezmény"],
+      "involved_persons": [
+        {"id": "p004", "name": "Papp László", "position": "polgármester", "party": "Fidesz"}
+      ]
+    },
+    {
+      "id": "case_004",
+      "title": "Direkt36: Média befolyásolás és hirdetési közbeszerzés",
+      "description": "Kormányzati hirdetési bontás a kormánytöbb médiumra, versenyhez képest szokatlan megállapodások.",
+      "link": "https://direkt36.hu/...",
+      "date": "2023-09-05",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "investigation",
       "region": "Budapest",
-      "amount_huf": 8700000000,
-      "tags": [
-        "közbeszerzés",
-        "pénz",
-        "alapítvány"
-      ],
+      "coordinates": [47.4979, 19.0402],
+      "amount_huf": 12000000000,
+      "tags": ["média", "hirdetés", "állami pénz"],
       "involved_persons": [
-        {
-          "id": "p3",
-          "name": "Völner Pál",
-          "position": "Alapítvány igazgató"
-        }
+        {"id": "p005", "name": "Habony Árpád", "position": "szóvivő tanácsadó", "party": "Fidesz"}
       ]
     },
     {
-      "id": "direkt36-2026-06-22-008",
-      "title": "Milliárdos gázszerződés végigment a Fidesz-közeli társaságokon",
-      "description": "Direkt36 vizsgálatából kiderült, hogy egy állami gázszerződés olyan közvetítő cégen ment keresztül, amely korábban más korrupciós ügyekben is szerepelt.",
-      "link": "https://direkt36.hu/2026/06/22/gaz-szerzodes-fidesz",
-      "date": "2026-06-22T09:15:00+00:00",
-      "source": "direkt36.hu",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Országos",
-      "amount_huf": 12500000000,
-      "tags": [
-        "korrupció",
-        "gázszerződés",
-        "közvetítő"
-      ],
+      "id": "case_005",
+      "title": "Mezőgazdasági támogatások anomáliái",
+      "description": "EU-s agrártámogatások szokatlan bontása kisvállalkozásokra, majd átcsoportosítása.",
+      "link": "https://telex.hu/...",
+      "date": "2024-01-22",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "appeal",
+      "region": "Csongrád-Csanád",
+      "coordinates": [46.2530, 20.1414],
+      "amount_huf": 5600000000,
+      "tags": ["EU támogatás", "agrárium", "átcsoportosítás"],
       "involved_persons": [
-        {
-          "id": "p4",
-          "name": "Palatin József",
-          "position": "Társaság vezető"
-        }
+        {"id": "p006", "name": "Nagy István", "position": "agrárminiszter", "party": "Fidesz"}
       ]
     },
     {
-      "id": "atlatszo-2026-06-21-015",
-      "title": "Mészáros Lőrinc érdekeltségei minden nagyprojektben ott vannak",
-      "description": "Az Átlátszó.hu kutatása szerint Mészáros Lőrinc cégei szinte minden állami nagyprojektben részt vesznek, jellemzően túlárazott árakon.",
-      "link": "https://atlatszo.hu/2026/06/21/meszaros-projektek",
-      "date": "2026-06-21T16:30:00+00:00",
-      "source": "atlatszo.hu",
+      "id": "case_006",
+      "title": "Kulturális alapítványok finanszírozása",
+      "description": "Nem nyilvános céllal létrehozott alapítványok, melyek kormányzati forrásokat kezelnek kontroll nélkül.",
+      "link": "https://hvg.hu/...",
+      "date": "2023-11-30",
+      "source": "HVG",
       "category": "korrupció",
       "status": "investigation",
-      "region": "Borsod-Abaúj-Zemplén",
-      "amount_huf": 15300000000,
-      "tags": [
-        "korrupció",
-        "Mészáros",
-        "projektek"
-      ],
+      "region": "Győr-Moson-Sopron",
+      "coordinates": [47.6829, 17.6271],
+      "amount_huf": 3400000000,
+      "tags": ["alapítvány", "közpénz", "transzparencia"],
       "involved_persons": [
-        {
-          "id": "p5",
-          "name": "Mészáros Lőrinc",
-          "position": "Üzletember"
-        }
+        {"id": "p007", "name": "Kásler Miklós", "position": "kulturális miniszter", "party": "Fidesz"}
+      ]
+    },
+    {
+      "id": "case_007",
+      "title": "Turizmus fejlesztési terv anomáliái",
+      "description": "Turisztikai beruházásokhoz kapcsolódó torzító támogatások és lobbyista aktivitás.",
+      "link": "https://direkt36.hu/...",
+      "date": "2024-03-01",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Somogy",
+      "coordinates": [46.3500, 17.7664],
+      "amount_huf": 7200000000,
+      "tags": ["turizmus", "fejlesztés", "lobbying"],
+      "involved_persons": [
+        {"id": "p008", "name": "Gulyás Gergely", "position": "miniszterelnöki kabinetfőnök", "party": "Fidesz"}
+      ]
+    },
+    {
+      "id": "case_008",
+      "title": "Sportfejlesztési alapprogram irregularitások",
+      "description": "Sportfejlesztési közpénzek nem transpzarent elosztása közt működő szervezetek között.",
+      "link": "https://444.hu/...",
+      "date": "2023-05-12",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "investigation",
+      "region": "Budapest",
+      "coordinates": [47.4979, 19.0402],
+      "amount_huf": 4100000000,
+      "tags": ["sport", "alapítványok", "közpénz"],
+      "involved_persons": [
+        {"id": "p009", "name": "Borkai Zsolt", "position": "olimpiai bizottság", "party": "Fidesz"}
       ]
     }
   ],
   "investigations": [
     {
       "id": "inv_001",
-      "title": "Orbán-közeli oligarcha korrupciós ügye",
-      "status": "active",
-      "investigating_authority": "Fővárosi Ügyészség",
-      "estimated_closure": "2027-03-15",
-      "involved_amount": 4500000000,
-      "key_figures": [
-        "Takács Péter",
-        "Pintér Sándor"
-      ],
-      "description": "Közbeszerzési tender-rigatás és korrupciós megállapodások vizsgálata. Az üzletember több kormányzati pályázaton nyert túlárazott árakon."
+      "title": "EPPO: Mészáros Lőrinc vagyonszerzési útvonalai",
+      "status": "ongoing",
+      "investigating_authority": "European Public Prosecutor's Office (EPPO)",
+      "estimated_closure": "2025-06-30",
+      "involved_amount": 32000000000,
+      "key_figures": ["p001", "p002", "p003"],
+      "description": "Az Európai Ügyészség vizsgálata Mészáros Lőrinc vagyongyarapodásáról és közpénzek felhasználásáról.",
+      "start_date": "2022-11-15"
     },
     {
       "id": "inv_002",
-      "title": "Fideszes képviselő költségvetési visszaélése",
-      "status": "active",
-      "investigating_authority": "NAV",
-      "estimated_closure": "2026-12-31",
-      "involved_amount": 2300000000,
-      "key_figures": [
-        "Dr. Kiss János",
-        "Tóth Péter"
-      ],
-      "description": "Állami támogatások jogtalan felhasználása. A képviselő személyes cégeire utaltatott közpénzeket."
+      "title": "Fővárosi Főügyészség: Közúti versenykorlátozás",
+      "status": "ongoing",
+      "investigating_authority": "Fővárosi Főügyészség",
+      "estimated_closure": "2024-12-31",
+      "involved_amount": 8500000000,
+      "key_figures": ["p003", "p005"],
+      "description": "Tenderkörök és versenykorlátozási megállapodások vizsgálata közbeszerzési szerződésekben.",
+      "start_date": "2023-03-20"
     },
     {
       "id": "inv_003",
-      "title": "Gázszerződés közvetítői visszaélése",
-      "status": "active",
-      "investigating_authority": "Központi Nyomozó Főügyészség",
-      "estimated_closure": "2027-06-30",
-      "involved_amount": 12500000000,
-      "key_figures": [
-        "Palatin József",
-        "Volner Pál"
-      ],
-      "description": "Milliárdos gázszerződés közvetítőkön ment át, akik túlzott jutalékot szedtek. Lehetséges korrupció."
-    },
-    {
-      "id": "inv_004",
-      "title": "Mészáros Lőrinc projektjei felülvizsgálat",
-      "status": "investigation",
-      "investigating_authority": "Fővárosi Ügyészség",
-      "estimated_closure": "2027-12-01",
-      "involved_amount": 15300000000,
-      "key_figures": [
-        "Mészáros Lőrinc",
-        "Szalai Pál"
-      ],
-      "description": "Szisztematikus túlárazás vizsgálata infrastrukturális projektekben."
+      "title": "Széchenyi Ügyvédi Iroda: EU-s támogatások visszaigénylése",
+      "status": "pending",
+      "investigating_authority": "EU Szoc Csalás Elleni Hivatal (OLAF)",
+      "estimated_closure": "2025-09-15",
+      "involved_amount": 5600000000,
+      "key_figures": ["p006"],
+      "description": "Mezőgazdasági EU-s támogatások visszaigénylésének szükségessége az anomáliák miatt.",
+      "start_date": "2024-01-25"
     }
-  ]
+  ],
+  "connections": [
+    {"from": "p001", "to": "p002", "type": "business_connection", "cases": ["case_001"], "description": "Közös érdekeltsége a projektekben"},
+    {"from": "p001", "to": "p003", "type": "business_connection", "cases": ["case_002"], "description": "IT szerződések koordinációja"},
+    {"from": "p002", "to": "p005", "type": "political_ally", "cases": ["case_004"], "description": "Kormányzati propaganda koordináció"},
+    {"from": "p003", "to": "p008", "type": "political_ally", "cases": ["case_007", "case_008"], "description": "Közös politikai célok"},
+    {"from": "p004", "to": "p006", "type": "business_connection", "cases": ["case_003"], "description": "Helyi közigazgatási kapcsolatok"}
+  ],
+  "metadata": {
+    "last_updated": "2024-03-01T10:30:00Z",
+    "total_cases": 8,
+    "total_investigations": 3,
+    "total_involved_amount_huf": 56600000000,
+    "active_cases": 3,
+    "investigation_cases": 3,
+    "closed_cases": 1,
+    "appeal_cases": 1
+  }
 }
