@@ -1,227 +1,301 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, TrendingUp, Calendar, Tag, ExternalLink } from 'lucide-react';
+import { Filter, TrendingUp, ExternalLink, MapPin, AlertTriangle, CheckCircle, Clock, DollarSign, Users } from 'lucide-react';
 
 export default function Dashboard() {
-  const [articles, setArticles] = useState([]);
-  const [filteredArticles, setFilteredArticles] = useState([]);
+  const [cases, setCases] = useState([]);
+  const [filteredCases, setFilteredCases] = useState([]);
+  const [investigations, setInvestigations] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState('overview');
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedTags, setSelectedTags] = useState([]);
-  const [selectedSource, setSelectedSource] = useState('all');
+  const [selectedRegion, setSelectedRegion] = useState('all');
+  const [selectedStatus, setSelectedStatus] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/data/news.json');
-        const data = await response.json();
-        setArticles(data.articles || []);
-      } catch (error) {
-        console.error('Error loading data:', error);
-        setArticles([]);
-      }
-      setLoading(false);
-    };
-
-    fetchData();
+    fetch('/data/news.json')
+      .then(r => r.json())
+      .then(data => {
+        setCases(data.cases || []);
+        setInvestigations(data.investigations || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, []);
 
   useEffect(() => {
-    let filtered = articles;
-
+    let f = cases;
     if (searchTerm) {
-      const term = searchTerm.toLowerCase();
-      filtered = filtered.filter(
-        article => article.title.toLowerCase().includes(term) ||
-                   article.description.toLowerCase().includes(term)
+      const t = searchTerm.toLowerCase();
+      f = f.filter(c =>
+        c.title.toLowerCase().includes(t) ||
+        c.description.toLowerCase().includes(t) ||
+        c.involved_persons?.some(p => p.name.toLowerCase().includes(t))
       );
     }
+    if (selectedRegion !== 'all') f = f.filter(c => c.region === selectedRegion);
+    if (selectedStatus !== 'all') f = f.filter(c => c.status === selectedStatus);
+    if (selectedCategory !== 'all') f = f.filter(c => c.category === selectedCategory);
+    setFilteredCases(f);
+  }, [cases, searchTerm, selectedRegion, selectedStatus, selectedCategory]);
 
-    if (selectedTags.length > 0) {
-      filtered = filtered.filter(article =>
-        selectedTags.some(tag => article.tags.includes(tag))
-      );
-    }
+  const total = cases.reduce((s, c) => s + (c.amount_huf || 0), 0);
+  const bg = darkMode ? 'bg-slate-900' : 'bg-gray-50';
+  const text = darkMode ? 'text-slate-100' : 'text-slate-900';
+  const card = darkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-slate-200';
+  const sub = darkMode ? 'text-slate-400' : 'text-slate-500';
+  const accent = darkMode ? 'text-red-400' : 'text-red-600';
 
-    if (selectedSource !== 'all') {
-      filtered = filtered.filter(article => article.source === selectedSource);
-    }
+  const inp = `w-full px-3 py-2 rounded-lg border text-sm ${darkMode ? 'bg-slate-700 border-slate-600 text-slate-100' : 'bg-white border-slate-300 text-slate-900'}`;
 
-    setFilteredArticles(filtered);
-  }, [articles, searchTerm, selectedTags, selectedSource]);
-
-  const allTags = [...new Set(articles.flatMap(a => a.tags))];
-  const sources = [...new Set(articles.map(a => a.source))];
-
-  const toggleTag = (tag) => {
-    setSelectedTags(prev =>
-      prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
-    );
+  const statusBadge = {
+    active: 'bg-red-900/40 text-red-300 border-red-700',
+    investigation: 'bg-yellow-900/40 text-yellow-300 border-yellow-700',
+    closed: 'bg-green-900/40 text-green-300 border-green-700',
+    appeal: 'bg-orange-900/40 text-orange-300 border-orange-700',
   };
-
-  const formatDate = (dateString) => {
-    return new Date(dateString).toLocaleDateString('hu-HU', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    });
-  };
+  const statusLabel = { active: 'Aktív', investigation: 'Nyomozás', closed: 'Lezárt', appeal: 'Fellebbezés' };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className={`min-h-screen ${bg} ${text}`}>
       {/* Header */}
-      <header className="bg-black/50 border-b border-slate-700 sticky top-0 z-50 backdrop-blur">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex items-center gap-3 mb-4">
-            <TrendingUp className="w-8 h-8 text-red-500" />
-            <h1 className="text-3xl font-bold text-white">NER Tracker</h1>
-            <span className="text-sm text-slate-400 ml-auto">Közérdekű adatok</span>
+      <header className={`${card} border-b sticky top-0 z-50`}>
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex justify-between items-center mb-3">
+            <div>
+              <h1 className={`text-2xl font-black ${accent} tracking-tight`}>🚨 NER Korrupció Tracker</h1>
+              <p className={`text-xs ${sub}`}>Közérdekű adatok — Telex · 444 · HVG · Direkt36 · Átlátszó</p>
+            </div>
+            <button onClick={() => setDarkMode(!darkMode)}
+              className={`px-3 py-1.5 rounded-lg text-sm ${darkMode ? 'bg-slate-700 hover:bg-slate-600' : 'bg-slate-100 hover:bg-slate-200'}`}>
+              {darkMode ? '🌙 Sötét' : '☀️ Világos'}
+            </button>
           </div>
-          
-          <div className="grid grid-cols-3 gap-4 mt-4">
-            <div className="bg-slate-800/50 p-3 rounded border border-slate-700">
-              <p className="text-slate-400 text-sm">Cikkek</p>
-              <p className="text-2xl font-bold text-white">{articles.length}</p>
-            </div>
-            <div className="bg-slate-800/50 p-3 rounded border border-slate-700">
-              <p className="text-slate-400 text-sm">Találatok</p>
-              <p className="text-2xl font-bold text-white">{filteredArticles.length}</p>
-            </div>
-            <div className="bg-slate-800/50 p-3 rounded border border-slate-700">
-              <p className="text-slate-400 text-sm">Források</p>
-              <p className="text-2xl font-bold text-white">{sources.length}</p>
-            </div>
+          <div className="flex gap-1">
+            {[['overview','📊 Áttekintés'],['cases','📋 Ügyek'],['investigations','🔍 Nyomozások']].map(([id,label]) => (
+              <button key={id} onClick={() => setActiveTab(id)}
+                className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                  activeTab === id
+                    ? `${accent} ${darkMode ? 'bg-slate-700' : 'bg-red-50'}`
+                    : `${sub} hover:${text}`
+                }`}>{label}</button>
+            ))}
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Search */}
-        <div className="mb-8">
-          <div className="relative mb-4">
-            <Search className="absolute left-3 top-3 w-5 h-5 text-slate-400" />
-            <input
-              type="text"
-              placeholder="Keress cikkek között..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-slate-800 border border-slate-700 rounded pl-10 pr-4 py-2 text-white placeholder-slate-400 focus:outline-none focus:border-slate-500"
-            />
-          </div>
-
-          {/* Filters */}
-          <div className="flex flex-wrap gap-2 items-center mb-4">
-            <Filter className="w-4 h-4 text-slate-400" />
-            
-            <select
-              value={selectedSource}
-              onChange={(e) => setSelectedSource(e.target.value)}
-              className="bg-slate-800 border border-slate-700 rounded px-3 py-1 text-sm text-white"
-            >
-              <option value="all">Összes forrás</option>
-              {sources.map(source => (
-                <option key={source} value={source}>{source}</option>
-              ))}
-            </select>
-          </div>
-
-          {/* Tags */}
-          <div className="flex flex-wrap gap-2">
-            {allTags.map(tag => (
-              <button
-                key={tag}
-                onClick={() => toggleTag(tag)}
-                className={`px-3 py-1 rounded text-sm transition ${
-                  selectedTags.includes(tag)
-                    ? 'bg-red-600 text-white'
-                    : 'bg-slate-800 text-slate-300 border border-slate-700 hover:border-slate-600'
-                }`}
-              >
-                <Tag className="w-3 h-3 inline mr-1" />
-                {tag}
-              </button>
-            ))}
-          </div>
-
-          {(searchTerm || selectedTags.length > 0 || selectedSource !== 'all') && (
-            <button
-              onClick={() => {
-                setSearchTerm('');
-                setSelectedTags([]);
-                setSelectedSource('all');
-              }}
-              className="text-sm text-slate-400 hover:text-white transition mt-3"
-            >
-              Szűrők törlése
-            </button>
-          )}
-        </div>
-
-        {/* Articles */}
+      <main className="max-w-7xl mx-auto px-4 py-6">
         {loading ? (
-          <div className="text-center py-12">
-            <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-red-500"></div>
-            <p className="text-slate-400 mt-4">Adatok betöltése...</p>
+          <div className="flex items-center justify-center py-24">
+            <div className={`text-center ${sub}`}>
+              <div className="text-4xl mb-3 animate-spin">⟳</div>
+              <p>Adatok betöltése...</p>
+            </div>
           </div>
-        ) : filteredArticles.length > 0 ? (
-          <div className="grid gap-4">
-            {filteredArticles.map((article, idx) => (
-              <article
-                key={article.id || idx}
-                className="bg-slate-800/50 border border-slate-700 rounded-lg p-6 hover:border-slate-600 transition backdrop-blur"
-              >
-                <div className="flex justify-between items-start gap-4 mb-3">
-                  <h2 className="text-lg font-semibold text-white flex-1">{article.title}</h2>
-                  <span className="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded whitespace-nowrap">
-                    {article.source}
-                  </span>
+        ) : (
+          <>
+            {/* ── OVERVIEW ── */}
+            {activeTab === 'overview' && (
+              <div className="space-y-6">
+                {/* Metrics */}
+                <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                  {[
+                    { icon: <AlertTriangle size={20}/>, label: 'Összes ügy', value: cases.length, color: 'red' },
+                    { icon: <DollarSign size={20}/>, label: 'Hiányzó vagyon', value: `${(total/1e9).toFixed(1)} Md Ft`, color: 'orange' },
+                    { icon: <Clock size={20}/>, label: 'Aktív nyomozás', value: investigations.filter(i=>i.status==='active').length, color: 'yellow' },
+                    { icon: <MapPin size={20}/>, label: 'Érintett régió', value: new Set(cases.map(c=>c.region)).size, color: 'blue' },
+                    { icon: <Users size={20}/>, label: 'Érintett személy', value: new Set(cases.flatMap(c=>c.involved_persons?.map(p=>p.id)||[])).size, color: 'purple' },
+                  ].map(m => (
+                    <div key={m.label} className={`${card} border rounded-xl p-4`}>
+                      <div className={`flex items-center gap-2 mb-1 ${
+                        m.color==='red'?'text-red-400':m.color==='orange'?'text-orange-400':m.color==='yellow'?'text-yellow-400':m.color==='blue'?'text-blue-400':'text-purple-400'
+                      }`}>{m.icon}<span className="text-xs font-medium">{m.label}</span></div>
+                      <div className="text-2xl font-black">{m.value}</div>
+                    </div>
+                  ))}
                 </div>
 
-                <p className="text-slate-300 text-sm mb-4 line-clamp-2">{article.description}</p>
-
-                <div className="flex items-center justify-between flex-wrap gap-3">
-                  <div className="flex items-center gap-1 text-sm text-slate-400">
-                    <Calendar className="w-4 h-4" />
-                    {formatDate(article.date)}
-                  </div>
-
-                  <div className="flex items-center gap-2">
-                    {article.tags.map(tag => (
-                      <span
-                        key={tag}
-                        className="text-xs bg-red-900/30 text-red-200 px-2 py-1 rounded border border-red-800/50"
-                      >
-                        {tag}
-                      </span>
+                {/* Recent cases */}
+                <div className={`${card} border rounded-xl p-5`}>
+                  <h2 className={`font-bold text-lg mb-4 flex items-center gap-2`}>
+                    <TrendingUp size={18} className={accent}/> Legújabb ügyek
+                  </h2>
+                  <div className="space-y-3">
+                    {cases.slice(0,5).map(c => (
+                      <div key={c.id} className={`${darkMode?'bg-slate-700/60':'bg-slate-50'} rounded-lg p-4 flex justify-between items-start gap-4`}>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 flex-wrap mb-1">
+                            <span className={`text-xs px-2 py-0.5 rounded-full border ${statusBadge[c.status]||statusBadge.active}`}>
+                              {statusLabel[c.status]||c.status}
+                            </span>
+                            <span className={`text-xs ${sub}`}>{c.source} · {c.date.split('T')[0]}</span>
+                          </div>
+                          <p className="font-semibold text-sm leading-snug">{c.title}</p>
+                          <p className={`text-xs ${sub} mt-1 line-clamp-2`}>{c.description}</p>
+                        </div>
+                        {c.amount_huf && (
+                          <div className={`text-right shrink-0`}>
+                            <div className={`font-black text-sm ${accent}`}>{(c.amount_huf/1e9).toFixed(1)} Md</div>
+                            <div className={`text-xs ${sub}`}>Ft</div>
+                          </div>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </div>
+              </div>
+            )}
 
-                <a
-                  href={article.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-2 text-red-400 hover:text-red-300 transition text-sm font-medium"
-                >
-                  Teljes cikk <ExternalLink className="w-3 h-3" />
-                </a>
-              </article>
-            ))}
-          </div>
-        ) : (
-          <div className="text-center py-12">
-            <p className="text-slate-400">Nincs találat a megadott szűrőkhöz.</p>
-          </div>
+            {/* ── CASES ── */}
+            {activeTab === 'cases' && (
+              <div className="space-y-4">
+                {/* Filters */}
+                <div className={`${card} border rounded-xl p-4`}>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Filter size={16} className={sub}/>
+                    <span className="font-semibold text-sm">Szűrés</span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <div>
+                      <label className={`block text-xs ${sub} mb-1`}>Keresés</label>
+                      <input type="text" placeholder="Ügy, név, leírás..." value={searchTerm}
+                        onChange={e=>setSearchTerm(e.target.value)} className={inp}/>
+                    </div>
+                    <div>
+                      <label className={`block text-xs ${sub} mb-1`}>Régió</label>
+                      <select value={selectedRegion} onChange={e=>setSelectedRegion(e.target.value)} className={inp}>
+                        <option value="all">Összes régió</option>
+                        {[...new Set(cases.map(c=>c.region))].map(r=><option key={r} value={r}>{r}</option>)}
+                      </select>
+                    </div>
+                    <div>
+                      <label className={`block text-xs ${sub} mb-1`}>Státusz</label>
+                      <select value={selectedStatus} onChange={e=>setSelectedStatus(e.target.value)} className={inp}>
+                        <option value="all">Összes státusz</option>
+                        <option value="active">Aktív</option>
+                        <option value="investigation">Nyomozás</option>
+                        <option value="closed">Lezárt</option>
+                        <option value="appeal">Fellebbezés</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label className={`block text-xs ${sub} mb-1`}>Kategória</label>
+                      <select value={selectedCategory} onChange={e=>setSelectedCategory(e.target.value)} className={inp}>
+                        <option value="all">Összes kategória</option>
+                        <option value="korrupció">Korrupció</option>
+                        <option value="pénzügyi">Pénzügyi</option>
+                        <option value="közbeszerzés">Közbeszerzés</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <p className={`text-sm ${sub}`}>{filteredCases.length} ügy találat</p>
+
+                <div className="space-y-3">
+                  {filteredCases.map(c => (
+                    <div key={c.id} className={`${card} border rounded-xl p-5`}>
+                      <div className="flex justify-between items-start gap-4 mb-3">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 flex-wrap mb-2">
+                            <span className={`text-xs px-2 py-0.5 rounded-full border ${statusBadge[c.status]||statusBadge.active}`}>
+                              {statusLabel[c.status]||c.status}
+                            </span>
+                            <span className={`text-xs px-2 py-0.5 rounded-full ${darkMode?'bg-slate-700':'bg-slate-100'} ${sub}`}>{c.category}</span>
+                            <span className={`text-xs ${sub}`}>{c.source} · {c.date.split('T')[0]}</span>
+                          </div>
+                          <h3 className="font-bold leading-snug">{c.title}</h3>
+                        </div>
+                        {c.amount_huf && (
+                          <div className="text-right shrink-0">
+                            <div className={`font-black text-lg ${accent}`}>{(c.amount_huf/1e9).toFixed(1)}</div>
+                            <div className={`text-xs ${sub}`}>Md Ft</div>
+                          </div>
+                        )}
+                      </div>
+                      <p className={`text-sm ${sub} mb-3`}>{c.description}</p>
+                      <div className="grid grid-cols-2 gap-2 text-xs mb-3">
+                        <div><span className={sub}>Régió: </span><span className="font-medium">{c.region}</span></div>
+                        <div><span className={sub}>Forrás: </span><span className="font-medium">{c.source}</span></div>
+                      </div>
+                      {c.involved_persons?.length > 0 && (
+                        <div className="mb-3">
+                          <span className={`text-xs ${sub}`}>Érintett személyek: </span>
+                          {c.involved_persons.map(p=>(
+                            <span key={p.id} className={`inline-block text-xs px-2 py-0.5 rounded mr-1 ${darkMode?'bg-slate-700':'bg-slate-100'}`}>
+                              {p.name} ({p.position})
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      <div className="flex gap-1 flex-wrap mb-3">
+                        {c.tags?.map(t=>(
+                          <span key={t} className={`text-xs px-2 py-0.5 rounded ${darkMode?'bg-red-900/30 text-red-300':'bg-red-50 text-red-700'}`}>#{t}</span>
+                        ))}
+                      </div>
+                      {c.link && (
+                        <a href={c.link} target="_blank" rel="noopener noreferrer"
+                          className={`inline-flex items-center gap-1 text-xs ${accent} hover:underline`}>
+                          Forrás megnyitása <ExternalLink size={12}/>
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ── INVESTIGATIONS ── */}
+            {activeTab === 'investigations' && (
+              <div className="space-y-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <AlertTriangle size={20} className={accent}/>
+                  <h2 className="font-bold text-xl">Aktív nyomozások</h2>
+                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  {investigations.map(inv => (
+                    <div key={inv.id} className={`${card} border rounded-xl p-5`}>
+                      <div className="flex justify-between items-start mb-3">
+                        <h3 className="font-bold leading-snug flex-1 pr-3">{inv.title}</h3>
+                        <span className={`text-xs px-2 py-0.5 rounded-full border shrink-0 ${statusBadge[inv.status]||statusBadge.active}`}>
+                          {statusLabel[inv.status]||inv.status}
+                        </span>
+                      </div>
+                      {inv.involved_amount && (
+                        <div className={`font-black text-2xl ${accent} mb-3`}>
+                          {(inv.involved_amount/1e9).toFixed(1)} <span className="text-base font-normal">Md Ft</span>
+                        </div>
+                      )}
+                      <div className={`grid grid-cols-2 gap-3 text-xs mb-3 p-3 rounded-lg ${darkMode?'bg-slate-700/50':'bg-slate-50'}`}>
+                        <div>
+                          <div className={sub}>Nyomozó szerv</div>
+                          <div className="font-semibold mt-0.5">{inv.investigating_authority||'—'}</div>
+                        </div>
+                        <div>
+                          <div className={sub}>Lezárás (becsült)</div>
+                          <div className="font-semibold mt-0.5">{inv.estimated_closure||'—'}</div>
+                        </div>
+                      </div>
+                      {inv.key_figures?.length > 0 && (
+                        <div className="mb-3">
+                          <div className={`text-xs ${sub} mb-1`}>Kulcsfigurák</div>
+                          <div className="flex flex-wrap gap-1">
+                            {inv.key_figures.map(f=>(
+                              <span key={f} className={`text-xs px-2 py-0.5 rounded ${darkMode?'bg-slate-700':'bg-slate-100'}`}>{f}</span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {inv.description && <p className={`text-xs ${sub} leading-relaxed`}>{inv.description}</p>}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </>
         )}
-
-        <div className="mt-6 text-center text-slate-400 text-sm">
-          {filteredArticles.length} találat {articles.length} közül
-        </div>
       </main>
-
-      {/* Footer */}
-      <footer className="border-t border-slate-700 mt-12 py-6 text-center text-slate-400 text-sm">
-        <p>NER Tracker - Közérdekű adatok gyűjtése</p>
-      </footer>
     </div>
   );
 }
