@@ -128,7 +128,11 @@ export default function NetworkGraph({ data, darkMode }) {
   }, [activeNode, edges]);
 
   if (!data || !nodes.length) return (
-    <div className="flex items-center justify-center h-40 opacity-40">Nincs elegendő adat a gráfhoz</div>
+    <div className="flex items-center justify-center h-40 opacity-40 flex-col gap-2">
+      <span className="text-3xl">🕸️</span>
+      <p>Nincs elegendő kapcsolati adat</p>
+      <p className="text-xs">A scraper automatikusan tölt be személyeket a cikkekből</p>
+    </div>
   );
 
   return (
