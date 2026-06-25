@@ -1,7 +1,7 @@
 {
   "name": "ner-tracker",
   "private": true,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,9 @@
     "lucide-react": "^0.263.1",
     "recharts": "^2.10.3",
     "leaflet": "^1.9.4",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.3",
