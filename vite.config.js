@@ -6,8 +6,21 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor:   ['react', 'react-dom'],
+          charts:   ['recharts'],
+          map:      ['leaflet', 'react-leaflet'],
+          icons:    ['lucide-react'],
+        },
+      },
+    },
   },
   server: {
     port: 3000,
+  },
+  optimizeDeps: {
+    include: ['leaflet', 'react-leaflet'],
   },
 })
