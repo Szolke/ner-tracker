@@ -1,0 +1,34 @@
+{
+  "name": "NER Tracker – Közérdekű Adatok",
+  "short_name": "NER Tracker",
+  "description": "Magyar kormányzati korrupciós ügyek nyilvántartása",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#ef4444",
+  "lang": "hu",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "news",
+    "government"
+  ],
+  "shortcuts": [
+    {
+      "name": "Ügyek",
+      "url": "/ugy",
+      "description": "Ügyek listája"
+    },
+    {
+      "name": "Nyomozások",
+      "url": "/nyomozasok",
+      "description": "Aktív nyomozások"
+    }
+  ]
+}
