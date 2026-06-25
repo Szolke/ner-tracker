@@ -2,33 +2,66 @@ name: Daily News Scraper
 
 on:
   schedule:
+    # Run every day at 8:00 UTC
     - cron: '0 8 * * *'
+  
+  # Allow manual trigger
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 15
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 feedparser python-dateutil pytz
-      
+          python -m pip install --upgrade pip
+          pip install feedparser beautifulsoup4 requests lxml
+
       - name: Run scraper
         run: python scripts/scraper.py
-      
+
+      - name: Verify output
+        run: |
+          if [ -f public/data/news.json ]; then
+            echo "✅ news.json generated successfully"
+            python -m json.tool public/data/news.json > /dev/null && echo "✅ JSON is valid"
+          else
+            echo "❌ news.json not found!"
+            exit 1
+          fi
+
       - name: Commit and push changes
         run: |
-          git config user.name "NER-Bot"
-          git config user.email "bot@github.com"
-          git add data/news.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update news data - $(date -u +'%Y-%m-%d %H:%M:%S')" && git push)
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git add public/data/news.json
+            git commit -m "🔄 Daily news scrape: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "✅ Changes committed and pushed"
+          else
+            echo "ℹ️  No changes detected"
+          fi
+
+      - name: Notify on success
+        if: success()
+        run: echo "✅ Scraper run completed successfully at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Scraper run failed!"
+          exit 1
