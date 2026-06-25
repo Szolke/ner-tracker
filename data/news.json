@@ -1,0 +1,36 @@
+{
+  "last_update": "2026-06-25T10:00:00+00:00",
+  "total_articles": 3,
+  "articles": [
+    {
+      "id": "telex-2026-06-25-001",
+      "title": "Orbán-közeli oligarchát gyanúsítanak korrupcós ügyletek miatt",
+      "description": "Az ügyészség nyomozást indított egy fideszes körökben ismert üzletember ellen, akit korruptív közbeszerzések gyanúja miatt hallgattak ki. A gyanúsított több kormányzati pályázaton nyert milliardikat.",
+      "link": "https://telex.hu/politika/2026/06/25/oligarca-korrupcio",
+      "date": "2026-06-25T08:30:00+00:00",
+      "source": "telex.hu",
+      "category": "news",
+      "tags": ["korrupció", "nyomozás"]
+    },
+    {
+      "id": "444-2026-06-24-005",
+      "title": "Fideszes képviselő ellen eljárás indul pénzügyi visszaélések miatt",
+      "description": "A Nemzeti Adó- és Vámhivatal (NAV) vizsgálatot indított egy Fidesz-frakciós parlamenti képviselő ellen, akit költségvetési támogatások felhasználási visszaélésével gyanúsítanak.",
+      "link": "https://444.hu/2026/06/24/fideszes-kepviseloi-penzugyi-visszaeles",
+      "date": "2026-06-24T14:20:00+00:00",
+      "source": "444.hu",
+      "category": "news",
+      "tags": ["korrupció", "nyomozás", "pénz"]
+    },
+    {
+      "id": "hvg-2026-06-23-012",
+      "title": "NER-alapítvány feljelentést kap közbeszerzési tenderek rigatása miatt",
+      "description": "Egy NER-hez közel álló alapítvány ellen feljelentést tett az Átlátszó.hu, azt állítva, hogy az szisztematikusan manipulálta az állami közbeszerzéseket.",
+      "link": "https://hvg.hu/gazdasag/20260623_ner-alapitvany-kozbeszerzesi-manipulacio",
+      "date": "2026-06-23T11:45:00+00:00",
+      "source": "hvg.hu",
+      "category": "news",
+      "tags": ["korrupció", "pénz"]
+    }
+  ]
+}
