@@ -41,7 +41,7 @@ function useWatchlist() {
 // ── Share helper ──────────────────────────────────────────────────────
 function shareCase(c) {
   const url = `${window.location.origin}/?case=${c.id}`;
-  const text = `${c.title} – ${{mrd(c.amount_huf)} | NER Tracker`;
+  const text = `${c.title} – ${mrd(c.amount_huf)} | NER Tracker`;
   if (navigator.share) {
     navigator.share({ title: 'NER Tracker', text, url }).catch(()=>{});
   } else {
@@ -445,7 +445,7 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
       </div>
       <p className={`text-sm mb-4 leading-relaxed ${darkMode?'text-gray-300':'text-gray-600'}`}>{c.description}</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
-        {[['Státusz',STATUS_LABELS[c.status]],['Kategória',c.category],['Régió',c.region],['Összeg',`${{mrd(c.amount_huf)}`]].map(([k,v])=>(
+        {[['Státusz',STATUS_LABELS[c.status]],['Kategória',c.category],['Régió',c.region],['Összeg',`${mrd(c.amount_huf)}`]].map(([k,v])=>(
           <div key={k} className={`p-3 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}><p className="text-xs opacity-40">{k}</p><p className="font-semibold text-sm mt-0.5">{v}</p></div>
         ))}
       </div>
