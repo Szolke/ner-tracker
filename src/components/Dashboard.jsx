@@ -37,13 +37,18 @@ function useWatchlist() {
 // ── Share helper ──────────────────────────────────────────────────────
 function shareCase(c) {
   const url = `${window.location.origin}/?case=${c.id}`;
-  const text = `${c.title} – ${(c.amount_huf/1e9).toFixed(1)}B HUF | NER Tracker`;
+  const text = `${c.title} – ${{mrd(c.amount_huf)} | NER Tracker`;
   if (navigator.share) {
     navigator.share({ title: 'NER Tracker', text, url }).catch(()=>{});
   } else {
     navigator.clipboard.writeText(url).then(() => alert('Link másolva: ' + url));
   }
 }
+
+
+// ── Magyar számformázó ───────────────────────────────────────────────
+const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd Ft';
+const mrdS = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd';
 
 export default function Dashboard({ darkMode, toggleDarkMode }) {
   const [data, setData]                     = useState(null);
@@ -136,7 +141,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
       <p className="font-semibold text-sm leading-snug">{c.title}</p>
       <p className="text-xs mt-1 opacity-50">{c.region} · {c.date}</p>
       <div className="flex items-center justify-between mt-2">
-        <p className="text-sm font-bold">{(c.amount_huf/1e9).toFixed(1)}B HUF</p>
+        <p className="text-sm font-bold">{{mrd(c.amount_huf)}</p>
         <span className="text-xs font-bold" style={{color:STATUS_COLORS[c.status]}}>{STATUS_LABELS[c.status]}</span>
       </div>
     </div>
@@ -203,7 +208,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               <div className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl p-5 flex items-center gap-4 shadow-lg">
                 <AlertCircle className="w-9 h-9 flex-shrink-0"/>
                 <div>
-                  <p className="font-bold text-xl">Összesen {(totalAmount/1e9).toFixed(1)} milliárd HUF érintett közpénz</p>
+                  <p className="font-bold text-xl">Összesen {mrdS(totalAmount)} milliárd HUF érintett közpénz</p>
                   <p className="text-sm opacity-90 mt-0.5">{data.cases.length} ügy · {data.investigations.length} nyomozás · {allPersons.length} érintett személy</p>
                 </div>
               </div>
@@ -226,7 +231,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                   [<TrendingUp className="w-4 h-4"/>, 'Ügyek', data.cases.length, null, 'bg-blue-500/20 border-blue-500/40'],
                   [<AlertCircle className="w-4 h-4"/>, 'Nyomozás', data.cases.filter(c=>c.status==='investigation').length, null, 'bg-red-500/20 border-red-500/40'],
                   [<Users className="w-4 h-4"/>, 'Érintett személyek', allPersons.length, null, 'bg-purple-500/20 border-purple-500/40'],
-                  [<BarChart3 className="w-4 h-4"/>, 'Összes összeg', `${(totalAmount/1e9).toFixed(1)}B`, 'HUF', 'bg-green-500/20 border-green-500/40'],
+                  [<BarChart3 className="w-4 h-4"/>, 'Összes összeg', `${mrdS(totalAmount)}B`, 'HUF', 'bg-green-500/20 border-green-500/40'],
                   [<MapPin className="w-4 h-4"/>, 'Érintett régiók', new Set(data.cases.map(c=>c.region)).size, null, 'bg-orange-500/20 border-orange-500/40'],
                 ].map(([icon,label,value,sub,cls],i) => (
                   <div key={i} className={`p-4 rounded-xl border ${cls}`}>
@@ -259,7 +264,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                     style={{borderLeftColor:STATUS_COLORS[c.status]}}>
                     <div><p className="font-semibold text-sm">{c.title}</p><p className={`text-xs mt-0.5 ${darkMode?'text-gray-400':'text-gray-500'}`}>{c.region} · {c.date} · {c.source}</p></div>
                     <div className="flex items-center gap-3 ml-3 flex-shrink-0">
-                      <span className="text-sm font-bold opacity-60">{(c.amount_huf/1e9).toFixed(1)}B</span>
+                      <span className="text-sm font-bold opacity-60">{{mrdS(c.amount_huf)}B</span>
                       <span className="text-xs font-bold" style={{color:STATUS_COLORS[c.status]}}>{STATUS_LABELS[c.status]}</span>
                     </div>
                   </div>
@@ -344,7 +349,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                     </div>
                     <p className={`text-sm mb-4 leading-relaxed ${darkMode?'text-gray-300':'text-gray-600'}`}>{inv.description}</p>
                     <div className="grid grid-cols-3 gap-3">
-                      {[['Hatóság',inv.investigating_authority],['Lezárás',inv.estimated_closure],['Összeg',`${(inv.involved_amount/1e9).toFixed(1)}B HUF`]].map(([k,v])=>(
+                      {[['Hatóság',inv.investigating_authority],['Lezárás',inv.estimated_closure],['Összeg',`${mrdS(inv.involved_amount)}B HUF`]].map(([k,v])=>(
                         <div key={k} className={`p-2.5 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-50'}`}>
                           <p className="text-xs opacity-40">{k}</p>
                           <p className="font-semibold text-xs mt-0.5">{v}</p>
@@ -383,7 +388,7 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose }) {
       </div>
       <p className={`text-sm mb-4 leading-relaxed ${darkMode?'text-gray-300':'text-gray-600'}`}>{c.description}</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
-        {[['Státusz',STATUS_LABELS[c.status]],['Kategória',c.category],['Régió',c.region],['Összeg',`${(c.amount_huf/1e9).toFixed(1)}B HUF`]].map(([k,v])=>(
+        {[['Státusz',STATUS_LABELS[c.status]],['Kategória',c.category],['Régió',c.region],['Összeg',`${{mrd(c.amount_huf)}`]].map(([k,v])=>(
           <div key={k} className={`p-3 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}><p className="text-xs opacity-40">{k}</p><p className="font-semibold text-sm mt-0.5">{v}</p></div>
         ))}
       </div>
