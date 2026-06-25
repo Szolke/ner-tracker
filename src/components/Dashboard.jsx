@@ -329,8 +329,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               </div>
 
               {selectedCase && (
-                <CaseDetail c={selectedCase} darkMode={darkMode} watched={watched}
-                  toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}}/>
+                <CaseDetail c={selectedCase} darkMode={darkMode} watched={watched} data={data}
+                  toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}/>
               )}
             </div>
           )}
@@ -397,7 +397,15 @@ function Highlight({ text, query }) {
     : p)}</>;
 }
 
-function CaseDetail({ c, darkMode, watched, toggleWatch, onClose }) {
+function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
+
+  const relatedCases = data?.cases.filter(other =>
+    other.id !== c.id && (
+      other.region === c.region ||
+      other.involved_persons.some(p => c.involved_persons.some(cp => cp.id === p.id))
+    )
+  ).slice(0, 3) || [];
+
   return (
     <div className={`p-5 rounded-xl border ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'}`}>
       <div className="flex justify-between items-start mb-4">
@@ -436,6 +444,20 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose }) {
             <a href={c.link} target="_blank" rel="noopener noreferrer" className="block pt-1 text-sm text-blue-500 hover:underline">→ Forrás megtekintése</a>
           </div></div>
       </div>
+      {relatedCases.length > 0 && (
+        <div className="mt-4">
+          <p className="text-sm font-semibold mb-2 opacity-60">Kapcsolódó ügyek</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+            {relatedCases.map(rc => (
+              <div key={rc.id} className={`p-3 rounded-lg cursor-pointer transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-50 hover:bg-gray-100'}`}
+                onClick={() => onClose()}>
+                <p className="text-xs font-semibold leading-snug">{rc.title}</p>
+                <p className="text-xs opacity-50 mt-1">{rc.region} · {mrdS(rc.amount_huf)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
