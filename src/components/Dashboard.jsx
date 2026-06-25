@@ -10,7 +10,11 @@ import NetworkGraph  from './NetworkGraph';
 import LiveFeed      from './LiveFeed';
 import Timeline      from './Timeline';
 import ChoroplethMap from './ChoroplethMap';
-import { exportToPDF } from '../utils/pdfExport';
+import { exportToPDF }   from '../utils/pdfExport';
+import ErrorBoundary      from './ErrorBoundary';
+import TrendAnalysis       from './TrendAnalysis';
+import { useLang }         from '../i18n.jsx';
+import { useNavigate }     from 'react-router-dom';
 
 const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b981', appeal:'#8b5cf6' };
 const STATUS_LABELS = { active:'Aktív', investigation:'Nyomozás', closed:'Lezárult', appeal:'Fellebbezés' };
@@ -51,7 +55,11 @@ const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,max
 const mrdS = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd';
 
 export default function Dashboard({ darkMode, toggleDarkMode }) {
+  const { lang, t, setLang } = useLang();
+  const navigate = useNavigate();
   const [data, setData]                     = useState(null);
+  const [page, setPage]                     = useState(1);
+  const PAGE_SIZE = 9;
   const [activeTab, setActiveTab]           = useState('overview');
   const [searchTerm, setSearchTerm]         = useState('');
   const [filterStatus, setFilterStatus]     = useState('all');
@@ -81,6 +89,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
 
   const filteredCases = useMemo(() => {
     if (!data) return [];
+    setPage(1);
     const q = searchTerm.toLowerCase();
     return data.cases.filter(c =>
       (!q || c.title.toLowerCase().includes(q) || c.involved_persons.some(p => p.name.toLowerCase().includes(q))) &&
@@ -141,7 +150,12 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
       }`}
       style={{borderLeftColor:CATEGORY_COLORS[c.category]}}>
       <div className="flex justify-between items-start mb-2">
-        <span className="text-xs font-semibold opacity-50">{c.source}</span>
+        <div className="flex items-center gap-1.5">
+          <span className="text-xs font-semibold opacity-50">{c.source}</span>
+          {c.verified === true && <span title="Forrás-ellenőrzött" className="text-xs text-green-400">✅</span>}
+          {c.verified === false && <span title="Scraper által generált" className="text-xs text-yellow-500">⚠️</span>}
+          {c.media_count > 0 && <span className="text-xs opacity-40">· {c.media_count} cikk</span>}
+        </div>
         <div className="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition">
           <button onClick={e=>{e.stopPropagation();toggleWatch(c.id);}}
             title={watched.has(c.id)?'Eltávolítás':'Követés'}
@@ -202,6 +216,10 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             </button>
             <button onClick={()=>exportToPDF(data)} className="flex items-center gap-1.5 px-3 py-1.5 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm transition">
               <FileText className="w-4 h-4"/> PDF
+            </button>
+            <button onClick={()=>setLang(lang==='hu'?'en':'hu')}
+              className={`px-3 py-1.5 rounded-lg text-sm font-bold transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
+              {lang==='hu'?'EN':'HU'}
             </button>
             <button onClick={toggleDarkMode} className={`p-2 rounded-lg transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
               {darkMode?<Sun className="w-4 h-4"/>:<Moon className="w-4 h-4"/>}
@@ -321,7 +339,9 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                     <span key={k} className="flex items-center gap-1.5"><span className="w-3 h-3 rounded-full" style={{background:STATUS_COLORS[k]}}/>{v}</span>
                   ))}
                 </div>
-                <HungaryMap cases={filteredCases} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
+                <ErrorBoundary label="Térkép">
+          <HungaryMap cases={filteredCases} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
+        </ErrorBoundary>
               </P>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
