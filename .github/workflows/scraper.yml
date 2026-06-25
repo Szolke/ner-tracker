@@ -30,18 +30,17 @@ jobs:
       - name: Run scraper
         run: python scripts/scraper.py
 
-      - name: Validate output
-        run: |
-          python -m json.tool public/data/news.json > /dev/null && echo "✅ JSON valid"
+      - name: Validate JSON
+        run: python -m json.tool public/data/news.json > /dev/null && echo "✅ JSON valid"
 
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add public/data/news.json data/news.json
+          git add public/data/news.json data/news.json public/feed.xml data/archive/ || true
+          if ! git diff --staged --quiet; then
             git commit -m "🔄 Daily scrape: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           else
-            echo "No changes detected"
+            echo "No changes"
           fi
