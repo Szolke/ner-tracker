@@ -1,6 +1,294 @@
 {
   "cases": [
     {
+      "id": "sc_91bc8bab",
+      "title": "Négy év alatt, közel négymilliárd forintos állami támogatásból sem újult meg a Tiborcz-közeli hotel",
+      "description": "A galyatetői Grandhotel Galya 2021-ben került Mészáros Lőrincéktől egy Tiborcz-közeli üzletemberhez és két magántőkealaphoz. A beruházás azonban elakadt.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/08/negy-ev-alatt-kozel-negymilliard-forintos-allami-tamogatasbol-sem-ujult-meg-a-tiborcz-kozeli-hotel/",
+      "date": "2026-06-08",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_36879663",
+      "title": "Vádat emeltek az Integritás Hatóság elnöke ellen, az ÁSZ elnöke továbbra is mérlegel",
+      "description": "Windisch László, az Állami Számvevőszék elnöke kezdeményezhetné Biró Ferenc felmentését, aki ellen hűtlen kezelés és más bűncselekmények miatt emeltek vádat.",
+      "link": "https://atlatszo.hu/kozpenz/2026/06/09/vadat-emeltek-az-integritas-hatosag-elnoke-ellen-az-asz-elnoke-tovabbra-is-merlegel/",
+      "date": "2026-06-09",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_6d1adc98",
+      "title": "Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást",
+      "description": "A tulajdonos Galya Top Property Kft. szerint a BDPST Zrt. csak vállalkozóként irányítja a beruházást, amely a 3,9 milliárdos állami támogatás ellenére sem készült el.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/15/galyatetoi-hotel-tiborcz-istvan-es-orban-rahel-is-felugyeli-a-kozpenzmilliardos-beruhazast/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3900000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_8d448f52",
+      "title": "1,2 milliárdos szerződést húzott ki Tiborczék cégének zsebéből Vitézy minisztériuma",
+      "description": "A Pannon Busz-Rent Kft.és az INFINITOURS Kft. hiába nyerte el a MÁV vonatpótló buszokra kiírt tenderét, mégsem írhatják alá a szerződést.",
+      "link": "https://atlatszo.hu/kozpenz/2026/06/15/12-milliardos-szerzodest-huzott-ki-tiborczek-cegenek-zsebebol-vitezy-miniszteriuma/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_dfd582e9",
+      "title": "Játékmotorok: hűtlen kezelés miatt nyomoznak az általunk kiderített túlárazás kapcsán",
+      "description": "Egy közadatigénylésünkből derültek ki a részletek, amit a Fidesz-kormány nem, de az új Tisza-kormány megválaszolt.",
+      "link": "https://atlatszo.hu/impakt/2026/06/15/jatekmotorok-hutlen-kezeles-miatt-nyomoznak-az-altalunk-kideritett-tularazas-kapcsan/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5fd005dc",
+      "title": "Elapadtak az állami milliárdok, összezsugorodik a Fidesz médiabirodalma",
+      "description": "Tömeges leépítési hullám a NER-közeli kiadóknál: a választási vereséggel elapadó állami hirdetési pénzek miatt lapbezárások, elbocsátások és megszorítások söpörnek végig a szebb napokat látott orbáni propagandagépezeten.",
+      "link": "https://atlatszo.hu/kozugy/2026/06/17/elapadtak-az-allami-milliardok-osszezsugorodik-a-fidesz-mediabirodalma/",
+      "date": "2026-06-17",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_4f7ddf68",
+      "title": "Nyomozás a MOL-alapítványnál, létszámleépítés a Mediaworksnél",
+      "description": "Heti lapszemlénk.",
+      "link": "https://atlatszo.hu/mutyimondo/2026/06/19/nyomozas-a-mol-alapitvanynal-letszamleepites-a-mediaworksnel/",
+      "date": "2026-06-19",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_155ac6a9",
+      "title": "A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus",
+      "description": "A Direkt36 munkatársai egy budai lakásban találták meg a hazájában korrupcióval vádolt Marcin Romanowskit. Az ingatlan egyik tulajdonosát tavaly ősszel szerződtette le a Kocsis Máté által vezetett fideszes frakció titkári feladatokra.\nThe post A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/a-fidesz-frakcio-munkatarsanak-lakasaban-lakik-a-magyarorszagra-menekult-korozott-lengyel-politikus/",
+      "date": "2026-04-28",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_e960d544",
+      "title": "Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal",
+      "description": "A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolgozott. A volt miniszter állítja, hogy neki fogalma sem volt ezekről az üzletekről.\nThe post Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/",
+      "date": "2026-06-18",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_73e49fa3",
+      "title": "Az ügyészség indítványozta Fonyód korábbi, fideszes polgármesterének letartóztatását",
+      "description": "Hidvégi Józsefet gazdasági csalással és pénzmosással gyanúsítják.",
+      "link": "https://444.hu/2026/06/25/az-ugyeszseg-inditvanyozta-fonyod-korabbi-fideszes-polgarmesterenek-letartoztatasat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_fc813d12",
+      "title": "Magyar: A legfőbb ügyész tisztítsa meg a saját szervezetét, ha nem tudja, távozzon",
+      "description": "Ideje megnyilvánulnia a legfőbb ügyésznek aranykonvojügyben, mondta a miniszterelnök a kormányszóvivői tájékoztatón. Ahol szó volt többek közt a sok száz milliárdos várbeli fejlesztések sorsáról és a Pilisszentkeresztre kihelyezett kormányülésről. Sőt a Magyarország felé közelítő hőkupoláról is.",
+      "link": "https://444.hu/2026/06/25/a-legfobb-ugyeszt-azonnali-tavozasra-sarkallo-aranykonvoj-bejelentesre-keszulhet-magyar-peter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_9aa6e47a",
+      "title": "„A lényegi döntést, utasításokat hozó személyek a következők: Dr. Orbán Viktor volt miniszterelnök”",
+      "description": "Lapunk birtokába jutott egy fotó egy állítólagos ügyészségi dokumentumról. Felsorolják benne, kiknek a büntetőjogi felelősségét kellene tisztázni az úgynevezett aranykonvoj-ügyben. A nevek között ott van Orbán Viktoré is. Farkas Örs exállamtitkárról és Hajdu János ex-TEK-főigazgatóról azt írják, „gyanúsítotti kihallgatásuk indokolt”. Az ügyészség a nyomozásra hivatkozva érdemben nem válaszolt a ké",
+      "link": "https://444.hu/2026/06/25/a-lenyegi-dontest-utasitasokat-hozo-szemelyek-a-kovetkezok-dr-orban-viktor-volt-miniszterelnok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5d44e679",
+      "title": "Aranykonvoj: Orbán Viktor szerepét is vizsgálja az ügyészség egy dokumentum szerint",
+      "description": "A Fővárosi Nyomozó Ügyészség nyomoz fogva tartás és hivatali visszaélés gyanúja miatt.",
+      "link": "https://hvg.hu/itthon/20260625_aranykonvoj-ugyeszseg-orban-viktor-dokumentum",
+      "date": "2026-06-25",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_20292a7c",
+      "title": "Magyar Péter: Azonnali választ várunk az ügyészségtől, hogy meghallgatták-e már gyanúsítottként Orbán Viktort",
+      "description": "A miniszterelnök ugyanerre kíváncsi Hajdu János volt TEK-parancsnok esetében is.",
+      "link": "https://hvg.hu/itthon/20260625_magyar-peter-ugyeszseg-gyanusitotti-meghallgatas-orban-viktor-hajdu-janos",
+      "date": "2026-06-25",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_f8a51f17",
+      "title": "444: Döntéshozóként nevezi meg Orbán Viktort az Aranykonvoj-ügyben egy állítólagos ügyészségi dokumentum",
+      "description": "Az ügyészség a lapnak nem cáfolta a dokumentum valódiságát, csak azt írták, hogy minden közlés veszélyezteti a nyomozás érdekeit. Megkérdeztük Orbán Viktort, hogy adott-e utasítást az aranykonvoj ügyében, de kitérő választ kaptunk.",
+      "link": "https://telex.hu/belfold/2026/06/25/aranykonvoj-444-orban-viktor-ugyeszsegi-dokumentum",
+      "date": "2026-06-25",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_18804bec",
+      "title": "Don Batida lépcsője és a kacsalábon forgó palota: a kormány bemutatta, mit terveztek még Orbánék a Várnegyedben",
+      "description": "Ezer milliárd forint elköltése után gyökeresen megváltozott volna a főváros utóbbi évtizedekben megszokott látképe, és ezeket a terveket senkivel nem egyeztették. Vitézy Dávid miniszter most bejelentette: felülvizsgálják a Hauszmann Program beruházásait, igyekeznek funkciót találni az 50-100 milliárdos épületeknek, köztük a Karmelitának is.",
+      "link": "https://telex.hu/belfold/2026/06/25/vitezy-david-kormanyinfo-magyar-peter-budai-var-varnegyed-jozsef-fohercegi-palota-honved-parancsnoksag",
+      "date": "2026-06-25",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "case_001",
       "title": "Felcsúti stadiumprojekt – állami közpénzek anomáliái",
       "description": "A felcsúti Pancho Aréna és kapcsolódó infrastrukturális fejlesztések körüli állami finanszírozás vizsgálata. A 3500 férőhelyes stadion megépítéséhez és fenntartásához felhasznált közpénzek átláthatósága kérdéses.",
@@ -453,37 +741,38 @@
     }
   ],
   "metadata": {
-    "last_updated": "2024-04-18T10:00:00Z",
-    "version": "2.1.0",
-    "total_cases": 10,
+    "last_updated": "2026-06-25T20:54:31.114818+00:00",
+    "version": "2.2.0",
+    "total_cases": 26,
     "total_investigations": 4,
-    "total_involved_amount_huf": 102200000000,
+    "total_involved_amount_huf": 213800000000,
     "status_breakdown": {
-      "active": 3,
-      "investigation": 4,
+      "active": 19,
+      "investigation": 5,
       "closed": 1,
       "appeal": 1
     },
     "category_breakdown": {
-      "korrupció": 3,
-      "pénzügyi": 4,
-      "közbeszerzés": 3
+      "korrupció": 4,
+      "pénzügyi": 18,
+      "közbeszerzés": 4
     },
     "sources": [
-      "Telex",
       "HVG",
+      "Átlátszó",
+      "Direkt36",
       "444",
-      "Direkt36"
+      "Telex"
     ],
     "regions_covered": [
+      "Hajdú-Bihar",
+      "Borsod-Abaúj-Zemplén",
+      "Csongrád-Csanád",
       "Budapest",
       "Fejér",
-      "Hajdú-Bihar",
-      "Csongrád-Csanád",
       "Győr-Moson-Sopron",
       "Somogy",
-      "Baranya",
-      "Borsod-Abaúj-Zemplén"
+      "Baranya"
     ]
   }
 }
