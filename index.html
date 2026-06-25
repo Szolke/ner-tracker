@@ -3,23 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="NER Tracker – Közérdekű adatok gyűjtése a magyar kormányzati korrupcióról, pénzügyi visszaélésekről és közbeszerzési szabálytalanságokról." />
-    <meta name="keywords" content="korrupció, NER, Magyarország, közpénz, átláthatóság, közbeszerzés" />
-    <meta property="og:title" content="NER Tracker" />
-    <meta property="og:description" content="Magyar kormányzati korrupciós ügyek nyilvántartása" />
-    <meta property="og:type" content="website" />
+    <meta name="description" content="NER Tracker – Magyar kormányzati korrupciós ügyek nyilvántartása. Közérdekű adatok, közbeszerzési visszaélések, pénzügyi anomáliák." />
+    <meta name="theme-color" content="#ef4444" />
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content="https://ner-tracker.pages.dev/" />
+    <meta property="og:title"       content="NER Tracker – Közérdekű Adatok" />
+    <meta property="og:description" content="Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák nyilvántartása." />
+    <meta property="og:image"       content="https://ner-tracker.pages.dev/og-image.png" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="NER Tracker" />
+    <meta name="twitter:description" content="Magyar kormányzati korrupciós ügyek nyilvántartása" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <!-- Leaflet CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""
-    />
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <title>NER Tracker – Közérdekű Adatok</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () =>
+          navigator.serviceWorker.register('/sw.js')
+            .then(r => console.log('SW registered:', r.scope))
+            .catch(e => console.log('SW failed:', e))
+        );
+      }
+    </script>
   </body>
 </html>
