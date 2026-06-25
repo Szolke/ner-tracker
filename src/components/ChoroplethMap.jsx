@@ -115,7 +115,7 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
                     </text>
                     <text x={cx} y={cy+18} textAnchor="middle" fontSize="8" fontWeight="700"
                       fill={t > 0.5 ? 'white' : '#ef4444'}>
-                      {(s.amount/1e9).toFixed(1)}B
+                      {(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})}B
                     </text>
                   </>
                 )}
@@ -132,7 +132,7 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
         return (
           <div className={`p-3 rounded-lg text-sm ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
             <p className="font-bold">{county?.[1]}</p>
-            <p className="opacity-70">{s.count} ügy · {(s.amount/1e9).toFixed(2)}B HUF</p>
+            <p className="opacity-70">{s.count} ügy · {(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})}B HUF</p>
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {s.cases.map(c => (
                 <span key={c.id} onClick={() => onCaseSelect && onCaseSelect(c)}
