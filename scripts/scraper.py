@@ -13,13 +13,30 @@ PRIMARY   = ['fidesz','mészáros','NER','közpénz','kormány','miniszter','orb
 SECONDARY = ['korrupció','visszaélés','nyomozás','vizsgálat','gyanú','vád','túlárazás','szabálytalan','átláthatatlan','OLAF','EPPO','ügyészség','pénzmosás','sikkasztás','vesztegetés','anomália','milliárd','EU-s forrás','visszaigénylés','bírság']
 EXCLUDE   = ['sport eredmény','időjárás','horoszkóp','recept','szórakozás']
 
+# ── RSS Proxy beállítás ──────────────────────────────────────────────
+# Ha a PROXY_URL env változó be van állítva, azon keresztül kéri le a feedeket.
+# Cloudflare Worker URL: https://ner-tracker-rss-proxy.<accountname>.workers.dev
+# Aktiválás: GitHub repo → Settings → Secrets → PROXY_URL
+import os as _os
+_PROXY = _os.environ.get("PROXY_URL", "").rstrip("/")
+
+def _feed_url(url):
+    """Proxy-n keresztül kéri le a feed URL-t ha PROXY_URL be van állítva."""
+    if _PROXY:
+        import urllib.parse
+        return f"{_PROXY}?url={urllib.parse.quote(url, safe='')}"
+    return url
+
 FEEDS = [
-    {"name":"Telex",    "url":"https://telex.hu/rss",            "source":"Telex"},
-    {"name":"HVG",      "url":"https://hvg.hu/rss",              "source":"HVG"},
-    {"name":"444",      "url":"https://444.hu/feed",             "source":"444"},
-    {"name":"Direkt36", "url":"https://direkt36.hu/feed/",       "source":"Direkt36"},
-    {"name":"Atlatszo", "url":"https://atlatszo.hu/feed/",       "source":"Átlátszó"},
-    {"name":"Merce",    "url":"https://merce.hu/tag/korrupcio/feed/", "source":"Mérce"},
+    {"name":"Telex",       "url":"https://telex.hu/rss",                         "source":"Telex"},
+    {"name":"HVG",         "url":"https://hvg.hu/rss",                           "source":"HVG"},
+    {"name":"444",         "url":"https://444.hu/feed",                          "source":"444"},
+    {"name":"Direkt36",    "url":"https://direkt36.hu/feed/",                    "source":"Direkt36"},
+    {"name":"Atlatszo",    "url":"https://atlatszo.hu/feed/",                    "source":"Átlátszó"},
+    {"name":"Merce",       "url":"https://merce.hu/tag/korrupcio/feed/",         "source":"Mérce"},
+    {"name":"Narancs",     "url":"https://magyarnarancs.hu/rss",                 "source":"Magyar Narancs"},
+    {"name":"SzabadEu",    "url":"https://www.szabad-europa.hu/z/rss",           "source":"Szabad Európa"},
+    {"name":"Partizan",    "url":"https://partizan.online/feed",                 "source":"Partizán"},
 ]
 
 REGION_COORDS = {
@@ -111,7 +128,7 @@ def scrape_all():
     for feed in FEEDS:
         try:
             log.info(f"Fetching {feed['name']}…")
-            d = feedparser.parse(feed['url'])
+            d = feedparser.parse(_feed_url(feed['url']))
             for entry in d.entries[:40]:
                 title   = getattr(entry,'title','')
                 summary = BeautifulSoup(getattr(entry,'summary',''),'html.parser').get_text()
@@ -205,7 +222,7 @@ def update_metadata(data):
         "total_involved_amount_huf": sum(c.get('amount_huf',0) for c in cases),
         "status_breakdown":  {s:sum(1 for c in cases if c.get('status')==s) for s in ['active','investigation','closed','appeal']},
         "category_breakdown":{cat:sum(1 for c in cases if c.get('category')==cat) for cat in ['korrupció','pénzügyi','közbeszerzés']},
-        "sources":         list({c['source'] for c in cases}),
+        "sources":         sorted(list({c['source'] for c in cases})),
         "regions_covered": list({c['region'] for c in cases}),
     }
     return data
