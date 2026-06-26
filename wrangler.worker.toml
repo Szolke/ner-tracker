@@ -1,0 +1,6 @@
+name = "ner-tracker-rss-proxy"
+main = "scripts/rss-proxy.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = []
