@@ -28,6 +28,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
         run: python scripts/scraper.py
 
       - name: Validate JSON output
@@ -59,9 +61,5 @@ jobs:
           curl -s -X POST https://api.resend.com/emails \
             -H "Authorization: Bearer ${RESEND_API_KEY}" \
             -H "Content-Type: application/json" \
-            -d "{
-              \"from\": \"NER Tracker <onboarding@resend.dev>\",
-              \"to\": [\"${NOTIFY_EMAIL}\"],
-              \"subject\": \"[NER Tracker] Napi frissítés – ${DATE}\",
-              \"html\": \"<h2>NER Tracker napi értesítő</h2><p>Az adatbázis frissült: <strong>${DATE}</strong></p><p><a href='https://ner-tracker.pages.dev'>Megtekintem →</a></p>\"
-            }" || echo "Email küldés sikertelen (nem kritikus)"
+            -d "{\"from\":\"NER Tracker <onboarding@resend.dev>\",\"to\":[\"${NOTIFY_EMAIL}\"],\"subject\":\"[NER Tracker] Napi frissítés – ${DATE}\",\"html\":\"<h2>NER Tracker</h2><p>Az adatbázis frissült: <strong>${DATE}</strong></p><p><a href='https://ner-tracker.pages.dev'>Megtekintem →</a></p>\"}" \
+            || echo "Email küldés sikertelen (nem kritikus)"
