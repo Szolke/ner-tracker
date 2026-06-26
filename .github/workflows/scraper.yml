@@ -33,6 +33,39 @@ jobs:
       - name: Validate JSON
         run: python -m json.tool public/data/news.json > /dev/null && echo "✅ JSON valid"
 
+      - name: Check for new cases
+        id: check_new
+        run: |
+          NEW_COUNT=$(python3 -c "
+          import json
+          with open('public/data/news.json') as f:
+              d = json.load(f)
+          import subprocess
+          result = subprocess.run(['git','diff','--name-only'], capture_output=True, text=True)
+          if 'news.json' in result.stdout:
+              # Count new cases (rough: lines added)
+              diff = subprocess.run(['git','diff','public/data/news.json'], capture_output=True, text=True)
+              new = diff.stdout.count('"id": "sc_')
+              print(new)
+          else:
+              print(0)
+          ")
+          echo "new_cases=$NEW_COUNT" >> $GITHUB_OUTPUT
+          echo "New cases found: $NEW_COUNT"
+
+      - name: Send email notification
+        if: steps.check_new.outputs.new_cases != '0' && secrets.RESEND_API_KEY != ''
+        run: |
+          DATE=$(date -u +'%Y-%m-%d')
+          NEW_N="${{ steps.check_new.outputs.new_cases }}"
+          curl -s -X POST https://api.resend.com/emails             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}"             -H "Content-Type: application/json"             -d "{
+              \"from\": \"NER Tracker <onboarding@resend.dev>\",
+              \"to\": [\"${{ secrets.NOTIFY_EMAIL }}\"],
+              \"subject\": \"[NER Tracker] ${NEW_N} új ügy – ${DATE}\",
+              \"html\": \"<h2>NER Tracker – Napi értesítő</h2><p><strong>${NEW_N} új ügy</strong> került be a scraper által ${DATE}-n.</p><p><a href='https://ner-tracker.pages.dev'>Megtekintem az oldalon →</a></p><hr><p style='color:#999;font-size:12px'>NER Tracker automatikus értesítő | <a href='https://ner-tracker.pages.dev'>ner-tracker.pages.dev</a></p>\"
+            }"
+          echo "📧 Email elküldve"
+
       - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
