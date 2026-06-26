@@ -4,7 +4,7 @@ import { MapPin, TrendingUp, Users, Calendar, Download, Search,
   BarChart3, Network, Globe, AlertCircle, Moon, Sun, FileText,
   Star, Share2, Clock, BookmarkCheck } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, ScatterChart, Scatter } from 'recharts';
+  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, ScatterChart, Scatter, Legend } from 'recharts';
 import HungaryMap    from './HungaryMap';
 import NetworkGraph  from './NetworkGraph';
 import LiveFeed      from './LiveFeed';
@@ -395,7 +395,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                     </div>
                     <p className={`text-sm mb-4 leading-relaxed ${darkMode?'text-gray-300':'text-gray-600'}`}>{inv.description}</p>
                     <div className="grid grid-cols-3 gap-3">
-                      {[['Hatóság',inv.investigating_authority],['Lezárás',inv.estimated_closure],['Összeg',`${mrdS(inv.involved_amount)}B HUF`]].map(([k,v])=>(
+                      {[['Hatóság',inv.investigating_authority],['Lezárás',inv.estimated_closure],['Összeg',mrdS(inv.involved_amount)]].map(([k,v])=>(
                         <div key={k} className={`p-2.5 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-50'}`}>
                           <p className="text-xs opacity-40">{k}</p>
                           <p className="font-semibold text-xs mt-0.5">{v}</p>
