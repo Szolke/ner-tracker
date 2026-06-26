@@ -502,3 +502,50 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
     </div>
   );
 }
+
+function PersonDetail({ person, data, darkMode, onClose }) {
+  const relCases = data.cases.filter(c => c.involved_persons.some(p => p.id === person.id));
+  const conns = (data.connections || []).filter(c => c.from === person.id || c.to === person.id);
+  return (
+    <div className={`p-5 rounded-xl border ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'}`}>
+      <div className="flex justify-between items-start mb-4">
+        <div>
+          <h3 className="text-xl font-bold">{person.name}</h3>
+          <p className="text-sm opacity-60">{person.position}</p>
+        </div>
+        <button onClick={onClose} className="text-2xl opacity-40 hover:opacity-100">×</button>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <p className="text-sm font-semibold mb-2 opacity-60">Érintett ügyek ({relCases.length})</p>
+          <div className="space-y-2">
+            {relCases.map(c => (
+              <div key={c.id} className={`p-2 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
+                <p className="font-semibold text-sm">{c.title}</p>
+                <p className="text-xs opacity-60">{c.region} · {c.date}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div>
+          <p className="text-sm font-semibold mb-2 opacity-60">Kapcsolatok ({conns.length})</p>
+          <div className="space-y-2">
+            {conns.length === 0 && <p className="text-sm opacity-40">Nincs rögzített kapcsolat</p>}
+            {conns.map((conn, i) => {
+              const otherId = conn.from === person.id ? conn.to : conn.from;
+              const other = data.cases.flatMap(c => c.involved_persons).find(p => p.id === otherId);
+              return (
+                <div key={i} className={`p-2 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
+                  <p className="text-sm font-semibold">{other?.name || otherId}</p>
+                  <p className="text-xs opacity-60">
+                    {conn.type === 'business_connection' ? '🤝 Üzleti' : '🏛️ Politikai'} · {conn.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
