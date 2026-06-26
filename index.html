@@ -27,12 +27,26 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script>
+      // Service Worker – force update on every load
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () =>
-          navigator.serviceWorker.register('/sw.js')
-            .then(r => console.log('SW registered:', r.scope))
-            .catch(e => console.log('SW failed:', e))
-        );
+        window.addEventListener('load', async () => {
+          try {
+            // Unregister all old SWs first
+            const regs = await navigator.serviceWorker.getRegistrations();
+            for (const reg of regs) {
+              const swUrl = reg.active && reg.active.scriptURL;
+              if (swUrl && !swUrl.includes('/sw.js')) {
+                await reg.unregister();
+              }
+            }
+            // Register current SW
+            const reg = await navigator.serviceWorker.register('/sw.js');
+            await reg.update();
+            console.log('[NER] SW v4 registered');
+          } catch(e) {
+            console.warn('[NER] SW failed:', e);
+          }
+        });
       }
     </script>
   </body>
