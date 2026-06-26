@@ -3,7 +3,7 @@
     {
       "id": "case_001",
       "title": "Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás",
-      "description": "Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál. Az OLAF 2017-ben megállapította a szabálytalanságot, az EU kötelezte Magyarországot a visszafizetésre.",
+      "description": "Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenykorlátozó módon. Az OLAF 2017-ben megállapította a szabálytalanságot és javasolta az EU-s támogatások visszafizettetését. A magyar ügyészség nem emelt vádat.",
       "link": "https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/",
       "date": "2017-03-02",
       "source": "Direkt36",
@@ -49,12 +49,22 @@
           "date": "2019-06-01",
           "status": "closed"
         }
+      ],
+      "document_links": [
+        {
+          "title": "OLAF jelentés – Elios vizsgálat",
+          "url": "https://ec.europa.eu/anti-fraud/investigations/olaf-reports_en"
+        },
+        {
+          "title": "Elios – Direkt36 eredeti cikk",
+          "url": "https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/"
+        }
       ]
     },
     {
       "id": "case_002",
       "title": "Mészáros Lőrinc vagyongyarapodása – felcsúti vállalkozóból oligarcha",
-      "description": "Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmilliárd forintnyi állami megrendelést kapnak közbeszerzési eljárásokon.",
+      "description": "Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált – kizárólag állami megrendelések révén. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmilliárd forintnyi állami megrendelést kapnak, jellemzően kevés versenytárssal zajló közbeszerzési eljárásokon. Az EPPO 2022 óta vizsgálja az EU-s forrásokkal kapcsolatos ügyleteit.",
       "link": "https://telex.hu/gazdasag/2023/04/12/meszaros-lorinc-vagyon-cegek",
       "date": "2023-04-12",
       "source": "Telex",
@@ -89,6 +99,16 @@
         {
           "date": "2023-11-01",
           "status": "investigation"
+        }
+      ],
+      "document_links": [
+        {
+          "title": "Mészáros cégbirodalom – Forbes elemzés",
+          "url": "https://forbes.hu/uzlet/meszaros-lorinc-ceges-vagyon/"
+        },
+        {
+          "title": "Közpénz Monitor – Mészáros",
+          "url": "https://kozpenzmonitor.hu"
         }
       ]
     },
@@ -233,7 +253,7 @@
     {
       "id": "case_006",
       "title": "Közfeladatot ellátó alapítványok – 700 milliárd Ft közpénz ellenőrzés nélkül",
-      "description": "2021-ben 11 állami egyetemet és több kulturális intézményt közfeladatot ellátó alapítványok kezelésébe adtak. Az érintett vagyon meghaladja a 700 milliárd forintot. Ezek az alapítványok nem tartoznak közbeszerzési kötelezettség alá.",
+      "description": "2021-ben 11 állami egyetemet és több kulturális intézményt közfeladatot ellátó alapítványok kezelésébe adtak. Az érintett vagyon meghaladja a 700 milliárd forintot. Ezek az alapítványok nem tartoznak közbeszerzési kötelezettség alá és nem nyilvános auditkötelezettség alá. A kuratóriumokat az alapítók (minisztériumok) töltik fel – döntő részben Fidesz-kapcsolatú személyekkel.",
       "link": "https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard",
       "date": "2023-11-30",
       "source": "HVG",
@@ -269,6 +289,16 @@
         {
           "date": "2023-11-30",
           "status": "investigation"
+        }
+      ],
+      "document_links": [
+        {
+          "title": "Alapítványok listája – Kormány.hu",
+          "url": "https://kormany.hu/alapitvanyok"
+        },
+        {
+          "title": "HVG elemzés – 700 milliárd",
+          "url": "https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard"
         }
       ]
     },
@@ -312,7 +342,7 @@
     {
       "id": "case_008",
       "title": "Paksi atomerőmű bővítése – átláthatatlan orosz szerződés",
-      "description": "A Paks II bővítési projekt szerződéseit titkosították. A Rosatom-mal kötött megállapodás részletei nem nyilvánosak, az Európai Bizottság kifogásolta az átláthatóság hiányát. A projekt becsült költsége 15 milliárd euró felett van.",
+      "description": "A Paks II bővítési projekt orosz–magyar kormányközi egyezményen alapul. A Rosatom-mal kötött megállapodás részleteit titkosították, az Európai Bizottság kifogásolta az átláthatóság hiányát. A projekt becsült költsége 15 milliárd euró – ez Magyarország éves GDP-jének ~10%-a. Az EB 2023-ban jóváhagyta, de feltételekkel.",
       "link": "https://444.hu/2024/03/15/paks-ii-szerzodes-titok",
       "date": "2024-03-15",
       "source": "444",
@@ -349,6 +379,16 @@
         {
           "date": "2024-03-15",
           "status": "active"
+        }
+      ],
+      "document_links": [
+        {
+          "title": "Paks II – Rosatom szerződés titkosítva",
+          "url": "https://444.hu/2024/03/15/paks-ii-szerzodes-titok"
+        },
+        {
+          "title": "EB kifogása – Paks II állami támogatás",
+          "url": "https://ec.europa.eu/competition/state_aid/cases/"
         }
       ]
     },
@@ -782,7 +822,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-26T10:00:00Z",
+    "last_updated": "2026-06-26T12:00:00Z",
     "version": "2.3.0",
     "total_cases": 15,
     "total_investigations": 4,
