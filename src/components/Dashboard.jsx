@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { MapPin, TrendingUp, Users, Calendar, Download, Search,
   BarChart3, Network, Globe, AlertCircle, Moon, Sun, FileText,
-  Star, Share2, Clock, BookmarkCheck } from 'lucide-react';
+  Star, Share2, Clock, Bookmark } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, PieChart, Pie, Cell, ScatterChart, Scatter, Legend } from 'recharts';
 import HungaryMap    from './HungaryMap';
