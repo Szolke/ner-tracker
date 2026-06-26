@@ -1,41 +1,17 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
+// GiscusComments – aktiváláshoz GitHub Discussions szükséges
+// Beállítás: https://giscus.app + repo ID megadása
 export default function GiscusComments({ caseId, darkMode }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    if (!ref.current) return;
-    // Remove previous instance
-    ref.current.innerHTML = '';
-
-    const script = document.createElement('script');
-    script.src = 'https://giscus.app/client.js';
-    script.setAttribute('data-repo', 'Szolke/ner-tracker');
-    script.setAttribute('data-repo-id', 'R_kgDONer-tracker');
-    script.setAttribute('data-category', 'Announcements');
-    script.setAttribute('data-category-id', 'DIC_kwDONer-tracker');
-    script.setAttribute('data-mapping', 'specific');
-    script.setAttribute('data-term', caseId);
-    script.setAttribute('data-strict', '0');
-    script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-emit-metadata', '0');
-    script.setAttribute('data-input-position', 'bottom');
-    script.setAttribute('data-theme', darkMode ? 'dark' : 'light');
-    script.setAttribute('data-lang', 'hu');
-    script.setAttribute('crossorigin', 'anonymous');
-    script.async = true;
-    ref.current.appendChild(script);
-
-    return () => { if (ref.current) ref.current.innerHTML = ''; };
-  }, [caseId, darkMode]);
-
   return (
-    <div className="mt-6">
-      <p className="text-sm font-semibold opacity-60 mb-3 flex items-center gap-2">
-        💬 Megjegyzések & reakciók
-        <span className="text-xs font-normal opacity-50">(GitHub bejelentkezés szükséges)</span>
+    <div className={`mt-4 p-4 rounded-xl border border-dashed ${darkMode?'border-gray-600 text-gray-500':'border-gray-300 text-gray-400'}`}>
+      <p className="text-sm text-center">
+        💬 Kommentek – aktiváláshoz GitHub Discussions szükséges
+        <a href="https://giscus.app" target="_blank" rel="noopener noreferrer"
+          className="ml-2 text-blue-400 hover:underline text-xs">
+          Beállítás →
+        </a>
       </p>
-      <div ref={ref} />
     </div>
   );
 }
