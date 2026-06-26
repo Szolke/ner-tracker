@@ -14,7 +14,6 @@ import { exportToPDF }   from '../utils/pdfExport';
 import ErrorBoundary      from './ErrorBoundary';
 import TrendAnalysis       from './TrendAnalysis';
 import { useLang }         from '../i18n.jsx';
-import { useNavigate }     from 'react-router-dom';
 
 const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b981', appeal:'#8b5cf6' };
 const STATUS_LABELS = { active:'Aktív', investigation:'Nyomozás', closed:'Lezárult', appeal:'Fellebbezés' };
@@ -171,7 +170,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
       <p className="font-semibold text-sm leading-snug">{c.title}</p>
       <p className="text-xs mt-1 opacity-50">{c.region} · {c.date}</p>
       <div className="flex items-center justify-between mt-2">
-        <p className="text-sm font-bold">{{mrd(c.amount_huf)}</p>
+        <p className="text-sm font-bold">{mrd(c.amount_huf)}</p>
         <span className="text-xs font-bold" style={{color:STATUS_COLORS[c.status]}}>{STATUS_LABELS[c.status]}</span>
       </div>
     </div>
@@ -350,7 +349,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
 
               {selectedCase && (
                 <CaseDetail c={selectedCase} darkMode={darkMode} watched={watched} data={data}
-                  toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}/>
+                  toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}}/>
               )}
             </div>
           )}
