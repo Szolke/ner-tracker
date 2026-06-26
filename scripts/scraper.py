@@ -218,12 +218,62 @@ def save(data):
         with open(p,'w') as f: f.write(out)
     log.info("Mentve.")
 
+
+def auto_connections(data):
+    """Automatikusan észleli az összefüggéseket: ha két ügy ugyanazon személyt érinti"""
+    cases = data['cases']
+    existing_conns = {(c['from'], c['to']) for c in data.get('connections', [])}
+    new_conns = []
+
+    # Build person → cases mapping
+    person_cases = {}
+    for case in cases:
+        for p in case.get('involved_persons', []):
+            if p['id'] not in person_cases:
+                person_cases[p['id']] = {'person': p, 'cases': []}
+            person_cases[p['id']]['cases'].append(case['id'])
+
+    # Find pairs of persons who share cases
+    person_ids = list(person_cases.keys())
+    for i, pid_a in enumerate(person_ids):
+        for pid_b in person_ids[i+1:]:
+            shared = set(person_cases[pid_a]['cases']) & set(person_cases[pid_b]['cases'])
+            if not shared:
+                continue
+            key = (pid_a, pid_b)
+            rev = (pid_b, pid_a)
+            if key in existing_conns or rev in existing_conns:
+                continue
+            # Determine connection type
+            pa = person_cases[pid_a]['person']
+            pb = person_cases[pid_b]['person']
+            conn_type = 'business_connection'
+            pol_kw = ['miniszter', 'polgármester', 'kabinetfőnök', 'elnök', 'képviselő']
+            if any(k in (pa.get('position','') + pb.get('position','')).lower() for k in pol_kw):
+                conn_type = 'political_ally'
+            new_conns.append({
+                'from': pid_a,
+                'to':   pid_b,
+                'type': conn_type,
+                'cases': list(shared),
+                'description': f'Automatikusan felismert – {len(shared)} közös ügy',
+                'auto': True
+            })
+            existing_conns.add(key)
+            log.info(f"  Auto-kapcsolat: {pa.get("name","?")} ↔ {pb.get("name","?")} ({len(shared)} ügy)")
+
+    if new_conns:
+        data.setdefault('connections', []).extend(new_conns)
+        log.info(f"Auto-connections: {len(new_conns)} új összefüggés hozzáadva")
+    return data
+
 def main():
     log.info("=== NER Tracker Scraper v3.0 ===")
     existing = load_existing()
     backup(existing)
     new_items = scrape_all()
     data = merge(existing, new_items)
+    data = auto_connections(data)
     data = update_metadata(data)
     save(data)
     generate_rss(data)
