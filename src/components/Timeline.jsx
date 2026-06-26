@@ -1,15 +1,19 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
+import { Play, Pause, RotateCcw } from 'lucide-react';
 
 const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b981', appeal:'#8b5cf6' };
 const STATUS_LABELS = { active:'Aktív', investigation:'Nyomozás', closed:'Lezárult', appeal:'Fellebbezés' };
 const CAT_ICONS = { 'korrupció':'🔴', 'pénzügyi':'🔵', 'közbeszerzés':'🟣' };
 
 export default function Timeline({ cases, onCaseSelect, darkMode }) {
-  const scrollRef = useRef(null);
-  const [selected, setSelected] = useState(null);
+  const scrollRef   = useRef(null);
+  const [selected, setSelected]     = useState(null);
   const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
+  const [startX, setStartX]         = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
+  const [visibleCount, setVisible]  = useState(0);
+  const [playing, setPlaying]       = useState(false);
+  const intervalRef = useRef(null);
 
   if (!cases.length) return null;
 
@@ -18,99 +22,174 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
   const maxDate = new Date(sorted[sorted.length-1].date);
   const totalDays = Math.max(1, (maxDate - minDate) / 86400000);
   const W = Math.max(900, totalDays * 4 + 200);
-  const H = 320;
+  const H = 340;
   const PAD = 80;
 
   const xFor = date => PAD + ((new Date(date) - minDate) / 86400000 / totalDays) * (W - PAD*2);
 
-  // Group by year for axis
   const years = [];
   for (let y = minDate.getFullYear(); y <= maxDate.getFullYear(); y++) {
     const d = new Date(y, 0, 1);
-    if (d >= minDate && d <= maxDate) years.push({ year: y, x: xFor(d.toISOString().slice(0,10)) });
+    if (d >= minDate && d <= maxDate)
+      years.push({ year: y, x: xFor(d.toISOString().slice(0,10)) });
   }
 
-  const handleMouseDown = e => { setIsDragging(true); setStartX(e.pageX - scrollRef.current.offsetLeft); setScrollLeft(scrollRef.current.scrollLeft); };
-  const handleMouseMove = e => { if (!isDragging) return; e.preventDefault(); const x = e.pageX - scrollRef.current.offsetLeft; scrollRef.current.scrollLeft = scrollLeft - (x - startX); };
+  const rows = {};
+  sorted.forEach((c,i) => { rows[c.id] = i % 2 === 0 ? 0 : 1; });
+
+  // Playback
+  const startPlay = useCallback(() => {
+    setVisible(0);
+    setPlaying(true);
+    let count = 0;
+    intervalRef.current = setInterval(() => {
+      count++;
+      setVisible(count);
+      // Auto-scroll to keep up
+      if (scrollRef.current && count <= sorted.length) {
+        const c = sorted[count-1];
+        const x = xFor(c.date);
+        scrollRef.current.scrollTo({ left: x - 200, behavior: 'smooth' });
+      }
+      if (count >= sorted.length) {
+        clearInterval(intervalRef.current);
+        setPlaying(false);
+        setVisible(sorted.length);
+      }
+    }, 600);
+  }, [sorted]);
+
+  const stopPlay = useCallback(() => {
+    clearInterval(intervalRef.current);
+    setPlaying(false);
+  }, []);
+
+  const reset = useCallback(() => {
+    stopPlay();
+    setVisible(0);
+    if (scrollRef.current) scrollRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+  }, [stopPlay]);
+
+  useEffect(() => () => clearInterval(intervalRef.current), []);
+
+  const displayCount = visibleCount === 0 && !playing ? sorted.length : visibleCount;
+
+  const handleMouseDown = e => {
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeft(scrollRef.current.scrollLeft);
+  };
+  const handleMouseMove = e => {
+    if (!isDragging) return;
+    e.preventDefault();
+    scrollRef.current.scrollLeft = scrollLeft - (e.pageX - scrollRef.current.offsetLeft - startX);
+  };
   const handleMouseUp = () => setIsDragging(false);
 
   const select = c => { setSelected(selected?.id === c.id ? null : c); if (onCaseSelect) onCaseSelect(c); };
 
-  // Alternate rows to avoid overlap
-  const rows = {};
-  sorted.forEach((c,i) => { rows[c.id] = i % 2 === 0 ? 0 : 1; });
-
   return (
-    <div className="space-y-4">
-      {/* Scroll hint */}
-      <p className={`text-xs opacity-40 flex items-center gap-1`}>← húzd vagy görgess vízszintesen →</p>
+    <div className="space-y-3">
+      {/* Controls */}
+      <div className="flex items-center gap-3">
+        <button onClick={playing ? stopPlay : startPlay}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+            playing ? 'bg-red-600 hover:bg-red-700 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'
+          }`}>
+          {playing ? <><Pause className="w-4 h-4"/> Megállítás</> : <><Play className="w-4 h-4"/> Lejátszás</>}
+        </button>
+        <button onClick={reset}
+          className={`p-2 rounded-lg transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
+          <RotateCcw className="w-4 h-4"/>
+        </button>
+        <span className={`text-sm ${darkMode?'text-gray-400':'text-gray-500'}`}>
+          {displayCount === sorted.length ? `Összes ügy (${sorted.length})` : `${displayCount} / ${sorted.length} ügy`}
+        </span>
+        {playing && (
+          <span className="flex items-center gap-1.5 text-sm text-blue-400">
+            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"/>
+            Lejátszás…
+          </span>
+        )}
+        <p className={`text-xs opacity-40 ml-auto`}>← húzd vagy görgess →</p>
+      </div>
 
+      {/* Timeline SVG */}
       <div
         ref={scrollRef}
         className={`overflow-x-auto rounded-xl border select-none ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'}`}
         style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
         onMouseDown={handleMouseDown} onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp}
-      >
+        onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp}>
         <svg width={W} height={H} style={{ display:'block', minWidth: W }}>
-          {/* Background */}
           <rect width={W} height={H} fill={darkMode?'#1f2937':'#f9fafb'} rx="12"/>
 
           {/* Year gridlines */}
           {years.map(({year, x}) => (
             <g key={year}>
-              <line x1={x} y1={40} x2={x} y2={H-40} stroke={darkMode?'#374151':'#e5e7eb'} strokeWidth="1" strokeDasharray="4,4"/>
-              <text x={x} y={30} textAnchor="middle" fontSize="11" fontWeight="600"
+              <line x1={x} y1={40} x2={x} y2={H-40}
+                stroke={darkMode?'#374151':'#e5e7eb'} strokeWidth="1" strokeDasharray="4,4"/>
+              <text x={x} y={28} textAnchor="middle" fontSize="11" fontWeight="600"
                 fill={darkMode?'#6b7280':'#9ca3af'}>{year}</text>
             </g>
           ))}
 
           {/* Center axis */}
           <line x1={PAD} y1={H/2} x2={W-PAD} y2={H/2}
-            stroke={darkMode?'#4b5563':'#d1d5db'} strokeWidth="1.5"/>
+            stroke={darkMode?'#4b5563':'#d1d5db'} strokeWidth="2"/>
+
+          {/* Animated progress line */}
+          {playing && visibleCount > 0 && visibleCount <= sorted.length && (
+            <line x1={PAD} y1={H/2}
+              x2={xFor(sorted[visibleCount-1].date)} y2={H/2}
+              stroke="#3b82f6" strokeWidth="2" opacity="0.4"/>
+          )}
 
           {/* Case nodes */}
-          {sorted.map(c => {
+          {sorted.slice(0, displayCount).map((c, idx) => {
             const x = xFor(c.date);
             const isTop = rows[c.id] === 0;
-            const cy = isTop ? H/2 - 65 : H/2 + 65;
-            const stemY1 = isTop ? H/2 - 8 : H/2 + 8;
-            const stemY2 = isTop ? cy + 20 : cy - 20;
+            const cy = isTop ? H/2 - 70 : H/2 + 70;
+            const stemY1 = isTop ? H/2 - 9 : H/2 + 9;
+            const stemY2 = isTop ? cy + 22 : cy - 22;
             const isSel = selected?.id === c.id;
-            const r = isSel ? 9 : 7;
+            const isNew = visibleCount > 0 && idx === visibleCount - 1;
+            const r = isSel ? 10 : 7;
 
             return (
-              <g key={c.id} onClick={() => select(c)} style={{cursor:'pointer'}}>
+              <g key={c.id} onClick={() => select(c)} style={{cursor:'pointer'}}
+                opacity={displayCount === sorted.length || idx < displayCount ? 1 : 0}>
+                {/* Appear animation ring */}
+                {isNew && (
+                  <circle cx={x} cy={H/2} r={20}
+                    fill="none" stroke={STATUS_COLORS[c.status]}
+                    strokeWidth="2" opacity="0.5">
+                  </circle>
+                )}
                 {/* Stem */}
                 <line x1={x} y1={stemY1} x2={x} y2={stemY2}
                   stroke={STATUS_COLORS[c.status]} strokeWidth={isSel?2:1.5} opacity="0.7"/>
-                {/* Dot on axis */}
+                {/* Axis dot */}
                 <circle cx={x} cy={H/2} r={r}
                   fill={STATUS_COLORS[c.status]}
                   stroke={isSel?'white':darkMode?'#1f2937':'white'}
                   strokeWidth={isSel?2.5:1.5}/>
                 {/* Card */}
-                <foreignObject
-                  x={x - 70} y={isTop ? cy - 48 : cy}
-                  width="140" height="52">
-                  <div
-                    xmlns="http://www.w3.org/1999/xhtml"
-                    style={{
-                      background: isSel ? STATUS_COLORS[c.status] : (darkMode?'#374151':'#fff'),
-                      border: `1.5px solid ${STATUS_COLORS[c.status]}`,
-                      borderRadius: '8px',
-                      padding: '5px 7px',
-                      fontSize: '10px',
-                      color: isSel ? 'white' : (darkMode?'#f3f4f6':'#111827'),
-                      boxShadow: isSel ? `0 0 0 3px ${STATUS_COLORS[c.status]}44` : '0 2px 8px rgba(0,0,0,0.12)',
-                      transition: 'all 0.15s',
-                      lineHeight: '1.3',
-                    }}>
-                    <div style={{fontWeight:700, marginBottom:2}}>
-                      {CAT_ICONS[c.category]} {c.title.length > 38 ? c.title.slice(0,38)+'…' : c.title}
+                <foreignObject x={x-72} y={isTop ? cy-52 : cy} width="144" height="56">
+                  <div xmlns="http://www.w3.org/1999/xhtml" style={{
+                    background: isSel ? STATUS_COLORS[c.status] : isNew ? (darkMode?'#1e3a5f':'#eff6ff') : (darkMode?'#374151':'#fff'),
+                    border: `2px solid ${STATUS_COLORS[c.status]}`,
+                    borderRadius: '8px', padding: '5px 8px',
+                    fontSize: '10px', lineHeight: '1.35',
+                    color: isSel ? 'white' : (darkMode?'#f3f4f6':'#111827'),
+                    boxShadow: isNew ? `0 0 12px ${STATUS_COLORS[c.status]}88` : '0 2px 8px rgba(0,0,0,0.1)',
+                    transition: 'all 0.3s',
+                  }}>
+                    <div style={{fontWeight:700,marginBottom:2}}>
+                      {CAT_ICONS[c.category]} {c.title.length > 40 ? c.title.slice(0,40)+'…' : c.title}
                     </div>
-                    <div style={{opacity:0.75, fontSize:'9px'}}>
-                      {c.date} · {(c.amount_huf/1e9).toFixed(1)}B HUF
+                    <div style={{opacity:0.7,fontSize:'9px'}}>
+                      {c.date} · {(c.amount_huf/1e9).toLocaleString('hu-HU',{maximumFractionDigits:1})} Mrd
                     </div>
                   </div>
                 </foreignObject>
@@ -118,14 +197,18 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
             );
           })}
 
-          {/* Start / End labels */}
-          <text x={PAD} y={H-20} textAnchor="middle" fontSize="10" fill={darkMode?'#6b7280':'#9ca3af'}>{sorted[0]?.date}</text>
-          <text x={W-PAD} y={H-20} textAnchor="middle" fontSize="10" fill={darkMode?'#6b7280':'#9ca3af'}>{sorted[sorted.length-1]?.date}</text>
+          {/* Date labels */}
+          <text x={PAD} y={H-16} textAnchor="middle" fontSize="10" fill={darkMode?'#6b7280':'#9ca3af'}>
+            {sorted[0]?.date}
+          </text>
+          <text x={W-PAD} y={H-16} textAnchor="middle" fontSize="10" fill={darkMode?'#6b7280':'#9ca3af'}>
+            {sorted[sorted.length-1]?.date}
+          </text>
         </svg>
       </div>
 
       {/* Legend */}
-      <div className="flex flex-wrap gap-4 text-xs opacity-60">
+      <div className="flex flex-wrap gap-4 text-xs opacity-50">
         {Object.entries(STATUS_LABELS).map(([k,v]) => (
           <span key={k} className="flex items-center gap-1.5">
             <span className="w-3 h-3 rounded-full inline-block" style={{background:STATUS_COLORS[k]}}/>
