@@ -11,6 +11,8 @@ import LiveFeed      from './LiveFeed';
 import Timeline      from './Timeline';
 import ChoroplethMap from './ChoroplethMap';
 import { exportToPDF }   from '../utils/pdfExport';
+import GiscusComments    from './GiscusComments';
+import EUComparison      from './EUComparison';
 import ErrorBoundary      from './ErrorBoundary';
 import TrendAnalysis       from './TrendAnalysis';
 import { useLang }         from '../i18n.jsx';
@@ -365,6 +367,12 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                 <h3 className="font-semibold mb-4 flex items-center gap-2"><MapPin className="w-4 h-4"/>Összeg-hőtérkép megyénként</h3>
                 <ChoroplethMap cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
               </P>
+              <P>
+                <h3 className="font-semibold mb-4 flex items-center gap-2">
+                  🇪🇺 Magyarország az EU-ban – Korrupció & Jogállamiság
+                </h3>
+                <EUComparison darkMode={darkMode}/>
+              </P>
             </div>
           )}
 
@@ -460,7 +468,21 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
             <p className="text-sm"><b>Forrás:</b> {c.source}</p>
             <p className="text-sm"><b>Dátum:</b> {c.date}</p>
             {c.tags?.length>0 && <div className="flex flex-wrap gap-1 pt-1">{c.tags.map(t=><span key={t} className="px-2 py-0.5 text-xs rounded-full bg-blue-500/20 text-blue-400">{t}</span>)}</div>}
-            <a href={c.link} target="_blank" rel="noopener noreferrer" className="block pt-1 text-sm text-blue-500 hover:underline">→ Forrás megtekintése</a>
+            <a href={c.link} target="_blank" rel="noopener noreferrer"
+              className="block pt-1 text-sm text-blue-500 hover:underline">
+              → Forrás megtekintése
+            </a>
+            {c.document_links?.length > 0 && (
+              <div className="mt-2 space-y-1">
+                <p className="text-xs opacity-40 font-semibold">Dokumentumok</p>
+                {c.document_links.map((doc, i) => (
+                  <a key={i} href={doc.url} target="_blank" rel="noopener noreferrer"
+                    className="block text-xs text-purple-400 hover:underline truncate">
+                    📎 {doc.title}
+                  </a>
+                ))}
+              </div>
+            )}
           </div></div>
       </div>
       {relatedCases.length > 0 && (
