@@ -300,7 +300,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                     style={{borderLeftColor:STATUS_COLORS[c.status]}}>
                     <div><p className="font-semibold text-sm">{c.title}</p><p className={`text-xs mt-0.5 ${darkMode?'text-gray-400':'text-gray-500'}`}>{c.region} · {c.date} · {c.source}</p></div>
                     <div className="flex items-center gap-3 ml-3 flex-shrink-0">
-                      <span className="text-sm font-bold opacity-60">{{mrdS(c.amount_huf)}B</span>
+                      <span className="text-sm font-bold opacity-60">{mrdS(c.amount_huf)}</span>
                       <span className="text-xs font-bold" style={{color:STATUS_COLORS[c.status]}}>{STATUS_LABELS[c.status]}</span>
                     </div>
                   </div>
