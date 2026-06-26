@@ -1,6 +1,373 @@
 {
   "cases": [
     {
+      "id": "sc_6d1adc98",
+      "title": "Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást",
+      "description": "A tulajdonos Galya Top Property Kft. szerint a BDPST Zrt. csak vállalkozóként irányítja a beruházást, amely a 3,9 milliárdos állami támogatás ellenére sem készült el.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/15/galyatetoi-hotel-tiborcz-istvan-es-orban-rahel-is-felugyeli-a-kozpenzmilliardos-beruhazast/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3900000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó"
+        },
+        {
+          "id": "p_845761",
+          "name": "Orbán Ráhel",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_8f7d32",
+          "name": "Galya Top",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b67cf6",
+          "name": "Property Kft",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8d448f52",
+      "title": "1,2 milliárdos szerződést húzott ki Tiborczék cégének zsebéből Vitézy minisztériuma",
+      "description": "A Pannon Busz-Rent Kft.és az INFINITOURS Kft. hiába nyerte el a MÁV vonatpótló buszokra kiírt tenderét, mégsem írhatják alá a szerződést.",
+      "link": "https://atlatszo.hu/kozpenz/2026/06/15/12-milliardos-szerzodest-huzott-ki-tiborczek-cegenek-zsebebol-vitezy-miniszteriuma/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [
+        "IT",
+        "tender"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_4b608f",
+          "name": "Pannon Busz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_056b8f",
+          "name": "Rent Kft",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_dfd582e9",
+      "title": "Játékmotorok: hűtlen kezelés miatt nyomoznak az általunk kiderített túlárazás kapcsán",
+      "description": "Egy közadatigénylésünkből derültek ki a részletek, amit a Fidesz-kormány nem, de az új Tisza-kormány megválaszolt.",
+      "link": "https://atlatszo.hu/impakt/2026/06/15/jatekmotorok-hutlen-kezeles-miatt-nyomoznak-az-altalunk-kideritett-tularazas-kapcsan/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5fd005dc",
+      "title": "Elapadtak az állami milliárdok, összezsugorodik a Fidesz médiabirodalma",
+      "description": "Tömeges leépítési hullám a NER-közeli kiadóknál: a választási vereséggel elapadó állami hirdetési pénzek miatt lapbezárások, elbocsátások és megszorítások söpörnek végig a szebb napokat látott orbáni propagandagépezeten.",
+      "link": "https://atlatszo.hu/kozugy/2026/06/17/elapadtak-az-allami-milliardok-osszezsugorodik-a-fidesz-mediabirodalma/",
+      "date": "2026-06-17",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_4f7ddf68",
+      "title": "Nyomozás a MOL-alapítványnál, létszámleépítés a Mediaworksnél",
+      "description": "Heti lapszemlénk.",
+      "link": "https://atlatszo.hu/mutyimondo/2026/06/19/nyomozas-a-mol-alapitvanynal-letszamleepites-a-mediaworksnel/",
+      "date": "2026-06-19",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_61db9a",
+          "name": "Mediaworksnél Heti",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_ebe6af25",
+      "title": "A 3 milliárdos állami támogatás ellenére sem készült el az egyházi iskola Körömben",
+      "description": "A kivitelező DENCO Kft.-vel szerződést bontott az Egri Főegyházmegye, az alvállalkozók a pénzükre várnak.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/26/a-3-milliardos-allami-tamogatas-ellenere-sem-keszult-el-az-egyhazi-iskola-koromben/",
+      "date": "2026-06-26",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_600059",
+          "name": "Egri Főegyházmegye",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_155ac6a9",
+      "title": "A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus",
+      "description": "A Direkt36 munkatársai egy budai lakásban találták meg a hazájában korrupcióval vádolt Marcin Romanowskit. Az ingatlan egyik tulajdonosát tavaly ősszel szerződtette le a Kocsis Máté által vezetett fideszes frakció titkári feladatokra.\nThe post A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/a-fidesz-frakcio-munkatarsanak-lakasaban-lakik-a-magyarorszagra-menekult-korozott-lengyel-politikus/",
+      "date": "2026-04-28",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_aa05eb",
+          "name": "Marcin Romanowskit",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b1af4e",
+          "name": "Kocsis Máté",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_e960d544",
+      "title": "Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal",
+      "description": "A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolgozott. A volt miniszter állítja, hogy neki fogalma sem volt ezekről az üzletekről.\nThe post Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/",
+      "date": "2026-06-18",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_5e4f38",
+          "name": "Benkő Szilárdnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9aa6e47a",
+      "title": "„A lényegi döntést, utasításokat hozó személyek a következők: Dr. Orbán Viktor volt miniszterelnök”",
+      "description": "Lapunk birtokába jutott egy fotó egy állítólagos ügyészségi dokumentumról. Felsorolják benne, kiknek a büntetőjogi felelősségét kellene tisztázni az úgynevezett aranykonvoj-ügyben. A nevek között ott van Orbán Viktoré is. Farkas Örs exállamtitkárról és Hajdu János ex-TEK-főigazgatóról azt írják, „gyanúsítotti kihallgatásuk indokolt”. Az ügyészség a nyomozásra hivatkozva érdemben nem válaszolt a ké",
+      "link": "https://444.hu/2026/06/25/a-lenyegi-dontest-utasitasokat-hozo-szemelyek-a-kovetkezok-dr-orban-viktor-volt-miniszterelnok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_113aac",
+          "name": "Orbán Viktoré",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ffe26c",
+          "name": "Farkas Örs",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_dc06e222",
+      "title": "Fideszesek vezetőszáron",
+      "description": "Letartóztatott politikusok, Orbán neve az ügyészségi iratokban, Szentendre jövője, minden a focivébéről és 3T a 444 napindító hírlevelében.",
+      "link": "https://444.hu/2026/06/26/fideszesek-vezetoszaron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_76a07a89",
+      "title": "A Tisza a korrupciós polippal, a Fidesz a Tisza felelősségvállalásának hiányával ugrott neki a Fővárosi Közgyűlés ülésének",
+      "description": "A képviselők meghallgatták az új rendőrfőkapitányt is, aki szerint mindent megtettek a Pride biztonságos lebonyolítása érdekében",
+      "link": "https://444.hu/2026/06/26/a-tisza-a-korrupcios-polippal-a-fidesz-a-tisza-felelossegvallalasanak-hianyaval-ugrott-neki-a-fovarosi-kozgyules-ulesenek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_67f8a8",
+          "name": "Fővárosi Közgyűlés",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d0d65b11",
+      "title": "Letartóztatták Fonyód korábbi, fideszes polgármesterét",
+      "description": "Az ügyészség szerint a gazdasági csalással és pénzmosással gyanúsított Hidvégi József esetében fennáll az elrejtőzés és az eljárás meghiúsításának veszélye.",
+      "link": "https://444.hu/2026/06/26/letartoztattak-fonyod-korabbi-fideszes-polgarmesteret?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_9430f8",
+          "name": "Letartóztatták Fonyód",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0df029",
+          "name": "Hidvégi József",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_7e96aa43",
+      "title": "Újra tartalékos katona lett Ruszin-Szendi Romulusz",
+      "description": "A honvédelmi miniszter teljesítette az ejtőernyős egészségügyi alkalmassági vizsgálatot.",
+      "link": "https://telex.hu/belfold/2026/06/26/ruszin-szendi-romulusz-honvedelmi-miniszter-tartalekos-katona-ejtoernyos-egeszsegugyi-alkalmassagi-vizsgalat",
+      "date": "2026-06-26",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_3ce719",
+          "name": "Szendi Romulusz",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "case_001",
       "title": "Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás",
       "description": "Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenykorlátozó módon. Az OLAF 2017-ben megállapította a szabálytalanságot és javasolta az EU-s támogatások visszafizettetését. A magyar ügyészség nem emelt vádat.",
@@ -819,41 +1186,211 @@
         "case_010"
       ],
       "description": "TAO-rendszer sportfinanszírozás"
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_845761",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_8f7d32",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_b67cf6",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_845761",
+      "to": "p_8f7d32",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_845761",
+      "to": "p_b67cf6",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_8f7d32",
+      "to": "p_b67cf6",
+      "type": "business_connection",
+      "cases": [
+        "sc_6d1adc98"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_4b608f",
+      "to": "p_056b8f",
+      "type": "business_connection",
+      "cases": [
+        "sc_8d448f52"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_aa05eb",
+      "to": "p_b1af4e",
+      "type": "business_connection",
+      "cases": [
+        "sc_155ac6a9"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_5e4f38",
+      "type": "political_ally",
+      "cases": [
+        "sc_e960d544"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_113aac",
+      "type": "political_ally",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_ffe26c",
+      "type": "political_ally",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_3fb7b2",
+      "type": "political_ally",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_113aac",
+      "to": "p_ffe26c",
+      "type": "business_connection",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_113aac",
+      "to": "p_3fb7b2",
+      "type": "business_connection",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_ffe26c",
+      "to": "p_3fb7b2",
+      "type": "business_connection",
+      "cases": [
+        "sc_9aa6e47a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9430f8",
+      "to": "p_0df029",
+      "type": "business_connection",
+      "cases": [
+        "sc_d0d65b11"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p013",
+      "to": "p014",
+      "type": "business_connection",
+      "cases": [
+        "case_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-26T12:00:00Z",
-    "version": "2.3.0",
-    "total_cases": 15,
+    "last_updated": "2026-06-26T10:58:37.084519+00:00",
+    "version": "3.0.0",
+    "total_cases": 28,
     "total_investigations": 4,
-    "total_involved_amount_huf": 7372300000000,
+    "total_involved_amount_huf": 8544400000000,
     "status_breakdown": {
-      "active": 4,
+      "active": 17,
       "investigation": 5,
-      "closed": 4,
-      "appeal": 1,
-      "ongoing": 1
+      "closed": 5,
+      "appeal": 1
     },
     "category_breakdown": {
-      "korrupció": 5,
-      "pénzügyi": 6,
+      "korrupció": 8,
+      "pénzügyi": 16,
       "közbeszerzés": 4
     },
     "sources": [
-      "Telex",
-      "HVG",
       "444",
-      "Direkt36"
+      "Direkt36",
+      "HVG",
+      "Telex",
+      "Átlátszó"
     ],
     "regions_covered": [
+      "Csongrád-Csanád",
+      "Pest",
+      "Borsod-Abaúj-Zemplén",
+      "Baranya",
+      "Somogy",
+      "Tolna",
       "Budapest",
       "Fejér",
-      "Pest",
-      "Csongrád-Csanád",
-      "Tolna",
-      "Somogy",
-      "Baranya",
-      "Borsod-Abaúj-Zemplén",
       "Győr-Moson-Sopron"
     ]
   }

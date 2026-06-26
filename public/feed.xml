@@ -5,15 +5,167 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Thu, 26 Jun 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 10:58:37 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title><![CDATA[Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás]]></title>
-      <link>https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/</link>
-      <guid>case_001</guid>
-      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <description><![CDATA[Az Elios Innovatív Zrt. 35 milliárd forintnyi EU-s közvilágítási pályázatot nyert visszaélésszerűen. | Budapest | 35,0 Mrd Ft | korrupció]]></description>
-      <category>korrupció</category>
-    </item>
+  <item>
+    <title><![CDATA[Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást]]></title>
+    <link>https://atlatszo.hu/orszagszerte/2026/06/15/galyatetoi-hotel-tiborcz-istvan-es-orban-rahel-is-felugyeli-a-kozpenzmilliardos-beruhazast/</link>
+    <guid>sc_6d1adc98</guid>
+    <pubDate>2026-06-15</pubDate>
+    <description><![CDATA[A tulajdonos Galya Top Property Kft. szerint a BDPST Zrt. csak vállalkozóként irányítja a beruházást, amely a 3,9 milliárdos állami támogatás ellenére sem készült el. | Budapest | 3900 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[1,2 milliárdos szerződést húzott ki Tiborczék cégének zsebéből Vitézy minisztériuma]]></title>
+    <link>https://atlatszo.hu/kozpenz/2026/06/15/12-milliardos-szerzodest-huzott-ki-tiborczek-cegenek-zsebebol-vitezy-miniszteriuma/</link>
+    <guid>sc_8d448f52</guid>
+    <pubDate>2026-06-15</pubDate>
+    <description><![CDATA[A Pannon Busz-Rent Kft.és az INFINITOURS Kft. hiába nyerte el a MÁV vonatpótló buszokra kiírt tenderét, mégsem írhatják alá a szerződést. | Budapest | 1200 M HUF | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
+  <item>
+    <title><![CDATA[Játékmotorok: hűtlen kezelés miatt nyomoznak az általunk kiderített túlárazás kapcsán]]></title>
+    <link>https://atlatszo.hu/impakt/2026/06/15/jatekmotorok-hutlen-kezeles-miatt-nyomoznak-az-altalunk-kideritett-tularazas-kapcsan/</link>
+    <guid>sc_dfd582e9</guid>
+    <pubDate>2026-06-15</pubDate>
+    <description><![CDATA[Egy közadatigénylésünkből derültek ki a részletek, amit a Fidesz-kormány nem, de az új Tisza-kormány megválaszolt. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Elapadtak az állami milliárdok, összezsugorodik a Fidesz médiabirodalma]]></title>
+    <link>https://atlatszo.hu/kozugy/2026/06/17/elapadtak-az-allami-milliardok-osszezsugorodik-a-fidesz-mediabirodalma/</link>
+    <guid>sc_5fd005dc</guid>
+    <pubDate>2026-06-17</pubDate>
+    <description><![CDATA[Tömeges leépítési hullám a NER-közeli kiadóknál: a választási vereséggel elapadó állami hirdetési pénzek miatt lapbezárások, elbocsátások és megszorítások söpörnek végig a szebb napokat látott orbáni  | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Nyomozás a MOL-alapítványnál, létszámleépítés a Mediaworksnél]]></title>
+    <link>https://atlatszo.hu/mutyimondo/2026/06/19/nyomozas-a-mol-alapitvanynal-letszamleepites-a-mediaworksnel/</link>
+    <guid>sc_4f7ddf68</guid>
+    <pubDate>2026-06-19</pubDate>
+    <description><![CDATA[Heti lapszemlénk. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A 3 milliárdos állami támogatás ellenére sem készült el az egyházi iskola Körömben]]></title>
+    <link>https://atlatszo.hu/orszagszerte/2026/06/26/a-3-milliardos-allami-tamogatas-ellenere-sem-keszult-el-az-egyhazi-iskola-koromben/</link>
+    <guid>sc_ebe6af25</guid>
+    <pubDate>2026-06-26</pubDate>
+    <description><![CDATA[A kivitelező DENCO Kft.-vel szerződést bontott az Egri Főegyházmegye, az alvállalkozók a pénzükre várnak. | Budapest | 3000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus]]></title>
+    <link>https://www.direkt36.hu/a-fidesz-frakcio-munkatarsanak-lakasaban-lakik-a-magyarorszagra-menekult-korozott-lengyel-politikus/</link>
+    <guid>sc_155ac6a9</guid>
+    <pubDate>2026-04-28</pubDate>
+    <description><![CDATA[A Direkt36 munkatársai egy budai lakásban találták meg a hazájában korrupcióval vádolt Marcin Romanowskit. Az ingatlan egyik tulajdonosát tavaly ősszel szerződtette le a Kocsis Máté által vezetett fid | Budapest | 500 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal]]></title>
+    <link>https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/</link>
+    <guid>sc_e960d544</guid>
+    <pubDate>2026-06-18</pubDate>
+    <description><![CDATA[A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolg | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[„A lényegi döntést, utasításokat hozó személyek a következők: Dr. Orbán Viktor volt miniszterelnök”]]></title>
+    <link>https://444.hu/2026/06/25/a-lenyegi-dontest-utasitasokat-hozo-szemelyek-a-kovetkezok-dr-orban-viktor-volt-miniszterelnok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_9aa6e47a</guid>
+    <pubDate>2026-06-25</pubDate>
+    <description><![CDATA[Lapunk birtokába jutott egy fotó egy állítólagos ügyészségi dokumentumról. Felsorolják benne, kiknek a büntetőjogi felelősségét kellene tisztázni az úgynevezett aranykonvoj-ügyben. A nevek között ott  | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Fideszesek vezetőszáron]]></title>
+    <link>https://444.hu/2026/06/26/fideszesek-vezetoszaron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_dc06e222</guid>
+    <pubDate>2026-06-26</pubDate>
+    <description><![CDATA[Letartóztatott politikusok, Orbán neve az ügyészségi iratokban, Szentendre jövője, minden a focivébéről és 3T a 444 napindító hírlevelében. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A Tisza a korrupciós polippal, a Fidesz a Tisza felelősségvállalásának hiányával ugrott neki a Fővárosi Közgyűlés ülésének]]></title>
+    <link>https://444.hu/2026/06/26/a-tisza-a-korrupcios-polippal-a-fidesz-a-tisza-felelossegvallalasanak-hianyaval-ugrott-neki-a-fovarosi-kozgyules-ulesenek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_76a07a89</guid>
+    <pubDate>2026-06-26</pubDate>
+    <description><![CDATA[A képviselők meghallgatták az új rendőrfőkapitányt is, aki szerint mindent megtettek a Pride biztonságos lebonyolítása érdekében | Budapest | 500 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Letartóztatták Fonyód korábbi, fideszes polgármesterét]]></title>
+    <link>https://444.hu/2026/06/26/letartoztattak-fonyod-korabbi-fideszes-polgarmesteret?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_d0d65b11</guid>
+    <pubDate>2026-06-26</pubDate>
+    <description><![CDATA[Az ügyészség szerint a gazdasági csalással és pénzmosással gyanúsított Hidvégi József esetében fennáll az elrejtőzés és az eljárás meghiúsításának veszélye. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Újra tartalékos katona lett Ruszin-Szendi Romulusz]]></title>
+    <link>https://telex.hu/belfold/2026/06/26/ruszin-szendi-romulusz-honvedelmi-miniszter-tartalekos-katona-ejtoernyos-egeszsegugyi-alkalmassagi-vizsgalat</link>
+    <guid>sc_7e96aa43</guid>
+    <pubDate>2026-06-26</pubDate>
+    <description><![CDATA[A honvédelmi miniszter teljesítette az ejtőernyős egészségügyi alkalmassági vizsgálatot. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás]]></title>
+    <link>https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/</link>
+    <guid>case_001</guid>
+    <pubDate>2017-03-02</pubDate>
+    <description><![CDATA[Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenyko | Budapest | 35000 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Mészáros Lőrinc vagyongyarapodása – felcsúti vállalkozóból oligarcha]]></title>
+    <link>https://telex.hu/gazdasag/2023/04/12/meszaros-lorinc-vagyon-cegek</link>
+    <guid>case_002</guid>
+    <pubDate>2023-04-12</pubDate>
+    <description><![CDATA[Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált – kizárólag állami megrendelések révén. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmill | Fejér | 280000 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Közgép Zrt. – útépítési monopólium közbeszerzési manipulációval]]></title>
+    <link>https://hvg.hu/gazdasag/2019/06/15/kozgep-utepites-kozbeszerzas</link>
+    <guid>case_003</guid>
+    <pubDate>2019-06-15</pubDate>
+    <description><![CDATA[A Mészáros-érdekeltségű Közgép Zrt. a 2010-es évektől dominálta az állami útépítési megrendeléseket. Az Állami Számvevőszék és független elemzők szerint a közbeszerzési eljárások eredményei előre kisz | Budapest | 120000 M HUF | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
+  <item>
+    <title><![CDATA[Állami hirdetési piac torzítása – kormányközeli médiakoncentráció]]></title>
+    <link>https://direkt36.hu/2023/09/05/allami-hirdetes-media-koncentracio</link>
+    <guid>case_004</guid>
+    <pubDate>2023-09-05</pubDate>
+    <description><![CDATA[Az állami hirdetési büdzsé 80-90%-a kormányközeli médiacégekhez kerül, miközben független újságírók és médiumok elvérznek. A KESMA (Közép-európai Sajtó és Média Alapítvány) 500+ médiaterméket olvaszto | Budapest | 85000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[EU-s agrártámogatások koncentrációja Mészáros-közeli gazdáknál]]></title>
+    <link>https://telex.hu/belfold/2024/01/22/eu-agrar-tamogatas-koncentracio</link>
+    <guid>case_005</guid>
+    <pubDate>2024-01-22</pubDate>
+    <description><![CDATA[Magyarország az EU-s agrártámogatások elosztásában a legkoncentráltabb tagállam. A támogatások nagy része néhány száz, politikailag kapcsolt gazdasági szereplőhöz kerül. Az EPPO vizsgálata 2022-ben in | Csongrád-Csanád | 42000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Közfeladatot ellátó alapítványok – 700 milliárd Ft közpénz ellenőrzés nélkül]]></title>
+    <link>https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard</link>
+    <guid>case_006</guid>
+    <pubDate>2023-11-30</pubDate>
+    <description><![CDATA[2021-ben 11 állami egyetemet és több kulturális intézményt közfeladatot ellátó alapítványok kezelésébe adtak. Az érintett vagyon meghaladja a 700 milliárd forintot. Ezek az alapítványok nem tartoznak  | Budapest | 700000 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Pegasus kémprogrammal való megfigyelés Magyarországon]]></title>
+    <link>https://direkt36.hu/2021/07/18/magyarorszagon-is-bevet-tek-a-pegasus-kemszoftvert/</link>
+    <guid>case_007</guid>
+    <pubDate>2021-07-18</pubDate>
+    <description><![CDATA[A Forbidden Stories és Amnesty International 2021-es vizsgálata szerint Magyarország az NSO Group Pegasus kémprogramját újságírók, ügyvédek, ellenzéki politikusok és üzletemberek megfigyelésére haszná | Budapest | 3000 M HUF | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
   </channel>
 </rss>
