@@ -277,7 +277,7 @@ def auto_connections(data):
                 'auto': True
             })
             existing_conns.add(key)
-            log.info(f"  Auto-kapcsolat: {pa.get("name","?")} ↔ {pb.get("name","?")} ({len(shared)} ügy)")
+            log.info(f"  Auto-kapcsolat: {pa.get('name','?')} ↔ {pb.get('name','?')} ({len(shared)} ügy)")
 
     if new_conns:
         data.setdefault('connections', []).extend(new_conns)
@@ -298,3 +298,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
