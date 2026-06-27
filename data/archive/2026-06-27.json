@@ -1,118 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_80177671",
-      "title": "Azonnali belső vizsgálatot rendelt el a honvédelmi miniszter az újdörögdi kézigránát-baleset ügyében",
-      "description": "Korábban az ügyészség azzal zárta le a nyomozást, hogy nem lehet büntetőjogi felelősséget megállapítani, a megsérült kormánytisztviselő viszont nem fogadta el ezt.",
-      "link": "https://444.hu/2026/06/27/azonnali-belso-vizsgalatot-rendelt-el-a-honvedelmi-miniszter-az-ujdorogdi-kezigranat-baleset-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-06-27",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_f7a1e643",
-      "title": "Utolérheti a Tisztítótűz művelet a Mol-vezért?│Elvitelre",
-      "description": "Elvitelre – a podcast, amelyben a hét legjobb HVG hetilapos és hvg360-as anyagaiból válogatunk. A héten: milliárdos károk és egy távozó miniszterelnök.",
-      "link": "https://hvg.hu/itthon/20260627_utolerheti-a-tisztitotuz-muvelet-a-mol-vezert-elvitelre",
-      "date": "2026-06-27",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_24bd5e",
-          "name": "Elvitelre Elvitelre",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_660f0b02",
-      "title": "Törvényt sérthet a Mohu, amikor díjat számít fel az építési hulladék leadásáért a lakosságtól",
-      "description": "Az állítólagos visszaélések miatt a Mohu július 1-től nem biztosítja az építési-bontási hulladék bizonyos kvótáig ingyenes leadását a lakosság számára, ez azonban a kormányhivatal szerint megsérti a hulladéktörvény rendelkezéseit. Az új, fizetős rendszer a szakemberek szerint az illegális szemétlerakást növeli.",
-      "link": "https://hvg.hu/360/20260627_mohu-bontasi-hulladek-sitt-hulladekudvar-lakossagi-dij-jogsertes",
-      "date": "2026-06-27",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2f106412",
-      "title": "Belső vizsgálatot kezdeményezett a honvédségnél Ruszin-Szendi Romulusz az újdörögdi gránátbaleset ügyében",
-      "description": "A miniszter közölte, hogy ugyan a büntetőjogi felelősség megállapítása nem az ő feladata, de „van egy másik felelősség is”.",
-      "link": "https://hvg.hu/itthon/20260627_belso-vizsgalat-honvedseg-ruszin-szendi-ujdorogdi-granatbaleset",
-      "date": "2026-06-27",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_3ce719",
-          "name": "Szendi Romulusz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_bd8b676a",
-      "title": "Azonnali belső vizsgálatot rendelt el Ruszin-Szendi Romulusz az újdörögdi kézigránát-baleset miatt",
-      "description": "A honvédelmi miniszter azt írta: tudomásul veszi, hogy az ügyészség lezárta az ügyet, de ha valaki hibázott, annak vállalnia kell a következményeket.",
-      "link": "https://telex.hu/belfold/2026/06/27/ruszin-szendi-romulusz-ujdorogdi-kezigranat-baleset-belso-vizsgalat",
-      "date": "2026-06-27",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_3ce719",
-          "name": "Szendi Romulusz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_6d1adc98",
       "title": "Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást",
       "description": "A tulajdonos Galya Top Property Kft. szerint a BDPST Zrt. csak vállalkozóként irányítja a beruházást, amely a 3,9 milliárdos állami támogatás ellenére sem készült el.",
@@ -1471,20 +1359,20 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-27T10:07:16.764696+00:00",
+    "last_updated": "2026-06-26T10:58:37.084519+00:00",
     "version": "3.0.0",
-    "total_cases": 33,
+    "total_cases": 28,
     "total_investigations": 4,
-    "total_involved_amount_huf": 8546900000000,
+    "total_involved_amount_huf": 8544400000000,
     "status_breakdown": {
-      "active": 22,
+      "active": 17,
       "investigation": 5,
       "closed": 5,
       "appeal": 1
     },
     "category_breakdown": {
       "korrupció": 8,
-      "pénzügyi": 21,
+      "pénzügyi": 16,
       "közbeszerzés": 4
     },
     "sources": [
@@ -1495,15 +1383,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Baranya",
-      "Pest",
-      "Budapest",
-      "Győr-Moson-Sopron",
-      "Somogy",
-      "Fejér",
       "Csongrád-Csanád",
+      "Pest",
       "Borsod-Abaúj-Zemplén",
-      "Tolna"
+      "Baranya",
+      "Somogy",
+      "Tolna",
+      "Budapest",
+      "Fejér",
+      "Győr-Moson-Sopron"
     ]
   }
 }

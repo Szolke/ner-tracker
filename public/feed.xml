@@ -5,8 +5,48 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:58:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 10:07:16 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Azonnali belső vizsgálatot rendelt el a honvédelmi miniszter az újdörögdi kézigránát-baleset ügyében]]></title>
+    <link>https://444.hu/2026/06/27/azonnali-belso-vizsgalatot-rendelt-el-a-honvedelmi-miniszter-az-ujdorogdi-kezigranat-baleset-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_80177671</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[Korábban az ügyészség azzal zárta le a nyomozást, hogy nem lehet büntetőjogi felelősséget megállapítani, a megsérült kormánytisztviselő viszont nem fogadta el ezt. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Utolérheti a Tisztítótűz művelet a Mol-vezért?│Elvitelre]]></title>
+    <link>https://hvg.hu/itthon/20260627_utolerheti-a-tisztitotuz-muvelet-a-mol-vezert-elvitelre</link>
+    <guid>sc_f7a1e643</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[Elvitelre – a podcast, amelyben a hét legjobb HVG hetilapos és hvg360-as anyagaiból válogatunk. A héten: milliárdos károk és egy távozó miniszterelnök. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Törvényt sérthet a Mohu, amikor díjat számít fel az építési hulladék leadásáért a lakosságtól]]></title>
+    <link>https://hvg.hu/360/20260627_mohu-bontasi-hulladek-sitt-hulladekudvar-lakossagi-dij-jogsertes</link>
+    <guid>sc_660f0b02</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[Az állítólagos visszaélések miatt a Mohu július 1-től nem biztosítja az építési-bontási hulladék bizonyos kvótáig ingyenes leadását a lakosság számára, ez azonban a kormányhivatal szerint megsérti a h | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Belső vizsgálatot kezdeményezett a honvédségnél Ruszin-Szendi Romulusz az újdörögdi gránátbaleset ügyében]]></title>
+    <link>https://hvg.hu/itthon/20260627_belso-vizsgalat-honvedseg-ruszin-szendi-ujdorogdi-granatbaleset</link>
+    <guid>sc_2f106412</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[A miniszter közölte, hogy ugyan a büntetőjogi felelősség megállapítása nem az ő feladata, de „van egy másik felelősség is”. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Azonnali belső vizsgálatot rendelt el Ruszin-Szendi Romulusz az újdörögdi kézigránát-baleset miatt]]></title>
+    <link>https://telex.hu/belfold/2026/06/27/ruszin-szendi-romulusz-ujdorogdi-kezigranat-baleset-belso-vizsgalat</link>
+    <guid>sc_bd8b676a</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[A honvédelmi miniszter azt írta: tudomásul veszi, hogy az ügyészség lezárta az ügyet, de ha valaki hibázott, annak vállalnia kell a következményeket. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást]]></title>
     <link>https://atlatszo.hu/orszagszerte/2026/06/15/galyatetoi-hotel-tiborcz-istvan-es-orban-rahel-is-felugyeli-a-kozpenzmilliardos-beruhazast/</link>
@@ -125,46 +165,6 @@
     <guid>case_002</guid>
     <pubDate>2023-04-12</pubDate>
     <description><![CDATA[Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált – kizárólag állami megrendelések révén. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmill | Fejér | 280000 M HUF | korrupció]]></description>
-    <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Közgép Zrt. – útépítési monopólium közbeszerzési manipulációval]]></title>
-    <link>https://hvg.hu/gazdasag/2019/06/15/kozgep-utepites-kozbeszerzas</link>
-    <guid>case_003</guid>
-    <pubDate>2019-06-15</pubDate>
-    <description><![CDATA[A Mészáros-érdekeltségű Közgép Zrt. a 2010-es évektől dominálta az állami útépítési megrendeléseket. Az Állami Számvevőszék és független elemzők szerint a közbeszerzési eljárások eredményei előre kisz | Budapest | 120000 M HUF | közbeszerzés]]></description>
-    <category>közbeszerzés</category>
-  </item>
-  <item>
-    <title><![CDATA[Állami hirdetési piac torzítása – kormányközeli médiakoncentráció]]></title>
-    <link>https://direkt36.hu/2023/09/05/allami-hirdetes-media-koncentracio</link>
-    <guid>case_004</guid>
-    <pubDate>2023-09-05</pubDate>
-    <description><![CDATA[Az állami hirdetési büdzsé 80-90%-a kormányközeli médiacégekhez kerül, miközben független újságírók és médiumok elvérznek. A KESMA (Közép-európai Sajtó és Média Alapítvány) 500+ médiaterméket olvaszto | Budapest | 85000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[EU-s agrártámogatások koncentrációja Mészáros-közeli gazdáknál]]></title>
-    <link>https://telex.hu/belfold/2024/01/22/eu-agrar-tamogatas-koncentracio</link>
-    <guid>case_005</guid>
-    <pubDate>2024-01-22</pubDate>
-    <description><![CDATA[Magyarország az EU-s agrártámogatások elosztásában a legkoncentráltabb tagállam. A támogatások nagy része néhány száz, politikailag kapcsolt gazdasági szereplőhöz kerül. Az EPPO vizsgálata 2022-ben in | Csongrád-Csanád | 42000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Közfeladatot ellátó alapítványok – 700 milliárd Ft közpénz ellenőrzés nélkül]]></title>
-    <link>https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard</link>
-    <guid>case_006</guid>
-    <pubDate>2023-11-30</pubDate>
-    <description><![CDATA[2021-ben 11 állami egyetemet és több kulturális intézményt közfeladatot ellátó alapítványok kezelésébe adtak. Az érintett vagyon meghaladja a 700 milliárd forintot. Ezek az alapítványok nem tartoznak  | Budapest | 700000 M HUF | korrupció]]></description>
-    <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Pegasus kémprogrammal való megfigyelés Magyarországon]]></title>
-    <link>https://direkt36.hu/2021/07/18/magyarorszagon-is-bevet-tek-a-pegasus-kemszoftvert/</link>
-    <guid>case_007</guid>
-    <pubDate>2021-07-18</pubDate>
-    <description><![CDATA[A Forbidden Stories és Amnesty International 2021-es vizsgálata szerint Magyarország az NSO Group Pegasus kémprogramját újságírók, ügyvédek, ellenzéki politikusok és üzletemberek megfigyelésére haszná | Budapest | 3000 M HUF | korrupció]]></description>
     <category>korrupció</category>
   </item>
   </channel>
