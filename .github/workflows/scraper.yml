@@ -43,8 +43,10 @@ jobs:
           git add data/archive/ || true
           if ! git diff --staged --quiet; then
             CASE_COUNT=$(python3 -c "import json; d=json.load(open('public/data/news.json')); print(d['metadata']['total_cases'])" 2>/dev/null || echo "?")
+            git fetch origin
+            git reset --soft origin/main
             git commit -m "🔄 Daily scrape: $(date -u +'%Y-%m-%d %H:%M UTC') | ${CASE_COUNT} ügy"
-            git pull --rebase && git push
+            git push
             echo "PUSHED=true" >> $GITHUB_ENV
           else
             echo "Nincs változás"
