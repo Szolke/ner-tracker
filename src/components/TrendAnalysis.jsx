@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { TrendingUp, TrendingDown, Minus, ChevronDown, ChevronUp } from 'lucide-react';
 
-const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd Ft';
+const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
 
 export default function TrendAnalysis({ data, darkMode }) {
   const [expanded, setExpanded] = useState(false);

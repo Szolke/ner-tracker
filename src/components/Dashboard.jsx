@@ -52,8 +52,8 @@ function shareCase(c) {
 
 
 // ── Magyar számformázó ───────────────────────────────────────────────
-const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd Ft';
-const mrdS = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd';
+const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
+const mrdS = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
 
 export default function Dashboard({ darkMode, toggleDarkMode }) {
   const { lang, t, setLang } = useLang();
@@ -246,7 +246,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               <div className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl p-5 flex items-center gap-4 shadow-lg">
                 <AlertCircle className="w-9 h-9 flex-shrink-0"/>
                 <div>
-                  <p className="font-bold text-xl">Összesen {mrdS(totalAmount)} milliárd HUF érintett közpénz</p>
+                  <p className="font-bold text-xl">Összesen {mrdS(totalAmount)} érintett közpénz</p>
                   <p className="text-sm opacity-90 mt-0.5">{data.cases.length} ügy · {data.investigations.length} nyomozás · {allPersons.length} érintett személy</p>
                 </div>
               </div>
@@ -267,9 +267,9 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
                 {[
                   [<TrendingUp className="w-4 h-4"/>, 'Ügyek', data.cases.length, null, 'bg-blue-500/20 border-blue-500/40'],
-                  [<AlertCircle className="w-4 h-4"/>, 'Nyomozás', data.cases.filter(c=>c.status==='investigation').length, null, 'bg-red-500/20 border-red-500/40'],
+                  [<AlertCircle className="w-4 h-4"/>, 'Nyomozás', data.investigations.length, null, 'bg-red-500/20 border-red-500/40'],
                   [<Users className="w-4 h-4"/>, 'Érintett személyek', allPersons.length, null, 'bg-purple-500/20 border-purple-500/40'],
-                  [<BarChart3 className="w-4 h-4"/>, 'Összes összeg', `${mrdS(totalAmount)}B`, 'HUF', 'bg-green-500/20 border-green-500/40'],
+                  [<BarChart3 className="w-4 h-4"/>, 'Összes összeg', mrdS(totalAmount), null, 'bg-green-500/20 border-green-500/40'],
                   [<MapPin className="w-4 h-4"/>, 'Érintett régiók', new Set(data.cases.map(c=>c.region)).size, null, 'bg-orange-500/20 border-orange-500/40'],
                 ].map(([icon,label,value,sub,cls],i) => (
                   <div key={i} className={`p-4 rounded-xl border ${cls}`}>
