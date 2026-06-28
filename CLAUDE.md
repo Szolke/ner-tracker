@@ -15,7 +15,7 @@ Magyar kormányzati korrupciós ügyek nyilvántartása. React/Vite SPA, Python 
 | Réteg | Technológia |
 |-------|-------------|
 | Frontend | React 18 + Vite + Tailwind CSS |
-| Adatok | `/public/data/news.json` (statikus JSON, ezt olvassa a React) |
+| Adatok | `public/data/news.json` (statikus JSON, ezt olvassa a React) |
 | Scraper | Python 3.11 (`scripts/scraper.py`) — napi RSS fetch |
 | Hosting | Cloudflare Pages (Direct Upload módban) |
 | CI/CD | GitHub Actions (`.github/workflows/scraper.yml`) |
@@ -28,13 +28,15 @@ Magyar kormányzati korrupciós ügyek nyilvántartása. React/Vite SPA, Python 
 ner-tracker/
 ├── src/
 │   ├── components/
-│   │   ├── Dashboard.jsx       ← FŐ UI komponens (4 tab)
+│   │   ├── Dashboard.jsx       ← FŐ UI komponens (4 tab + modal)
 │   │   ├── LiveFeed.jsx        ← Jobb oldali hírfolyam
 │   │   ├── Timeline.jsx        ← Idővonal tab
 │   │   ├── NetworkGraph.jsx    ← Nyomozások tab
+│   │   ├── ChoroplethMap.jsx   ← Hőtérkép (Idővonalon)
+│   │   ├── EUComparison.jsx    ← EU korrupciós index összehasonlítás
 │   │   └── ...egyéb komponensek
 │   ├── App.jsx
-│   ├── i18n.jsx                ← Magyar/angol fordítások
+│   ├── i18n.jsx                ← Magyar/angol fordítások (useLang hook)
 │   └── main.jsx
 ├── public/
 │   └── data/news.json          ← Adatfájl (scraper írja, React olvassa)
@@ -47,9 +49,6 @@ ner-tracker/
 ├── .github/workflows/
 │   └── scraper.yml             ← CI/CD pipeline
 ├── wrangler.toml               ← Cloudflare Pages config
-├── wrangler.worker.toml        ← Cloudflare Worker config
-├── vite.config.js
-├── tailwind.config.js
 └── package.json
 ```
 
@@ -59,25 +58,23 @@ ner-tracker/
 
 A `scraper.yml` workflow minden nap 8:00 UTC-kor fut (és manuálisan indítható):
 
-1. Python scraper lefut → frissíti `public/data/news.json`
+1. Python scraper → frissíti `public/data/news.json`
 2. `git fetch origin && git reset --soft origin/main` → commit mindig a legfrissebb remote HEAD-re épül
 3. `git push` → adatok felkerülnek GitHub-ra
-4. `npm install && npm run build` → Vite build elkészül (`dist/`)
+4. `npm install && npm run build` → Vite build (`dist/`)
 5. `wrangler pages deploy dist` → Cloudflare Pages-re feltöltés
 
 ### Szükséges GitHub Secrets
 
 | Secret | Leírás |
 |--------|--------|
-| `CLOUDFLARE_API_TOKEN` | Cloudflare API token — **Account → Cloudflare Pages → Edit** jogosultság kell |
-| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Account ID (dashboard jobb sáv) |
+| `CLOUDFLARE_API_TOKEN` | **Account → Cloudflare Pages → Edit** jogosultság |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard jobb sáv |
 | `PROXY_URL` | Cloudflare Worker proxy URL az RSS kérésekhez |
 | `RESEND_API_KEY` | (opcionális) Email értesítőhöz |
 | `NOTIFY_EMAIL` | (opcionális) Email értesítő cím |
 
 ### Fontos: push a workflow-ban
-
-A scraper a checkout SHA-ból indul, ami régebbi lehet a remote HEAD-nél. Ezért a commit lépésben:
 
 ```bash
 git fetch origin
@@ -85,6 +82,28 @@ git reset --soft origin/main   # staged változások megmaradnak, HEAD = remote 
 git commit -m "..."
 git push                       # mindig fast-forward
 ```
+
+---
+
+## Scraper szűrőlogika
+
+### NER_CORE (kötelező — legalább egy)
+Konkrét NER-személyek és intézmények: `fidesz`, `orbán`, `mészáros`, `rogán`, `tiborcz`, `olaf`, `eppo`, `elios`, `közgép`, `quaestor`, `mediaworks`, `felcsút`, `pegasus`, `paks`, `közbeszerzési`, stb.
+
+### SECONDARY (kötelező — legalább egy)
+Korrupciós indikátorok: `korrupció`, `visszaélés`, `nyomozás`, `vizsgálat`, `milliárd`, `sikkasztás`, `vesztegetés`, `oligarcha`, stb.
+
+### EXCLUDE
+Kizárt témák: külföldi kormányok, katonai balesetek, sport hírek, stb.
+
+### Dátum szűrő
+Csak 2010-01-01 utáni ügyek (Fidesz-éra kezdete).
+
+### merge() — aktív tisztítás
+Minden futásnál a meglévő ügyek is átmennek a szűrőn: az irrelevánssá váló régi cikkek automatikusan eltávolítódnak.
+
+### RSS Források (14 feed)
+Telex, HVG, 444, Direkt36, Átlátszó (2 feed), Abcúg, G7, Magyar Narancs, Mérce, Partizán, Szabad Európa, Átlátszó/pályázat, HVG Gazdaság
 
 ---
 
@@ -96,71 +115,75 @@ git push                       # mindig fast-forward
 {
   "metadata": {
     "last_updated": "2026-06-28T11:54:01Z",
-    "total_cases": 34,
-    "sources": ["telex.hu", "hvg.hu", "444.hu", "direkt36.hu", "atlatszo.hu"]
+    "total_cases": 47,
+    "sources": ["telex.hu", "hvg.hu", ...]
   },
   "cases": [{
-    "id": "telex-2026-06-25-001",
+    "id": "sc_xxxxxxxx",
     "title": "Cím",
-    "description": "Leírás",
+    "description": "Leírás (max 400 kar)",
     "link": "https://...",
     "date": "2026-06-25",
-    "source": "telex.hu",
+    "source": "Telex",
     "category": "korrupció|pénzügyi|közbeszerzés",
     "status": "active|investigation|closed|appeal",
-    "region": "Budapest|Pest megye|Országos|...",
+    "region": "Budapest|Pest|...",
+    "coordinates": [47.4979, 19.0402],
     "amount_huf": 4500000000,
     "verified": false,
     "media_count": 3,
     "tags": [],
     "involved_persons": [
-      {"id": "p1", "name": "Teljes Név", "position": "Pozíció"}
+      {"id": "p_xxxxxx", "name": "Teljes Név", "position": "Pozíció"}
     ]
   }],
-  "investigations": [{
-    "id": "inv_001",
-    "title": "Nyomozás neve",
-    "status": "active|investigation",
-    "investigating_authority": "Szerv neve",
-    "estimated_closure": "2027-03-15",
-    "involved_amount": 4500000000,
-    "key_figures": [],
-    "description": "Leírás"
-  }]
+  "investigations": [...]
 }
 ```
+
+**amount_huf:** `null` ha nem ismert (NE használj `500000000` placeholdert!)
+
+---
+
+## Seed ügyek vs. scraped ügyek
+
+- **Seed ügyek** (`id`: `seed_xxx_001`): kézzel felvett historikus ügyek, mindig az adatbázisban maradnak, a scraper szűrőjén is átmennek
+- **Scraped ügyek** (`id`: `sc_xxxxxxxx`): automatikusan gyűjtött RSS cikkek, naponta frissülnek
+
+Új seed ügy hozzáadásához: szerkeszd a `public/data/news.json`-t és a `data/news.json`-t is.
 
 ---
 
 ## UI konvenciók
 
 ### Pénznem formátum
-
-**Mindig:** `8 547,4 Mrd HUF` — a `mrd()` és `mrdS()` függvények (Dashboard.jsx:55-56) ezt adják vissza.
+**MINDIG:** `8 547,4 Mrd HUF`
 
 ```js
-const mrd  = huf => (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF';
-const mrdS = huf => (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF';
+const mrd  = huf => huf != null
+  ? (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF'
+  : 'Összeg ismeretlen';
+const mrdS = huf => huf != null
+  ? (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF'
+  : '—';
 ```
 
-Ne használj `Mrd Ft`, `MrdB`, `milliárd HUF` formátumokat.
-
-### Nyomozás szám
-
-- A banner és a "Nyomozás" metrika kártya **mindkettő** `data.investigations.length`-et használ (nem a `cases.filter(status==='investigation')` értéket).
+Ne: `Mrd Ft`, `MrdB`, `milliárd HUF`, `500 000 000` placeholder.
 
 ### Státusz értékek
-
-| Kód | Magyar felirat |
-|-----|---------------|
-| `active` | Aktív |
-| `investigation` | Nyomozás |
-| `closed` | Lezárult |
-| `appeal` | Fellebbezés |
+`active` · `investigation` · `closed` · `appeal`
 
 ### Kategóriák
-
 `korrupció` · `pénzügyi` · `közbeszerzés`
+
+### i18n
+Minden UI szöveg `tr.xxx` kulcsot használ (`useLang()` hook, `i18n.jsx`). Új szövegeknél mindig add hozzá a magyar ÉS angol fordítást is.
+
+### React hooks szabály
+Minden `useState`, `useCallback`, `useMemo`, `useEffect` hook az early return (`if (!data) return ...`) ELŐTT kell legyen a Dashboard komponensben.
+
+### Modal (CaseDetail)
+Az ügy részletes nézete modálként jelenik meg (fixed overlay, backdrop blur). A `CaseDetail` komponens a Dashboard `return()` elejére van helyezve `<>` fragment-be csomagolva, nem a tab tartalmán belül.
 
 ---
 
@@ -185,8 +208,8 @@ Vagy: GitHub Actions → "Daily News Scraper" → Run workflow
 
 ---
 
-## Amit minden módosításnál meg kell tenni
+## Minden módosítás után
 
-1. Frissítsd ezt a `CLAUDE.md` fájlt, ha a struktúra, konvenciók vagy pipeline változott
+1. Frissítsd ezt a `CLAUDE.md`-t ha struktúra/konvenció változott
 2. Commitolj és pusholj (`git pull --rebase` előtte ha szükséges)
-3. Ha UI változott: trigger a GitHub Actions workflow-t a deploy-hoz
+3. Ha UI változott: trigger a GitHub Actions workflow-t
