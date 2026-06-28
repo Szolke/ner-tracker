@@ -168,6 +168,14 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             title={tr.share} className="p-1 rounded opacity-40 hover:opacity-100">
             <Share2 className="w-3.5 h-3.5"/>
           </button>
+          {c.link && (
+            <a href={c.link} target="_blank" rel="noopener noreferrer"
+              onClick={e=>e.stopPropagation()}
+              title={tr.viewSource}
+              className="p-1 rounded opacity-40 hover:opacity-100 hover:text-blue-400 transition">
+              <ExternalLink className="w-3.5 h-3.5"/>
+            </a>
+          )}
         </div>
       </div>
       <p className="font-semibold text-sm leading-snug">{c.title}</p>
