@@ -252,7 +252,7 @@ export default function NetworkGraph({ data, darkMode }) {
                   {relCases.map(c => (
                     <div key={c.id} className={`px-3 py-2 rounded-lg text-sm ${darkMode ? 'bg-gray-600' : 'bg-white border border-gray-200'}`}>
                       <p className="font-semibold leading-snug">{c.title}</p>
-                      <p className="text-xs opacity-50 mt-0.5">{c.region} · {(c.amount_huf/1e9).toFixed(1)}B HUF</p>
+                      <p className="text-xs opacity-50 mt-0.5">{c.region} · {c.amount_huf != null ? `${(c.amount_huf/1e9).toFixed(1)} Mrd HUF` : 'Összeg ismeretlen'}</p>
                     </div>
                   ))}
                 </div>

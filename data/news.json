@@ -14,7 +14,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": []
     },
@@ -32,7 +32,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": []
     },
@@ -50,7 +50,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -76,7 +76,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -96,7 +96,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": [
         {
@@ -120,7 +120,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": [
         {
@@ -215,7 +215,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -235,7 +235,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "hirdetés"
       ],
@@ -255,7 +255,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "alapítvány"
       ],
@@ -307,7 +307,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "korrupció",
         "IT"
@@ -339,7 +339,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -370,7 +370,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -411,7 +411,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "IT"
       ],
@@ -431,7 +431,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [
         "korrupció",
         "IT"
@@ -458,7 +458,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": [
         {
@@ -487,7 +487,7 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 500000000,
+      "amount_huf": null,
       "tags": [],
       "involved_persons": [
         {
@@ -1493,7 +1493,7 @@
     "version": "3.0.0",
     "total_cases": 34,
     "total_investigations": 4,
-    "total_involved_amount_huf": 8547400000000,
+    "total_involved_amount_huf": 8539400000000,
     "status_breakdown": {
       "active": 23,
       "investigation": 5,

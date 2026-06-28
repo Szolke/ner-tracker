@@ -54,7 +54,7 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
     const id = REGION_MAP[c.region];
     if (!id) return;
     if (!stats[id]) stats[id] = { amount: 0, count: 0, cases: [] };
-    stats[id].amount += c.amount_huf;
+    stats[id].amount += c.amount_huf || 0;
     stats[id].count++;
     stats[id].cases.push(c);
   });

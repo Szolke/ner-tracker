@@ -99,7 +99,7 @@ export default function LiveFeed({ cases, onCaseSelect, darkMode }) {
                     {c.region}
                   </span>
                   <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                    {(c.amount_huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF
+                    {c.amount_huf != null ? `${(c.amount_huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF` : '—'}
                   </span>
                 </div>
                 <div className="flex items-center justify-between mt-1">

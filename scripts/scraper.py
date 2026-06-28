@@ -114,7 +114,7 @@ def detect_amount(text):
     for p,mult in [(r'(\d+[,\.]?\d*)\s*milliárd',1e9),(r'(\d+[,\.]?\d*)\s*mrd',1e9),(r'(\d+)\s*millió',1e6)]:
         m = re.search(p, text.lower())
         if m: return int(float(m.group(1).replace(',','.'))*mult)
-    return 500_000_000
+    return None
 
 def is_relevant(title, summary=''):
     text = (title+' '+summary).lower()
@@ -167,7 +167,7 @@ def generate_rss(data):
     <link>{c['link']}</link>
     <guid>{c['id']}</guid>
     <pubDate>{c['date']}</pubDate>
-    <description><![CDATA[{c['description'][:200]} | {c['region']} | {c['amount_huf']//1000000} M HUF | {c['category']}]]></description>
+    <description><![CDATA[{c['description'][:200]} | {c['region']} | {f"{c['amount_huf']//1000000} M HUF" if c['amount_huf'] else 'Összeg ismeretlen'} | {c['category']}]]></description>
     <category>{c['category']}</category>
   </item>
 """
@@ -219,7 +219,7 @@ def update_metadata(data):
         "version":                   "3.0.0",
         "total_cases":               len(cases),
         "total_investigations":      len(data.get('investigations',[])),
-        "total_involved_amount_huf": sum(c.get('amount_huf',0) for c in cases),
+        "total_involved_amount_huf": sum(c.get('amount_huf') or 0 for c in cases),
         "status_breakdown":  {s:sum(1 for c in cases if c.get('status')==s) for s in ['active','investigation','closed','appeal']},
         "category_breakdown":{cat:sum(1 for c in cases if c.get('category')==cat) for cat in ['korrupció','pénzügyi','közbeszerzés']},
         "sources":         sorted(list({c['source'] for c in cases})),

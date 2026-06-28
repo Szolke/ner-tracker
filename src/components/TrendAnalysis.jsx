@@ -16,7 +16,7 @@ export default function TrendAnalysis({ data, darkMode }) {
       const y = c.date.slice(0,4);
       if (!byYear[y]) byYear[y] = { count:0, amount:0, korrupció:0, pénzügyi:0, közbeszerzés:0 };
       byYear[y].count++;
-      byYear[y].amount += c.amount_huf;
+      byYear[y].amount += c.amount_huf || 0;
       byYear[y][c.category]++;
     });
     const years = Object.entries(byYear).sort();
@@ -38,7 +38,7 @@ export default function TrendAnalysis({ data, darkMode }) {
     const topCat = Object.entries(catCount).sort((a,b)=>b[1]-a[1])[0];
 
     // Average case amount
-    const avgAmount = cases.reduce((s,c)=>s+c.amount_huf,0) / cases.length;
+    const avgAmount = cases.reduce((s,c)=>s+(c.amount_huf||0),0) / cases.length;
 
     // Insights
     const insights = [];

@@ -113,8 +113,8 @@ function addMarkers(cases, L, map, onCaseSelect) {
 
   Object.entries(groups).forEach(([key, group]) => {
     const [lat, lng] = key.split(',').map(Number);
-    const maxAmount = Math.max(...group.map(c => c.amount_huf));
-    const radius = Math.max(14, Math.min(40, Math.sqrt(maxAmount / 1e8)));
+    const maxAmount = Math.max(...group.map(c => c.amount_huf || 0));
+    const radius = Math.max(14, Math.min(40, maxAmount > 0 ? Math.sqrt(maxAmount / 1e8) : 14));
 
     // Circle marker – color by most severe status
     const statusPriority = { investigation: 0, active: 1, appeal: 2, closed: 3 };
@@ -140,7 +140,7 @@ function addMarkers(cases, L, map, onCaseSelect) {
           ${getStatusLabel(c.status)}
         </span>
         <span style="font-size:12px;margin-left:8px">
-          💰 ${(c.amount_huf / 1e9).toFixed(1)}B HUF
+          💰 ${c.amount_huf != null ? `${(c.amount_huf / 1e9).toFixed(1)} Mrd HUF` : 'Összeg ismeretlen'}
         </span>
       </div>
     `).join('');

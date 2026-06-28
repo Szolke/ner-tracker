@@ -189,7 +189,7 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
                       {CAT_ICONS[c.category]} {c.title.length > 40 ? c.title.slice(0,40)+'…' : c.title}
                     </div>
                     <div style={{opacity:0.7,fontSize:'9px'}}>
-                      {c.date} · {(c.amount_huf/1e9).toLocaleString('hu-HU',{maximumFractionDigits:1})} Mrd
+                      {c.date}{c.amount_huf != null ? ` · ${(c.amount_huf/1e9).toLocaleString('hu-HU',{maximumFractionDigits:1})} Mrd HUF` : ''}
                     </div>
                   </div>
                 </foreignObject>

@@ -52,8 +52,8 @@ function shareCase(c) {
 
 
 // ── Magyar számformázó ───────────────────────────────────────────────
-const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
-const mrdS = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
+const mrd  = huf => huf != null ? (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF' : 'Összeg ismeretlen';
+const mrdS = huf => huf != null ? (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF' : '—';
 
 export default function Dashboard({ darkMode, toggleDarkMode }) {
   const { lang, t, setLang } = useLang();
@@ -96,16 +96,16 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
       (!q || c.title.toLowerCase().includes(q) || c.involved_persons.some(p => p.name.toLowerCase().includes(q))) &&
       (filterStatus === 'all' || c.status === filterStatus) &&
       (filterCat === 'all' || c.category === filterCat) &&
-      c.amount_huf <= maxAmount * 1e9
+      (c.amount_huf == null || c.amount_huf <= maxAmount * 1e9)
     );
   }, [data, searchTerm, filterStatus, filterCat, maxAmount]);
 
   const watchedCases  = useMemo(() => data?.cases.filter(c => watched.has(c.id)) || [], [data, watched]);
-  const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+c.amount_huf,0)??0, [data]);
+  const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+(c.amount_huf||0),0)??0, [data]);
   const categoryData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.category]=(m[c.category]||0)+1;}); return Object.entries(m).map(([name,value])=>({name,value})); }, [data]);
   const timelineData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{const y=c.date.slice(0,4);m[y]=(m[y]||0)+1;}); return Object.entries(m).sort().map(([year,count])=>({year,count})); }, [data]);
   const statusData    = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.status]=(m[c.status]||0)+1;}); return Object.entries(m).map(([name,value])=>({name:STATUS_LABELS[name]||name,value})); }, [data]);
-  const scatterData   = useMemo(() => categoryData.map(cat=>({name:cat.name,count:data?.cases.filter(c=>c.category===cat.name).length||0,total:+((data?.cases.filter(c=>c.category===cat.name).reduce((s,c)=>s+c.amount_huf,0)||0)/1e9).toFixed(1)})), [data,categoryData]);
+  const scatterData   = useMemo(() => categoryData.map(cat=>({name:cat.name,count:data?.cases.filter(c=>c.category===cat.name).length||0,total:+((data?.cases.filter(c=>c.category===cat.name).reduce((s,c)=>s+(c.amount_huf||0),0)||0)/1e9).toFixed(1)})), [data,categoryData]);
   const allPersons    = useMemo(() => { if(!data)return[]; const seen=new Set(); return data.cases.flatMap(c=>c.involved_persons).filter(p=>{if(seen.has(p.id))return false;seen.add(p.id);return true;}); }, [data]);
 
   const yearlyStats = useMemo(() => {

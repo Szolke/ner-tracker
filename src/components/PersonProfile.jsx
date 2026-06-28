@@ -36,7 +36,7 @@ export default function PersonProfile({ darkMode }) {
 
   const relCases = data.cases.filter(c=>c.involved_persons.some(p=>p.id===id));
   const conns = (data.connections||[]).filter(c=>c.from===id||c.to===id);
-  const totalAmt = relCases.reduce((s,c)=>s+c.amount_huf,0);
+  const totalAmt = relCases.reduce((s,c)=>s+(c.amount_huf||0),0);
   const byStatus = {};
   relCases.forEach(c=>{ byStatus[c.status]=(byStatus[c.status]||0)+1; });
   const byYear = {};
