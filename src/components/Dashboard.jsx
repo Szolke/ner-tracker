@@ -86,6 +86,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const handleCaseSelect = useCallback(c => {
     setSelectedCase(c);
     setSearchParams({ case: c.id });
+    setActiveTab('cases');
   }, [setSearchParams]);
 
   const filteredCases = useMemo(() => {
@@ -167,14 +168,6 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             title={tr.share} className="p-1 rounded opacity-40 hover:opacity-100">
             <Share2 className="w-3.5 h-3.5"/>
           </button>
-          {c.link && (
-            <a href={c.link} target="_blank" rel="noopener noreferrer"
-              onClick={e=>e.stopPropagation()}
-              title={tr.viewSource}
-              className="p-1 rounded opacity-40 hover:opacity-100 hover:text-blue-400 transition">
-              <ExternalLink className="w-3.5 h-3.5"/>
-            </a>
-          )}
         </div>
       </div>
       <p className="font-semibold text-sm leading-snug">{c.title}</p>
@@ -201,11 +194,6 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   ];
 
   return (
-    <>
-    {selectedCase && (
-      <CaseDetail c={selectedCase} darkMode={darkMode} watched={watched} data={data}
-        toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}}/>
-    )}
     <div className={`min-h-screen ${darkMode?'bg-gray-900 text-white':'bg-gray-50 text-gray-900'}`}>
       <div className="max-w-7xl mx-auto">
 
@@ -362,6 +350,10 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                 {filteredCases.map(c => <CaseCard key={c.id} c={c}/>)}
               </div>
 
+              {selectedCase && (
+                <CaseDetail c={selectedCase} darkMode={darkMode} watched={watched} data={data}
+                  toggleWatch={toggleWatch} onClose={()=>{setSelectedCase(null);setSearchParams({});}}/>
+              )}
             </div>
           )}
 
@@ -420,7 +412,6 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
@@ -437,8 +428,6 @@ function Highlight({ text, query }) {
 function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
   const { t: tr } = useLang();
   const STATUS_LABELS_I18N = { active: tr.statusActive, investigation: tr.statusInvestigation, closed: tr.statusClosed, appeal: tr.statusAppeal };
-  const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b981', appeal:'#8b5cf6' };
-  const CATEGORY_COLORS = { 'korrupció':'#ef4444', 'pénzügyi':'#3b82f6', 'közbeszerzés':'#8b5cf6' };
 
   const relatedCases = data?.cases.filter(other =>
     other.id !== c.id && (
@@ -447,158 +436,72 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
     )
   ).slice(0, 3) || [];
 
-  useEffect(() => {
-    const handler = e => { if (e.key === 'Escape') onClose(); };
-    window.addEventListener('keydown', handler);
-    return () => window.removeEventListener('keydown', handler);
-  }, [onClose]);
-
-  const catColor = CATEGORY_COLORS[c.category] || '#6b7280';
-  const statColor = STATUS_COLORS[c.status] || '#6b7280';
-
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4"
-      style={{backdropFilter:'blur(4px)', background:'rgba(0,0,0,0.6)'}}
-      onClick={onClose}>
-      <div onClick={e=>e.stopPropagation()}
-        className={`relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl ${darkMode?'bg-gray-900 text-white':'bg-white text-gray-900'}`}>
-
-        {/* Colour bar */}
-        <div className="h-1.5 rounded-t-2xl" style={{background:`linear-gradient(90deg, ${catColor}, ${statColor})`}}/>
-
-        {/* Header */}
-        <div className="p-6 pb-4">
-          <div className="flex items-start justify-between gap-4 mb-3">
-            <div className="flex flex-wrap gap-2">
-              <span className="text-xs font-bold px-2.5 py-1 rounded-full"
-                style={{background:`${catColor}22`, color:catColor}}>
-                {c.category}
-              </span>
-              <span className="text-xs font-bold px-2.5 py-1 rounded-full"
-                style={{background:`${statColor}22`, color:statColor}}>
-                {STATUS_LABELS_I18N[c.status]}
-              </span>
-              {c.verified === true && <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400">✅ {tr.verified}</span>}
-            </div>
-            <div className="flex items-center gap-1.5 flex-shrink-0">
-              <button onClick={()=>toggleWatch(c.id)}
-                title={watched.has(c.id)?tr.removeCase:tr.followCase}
-                className={`p-1.5 rounded-lg transition ${watched.has(c.id)?'bg-yellow-500/20 text-yellow-400':'opacity-40 hover:opacity-80'}`}>
-                <Star className="w-4 h-4" fill={watched.has(c.id)?'currentColor':'none'}/>
-              </button>
-              <button onClick={()=>shareCase(c)} title={tr.share}
-                className="p-1.5 rounded-lg opacity-40 hover:opacity-80 transition">
-                <Share2 className="w-4 h-4"/>
-              </button>
-              <button onClick={onClose}
-                className={`p-1.5 rounded-lg transition opacity-40 hover:opacity-100 ${darkMode?'hover:bg-gray-700':'hover:bg-gray-100'}`}>
-                <span className="text-xl leading-none">×</span>
-              </button>
-            </div>
-          </div>
-          <h2 className="text-xl font-bold leading-snug mb-2">{c.title}</h2>
-          <p className={`text-sm ${darkMode?'text-gray-400':'text-gray-500'}`}>
-            {c.source} · {c.region} · {c.date}
-            {c.media_count > 0 && <span className="ml-2 opacity-70">· {c.media_count} {tr.articleCount}</span>}
-          </p>
+    <div className={`p-5 rounded-xl border ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'}`}>
+      <div className="flex justify-between items-start mb-4">
+        <h3 className="text-xl font-bold pr-4">{c.title}</h3>
+        <div className="flex items-center gap-2">
+          <button onClick={()=>toggleWatch(c.id)}
+            title={watched.has(c.id)?tr.removeCase:tr.followCase}
+            className={`p-1.5 rounded-lg transition ${watched.has(c.id)?'bg-yellow-500/20 text-yellow-400':'opacity-40 hover:opacity-100'}`}>
+            <Star className="w-4 h-4" fill={watched.has(c.id)?'currentColor':'none'}/>
+          </button>
+          <button onClick={()=>shareCase(c)} title={tr.share}
+            className="p-1.5 rounded-lg opacity-40 hover:opacity-100 transition">
+            <Share2 className="w-4 h-4"/>
+          </button>
+          <button onClick={onClose} className="text-2xl opacity-40 hover:opacity-100 ml-1">×</button>
         </div>
-
-        {/* Divider */}
-        <div className={`mx-6 border-t ${darkMode?'border-gray-700':'border-gray-200'}`}/>
-
-        {/* Body */}
-        <div className="p-6 space-y-5">
-
-          {/* Description */}
-          <p className={`text-sm leading-relaxed ${darkMode?'text-gray-300':'text-gray-700'}`}>{c.description}</p>
-
-          {/* Key metrics */}
-          <div className="grid grid-cols-3 gap-3">
-            {[
-              [tr.amountLabel, mrd(c.amount_huf)],
-              [tr.regionLabel, c.region],
-              [tr.dateLabel,   c.date],
-            ].map(([label, value]) => (
-              <div key={label} className={`p-3 rounded-xl ${darkMode?'bg-gray-800':'bg-gray-50'}`}>
-                <p className="text-xs opacity-40 mb-0.5">{label}</p>
-                <p className="font-semibold text-sm">{value}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Tags */}
-          {c.tags?.length > 0 && (
-            <div className="flex flex-wrap gap-1.5">
-              {c.tags.map(tag => (
-                <span key={tag} className="px-2.5 py-0.5 text-xs rounded-full bg-blue-500/15 text-blue-400">{tag}</span>
-              ))}
+      </div>
+      <p className={`text-sm mb-4 leading-relaxed ${darkMode?'text-gray-300':'text-gray-600'}`}>{c.description}</p>
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+        {[[tr.status_label,STATUS_LABELS_I18N[c.status]],[tr.category_label,c.category],[tr.regionLabel,c.region],[tr.amountLabel,`${mrd(c.amount_huf)}`]].map(([k,v])=>(
+          <div key={k} className={`p-3 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}><p className="text-xs opacity-40">{k}</p><p className="font-semibold text-sm mt-0.5">{v}</p></div>
+        ))}
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div><p className="text-sm font-semibold mb-2 opacity-60">{tr.involvedPersons}</p>
+          <div className="space-y-2">{c.involved_persons.map(p=>(
+            <div key={p.id} className={`p-2.5 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
+              <p className="font-semibold text-sm">{p.name}</p><p className="text-xs opacity-50">{p.position}</p>
             </div>
-          )}
-
-          {/* Involved persons */}
-          {c.involved_persons?.length > 0 && (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wider opacity-40 mb-2">{tr.involvedPersons}</p>
-              <div className="flex flex-wrap gap-2">
-                {c.involved_persons.map(p => (
-                  <div key={p.id} className={`flex items-center gap-2.5 px-3 py-2 rounded-xl ${darkMode?'bg-gray-800':'bg-gray-50'}`}>
-                    <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
-                      {p.name.charAt(0)}
-                    </div>
-                    <div>
-                      <p className="text-sm font-semibold leading-tight">{p.name}</p>
-                      {p.position && p.position !== 'ismeretlen' && (
-                        <p className="text-xs opacity-50">{p.position}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Related cases */}
-          {relatedCases.length > 0 && (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wider opacity-40 mb-2">{tr.relatedCases}</p>
-              <div className="space-y-2">
-                {relatedCases.map(rc => (
-                  <div key={rc.id}
-                    className={`p-3 rounded-xl cursor-pointer transition flex items-center justify-between gap-3 ${darkMode?'bg-gray-800 hover:bg-gray-700':'bg-gray-50 hover:bg-gray-100'}`}
-                    onClick={() => { toggleWatch; onClose(); }}>
-                    <p className="text-xs font-semibold leading-snug">{rc.title}</p>
-                    <span className="text-xs opacity-40 flex-shrink-0">{mrdS(rc.amount_huf)}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Documents */}
-          {c.document_links?.length > 0 && (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wider opacity-40 mb-2">{tr.documents}</p>
-              <div className="space-y-1">
+          ))}</div></div>
+        <div><p className="text-sm font-semibold mb-2 opacity-60">{tr.details}</p>
+          <div className={`p-3 rounded-lg space-y-2 ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
+            <p className="text-sm"><b>{tr.sourceLabel}:</b> {c.source}</p>
+            <p className="text-sm"><b>{tr.dateLabel}:</b> {c.date}</p>
+            {c.tags?.length>0 && <div className="flex flex-wrap gap-1 pt-1">{c.tags.map(t=><span key={t} className="px-2 py-0.5 text-xs rounded-full bg-blue-500/20 text-blue-400">{t}</span>)}</div>}
+            <a href={c.link} target="_blank" rel="noopener noreferrer"
+              className="block pt-1 text-sm text-blue-500 hover:underline">
+              {tr.viewSource}
+            </a>
+            {c.document_links?.length > 0 && (
+              <div className="mt-2 space-y-1">
+                <p className="text-xs opacity-40 font-semibold">{tr.documents}</p>
                 {c.document_links.map((doc, i) => (
                   <a key={i} href={doc.url} target="_blank" rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-xs text-purple-400 hover:underline">
+                    className="block text-xs text-purple-400 hover:underline truncate">
                     📎 {doc.title}
                   </a>
                 ))}
               </div>
-            </div>
-          )}
-
-          {/* CTA */}
-          {c.link && (
-            <a href={c.link} target="_blank" rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition">
-              <ExternalLink className="w-4 h-4"/>
-              {tr.viewSource} — {c.source}
-            </a>
-          )}
-        </div>
+            )}
+          </div></div>
       </div>
+      {relatedCases.length > 0 && (
+        <div className="mt-4">
+          <p className="text-sm font-semibold mb-2 opacity-60">{tr.relatedCases}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+            {relatedCases.map(rc => (
+              <div key={rc.id} className={`p-3 rounded-lg cursor-pointer transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-50 hover:bg-gray-100'}`}
+                onClick={() => onClose()}>
+                <p className="text-xs font-semibold leading-snug">{rc.title}</p>
+                <p className="text-xs opacity-50 mt-1">{rc.region} · {mrdS(rc.amount_huf)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
