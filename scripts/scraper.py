@@ -23,6 +23,9 @@ NER_CORE = [
     'pegasus', 'paks', 'budapest airport', 'liszt ferenc repülő',
     'mészáros-közeli', 'fidesz-közeli', 'orbán-közeli',
     'közbeszerzési', 'közpénzből', 'pályázati pénz',
+    'eu-s pályázat', 'állami forrás', 'közpénz-elszámolás',
+    'bdpst', 'városliget', 'liget projekt', 'garancsi', 'tiborcz',
+    'k-monitor', 'eppo magyarország', 'tényfeltáró',
 ]
 
 # Korrupciós indikátorok — KÖTELEZŐ legalább egy
@@ -61,15 +64,25 @@ def _feed_url(url):
     return url
 
 FEEDS = [
-    {"name":"Telex",       "url":"https://telex.hu/rss",                         "source":"Telex"},
-    {"name":"HVG",         "url":"https://hvg.hu/rss",                           "source":"HVG"},
-    {"name":"444",         "url":"https://444.hu/feed",                          "source":"444"},
-    {"name":"Direkt36",    "url":"https://direkt36.hu/feed/",                    "source":"Direkt36"},
-    {"name":"Atlatszo",    "url":"https://atlatszo.hu/feed/",                    "source":"Átlátszó"},
-    {"name":"Merce",       "url":"https://merce.hu/tag/korrupcio/feed/",         "source":"Mérce"},
-    {"name":"Narancs",     "url":"https://magyarnarancs.hu/rss",                 "source":"Magyar Narancs"},
-    {"name":"SzabadEu",    "url":"https://www.szabad-europa.hu/z/rss",           "source":"Szabad Európa"},
-    {"name":"Partizan",    "url":"https://partizan.online/feed",                 "source":"Partizán"},
+    # Általános hírportálok (széles lefedettség)
+    {"name":"Telex",       "url":"https://telex.hu/rss",                                    "source":"Telex"},
+    {"name":"HVG",         "url":"https://hvg.hu/rss",                                      "source":"HVG"},
+    {"name":"444",         "url":"https://444.hu/feed",                                     "source":"444"},
+    # Nyomozó újságírás (NER-korrupció fókusz)
+    {"name":"Direkt36",    "url":"https://direkt36.hu/feed/",                               "source":"Direkt36"},
+    {"name":"Atlatszo",    "url":"https://atlatszo.hu/feed/",                               "source":"Átlátszó"},
+    {"name":"AtlatszoPenz","url":"https://atlatszo.hu/category/kozpenz/feed/",              "source":"Átlátszó"},
+    {"name":"Abcug",       "url":"https://abcug.hu/feed/",                                  "source":"Abcúg"},
+    {"name":"G7",          "url":"https://g7.hu/feed/",                                     "source":"G7"},
+    # Politikai elemzők, balliberális sajtó
+    {"name":"Narancs",     "url":"https://magyarnarancs.hu/rss",                            "source":"Magyar Narancs"},
+    {"name":"Merce",       "url":"https://merce.hu/tag/korrupcio/feed/",                    "source":"Mérce"},
+    {"name":"Partizan",    "url":"https://partizan.online/feed",                            "source":"Partizán"},
+    # Nemzetközi magyar szerkesztőségek
+    {"name":"SzabadEu",    "url":"https://www.szabad-europa.hu/z/rss",                      "source":"Szabad Európa"},
+    # Témakör-specifikus feedek
+    {"name":"AtlatszoPalyazat","url":"https://atlatszo.hu/tag/palyazat/feed/",             "source":"Átlátszó"},
+    {"name":"HVGKozpenz",  "url":"https://hvg.hu/gazdasag/rss",                            "source":"HVG Gazdaság"},
 ]
 
 REGION_COORDS = {

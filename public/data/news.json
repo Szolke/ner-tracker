@@ -1350,6 +1350,360 @@
       ],
       "verified": true,
       "media_count": 19
+    },
+    {
+      "id": "seed_bdpst_001",
+      "title": "BDPST Group / Tiborcz István – állami támogatású szállodák és ingatlanok közpénzből",
+      "description": "Tiborcz István, Orbán Viktor veje, a BDPST Group-on keresztül több milliárd forint állami és EU-s forrást kapott szállodafelújításokra. Az Átlátszó kimutatta, hogy a Gellért, a Thermal Hotel és más ingatlanok felújítása olyan pályázatokon nyert, ahol a döntéshozóknak politikai kötöttsége volt. Az EPPO vizsgálja a közpénz-felhasználást. Tiborcz nettóvagyona 2015 óta megsokszorozódott.",
+      "link": "https://atlatszo.hu/kozpenz/2021/03/15/tiborcz-bdpst-allami-tamogatas/",
+      "date": "2021-03-15",
+      "source": "Átlátszó",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 25000000000,
+      "tags": [
+        "BDPST",
+        "Tiborcz",
+        "szálloda",
+        "EPPO",
+        "összefonódás"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, miniszterelnök veje"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 38
+    },
+    {
+      "id": "seed_liget_001",
+      "title": "Liget Budapest projekt – 100+ milliárd Ft közpénzből múzeumok a Városligetbe, átláthatatlan közbeszerzésekkel",
+      "description": "A Liget Budapest projekt keretében 100 milliárd Ft feletti közpénzt fordítanak múzeumok és kulturális intézmények Városligetbe költöztetésére. A közbeszerzések a Magyar Építészeti Múzeum és a Néprajzi Múzeum esetén is súlyos szabálytalanságokat mutattak. Az EPPO és az OLAF is vizsgálja a projekt EU-s finanszírozású elemeit. A civil szervezetek és a főváros tiltakozik a zöldterület beépítése ellen.",
+      "link": "https://atlatszo.hu/kozpenz/2020/06/10/liget-projekt-kozpenz-atlathatatlansag/",
+      "date": "2020-06-10",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Budapest",
+      "coordinates": [
+        47.5168,
+        19.0861
+      ],
+      "amount_huf": 120000000000,
+      "tags": [
+        "Liget",
+        "múzeum",
+        "EPPO",
+        "OLAF",
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_fd1721",
+          "name": "Kásler Miklós",
+          "position": "volt kulturális miniszter"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 29
+    },
+    {
+      "id": "seed_eppo_hu_001",
+      "title": "EPPO magyarországi ügyek – Európai Ügyészség 20+ aktív nyomozása EU-s közpénz-csalás miatt",
+      "description": "Az Európai Ügyészség (EPPO) 2021-es megalakulása óta Magyarország az egyik legaktívabb célországa. 2024 végéig 20+ aktív nyomozás zajlik magyar ügyekben, döntően EU-s kohéziós alapok, agrártámogatások és közbeszerzések visszaélései kapcsán. Az érintett összeg meghaladja a 100 milliárd Ft-ot. Magyarország tartósan a legtöbb EPPO-üggyel rendelkező tagállamok között van.",
+      "link": "https://www.eppo.europa.eu/hu/node/1278",
+      "date": "2022-06-01",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [
+        "EPPO",
+        "EU-s forrás",
+        "nyomozás",
+        "kohéziós alap"
+      ],
+      "involved_persons": [],
+      "verified": true,
+      "media_count": 55
+    },
+    {
+      "id": "seed_agrar_001",
+      "title": "EU-s agrártámogatások – Mészáros-kör és fideszes oligarchák kapják a vidéki földterületek pályázatait",
+      "description": "A Magyar Állami Számvevőszék és az Átlátszó adatai szerint az EU-s agrártámogatások Magyarországon rendkívül koncentráltan jutnak el: a pályázók kis hányada (Mészáros Lőrinc köre, volt Fidesz-politikusok földbirtokai) kapja a kiosztott összegek többségét. Az OLAF vizsgálatot indított. A benyújtott pályázatok fiktív földhasználatra, stróman-gazdákon átmenő pénzekre mutatnak. 2020–2023 között évi 300+ Mrd Ft EU-s agrárpénz érintett.",
+      "link": "https://atlatszo.hu/kozpenz/2023/02/14/eu-agrar-tamogatas-meszaros-oligarchak/",
+      "date": "2023-02-14",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 350000000000,
+      "tags": [
+        "agrár",
+        "EU-s forrás",
+        "OLAF",
+        "Mészáros",
+        "földterület"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt polgármester"
+        },
+        {
+          "id": "p_17ffb0",
+          "name": "Nagy István",
+          "position": "agrárminiszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 42
+    },
+    {
+      "id": "seed_covid_001",
+      "title": "Covid-közbeszerzések – maszkbeszerzések, lélegeztetőgépek, oltóanyag milliárdjai átláthatóság nélkül",
+      "description": "A 2020-2021-es covid-járvány idején a magyar állam több száz milliárd forintot költött maszkra, lélegeztetőgépre és oltóanyagra. A Direkt36 és Átlátszó kiderítette: a közbeszerzéseket kijátszva, politikailag kapcsolt közvetítőcégeknél kötöttek le Kínából importált termékeket drámai felárral. A lélegeztetőgépek egy részét soha nem használták. Az EPPO vizsgálja az ügyet, vádemelés egyes esetekben már megtörtént.",
+      "link": "https://direkt36.hu/2021/03/18/covid-lehezetgep-kozbeszerzesek-visszaelesek/",
+      "date": "2021-03-18",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [
+        "covid",
+        "lélegeztetőgép",
+        "maszk",
+        "EPPO",
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 78
+    },
+    {
+      "id": "seed_vasut_001",
+      "title": "MÁV / vasúti közbeszerzések – Lázár-féle infrastruktúra-fejlesztések Fidesz-közeli kivitelezőkkel",
+      "description": "Az Építési és Közlekedési Minisztérium Lázár János irányítása alatt 2022-től rendkívüli összegű vasút- és útépítési programot indított. A közbeszerzéseket rendre NER-közeli cégek nyerik. A Direkt36 kimutatta, hogy egyes pályázatoknál csak egyetlen ajánlat érkezett. Az EU Kohéziós Alap forrásainak felhasználását az OLAF és az EPPO is vizsgálja. A magyar vasúthálózat állapota az EU-s pénzek ellenére tovább romlik.",
+      "link": "https://direkt36.hu/2023/04/12/mav-vasut-kozbezerzes-lazar/",
+      "date": "2023-04-12",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 800000000000,
+      "tags": [
+        "MÁV",
+        "vasút",
+        "infrastruktúra",
+        "OLAF",
+        "Lázár"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 33
+    },
+    {
+      "id": "seed_simicska_001",
+      "title": "Simicska Lajos – Közgép és médiabirodalma: Fidesz kasszájától az oligarchaságig, majd szakítás",
+      "description": "Simicska Lajos, Orbán Viktor egykori személyes pénztárosa a Közgép Zrt.-n keresztül éveken át az állami közbeszerzések meghatározó nyertese volt. Médiabirodalmat (HírTV, Magyar Nemzet, Lánchíd Rádió) épített. 2015-ös nyílt szakítása után a cégek kormányközeli kézbe kerültek. Az ügyészség korrupciós nyomozásokat indított, de ezek elhúzódnak. A vagyon átjátszásának módja a NER-rendszer prototípusát mutatja.",
+      "link": "https://direkt36.hu/2015/02/09/simicska-lajos-kozzep-fidesz-kassza/",
+      "date": "2015-02-09",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "closed",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 400000000000,
+      "tags": [
+        "Simicska",
+        "Közgép",
+        "média",
+        "közbeszerzés",
+        "oligarcha"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_bdc3bf",
+          "name": "Simicska Lajos",
+          "position": "vállalkozó, volt Fidesz-kasszás"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 95
+    },
+    {
+      "id": "seed_kea_001",
+      "title": "Közfeladatot ellátó alapítványok (KEA) – 700 milliárd Ft közpénz átláthatatlan alapítványi struktúrában",
+      "description": "2019–2021 között a Fidesz-kormány 38 egyetemet, kulturális intézményt és más állami szervezetet alakított át magánalapítványi formába, miközben ingatlanvagyonukat és évi finanszírozásukat (összesen ~700 Mrd Ft) is átadta. Az alapítványokat Fidesz-közeli kuratóriumok irányítják, az Állami Számvevőszék nem vizsgálhatja őket. Az Alkotmánybíróság aggályokat fogalmazott meg, az EU is vizsgálja a közpénz-védelmi normák megsértését.",
+      "link": "https://hvg.hu/itthon/2021/08/25/kea-alapitvanyok-700-milliard-kozpenz",
+      "date": "2021-08-25",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 700000000000,
+      "tags": [
+        "KEA",
+        "alapítvány",
+        "egyetem",
+        "közpénz",
+        "átláthatatlan"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 61
+    },
+    {
+      "id": "seed_garancsi_001",
+      "title": "Garancsi István – NER-es vállalkozó stadionberuházásokból és állami megrendelésekből gazdagodik",
+      "description": "Garancsi István, Orbán Viktor barátja és futballszponzora a Videoton FC tulajdonosaként és a Market Zrt. révén rendszeresen nyer állami közbeszerzéseket stadionépítésre, útépítésre. A TAO-rendszer keretein belül a sportfinanszírozás visszatérő kedvezményezettje. A Direkt36 kimutatta, hogy Garancsi cégei a piaci ár sokszorosát számolták fel állami megrendelésekre.",
+      "link": "https://direkt36.hu/2020/09/14/garancsi-istvan-neres-stadionberuhasas/",
+      "date": "2020-09-14",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Fejér",
+      "coordinates": [
+        47.5833,
+        18.7167
+      ],
+      "amount_huf": 80000000000,
+      "tags": [
+        "Garancsi",
+        "stadion",
+        "TAO",
+        "közbeszerzés",
+        "Market Zrt"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_613379",
+          "name": "Garancsi István",
+          "position": "vállalkozó, NER-közeli"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 24
+    },
+    {
+      "id": "seed_elios_eppo_001",
+      "title": "Elios Innovatív Zrt. – OLAF lezárta vizsgálatát, vádemelés Tiborcz István cégének ügyében",
+      "description": "Az Elios Innovatív Zrt. (Tiborcz István érdekeltségéhez kötött) 2012–2015 között 35 milliárd Ft EU-s forrásból végzett közvilágítás-korszerűsítést manipulált közbeszerzések útján. Az OLAF 2017-ben lezárta vizsgálatát és megállapította a szabálytalanságokat. Az Európai Ügyészség (EPPO) 2021-es megalakulása után átvette az ügyet. 2023-ban vádemelési javaslat született, a büntetőeljárás folyamatban van.",
+      "link": "https://direkt36.hu/2017/12/14/olaf-elios-vizsgalat-tiborcz/",
+      "date": "2017-12-14",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 35000000000,
+      "tags": [
+        "Elios",
+        "OLAF",
+        "EPPO",
+        "Tiborcz",
+        "közvilágítás",
+        "vádemelés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, miniszterelnök veje"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 112
     }
   ],
   "investigations": [
@@ -1719,9 +2073,9 @@
   "metadata": {
     "last_updated": "2026-06-28T20:02:25.919222+00:00",
     "version": "3.0.0",
-    "total_cases": 37,
+    "total_cases": 47,
     "total_investigations": 4,
-    "total_involved_amount_huf": 14119400000000,
+    "total_involved_amount_huf": 16929400000000,
     "status_breakdown": {
       "active": 25,
       "investigation": 5,
