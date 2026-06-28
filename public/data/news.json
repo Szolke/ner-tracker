@@ -40,60 +40,6 @@
       ]
     },
     {
-      "id": "sc_ab3ec0d3",
-      "title": "Dél-Korea elnöke kormányzati vizsgálatot követel, miután a válogatottjuk kiesett a foci vb-n",
-      "description": "I Dzsemjong elnézést kért a nem megfelelően elköltött adófizetői forrásokért, az ország közvéleményének okozott csalódásért és szigorú elszámoltatást ígért.",
-      "link": "https://telex.hu/sport/2026/06/28/del-korea-foci-vb-2026-i-dzsemjong-hong-mjong-elszamoltatas",
-      "date": "2026-06-28",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_a32af1c0",
-      "title": "Az ausztrál kormány csillagászati összeggel bírságolná a techcégeket, akik nem tiltják ki a 16 éveseket a közösségi médiából",
-      "description": "16 év alatt elvileg tilos a közösségi média használata, de a gyerekek könnyen kijátszák az ellenőrzéseket.",
-      "link": "https://telex.hu/kulfold/2026/06/27/ausztralia-kozossegi-media-tilalom-kiskoruak",
-      "date": "2026-06-27",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_80177671",
-      "title": "Azonnali belső vizsgálatot rendelt el a honvédelmi miniszter az újdörögdi kézigránát-baleset ügyében",
-      "description": "Korábban az ügyészség azzal zárta le a nyomozást, hogy nem lehet büntetőjogi felelősséget megállapítani, a megsérült kormánytisztviselő viszont nem fogadta el ezt.",
-      "link": "https://444.hu/2026/06/27/azonnali-belso-vizsgalatot-rendelt-el-a-honvedelmi-miniszter-az-ujdorogdi-kezigranat-baleset-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-06-27",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
       "id": "sc_f7a1e643",
       "title": "Utolérheti a Tisztítótűz művelet a Mol-vezért?│Elvitelre",
       "description": "Elvitelre – a podcast, amelyben a hét legjobb HVG hetilapos és hvg360-as anyagaiból válogatunk. A héten: milliárdos károk és egy távozó miniszterelnök.",
@@ -115,74 +61,6 @@
         {
           "id": "p_24bd5e",
           "name": "Elvitelre Elvitelre",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_660f0b02",
-      "title": "Törvényt sérthet a Mohu, amikor díjat számít fel az építési hulladék leadásáért a lakosságtól",
-      "description": "Az állítólagos visszaélések miatt a Mohu július 1-től nem biztosítja az építési-bontási hulladék bizonyos kvótáig ingyenes leadását a lakosság számára, ez azonban a kormányhivatal szerint megsérti a hulladéktörvény rendelkezéseit. Az új, fizetős rendszer a szakemberek szerint az illegális szemétlerakást növeli.",
-      "link": "https://hvg.hu/360/20260627_mohu-bontasi-hulladek-sitt-hulladekudvar-lakossagi-dij-jogsertes",
-      "date": "2026-06-27",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2f106412",
-      "title": "Belső vizsgálatot kezdeményezett a honvédségnél Ruszin-Szendi Romulusz az újdörögdi gránátbaleset ügyében",
-      "description": "A miniszter közölte, hogy ugyan a büntetőjogi felelősség megállapítása nem az ő feladata, de „van egy másik felelősség is”.",
-      "link": "https://hvg.hu/itthon/20260627_belso-vizsgalat-honvedseg-ruszin-szendi-ujdorogdi-granatbaleset",
-      "date": "2026-06-27",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_3ce719",
-          "name": "Szendi Romulusz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_bd8b676a",
-      "title": "Azonnali belső vizsgálatot rendelt el Ruszin-Szendi Romulusz az újdörögdi kézigránát-baleset miatt",
-      "description": "A honvédelmi miniszter azt írta: tudomásul veszi, hogy az ügyészség lezárta az ügyet, de ha valaki hibázott, annak vállalnia kell a következményeket.",
-      "link": "https://telex.hu/belfold/2026/06/27/ruszin-szendi-romulusz-ujdorogdi-kezigranat-baleset-belso-vizsgalat",
-      "date": "2026-06-27",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_3ce719",
-          "name": "Szendi Romulusz",
           "position": "ismeretlen"
         }
       ]
@@ -297,32 +175,6 @@
         "hirdetés"
       ],
       "involved_persons": []
-    },
-    {
-      "id": "sc_4f7ddf68",
-      "title": "Nyomozás a MOL-alapítványnál, létszámleépítés a Mediaworksnél",
-      "description": "Heti lapszemlénk.",
-      "link": "https://atlatszo.hu/mutyimondo/2026/06/19/nyomozas-a-mol-alapitvanynal-letszamleepites-a-mediaworksnel/",
-      "date": "2026-06-19",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_61db9a",
-          "name": "Mediaworksnél Heti",
-          "position": "ismeretlen"
-        }
-      ]
     },
     {
       "id": "sc_ebe6af25",
@@ -531,30 +383,6 @@
       ]
     },
     {
-      "id": "sc_7e96aa43",
-      "title": "Újra tartalékos katona lett Ruszin-Szendi Romulusz",
-      "description": "A honvédelmi miniszter teljesítette az ejtőernyős egészségügyi alkalmassági vizsgálatot.",
-      "link": "https://telex.hu/belfold/2026/06/26/ruszin-szendi-romulusz-honvedelmi-miniszter-tartalekos-katona-ejtoernyos-egeszsegugyi-alkalmassagi-vizsgalat",
-      "date": "2026-06-26",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_3ce719",
-          "name": "Szendi Romulusz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "case_001",
       "title": "Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás",
       "description": "Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenykorlátozó módon. Az OLAF 2017-ben megállapította a szabálytalanságot és javasolta az EU-s támogatások visszafizettetését. A magyar ügyészség nem emelt vádat.",
@@ -713,52 +541,6 @@
         {
           "date": "2021-05-10",
           "status": "closed"
-        }
-      ]
-    },
-    {
-      "id": "case_004",
-      "title": "Állami hirdetési piac torzítása – kormányközeli médiakoncentráció",
-      "description": "Az állami hirdetési büdzsé 80-90%-a kormányközeli médiacégekhez kerül, miközben független újságírók és médiumok elvérznek. A KESMA (Közép-európai Sajtó és Média Alapítvány) 500+ médiaterméket olvasztott össze 2018-ban versenyhatósági vizsgálat nélkül.",
-      "link": "https://direkt36.hu/2023/09/05/allami-hirdetes-media-koncentracio",
-      "date": "2023-09-05",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "investigation",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 85000000000,
-      "tags": [
-        "KESMA",
-        "médiakoncentráció",
-        "állami hirdetés",
-        "sajtószabadság"
-      ],
-      "involved_persons": [
-        {
-          "id": "p005",
-          "name": "Habony Árpád",
-          "position": "kommunikációs tanácsadó"
-        },
-        {
-          "id": "p011",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        }
-      ],
-      "verified": true,
-      "media_count": 134,
-      "status_history": [
-        {
-          "date": "2023-09-05",
-          "status": "active"
-        },
-        {
-          "date": "2024-01-15",
-          "status": "investigation"
         }
       ]
     },
@@ -1121,43 +903,6 @@
         {
           "date": "2017-12-01",
           "status": "closed"
-        }
-      ]
-    },
-    {
-      "id": "case_013",
-      "title": "Miskolci ipari park – EU-s forrás szabálytalan felhasználása",
-      "description": "Miskolcon ipari park fejlesztésére fordított EU-s forrás elköltésének vizsgálata. Az OLAF 2023-ban nyitott vizsgálatot az eljárások szabályossága kapcsán.",
-      "link": "https://hvg.hu/gazdasag/2023/08/30/miskolc-ipari-park-eu",
-      "date": "2023-08-30",
-      "source": "HVG",
-      "category": "közbeszerzés",
-      "status": "investigation",
-      "region": "Borsod-Abaúj-Zemplén",
-      "coordinates": [
-        48.1035,
-        20.7784
-      ],
-      "amount_huf": 4700000000,
-      "tags": [
-        "EU",
-        "ipari park",
-        "Miskolc",
-        "OLAF"
-      ],
-      "involved_persons": [
-        {
-          "id": "p017",
-          "name": "Veres Pál",
-          "position": "volt miskolci polgármester"
-        }
-      ],
-      "verified": false,
-      "media_count": 8,
-      "status_history": [
-        {
-          "date": "2023-08-30",
-          "status": "investigation"
         }
       ]
     },
@@ -1608,9 +1353,9 @@
   "metadata": {
     "last_updated": "2026-06-28T19:43:56.611607+00:00",
     "version": "3.0.0",
-    "total_cases": 36,
+    "total_cases": 26,
     "total_investigations": 4,
-    "total_involved_amount_huf": 8539400000000,
+    "total_involved_amount_huf": 8449700000000,
     "status_breakdown": {
       "active": 25,
       "investigation": 5,

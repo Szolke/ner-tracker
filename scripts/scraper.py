@@ -11,7 +11,39 @@ log = logging.getLogger("ner-scraper")
 
 PRIMARY   = ['fidesz','mészáros','NER','közpénz','kormány','miniszter','orbán','állami','közbeszerzés','pályázat','tender','alapítvány']
 SECONDARY = ['korrupció','visszaélés','nyomozás','vizsgálat','gyanú','vád','túlárazás','szabálytalan','átláthatatlan','OLAF','EPPO','ügyészség','pénzmosás','sikkasztás','vesztegetés','anomália','milliárd','EU-s forrás','visszaigénylés','bírság']
-EXCLUDE   = ['sport eredmény','időjárás','horoszkóp','recept','szórakozás']
+
+# Legalább egy magyar kontextus-kulcsszónak szerepelnie kell
+HUNGARIAN_REQUIRED = [
+    # Politika, személyek
+    'magyarország','magyar','fidesz','orbán','mészáros','rogán','tiborcz',
+    'miniszterelnök','parlament','alaptörvény','nér',
+    # Közpénz, intézmények
+    'közpénz','közbeszerzés','önkormányzat','állami','közalapítvány',
+    'közhasznú','állami vállalat','állami támogatás',
+    # Cégek, szervezetek (NER-közeliek)
+    'mol ','mediaworks','mohu','nkm ','rimaholding','közút','mvp ',
+    # Városok, régiók (csak magyarok)
+    'budapest','miskolc','debrecen','pécs','győr','szeged','felcsút',
+    'veszprém','kaposvár','nyíregyháza','kecskemét','székesfehérvár',
+    # Deviza
+    'forint','huf',
+    # Médiaforráscímkék
+    'telex.hu','hvg.hu','444.hu','direkt36','atlatszo',
+]
+
+EXCLUDE = [
+    # Irreleváns témák
+    'sport eredmény','időjárás','horoszkóp','recept','szórakozás',
+    # Külföldi kormányok/ügyök (külföldi hírek magyar sajtóban)
+    'ausztrál kormány','ausztrália','dél-korea','koreai','trump','fehér ház',
+    'orosz kormány','putyin','ukrán','izraeli','brit kormány','london',
+    'francia kormány','német kormány','olasz kormány','spanyol kormány',
+    'kínai kormány','japán kormány','indiai kormány','brazil',
+    'eu-parlament',  # csak EU-parlament szintű hírek, nem magyar
+]
+
+# Fidesz-kormányzás kezdete: 2010-05-29
+NER_ERA_START = '2010-01-01'
 
 # ── RSS Proxy beállítás ──────────────────────────────────────────────
 # Ha a PROXY_URL env változó be van állítva, azon keresztül kéri le a feedeket.
@@ -116,10 +148,20 @@ def detect_amount(text):
         if m: return int(float(m.group(1).replace(',','.'))*mult)
     return None
 
-def is_relevant(title, summary=''):
+def is_relevant(title, summary='', date_str=None):
     text = (title+' '+summary).lower()
+    # Kizárás: explicit tiltott témák
     if any(ex in text for ex in EXCLUDE): return False
-    return any(k in text for k in PRIMARY) and any(k in text for k in SECONDARY)
+    # Kötelező: PRIMARY + SECONDARY keyword
+    if not (any(k in text for k in PRIMARY) and any(k in text for k in SECONDARY)):
+        return False
+    # Kötelező: legalább egy magyar kontextus-kulcsszó
+    if not any(k in text for k in HUNGARIAN_REQUIRED):
+        return False
+    # Dátum: csak Fidesz-era (2010+)
+    if date_str and date_str < NER_ERA_START:
+        return False
+    return True
 
 def make_id(url): return 'sc_'+hashlib.md5(url.encode()).hexdigest()[:8]
 
@@ -133,9 +175,9 @@ def scrape_all():
                 title   = getattr(entry,'title','')
                 summary = BeautifulSoup(getattr(entry,'summary',''),'html.parser').get_text()
                 link    = getattr(entry,'link','')
-                if not is_relevant(title, summary): continue
                 try:    pub = dateparser.parse(str(entry.published)).strftime('%Y-%m-%d')
                 except: pub = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                if not is_relevant(title, summary, pub): continue
                 region, coords = detect_region(title+' '+summary)
                 full_text = title+' '+summary
                 items.append({
