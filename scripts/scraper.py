@@ -9,9 +9,42 @@ from dateutil import parser as dateparser
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 log = logging.getLogger("ner-scraper")
 
-PRIMARY   = ['fidesz','mészáros','NER','közpénz','kormány','miniszter','orbán','állami','közbeszerzés','pályázat','tender','alapítvány']
-SECONDARY = ['korrupció','visszaélés','nyomozás','vizsgálat','gyanú','vád','túlárazás','szabálytalan','átláthatatlan','OLAF','EPPO','ügyészség','pénzmosás','sikkasztás','vesztegetés','anomália','milliárd','EU-s forrás','visszaigénylés','bírság']
-EXCLUDE   = ['sport eredmény','időjárás','horoszkóp','recept','szórakozás']
+# NER-specifikus személyek/intézmények — KÖTELEZŐ legalább egy
+NER_CORE = [
+    'fidesz', 'orbán', 'mészáros', 'rogán', 'tiborcz', 'habony',
+    'szijjártó', 'lázár', 'kásler', 'palkovics', 'gulyás', 'csányi',
+    'polt', 'parragh', 'borkai', 'simicska', 'vida ildikó',
+    'varga mihály', 'deutsch', 'kövér', 'semjén', 'pintér',
+    'vitézy', 'karácsony', 'demeter',
+    'közpénz', 'nér', 'olaf', 'eppo', 'elios', 'közgép', 'quaestor',
+    'rimaholding', 'mediaworks', 'felcsút', 'nkm', 'mohu',
+    'közfeladatot ellátó', 'fideszhez közel', 'kormányközeli',
+    'tao-rendszer', 'tao ', 'mol-vezér', 'mol rt', 'mol zrt',
+    'pegasus', 'paks', 'budapest airport', 'liszt ferenc repülő',
+    'mészáros-közeli', 'fidesz-közeli', 'orbán-közeli',
+    'közbeszerzési', 'közpénzből', 'pályázati pénz',
+]
+
+# Korrupciós indikátorok — KÖTELEZŐ legalább egy
+SECONDARY = [
+    'korrupció','visszaélés','nyomozás','vizsgálat','gyanú','vád',
+    'túlárazás','szabálytalan','átláthatatlan','olaf','eppo',
+    'ügyészség','pénzmosás','sikkasztás','vesztegetés','anomália',
+    'milliárd','eu-s forrás','visszaigénylés','bírság',
+    'érdekeltség','összefonódás','oligarcha',
+    'pályázatot nyert','megfigyelés','kémprogram','nyernek',
+]
+
+EXCLUDE = [
+    'sport eredmény','időjárás','horoszkóp','recept','szórakozás',
+    'kézigránát','ruszin-szendi','katonai baleset',
+    'dél-korea','koreai elnök','ausztrál kormány','ausztrália ',
+    'trump','fehér ház','putyin','ukrán front','izraeli hadsereg',
+    'brit kormány','francia kormány','német kormány','kínai kormány',
+    'foci vb','labdarúgó','válogatott kiesett',
+]
+
+NER_ERA_START = '2010-01-01'
 
 # ── RSS Proxy beállítás ──────────────────────────────────────────────
 # Ha a PROXY_URL env változó be van állítva, azon keresztül kéri le a feedeket.
@@ -116,10 +149,11 @@ def detect_amount(text):
         if m: return int(float(m.group(1).replace(',','.'))*mult)
     return None
 
-def is_relevant(title, summary=''):
+def is_relevant(title, summary='', date_str=None):
     text = (title+' '+summary).lower()
     if any(ex in text for ex in EXCLUDE): return False
-    return any(k in text for k in PRIMARY) and any(k in text for k in SECONDARY)
+    if date_str and date_str < NER_ERA_START: return False
+    return any(k in text for k in NER_CORE) and any(k in text for k in SECONDARY)
 
 def make_id(url): return 'sc_'+hashlib.md5(url.encode()).hexdigest()[:8]
 
@@ -133,9 +167,9 @@ def scrape_all():
                 title   = getattr(entry,'title','')
                 summary = BeautifulSoup(getattr(entry,'summary',''),'html.parser').get_text()
                 link    = getattr(entry,'link','')
-                if not is_relevant(title, summary): continue
                 try:    pub = dateparser.parse(str(entry.published)).strftime('%Y-%m-%d')
                 except: pub = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+                if not is_relevant(title, summary, pub): continue
                 region, coords = detect_region(title+' '+summary)
                 full_text = title+' '+summary
                 items.append({
@@ -201,6 +235,16 @@ def load_existing():
     return {"cases":[],"investigations":[],"connections":[],"metadata":{}}
 
 def merge(existing, new_items):
+    # Meglévő irreleváns cikkek eltávolítása
+    before = len(existing['cases'])
+    existing['cases'] = [
+        c for c in existing['cases']
+        if is_relevant(c.get('title',''), c.get('description',''), c.get('date'))
+    ]
+    removed = before - len(existing['cases'])
+    if removed:
+        log.info(f"Eltávolítva (irreleváns): {removed} régi ügy")
+
     ids   = {c['id'] for c in existing['cases']}
     links = {c['link'] for c in existing['cases']}
     added = 0
