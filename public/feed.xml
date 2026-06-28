@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Sat, 27 Jun 2026 10:07:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:47:52 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Az ausztrál kormány csillagászati összeggel bírságolná a techcégeket, akik nem tiltják ki a 16 éveseket a közösségi médiából]]></title>
+    <link>https://telex.hu/kulfold/2026/06/27/ausztralia-kozossegi-media-tilalom-kiskoruak</link>
+    <guid>sc_a32af1c0</guid>
+    <pubDate>2026-06-27</pubDate>
+    <description><![CDATA[16 év alatt elvileg tilos a közösségi média használata, de a gyerekek könnyen kijátszák az ellenőrzéseket. | Budapest | 500 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Azonnali belső vizsgálatot rendelt el a honvédelmi miniszter az újdörögdi kézigránát-baleset ügyében]]></title>
     <link>https://444.hu/2026/06/27/azonnali-belso-vizsgalatot-rendelt-el-a-honvedelmi-miniszter-az-ujdorogdi-kezigranat-baleset-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -157,14 +165,6 @@
     <guid>case_001</guid>
     <pubDate>2017-03-02</pubDate>
     <description><![CDATA[Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenyko | Budapest | 35000 M HUF | korrupció]]></description>
-    <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Mészáros Lőrinc vagyongyarapodása – felcsúti vállalkozóból oligarcha]]></title>
-    <link>https://telex.hu/gazdasag/2023/04/12/meszaros-lorinc-vagyon-cegek</link>
-    <guid>case_002</guid>
-    <pubDate>2023-04-12</pubDate>
-    <description><![CDATA[Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált – kizárólag állami megrendelések révén. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmill | Fejér | 280000 M HUF | korrupció]]></description>
     <category>korrupció</category>
   </item>
   </channel>

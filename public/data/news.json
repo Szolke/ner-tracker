@@ -1,6 +1,24 @@
 {
   "cases": [
     {
+      "id": "sc_a32af1c0",
+      "title": "Az ausztrál kormány csillagászati összeggel bírságolná a techcégeket, akik nem tiltják ki a 16 éveseket a közösségi médiából",
+      "description": "16 év alatt elvileg tilos a közösségi média használata, de a gyerekek könnyen kijátszák az ellenőrzéseket.",
+      "link": "https://telex.hu/kulfold/2026/06/27/ausztralia-kozossegi-media-tilalom-kiskoruak",
+      "date": "2026-06-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_80177671",
       "title": "Azonnali belső vizsgálatot rendelt el a honvédelmi miniszter az újdörögdi kézigránát-baleset ügyében",
       "description": "Korábban az ügyészség azzal zárta le a nyomozást, hogy nem lehet büntetőjogi felelősséget megállapítani, a megsérült kormánytisztviselő viszont nem fogadta el ezt.",
@@ -1471,20 +1489,20 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-27T10:07:16.764696+00:00",
+    "last_updated": "2026-06-28T09:47:52.174470+00:00",
     "version": "3.0.0",
-    "total_cases": 33,
+    "total_cases": 34,
     "total_investigations": 4,
-    "total_involved_amount_huf": 8546900000000,
+    "total_involved_amount_huf": 8547400000000,
     "status_breakdown": {
-      "active": 22,
+      "active": 23,
       "investigation": 5,
       "closed": 5,
       "appeal": 1
     },
     "category_breakdown": {
       "korrupció": 8,
-      "pénzügyi": 21,
+      "pénzügyi": 22,
       "közbeszerzés": 4
     },
     "sources": [
@@ -1496,14 +1514,14 @@
     ],
     "regions_covered": [
       "Baranya",
-      "Pest",
       "Budapest",
-      "Győr-Moson-Sopron",
-      "Somogy",
-      "Fejér",
+      "Pest",
+      "Tolna",
       "Csongrád-Csanád",
       "Borsod-Abaúj-Zemplén",
-      "Tolna"
+      "Győr-Moson-Sopron",
+      "Somogy",
+      "Fejér"
     ]
   }
 }
