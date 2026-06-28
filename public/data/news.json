@@ -1,6 +1,63 @@
 {
   "cases": [
     {
+      "id": "sc_29046c36",
+      "title": "Eltett 60 üveg befőttet, majd törvénytervezetet olvasott és ettől ávéházni kezdett a fideszes Czunyiné, a Védvonal vezetője",
+      "description": "Új Államvédelmi Hatóság épül – elég a gyanú... – elmélkedett a Nemzeti Vagyonvisszaszerzési és Védelmi Hivatalról a fideszes jogsegélyszolgálat, az Orbán Viktor ötletére alapított Védvonal vezetője.",
+      "link": "https://hvg.hu/itthon/20260628_czunyine-mar-az-avh-t-emlegeti-az-vagyonvisszaszerzesi-hivatal",
+      "date": "2026-06-28",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_082c4e",
+          "name": "Új Államvédelmi",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_e9acad",
+          "name": "Nemzeti Vagyonvisszaszerzési",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_14064b",
+          "name": "Védelmi Hivatalról",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_ab3ec0d3",
+      "title": "Dél-Korea elnöke kormányzati vizsgálatot követel, miután a válogatottjuk kiesett a foci vb-n",
+      "description": "I Dzsemjong elnézést kért a nem megfelelően elköltött adófizetői forrásokért, az ország közvéleményének okozott csalódásért és szigorú elszámoltatást ígért.",
+      "link": "https://telex.hu/sport/2026/06/28/del-korea-foci-vb-2026-i-dzsemjong-hong-mjong-elszamoltatas",
+      "date": "2026-06-28",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_a32af1c0",
       "title": "Az ausztrál kormány csillagászati összeggel bírságolná a techcégeket, akik nem tiltják ki a 16 éveseket a közösségi médiából",
       "description": "16 év alatt elvileg tilos a közösségi média használata, de a gyerekek könnyen kijátszák az ellenőrzéseket.",
@@ -1486,23 +1543,83 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_082c4e",
+      "type": "political_ally",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_e9acad",
+      "type": "political_ally",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_14064b",
+      "type": "political_ally",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_082c4e",
+      "to": "p_e9acad",
+      "type": "business_connection",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_082c4e",
+      "to": "p_14064b",
+      "type": "business_connection",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_e9acad",
+      "to": "p_14064b",
+      "type": "business_connection",
+      "cases": [
+        "sc_29046c36"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-28T10:59:06.246754+00:00",
+    "last_updated": "2026-06-28T19:43:56.611607+00:00",
     "version": "3.0.0",
-    "total_cases": 34,
+    "total_cases": 36,
     "total_investigations": 4,
     "total_involved_amount_huf": 8539400000000,
     "status_breakdown": {
-      "active": 23,
+      "active": 25,
       "investigation": 5,
       "closed": 5,
       "appeal": 1
     },
     "category_breakdown": {
       "korrupció": 8,
-      "pénzügyi": 22,
+      "pénzügyi": 24,
       "közbeszerzés": 4
     },
     "sources": [
@@ -1513,15 +1630,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Csongrád-Csanád",
-      "Somogy",
       "Budapest",
       "Tolna",
-      "Győr-Moson-Sopron",
-      "Pest",
-      "Baranya",
       "Fejér",
-      "Borsod-Abaúj-Zemplén"
+      "Pest",
+      "Somogy",
+      "Győr-Moson-Sopron",
+      "Baranya",
+      "Borsod-Abaúj-Zemplén",
+      "Csongrád-Csanád"
     ]
   }
 }

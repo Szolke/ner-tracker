@@ -5,8 +5,24 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Sun, 28 Jun 2026 10:59:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 19:43:56 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Eltett 60 üveg befőttet, majd törvénytervezetet olvasott és ettől ávéházni kezdett a fideszes Czunyiné, a Védvonal vezetője]]></title>
+    <link>https://hvg.hu/itthon/20260628_czunyine-mar-az-avh-t-emlegeti-az-vagyonvisszaszerzesi-hivatal</link>
+    <guid>sc_29046c36</guid>
+    <pubDate>2026-06-28</pubDate>
+    <description><![CDATA[Új Államvédelmi Hatóság épül – elég a gyanú... – elmélkedett a Nemzeti Vagyonvisszaszerzési és Védelmi Hivatalról a fideszes jogsegélyszolgálat, az Orbán Viktor ötletére alapított Védvonal vezetője. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Dél-Korea elnöke kormányzati vizsgálatot követel, miután a válogatottjuk kiesett a foci vb-n]]></title>
+    <link>https://telex.hu/sport/2026/06/28/del-korea-foci-vb-2026-i-dzsemjong-hong-mjong-elszamoltatas</link>
+    <guid>sc_ab3ec0d3</guid>
+    <pubDate>2026-06-28</pubDate>
+    <description><![CDATA[I Dzsemjong elnézést kért a nem megfelelően elköltött adófizetői forrásokért, az ország közvéleményének okozott csalódásért és szigorú elszámoltatást ígért. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Az ausztrál kormány csillagászati összeggel bírságolná a techcégeket, akik nem tiltják ki a 16 éveseket a közösségi médiából]]></title>
     <link>https://telex.hu/kulfold/2026/06/27/ausztralia-kozossegi-media-tilalom-kiskoruak</link>
@@ -150,22 +166,6 @@
     <pubDate>2026-06-26</pubDate>
     <description><![CDATA[Az ügyészség szerint a gazdasági csalással és pénzmosással gyanúsított Hidvégi József esetében fennáll az elrejtőzés és az eljárás meghiúsításának veszélye. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Újra tartalékos katona lett Ruszin-Szendi Romulusz]]></title>
-    <link>https://telex.hu/belfold/2026/06/26/ruszin-szendi-romulusz-honvedelmi-miniszter-tartalekos-katona-ejtoernyos-egeszsegugyi-alkalmassagi-vizsgalat</link>
-    <guid>sc_7e96aa43</guid>
-    <pubDate>2026-06-26</pubDate>
-    <description><![CDATA[A honvédelmi miniszter teljesítette az ejtőernyős egészségügyi alkalmassági vizsgálatot. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás]]></title>
-    <link>https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/</link>
-    <guid>case_001</guid>
-    <pubDate>2017-03-02</pubDate>
-    <description><![CDATA[Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenyko | Budapest | 35000 M HUF | korrupció]]></description>
-    <category>korrupció</category>
   </item>
   </channel>
 </rss>
