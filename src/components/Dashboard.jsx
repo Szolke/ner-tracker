@@ -326,7 +326,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                   <div><label className="text-xs font-semibold opacity-50 block mb-1">Kategória</label>
                     <select value={filterCat} onChange={e=>setFilterCat(e.target.value)} className={`w-full px-3 py-2 rounded-lg border text-sm ${darkMode?'bg-gray-700 border-gray-600 text-white':'bg-white border-gray-300'}`}>
                       <option value="all">Összes</option><option value="korrupció">Korrupció</option><option value="pénzügyi">Pénzügyi</option><option value="közbeszerzés">Közbeszerzés</option></select></div>
-                  <div><label className="text-xs font-semibold opacity-50 block mb-1">Max: {maxAmount}B HUF</label>
+                  <div><label className="text-xs font-semibold opacity-50 block mb-1">Max: {maxAmount} Mrd HUF</label>
                     <input type="range" min="1" max="35" value={maxAmount} onChange={e=>setMaxAmount(+e.target.value)} className="w-full mt-2"/></div>
                 </div>
                 <p className="text-xs mt-3 opacity-40">{filteredCases.length} ügy megjelenítve</p>
