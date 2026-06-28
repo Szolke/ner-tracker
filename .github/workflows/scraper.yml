@@ -44,7 +44,7 @@ jobs:
           if ! git diff --staged --quiet; then
             CASE_COUNT=$(python3 -c "import json; d=json.load(open('public/data/news.json')); print(d['metadata']['total_cases'])" 2>/dev/null || echo "?")
             git commit -m "🔄 Daily scrape: $(date -u +'%Y-%m-%d %H:%M UTC') | ${CASE_COUNT} ügy"
-            git push
+            git pull --rebase && git push
             echo "PUSHED=true" >> $GITHUB_ENV
           else
             echo "Nincs változás"
@@ -55,7 +55,7 @@ jobs:
         if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install Node dependencies
         if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
