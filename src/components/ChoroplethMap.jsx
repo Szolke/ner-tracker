@@ -53,8 +53,9 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
   cases.forEach(c => {
     const id = REGION_MAP[c.region];
     if (!id) return;
-    if (!stats[id]) stats[id] = { amount: 0, count: 0, cases: [] };
+    if (!stats[id]) stats[id] = { amount: 0, count: 0, cases: [], hasAmount: false };
     stats[id].amount += c.amount_huf || 0;
+    if (c.amount_huf != null) stats[id].hasAmount = true;
     stats[id].count++;
     stats[id].cases.push(c);
   });
@@ -115,7 +116,7 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
                     </text>
                     <text x={cx} y={cy+18} textAnchor="middle" fontSize="8" fontWeight="700"
                       fill={t > 0.5 ? 'white' : '#ef4444'}>
-                      {(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})}B
+                      {s.hasAmount ? `${(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd` : '—'}
                     </text>
                   </>
                 )}
@@ -132,7 +133,7 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
         return (
           <div className={`p-3 rounded-lg text-sm ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
             <p className="font-bold">{county?.[1]}</p>
-            <p className="opacity-70">{s.count} ügy · {(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})}B HUF</p>
+            <p className="opacity-70">{s.count} ügy · {s.hasAmount ? `${(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF` : 'Összeg ismeretlen'}</p>
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {s.cases.map(c => (
                 <span key={c.id} onClick={() => onCaseSelect && onCaseSelect(c)}

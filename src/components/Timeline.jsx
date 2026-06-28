@@ -67,10 +67,17 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
   const reset = useCallback(() => {
     stopPlay();
     setVisible(0);
-    if (scrollRef.current) scrollRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+    if (scrollRef.current) scrollRef.current.scrollTo({ left: W - scrollRef.current.clientWidth, behavior: 'smooth' });
   }, [stopPlay]);
 
   useEffect(() => () => clearInterval(intervalRef.current), []);
+
+  // Scroll to most recent events on mount
+  useEffect(() => {
+    if (scrollRef.current && W > scrollRef.current.clientWidth) {
+      scrollRef.current.scrollLeft = W - scrollRef.current.clientWidth;
+    }
+  }, [W]);
 
   const displayCount = visibleCount === 0 && !playing ? sorted.length : visibleCount;
 
