@@ -51,6 +51,27 @@ jobs:
             echo "PUSHED=false" >> $GITHUB_ENV
           fi
 
+      - name: Set up Node.js
+        if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node dependencies
+        if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm install
+
+      - name: Build
+        if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        if: env.PUSHED == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy dist --project-name=ner-tracker --commit-dirty=true
+
       - name: Send email notification
         if: env.PUSHED == 'true' && env.RESEND_API_KEY != ''
         env:
