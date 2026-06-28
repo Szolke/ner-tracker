@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLang } from '../i18n.jsx';
 
 // Hexagonal grid layout of Hungarian counties (~geographic position)
 // [id, name, col, row]
@@ -46,6 +47,7 @@ function lerp(a, b, t) {
 }
 
 export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
+  const { t: tr } = useLang();
   const [hovered, setHovered] = useState(null);
 
   // Aggregate by county id
@@ -148,13 +150,13 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
 
       {/* Scale */}
       <div className="flex items-center gap-2 text-xs opacity-50">
-        <span>Kevés</span>
+        <span>{tr.scaleMin}</span>
         <div className="flex h-3 rounded overflow-hidden" style={{width:120}}>
           {Array.from({length:10},(_,i)=>(
             <div key={i} style={{flex:1, background: lerp(darkMode?'#1e3a5f':'#dbeafe','#ef4444',i/9)}}/>
           ))}
         </div>
-        <span>Sok / Nagy összeg</span>
+        <span>{tr.scaleMax}</span>
       </div>
     </div>
   );

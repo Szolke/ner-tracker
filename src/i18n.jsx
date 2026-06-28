@@ -55,6 +55,17 @@ const T = {
     involvedCases: 'Érintett ügyek', connections: 'Kapcsolatok',
     noConnections: 'Nincs rögzített kapcsolat',
     businessConn: '🤝 Üzleti', politicalConn: '🏛️ Politikai',
+    // Timeline
+    play: 'Lejátszás', pause: 'Megállítás', allCases: 'Összes ügy',
+    playing: 'Lejátszás…', dragOrScroll: '← húzd vagy görgess →',
+    // Heatmap scale
+    scaleMin: 'Kevés', scaleMax: 'Sok / Nagy összeg',
+    // EU comparison
+    huCpi: 'Magyarország CPI 2023', cpiScale: '100-ból (0 = legsúlyosabb)',
+    euAvgCpi: 'EU átlag CPI', huBehind: 'ponttal elmarad',
+    euRanking: 'Sorrend az EU-ban', euLaggards: 'Sereghajtók között',
+    euChartTitle: 'Transparency International CPI 2023 – EU tagállamok',
+    euSource: 'Forrás: Transparency International Corruption Perceptions Index 2023',
     // Amounts
     unknownAmount: 'Összeg ismeretlen', unknownShort: '—',
     // Export
@@ -117,6 +128,17 @@ const T = {
     involvedCases: 'Involved cases', connections: 'Connections',
     noConnections: 'No connections recorded',
     businessConn: '🤝 Business', politicalConn: '🏛️ Political',
+    // Timeline
+    play: 'Play', pause: 'Pause', allCases: 'All cases',
+    playing: 'Playing…', dragOrScroll: '← drag or scroll →',
+    // Heatmap scale
+    scaleMin: 'Low', scaleMax: 'High / Large amount',
+    // EU comparison
+    huCpi: 'Hungary CPI 2023', cpiScale: 'out of 100 (0 = most corrupt)',
+    euAvgCpi: 'EU average CPI', huBehind: 'points behind EU avg',
+    euRanking: 'EU ranking', euLaggards: 'Among laggards',
+    euChartTitle: 'Transparency International CPI 2023 – EU member states',
+    euSource: 'Source: Transparency International Corruption Perceptions Index 2023',
     // Amounts
     unknownAmount: 'Amount unknown', unknownShort: '—',
     // Export

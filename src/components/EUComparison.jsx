@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLang } from '../i18n.jsx';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, LabelList } from 'recharts';
 
 const CPI_DATA = [
@@ -23,6 +24,7 @@ const EU_AVG = Math.round(CPI_DATA.reduce((s, c) => s + c.score, 0) / CPI_DATA.l
 const HU_RANK = CPI_DATA.findIndex(c => c.highlight) + 1;
 
 export default function EUComparison({ darkMode }) {
+  const { t: tr } = useLang();
   const [view, setView] = useState('cpi');
 
   const tt = {
@@ -35,24 +37,24 @@ export default function EUComparison({ darkMode }) {
     <div className="space-y-4">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         <div className={`p-4 rounded-xl border-l-4 border-red-500 ${darkMode?'bg-gray-700':'bg-red-50'}`}>
-          <p className="text-xs opacity-50">Magyarország CPI 2023</p>
+          <p className="text-xs opacity-50">{tr.huCpi}</p>
           <p className="text-3xl font-bold text-red-500">42</p>
-          <p className="text-xs opacity-60 mt-1">100-ból (0 = legsúlyosabb)</p>
+          <p className="text-xs opacity-60 mt-1">{tr.cpiScale}</p>
         </div>
         <div className={`p-4 rounded-xl border-l-4 border-blue-500 ${darkMode?'bg-gray-700':'bg-blue-50'}`}>
-          <p className="text-xs opacity-50">EU átlag CPI</p>
+          <p className="text-xs opacity-50">{tr.euAvgCpi}</p>
           <p className="text-3xl font-bold text-blue-500">{EU_AVG}</p>
-          <p className="text-xs opacity-60 mt-1">Magyarország {EU_AVG - 42} ponttal elmarad</p>
+          <p className="text-xs opacity-60 mt-1">{EU_AVG - 42} {tr.huBehind}</p>
         </div>
         <div className={`p-4 rounded-xl border-l-4 border-orange-500 ${darkMode?'bg-gray-700':'bg-orange-50'}`}>
-          <p className="text-xs opacity-50">Sorrend az EU-ban</p>
+          <p className="text-xs opacity-50">{tr.euRanking}</p>
           <p className="text-3xl font-bold text-orange-500">{HU_RANK}. / {CPI_DATA.length}</p>
-          <p className="text-xs opacity-60 mt-1">Sereghajtók között</p>
+          <p className="text-xs opacity-60 mt-1">{tr.euLaggards}</p>
         </div>
       </div>
 
       <div className={`p-4 rounded-xl border ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'}`}>
-        <p className="text-xs font-semibold opacity-50 mb-3">Transparency International CPI 2023 – EU tagállamok</p>
+        <p className="text-xs font-semibold opacity-50 mb-3">{tr.euChartTitle}</p>
         <ResponsiveContainer width="100%" height={380}>
           <BarChart data={CPI_DATA} layout="vertical"
             margin={{ top: 0, right: 50, bottom: 0, left: 90 }}>
@@ -79,7 +81,7 @@ export default function EUComparison({ darkMode }) {
       </div>
 
       <p className="text-xs opacity-30 text-right">
-        Forrás: Transparency International Corruption Perceptions Index 2023
+        {tr.euSource}
       </p>
     </div>
   );

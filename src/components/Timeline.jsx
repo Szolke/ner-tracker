@@ -1,11 +1,13 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { Play, Pause, RotateCcw } from 'lucide-react';
+import { useLang } from '../i18n.jsx';
 
 const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b981', appeal:'#8b5cf6' };
 const STATUS_LABELS = { active:'Aktív', investigation:'Nyomozás', closed:'Lezárult', appeal:'Fellebbezés' };
 const CAT_ICONS = { 'korrupció':'🔴', 'pénzügyi':'🔵', 'közbeszerzés':'🟣' };
 
 export default function Timeline({ cases, onCaseSelect, darkMode }) {
+  const { t: tr } = useLang();
   const scrollRef   = useRef(null);
   const [selected, setSelected]     = useState(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -103,22 +105,22 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
           className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition ${
             playing ? 'bg-red-600 hover:bg-red-700 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'
           }`}>
-          {playing ? <><Pause className="w-4 h-4"/> Megállítás</> : <><Play className="w-4 h-4"/> Lejátszás</>}
+          {playing ? <><Pause className="w-4 h-4"/> {tr.pause}</> : <><Play className="w-4 h-4"/> {tr.play}</>}
         </button>
         <button onClick={reset}
           className={`p-2 rounded-lg transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
           <RotateCcw className="w-4 h-4"/>
         </button>
         <span className={`text-sm ${darkMode?'text-gray-400':'text-gray-500'}`}>
-          {displayCount === sorted.length ? `Összes ügy (${sorted.length})` : `${displayCount} / ${sorted.length} ügy`}
+          {displayCount === sorted.length ? `${tr.allCases} (${sorted.length})` : `${displayCount} / ${sorted.length}`}
         </span>
         {playing && (
           <span className="flex items-center gap-1.5 text-sm text-blue-400">
             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"/>
-            Lejátszás…
+            {tr.playing}
           </span>
         )}
-        <p className={`text-xs opacity-40 ml-auto`}>← húzd vagy görgess →</p>
+        <p className={`text-xs opacity-40 ml-auto`}>{tr.dragOrScroll}</p>
       </div>
 
       {/* Timeline SVG */}
