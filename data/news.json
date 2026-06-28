@@ -1067,6 +1067,289 @@
           "status": "active"
         }
       ]
+    },
+    {
+      "id": "seed_nka_001",
+      "title": "NKA – Nemzeti Kulturális Alap pályázatok politikai alapon Demeter Szilárd alatt",
+      "description": "A Nemzeti Kulturális Alap Demeter Szilárd elnöksége (2020–) alatt NER-közeli szervezetek kapták a pályázati pénzek oroszlánrészét. Független kulturális intézmények, színházak, filmesek finanszírozása visszaszorult. A döntési mechanizmus átláthatatlan, a kuratóriumi összetétel politikailag homogén. Az évente osztott kb. 8 milliárd Ft közpénz elosztása nem nyilvános szempontok alapján történik.",
+      "link": "https://www.szabad-europa.hu/a/nka-demeter-szilard-kulturalis-alap/31771788.html",
+      "date": "2021-03-15",
+      "source": "Szabad Európa",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 8000000000,
+      "tags": [
+        "NKA",
+        "kultúra",
+        "pályázat",
+        "közpénz"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ccfee4",
+          "name": "Demeter Szilárd",
+          "position": "NKA elnök, PIM főigazgató"
+        }
+      ],
+      "verified": true,
+      "media_count": 18
+    },
+    {
+      "id": "seed_kesma_001",
+      "title": "KESMA – 500 kormányközeli médium egyetlen alapítványba olvasztása versenyhivatali vizsgálat nélkül",
+      "description": "2018. november 28-án Mészáros Lőrinc és más Fidesz-közeli tulajdonosok közel 500 médiavállalkozást adtak át egyetlen Közép-európai Sajtó és Média Alapítványnak. A Gazdasági Versenyhivatal közérdekre hivatkozva vizsgálat nélkül engedélyezte. A KESMA kontrollálja a vidéki sajtó döntő részét, több napilapot, hírportált és rádiót. Az OLAF vizsgálatot indított az EU-s médiapolitika megsértése miatt.",
+      "link": "https://direkt36.hu/2018/11/29/kesma-media-osszeolvadas/",
+      "date": "2018-11-28",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "KESMA",
+        "média",
+        "sajtószabadság",
+        "koncentráció",
+        "OLAF"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt polgármester"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 42
+    },
+    {
+      "id": "seed_fudan_001",
+      "title": "Fudan Egyetem Budapest – kínai állami hitelből épülő campus, 200 milliárd Ft közpénz",
+      "description": "A magyar kormány 2021-ben bejelentette egy kínai állami Fudan Egyetem budapesti campusának megépítését 200 milliárd Ft-ot meghaladó kínai hitelből. A projektet a főváros és az ellenzék heves tiltakozása fogadta. A kormány 2021 júniusában formálisan elhalasztotta, de le nem mondta. Az átláthatatlan szerződés és az orosz–kínai kettős hitelfüggőség komoly kockázatot jelent.",
+      "link": "https://444.hu/2021/04/07/budapesti-fudan-egyetem-campus",
+      "date": "2021-04-07",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "appeal",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [
+        "Fudan",
+        "Kína",
+        "hitel",
+        "campus",
+        "átláthatatlan"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 65
+    },
+    {
+      "id": "seed_paks2_001",
+      "title": "Paks II. – orosz állami hitelből épülő atomerőmű-bővítés, 30 évre titkosított Rosatom-szerződés",
+      "description": "Magyarország 2014-ben titkos szerződést kötött a Rosatommal a Paksi Atomerőmű két új blokkjának megépítéséről, 12,5 milliárd eurós projektre 10 milliárd eurós orosz hitelt vesznek fel. A szerződés részleteit 30 évre titkosították. Az EU vizsgálatot indított közbeszerzési szabályok megkerülése miatt. Az építkezés 2024-ig nem indult el, az átadás éveket csúszik.",
+      "link": "https://direkt36.hu/2014/01/14/paks-ii-titkos-szerzodes-rosatom/",
+      "date": "2014-01-14",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "investigation",
+      "region": "Tolna",
+      "coordinates": [
+        46.5722,
+        18.8561
+      ],
+      "amount_huf": 4500000000000,
+      "tags": [
+        "Paks",
+        "Rosatom",
+        "atomenergia",
+        "hitel",
+        "titkos szerződés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 120
+    },
+    {
+      "id": "seed_szazfalu_001",
+      "title": "Száz Magyar Falu program – Mészáros-közeli cégek nyerik a falvak felújítási közbeszerzéseit",
+      "description": "A 2019-ben indított Száz Magyar Falu program keretében több száz milliárd forint állt rendelkezésre falvak felújítására. Vizsgálatok szerint a közbeszerzések rendszeresen Mészáros Lőrinc érdekkörébe tartozó vállalkozásokhoz kerültek. Egyes pályázatoknál az ajánlatok manipuláltak, a nyertes cégek politikailag kötődnek a Fideszhez. Az OLAF is vizsgálja az EU-s vidékfejlesztési pénzek felhasználását.",
+      "link": "https://atlatszo.hu/kozpenz/2020/05/12/szaz-magyar-falu-program-meszaros/",
+      "date": "2020-05-12",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 300000000000,
+      "tags": [
+        "falufelújítás",
+        "Mészáros",
+        "közbeszerzés",
+        "vidékfejlesztés",
+        "OLAF"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt polgármester"
+        },
+        {
+          "id": "p_17ffb0",
+          "name": "Nagy István",
+          "position": "agrárminiszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 28
+    },
+    {
+      "id": "seed_rogankozl_001",
+      "title": "Rogán-büdzsé – évi 100–150 milliárd Ft állami hirdetési pénz kormányközeli médiumoknak",
+      "description": "Rogán Antal Miniszterelnöki Kabinetiroda kezelésében évi 100-150 milliárd Ft közpénzt osztanak szét hirdetési formában. Az állami hirdetési piacot a KESMA tagjai és egyéb NER-közeliek uralják. Aki kritikus a kormánnyal, nem kap állami hirdetéseket – ez szerkesztési függetlenséget romboló pénzügyi nyomás. Az Átlátszó és OLAF is vizsgálja.",
+      "link": "https://atlatszo.hu/kozpenz/2022/03/01/allami-hirdetes-kormanykozeliek/",
+      "date": "2022-03-01",
+      "source": "Átlátszó",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 150000000000,
+      "tags": [
+        "hirdetés",
+        "média",
+        "OLAF",
+        "kommunikáció",
+        "Rogán"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        }
+      ],
+      "verified": true,
+      "media_count": 34
+    },
+    {
+      "id": "seed_nav_001",
+      "title": "NAV – Nemzeti Adó- és Vámhivatal politikai célú adóellenőrzések ellenzéki vállalkozók ellen",
+      "description": "Több vizsgálat és újságírói kutatás mutatta ki, hogy a NAV ellenőrzési aktivitása összefügg az érintett vállalkozók politikai álláspontjával. Orbán-kritikus cégeket aránytalanul gyakran ellenőriznek, míg Fidesz-közeli vállalkozók elkerülik a hatóságot. Az EPPO több ügyet vizsgál NAV-os visszaélések kapcsán. A volt NAV-elnök Vida Ildikó offshore vagyonát az USA szankcionálta.",
+      "link": "https://atlatszo.hu/kozpenz/2021/06/15/nav-politikai-adoellenorzesek/",
+      "date": "2021-06-15",
+      "source": "Átlátszó",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "NAV",
+        "adóellenőrzés",
+        "EPPO",
+        "offshore"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_099fd2",
+          "name": "Vida Ildikó",
+          "position": "volt NAV elnök"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 22
+    },
+    {
+      "id": "seed_mvm_001",
+      "title": "MVM Connect / Magyar Villamos Művek – állami energetikai gigacég átláthatatlan akvizíciói",
+      "description": "Az MVM-csoport (Magyar Villamos Művek) a Fidesz-kormányok alatt rendkívüli mértékben terjeszkedett: médiát, informatikát, gázt, áramot és egyebeket vásárolt össze. Az akvizíciók ára, a döntési folyamat és a stratégiai logika sokszor érthetetlen, a tranzakciók közbeszerzés nélkül történtek. A Direkt36 több esetben kimutatta a politikai motivációt és a körbetartozási struktúrákat.",
+      "link": "https://direkt36.hu/2022/10/05/mvm-connect-allami-energetika-akvizicios/",
+      "date": "2022-10-05",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000000,
+      "tags": [
+        "MVM",
+        "energetika",
+        "privatizáció",
+        "közpénz"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 19
     }
   ],
   "investigations": [
@@ -1436,9 +1719,9 @@
   "metadata": {
     "last_updated": "2026-06-28T20:02:25.919222+00:00",
     "version": "3.0.0",
-    "total_cases": 29,
+    "total_cases": 37,
     "total_investigations": 4,
-    "total_involved_amount_huf": 8461400000000,
+    "total_involved_amount_huf": 14119400000000,
     "status_breakdown": {
       "active": 25,
       "investigation": 5,
