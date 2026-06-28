@@ -426,6 +426,8 @@ function Highlight({ text, query }) {
 }
 
 function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
+  const { t: tr } = useLang();
+  const STATUS_LABELS_I18N = { active: tr.statusActive, investigation: tr.statusInvestigation, closed: tr.statusClosed, appeal: tr.statusAppeal };
 
   const relatedCases = data?.cases.filter(other =>
     other.id !== c.id && (
@@ -505,6 +507,7 @@ function CaseDetail({ c, darkMode, watched, toggleWatch, onClose, data }) {
 }
 
 function PersonDetail({ person, data, darkMode, onClose }) {
+  const { t: tr } = useLang();
   const relCases = data.cases.filter(c => c.involved_persons.some(p => p.id === person.id));
   const conns = (data.connections || []).filter(c => c.from === person.id || c.to === person.id);
   return (
