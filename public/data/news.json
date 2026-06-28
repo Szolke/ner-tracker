@@ -1,6 +1,174 @@
 {
   "cases": [
     {
+      "id": "sc_8cb8044a",
+      "title": "1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége",
+      "description": "Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi...",
+      "link": "https://atlatszo.hu/kozpenz/2021/08/12/18-milliard-forintot-oszthat-folyoiratoknak-demeter-szilard-kulturalis-ugynoksege/",
+      "date": "2021-08-12",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1800000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_ccfee4",
+          "name": "Demeter Szilárd",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b061033a",
+      "title": "Nem egyedi eset a Pegasus-ügy, Európa-szerte megfigyelnek újságírókat és aktivistákat",
+      "description": "Görögországban idén börtönbüntetést kapott a megfigyelési botrány több szereplője, de általában következmény nélkül maradt a civil szervezet és újságírók lehallgatása.",
+      "link": "https://atlatszo.hu/vilagterkep/2026/06/17/nem-egyedi-eset-a-pegasus-ugy-europa-szerte-megfigyelnek-ujsagirokat-es-aktivistakat/",
+      "date": "2026-06-17",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_89116ad6",
+      "title": "Merre tart az ezeréves német-magyar kapcsolat a kormányváltás után?",
+      "description": "A NER időszakában Alice Weidel többször járt Magyarországon, mint Angela Merkel, Olaf Scholz és Friedrich Merz együttvéve.",
+      "link": "https://atlatszo.hu/vilagterkep/2026/06/18/merre-tart-az-ezereves-nemet-magyar-kapcsolat-a-kormanyvaltas-utan/",
+      "date": "2026-06-18",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "OLAF"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_59a024",
+          "name": "Alice Weidel",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ad74e5",
+          "name": "Angela Merkel",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_6d3789",
+          "name": "Olaf Scholz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ff4e55",
+          "name": "Friedrich Merz",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_76a34814",
+      "title": "Katasztrofális állapotban a Tiborcz Istvánnal üzletelő szaúdi milliárdoshoz került hőgyészi Apponyi-kastély",
+      "description": "Az egykor messze földön híres műemlék kastélyszálló most betört ablakokkal, lyukas tetővel, penészes, leázott, helyenként leomlott falakkal várja, hogy összedőljön. Videóriport.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/25/katasztrofalis-allapotban-a-tiborcz-istvannal-uzletelo-szaudi-milliardoshoz-kerult-hogyeszi-apponyi-kastely/",
+      "date": "2026-06-25",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó"
+        },
+        {
+          "id": "p_2ce1f1",
+          "name": "Tiborcz Istvánnal",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_e0b18b42",
+      "title": "Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátjának",
+      "description": "Benkő Szilárd régóta közeli barátja Szijjártó Péternek. Nemrég két másik céggel közösen egy ruandai, magyar állami pénzekkel finanszírozott beruházásban kapott munkát az egyik érdekeltsége. Podcastunkban az ügy hátteréről és arról is beszélgettünk, tudott-e a korábbi külügyminiszter barátja sikeréről.\nThe post Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátján",
+      "link": "https://www.direkt36.hu/direkt36-podcast-afrikaban-is-jutott-kulugyes-biznisz-szijjarto-peter-legjobb-baratjanak/",
+      "date": "2026-06-24",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_6159d1",
+          "name": "Benkő Szilárd",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0353fb",
+          "name": "Szijjártó Péternek",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9627f208",
+      "title": "Több mint 12 milliárd forint közpénz jutott el alapítása óta az erdélyi médiabirodalomhoz",
+      "description": "A juttatások nagy részét titkolt határozatokban osztotta ki.",
+      "link": "https://hvg.hu/elet/20260628_tobb-mint-12-milliard-forint-kozpenz-jutott-alapitasa-ota-az-erdelyi-mediabirodalomhoz",
+      "date": "2026-06-28",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 12000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_29046c36",
       "title": "Eltett 60 üveg befőttet, majd törvénytervezetet olvasott és ettől ávéházni kezdett a fideszes Czunyiné, a Védvonal vezetője",
       "description": "Új Államvédelmi Hatóság épül – elég a gyanú... – elmélkedett a Nemzeti Vagyonvisszaszerzési és Védelmi Hivatalról a fideszes jogsegélyszolgálat, az Orbán Viktor ötletére alapított Védvonal vezetője.",
@@ -1631,43 +1799,6 @@
       "media_count": 61
     },
     {
-      "id": "seed_garancsi_001",
-      "title": "Garancsi István – NER-es vállalkozó stadionberuházásokból és állami megrendelésekből gazdagodik",
-      "description": "Garancsi István, Orbán Viktor barátja és futballszponzora a Videoton FC tulajdonosaként és a Market Zrt. révén rendszeresen nyer állami közbeszerzéseket stadionépítésre, útépítésre. A TAO-rendszer keretein belül a sportfinanszírozás visszatérő kedvezményezettje. A Direkt36 kimutatta, hogy Garancsi cégei a piaci ár sokszorosát számolták fel állami megrendelésekre.",
-      "link": "https://direkt36.hu/2020/09/14/garancsi-istvan-neres-stadionberuhasas/",
-      "date": "2020-09-14",
-      "source": "Direkt36",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Fejér",
-      "coordinates": [
-        47.5833,
-        18.7167
-      ],
-      "amount_huf": 80000000000,
-      "tags": [
-        "Garancsi",
-        "stadion",
-        "TAO",
-        "közbeszerzés",
-        "Market Zrt"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_613379",
-          "name": "Garancsi István",
-          "position": "vállalkozó, NER-közeli"
-        },
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        }
-      ],
-      "verified": true,
-      "media_count": 24
-    },
-    {
       "id": "seed_elios_eppo_001",
       "title": "Elios Innovatív Zrt. – OLAF lezárta vizsgálatát, vádemelés Tiborcz István cégének ügyében",
       "description": "Az Elios Innovatív Zrt. (Tiborcz István érdekeltségéhez kötött) 2012–2015 között 35 milliárd Ft EU-s forrásból végzett közvilágítás-korszerűsítést manipulált közbeszerzések útján. Az OLAF 2017-ben lezárta vizsgálatát és megállapította a szabálytalanságokat. Az Európai Ügyészség (EPPO) 2021-es megalakulása után átvette az ügyet. 2023-ban vádemelési javaslat született, a büntetőeljárás folyamatban van.",
@@ -2068,42 +2199,238 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_59a024",
+      "to": "p_ad74e5",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_59a024",
+      "to": "p_6d3789",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_59a024",
+      "to": "p_ff4e55",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_ad74e5",
+      "to": "p_6d3789",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_ad74e5",
+      "to": "p_ff4e55",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_6d3789",
+      "to": "p_ff4e55",
+      "type": "business_connection",
+      "cases": [
+        "sc_89116ad6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_2ce1f1",
+      "type": "business_connection",
+      "cases": [
+        "sc_76a34814"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_b26482",
+      "type": "political_ally",
+      "cases": [
+        "seed_bdpst_001",
+        "seed_elios_eppo_001"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_6159d1",
+      "type": "political_ally",
+      "cases": [
+        "sc_e0b18b42"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_0353fb",
+      "type": "political_ally",
+      "cases": [
+        "sc_e0b18b42"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_b26482",
+      "type": "political_ally",
+      "cases": [
+        "seed_paks2_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_6159d1",
+      "to": "p_0353fb",
+      "type": "business_connection",
+      "cases": [
+        "sc_e0b18b42"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_1dd9b6",
+      "type": "political_ally",
+      "cases": [
+        "seed_kesma_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_7d4151",
+      "type": "political_ally",
+      "cases": [
+        "seed_covid_001",
+        "seed_fudan_001",
+        "seed_kea_001"
+      ],
+      "description": "Automatikusan felismert – 3 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_099fd2",
+      "type": "political_ally",
+      "cases": [
+        "seed_nav_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_c7f9a1",
+      "type": "political_ally",
+      "cases": [
+        "seed_mvm_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_fd1721",
+      "type": "political_ally",
+      "cases": [
+        "seed_liget_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_bdc3bf",
+      "type": "political_ally",
+      "cases": [
+        "seed_simicska_001"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_17ffb0",
+      "type": "political_ally",
+      "cases": [
+        "seed_agrar_001",
+        "seed_szazfalu_001"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-28T20:02:25.919222+00:00",
+    "last_updated": "2026-06-28T20:22:10.151525+00:00",
     "version": "3.0.0",
-    "total_cases": 47,
+    "total_cases": 52,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16929400000000,
+    "total_involved_amount_huf": 16863200000000,
     "status_breakdown": {
-      "active": 25,
-      "investigation": 5,
-      "closed": 5,
-      "appeal": 1
+      "active": 29,
+      "investigation": 15,
+      "closed": 6,
+      "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 8,
-      "pénzügyi": 24,
-      "közbeszerzés": 4
+      "korrupció": 16,
+      "pénzügyi": 26,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
       "Direkt36",
       "HVG",
+      "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
+      "Győr-Moson-Sopron",
+      "Országos",
+      "Pest",
+      "Tolna",
+      "Baranya",
       "Budapest",
       "Csongrád-Csanád",
-      "Fejér",
-      "Borsod-Abaúj-Zemplén",
       "Somogy",
-      "Győr-Moson-Sopron",
-      "Tolna",
-      "Pest",
-      "Baranya"
+      "Borsod-Abaúj-Zemplén",
+      "Fejér"
     ]
   }
 }
