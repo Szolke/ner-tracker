@@ -104,20 +104,31 @@ REGION_KW = {
 
 # ── NLP: known politicians & roles ──────────────────────────────────
 KNOWN_PERSONS = [
-    ("Mészáros Lőrinc",  "vállalkozó, volt polgármester"),
-    ("Orbán Viktor",     "miniszterelnök"),
-    ("Szijjártó Péter",  "külügyminiszter"),
-    ("Gulyás Gergely",   "miniszterelnöki kabinetfőnök"),
-    ("Palkovics László", "volt innovációs miniszter"),
-    ("Kásler Miklós",    "volt kulturális miniszter"),
-    ("Nagy István",      "agrárminiszter"),
-    ("Parragh László",   "VOSZ elnök"),
-    ("Habony Árpád",     "kommunikációs tanácsadó"),
-    ("Csányi Sándor",    "MLSZ elnök"),
-    ("Rogán Antal",      "miniszter, Kabinetirodát vezető"),
-    ("Lázár János",      "építési és közlekedési miniszter"),
-    ("Tiborcz István",   "vállalkozó"),
-    ("Polt Péter",       "legfőbb ügyész"),
+    ("Mészáros Lőrinc",   "vállalkozó, volt felcsúti polgármester"),
+    ("Orbán Viktor",      "miniszterelnök"),
+    ("Rogán Antal",       "miniszter, Kabinetirodát vezető"),
+    ("Tiborcz István",    "vállalkozó, Orbán Viktor veje"),
+    ("Szijjártó Péter",   "külügyminiszter"),
+    ("Lázár János",       "építési és közlekedési miniszter"),
+    ("Gulyás Gergely",    "miniszterelnöki kabinetfőnök"),
+    ("Palkovics László",  "volt innovációs és felsőoktatási miniszter"),
+    ("Kásler Miklós",     "volt emberi erőforrások minisztere"),
+    ("Nagy István",       "agrárminiszter"),
+    ("Habony Árpád",      "politikai tanácsadó, Orbán-közeli"),
+    ("Csányi Sándor",     "OTP Bank elnök, MLSZ elnök"),
+    ("Parragh László",    "Magyar Kereskedelmi és Iparkamara elnöke"),
+    ("Polt Péter",        "legfőbb ügyész"),
+    ("Simicska Lajos",    "vállalkozó, volt Fidesz-kasszás"),
+    ("Garancsi István",   "vállalkozó, Videoton FC tulajdonos"),
+    ("Demeter Szilárd",   "NKA elnök, PIM főigazgató"),
+    ("Vida Ildikó",       "volt NAV elnök (USA szankcionálta)"),
+    ("Varga Mihály",      "pénzügyminiszter"),
+    ("Deutsch Tamás",     "EP-képviselő, Fidesz"),
+    ("Semjén Zsolt",      "miniszterelnök-helyettes, KDNP elnök"),
+    ("Pintér Sándor",     "belügyminiszter"),
+    ("Nagy Márton",       "gazdaságfejlesztési miniszter"),
+    ("Karácsony Gergely", "Budapest főpolgármestere"),
+    ("Vitézy Dávid",      "BKK volt vezérigazgató"),
 ]
 
 def extract_persons(text):
@@ -152,8 +163,11 @@ def detect_region(text):
 
 def detect_category(text):
     tl = text.lower()
-    if any(k in tl for k in ['közbeszerzés','tender','pályázat']): return "közbeszerzés"
-    if any(k in tl for k in ['korrupció','vesztegetés','sikkasztás']): return "korrupció"
+    if any(k in tl for k in ['közbeszerzés','tender','pályázat','ajánlat','versenyeljárás',
+                               'megbízás nélkül','nyilvános versenytárgyalás']): return "közbeszerzés"
+    if any(k in tl for k in ['korrupció','vesztegetés','sikkasztás','megvesztegetés',
+                               'kenőpénz','megfigyelés','lehallgat','pegasus','kémprogram',
+                               'zsarolás','hatalommal visszaélés','visszaélés']): return "korrupció"
     return "pénzügyi"
 
 def detect_amount(text):

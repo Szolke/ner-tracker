@@ -4,14 +4,13 @@ import { MapPin, TrendingUp, Users, Calendar, Download, Search,
   BarChart3, Network, Globe, AlertCircle, Moon, Sun, FileText,
   Star, Share2, Clock, Bookmark, ExternalLink } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, ScatterChart, Scatter, Legend } from 'recharts';
-import HungaryMap    from './HungaryMap';
+  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, ScatterChart, Scatter,
+  Legend, ComposedChart } from 'recharts';
 import NetworkGraph  from './NetworkGraph';
 import LiveFeed      from './LiveFeed';
 import Timeline      from './Timeline';
 import ChoroplethMap from './ChoroplethMap';
 import { exportToPDF }   from '../utils/pdfExport';
-import GiscusComments    from './GiscusComments';
 import EUComparison      from './EUComparison';
 import ErrorBoundary      from './ErrorBoundary';
 import TrendAnalysis       from './TrendAnalysis';
@@ -95,7 +94,9 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     setPage(1);
     const q = searchTerm.toLowerCase();
     return data.cases.filter(c =>
-      (!q || c.title.toLowerCase().includes(q) || c.involved_persons.some(p => p.name.toLowerCase().includes(q))) &&
+      (!q || c.title.toLowerCase().includes(q)
+          || c.involved_persons.some(p => p.name.toLowerCase().includes(q))
+          || (c.description && c.description.toLowerCase().includes(q))) &&
       (filterStatus === 'all' || c.status === filterStatus) &&
       (filterCat === 'all' || c.category === filterCat) &&
       (c.amount_huf == null || c.amount_huf <= maxAmount * 1e9)
@@ -105,10 +106,50 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const watchedCases  = useMemo(() => data?.cases.filter(c => watched.has(c.id)) || [], [data, watched]);
   const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+(c.amount_huf||0),0)??0, [data]);
   const categoryData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.category]=(m[c.category]||0)+1;}); return Object.entries(m).map(([name,value])=>({name,value})); }, [data]);
-  const timelineData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{const y=c.date.slice(0,4);m[y]=(m[y]||0)+1;}); return Object.entries(m).sort().map(([year,count])=>({year,count})); }, [data]);
   const statusData    = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.status]=(m[c.status]||0)+1;}); return Object.entries(m).map(([name,value])=>({name:STATUS_LABELS_I18N[name]||name,value})); }, [data]);
-  const scatterData   = useMemo(() => categoryData.map(cat=>({name:cat.name,count:data?.cases.filter(c=>c.category===cat.name).length||0,total:+((data?.cases.filter(c=>c.category===cat.name).reduce((s,c)=>s+(c.amount_huf||0),0)||0)/1e9).toFixed(1)})), [data,categoryData]);
   const allPersons    = useMemo(() => { if(!data)return[]; const seen=new Set(); return data.cases.flatMap(c=>c.involved_persons).filter(p=>{if(seen.has(p.id))return false;seen.add(p.id);return true;}); }, [data]);
+
+  // Dual-axis: éves ügyszám + összeg
+  const yearlyDual = useMemo(() => {
+    if (!data) return [];
+    const m = {};
+    data.cases.forEach(c => {
+      const y = c.date.slice(0,4);
+      if (!m[y]) m[y] = { year: y, count: 0, amount: 0 };
+      m[y].count++;
+      m[y].amount = +((m[y].amount * 1e9 + (c.amount_huf||0)) / 1e9).toFixed(1);
+    });
+    return Object.values(m).sort((a,b) => a.year.localeCompare(b.year));
+  }, [data]);
+
+  // Top érintett személyek
+  const topPersons = useMemo(() => {
+    if (!data) return [];
+    const counts = {};
+    data.cases.forEach(c => c.involved_persons.forEach(p => {
+      counts[p.name] = (counts[p.name]||0) + 1;
+    }));
+    return Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([name,count])=>({name,count}));
+  }, [data]);
+
+  // Forrás eloszlás
+  const sourceData = useMemo(() => {
+    if (!data) return [];
+    const m = {};
+    data.cases.forEach(c => { m[c.source] = (m[c.source]||0)+1; });
+    return Object.entries(m).sort((a,b)=>b[1]-a[1]).map(([name,value])=>({name,value}));
+  }, [data]);
+
+  // Kategória × Státusz mátrix
+  const catStatusMatrix = useMemo(() => {
+    if (!data) return null;
+    const cats = ['korrupció','pénzügyi','közbeszerzés'];
+    const stats = ['active','investigation','closed','appeal'];
+    const m = {};
+    cats.forEach(cat => { m[cat] = {}; stats.forEach(s => { m[cat][s] = 0; }); });
+    data.cases.forEach(c => { if (m[c.category]?.[c.status] !== undefined) m[c.category][c.status]++; });
+    return { matrix: m, cats, stats };
+  }, [data]);
 
   const yearlyStats = useMemo(() => {
     if (!data) return [];
@@ -289,17 +330,79 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
 
               <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
                 <div className="xl:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-5">
+                  {/* Kategória bar */}
                   <P><h3 className="font-semibold mb-4 flex items-center gap-2"><BarChart3 className="w-4 h-4"/>{tr.categoryChart}</h3>
                     <ResponsiveContainer width="100%" height={200}><BarChart data={categoryData}><CartesianGrid strokeDasharray="3 3" stroke={darkMode?'#374151':'#e5e7eb'}/><XAxis dataKey="name" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:11}}/><YAxis tick={{fill:darkMode?'#9ca3af':'#555',fontSize:11}}/><Tooltip contentStyle={tt}/><Bar dataKey="value" radius={[6,6,0,0]}>{categoryData.map((e,i)=><Cell key={i} fill={CATEGORY_COLORS[e.name]||'#6b7280'}/>)}</Bar></BarChart></ResponsiveContainer></P>
+                  {/* Dual-axis: ügyszám + összeg évente */}
                   <P><h3 className="font-semibold mb-4 flex items-center gap-2"><Calendar className="w-4 h-4"/>{tr.yearlyChart}</h3>
-                    <ResponsiveContainer width="100%" height={200}><LineChart data={timelineData}><CartesianGrid strokeDasharray="3 3" stroke={darkMode?'#374151':'#e5e7eb'}/><XAxis dataKey="year" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:11}}/><YAxis tick={{fill:darkMode?'#9ca3af':'#555',fontSize:11}}/><Tooltip contentStyle={tt}/><Line type="monotone" dataKey="count" stroke="#8b5cf6" strokeWidth={2.5} dot={{fill:'#8b5cf6',r:5}}/></LineChart></ResponsiveContainer></P>
+                    <ResponsiveContainer width="100%" height={200}>
+                      <ComposedChart data={yearlyDual}>
+                        <CartesianGrid strokeDasharray="3 3" stroke={darkMode?'#374151':'#e5e7eb'}/>
+                        <XAxis dataKey="year" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:10}}/>
+                        <YAxis yAxisId="left" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:10}}/>
+                        <YAxis yAxisId="right" orientation="right" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:10}} unit=" Mrd"/>
+                        <Tooltip contentStyle={tt} formatter={(v,n)=>n==='amount'?`${v} Mrd HUF`:v}/>
+                        <Bar yAxisId="left" dataKey="count" fill="#8b5cf6" radius={[4,4,0,0]} opacity={0.8}/>
+                        <Line yAxisId="right" type="monotone" dataKey="amount" stroke="#f59e0b" strokeWidth={2.5} dot={{fill:'#f59e0b',r:4}}/>
+                      </ComposedChart>
+                    </ResponsiveContainer></P>
+                  {/* Státusz pie */}
                   <P><h3 className="font-semibold mb-4">{tr.statusChart}</h3>
                     <ResponsiveContainer width="100%" height={200}><PieChart><Pie data={statusData} cx="50%" cy="50%" outerRadius={75} dataKey="value" label={({name,percent})=>`${name} ${(percent*100).toFixed(0)}%`} labelLine={false}>{statusData.map((_,i)=><Cell key={i} fill={PIE_COLORS[i]}/>)}</Pie><Tooltip contentStyle={tt}/></PieChart></ResponsiveContainer></P>
-                  <P><h3 className="font-semibold mb-4">{tr.amountVsCases}</h3>
-                    <ResponsiveContainer width="100%" height={200}><ScatterChart margin={{top:10,right:10,bottom:20,left:10}}><CartesianGrid strokeDasharray="3 3" stroke={darkMode?'#374151':'#e5e7eb'}/><XAxis type="number" dataKey="count" name="Ügyek" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:10}}/><YAxis type="number" dataKey="total" name="Mrd HUF" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:10}}/><Tooltip contentStyle={tt}/><Scatter data={scatterData} fill="#8b5cf6"/></ScatterChart></ResponsiveContainer></P>
+                  {/* Forrás donut */}
+                  <P><h3 className="font-semibold mb-4 flex items-center gap-2"><Network className="w-4 h-4"/>Forrás-eloszlás</h3>
+                    <ResponsiveContainer width="100%" height={200}><PieChart><Pie data={sourceData} cx="50%" cy="50%" innerRadius={40} outerRadius={75} dataKey="value" label={({name,percent})=>percent>0.05?`${name} ${(percent*100).toFixed(0)}%`:''} labelLine={false}>{sourceData.map((_,i)=><Cell key={i} fill={['#3b82f6','#ef4444','#10b981','#f59e0b','#8b5cf6','#06b6d4','#f97316','#84cc16'][i%8]}/>)}</Pie><Tooltip contentStyle={tt}/></PieChart></ResponsiveContainer></P>
                 </div>
                 <LiveFeed cases={[...data.cases].sort((a,b)=>b.date.localeCompare(a.date))} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
               </div>
+
+              {/* Top személyek */}
+              {topPersons.length > 0 && (
+                <P><h3 className="font-semibold mb-4 flex items-center gap-2"><Users className="w-4 h-4"/>Top érintett személyek</h3>
+                  <ResponsiveContainer width="100%" height={220}>
+                    <BarChart data={topPersons} layout="vertical" margin={{left:10,right:30}}>
+                      <CartesianGrid strokeDasharray="3 3" stroke={darkMode?'#374151':'#e5e7eb'} horizontal={false}/>
+                      <XAxis type="number" tick={{fill:darkMode?'#9ca3af':'#555',fontSize:11}} allowDecimals={false}/>
+                      <YAxis type="category" dataKey="name" width={130} tick={{fill:darkMode?'#d1d5db':'#374151',fontSize:11}}/>
+                      <Tooltip contentStyle={tt} formatter={(v)=>[`${v} ügy`,'Előfordulás']}/>
+                      <Bar dataKey="count" radius={[0,6,6,0]} maxBarSize={20}>
+                        {topPersons.map((_,i)=><Cell key={i} fill={['#ef4444','#f97316','#f59e0b','#3b82f6','#8b5cf6','#06b6d4','#10b981','#84cc16'][i]}/>)}
+                      </Bar>
+                    </BarChart>
+                  </ResponsiveContainer>
+                </P>
+              )}
+
+              {/* Kategória × Státusz heatmap */}
+              {catStatusMatrix && (
+                <P><h3 className="font-semibold mb-4">Kategória × Státusz mátrix</h3>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead><tr>
+                        <th className="text-left py-2 pr-4 opacity-50 font-medium text-xs">Kategória</th>
+                        {catStatusMatrix.stats.map(s=><th key={s} className="px-3 py-2 text-center text-xs font-medium opacity-50" style={{color:STATUS_COLORS[s]}}>{STATUS_LABELS_I18N[s]}</th>)}
+                      </tr></thead>
+                      <tbody>{catStatusMatrix.cats.map(cat=>(
+                        <tr key={cat} className={`border-t ${darkMode?'border-gray-700':'border-gray-100'}`}>
+                          <td className="py-2 pr-4 font-semibold text-xs" style={{color:CATEGORY_COLORS[cat]}}>{cat}</td>
+                          {catStatusMatrix.stats.map(s=>{
+                            const v = catStatusMatrix.matrix[cat][s];
+                            const max = Math.max(...catStatusMatrix.stats.map(ss=>catStatusMatrix.matrix[cat][ss]));
+                            const intensity = max > 0 ? v/max : 0;
+                            return <td key={s} className="px-3 py-2 text-center">
+                              <span className="inline-block min-w-[2rem] px-2 py-1 rounded-lg text-xs font-bold"
+                                style={{background:v>0?`${STATUS_COLORS[s]}${Math.round(intensity*60+20).toString(16).padStart(2,'0')}`:'transparent',
+                                        color:v>0?STATUS_COLORS[s]:'rgba(128,128,128,0.3)'}}>
+                                {v > 0 ? v : '—'}
+                              </span>
+                            </td>;
+                          })}
+                        </tr>
+                      ))}</tbody>
+                    </table>
+                  </div>
+                </P>
+              )}
 
               {/* Recent */}
               <P><h3 className="font-semibold mb-4 flex items-center gap-2"><Clock className="w-4 h-4"/>{tr.recentCases}</h3>
@@ -340,7 +443,22 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               </P>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {filteredCases.map(c => <CaseCard key={c.id} c={c}/>)}
+                {filteredCases.slice((page-1)*PAGE_SIZE, page*PAGE_SIZE).map(c => <CaseCard key={c.id} c={c}/>)}
+              </div>
+              {filteredCases.length > PAGE_SIZE && (
+                <div className="flex items-center justify-center gap-3 mt-4">
+                  <button onClick={()=>setPage(p=>Math.max(1,p-1))} disabled={page===1}
+                    className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${page===1?'opacity-30 cursor-not-allowed':darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
+                    ← Előző
+                  </button>
+                  <span className="text-sm opacity-60">{page} / {Math.ceil(filteredCases.length/PAGE_SIZE)}</span>
+                  <button onClick={()=>setPage(p=>Math.min(Math.ceil(filteredCases.length/PAGE_SIZE),p+1))} disabled={page===Math.ceil(filteredCases.length/PAGE_SIZE)}
+                    className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${page===Math.ceil(filteredCases.length/PAGE_SIZE)?'opacity-30 cursor-not-allowed':darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
+                    Következő →
+                  </button>
+                </div>
+              )}
+              <div className="hidden">{/* pagination placeholder */}
               </div>
             </div>
           )}
