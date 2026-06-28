@@ -88,6 +88,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     setSearchParams({ case: c.id });
   }, [setSearchParams]);
 
+  const closeCase = useCallback(() => { setSelectedCase(null); setSearchParams({}); }, [setSearchParams]);
+
   const filteredCases = useMemo(() => {
     if (!data) return [];
     setPage(1);
@@ -191,8 +193,6 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     {id:'timeline',       label:`📅 ${tr.timeline}`},
     {id:'investigations', label:`🔍 ${tr.investigations}`},
   ];
-
-  const closeCase = useCallback(() => { setSelectedCase(null); setSearchParams({}); }, [setSearchParams]);
 
   return (
     <>
