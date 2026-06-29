@@ -2,7 +2,8 @@
 
 ## Projekt áttekintés
 
-Magyar kormányzati korrupciós ügyek nyilvántartása. React/Vite SPA, Python scraper, Cloudflare Pages hosting.
+Magyar kormányzati (NER/Fidesz) korrupciós és közpénz-eltulajdonítási ügyek nyilvántartása.
+React/Vite SPA, Python RSS scraper, Cloudflare Pages hosting.
 
 - **Élő oldal:** https://ner-tracker.pages.dev
 - **GitHub repo:** https://github.com/Szolke/ner-tracker
@@ -15,10 +16,11 @@ Magyar kormányzati korrupciós ügyek nyilvántartása. React/Vite SPA, Python 
 | Réteg | Technológia |
 |-------|-------------|
 | Frontend | React 18 + Vite + Tailwind CSS |
-| Adatok | `public/data/news.json` (statikus JSON, ezt olvassa a React) |
+| Adatok | `public/data/news.json` (scraper írja, React olvassa) |
 | Scraper | Python 3.11 (`scripts/scraper.py`) — napi RSS fetch |
-| Hosting | Cloudflare Pages (Direct Upload módban) |
+| Hosting | Cloudflare Pages (Direct Upload, `wrangler pages deploy`) |
 | CI/CD | GitHub Actions (`.github/workflows/scraper.yml`) |
+| i18n | Magyar/angol (`src/i18n.jsx`, `useLang()` hook, `tr.xxx` kulcsok) |
 
 ---
 
@@ -28,162 +30,204 @@ Magyar kormányzati korrupciós ügyek nyilvántartása. React/Vite SPA, Python 
 ner-tracker/
 ├── src/
 │   ├── components/
-│   │   ├── Dashboard.jsx       ← FŐ UI komponens (4 tab + modal)
-│   │   ├── LiveFeed.jsx        ← Jobb oldali hírfolyam
-│   │   ├── Timeline.jsx        ← Idővonal tab
-│   │   ├── NetworkGraph.jsx    ← Nyomozások tab
-│   │   ├── ChoroplethMap.jsx   ← Hőtérkép (Idővonalon)
+│   │   ├── Dashboard.jsx       ← FŐ komponens: 4 tab, modal, összes chart
+│   │   ├── LiveFeed.jsx        ← Jobb oldali hírfolyam widget
+│   │   ├── Timeline.jsx        ← Idővonal tab (drag-scroll, lejátszás)
+│   │   ├── NetworkGraph.jsx    ← Nyomozások tab (kapcsolati háló)
+│   │   ├── ChoroplethMap.jsx   ← Hőtérkép (Idővonal tab)
 │   │   ├── EUComparison.jsx    ← EU korrupciós index összehasonlítás
-│   │   └── ...egyéb komponensek
+│   │   ├── ErrorBoundary.jsx   ← Hibakezelő wrapper
+│   │   └── TrendAnalysis.jsx   ← Trend elemzés komponens
+│   ├── i18n.jsx                ← Fordítások (hu/en), useLang() hook
 │   ├── App.jsx
-│   ├── i18n.jsx                ← Magyar/angol fordítások (useLang hook)
 │   └── main.jsx
-├── public/
-│   └── data/news.json          ← Adatfájl (scraper írja, React olvassa)
+├── public/data/news.json       ← Adatfájl (~47 ügy)
 ├── data/
-│   ├── news.json               ← Scraper output (backup)
-│   └── archive/                ← Napi archív (YYYY-MM-DD.json)
+│   ├── news.json               ← Scraper backup
+│   └── archive/YYYY-MM-DD.json ← Napi archívumok
 ├── scripts/
 │   ├── scraper.py              ← Python RSS scraper
 │   └── rss-proxy.js            ← Cloudflare Worker proxy
-├── .github/workflows/
-│   └── scraper.yml             ← CI/CD pipeline
-├── wrangler.toml               ← Cloudflare Pages config
-└── package.json
+├── .github/workflows/scraper.yml
+├── wrangler.toml               ← CF Pages config
+└── CLAUDE.md                   ← Ez a fájl
 ```
 
 ---
 
 ## CI/CD pipeline
 
-A `scraper.yml` workflow minden nap 8:00 UTC-kor fut (és manuálisan indítható):
+`.github/workflows/scraper.yml` — napi 8:00 UTC, manuálisan is indítható:
 
-1. Python scraper → frissíti `public/data/news.json`
-2. `git fetch origin && git reset --soft origin/main` → commit mindig a legfrissebb remote HEAD-re épül
-3. `git push` → adatok felkerülnek GitHub-ra
-4. `npm install && npm run build` → Vite build (`dist/`)
-5. `wrangler pages deploy dist` → Cloudflare Pages-re feltöltés
+```
+1. actions/checkout@v4.2.2 + actions/setup-python@v5
+2. pip install -r requirements.txt
+3. python scripts/scraper.py   → frissíti news.json
+4. git fetch origin
+   git reset --soft origin/main   ← staged változások megmaradnak
+   git commit + git push
+5. npm install && npm run build   → dist/
+6. npx wrangler pages deploy dist --project-name=ner-tracker
+```
 
-### Szükséges GitHub Secrets
+### GitHub Secrets (kötelező)
 
 | Secret | Leírás |
 |--------|--------|
-| `CLOUDFLARE_API_TOKEN` | **Account → Cloudflare Pages → Edit** jogosultság |
-| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard jobb sáv |
-| `PROXY_URL` | Cloudflare Worker proxy URL az RSS kérésekhez |
-| `RESEND_API_KEY` | (opcionális) Email értesítőhöz |
-| `NOTIFY_EMAIL` | (opcionális) Email értesítő cím |
-
-### Fontos: push a workflow-ban
-
-```bash
-git fetch origin
-git reset --soft origin/main   # staged változások megmaradnak, HEAD = remote HEAD
-git commit -m "..."
-git push                       # mindig fast-forward
-```
+| `CLOUDFLARE_API_TOKEN` | Account → Cloudflare Pages → Edit jogosultság |
+| `CLOUDFLARE_ACCOUNT_ID` | CF dashboard jobb sáv |
+| `PROXY_URL` | Cloudflare Worker RSS proxy URL |
+| `RESEND_API_KEY` | (opcionális) email értesítő |
+| `NOTIFY_EMAIL` | (opcionális) értesítési cím |
 
 ---
 
-## Scraper szűrőlogika
-
-### NER_CORE (kötelező — legalább egy)
-Konkrét NER-személyek és intézmények: `fidesz`, `orbán`, `mészáros`, `rogán`, `tiborcz`, `olaf`, `eppo`, `elios`, `közgép`, `quaestor`, `mediaworks`, `felcsút`, `pegasus`, `paks`, `közbeszerzési`, stb.
-
-### SECONDARY (kötelező — legalább egy)
-Korrupciós indikátorok: `korrupció`, `visszaélés`, `nyomozás`, `vizsgálat`, `milliárd`, `sikkasztás`, `vesztegetés`, `oligarcha`, stb.
-
-### EXCLUDE
-Kizárt témák: külföldi kormányok, katonai balesetek, sport hírek, stb.
-
-### Dátum szűrő
-Csak 2010-01-01 utáni ügyek (Fidesz-éra kezdete).
-
-### merge() — aktív tisztítás
-Minden futásnál a meglévő ügyek is átmennek a szűrőn: az irrelevánssá váló régi cikkek automatikusan eltávolítódnak.
+## Scraper logika (`scripts/scraper.py`)
 
 ### RSS Források (14 feed)
-Telex, HVG, 444, Direkt36, Átlátszó (2 feed), Abcúg, G7, Magyar Narancs, Mérce, Partizán, Szabad Európa, Átlátszó/pályázat, HVG Gazdaság
+Telex, HVG, 444, Direkt36, Átlátszó (fő + közpénz + pályázat feed),
+Abcúg, G7, Magyar Narancs, Mérce, Partizán, Szabad Európa, HVG Gazdaság
+
+### Szűrők
+
+**NER_CORE** (kötelező — legalább egy): konkrét NER-személyek és intézmények
+(`fidesz`, `orbán`, `mészáros`, `rogán`, `tiborcz`, `olaf`, `eppo`, `elios`,
+`közgép`, `quaestor`, `mediaworks`, `felcsút`, `pegasus`, `paks`, `közbeszerzési`,
+`mészáros-közeli`, `bdpst`, `liget`, stb.)
+
+**SECONDARY** (kötelező — legalább egy): korrupciós indikátorok
+(`korrupció`, `visszaélés`, `nyomozás`, `vizsgálat`, `milliárd`, `sikkasztás`,
+`vesztegetés`, `oligarcha`, `megfigyelés`, `kémprogram`, stb.)
+
+**EXCLUDE**: külföldi kormányok, katonai balesetek, sport, stb.
+
+**NER_ERA_START**: `'2010-01-01'` — csak Fidesz-éra ügyek
+
+### detect_category()
+```python
+'közbeszerzés' ha: közbeszerzés, tender, pályázat, ajánlat, versenyeljárás
+'korrupció'    ha: korrupció, vesztegetés, megfigyelés, pegasus, lehallgat, visszaélés
+'pénzügyi'     egyébként
+```
+
+### KNOWN_PERSONS (25 személy)
+Orbán Viktor, Mészáros Lőrinc, Rogán Antal, Tiborcz István, Szijjártó Péter,
+Lázár János, Gulyás Gergely, Palkovics László, Kásler Miklós, Nagy István,
+Habony Árpád, Csányi Sándor, Parragh László, Polt Péter, Simicska Lajos,
+Garancsi István, Demeter Szilárd, Vida Ildikó, Varga Mihály, Deutsch Tamás,
+Semjén Zsolt, Pintér Sándor, Nagy Márton, Karácsony Gergely, Vitézy Dávid
+
+### merge() — aktív tisztítás
+Minden futásnál az összes meglévő ügy átmegy a szűrőn — az irrelevánssá
+vált régi cikkek automatikusan eltávolítódnak.
 
 ---
 
-## Adatformátum
-
-### `news.json` séma
+## Adatformátum (`news.json`)
 
 ```json
 {
   "metadata": {
-    "last_updated": "2026-06-28T11:54:01Z",
-    "total_cases": 47,
-    "sources": ["telex.hu", "hvg.hu", ...]
+    "last_updated": "2026-06-29T08:00:00Z",
+    "total_cases": 47
   },
   "cases": [{
-    "id": "sc_xxxxxxxx",
+    "id": "sc_xxxxxxxx",       ← scraped: sc_; kézzel: seed_xxx_001
     "title": "Cím",
-    "description": "Leírás (max 400 kar)",
+    "description": "Max 400 karakter RSS összefoglaló",
     "link": "https://...",
     "date": "2026-06-25",
     "source": "Telex",
     "category": "korrupció|pénzügyi|közbeszerzés",
     "status": "active|investigation|closed|appeal",
-    "region": "Budapest|Pest|...",
+    "region": "Budapest|Pest|Tolna|Országos|...",
     "coordinates": [47.4979, 19.0402],
-    "amount_huf": 4500000000,
+    "amount_huf": 4500000000,   ← NULL ha ismeretlen! Ne 500000000!
     "verified": false,
     "media_count": 3,
-    "tags": [],
+    "tags": ["OLAF", "közbeszerzés"],
     "involved_persons": [
       {"id": "p_xxxxxx", "name": "Teljes Név", "position": "Pozíció"}
     ]
-  }],
-  "investigations": [...]
+  }]
 }
 ```
 
-**amount_huf:** `null` ha nem ismert (NE használj `500000000` placeholdert!)
-
----
-
-## Seed ügyek vs. scraped ügyek
-
-- **Seed ügyek** (`id`: `seed_xxx_001`): kézzel felvett historikus ügyek, mindig az adatbázisban maradnak, a scraper szűrőjén is átmennek
-- **Scraped ügyek** (`id`: `sc_xxxxxxxx`): automatikusan gyűjtött RSS cikkek, naponta frissülnek
-
-Új seed ügy hozzáadásához: szerkeszd a `public/data/news.json`-t és a `data/news.json`-t is.
+**Fontos:** `amount_huf: null` ha nem ismert. A `500_000_000` placeholder TILOS.
+Mindkét helyen módosítani kell: `public/data/news.json` ÉS `data/news.json`.
 
 ---
 
 ## UI konvenciók
 
 ### Pénznem formátum
-**MINDIG:** `8 547,4 Mrd HUF`
-
 ```js
+// Dashboard.jsx:55-56
 const mrd  = huf => huf != null
-  ? (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF'
+  ? (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF'
   : 'Összeg ismeretlen';
 const mrdS = huf => huf != null
-  ? (huf/1e9).toLocaleString('hu-HU', {minimumFractionDigits:1, maximumFractionDigits:1}) + ' Mrd HUF'
+  ? (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF'
   : '—';
 ```
-
-Ne: `Mrd Ft`, `MrdB`, `milliárd HUF`, `500 000 000` placeholder.
-
-### Státusz értékek
-`active` · `investigation` · `closed` · `appeal`
-
-### Kategóriák
-`korrupció` · `pénzügyi` · `közbeszerzés`
+Tilos: `Mrd Ft`, `MrdB`, `milliárd HUF`, `35B HUF`
 
 ### i18n
-Minden UI szöveg `tr.xxx` kulcsot használ (`useLang()` hook, `i18n.jsx`). Új szövegeknél mindig add hozzá a magyar ÉS angol fordítást is.
+```js
+const { t: tr, lang, setLang } = useLang();
+// Minden UI szöveg: tr.kulcsNev
+// Új szövegnél: add hozzá MINDKÉT nyelvhez (i18n.jsx hu + en blokkba)
+// FONTOS: 't' változónév tilos — a TABS.map(tab=>) loop miatt 'tr'-t használunk
+```
 
-### React hooks szabály
-Minden `useState`, `useCallback`, `useMemo`, `useEffect` hook az early return (`if (!data) return ...`) ELŐTT kell legyen a Dashboard komponensben.
+### React Hooks szabály
+Minden `useState`, `useCallback`, `useMemo`, `useEffect` hook az
+`if (!data) return (...)` early return ELŐTT kell legyen.
+Megsértése → React error #310 ("Rendered more hooks than during previous render")
 
 ### Modal (CaseDetail)
-Az ügy részletes nézete modálként jelenik meg (fixed overlay, backdrop blur). A `CaseDetail` komponens a Dashboard `return()` elejére van helyezve `<>` fragment-be csomagolva, nem a tab tartalmán belül.
+- `CaseDetail` komponens a Dashboard `return()` LEGELEJÉN van, `<>` fragment-be
+- NEM a tab tartalmon belül
+- `closeCase = useCallback(...)` szintén az early return előtt
+- ESC + backdrop click zárja
+
+### Keresés (Ügyek tab)
+Title + involved_persons.name + description — mindhármat ellenőrzi.
+
+### Pagination
+`PAGE_SIZE = 9`, `page` state. A kártya lista:
+```jsx
+filteredCases.slice((page-1)*PAGE_SIZE, page*PAGE_SIZE).map(c => <CaseCard .../>)
+```
+Prev/Next gombokkal, `setPage(1)` a filteredCases useMemo-ban.
+
+---
+
+## Dashboard vizualizációk (Overview tab)
+
+| Chart | Adat | Típus |
+|-------|------|-------|
+| Kategória | categoryData | BarChart |
+| Évente (dual-axis) | yearlyDual | ComposedChart (Bar+Line) |
+| Státusz megoszlás | statusData | PieChart |
+| Forrás-eloszlás | sourceData | PieChart (donut, innerRadius=40) |
+| Top érintett személyek | topPersons | BarChart (layout="vertical") |
+| Kategória × Státusz mátrix | catStatusMatrix | HTML table (szín-intenzitás) |
+
+Az `amountVsCases` (ScatterChart) el lett távolítva, helyette Forrás donut van.
+
+---
+
+## Seed ügyek (fontosabb historikus esetek)
+
+47 ügy, ebből ~15 automatikusan scraped, ~32 kézzel felvett seed.
+
+Főbb seed ügyek: Elios/OLAF/EPPO, Mészáros vagyongyarapodás, Közgép,
+Borkai, Quaestor, Pegasus, NKA/Demeter, KESMA/500médium, Fudan Egyetem,
+Paks II/Rosatom, Száz Magyar Falu, Rogán-büdzsé, NAV politikai ellenőrzések,
+MVM Connect, BDPST/Tiborcz, Liget projekt, EPPO magyar ügyek összesítő,
+EU agrártámogatások, Covid-közbeszerzések, MÁV/vasút, Simicska/Közgép,
+KEA alapítványok, Garancsi/stadionok, Budapest Airport, Pécsi közbeszerzések.
 
 ---
 
@@ -195,8 +239,6 @@ npm run dev      # http://localhost:3000
 npm run build    # dist/ mappa
 ```
 
----
-
 ## Deploy (manuális)
 
 ```bash
@@ -204,12 +246,12 @@ npm run build
 npx wrangler pages deploy dist --project-name=ner-tracker
 ```
 
-Vagy: GitHub Actions → "Daily News Scraper" → Run workflow
+GitHub Actions: "Daily News Scraper" → Run workflow
 
 ---
 
-## Minden módosítás után
+## Amit minden módosítás után meg kell tenni
 
-1. Frissítsd ezt a `CLAUDE.md`-t ha struktúra/konvenció változott
-2. Commitolj és pusholj (`git pull --rebase` előtte ha szükséges)
-3. Ha UI változott: trigger a GitHub Actions workflow-t
+1. Frissítsd ezt a `CLAUDE.md`-t ha struktúra/konvenció/lista változott
+2. `git pull --rebase` majd `git push`
+3. UI változásnál: trigger GitHub Actions workflow
