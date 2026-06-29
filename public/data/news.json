@@ -1,6 +1,132 @@
 {
   "cases": [
     {
+      "id": "sc_1a2ef42c",
+      "title": "Magyar Péter: „Orbán Viktor ugyanúgy hazudott és trükközött a számokkal, ahogy azt Gyurcsány Ferenc tette”",
+      "description": "A miniszterelnök szerint a valós költségvetési hiány még az európai uniós források hazahozatalát belekalkulálva is 7 százalék fölött alakulhat.",
+      "link": "https://444.hu/2026/06/29/magyar-peter-orban-viktor-ugyanugy-hazudott-es-trukkozott-a-szamokkal-ahogy-azt-gyurcsany-ferenc-tette?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-29",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_85b4e7",
+          "name": "Magyar Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fd994c",
+          "name": "Gyurcsány Ferenc",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_778e60c6",
+      "title": "Magyar Péter: Orbán hazudott, a valós 2026-os hiány meghaladná a 8 százalékot",
+      "description": "„Orbán Viktor ugyanúgy hazudott és trükközött a számokkal, mint ahogy azt anno Gyurcsány Ferenc tette” – mondta a miniszterelnök. Állítása szerint az infrastruktúra is jelentős fejlesztésre szorul, például 91 híd kritikus állapotban van.",
+      "link": "https://hvg.hu/itthon/20260629_magyar-peter-a-valos-2026-os-hiany-meghaladna-a-8-szazalekot",
+      "date": "2026-06-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_85b4e7",
+          "name": "Magyar Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fd994c",
+          "name": "Gyurcsány Ferenc",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_241a9ca0",
+      "title": "Betette a lábát Csehországba Mészáros Lőrinc érdekeltsége",
+      "description": "Felvásárlásra készül a CIG Pannónia Életbiztosító.",
+      "link": "https://hvg.hu/360/20260629_hvg-cegvilag-cig-pannonia-eletbiztosito-csehorszag-meszaros-lorinc",
+      "date": "2026-06-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_b6fe9c",
+          "name": "Csehországba Mészáros",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_61f773",
+          "name": "Pannónia Életbiztosító",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a9ed4688",
+      "title": "Vitézy: 1000 milliárdot irányítottak az autópálya-koncesszió finanszírozására",
+      "description": "Míg az országos közutak jelentős részét egyszerűen hagyták leromlani. Tavaly több mint négyszer annyit költött az állam az autópályák üzemeltetésére és felújítására, mint a közutak fenntartására és karbantartására.",
+      "link": "https://hvg.hu/kkv/20260629_vitezy-mkif-autopalyak-kozut",
+      "date": "2026-06-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1000000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_8cb8044a",
       "title": "1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége",
       "description": "Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi...",
@@ -2393,23 +2519,86 @@
       ],
       "description": "Automatikusan felismert – 2 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_85b4e7",
+      "type": "political_ally",
+      "cases": [
+        "sc_1a2ef42c",
+        "sc_778e60c6"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_fd994c",
+      "type": "political_ally",
+      "cases": [
+        "sc_1a2ef42c",
+        "sc_778e60c6"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_85b4e7",
+      "to": "p_fd994c",
+      "type": "business_connection",
+      "cases": [
+        "sc_1a2ef42c",
+        "sc_778e60c6"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_b6fe9c",
+      "type": "political_ally",
+      "cases": [
+        "sc_241a9ca0"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_61f773",
+      "type": "political_ally",
+      "cases": [
+        "sc_241a9ca0"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b6fe9c",
+      "to": "p_61f773",
+      "type": "business_connection",
+      "cases": [
+        "sc_241a9ca0"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-29T06:18:14.624525+00:00",
+    "last_updated": "2026-06-29T12:31:42.589905+00:00",
     "version": "3.0.0",
-    "total_cases": 52,
+    "total_cases": 56,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16863200000000,
+    "total_involved_amount_huf": 17863200000000,
     "status_breakdown": {
-      "active": 29,
+      "active": 33,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 16,
-      "pénzügyi": 26,
+      "pénzügyi": 30,
       "közbeszerzés": 10
     },
     "sources": [
@@ -2421,16 +2610,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Borsod-Abaúj-Zemplén",
+      "Baranya",
+      "Fejér",
+      "Országos",
+      "Győr-Moson-Sopron",
       "Csongrád-Csanád",
       "Budapest",
-      "Fejér",
-      "Borsod-Abaúj-Zemplén",
       "Pest",
-      "Baranya",
-      "Országos",
       "Somogy",
-      "Tolna",
-      "Győr-Moson-Sopron"
+      "Tolna"
     ]
   }
 }
