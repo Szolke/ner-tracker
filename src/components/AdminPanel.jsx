@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Lock, Plus, Send, ArrowLeft, CheckCircle, XCircle, Activity } from 'lucide-react';
+import { Lock, Plus, Send, ArrowLeft, CheckCircle, XCircle, Activity, Rss } from 'lucide-react';
 
 const API      = "https://api.github.com/repos/Szolke/ner-tracker/contents";
 const PASSWORD = "ner2026admin";
@@ -37,6 +37,7 @@ export default function AdminPanel() {
   const [status, setStatus]   = useState(null); // null | 'loading' | 'ok' | 'err'
   const [errMsg, setErrMsg]   = useState('');
   const [cleanupLog, setCleanupLog] = useState(null); // null=betöltés alatt, []=nincs adat
+  const [feedHealth, setFeedHealth] = useState(null);
 
   useEffect(() => {
     if (!authed) return;
@@ -44,6 +45,10 @@ export default function AdminPanel() {
       .then(r => r.ok ? r.json() : [])
       .then(setCleanupLog)
       .catch(() => setCleanupLog([]));
+    fetch('/data/feed-health.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(setFeedHealth)
+      .catch(() => setFeedHealth(null));
   }, [authed]);
 
   const checkPw = () => {
@@ -188,6 +193,7 @@ export default function AdminPanel() {
         )}
 
         <ScraperHealth cleanupLog={cleanupLog}/>
+        <FeedHealth feedHealth={feedHealth}/>
 
         <div className="bg-gray-800 rounded-2xl border border-gray-700 p-6 space-y-5">
           {/* Cím */}
@@ -367,6 +373,36 @@ function ScraperHealth({ cleanupLog }) {
         <p className="text-xs text-yellow-500 mt-3">
           ⚠️ Magas eltávolítási/duplikátum arány — érdemes átnézni, hogy a szűrő nem túl agresszív-e.
         </p>
+      )}
+    </div>
+  );
+}
+
+function FeedHealth({ feedHealth }) {
+  if (feedHealth === null) return null; // nincs adat — pl. az első futás előtt, nem hiba
+  const problematic = feedHealth.feeds.filter(f => f.consecutive_zero_streak >= 3);
+  const ok = feedHealth.feeds.filter(f => f.consecutive_zero_streak < 3);
+
+  return (
+    <div className="bg-gray-800 rounded-2xl border border-gray-700 p-5 mb-6">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="font-semibold flex items-center gap-2"><Rss className="w-4 h-4 text-orange-400"/> RSS-forrás állapot</h2>
+        <span className="text-xs text-gray-500">Ellenőrizve: {new Date(feedHealth.checked_at).toLocaleString('hu-HU')}</span>
+      </div>
+      {problematic.length === 0 ? (
+        <p className="text-sm text-gray-400 flex items-center gap-2">
+          <CheckCircle className="w-4 h-4 text-green-400"/> Minden forrás rendben — egyik sem ad tartósan 0 cikket.
+        </p>
+      ) : (
+        <div className="space-y-2">
+          {problematic.map(f => (
+            <div key={f.name} className="flex items-center justify-between bg-red-900/30 border border-red-500/30 rounded-lg px-3 py-2">
+              <span className="text-sm font-semibold text-red-300">{f.name}</span>
+              <span className="text-xs text-red-400">{f.consecutive_zero_streak} egymást követő futás 0 cikkel — ellenőrizd a feed URL-t</span>
+            </div>
+          ))}
+          <p className="text-xs text-gray-500 mt-2">{ok.length} forrás működik rendben.</p>
+        </div>
       )}
     </div>
   );

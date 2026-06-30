@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { MapPin, TrendingUp, Users, Calendar, Download, Search,
   BarChart3, Network, Globe, AlertCircle, Moon, Sun, FileText,
   Star, Share2, Clock } from 'lucide-react';
@@ -182,12 +182,12 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
         </div>
         <div className="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition">
           <button onClick={e=>{e.stopPropagation();toggleWatch(c.id);}}
-            title={watched.has(c.id)?tr.unfollow:tr.follow}
+            title={watched.has(c.id)?tr.unfollow:tr.follow} aria-label={watched.has(c.id)?tr.unfollow:tr.follow}
             className={`p-1 rounded transition ${watched.has(c.id)?'text-yellow-400':'opacity-40 hover:opacity-100'}`}>
             <Star className="w-3.5 h-3.5" fill={watched.has(c.id)?'currentColor':'none'}/>
           </button>
           <button onClick={e=>{e.stopPropagation();shareCase(c);}}
-            title={tr.share} className="p-1 rounded opacity-40 hover:opacity-100">
+            title={tr.share} aria-label={tr.share} className="p-1 rounded opacity-40 hover:opacity-100">
             <Share2 className="w-3.5 h-3.5"/>
           </button>
         </div>
@@ -246,11 +246,12 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             <button onClick={()=>exportToPDF(data)} className="flex items-center gap-1.5 px-3 py-1.5 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm transition">
               <FileText className="w-4 h-4"/> PDF
             </button>
-            <button onClick={()=>setLang(lang==='hu'?'en':'hu')}
+            <button onClick={()=>setLang(lang==='hu'?'en':'hu')} aria-label={lang==='hu'?'Switch to English':'Váltás magyarra'}
               className={`px-3 py-1.5 rounded-lg text-sm font-bold transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
               {lang==='hu'?'EN':'HU'}
             </button>
-            <button onClick={toggleDarkMode} className={`p-2 rounded-lg transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
+            <button onClick={toggleDarkMode} aria-label={darkMode?'Világos mód bekapcsolása':'Sötét mód bekapcsolása'}
+              className={`p-2 rounded-lg transition ${darkMode?'bg-gray-700 hover:bg-gray-600':'bg-gray-200 hover:bg-gray-300'}`}>
               {darkMode?<Sun className="w-4 h-4"/>:<Moon className="w-4 h-4"/>}
             </button>
           </div>
@@ -495,6 +496,13 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             </div>
           )}
 
+        </div>
+
+        {/* Footer */}
+        <div className={`px-6 py-4 border-t flex items-center justify-center ${darkMode?'border-gray-700':'border-gray-200'}`}>
+          <Link to="/modszertan" className={`text-xs ${darkMode?'text-gray-500 hover:text-gray-300':'text-gray-400 hover:text-gray-600'} transition`}>
+            Módszertan és helyesbítés
+          </Link>
         </div>
       </div>
     </div>

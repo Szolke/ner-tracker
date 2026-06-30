@@ -47,15 +47,15 @@ export default function CaseDetail({ c, darkMode, watched, toggleWatch, onClose,
               {c.verified === true && <span className="text-xs px-2 py-1 rounded-full bg-green-500/20 text-green-400">✅ {tr.verified}</span>}
             </div>
             <div className="flex items-center gap-1.5 flex-shrink-0">
-              <button onClick={()=>toggleWatch(c.id)} title={watched.has(c.id)?tr.removeCase:tr.followCase}
+              <button onClick={()=>toggleWatch(c.id)} title={watched.has(c.id)?tr.removeCase:tr.followCase} aria-label={watched.has(c.id)?tr.removeCase:tr.followCase}
                 className={`p-1.5 rounded-lg transition ${watched.has(c.id)?'bg-yellow-500/20 text-yellow-400':'opacity-40 hover:opacity-80'}`}>
                 <Star className="w-4 h-4" fill={watched.has(c.id)?'currentColor':'none'}/>
               </button>
-              <button onClick={()=>shareCase(c)} title={tr.share}
+              <button onClick={()=>shareCase(c)} title={tr.share} aria-label={tr.share}
                 className="p-1.5 rounded-lg opacity-40 hover:opacity-80 transition">
                 <Share2 className="w-4 h-4"/>
               </button>
-              <button onClick={onClose}
+              <button onClick={onClose} aria-label={tr.close || 'Bezárás'}
                 className={`p-1.5 rounded-lg transition opacity-40 hover:opacity-100 ${darkMode?'hover:bg-gray-700':'hover:bg-gray-100'}`}>
                 <span className="text-xl leading-none">×</span>
               </button>

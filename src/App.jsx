@@ -1,11 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { LangProvider } from './i18n.jsx';
 import Dashboard     from './components/Dashboard';
-import AdminPanel    from './components/AdminPanel';
-import PersonProfile from './components/PersonProfile';
-import EmbedCard     from './components/EmbedCard';
 import ErrorBoundary from './components/ErrorBoundary';
+
+// A Dashboard a fő, mindenkit érintő route — eagerly importálva.
+// A ritkábban látogatott route-ok (admin, személy profil, embed) lazy-loadolva,
+// hogy az első betöltéskor (Dashboard) ne kelljen ezek kódját is letölteni.
+const AdminPanel    = lazy(() => import('./components/AdminPanel'));
+const PersonProfile = lazy(() => import('./components/PersonProfile'));
+const EmbedCard     = lazy(() => import('./components/EmbedCard'));
+const Methodology   = lazy(() => import('./components/Methodology'));
+
+const RouteLoading = () => (
+  <div style={{minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center', background:'#111827'}}>
+    <div style={{fontSize:32}} className="animate-spin">⚙️</div>
+  </div>
+);
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -44,13 +55,20 @@ function App() {
           <Route path="/" element={
             <Dashboard darkMode={darkMode} toggleDarkMode={() => setDarkMode(d => !d)} />
           } />
-          <Route path="/admin" element={<AdminPanel />} />
+          <Route path="/admin" element={
+            <Suspense fallback={<RouteLoading/>}><AdminPanel /></Suspense>
+          } />
           <Route path="/szemely/:id" element={
             <ErrorBoundary label="Személy profil">
-              <PersonProfile darkMode={darkMode} />
+              <Suspense fallback={<RouteLoading/>}><PersonProfile darkMode={darkMode} /></Suspense>
             </ErrorBoundary>
           } />
-          <Route path="/embed/:id" element={<EmbedCard />} />
+          <Route path="/embed/:id" element={
+            <Suspense fallback={<RouteLoading/>}><EmbedCard /></Suspense>
+          } />
+          <Route path="/modszertan" element={
+            <Suspense fallback={<RouteLoading/>}><Methodology darkMode={darkMode} /></Suspense>
+          } />
         </Routes>
       </ErrorBoundary>
     </LangProvider>

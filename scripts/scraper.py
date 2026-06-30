@@ -252,10 +252,13 @@ def make_id(url): return 'sc_'+hashlib.md5(url.encode()).hexdigest()[:8]
 
 def scrape_all():
     items = []
+    feed_health = []  # {name, raw_count, error} — minden forráshoz, a relevancia-szűrés ELŐTTI nyers darabszámmal
     for feed in FEEDS:
+        raw_count, error = 0, None
         try:
             log.info(f"Fetching {feed['name']}…")
             d = feedparser.parse(_feed_url(feed['url']))
+            raw_count = len(d.entries)
             for entry in d.entries[:40]:
                 title   = getattr(entry,'title','')
                 summary = BeautifulSoup(getattr(entry,'summary',''),'html.parser').get_text()
@@ -280,10 +283,55 @@ def scrape_all():
                     "tags":             extract_tags(full_text),
                     "involved_persons": extract_persons(full_text),
                 })
-            log.info(f"  {feed['name']}: {len([x for x in items if x['source']==feed['source']])} cikk")
+            log.info(f"  {feed['name']}: {raw_count} nyers / {len([x for x in items if x['source']==feed['source']])} releváns cikk")
         except Exception as e:
+            error = str(e)
             log.error(f"  {feed['name']} hiba: {e}")
-    return items
+        feed_health.append({"name": feed['name'], "raw_count": raw_count, "error": error})
+    return items, feed_health
+
+def check_feed_health(feed_health, streak_threshold=3):
+    """Figyeli, ha egy RSS forrás tartósan 0 cikket ad vagy hibázik — ez gyakran azt jelenti,
+    hogy megváltozott a feed URL-je vagy védelem lépett életbe, és ez némán, észrevétlenül
+    maradhatna, mert a scraper futása technikailag 'sikeres' marad."""
+    path = 'data/archive/feed-health.json'
+    os.makedirs('data/archive', exist_ok=True)
+    os.makedirs('public/data', exist_ok=True)
+    history = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding='utf-8') as f:
+                history = json.load(f)
+        except Exception:
+            history = []
+    history.append({
+        "run_at": datetime.now(timezone.utc).isoformat(),
+        "feeds": feed_health,
+    })
+    history = history[-30:]  # utolsó 30 futás
+
+    # Egymást követő hibás/0-result futások számolása forrásonként
+    streaks = {}
+    for feed in feed_health:
+        name = feed['name']
+        streak = 0
+        for run in reversed(history):
+            entry = next((f for f in run['feeds'] if f['name'] == name), None)
+            if entry and (entry['raw_count'] == 0 or entry['error']):
+                streak += 1
+            else:
+                break
+        streaks[name] = streak
+        if streak >= streak_threshold:
+            log.warning(f"⚠️ '{name}' forrás {streak} egymást követő futásban 0 cikket adott / hibázott — érdemes ellenőrizni a feed URL-jét.")
+
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+    # Publikus, kis összesítő az admin panelnek (token nélkül elérhető)
+    summary = [{"name": n, "consecutive_zero_streak": s} for n, s in streaks.items()]
+    with open('public/data/feed-health.json', 'w', encoding='utf-8') as f:
+        json.dump({"checked_at": datetime.now(timezone.utc).isoformat(), "feeds": summary}, f, ensure_ascii=False, indent=2)
+    return streaks
 
 def generate_rss(data):
     cases = data['cases'][:20]
@@ -477,7 +525,8 @@ def main():
     log.info("=== NER Tracker Scraper v3.0 ===")
     existing = load_existing()
     backup(existing)
-    new_items = scrape_all()
+    new_items, feed_health = scrape_all()
+    check_feed_health(feed_health)
     data = merge(existing, new_items)
     data = auto_connections(data)
     data = update_metadata(data)
