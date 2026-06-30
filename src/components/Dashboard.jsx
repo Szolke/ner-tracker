@@ -52,7 +52,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const [searchTerm, setSearchTerm]         = useState('');
   const [filterStatus, setFilterStatus]     = useState('all');
   const [filterCat, setFilterCat]           = useState('all');
-  const [maxAmount, setMaxAmount]           = useState(35);
+  const [maxAmount, setMaxAmount]           = useState(Infinity); // alapból nincs felső korlát — a tényleges skálát a data alapján számoljuk (ld. amountCeiling)
   const [selectedCase, setSelectedCase]     = useState(null);
   const [selectedCounty, setSelectedCounty] = useState(null); // ChoroplethMap pin — itt él, hogy a CaseDetail modal nyitása/zárása ne törölje
   const [selectedPersonId, setSelectedPersonId] = useState(null); // NetworkGraph kiválasztott személy — ugyanaz a minta
@@ -106,7 +106,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     });
   }, [setSearchParams]);
 
-  const filteredCases = useFilteredCases(data, { searchTerm, filterStatus, filterCat, maxAmount });
+  const filteredCases = useFilteredCases(data, { searchTerm, filterStatus, filterCat, maxAmount: effectiveMaxAmount });
 
   // Lapozás visszaállítása 1-re, ha bármelyik szűrő változik.
   // (Korábban ez a filteredCases useMemo-ján belül futott setPage(1) hívással,
@@ -115,6 +115,15 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
 
   const watchedCases  = useMemo(() => data?.cases.filter(c => watched.has(c.id)) || [], [data, watched]);
   const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+(c.amount_huf||0),0)??0, [data]);
+  // A "Max összeg" csúszka felső határa a tényleges adatok alapján — korábban 35 Mrd HUF
+  // volt beégetve, ami azóta jóval az adatok skálája alatt maradt (a legnagyobb ügyek
+  // 1000+ Mrd HUF-osak), így a csúszka a legtöbb nagy ügyet sosem tudta megjeleníteni.
+  const amountCeiling = useMemo(() => {
+    if (!data) return 50;
+    const maxMrd = Math.max(0, ...data.cases.map(c => (c.amount_huf || 0) / 1e9));
+    return Math.max(50, Math.ceil(maxMrd / 50) * 50); // legalább 50 Mrd, 50-es lépésekre kerekítve felfelé
+  }, [data]);
+  const effectiveMaxAmount = Math.min(maxAmount, amountCeiling); // a csúszka aktuális (kijelzett) értéke
   const categoryData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.category]=(m[c.category]||0)+1;}); return Object.entries(m).map(([name,value])=>({name,value})); }, [data]);
   const statusData    = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.status]=(m[c.status]||0)+1;}); return Object.entries(m).map(([name,value])=>({name:STATUS_LABELS_I18N[name]||name,value})); }, [data]);
   const allPersons    = useMemo(() => { if(!data)return[]; const seen=new Set(); return data.cases.flatMap(c=>c.involved_persons).filter(p=>{if(seen.has(p.id))return false;seen.add(p.id);return true;}); }, [data]);
@@ -447,8 +456,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                   <div><label className="text-xs font-semibold opacity-50 block mb-1">{tr.category_label}</label>
                     <select value={filterCat} onChange={e=>setFilterCat(e.target.value)} className={`w-full px-3 py-2 rounded-lg border text-sm ${darkMode?'bg-gray-700 border-gray-600 text-white':'bg-white border-gray-300'}`}>
                       <option value="all">{tr.catAll}</option><option value="korrupció">{tr.catCorruption}</option><option value="pénzügyi">{tr.catFinancial}</option><option value="közbeszerzés">{tr.catProcurement}</option></select></div>
-                  <div><label className="text-xs font-semibold opacity-50 block mb-1">{tr.max_label}: {maxAmount} Mrd HUF</label>
-                    <input type="range" min="1" max="35" value={maxAmount} onChange={e=>setMaxAmount(+e.target.value)} className="w-full mt-2"/></div>
+                  <div><label className="text-xs font-semibold opacity-50 block mb-1">{tr.max_label}: {effectiveMaxAmount.toLocaleString('hu-HU')} Mrd HUF</label>
+                    <input type="range" min="1" max={amountCeiling} value={effectiveMaxAmount} onChange={e=>setMaxAmount(+e.target.value)} className="w-full mt-2"/></div>
                 </div>
                 <div className="flex items-center justify-between mt-3">
                   <p className="text-xs opacity-40">{filteredCases.length} {tr.displayedCases}</p>
