@@ -375,3 +375,51 @@ Az admin jelszó (`ner2026admin`) SZÁNDÉKOSAN szerepel a kliensoldali
 bundle-ben — ez egy egyszerű, dokumentált belépési kapu, nem valódi
 authentikáció. A GitHub token mindig futásidőben, `localStorage`-ban
 tárolva, SOHA nem hardcode-olva.
+
+---
+
+## Code-splitting (App.jsx)
+
+A `Dashboard` eager importálva (ez a fő, mindenkit érintő route), de az
+`AdminPanel`, `PersonProfile`, `EmbedCard`, `Methodology` route-ok
+`React.lazy()` + `<Suspense fallback={<RouteLoading/>}>`-pel lazy-loadolva —
+ezek kódja csak akkor töltődik le, ha a felhasználó ténylegesen meglátogatja
+az adott útvonalat. Új route hozzáadásakor kövesd ezt a mintát, hacsak nem
+egy minden látogatót érintő, kritikus route-ról van szó.
+
+## CI: Build Check (PR-ok és nem-main branch-ek)
+
+`.github/workflows/build-check.yml` minden Pull Requesten és nem-`main`
+branch push-on lefuttatja: `npm run build`, `ghp_` token-leak grep a
+`dist/`-ben, és `python -m py_compile scripts/scraper.py`. Ez korán elkapja
+a szintaxishibákat, mielőtt a "Daily News Scraper" workflow (ami buildel ÉS
+deployol) élesben futna rájuk. Ez a workflow SOSEM deployol, csak ellenőriz.
+
+## RSS-forrás egészség monitorozás
+
+`scrape_all()` minden forráshoz visszaadja a nyers (relevancia-szűrés
+előtti) cikkszámot és az esetleges hibát (`feed_health` lista).
+`check_feed_health()` ezt összeveti az előző futásokkal
+(`data/archive/feed-health.json`, utolsó 30 futás), és ha egy forrás
+3+ egymást követő futásban 0 cikket ad vagy hibázik, warning logot ír —
+ez gyakran azt jelzi, hogy megváltozott a feed URL-je vagy védelem lépett
+életbe. Publikus összesítő: `public/data/feed-health.json`, amit az
+AdminPanel "RSS-forrás állapot" widgetje (`FeedHealth` komponens) jelenít
+meg token nélkül.
+
+## Akadálymentesség (a11y)
+
+Minden ikon-only gombnak (csillag/megosztás/bezárás/sötét mód/nyelv váltás)
+legyen `aria-label`-je a `title` mellett — screen reader nem mindig olvassa
+a `title` attribútumot. Új ikon-only gomb hozzáadásakor mindig adj hozzá
+`aria-label`-t is.
+
+## Módszertan és helyesbítés oldal
+
+`src/components/Methodology.jsx`, route: `/modszertan`, link a Dashboard
+láblécében. Tartalmazza: hogyan kerülnek be az ügyek, a `verified`
+mező jelentését, a `status`/`amount_huf` korlátait (sajtóhír-alapú, nem
+hatósági megállapítás), és a helyesbítés-kérés folyamatát (GitHub Issues).
+Ez egy nyilvános, valós személyeket megnevező adatbázisnál fontos jogi/
+szerkesztői átláthatósági elem — tartalmát ne törd le, csak bővítsd, ha
+a scraper logikája vagy az adatformátum változik.
