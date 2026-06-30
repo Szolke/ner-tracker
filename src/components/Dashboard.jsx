@@ -106,15 +106,6 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     });
   }, [setSearchParams]);
 
-  const filteredCases = useFilteredCases(data, { searchTerm, filterStatus, filterCat, maxAmount: effectiveMaxAmount });
-
-  // Lapozás visszaállítása 1-re, ha bármelyik szűrő változik.
-  // (Korábban ez a filteredCases useMemo-ján belül futott setPage(1) hívással,
-  // ami render közbeni state-mutáció volt — most tiszta useEffect-tel.)
-  useEffect(() => { setPage(1); }, [searchTerm, filterStatus, filterCat, maxAmount]);
-
-  const watchedCases  = useMemo(() => data?.cases.filter(c => watched.has(c.id)) || [], [data, watched]);
-  const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+(c.amount_huf||0),0)??0, [data]);
   // A "Max összeg" csúszka felső határa a tényleges adatok alapján — korábban 35 Mrd HUF
   // volt beégetve, ami azóta jóval az adatok skálája alatt maradt (a legnagyobb ügyek
   // 1000+ Mrd HUF-osak), így a csúszka a legtöbb nagy ügyet sosem tudta megjeleníteni.
@@ -124,6 +115,16 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
     return Math.max(50, Math.ceil(maxMrd / 50) * 50); // legalább 50 Mrd, 50-es lépésekre kerekítve felfelé
   }, [data]);
   const effectiveMaxAmount = Math.min(maxAmount, amountCeiling); // a csúszka aktuális (kijelzett) értéke
+
+  const filteredCases = useFilteredCases(data, { searchTerm, filterStatus, filterCat, maxAmount: effectiveMaxAmount });
+
+  // Lapozás visszaállítása 1-re, ha bármelyik szűrő változik.
+  // (Korábban ez a filteredCases useMemo-ján belül futott setPage(1) hívással,
+  // ami render közbeni state-mutáció volt — most tiszta useEffect-tel.)
+  useEffect(() => { setPage(1); }, [searchTerm, filterStatus, filterCat, maxAmount]);
+
+  const watchedCases  = useMemo(() => data?.cases.filter(c => watched.has(c.id)) || [], [data, watched]);
+  const totalAmount   = useMemo(() => data?.cases.reduce((s,c) => s+(c.amount_huf||0),0)??0, [data]);
   const categoryData  = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.category]=(m[c.category]||0)+1;}); return Object.entries(m).map(([name,value])=>({name,value})); }, [data]);
   const statusData    = useMemo(() => { if(!data)return[]; const m={}; data.cases.forEach(c=>{m[c.status]=(m[c.status]||0)+1;}); return Object.entries(m).map(([name,value])=>({name:STATUS_LABELS_I18N[name]||name,value})); }, [data]);
   const allPersons    = useMemo(() => { if(!data)return[]; const seen=new Set(); return data.cases.flatMap(c=>c.involved_persons).filter(p=>{if(seen.has(p.id))return false;seen.add(p.id);return true;}); }, [data]);
