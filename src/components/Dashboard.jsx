@@ -54,6 +54,7 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const [filterCat, setFilterCat]           = useState('all');
   const [maxAmount, setMaxAmount]           = useState(35);
   const [selectedCase, setSelectedCase]     = useState(null);
+  const [selectedCounty, setSelectedCounty] = useState(null); // ChoroplethMap pin — itt él, hogy a CaseDetail modal nyitása/zárása ne törölje
   const [watched, toggleWatch]              = useWatchlist();
   const [searchParams, setSearchParams]     = useSearchParams();
 
@@ -453,7 +454,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               </P>
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2"><MapPin className="w-4 h-4"/>{tr.heatmapTitle}</h3>
-                <ChoroplethMap cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
+                <ChoroplethMap cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}
+                  selectedCounty={selectedCounty} onSelectCounty={setSelectedCounty}/>
               </P>
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2">

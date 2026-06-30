@@ -46,10 +46,16 @@ function lerp(a, b, t) {
   return `#${r}${g}${bl}`;
 }
 
-export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
+export default function ChoroplethMap({ cases, onCaseSelect, darkMode, selectedCounty, onSelectCounty }) {
   const { t: tr } = useLang();
   const [hovered, setHovered] = useState(null);   // csak vizuális kiemelés (border) hoverkor
-  const [selected, setSelected] = useState(null);  // kattintással rögzített megye — ez vezérli az alatta lévő listát
+  // A kiválasztott megyét a szülő (Dashboard) is birtokolhatja (selectedCounty/onSelectCounty
+  // prop), hogy a CaseDetail modal nyitása/zárása semmiképp ne törölhesse a pin-elt választást.
+  // Ha a szülő nem ad át vezérlést, helyi state-tel működik tovább (önállóan használható marad).
+  const [localSelected, setLocalSelected] = useState(null);
+  const isControlled = selectedCounty !== undefined && typeof onSelectCounty === 'function';
+  const selected = isControlled ? selectedCounty : localSelected;
+  const setSelected = isControlled ? onSelectCounty : setLocalSelected;
 
   // Aggregate by county id
   const stats = {};
