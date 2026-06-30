@@ -1,6 +1,66 @@
 {
   "cases": [
     {
+      "id": "sc_23fb2e7e",
+      "title": "Financial Times-elemzés: Politikai fedezék lehet Magyar Péternek a reformok lassítására, hogy hazugsággal vádolhatja Orbánt a gigahiány miatt",
+      "description": "Reformok nélkül Németország gazdasági növekedése a nullához fog közelíteni. Új fejezet nyílik a magyar–ukrán kapcsolatokban? Az erős férfiak gyengesége: Vucsics szerb elnök lehet a következő, aki nem akar lemondani a hatalmáról. Témák és vélemények a világsajtóból.",
+      "link": "https://hvg.hu/360/20260630_lapszemle-magyar-peter-orban-viktor-nemetorszag-eu-gazdasag-szerbia-karpataljai-magyarok",
+      "date": "2026-06-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_fd0b00",
+          "name": "Financial Times",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_27a03d",
+          "name": "Magyar Péternek",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_afaafe7f",
+      "title": "Gulyás Gergely szerint az ügynökakták ma is kutathatók és megismerhetők",
+      "description": "Czakó-Czirbus Pál, a Tisza vezérszónoka arról beszélt, hogy generációkon átívelő sebeket okoztak a megfigyelések. A parlament ülése percről percre.",
+      "link": "https://telex.hu/belfold/2026/06/30/parlament-ules-magyar-peter-szuverenitasvedelmi-hivatal-polgarmesterek",
+      "date": "2026-06-30",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_7fe228",
+          "name": "Gulyás Gergely",
+          "position": "miniszterelnöki kabinetfőnök"
+        },
+        {
+          "id": "p_d13fc6",
+          "name": "Czirbus Pál",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_4b6cc421",
       "title": "Még folyik a nemzetközi vizsgálat Deutsch bántalmazással vádolt felesége ellen",
       "description": "Deutsch-Lazsányi még korábban lemondott a ritmikusgimnasztika-szövetségben betöltött tisztségeiről, a testület pedig több egykori tanítványát meghallgatta, akik a stílusát és a munkamódszereit nehezményezték.",
@@ -2821,23 +2881,43 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_fd0b00",
+      "to": "p_27a03d",
+      "type": "business_connection",
+      "cases": [
+        "sc_23fb2e7e"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_7fe228",
+      "to": "p_d13fc6",
+      "type": "political_ally",
+      "cases": [
+        "sc_afaafe7f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-30T07:12:12.330573+00:00",
+    "last_updated": "2026-06-30T09:51:28.385367+00:00",
     "version": "3.0.0",
-    "total_cases": 63,
+    "total_cases": 65,
     "total_investigations": 4,
     "total_involved_amount_huf": 18069400000000,
     "status_breakdown": {
-      "active": 40,
+      "active": 42,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 16,
-      "pénzügyi": 37,
+      "korrupció": 17,
+      "pénzügyi": 38,
       "közbeszerzés": 10
     },
     "sources": [
@@ -2849,16 +2929,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Csongrád-Csanád",
-      "Borsod-Abaúj-Zemplén",
-      "Országos",
       "Baranya",
-      "Budapest",
-      "Pest",
-      "Tolna",
       "Győr-Moson-Sopron",
+      "Fejér",
+      "Pest",
+      "Borsod-Abaúj-Zemplén",
       "Somogy",
-      "Fejér"
+      "Csongrád-Csanád",
+      "Tolna",
+      "Országos",
+      "Budapest"
     ]
   }
 }

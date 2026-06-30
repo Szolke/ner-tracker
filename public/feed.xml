@@ -5,8 +5,24 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:12:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:51:28 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Financial Times-elemzés: Politikai fedezék lehet Magyar Péternek a reformok lassítására, hogy hazugsággal vádolhatja Orbánt a gigahiány miatt]]></title>
+    <link>https://hvg.hu/360/20260630_lapszemle-magyar-peter-orban-viktor-nemetorszag-eu-gazdasag-szerbia-karpataljai-magyarok</link>
+    <guid>sc_23fb2e7e</guid>
+    <pubDate>2026-06-30</pubDate>
+    <description><![CDATA[Reformok nélkül Németország gazdasági növekedése a nullához fog közelíteni. Új fejezet nyílik a magyar–ukrán kapcsolatokban? Az erős férfiak gyengesége: Vucsics szerb elnök lehet a következő, aki nem  | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Gulyás Gergely szerint az ügynökakták ma is kutathatók és megismerhetők]]></title>
+    <link>https://telex.hu/belfold/2026/06/30/parlament-ules-magyar-peter-szuverenitasvedelmi-hivatal-polgarmesterek</link>
+    <guid>sc_afaafe7f</guid>
+    <pubDate>2026-06-30</pubDate>
+    <description><![CDATA[Czakó-Czirbus Pál, a Tisza vezérszónoka arról beszélt, hogy generációkon átívelő sebeket okoztak a megfigyelések. A parlament ülése percről percre. | Budapest | Összeg ismeretlen | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
   <item>
     <title><![CDATA[Még folyik a nemzetközi vizsgálat Deutsch bántalmazással vádolt felesége ellen]]></title>
     <link>https://444.hu/2026/06/29/meg-folyik-a-nemzetkozi-vizsgalat-deutsch-bantalmazassal-vadolt-felesege-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -149,22 +165,6 @@
     <guid>sc_29046c36</guid>
     <pubDate>2026-06-28</pubDate>
     <description><![CDATA[Új Államvédelmi Hatóság épül – elég a gyanú... – elmélkedett a Nemzeti Vagyonvisszaszerzési és Védelmi Hivatalról a fideszes jogsegélyszolgálat, az Orbán Viktor ötletére alapított Védvonal vezetője. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Utolérheti a Tisztítótűz művelet a Mol-vezért?│Elvitelre]]></title>
-    <link>https://hvg.hu/itthon/20260627_utolerheti-a-tisztitotuz-muvelet-a-mol-vezert-elvitelre</link>
-    <guid>sc_f7a1e643</guid>
-    <pubDate>2026-06-27</pubDate>
-    <description><![CDATA[Elvitelre – a podcast, amelyben a hét legjobb HVG hetilapos és hvg360-as anyagaiból válogatunk. A héten: milliárdos károk és egy távozó miniszterelnök. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Törvényt sérthet a Mohu, amikor díjat számít fel az építési hulladék leadásáért a lakosságtól]]></title>
-    <link>https://hvg.hu/360/20260627_mohu-bontasi-hulladek-sitt-hulladekudvar-lakossagi-dij-jogsertes</link>
-    <guid>sc_660f0b02</guid>
-    <pubDate>2026-06-27</pubDate>
-    <description><![CDATA[Az állítólagos visszaélések miatt a Mohu július 1-től nem biztosítja az építési-bontási hulladék bizonyos kvótáig ingyenes leadását a lakosság számára, ez azonban a kormányhivatal szerint megsérti a h | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
