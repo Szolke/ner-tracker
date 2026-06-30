@@ -33,3 +33,5 @@ coverage/
 # Logs
 logs/
 *.log
+scripts/__pycache__/
+package-lock.json
