@@ -124,6 +124,12 @@ Habony Árpád, Csányi Sándor, Parragh László, Polt Péter, Simicska Lajos,
 Garancsi István, Demeter Szilárd, Vida Ildikó, Varga Mihály, Deutsch Tamás,
 Semjén Zsolt, Pintér Sándor, Nagy Márton, Karácsony Gergely, Vitézy Dávid
 
+### extract_persons() — fals pozitív szűrés
+A generikus "Nagybetű Nagybetű" regex (pl. intézménynevek) elleni blacklist:
+`NON_PERSON_FIRST_WORDS` / `NON_PERSON_SECOND_WORDS`. A kiszűrt jelölteket
+a `data/archive/person-review-queue.json` naplózza, hogy alkalmanként
+átnézhető legyen a fals pozitív/negatív arány.
+
 ### merge() — aktív tisztítás + duplikátum-szűrés
 Minden futásnál az összes meglévő ügy átmegy a szűrőn — az irrelevánssá
 vált régi cikkek automatikusan eltávolítódnak. Az új cikkek címét `difflib`
@@ -131,7 +137,9 @@ fuzzy-egyezéssel (küszöb: 0.82) is összeveti a meglévő címekkel, hogy
 elkerülje ugyanazon ügy kétszeri felvételét különböző forrásokból
 (pl. Telex és HVG ugyanarról, kicsit eltérő címmel). Minden eltávolítást/
 kihagyást a `data/archive/cleanup-log.json` naplóz (ok + cikk-cím), hogy
-visszaellenőrizhetők legyenek a hamis negatívok.
+visszaellenőrizhetők legyenek a hamis negatívok. Egy kisebb (utolsó 20 futás)
+másolat `public/data/cleanup-log.json`-be is kerül, amit az AdminPanel
+"Scraper egészség" widgetje olvas be token nélkül.
 
 ---
 
@@ -268,3 +276,21 @@ GitHub Actions: "Daily News Scraper" → Run workflow
 1. Frissítsd ezt a `CLAUDE.md`-t ha struktúra/konvenció/lista változott
 2. `git pull --rebase` majd `git push`
 3. UI változásnál: trigger GitHub Actions workflow
+
+---
+
+## Dinamikus Open Graph (közösségimédia-megosztás)
+
+`functions/_middleware.js` egy Cloudflare Pages Function: felismeri a social
+crawlerek User-Agentjét (Facebook, Twitter, Slack, LinkedIn, Discord stb.) és
+nekik egy könnyű, az adott ügy/személy adataival kitöltött HTML-t ad vissza
+(`/szemely/:id`, `/embed/:id`, `/?case=:id`), hogy megosztáskor ne csak az
+általános `og-image.svg` + statikus cím jelenjen meg. Valódi böngészőknél
+változatlanul a normál SPA töltődik be.
+
+## Admin panel — "Scraper egészség"
+Az `/admin` oldal authentikáció után megjeleníti az utolsó 7 nap
+cleanup-statisztikáját (`public/data/cleanup-log.json` alapján): hány
+irreleváns cikket távolított el és hány duplikátumot hagyott ki a scraper,
+okok szerint bontva. 30 feletti eltávolítás/duplikátum esetén figyelmeztetést
+mutat, hogy érdemes-e átnézni a szűrőt.

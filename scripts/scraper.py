@@ -131,6 +131,24 @@ KNOWN_PERSONS = [
     ("Vitézy Dávid",      "BKK volt vezérigazgató"),
 ]
 
+# A generikus "Nagybetű Nagybetű" regex gyakran intézmény-/helyneveket talál el
+# személyként (pl. "Európai Unió", "Legfelsőbb Bíróság"). Ha az első vagy második
+# szó ezen a listán szerepel, a találatot kihagyjuk és a review-queue-ba logoljuk,
+# hogy alkalmanként át lehessen nézni, mennyi a téves találatok aránya.
+NON_PERSON_FIRST_WORDS = {
+    'magyar','európai','nemzeti','állami','kormányzati','legfelsőbb','alkotmány',
+    'pénzügyi','gazdasági','külügyi','belügyi','igazságügyi','kúria','parlament',
+    'kormány','miniszterelnöki','fővárosi','megyei','kerületi','rendőrségi',
+    'ügyészségi','bírósági','sajtó','hivatalos','büntető','polgári','közigazgatási',
+}
+NON_PERSON_SECOND_WORDS = {
+    'bank','bíróság','hivatal','tanács','kormány','minisztérium','egyesület',
+    'alapítvány','bizottság','ügynökség','társaság','kft','zrt','nyrt','rt',
+    'törvényszék','ügyészség','hatóság','intézet','egyetem','kórház',
+}
+
+_person_review_queue = []  # futás közben gyűjti a kétséges/elutasított generikus találatokat
+
 def extract_persons(text):
     found = []
     seen  = set()
@@ -139,15 +157,43 @@ def extract_persons(text):
             pid = 'p_' + hashlib.md5(name.encode()).hexdigest()[:6]
             found.append({"id": pid, "name": name, "position": pos})
             seen.add(name)
-    # Generic: Lastname Firstname pattern (capital letters)
+    # Generic: Lastname Firstname pattern (capital letters) — blacklist-szűréssel
     for m in re.finditer(r'\b([A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+\s+[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+)\b', text):
         name = m.group(1)
-        if name not in seen and len(name) > 6:
-            pid = 'p_' + hashlib.md5(name.encode()).hexdigest()[:6]
-            found.append({"id": pid, "name": name, "position": "ismeretlen"})
-            seen.add(name)
+        if name in seen or len(name) <= 6:
+            continue
+        w1, w2 = name.lower().split()
+        if w1 in NON_PERSON_FIRST_WORDS or w2 in NON_PERSON_SECOND_WORDS:
+            _person_review_queue.append({"candidate": name, "reason": "blacklisted_institution_pattern"})
+            continue
+        pid = 'p_' + hashlib.md5(name.encode()).hexdigest()[:6]
+        found.append({"id": pid, "name": name, "position": "ismeretlen"})
+        seen.add(name)
         if len(found) >= 4: break
     return found[:4]
+
+def save_person_review_queue():
+    """A generikus regex-szel kiszűrt jelölteket naplózza, hogy alkalmanként
+    manuálisan átnézhető legyen a fals pozitív / fals negatív arány."""
+    if not _person_review_queue:
+        return
+    path = 'data/archive/person-review-queue.json'
+    os.makedirs('data/archive', exist_ok=True)
+    log_data = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding='utf-8') as f:
+                log_data = json.load(f)
+        except Exception:
+            log_data = []
+    log_data.append({
+        "run_at": datetime.now(timezone.utc).isoformat(),
+        "skipped_candidates": _person_review_queue[:200],
+    })
+    log_data = log_data[-50:]
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(log_data, f, ensure_ascii=False, indent=2)
+    log.info(f"Person review queue frissítve: {path} ({len(_person_review_queue)} kihagyott jelölt)")
 
 def extract_tags(text):
     kw = ['korrupció','közbeszerzés','EU','OLAF','EPPO','alapítvány','stadion',
@@ -283,11 +329,14 @@ def load_existing():
 
 def log_cleanup(entries):
     """Logolja a merge() által eltávolított/kihagyott cikkeket data/archive/cleanup-log.json-be,
-    hogy vissza lehessen ellenőrizni a hamis negatívokat (irrelevánsnak ítélt, de valós ügyek)."""
+    hogy vissza lehessen ellenőrizni a hamis negatívokat (irrelevánsnak ítélt, de valós ügyek).
+    Egy másolatot public/data/ alá is ment, hogy az admin panel közvetlenül (token nélkül)
+    le tudja kérni a statikus oldalról."""
     if not entries:
         return
-    path = 'data/archive/cleanup-log.json'
     os.makedirs('data/archive', exist_ok=True)
+    os.makedirs('public/data', exist_ok=True)
+    path = 'data/archive/cleanup-log.json'
     log_data = []
     if os.path.exists(path):
         try:
@@ -302,6 +351,9 @@ def log_cleanup(entries):
     log_data = log_data[-100:]  # csak az utolsó 100 futás
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(log_data, f, ensure_ascii=False, indent=2)
+    # Publikus, kisebb másolat (csak az utolsó 20 futás) az admin panelnek
+    with open('public/data/cleanup-log.json', 'w', encoding='utf-8') as f:
+        json.dump(log_data[-20:], f, ensure_ascii=False, indent=2)
     log.info(f"Cleanup log frissítve: {path} ({len(entries)} esemény ebben a futásban)")
 
 def merge(existing, new_items):
@@ -431,6 +483,7 @@ def main():
     data = update_metadata(data)
     save(data)
     generate_rss(data)
+    save_person_review_queue()
     log.info(f"=== Kész | {data['metadata']['total_cases']} ügy ===")
 
 if __name__ == '__main__':

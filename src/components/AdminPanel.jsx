@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Lock, Plus, Send, ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
+import { Lock, Plus, Send, ArrowLeft, CheckCircle, XCircle, Activity } from 'lucide-react';
 
 const API      = "https://api.github.com/repos/Szolke/ner-tracker/contents";
 const PASSWORD = "ner2026admin";
@@ -36,6 +36,15 @@ export default function AdminPanel() {
   const [form, setForm]       = useState(empty);
   const [status, setStatus]   = useState(null); // null | 'loading' | 'ok' | 'err'
   const [errMsg, setErrMsg]   = useState('');
+  const [cleanupLog, setCleanupLog] = useState(null); // null=betöltés alatt, []=nincs adat
+
+  useEffect(() => {
+    if (!authed) return;
+    fetch('/data/cleanup-log.json')
+      .then(r => r.ok ? r.json() : [])
+      .then(setCleanupLog)
+      .catch(() => setCleanupLog([]));
+  }, [authed]);
 
   const checkPw = () => {
     if (pw === PASSWORD && ghToken.startsWith('ghp_')) {
@@ -178,6 +187,8 @@ export default function AdminPanel() {
           </div>
         )}
 
+        <ScraperHealth cleanupLog={cleanupLog}/>
+
         <div className="bg-gray-800 rounded-2xl border border-gray-700 p-6 space-y-5">
           {/* Cím */}
           <div>
@@ -289,6 +300,74 @@ export default function AdminPanel() {
           </button>
         </div>
       </div>
+    </div>
+  );
+}
+
+const REASON_LABELS = {
+  exclude_keyword:      'Kizáró kulcsszó találat',
+  before_ner_era:       '2010 előtti dátum',
+  no_ner_core_match:    'Nincs NER-kulcsszó',
+  no_secondary_match:   'Nincs korrupciós indikátor',
+};
+
+function ScraperHealth({ cleanupLog }) {
+  if (cleanupLog === null) {
+    return (
+      <div className="bg-gray-800 rounded-2xl border border-gray-700 p-5 mb-6 text-sm text-gray-400">
+        Scraper egészség betöltése…
+      </div>
+    );
+  }
+  if (cleanupLog.length === 0) {
+    return (
+      <div className="bg-gray-800 rounded-2xl border border-gray-700 p-5 mb-6 text-sm text-gray-400 flex items-center gap-2">
+        <Activity className="w-4 h-4"/> Még nincs cleanup-log adat — az első automatikus scraper-futás után jelenik meg.
+      </div>
+    );
+  }
+
+  // Utolsó 7 nap futásai
+  const weekAgo = Date.now() - 7*24*60*60*1000;
+  const recent = cleanupLog.filter(run => new Date(run.run_at).getTime() >= weekAgo);
+  const allEntries = recent.flatMap(r => r.entries);
+  const removed   = allEntries.filter(e => e.action === 'removed');
+  const duplicate = allEntries.filter(e => e.action === 'skipped_duplicate');
+  const byReason = {};
+  removed.forEach(e => { byReason[e.reason] = (byReason[e.reason]||0) + 1; });
+  const lastRun = cleanupLog[cleanupLog.length - 1];
+
+  return (
+    <div className="bg-gray-800 rounded-2xl border border-gray-700 p-5 mb-6">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="font-semibold flex items-center gap-2"><Activity className="w-4 h-4 text-blue-400"/> Scraper egészség (utolsó 7 nap)</h2>
+        <span className="text-xs text-gray-500">Utolsó futás: {new Date(lastRun.run_at).toLocaleString('hu-HU')}</span>
+      </div>
+      <div className="grid grid-cols-2 gap-3 mb-3">
+        <div className="bg-gray-700/60 rounded-lg p-3">
+          <p className="text-xs text-gray-400">Eltávolított irreleváns cikk</p>
+          <p className="text-xl font-bold">{removed.length}</p>
+        </div>
+        <div className="bg-gray-700/60 rounded-lg p-3">
+          <p className="text-xs text-gray-400">Kihagyott duplikátum</p>
+          <p className="text-xl font-bold">{duplicate.length}</p>
+        </div>
+      </div>
+      {Object.keys(byReason).length > 0 && (
+        <div className="text-xs text-gray-400 space-y-1">
+          {Object.entries(byReason).map(([reason, count]) => (
+            <div key={reason} className="flex justify-between">
+              <span>{REASON_LABELS[reason] || reason}</span>
+              <span className="font-semibold text-gray-300">{count}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      {(removed.length > 30 || duplicate.length > 30) && (
+        <p className="text-xs text-yellow-500 mt-3">
+          ⚠️ Magas eltávolítási/duplikátum arány — érdemes átnézni, hogy a szűrő nem túl agresszív-e.
+        </p>
+      )}
     </div>
   );
 }
