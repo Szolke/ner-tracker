@@ -3,8 +3,29 @@ import { TrendingUp, TrendingDown, Minus, ChevronDown, ChevronUp } from 'lucide-
 
 const mrd = huf => (huf/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF';
 
+// Magyar éves átlagos fogyasztói árindex (KSH, %) — a CURRENT_YEAR-ig ismert/becsült értékek.
+// Ezekből épül fel a kumulált deflátor, ami egy adott évi forintösszeget a CURRENT_YEAR-i
+// vásárlóerőre számít át. Csak hozzávetőleges, tájékoztató jellegű korrekció.
+const CURRENT_YEAR = 2026;
+const INFLATION_HU = {
+  2010:4.9, 2011:3.9, 2012:5.7, 2013:1.7, 2014:-0.2, 2015:-0.1, 2016:0.4,
+  2017:2.4, 2018:2.8, 2019:3.4, 2020:3.3, 2021:5.1, 2022:14.5, 2023:17.6,
+  2024:3.7, 2025:4.5, 2026:4.0,
+};
+
+// Kumulált deflátor egy adott évre: hányszorosára nőttek az árak az adott év óta CURRENT_YEAR-ig.
+function deflatorTo(year) {
+  let factor = 1;
+  for (let y = year; y < CURRENT_YEAR; y++) {
+    const rate = INFLATION_HU[y] ?? 4.0; // ismeretlen évekre 4%-os átlagot feltételezünk
+    factor *= (1 + rate / 100);
+  }
+  return factor;
+}
+
 export default function TrendAnalysis({ data, darkMode }) {
   const [expanded, setExpanded] = useState(false);
+  const [adjustInflation, setAdjustInflation] = useState(false);
 
   const analysis = useMemo(() => {
     if (!data?.cases?.length) return null;
@@ -14,12 +35,18 @@ export default function TrendAnalysis({ data, darkMode }) {
     const byYear = {};
     cases.forEach(c => {
       const y = c.date.slice(0,4);
-      if (!byYear[y]) byYear[y] = { count:0, amount:0, korrupció:0, pénzügyi:0, közbeszerzés:0 };
+      if (!byYear[y]) byYear[y] = { count:0, amount:0, amountAdjusted:0, korrupció:0, pénzügyi:0, közbeszerzés:0 };
       byYear[y].count++;
       byYear[y].amount += c.amount_huf || 0;
+      byYear[y].amountAdjusted += (c.amount_huf || 0) * deflatorTo(+y);
       byYear[y][c.category]++;
     });
     const years = Object.entries(byYear).sort();
+    const yearlyAdjusted = years.map(([year, v]) => ({
+      year,
+      nominal: +(v.amount/1e9).toFixed(1),
+      adjusted: +(v.amountAdjusted/1e9).toFixed(1),
+    }));
 
     // Trend: last 2 years
     const last = years[years.length-1]?.[1];
@@ -58,7 +85,16 @@ export default function TrendAnalysis({ data, darkMode }) {
       insights.push({ type:'warn', text:`Az ügyek ${(activeCount/cases.length*100).toFixed(0)}%-a jelenleg nyomozás alatt — magas az aktív vizsgálatok aránya.` });
     }
 
-    return { insights, years, last, prev, countTrend, amountTrend, topRegion, topCat, avgAmount };
+    const totalNominal  = years.reduce((s,[,v])=>s+v.amount,0);
+    const totalAdjusted = years.reduce((s,[,v])=>s+v.amountAdjusted,0);
+    if (totalAdjusted > 0 && years.length > 3) {
+      const inflationGap = ((totalNominal - totalAdjusted) / totalAdjusted) * 100;
+      if (Math.abs(inflationGap) > 15) {
+        insights.push({ type:'info', text:`Inflációval korrigálva a teljes érintett összeg ${mrd(totalAdjusted)} ${CURRENT_YEAR}-os vásárlóerőn — a nyers (nominális) összeg ${inflationGap > 0 ? 'felülbecsüli' : 'alulbecsüli'} a tényleges gazdasági súlyt kb. ${Math.abs(inflationGap).toFixed(0)}%-kal.` });
+      }
+    }
+
+    return { insights, years, yearlyAdjusted, last, prev, countTrend, amountTrend, topRegion, topCat, avgAmount };
   }, [data]);
 
   if (!analysis) return null;
@@ -102,6 +138,39 @@ export default function TrendAnalysis({ data, darkMode }) {
                 <p className="font-bold text-sm">{analysis.amountTrend > 0 ? '+' : ''}{analysis.amountTrend.toFixed(0)}% YoY</p>
               </div>
             </div>
+          </div>
+
+          {/* Inflációval korrigált éves összegek */}
+          <div className={`p-3 rounded-lg ${darkMode?'bg-gray-700':'bg-gray-50'}`}>
+            <div className="flex items-center justify-between mb-2">
+              <p className="text-xs font-semibold opacity-60">Éves összegek — {adjustInflation ? `${CURRENT_YEAR}-os vásárlóerőn` : 'nominális (nyers) Ft-ban'}</p>
+              <button onClick={()=>setAdjustInflation(v=>!v)}
+                className={`text-xs px-2.5 py-1 rounded-full font-semibold transition ${adjustInflation
+                  ? 'bg-purple-500/20 text-purple-400'
+                  : (darkMode?'bg-gray-600 text-gray-300':'bg-gray-200 text-gray-600')}`}>
+                {adjustInflation ? `✓ Inflációkövetés be (${CURRENT_YEAR})` : 'Inflációkövetés ki'}
+              </button>
+            </div>
+            <div className="space-y-1">
+              {analysis.yearlyAdjusted.map(y => {
+                const value = adjustInflation ? y.adjusted : y.nominal;
+                const max = Math.max(...analysis.yearlyAdjusted.map(yy => adjustInflation ? yy.adjusted : yy.nominal), 1);
+                return (
+                  <div key={y.year} className="flex items-center gap-2 text-xs">
+                    <span className="w-10 opacity-50 flex-shrink-0">{y.year}</span>
+                    <div className="flex-1 h-3 rounded-full overflow-hidden bg-black/10">
+                      <div className="h-full bg-purple-400 rounded-full" style={{width: `${(value/max*100).toFixed(0)}%`}}/>
+                    </div>
+                    <span className="w-20 text-right font-semibold flex-shrink-0">{value.toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd</span>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="text-[10px] opacity-40 mt-2">
+              {adjustInflation
+                ? `KSH átlagos éves CPI-vel deflálva ${CURRENT_YEAR}-ra. Tájékoztató becslés, nem hivatalos statisztika.`
+                : 'A nyers forintösszegek évek óta gyűlnek — a "Inflációkövetés" gombbal összehasonlíthatók azonos vásárlóerőn.'}
+            </p>
           </div>
 
           {/* Insights */}

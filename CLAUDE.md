@@ -30,23 +30,30 @@ React/Vite SPA, Python RSS scraper, Cloudflare Pages hosting.
 ner-tracker/
 ├── src/
 │   ├── components/
-│   │   ├── Dashboard.jsx       ← FŐ komponens: 4 tab, modal, összes chart
+│   │   ├── Dashboard.jsx       ← FŐ komponens: 4 tab, összes chart (CaseDetail KISZERVEZVE)
+│   │   ├── CaseDetail.jsx      ← Ügy-modal (korábban Dashboard.jsx-ben volt)
 │   │   ├── LiveFeed.jsx        ← Jobb oldali hírfolyam widget
 │   │   ├── Timeline.jsx        ← Idővonal tab (drag-scroll, lejátszás)
 │   │   ├── NetworkGraph.jsx    ← Nyomozások tab (kapcsolati háló)
 │   │   ├── ChoroplethMap.jsx   ← Hőtérkép (Idővonal tab)
 │   │   ├── EUComparison.jsx    ← EU korrupciós index összehasonlítás
 │   │   ├── ErrorBoundary.jsx   ← Hibakezelő wrapper
-│   │   └── TrendAnalysis.jsx   ← Trend elemzés komponens
+│   │   └── TrendAnalysis.jsx   ← Trend elemzés + inflációkövetés (KSH CPI deflátor)
+│   ├── hooks/
+│   │   └── useFilteredCases.js ← Ügyszűrés (title+persons+description+TAGS)
+│   ├── utils/
+│   │   ├── pdfExport.js
+│   │   └── format.js           ← mrd()/mrdS()/shareCase() — közös formázók
 │   ├── i18n.jsx                ← Fordítások (hu/en), useLang() hook
 │   ├── App.jsx
 │   └── main.jsx
 ├── public/data/news.json       ← Adatfájl (~47 ügy)
 ├── data/
 │   ├── news.json               ← Scraper backup
-│   └── archive/YYYY-MM-DD.json ← Napi archívumok
+│   ├── archive/YYYY-MM-DD.json ← Napi archívumok
+│   └── archive/cleanup-log.json ← merge() által eltávolított/duplikátum cikkek naplója
 ├── scripts/
-│   ├── scraper.py              ← Python RSS scraper
+│   ├── scraper.py              ← Python RSS scraper (fuzzy duplikátum-szűréssel)
 │   └── rss-proxy.js            ← Cloudflare Worker proxy
 ├── .github/workflows/scraper.yml
 ├── wrangler.toml               ← CF Pages config
@@ -117,9 +124,14 @@ Habony Árpád, Csányi Sándor, Parragh László, Polt Péter, Simicska Lajos,
 Garancsi István, Demeter Szilárd, Vida Ildikó, Varga Mihály, Deutsch Tamás,
 Semjén Zsolt, Pintér Sándor, Nagy Márton, Karácsony Gergely, Vitézy Dávid
 
-### merge() — aktív tisztítás
+### merge() — aktív tisztítás + duplikátum-szűrés
 Minden futásnál az összes meglévő ügy átmegy a szűrőn — az irrelevánssá
-vált régi cikkek automatikusan eltávolítódnak.
+vált régi cikkek automatikusan eltávolítódnak. Az új cikkek címét `difflib`
+fuzzy-egyezéssel (küszöb: 0.82) is összeveti a meglévő címekkel, hogy
+elkerülje ugyanazon ügy kétszeri felvételét különböző forrásokból
+(pl. Telex és HVG ugyanarról, kicsit eltérő címmel). Minden eltávolítást/
+kihagyást a `data/archive/cleanup-log.json` naplóz (ok + cikk-cím), hogy
+visszaellenőrizhetők legyenek a hamis negatívok.
 
 ---
 
@@ -192,7 +204,8 @@ Megsértése → React error #310 ("Rendered more hooks than during previous ren
 - ESC + backdrop click zárja
 
 ### Keresés (Ügyek tab)
-Title + involved_persons.name + description — mindhármat ellenőrzi.
+Title + involved_persons.name + description + tags[] — mindet ellenőrzi
+(`src/hooks/useFilteredCases.js`).
 
 ### Pagination
 `PAGE_SIZE = 9`, `page` state. A kártya lista:

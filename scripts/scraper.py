@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """NER Tracker Scraper v3.0 – NLP névfelismerés, RSS feed, backup"""
 
-import feedparser, requests, json, re, os, hashlib, logging
+import feedparser, requests, json, re, os, hashlib, logging, difflib
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
@@ -176,11 +176,31 @@ def detect_amount(text):
         if m: return int(float(m.group(1).replace(',','.'))*mult)
     return None
 
-def is_relevant(title, summary='', date_str=None):
+def relevance_reason(title, summary='', date_str=None):
+    """Visszaadja (relevant: bool, reason: str|None) — a reason a cleanup loghoz kell."""
     text = (title+' '+summary).lower()
-    if any(ex in text for ex in EXCLUDE): return False
-    if date_str and date_str < NER_ERA_START: return False
-    return any(k in text for k in NER_CORE) and any(k in text for k in SECONDARY)
+    if any(ex in text for ex in EXCLUDE):
+        return False, 'exclude_keyword'
+    if date_str and date_str < NER_ERA_START:
+        return False, 'before_ner_era'
+    if not any(k in text for k in NER_CORE):
+        return False, 'no_ner_core_match'
+    if not any(k in text for k in SECONDARY):
+        return False, 'no_secondary_match'
+    return True, None
+
+def is_relevant(title, summary='', date_str=None):
+    ok, _ = relevance_reason(title, summary, date_str)
+    return ok
+
+def find_similar_title(title, existing_titles, threshold=0.82):
+    """Fuzzy cím-egyezés difflib-bel — ugyanaz az ügy más forrásból, kicsit eltérő címmel."""
+    tl = title.lower().strip()
+    for et in existing_titles:
+        if not et: continue
+        if difflib.SequenceMatcher(None, tl, et.lower().strip()).ratio() >= threshold:
+            return et
+    return None
 
 def make_id(url): return 'sc_'+hashlib.md5(url.encode()).hexdigest()[:8]
 
@@ -261,26 +281,72 @@ def load_existing():
             with open(p) as f: return json.load(f)
     return {"cases":[],"investigations":[],"connections":[],"metadata":{}}
 
+def log_cleanup(entries):
+    """Logolja a merge() által eltávolított/kihagyott cikkeket data/archive/cleanup-log.json-be,
+    hogy vissza lehessen ellenőrizni a hamis negatívokat (irrelevánsnak ítélt, de valós ügyek)."""
+    if not entries:
+        return
+    path = 'data/archive/cleanup-log.json'
+    os.makedirs('data/archive', exist_ok=True)
+    log_data = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding='utf-8') as f:
+                log_data = json.load(f)
+        except Exception:
+            log_data = []
+    log_data.append({
+        "run_at": datetime.now(timezone.utc).isoformat(),
+        "entries": entries,
+    })
+    log_data = log_data[-100:]  # csak az utolsó 100 futás
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(log_data, f, ensure_ascii=False, indent=2)
+    log.info(f"Cleanup log frissítve: {path} ({len(entries)} esemény ebben a futásban)")
+
 def merge(existing, new_items):
+    cleanup_entries = []
+
     # Meglévő irreleváns cikkek eltávolítása
     before = len(existing['cases'])
-    existing['cases'] = [
-        c for c in existing['cases']
-        if is_relevant(c.get('title',''), c.get('description',''), c.get('date'))
-    ]
+    kept = []
+    for c in existing['cases']:
+        ok, reason = relevance_reason(c.get('title',''), c.get('description',''), c.get('date'))
+        if ok:
+            kept.append(c)
+        else:
+            cleanup_entries.append({
+                "id": c.get('id'), "title": c.get('title'),
+                "action": "removed", "reason": reason,
+            })
+    existing['cases'] = kept
     removed = before - len(existing['cases'])
     if removed:
         log.info(f"Eltávolítva (irreleváns): {removed} régi ügy")
 
-    ids   = {c['id'] for c in existing['cases']}
-    links = {c['link'] for c in existing['cases']}
-    added = 0
+    ids    = {c['id'] for c in existing['cases']}
+    links  = {c['link'] for c in existing['cases']}
+    titles = [c.get('title','') for c in existing['cases']]
+    added, skipped_dupe = 0, 0
     for item in new_items:
-        if item['id'] not in ids and item['link'] not in links:
-            existing['cases'].insert(0, item)
-            added += 1
+        if item['id'] in ids or item['link'] in links:
+            continue
+        similar = find_similar_title(item['title'], titles)
+        if similar:
+            skipped_dupe += 1
+            cleanup_entries.append({
+                "id": item['id'], "title": item['title'],
+                "action": "skipped_duplicate", "reason": f"similar_to: {similar}",
+            })
+            log.info(f"  Duplikátum kihagyva: \"{item['title'][:60]}\" ~ \"{similar[:60]}\"")
+            continue
+        existing['cases'].insert(0, item)
+        titles.append(item['title'])
+        ids.add(item['id']); links.add(item['link'])
+        added += 1
     existing['cases'] = existing['cases'][:200]
-    log.info(f"Új: {added} | Összesen: {len(existing['cases'])}")
+    log.info(f"Új: {added} | Duplikátum kihagyva: {skipped_dupe} | Összesen: {len(existing['cases'])}")
+    log_cleanup(cleanup_entries)
     return existing
 
 def update_metadata(data):

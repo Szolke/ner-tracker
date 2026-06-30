@@ -42,6 +42,16 @@ export default function PersonProfile({ darkMode }) {
   const byYear = {};
   relCases.forEach(c=>{ const y=c.date.slice(0,4); byYear[y]=(byYear[y]||0)+1; });
 
+  // Az érintett ügyek state_history bejegyzéseinek összefűzése időrendben.
+  // Ha egy ügynek nincs status_history mezője, a jelenlegi (utolsó ismert) státuszát
+  // tüntetjük fel a publikálás dátumával — így minden ügy szerepel a listán.
+  const statusEvents = relCases
+    .flatMap(c => (c.status_history?.length
+      ? c.status_history.map(h => ({ date: h.date, status: h.status, caseId: c.id, caseTitle: c.title }))
+      : [{ date: c.date, status: c.status, caseId: c.id, caseTitle: c.title }]
+    ))
+    .sort((a,b) => a.date.localeCompare(b.date));
+
   const P = ({children,className=''}) => (
     <div className={`p-5 rounded-xl border ${darkMode?'bg-gray-800 border-gray-700':'bg-white border-gray-200'} ${className}`}>
       {children}
@@ -116,6 +126,30 @@ export default function PersonProfile({ darkMode }) {
             ))}
           </div>
         </P>
+
+        {/* Kapcsolódó ügyek időrendben (status_history alapján) */}
+        {statusEvents.length > 0 && (
+          <P>
+            <h3 className="font-semibold mb-4">Kapcsolódó ügyek időrendben</h3>
+            <div className="space-y-0">
+              {statusEvents.map((ev, i) => (
+                <div key={i} className="flex gap-3">
+                  <div className="flex flex-col items-center">
+                    <div className="w-2.5 h-2.5 rounded-full flex-shrink-0 mt-1.5" style={{background:STATUS_COLORS[ev.status]}}/>
+                    {i < statusEvents.length - 1 && <div className={`w-px flex-1 ${darkMode?'bg-gray-700':'bg-gray-200'}`}/>}
+                  </div>
+                  <div className="pb-4">
+                    <p className="text-xs opacity-50">{ev.date}</p>
+                    <p className="text-sm font-semibold cursor-pointer hover:underline" onClick={()=>navigate(`/?case=${ev.caseId}`)}>
+                      {ev.caseTitle}
+                    </p>
+                    <p className="text-xs mt-0.5" style={{color:STATUS_COLORS[ev.status]}}>→ {STATUS_LABELS[ev.status]}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </P>
+        )}
 
         {/* Connections */}
         {conns.length > 0 && (
