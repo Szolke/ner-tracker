@@ -1,6 +1,195 @@
 {
   "cases": [
     {
+      "id": "sc_4b6cc421",
+      "title": "Még folyik a nemzetközi vizsgálat Deutsch bántalmazással vádolt felesége ellen",
+      "description": "Deutsch-Lazsányi még korábban lemondott a ritmikusgimnasztika-szövetségben betöltött tisztségeiről, a testület pedig több egykori tanítványát meghallgatta, akik a stílusát és a munkamódszereit nehezményezték.",
+      "link": "https://444.hu/2026/06/29/meg-folyik-a-nemzetkozi-vizsgalat-deutsch-bantalmazassal-vadolt-felesege-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-29",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_14c17478",
+      "title": "Tegnap gyanúsítottként hallgatták ki, ma már a Fidesz biztonsági igazgatója",
+      "description": "Sűrű napjai vannak Hajdu Jánosnak.",
+      "link": "https://444.hu/2026/06/30/tegnap-gyanusitottkent-hallgattak-ki-ma-mar-a-fidesz-biztonsagi-igazgatoja?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-30",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_d36069",
+          "name": "Hajdu Jánosnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2f8007a7",
+      "title": "A volt TEK-es Hajdu Jánost gyanúsítottként hallgatták ki az aranykonvojügyben",
+      "description": "A TEK egykori főigazgatóját jogellenes fogva tartással gyanúsítják. Orbán reakciója: a Tisza az ukránok érdekeit képviseli.",
+      "link": "https://hvg.hu/itthon/20260629_aranykonvoj-ugy-ugyeszseg-gyanusitotti-kihallgatas-hajdu-janos-tek",
+      "date": "2026-06-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_3a8e99",
+          "name": "Hajdu Jánost",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_11845cd2",
+      "title": "Panyi Szabolcs: Orbán Viktor az aranykonvojügy érintettjeivel egyeztetett Mészáros Lőrinc villájában",
+      "description": "Orbán Viktor és az aranykonvojügyben gyanúsítottként meghallgatott Hajdu János volt TEK-vezér mellett az ügyészségi iratokban szintén emlegetett Demeter Tamás korábbi NAV-elnökhelyettes is ott volt a Kogart-házban tartott egyeztetésen.",
+      "link": "https://hvg.hu/itthon/20260630_orban-viktor-hajdu-janos-demeter-tamas-kogart-haz-talalkozo-aranykonvoj-ugy-panyi-szabolcs",
+      "date": "2026-06-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_dfd7be",
+          "name": "Panyi Szabolcs",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6bbbdb93",
+      "title": "Íme, a várnegyed tervei – ahogy Orbán Viktor a betonba öntött százmilliárdokat elképzelte",
+      "description": "Legalább 200 milliárd forintot költött el eddig az előző kormányzat a Várban megvalósított „beton-historizáló” látványberuházásra, a folyamatban lévők befejezése 65 milliárdba kerülne, de az Orbán Viktor által megálmodott további presztízsprojektek újabb több száz milliárdos tételt jelentenének. A Tisza-kormány próbál funkciót találni az épületeknek, de az Alkotmánybíróság biztosan nem költözik eg",
+      "link": "https://hvg.hu/360/20260630_ime-a-varnegyed-tervei-ahogy-orban-viktor-a-betonba-ontott-szazmilliardokat-elkepzelte",
+      "date": "2026-06-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ]
+    },
+    {
+      "id": "sc_b6d71fdf",
+      "title": "A Fidesz biztonsági igazgatójává nevezte ki az aranykonvoj-ügyben gyanúsítottként meghallgatott Hajdu Jánost Orbán Viktor",
+      "description": "A TEK volt főigazgatója 2010 előtt is ellátta ezt a feladatot.",
+      "link": "https://telex.hu/belfold/2026/06/30/hajdu-janos-tek-fidesz-biztonsagi-igazgato",
+      "date": "2026-06-30",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_3a8e99",
+          "name": "Hajdu Jánost",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2830024f",
+      "title": "Rejtély, mivel foglalkozik április óta a Szuverenitásvédelmi Hivatal 120 alkalmazottja",
+      "description": "Nem jelennek meg új elemzések, podcastok, hírek a választás óta az évi 6,2 milliárd forint közpénzből működő a hivatal felületein.",
+      "link": "https://telex.hu/belfold/2026/06/30/rejtely-mivel-foglalkozik-aprilis-ota-a-szuverenitasvedelmi-hivatal-120-alkalmazottja",
+      "date": "2026-06-30",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 6200000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7b2ffa",
+          "name": "Szuverenitásvédelmi Hivatal",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_1a2ef42c",
       "title": "Magyar Péter: „Orbán Viktor ugyanúgy hazudott és trükközött a számokkal, ahogy azt Gyurcsány Ferenc tette”",
       "description": "A miniszterelnök szerint a valós költségvetési hiány még az európai uniós források hazahozatalát belekalkulálva is 7 százalék fölött alakulhat.",
@@ -2582,23 +2771,73 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_3a8e99",
+      "to": "p_b26482",
+      "type": "political_ally",
+      "cases": [
+        "sc_b6d71fdf"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_dfd7be",
+      "type": "political_ally",
+      "cases": [
+        "sc_11845cd2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_3fb7b2",
+      "type": "political_ally",
+      "cases": [
+        "sc_11845cd2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_dfd7be",
+      "type": "political_ally",
+      "cases": [
+        "sc_11845cd2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_dfd7be",
+      "to": "p_3fb7b2",
+      "type": "business_connection",
+      "cases": [
+        "sc_11845cd2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-29T12:31:42.589905+00:00",
+    "last_updated": "2026-06-30T07:12:12.330573+00:00",
     "version": "3.0.0",
-    "total_cases": 56,
+    "total_cases": 63,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17863200000000,
+    "total_involved_amount_huf": 18069400000000,
     "status_breakdown": {
-      "active": 33,
+      "active": 40,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 16,
-      "pénzügyi": 30,
+      "pénzügyi": 37,
       "közbeszerzés": 10
     },
     "sources": [
@@ -2610,16 +2849,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Borsod-Abaúj-Zemplén",
-      "Baranya",
-      "Fejér",
-      "Országos",
-      "Győr-Moson-Sopron",
       "Csongrád-Csanád",
+      "Borsod-Abaúj-Zemplén",
+      "Országos",
+      "Baranya",
       "Budapest",
       "Pest",
+      "Tolna",
+      "Győr-Moson-Sopron",
       "Somogy",
-      "Tolna"
+      "Fejér"
     ]
   }
 }
