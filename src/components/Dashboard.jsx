@@ -55,6 +55,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
   const [maxAmount, setMaxAmount]           = useState(35);
   const [selectedCase, setSelectedCase]     = useState(null);
   const [selectedCounty, setSelectedCounty] = useState(null); // ChoroplethMap pin — itt él, hogy a CaseDetail modal nyitása/zárása ne törölje
+  const [selectedPersonId, setSelectedPersonId] = useState(null); // NetworkGraph kiválasztott személy — ugyanaz a minta
+  const [timelineSelectedId, setTimelineSelectedId] = useState(null); // Timeline kiemelt elem — ugyanaz a minta
   const [watched, toggleWatch]              = useWatchlist();
   const [searchParams, setSearchParams]     = useSearchParams();
 
@@ -67,15 +69,42 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
         const found = d.cases.find(c => c.id === caseId);
         if (found) { setSelectedCase(found); setActiveTab('cases'); }
       }
+      // Deep link: ?county=budapest — megosztható ChoroplethMap-pin
+      const countyId = searchParams.get('county');
+      if (countyId) {
+        setSelectedCounty(countyId);
+        if (!caseId) setActiveTab('timeline');
+      }
     }).catch(e => console.error(e));
   }, []);
 
   const handleCaseSelect = useCallback(c => {
     setSelectedCase(c);
-    setSearchParams({ case: c.id });
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev);
+      next.set('case', c.id);
+      return next;
+    });
   }, [setSearchParams]);
 
-  const closeCase = useCallback(() => { setSelectedCase(null); setSearchParams({}); }, [setSearchParams]);
+  const closeCase = useCallback(() => {
+    setSelectedCase(null);
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev);
+      next.delete('case');
+      return next;
+    });
+  }, [setSearchParams]);
+
+  // ChoroplethMap pin szinkronizálása az URL-lel, hogy megosztható legyen (?county=budapest)
+  const selectCounty = useCallback(id => {
+    setSelectedCounty(id);
+    setSearchParams(prev => {
+      const next = new URLSearchParams(prev);
+      if (id) next.set('county', id); else next.delete('county');
+      return next;
+    });
+  }, [setSearchParams]);
 
   const filteredCases = useFilteredCases(data, { searchTerm, filterStatus, filterCat, maxAmount });
 
@@ -150,14 +179,14 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
 
   const tt = { backgroundColor:darkMode?'#1f2937':'#fff', border:`1px solid ${darkMode?'#374151':'#e5e7eb'}`, color:darkMode?'#f9fafb':'#111' };
 
-  const csvExport = () => {
+  const csvExport = (subset = null, filenameSuffix = '') => {
     if (!data) return;
     const rows = [['ID','Cím','Kategória','Státusz','Régió','Összeg HUF','Dátum','Forrás','Személyek'],
-      ...data.cases.map(c=>[c.id,`"${c.title}"`,c.category,c.status,c.region,c.amount_huf,c.date,c.source,`"${c.involved_persons.map(p=>p.name).join('; ')}"`])
+      ...(subset || data.cases).map(c=>[c.id,`"${c.title}"`,c.category,c.status,c.region,c.amount_huf,c.date,c.source,`"${c.involved_persons.map(p=>p.name).join('; ')}"`])
     ].map(r=>r.join(',')).join('\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([rows],{type:'text/csv;charset=utf-8;'}));
-    a.download = `ner-tracker-${new Date().toISOString().slice(0,10)}.csv`;
+    a.download = `ner-tracker${filenameSuffix}-${new Date().toISOString().slice(0,10)}.csv`;
     a.click();
   };
 
@@ -421,7 +450,15 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
                   <div><label className="text-xs font-semibold opacity-50 block mb-1">{tr.max_label}: {maxAmount} Mrd HUF</label>
                     <input type="range" min="1" max="35" value={maxAmount} onChange={e=>setMaxAmount(+e.target.value)} className="w-full mt-2"/></div>
                 </div>
-                <p className="text-xs mt-3 opacity-40">{filteredCases.length} {tr.displayedCases}</p>
+                <div className="flex items-center justify-between mt-3">
+                  <p className="text-xs opacity-40">{filteredCases.length} {tr.displayedCases}</p>
+                  {filteredCases.length > 0 && filteredCases.length < data.cases.length && (
+                    <button onClick={() => csvExport(filteredCases, '-szurt')}
+                      className="flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-lg bg-blue-500/15 text-blue-400 hover:bg-blue-500/25 transition">
+                      <Download className="w-3 h-3"/> Szűrt lista CSV-ben ({filteredCases.length})
+                    </button>
+                  )}
+                </div>
               </P>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -450,12 +487,13 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
             <div className="space-y-6">
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2"><Calendar className="w-4 h-4"/>{tr.caseTimeline}</h3>
-                <Timeline cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}/>
+                <Timeline cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}
+                  selectedId={timelineSelectedId} onSelectId={setTimelineSelectedId}/>
               </P>
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2"><MapPin className="w-4 h-4"/>{tr.heatmapTitle}</h3>
                 <ChoroplethMap cases={data.cases} onCaseSelect={handleCaseSelect} darkMode={darkMode}
-                  selectedCounty={selectedCounty} onSelectCounty={setSelectedCounty}/>
+                  selectedCounty={selectedCounty} onSelectCounty={selectCounty}/>
               </P>
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2">
@@ -472,7 +510,8 @@ export default function Dashboard({ darkMode, toggleDarkMode }) {
               <P>
                 <h3 className="font-semibold mb-4 flex items-center gap-2"><Network className="w-4 h-4"/>{tr.networkGraph}
                   <span className="text-xs font-normal opacity-40 ml-1">— {tr.networkHint}</span></h3>
-                <NetworkGraph data={data} darkMode={darkMode}/>
+                <NetworkGraph data={data} darkMode={darkMode} onCaseSelect={handleCaseSelect}
+                  selectedNodeId={selectedPersonId} onSelectNode={setSelectedPersonId}/>
               </P>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {data.investigations.map(inv => (

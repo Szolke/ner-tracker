@@ -6,10 +6,16 @@ const STATUS_COLORS = { active:'#f59e0b', investigation:'#ef4444', closed:'#10b9
 const STATUS_LABELS = { active:'Aktív', investigation:'Nyomozás', closed:'Lezárult', appeal:'Fellebbezés' };
 const CAT_ICONS = { 'korrupció':'🔴', 'pénzügyi':'🔵', 'közbeszerzés':'🟣' };
 
-export default function Timeline({ cases, onCaseSelect, darkMode }) {
+export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, onSelectId }) {
   const { t: tr } = useLang();
   const scrollRef   = useRef(null);
-  const [selected, setSelected]     = useState(null);
+  // A kiemelt elem azonosítója a szülő (Dashboard) is birtokolhatja (selectedId/onSelectId
+  // prop), hogy a CaseDetail modal nyitása/zárása ne törölje a kiemelést — ugyanaz a minta,
+  // mint a ChoroplethMap/NetworkGraph-nál. Ha a szülő nem ad vezérlést, helyi state-tel működik tovább.
+  const [localSelectedId, setLocalSelectedId] = useState(null);
+  const isControlled = selectedId !== undefined && typeof onSelectId === 'function';
+  const selected = isControlled ? selectedId : localSelectedId;
+  const setSelectedId = isControlled ? onSelectId : setLocalSelectedId;
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX]         = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
@@ -95,7 +101,7 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
   };
   const handleMouseUp = () => setIsDragging(false);
 
-  const select = c => { setSelected(selected?.id === c.id ? null : c); if (onCaseSelect) onCaseSelect(c); };
+  const select = c => { setSelectedId(selected === c.id ? null : c.id); if (onCaseSelect) onCaseSelect(c); };
 
   return (
     <div className="space-y-3">
@@ -161,7 +167,7 @@ export default function Timeline({ cases, onCaseSelect, darkMode }) {
             const cy = isTop ? H/2 - 70 : H/2 + 70;
             const stemY1 = isTop ? H/2 - 9 : H/2 + 9;
             const stemY2 = isTop ? cy + 22 : cy - 22;
-            const isSel = selected?.id === c.id;
+            const isSel = selected === c.id;
             const isNew = visibleCount > 0 && idx === visibleCount - 1;
             const r = isSel ? 10 : 7;
 

@@ -81,11 +81,17 @@ function useForceLayout(nodes, edges, width, height) {
   return positions;
 }
 
-export default function NetworkGraph({ data, darkMode }) {
+export default function NetworkGraph({ data, darkMode, onCaseSelect, selectedNodeId, onSelectNode }) {
   const containerRef = useRef(null);
   const [size, setSize]           = useState({ w: 700, h: 480 });
   const [hoveredNode, setHovered] = useState(null);
-  const [selectedNode, setSelected] = useState(null);
+  // A kiválasztott személy a szülő (Dashboard) is birtokolhatja (selectedNodeId/onSelectNode
+  // prop), hogy a CaseDetail modal nyitása/zárása ne törölje a kijelölést — ugyanaz a minta,
+  // mint a ChoroplethMap-nál. Ha a szülő nem ad vezérlést, helyi state-tel működik tovább.
+  const [localSelectedId, setLocalSelectedId] = useState(null);
+  const isControlled = selectedNodeId !== undefined && typeof onSelectNode === 'function';
+  const selectedId = isControlled ? selectedNodeId : localSelectedId;
+  const setSelectedId = isControlled ? onSelectNode : setLocalSelectedId;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -116,6 +122,7 @@ export default function NetworkGraph({ data, darkMode }) {
 
   const nodeRadius = n => Math.max(14, Math.min(28, 12 + n.caseCount * 5));
 
+  const selectedNode = React.useMemo(() => nodes.find(n => n.id === selectedId) || null, [nodes, selectedId]);
   const activeNode = selectedNode || hoveredNode;
   const relatedIds = React.useMemo(() => {
     if (!activeNode) return new Set();
@@ -191,7 +198,7 @@ export default function NetworkGraph({ data, darkMode }) {
             <g key={n.id} style={{ cursor: 'pointer' }} opacity={opacity}
               onMouseEnter={() => setHovered(n)}
               onMouseLeave={() => setHovered(null)}
-              onClick={() => setSelected(selectedNode?.id === n.id ? null : n)}>
+              onClick={() => setSelectedId(selectedId === n.id ? null : n.id)}>
               {/* Pulse ring on active */}
               {isActive && (
                 <circle cx={pos.x} cy={pos.y} r={r + 8}
@@ -243,14 +250,15 @@ export default function NetworkGraph({ data, darkMode }) {
                 <p className="font-bold text-lg">{selectedNode.name}</p>
                 <p className="text-sm opacity-60">{selectedNode.position}</p>
               </div>
-              <button onClick={() => setSelected(null)} className="opacity-40 hover:opacity-100 text-xl">×</button>
+              <button onClick={() => setSelectedId(null)} aria-label="Bezárás" className="opacity-40 hover:opacity-100 text-xl">×</button>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <p className="text-xs font-semibold opacity-50 mb-2">ÉRINTETT ÜGYEK ({relCases.length})</p>
                 <div className="space-y-1.5">
                   {relCases.map(c => (
-                    <div key={c.id} className={`px-3 py-2 rounded-lg text-sm ${darkMode ? 'bg-gray-600' : 'bg-white border border-gray-200'}`}>
+                    <div key={c.id} onClick={() => onCaseSelect && onCaseSelect(c)}
+                      className={`px-3 py-2 rounded-lg text-sm transition ${onCaseSelect ? 'cursor-pointer hover:ring-1 hover:ring-blue-400' : ''} ${darkMode ? 'bg-gray-600' : 'bg-white border border-gray-200'}`}>
                       <p className="font-semibold leading-snug">{c.title}</p>
                       <p className="text-xs opacity-50 mt-0.5">{c.region} · {c.amount_huf != null ? `${(c.amount_huf/1e9).toFixed(1)} Mrd HUF` : 'Összeg ismeretlen'}</p>
                     </div>
@@ -265,7 +273,8 @@ export default function NetworkGraph({ data, darkMode }) {
                     const otherId = conn.from === selectedNode.id ? conn.to : conn.from;
                     const other   = data.cases.flatMap(c => c.involved_persons).find(p => p.id === otherId);
                     return (
-                      <div key={i} className={`px-3 py-2 rounded-lg text-sm ${darkMode ? 'bg-gray-600' : 'bg-white border border-gray-200'}`}>
+                      <div key={i} onClick={() => other && setSelectedId(other.id)}
+                        className={`px-3 py-2 rounded-lg text-sm transition ${other ? 'cursor-pointer hover:ring-1 hover:ring-blue-400' : ''} ${darkMode ? 'bg-gray-600' : 'bg-white border border-gray-200'}`}>
                         <p className="font-semibold">{other?.name || otherId}</p>
                         <p className="text-xs opacity-50">{conn.type === 'business_connection' ? '🤝 Üzleti' : '🏛️ Politikai'} · {conn.description}</p>
                       </div>

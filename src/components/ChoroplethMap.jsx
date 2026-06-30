@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Share2 } from 'lucide-react';
 import { useLang } from '../i18n.jsx';
 
 // Hexagonal grid layout of Hungarian counties (~geographic position)
@@ -148,8 +149,18 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode, selectedC
                 <p className="font-bold">{county?.[1]}</p>
                 <p className="opacity-70">{s.count} ügy · {s.hasAmount ? `${(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF` : 'Összeg ismeretlen'}</p>
               </div>
-              <button onClick={() => setSelected(null)} aria-label="Bezárás"
-                className="text-lg leading-none opacity-40 hover:opacity-100 transition flex-shrink-0">×</button>
+              <div className="flex items-center gap-1.5 flex-shrink-0">
+                <button onClick={() => {
+                    const url = `${window.location.origin}/?county=${selected}`;
+                    if (navigator.share) navigator.share({ title: 'NER Tracker', text: `${county?.[1]} — ${s.count} ügy | NER Tracker`, url }).catch(()=>{});
+                    else navigator.clipboard.writeText(url).then(() => alert('Link másolva: ' + url));
+                  }} title="Megosztás" aria-label="Megye linkjének megosztása"
+                  className="p-1 rounded opacity-40 hover:opacity-100 transition">
+                  <Share2 className="w-4 h-4"/>
+                </button>
+                <button onClick={() => setSelected(null)} aria-label="Bezárás"
+                  className="text-lg leading-none opacity-40 hover:opacity-100 transition">×</button>
+              </div>
             </div>
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {s.cases.map(c => (
