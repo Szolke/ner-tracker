@@ -66,5 +66,22 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-06-30T10:45:30.419794+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Szuverenitásvédelmi Hivatal",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péternek",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Rent Kft",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
