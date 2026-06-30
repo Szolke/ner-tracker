@@ -2904,7 +2904,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-30T09:59:02.295105+00:00",
+    "last_updated": "2026-06-30T10:23:27.318339+00:00",
     "version": "3.0.0",
     "total_cases": 65,
     "total_investigations": 4,
@@ -2929,16 +2929,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Pest",
       "Somogy",
-      "Budapest",
-      "Baranya",
-      "Fejér",
-      "Tolna",
-      "Borsod-Abaúj-Zemplén",
+      "Országos",
+      "Pest",
       "Csongrád-Csanád",
-      "Országos"
+      "Győr-Moson-Sopron",
+      "Fejér",
+      "Baranya",
+      "Borsod-Abaúj-Zemplén",
+      "Budapest",
+      "Tolna"
     ]
   }
 }
