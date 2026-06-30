@@ -48,7 +48,8 @@ function lerp(a, b, t) {
 
 export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
   const { t: tr } = useLang();
-  const [hovered, setHovered] = useState(null);
+  const [hovered, setHovered] = useState(null);   // csak vizuális kiemelés (border) hoverkor
+  const [selected, setSelected] = useState(null);  // kattintással rögzített megye — ez vezérli az alatta lévő listát
 
   // Aggregate by county id
   const stats = {};
@@ -88,20 +89,22 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
               ? lerp(darkMode ? '#1e3a5f' : '#dbeafe', '#ef4444', t)
               : darkMode ? '#1f2937' : '#f3f4f6';
             const isHov = hovered === id;
+            const isSel = selected === id;
             const isBudapest = id === 'budapest';
 
             return (
               <g key={id}
                 onMouseEnter={() => setHovered(id)}
                 onMouseLeave={() => setHovered(null)}
-                onClick={() => s?.cases[0] && onCaseSelect && onCaseSelect(s.cases[0])}
+                onClick={() => s && setSelected(prev => prev === id ? null : id)}
                 style={{cursor: s ? 'pointer' : 'default'}}>
+                <title>{s ? `${name} — ${s.count} ügy, ${s.hasAmount ? (s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})+' Mrd HUF' : 'összeg ismeretlen'} (kattints a listához)` : name}</title>
                 <path
                   d={hexPath(cx, cy, isBudapest ? HEX_W*1.1 : HEX_W, isBudapest ? HEX_H*1.1 : HEX_H)}
                   fill={fill}
-                  stroke={isHov ? 'white' : darkMode?'#374151':'#d1d5db'}
-                  strokeWidth={isHov ? 2 : 1}
-                  opacity={isHov ? 1 : 0.92}
+                  stroke={isSel ? '#facc15' : isHov ? 'white' : darkMode?'#374151':'#d1d5db'}
+                  strokeWidth={isSel ? 3 : isHov ? 2 : 1}
+                  opacity={isHov || isSel ? 1 : 0.92}
                 />
                 {/* Name */}
                 <text x={cx} y={cy - (s ? 6 : 0)} textAnchor="middle"
@@ -128,14 +131,20 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
         </svg>
       </div>
 
-      {/* Tooltip */}
-      {hovered && stats[hovered] && (() => {
-        const s = stats[hovered];
-        const county = COUNTY_GRID.find(([id]) => id === hovered);
+      {/* Kiválasztott megye ügyei — kattintással rögzítve, NEM tűnik el hoverkilépéskor */}
+      {selected && stats[selected] ? (() => {
+        const s = stats[selected];
+        const county = COUNTY_GRID.find(([id]) => id === selected);
         return (
           <div className={`p-3 rounded-lg text-sm ${darkMode?'bg-gray-700':'bg-gray-100'}`}>
-            <p className="font-bold">{county?.[1]}</p>
-            <p className="opacity-70">{s.count} ügy · {s.hasAmount ? `${(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF` : 'Összeg ismeretlen'}</p>
+            <div className="flex items-start justify-between gap-2">
+              <div>
+                <p className="font-bold">{county?.[1]}</p>
+                <p className="opacity-70">{s.count} ügy · {s.hasAmount ? `${(s.amount/1e9).toLocaleString('hu-HU',{minimumFractionDigits:1,maximumFractionDigits:1})} Mrd HUF` : 'Összeg ismeretlen'}</p>
+              </div>
+              <button onClick={() => setSelected(null)} aria-label="Bezárás"
+                className="text-lg leading-none opacity-40 hover:opacity-100 transition flex-shrink-0">×</button>
+            </div>
             <div className="flex flex-wrap gap-1.5 mt-1.5">
               {s.cases.map(c => (
                 <span key={c.id} onClick={() => onCaseSelect && onCaseSelect(c)}
@@ -146,7 +155,11 @@ export default function ChoroplethMap({ cases, onCaseSelect, darkMode }) {
             </div>
           </div>
         );
-      })()}
+      })() : (
+        <p className={`text-xs px-1 ${darkMode?'text-gray-500':'text-gray-400'}`}>
+          Kattints egy megyére az ügyek listázásához.
+        </p>
+      )}
 
       {/* Scale */}
       <div className="flex items-center gap-2 text-xs opacity-50">
