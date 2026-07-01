@@ -1,126 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_cee36f32",
-      "title": "Őrsi Gergely letartóztatását meghosszabbítanák, egy fideszest viszont kiengedtek a parkbiznisz gyanúsítottjai közül",
-      "description": "Puskás Péter esetében az ügyészség úgy ítélte meg, a letartóztatása elrendelésének különös okai megszűntek.",
-      "link": "https://444.hu/2026/06/30/orsi-gergely-letartoztatasat-meghosszabbitanak-egy-fideszes-viszont-kiengedtek-a-parkbiznisz-gyanusitottjai-kozul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-06-30",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_70af37",
-          "name": "Őrsi Gergely",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_cf682f",
-          "name": "Puskás Péter",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_21e406ca",
-      "title": "2090 milliárdos lyukat ütöttek Orbánék a költségvetésen a kormányzásuk végén",
-      "description": "Komplett romhalmazt örökítettek a Magyar-kormányra.",
-      "link": "https://444.hu/2026/07/01/2090-milliardos-lyukat-utottek-orbanek-a-koltsegvetesen-a-kormanyzasuk-vegen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-01",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2090000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_dafad978",
-      "title": "50 milliárdnál is nagyobb profitot hozott össze a Szíjj László-féle cégcsoport, de bőven van mit visszafizetniük",
-      "description": "A Szijjártó Pétert jachtoztató oligarcha cégcsoportjának kötelezettségeit tavaly jelentősen megdobta egy 400 millió dolláros kötvénykibocsátás. Kérdés, hogy a Duna Group a következő években miből termeli ki ennek finanszírozását, miközben a Tisza-kormány felülvizsgálja a nagy állami infrastruktúra-beruházásokat, amelyek az elmúlt években a cégcsoport komoly megrendeléseit adták.",
-      "link": "https://hvg.hu/360/20260701_szijj-laszlo-duna-group-kotveny-adossag-tisza-kormany-felulvizsgalat",
-      "date": "2026-07-01",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 50000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_d710f9",
-          "name": "Szijjártó Pétert",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_37cca7",
-          "name": "Duna Group",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_64e81b62",
-      "title": "Kiss László: Ez egy koncepciós per, amit eredetileg Karácsony Gergely és mások leszedésére találtak ki",
-      "description": "Kiss László óbudai polgármester egykori alpolgármestere beismerő vallomást tett, és egy két évtizedes korrupciós paktumról beszélt az ügyészségnek. Kiss szerint szó sincs ilyenről, egy nagyobb, országos korrupciós hálózatot gyanít a lebukott szereplők mögött. Az ügyészség minden ténybeli alapot nélkülözőnek nevezte és visszautasította Kiss László állításait.",
-      "link": "https://telex.hu/belfold/2026/07/01/obudai-korrupcios-ugy-kiss-laszlo-obudai-polgarmester-koncepcios-per-z-zsolt-pannon-park",
-      "date": "2026-07-01",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_938aff",
-          "name": "Karácsony Gergely",
-          "position": "Budapest főpolgármestere"
-        },
-        {
-          "id": "p_f8ac48",
-          "name": "Kiss László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_23fb2e7e",
       "title": "Financial Times-elemzés: Politikai fedezék lehet Magyar Péternek a reformok lassítására, hogy hazugsággal vádolhatja Orbánt a gigahiány miatt",
       "description": "Reformok nélkül Németország gazdasági növekedése a nullához fog közelíteni. Új fejezet nyílik a magyar–ukrán kapcsolatokban? Az erős férfiak gyengesége: Vucsics szerb elnök lehet a következő, aki nem akar lemondani a hatalmáról. Témák és vélemények a világsajtóból.",
@@ -3021,103 +2901,23 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_70af37",
-      "to": "p_cf682f",
-      "type": "business_connection",
-      "cases": [
-        "sc_cee36f32"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_534929",
-      "to": "p_fbf7a2",
-      "type": "political_ally",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_534929",
-      "to": "p_d710f9",
-      "type": "political_ally",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_534929",
-      "to": "p_37cca7",
-      "type": "political_ally",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_fbf7a2",
-      "to": "p_d710f9",
-      "type": "business_connection",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_fbf7a2",
-      "to": "p_37cca7",
-      "type": "business_connection",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_d710f9",
-      "to": "p_37cca7",
-      "type": "business_connection",
-      "cases": [
-        "sc_dafad978"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_938aff",
-      "to": "p_f8ac48",
-      "type": "political_ally",
-      "cases": [
-        "sc_64e81b62"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-01T11:22:39.021104+00:00",
+    "last_updated": "2026-06-30T12:02:18.945825+00:00",
     "version": "3.0.0",
-    "total_cases": 69,
+    "total_cases": 65,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20209400000000,
+    "total_involved_amount_huf": 18069400000000,
     "status_breakdown": {
-      "active": 46,
+      "active": 42,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 18,
-      "pénzügyi": 41,
+      "korrupció": 17,
+      "pénzügyi": 38,
       "közbeszerzés": 10
     },
     "sources": [
@@ -3129,16 +2929,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Országos",
+      "Somogy",
+      "Budapest",
       "Pest",
       "Fejér",
-      "Baranya",
-      "Somogy",
-      "Országos",
-      "Csongrád-Csanád",
       "Győr-Moson-Sopron",
-      "Budapest",
       "Borsod-Abaúj-Zemplén",
-      "Tolna"
+      "Baranya",
+      "Tolna",
+      "Csongrád-Csanád"
     ]
   }
 }
