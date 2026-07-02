@@ -147,5 +147,18 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-02T10:38:02.596388+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Koncessziós",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]

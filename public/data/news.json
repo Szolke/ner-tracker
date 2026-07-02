@@ -1,6 +1,146 @@
 {
   "cases": [
     {
+      "id": "sc_1394f2a0",
+      "title": "„Mindannyian egy kémet tartunk a zsebünkben” – Natalia Krapiva, az Access Now munkatársa az újságírók és civilek megfigyeléséről",
+      "description": "Az új magyar kormány ígéretet tett arra, hogy feltárja az Orbán-korszak megfigyeléseinek teljes körét. Natalia Krapiva szerint ez jó kezdet, de további garanciákra van szükség.",
+      "link": "https://atlatszo.hu/vilagterkep/2026/07/02/mindannyian-egy-kemet-tartunk-a-zsebunkben-natalia-krapiva-az-access-now-munkatarsa-az-ujsagirok-es-civilek-megfigyeleserol/",
+      "date": "2026-07-02",
+      "source": "Átlátszó",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_56fbbf",
+          "name": "Natalia Krapiva",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_d2f7b9",
+          "name": "Access Now",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_29e060a0",
+      "title": "Szijjártó Péter magángépes útjaira 2 milliárd forintot költött tavaly az állam",
+      "description": "Még Pozsonyba és Belgrádba is béreltek neki gépet.",
+      "link": "https://444.hu/2026/07/01/szijjarto-peter-magangepes-utjaira-2-milliard-forintot-koltott-tavaly-az-allam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-01",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_31346e",
+          "name": "Még Pozsonyba",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_f2f67963",
+      "title": "Nem igaz, hogy ezermilliárdból nem csináltunk semmit – interjú a NER sztrádakoncessziós cégének vezetőjével",
+      "description": "Sok évig tartana lezárni a Mészáros Lőrinc és Szíjj László érdekeltségében működő koncessziót – erről is beszélt a HVG-nek adott interjúban Németh Tamás, a Magyar Koncessziós Infrastruktúra Fejlesztő Zrt. vezérigazgatója. Azt mondja, amíg jogszerűen történik, nyitottak a szerződés felbontására is, Orbán Győző teherautóit pedig nem látta az építkezéseken.",
+      "link": "https://hvg.hu/360/20260702_nemeth-tamas-a-sztradakoncesszio-jovoje-ner-vallalkozok",
+      "date": "2026-07-02",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_fbf7a2",
+          "name": "Szíjj László",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fc3f75",
+          "name": "Németh Tamás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c6b290",
+          "name": "Infrastruktúra Fejlesztő",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_08742957",
+      "title": "Aranykonvoj-ügy: az ügyészségen belül is elkezdték fúrni a legfőbb ügyészt",
+      "description": "A szervezeten belül sokaknak nem tetszett, hogy a vezetés kibújt a felelősség alól. Magyar Péter felszólította Nagy Gábor Bálintot, hogy ha nem tudja megtisztítani a szervezetét a fideszes befolyástól, akkor mondjon le. Hajdu János volt TEK-vezér gyanúsítása után már jóval nagyobb politikai tétje lett az ügynek, a szálak akár Orbán Viktorig érhetnek. Ő inkább megpróbálja átírni a történetet.",
+      "link": "https://telex.hu/belfold/2026/07/02/aranykonvoj-hajdu-janos-orban-viktor-ugyeszseg-gyanusitas-nagy-gabor-balint-legfobb-ugyesz",
+      "date": "2026-07-02",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_2dc953",
+          "name": "Nagy Gábor",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3b5888",
+          "name": "Orbán Viktorig",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_cee36f32",
       "title": "Őrsi Gergely letartóztatását meghosszabbítanák, egy fideszest viszont kiengedtek a parkbiznisz gyanúsítottjai közül",
       "description": "Puskás Péter esetében az ügyészség úgy ítélte meg, a letartóztatása elrendelésének különös okai megszűntek.",
@@ -3101,23 +3241,153 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_56fbbf",
+      "to": "p_d2f7b9",
+      "type": "business_connection",
+      "cases": [
+        "sc_1394f2a0"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_31346e",
+      "type": "political_ally",
+      "cases": [
+        "sc_29e060a0"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_fbf7a2",
+      "type": "political_ally",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_fc3f75",
+      "type": "political_ally",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_c6b290",
+      "type": "political_ally",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_fbf7a2",
+      "to": "p_fc3f75",
+      "type": "business_connection",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_fbf7a2",
+      "to": "p_c6b290",
+      "type": "business_connection",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_fc3f75",
+      "to": "p_c6b290",
+      "type": "business_connection",
+      "cases": [
+        "sc_f2f67963"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_2dc953",
+      "type": "political_ally",
+      "cases": [
+        "sc_08742957"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_3b5888",
+      "type": "political_ally",
+      "cases": [
+        "sc_08742957"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_2dc953",
+      "to": "p_3fb7b2",
+      "type": "business_connection",
+      "cases": [
+        "sc_08742957"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_2dc953",
+      "to": "p_3b5888",
+      "type": "business_connection",
+      "cases": [
+        "sc_08742957"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_3fb7b2",
+      "to": "p_3b5888",
+      "type": "business_connection",
+      "cases": [
+        "sc_08742957"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-01T11:22:39.021104+00:00",
+    "last_updated": "2026-07-02T10:38:02.592177+00:00",
     "version": "3.0.0",
-    "total_cases": 69,
+    "total_cases": 73,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20209400000000,
+    "total_involved_amount_huf": 20211400000000,
     "status_breakdown": {
-      "active": 46,
+      "active": 50,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 18,
-      "pénzügyi": 41,
+      "korrupció": 19,
+      "pénzügyi": 44,
       "közbeszerzés": 10
     },
     "sources": [
@@ -3129,15 +3399,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Pest",
-      "Fejér",
-      "Baranya",
-      "Somogy",
-      "Országos",
       "Csongrád-Csanád",
-      "Győr-Moson-Sopron",
+      "Pest",
       "Budapest",
       "Borsod-Abaúj-Zemplén",
+      "Országos",
+      "Fejér",
+      "Somogy",
+      "Baranya",
+      "Győr-Moson-Sopron",
       "Tolna"
     ]
   }
