@@ -1,6 +1,206 @@
 {
   "cases": [
     {
+      "id": "sc_79cdecee",
+      "title": "Áder János bizonyítékokat vagy bocsánatkérést vár az őt közpénz-kilapátolással vádoló Magyar Pétertől",
+      "description": "A kormányfőt a kormányinfón kérdezték Áderről, ő pedig elmondta a véleményét.",
+      "link": "https://444.hu/2026/07/02/ader-janos-bizonyitekokat-vagy-bocsanatkerest-var-az-ot-kozpenz-kilapatolassal-vadolo-magyar-petertol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-02",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_e29df8",
+          "name": "Áder János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d8df95b5",
+      "title": "Meddig tart ki Hajdu János lojalitása Orbán felé, ha súlyos bűncselekményekkel vádolják?",
+      "description": "Egyre több bizonyíték kerül elő arról, hogyan zajlott az ukrán pénzszállító elleni akció a kampány hajrájában. Átbeszéltük, mit lehet tudni az ügyről.",
+      "link": "https://444.hu/2026/07/02/meddig-tart-ki-hajdu-janos-lojalitasa-orban-fele-ha-sulyos-buncselekmenyekkel-vadoljak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-02",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_44d168d4",
+      "title": "Az Origo fél év alatt félmilliárdot, a Pesti Srácok kétszázmilliót szakított állami hirdetésekből",
+      "description": "De az is bevett módszere volt a Rogán-tárcának, hogy beszélgetős műsorokba, podcastekbe szakértőt delegált, és ezért fizetett. Mindez a Balásy-cégcsoport lapunk birtokába került szerződéseiből derül ki. Ezek a pénzek hiányoznak most a sorra megszűnő jobboldali médiumoknak.",
+      "link": "https://444.hu/2026/07/03/az-origo-fel-ev-alatt-felmilliardot-a-pesti-sracok-ketszazmilliot-szakitott-allami-hirdetesekbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1c6a73",
+          "name": "Az Origo",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3feb31",
+          "name": "Pesti Srácok",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9258a4b7",
+      "title": "A Legfőbb Ügyészség még mindig Fidesz-közeli cégekkel végezteti a kommunikációs feladatokat",
+      "description": "Pedig meg tudnák oldani házon belül is.",
+      "link": "https://444.hu/2026/07/03/a-legfobb-ugyeszseg-meg-mindig-fidesz-kozeli-cegekkel-vegezteti-a-kommunikacios-feladatokat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_792f6b13",
+      "title": "Fél év alatt több mint félmilliárd forint állami hirdetést kapott a Rogán-féle propagandaminisztériumtól az Origo, de a Mandiner és a Bors is nagyot szakított",
+      "description": "Az egészet Balásy Gyula intézte.",
+      "link": "https://hvg.hu/kkv/20260703_allami-hirdetesek-rogan-antal-propagandaminiszterium-origo-mandiner-bors-balasy-gyula",
+      "date": "2026-07-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d5476a1d",
+      "title": "Alföldi Róbert: Az elmúlt 16 évben nem pályáztam az NKA semmilyen kollégiumához",
+      "description": "Nem kértem, így nem is kaphattam támogatást – írja a színész-rendező, aki jogi lépéseket tesz, amiért a Fidesz oldalán azt állították, hogy több mint kétmilliárdot kapott kulturális támogatásként.",
+      "link": "https://hvg.hu/kultura/20260703_alfoldi-robert-16-ev-nem-palyaztam-nka-semmilyen-kollegiumahoz",
+      "date": "2026-07-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_f408cb",
+          "name": "Alföldi Róbert",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_f744f1a2",
+      "title": "Kármán András szerint ezermilliárdos nagyságrendben folyt ki a pénz a költségvetésből a Fidesz-kormány alatt",
+      "description": "A pénzügyminisztert a mohácsi híd ügye döbbentette meg leginkább az előző kormány intézkedései közül.",
+      "link": "https://telex.hu/gazdasag/2026/07/03/karman-andras-kata-szja-mohacsi-hid-vagyonvisszaszerzesi-hivatal",
+      "date": "2026-07-03",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_387aa4",
+          "name": "Kármán András",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d5fd9d9d",
+      "title": "Aláírta az uniós támogatási szerződést Vitézy Dávid, kezdődhet a budai fonódó fejlesztése",
+      "description": "32,2 milliárd forint értékű európai uniós támogatásból bővül a budai fonódó villamos.",
+      "link": "https://telex.hu/belfold/2026/07/03/vitezy-david-budai-fonodo-villamos-masodik-utem-unios-tamogatasi-szerzodes-alairas",
+      "date": "2026-07-03",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 32200000000,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
       "id": "sc_1394f2a0",
       "title": "„Mindannyian egy kémet tartunk a zsebünkben” – Natalia Krapiva, az Access Now munkatársa az újságírók és civilek megfigyeléséről",
       "description": "Az új magyar kormány ígéretet tett arra, hogy feltárja az Orbán-korszak megfigyeléseinek teljes körét. Natalia Krapiva szerint ez jó kezdet, de további garanciákra van szükség.",
@@ -3371,23 +3571,33 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1c6a73",
+      "to": "p_3feb31",
+      "type": "business_connection",
+      "cases": [
+        "sc_44d168d4"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-02T10:38:02.592177+00:00",
+    "last_updated": "2026-07-03T10:34:15.251313+00:00",
     "version": "3.0.0",
-    "total_cases": 73,
+    "total_cases": 81,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20211400000000,
+    "total_involved_amount_huf": 20243600000000,
     "status_breakdown": {
-      "active": 50,
+      "active": 58,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 19,
-      "pénzügyi": 44,
+      "pénzügyi": 52,
       "közbeszerzés": 10
     },
     "sources": [
@@ -3399,16 +3609,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Csongrád-Csanád",
+      "Győr-Moson-Sopron",
+      "Tolna",
       "Pest",
-      "Budapest",
+      "Fejér",
       "Borsod-Abaúj-Zemplén",
       "Országos",
-      "Fejér",
+      "Budapest",
       "Somogy",
-      "Baranya",
-      "Győr-Moson-Sopron",
-      "Tolna"
+      "Csongrád-Csanád",
+      "Baranya"
     ]
   }
 }
