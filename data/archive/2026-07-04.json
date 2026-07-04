@@ -1,122 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_c99f1183",
-      "title": "Lefordítottuk magyarra az Integritás Hatóság 322 oldalas éves jelentését",
-      "description": "Konkrét példákon, az Átlátszó által megírt eseteken keresztül mutatjuk be, milyen korrupciós kockázatokat rejt a magyar közbeszerzési rendszer.",
-      "link": "https://atlatszo.hu/kozpenz/2026/07/03/leforditottuk-magyarra-az-integritas-hatosag-322-oldalas-eves-jelenteset/",
-      "date": "2026-07-03",
-      "source": "Átlátszó",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "közbeszerzés",
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_f772132a",
-      "title": "Szijjártó 2 milliárdért magánrepülőzött tavaly, az Origóba dőlt az állami hirdetés",
-      "description": "Heti lapszemlénk.",
-      "link": "https://atlatszo.hu/mutyimondo/2026/07/03/szijjarto-2-milliardert-maganrepulozott-tavaly-az-origoba-dolt-az-allami-hirdetes/",
-      "date": "2026-07-03",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2000000000,
-      "tags": [
-        "hirdetés"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_6dbeaea4",
-      "title": "Külügyminisztérium: 5 milliárd forint ment el Szijjártó magángépes útjaira 2022 óta, a büntetőjogi felelősség kérdését is vizsgálják",
-      "description": "2024-ben lépték át az egymilliárdos határt, 2025-ben pedig rögtön a kétmilliárdosat is.",
-      "link": "https://444.hu/2026/07/03/kulugyminiszterium-5-milliard-forint-ment-el-szijjarto-magangepes-utjaira-2022-ota-a-buntetojogi-felelosseg-kerdeset-is-vizsgaljak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-03",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 5000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2a7df8a6",
-      "title": "Nyomozás indult egy Tiborcz-féle buszos cég által elnyert vasúti közbeszerzés ügyében",
-      "description": "A versenytársak kizárása után nyert az a konzorcium, aminek egyik tagja egy Tiborcz-érdekeltségű cég volt.",
-      "link": "https://444.hu/2026/07/04/nyomozas-indult-egy-tiborcz-fele-buszos-ceg-altal-elnyert-vasuti-kozbeszerzes-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-04",
-      "source": "444",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_ba070314",
-      "title": "Egyre többen firtatják Varga Mihály személyi felelősségét a Matolcsy-korszakban eltűnt százmilliárdokért",
-      "description": "A piac a 16 hónapja megújult monetáris politikát láthatóan díjazza. Ám Varga Mihály elnöknek olykor felróják, hogy pénzügyminiszterként szemet hunyt Matolcsy György üzelmei fölött.",
-      "link": "https://hvg.hu/360/20260704_varga-mihaly-kettos-probatetel-tulajdonosi-felelosseg-vizsgaidoszak-hvg",
-      "date": "2026-07-04",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_915aa6",
-          "name": "Varga Mihály",
-          "position": "pénzügyminiszter"
-        },
-        {
-          "id": "p_5e6c41",
-          "name": "Ám Varga",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_0a9ee4",
-          "name": "Matolcsy György",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_79cdecee",
       "title": "Áder János bizonyítékokat vagy bocsánatkérést vár az őt közpénz-kilapátolással vádoló Magyar Pétertől",
       "description": "A kormányfőt a kormányinfón kérdezték Áderről, ő pedig elmondta a véleményét.",
@@ -3697,54 +3581,24 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_915aa6",
-      "to": "p_5e6c41",
-      "type": "political_ally",
-      "cases": [
-        "sc_ba070314"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_915aa6",
-      "to": "p_0a9ee4",
-      "type": "political_ally",
-      "cases": [
-        "sc_ba070314"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_5e6c41",
-      "to": "p_0a9ee4",
-      "type": "business_connection",
-      "cases": [
-        "sc_ba070314"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-04T10:08:28.919610+00:00",
+    "last_updated": "2026-07-03T10:34:15.251313+00:00",
     "version": "3.0.0",
-    "total_cases": 86,
+    "total_cases": 81,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20250600000000,
+    "total_involved_amount_huf": 20243600000000,
     "status_breakdown": {
-      "active": 63,
+      "active": 58,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 19,
-      "pénzügyi": 55,
-      "közbeszerzés": 12
+      "pénzügyi": 52,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -3755,16 +3609,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
+      "Győr-Moson-Sopron",
+      "Tolna",
+      "Pest",
       "Fejér",
       "Borsod-Abaúj-Zemplén",
       "Országos",
-      "Tolna",
+      "Budapest",
+      "Somogy",
       "Csongrád-Csanád",
-      "Baranya",
-      "Pest",
-      "Győr-Moson-Sopron",
-      "Somogy"
+      "Baranya"
     ]
   }
 }
