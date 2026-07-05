@@ -1,6 +1,37 @@
 {
   "cases": [
     {
+      "id": "sc_fcef3d8b",
+      "title": "Vitézy Dávid az autópálya-koncesszióról: Az elmúlt négy évben 1024 milliárd forintot fizettek ki Mészáros és Szíjj  László magántőkealapjainak",
+      "description": "„Ez valójában nem egy koncesszió, hanem egy közpénz-kicsatornázási eszköz” – mondta a közlekedési és beruházási miniszter.",
+      "link": "https://444.hu/2026/07/04/vitezy-david-az-autopalya-koncessziorol-az-elmult-negy-evben-1024-milliard-forintot-fizettek-ki-meszaros-es-szijj-laszlo-magantokealapjainak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-04",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1024000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_91767b",
+          "name": "Szíjj  László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_c99f1183",
       "title": "Lefordítottuk magyarra az Integritás Hatóság 322 oldalas éves jelentését",
       "description": "Konkrét példákon, az Átlátszó által megírt eseteken keresztül mutatjuk be, milyen korrupciós kockázatokat rejt a magyar közbeszerzési rendszer.",
@@ -3727,23 +3758,33 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_94af7a",
+      "to": "p_91767b",
+      "type": "business_connection",
+      "cases": [
+        "sc_fcef3d8b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-04T10:08:28.919610+00:00",
+    "last_updated": "2026-07-05T10:11:00.066109+00:00",
     "version": "3.0.0",
-    "total_cases": 86,
+    "total_cases": 87,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20250600000000,
+    "total_involved_amount_huf": 21274600000000,
     "status_breakdown": {
-      "active": 63,
+      "active": 64,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 19,
-      "pénzügyi": 55,
+      "pénzügyi": 56,
       "közbeszerzés": 12
     },
     "sources": [
@@ -3755,16 +3796,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Fejér",
-      "Borsod-Abaúj-Zemplén",
-      "Országos",
-      "Tolna",
-      "Csongrád-Csanád",
-      "Baranya",
-      "Pest",
       "Győr-Moson-Sopron",
-      "Somogy"
+      "Fejér",
+      "Országos",
+      "Somogy",
+      "Budapest",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna",
+      "Pest",
+      "Baranya",
+      "Csongrád-Csanád"
     ]
   }
 }
