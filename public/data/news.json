@@ -1,6 +1,149 @@
 {
   "cases": [
     {
+      "id": "sc_ab5d6560",
+      "title": "Kié az iskola? – Oktatási fórum az iskolafenntartásról",
+      "description": "A csömöri önkormányzat oktatási-önkormányzati fórumot tart csütörtökön a polgármesteri hivatalban. A téma nagyon is időszerű: érdemes-e minden állami iskolát visszaadni az önkormányzatoknak?",
+      "link": "https://hvg.hu/kultura/20260706_kie-az-iskola-oktatasi-forum-az-iskolafenntartasrol",
+      "date": "2026-07-06",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "OLAF",
+        "önkormányzat"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_2fc937db",
+      "title": "Olyan Fidesz–MSZP közös lopást vallott be Óbuda volt alpolgármestere, amiről az elmúlt 30 évben csak legendák szóltak",
+      "description": "Czeglédy Gergő, Óbuda volt MSZP-s alpolgármestere részletes beismerő vallomásában arról beszélt, hogyan szervezték a kerületi korrupciót Puskás Péterrel, a Fidesz helyi erős emberével. A tökélyre fejlesztett, kétszintes kenőpénzes rendszer állítása szerint a kerület fideszes és baloldali vezetése alatt is működni tudott. Puskást kerestük ezekkel az állításokkal kapcsolatban, de kérdéseinkre nem re",
+      "link": "https://telex.hu/belfold/2026/07/06/obuda-korrupcio-czegledy-gergo-puskas-peter-fidesz-mszp-lopas-vallomas",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_a5f0ba",
+          "name": "Olyan Fidesz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_7c980d",
+          "name": "Czeglédy Gergő",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_202ad2",
+          "name": "Puskás Péterrel",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_922b444d",
+      "title": "Luxus-bevásárlóutcát is kapott volna a Tőzsdepalotába megálmodott Nemzeti Galéria",
+      "description": "Piero Lissoni olasz építész kiposztolta, hogyan alakította volna át a Tiborcz István érdekeltségébe tartozó épületet.",
+      "link": "https://telex.hu/belfold/2026/07/06/tozsdepalota-nemzeti-galeria-latvanytervek-tiborcz-istvan",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_2acb54",
+          "name": "Piero Lissoni",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_68cec811",
+      "title": "Magyar Péter szerint az óbudai korrupciós ügy megmutatja kicsiben, hogyan osztotta fel az országot a Fidesz és az MSZP",
+      "description": "A miniszterelnök nagykoalíciós ügynek nevezte a botrányt.",
+      "link": "https://telex.hu/belfold/2026/07/06/magyar-peter-obudai-korrupcios-ugy-fidesz-mszp-czegledy-gergo-puskas-peter-bus-balazs",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_bad9cd12",
+      "title": "Vitézy a fideszes képviselőknek: A korrupciót tekintik szuverenitási kérdésnek",
+      "description": "Magyar Péter a NATO-csúcsra utazott, nélküle tart ülést a Parlament. Vitézy felszólalásával indult az ülés, a Fidesz öt hazugságáról beszélt. Tuzson Bence Hitlert emlegette az alaptörvény-módosítás miatt. Hegedűs Zsolt szerint a Mi Hazánk abortuszvitát kezdeményez.",
+      "link": "https://telex.hu/belfold/2026/07/06/parlament-rendkivuli-ules-magyar-peter-nelkul",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_77b624",
+          "name": "Tuzson Bence",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_2975d4",
+          "name": "Hegedűs Zsolt",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ef8a02",
+          "name": "Mi Hazánk",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_fcef3d8b",
       "title": "Vitézy Dávid az autópálya-koncesszióról: Az elmúlt négy évben 1024 milliárd forintot fizettek ki Mészáros és Szíjj  László magántőkealapjainak",
       "description": "„Ez valójában nem egy koncesszió, hanem egy közpénz-kicsatornázási eszköz” – mondta a közlekedési és beruházási miniszter.",
@@ -3768,23 +3911,93 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_a5f0ba",
+      "to": "p_7c980d",
+      "type": "business_connection",
+      "cases": [
+        "sc_2fc937db"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_a5f0ba",
+      "to": "p_202ad2",
+      "type": "business_connection",
+      "cases": [
+        "sc_2fc937db"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_7c980d",
+      "to": "p_202ad2",
+      "type": "business_connection",
+      "cases": [
+        "sc_2fc937db"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_2acb54",
+      "type": "business_connection",
+      "cases": [
+        "sc_922b444d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_77b624",
+      "to": "p_2975d4",
+      "type": "business_connection",
+      "cases": [
+        "sc_bad9cd12"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_77b624",
+      "to": "p_ef8a02",
+      "type": "business_connection",
+      "cases": [
+        "sc_bad9cd12"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_2975d4",
+      "to": "p_ef8a02",
+      "type": "business_connection",
+      "cases": [
+        "sc_bad9cd12"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-05T10:11:00.066109+00:00",
+    "last_updated": "2026-07-06T12:03:48.037346+00:00",
     "version": "3.0.0",
-    "total_cases": 87,
+    "total_cases": 92,
     "total_investigations": 4,
     "total_involved_amount_huf": 21274600000000,
     "status_breakdown": {
-      "active": 64,
+      "active": 69,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 19,
-      "pénzügyi": 56,
+      "korrupció": 22,
+      "pénzügyi": 58,
       "közbeszerzés": 12
     },
     "sources": [
@@ -3796,16 +4009,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Fejér",
-      "Országos",
-      "Somogy",
-      "Budapest",
-      "Borsod-Abaúj-Zemplén",
       "Tolna",
-      "Pest",
+      "Fejér",
+      "Borsod-Abaúj-Zemplén",
+      "Országos",
       "Baranya",
-      "Csongrád-Csanád"
+      "Csongrád-Csanád",
+      "Pest",
+      "Somogy",
+      "Győr-Moson-Sopron",
+      "Budapest"
     ]
   }
 }
