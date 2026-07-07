@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Mon, 06 Jul 2026 12:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 10:54:10 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Balesetveszélyes hibákat tárt fel egy tavalyi jelentés a Fradi közpénzmilliárdokból épült stadionjában]]></title>
+    <link>https://telex.hu/gazdasag/2026/07/07/groupama-arena-stadion-market-epito-zrt-sportfive-hungary-kft-lehullo-betondarabok-kivitelezes</link>
+    <guid>sc_5b79d306</guid>
+    <pubDate>2026-07-07</pubDate>
+    <description><![CDATA[Előfordult, hogy ökölnyi betondarabok potyogtak a kerengőre a Groupamában. A Telexhez eljutott igazságügyi szakértői dokumentum a 12 éve átadott stadionban több mint 240 hibát talált, amikért a kivite | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Kié az iskola? – Oktatási fórum az iskolafenntartásról]]></title>
     <link>https://hvg.hu/kultura/20260706_kie-az-iskola-oktatasi-forum-az-iskolafenntartasrol</link>
@@ -158,14 +166,6 @@
     <pubDate>2026-07-03</pubDate>
     <description><![CDATA[32,2 milliárd forint értékű európai uniós támogatásból bővül a budai fonódó villamos. | Budapest | 32200 M HUF | pénzügyi]]></description>
     <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[„Mindannyian egy kémet tartunk a zsebünkben” – Natalia Krapiva, az Access Now munkatársa az újságírók és civilek megfigyeléséről]]></title>
-    <link>https://atlatszo.hu/vilagterkep/2026/07/02/mindannyian-egy-kemet-tartunk-a-zsebunkben-natalia-krapiva-az-access-now-munkatarsa-az-ujsagirok-es-civilek-megfigyeleserol/</link>
-    <guid>sc_1394f2a0</guid>
-    <pubDate>2026-07-02</pubDate>
-    <description><![CDATA[Az új magyar kormány ígéretet tett arra, hogy feltárja az Orbán-korszak megfigyeléseinek teljes körét. Natalia Krapiva szerint ez jó kezdet, de további garanciákra van szükség. | Budapest | Összeg ismeretlen | korrupció]]></description>
-    <category>korrupció</category>
   </item>
   </channel>
 </rss>

@@ -1,27 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_5b79d306",
-      "title": "Balesetveszélyes hibákat tárt fel egy tavalyi jelentés a Fradi közpénzmilliárdokból épült stadionjában",
-      "description": "Előfordult, hogy ökölnyi betondarabok potyogtak a kerengőre a Groupamában. A Telexhez eljutott igazságügyi szakértői dokumentum a 12 éve átadott stadionban több mint 240 hibát talált, amikért a kivitelező Market Zrt. a felelős. A cég szerint már minden hibát elhárítottak.",
-      "link": "https://telex.hu/gazdasag/2026/07/07/groupama-arena-stadion-market-epito-zrt-sportfive-hungary-kft-lehullo-betondarabok-kivitelezes",
-      "date": "2026-07-07",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "stadion",
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
       "id": "sc_ab5d6560",
       "title": "Kié az iskola? – Oktatási fórum az iskolafenntartásról",
       "description": "A csömöri önkormányzat oktatási-önkormányzati fórumot tart csütörtökön a polgármesteri hivatalban. A téma nagyon is időszerű: érdemes-e minden állami iskolát visszaadni az önkormányzatoknak?",
@@ -4005,20 +3984,20 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-07T10:54:10.974837+00:00",
+    "last_updated": "2026-07-06T12:03:48.037346+00:00",
     "version": "3.0.0",
-    "total_cases": 93,
+    "total_cases": 92,
     "total_investigations": 4,
     "total_involved_amount_huf": 21274600000000,
     "status_breakdown": {
-      "active": 70,
+      "active": 69,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 22,
-      "pénzügyi": 59,
+      "pénzügyi": 58,
       "közbeszerzés": 12
     },
     "sources": [
@@ -4030,16 +4009,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Országos",
-      "Fejér",
-      "Budapest",
-      "Pest",
-      "Győr-Moson-Sopron",
-      "Baranya",
-      "Somogy",
-      "Csongrád-Csanád",
       "Tolna",
-      "Borsod-Abaúj-Zemplén"
+      "Fejér",
+      "Borsod-Abaúj-Zemplén",
+      "Országos",
+      "Baranya",
+      "Csongrád-Csanád",
+      "Pest",
+      "Somogy",
+      "Győr-Moson-Sopron",
+      "Budapest"
     ]
   }
 }
