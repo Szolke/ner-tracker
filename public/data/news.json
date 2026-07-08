@@ -1,6 +1,110 @@
 {
   "cases": [
     {
+      "id": "sc_95e873ce",
+      "title": "Felmerül a közpénzek rendszerszintű kiszivattyúzásának gyanúja – az agrárminiszter belenyúl Lázár János mezőhegyesi luxusberuházásába",
+      "description": "Szállodaépítést kezdtek 1,2 milliárdért, de már 3,5 milliárd forintnál jár a számla.",
+      "link": "https://444.hu/2026/07/07/felmerul-a-kozpenzek-rendszerszintu-kiszivattyuzasanak-gyanuja-az-agrarminiszter-belenyul-lazar-janos-mezohegyesi-luxusberuhazasaba?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-07",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_d9199049",
+      "title": "A Fidesz szerint rendőrök vitték el Szakács István megafonos influenszert",
+      "description": "Takács Péter szerint terrorcselekmény előkészülete a gyanú.",
+      "link": "https://444.hu/2026/07/08/allitolag-letartoztattak-szakacs-istvan-megafonos-influenszert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-08",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ddfefa",
+          "name": "Szakács István",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c3a0b3",
+          "name": "Takács Péter",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6ca0b9a8",
+      "title": "Hadházy feljelentést tett a Tiborczhoz köthető cégek akciója miatt, eddig nem utasították el",
+      "description": "Hadházy bennfentes kereskedelem, csalás és hűtlen kezelés gyanúja miatt tett feljelentést az Alteo részvények ügyében.",
+      "link": "https://444.hu/2026/07/08/hadhazy-feljelentest-tett-a-tiborczhoz-kotheto-cegek-akcioja-miatt-eddig-nem-utasitottak-el?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-08",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_c890b1c3",
+      "title": "Bóna Szabolcs újragondolja a Mezőhegyesre tervezett többmilliárdos luxushotel terveit",
+      "description": "A Lázár János felügyelte ménesbirtokon legalább 3,5 milliárdba kerülne a fejlesztés.",
+      "link": "https://telex.hu/belfold/2026/07/08/bona-szabolcs-lazar-janos-mezohegyes-menesbirtok-luxusszalloda",
+      "date": "2026-07-08",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_c3db67",
+          "name": "Bóna Szabolcs",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_5b79d306",
       "title": "Balesetveszélyes hibákat tárt fel egy tavalyi jelentés a Fradi közpénzmilliárdokból épült stadionjában",
       "description": "Előfordult, hogy ökölnyi betondarabok potyogtak a kerengőre a Groupamában. A Telexhez eljutott igazságügyi szakértői dokumentum a 12 éve átadott stadionban több mint 240 hibát talált, amikért a kivitelező Market Zrt. a felelős. A cég szerint már minden hibát elhárítottak.",
@@ -4002,23 +4106,43 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_c3db67",
+      "type": "political_ally",
+      "cases": [
+        "sc_c890b1c3"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_ddfefa",
+      "to": "p_c3a0b3",
+      "type": "business_connection",
+      "cases": [
+        "sc_d9199049"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-07T10:54:10.974837+00:00",
+    "last_updated": "2026-07-08T10:15:47.246669+00:00",
     "version": "3.0.0",
-    "total_cases": 93,
+    "total_cases": 97,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21274600000000,
+    "total_involved_amount_huf": 21279300000000,
     "status_breakdown": {
-      "active": 70,
+      "active": 74,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 22,
-      "pénzügyi": 59,
+      "pénzügyi": 63,
       "közbeszerzés": 12
     },
     "sources": [
@@ -4030,16 +4154,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Országos",
       "Fejér",
-      "Budapest",
-      "Pest",
+      "Borsod-Abaúj-Zemplén",
+      "Országos",
       "Győr-Moson-Sopron",
-      "Baranya",
       "Somogy",
-      "Csongrád-Csanád",
+      "Baranya",
       "Tolna",
-      "Borsod-Abaúj-Zemplén"
+      "Pest",
+      "Csongrád-Csanád",
+      "Budapest"
     ]
   }
 }
