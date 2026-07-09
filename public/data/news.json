@@ -1,6 +1,93 @@
 {
   "cases": [
     {
+      "id": "sc_48dfc082",
+      "title": "Az orbáni agytrösztök titkai – podcast a Fidesz szellemi hátországáról",
+      "description": "Milyen politikai célokat szolgált az MCC, a Batthyány Lajos Alapítvány, a Danube Institute vagy az Alapjogokért Központ, amikbe közpénzmilliárdokat öntött a Fidesz?",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/08/az-orbani-think-tankek-titkai-podcast-a-fidesz-szellemi-hatorszagarol/",
+      "date": "2026-07-08",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_dc458c",
+          "name": "Batthyány Lajos",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_a6c4e7",
+          "name": "Danube Institute",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_6124d7",
+          "name": "Alapjogokért Központ",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_69143e35",
+      "title": "Szakács István-ügy: a Belügyminisztérium szűkszavú közleményben mutogat az ügyészségre",
+      "description": "A fideszes influenszert szerda hajnalban vitték el a rendőrök. Az ORFK adatvédelmi okokra hivatkozva nem válaszolt a kérdéseinkre, a BM közleményéből semmi nem derült ki.",
+      "link": "https://444.hu/2026/07/08/szakacs-istvan-ugy-a-belugyminiszterium-szukszavu-kozlemenyben-mutogat-az-ugyeszsegre?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-08",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ddfefa",
+          "name": "Szakács István",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_95eae41b",
+      "title": "A kézdivásárhelyi nadrággyár kivéreztetésével vádolják a zabolai Mikes-örököst",
+      "description": "Az eddig luxusnyaralásokról és a kegyelmi ügyről elhíresült Zabola Estate most egy súlyos sikkasztási ügy középpontjába került. Az ügyészség szerint a Mikes-leszármazott három év alatt 128-szor csapolta meg a gyár kasszáját.",
+      "link": "https://telex.hu/transtelex/2026/07/09/zabola-gregor-mikes-sikkasztas-nadraggyar-osszefoglalo",
+      "date": "2026-07-09",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_0f77e5",
+          "name": "Zabola Estate",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_95e873ce",
       "title": "Felmerül a közpénzek rendszerszintű kiszivattyúzásának gyanúja – az agrárminiszter belenyúl Lázár János mezőhegyesi luxusberuházásába",
       "description": "Szállodaépítést kezdtek 1,2 milliárdért, de már 3,5 milliárd forintnál jár a számla.",
@@ -4126,23 +4213,53 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_dc458c",
+      "to": "p_a6c4e7",
+      "type": "business_connection",
+      "cases": [
+        "sc_48dfc082"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_dc458c",
+      "to": "p_6124d7",
+      "type": "business_connection",
+      "cases": [
+        "sc_48dfc082"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_a6c4e7",
+      "to": "p_6124d7",
+      "type": "business_connection",
+      "cases": [
+        "sc_48dfc082"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-08T10:15:47.246669+00:00",
+    "last_updated": "2026-07-09T10:53:20.798352+00:00",
     "version": "3.0.0",
-    "total_cases": 97,
+    "total_cases": 100,
     "total_investigations": 4,
     "total_involved_amount_huf": 21279300000000,
     "status_breakdown": {
-      "active": 74,
+      "active": 77,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 22,
-      "pénzügyi": 63,
+      "korrupció": 23,
+      "pénzügyi": 65,
       "közbeszerzés": 12
     },
     "sources": [
@@ -4154,15 +4271,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
-      "Borsod-Abaúj-Zemplén",
-      "Országos",
-      "Győr-Moson-Sopron",
-      "Somogy",
-      "Baranya",
-      "Tolna",
       "Pest",
       "Csongrád-Csanád",
+      "Baranya",
+      "Borsod-Abaúj-Zemplén",
+      "Győr-Moson-Sopron",
+      "Fejér",
+      "Tolna",
+      "Somogy",
+      "Országos",
       "Budapest"
     ]
   }
