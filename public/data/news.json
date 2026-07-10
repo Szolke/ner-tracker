@@ -1,6 +1,130 @@
 {
   "cases": [
     {
+      "id": "sc_d26619f2",
+      "title": "Ruff Bálint: A kormányzásnak más célja nem volt, mint hogy bizonyos körök, érdekcsoportok egyre jobban gazdagodjanak",
+      "description": "Miniszterként első interjúját adta a volt politikai elemző. Azt mondta, több ezer milliárd forint vándorolt titkos kormányhatározatokkal „magánzsebekbe”. Szó volt Sulyok Tamás eltávolításáról, Orbán és Rogán esetleges feljelentéséről, illetve a Tisza-frakció megosztottságáról is.",
+      "link": "https://444.hu/2026/07/10/ruff-balint-a-kormanyzasnak-mas-celja-nem-volt-mint-hogy-bizonyos-korok-erdekcsoportok-egyre-jobban-gazdagodjanak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-10",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ad1068",
+          "name": "Ruff Bálint",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bb913f",
+          "name": "Sulyok Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_bc1f8090",
+      "title": "Helikopteres városnézés New Yorkban, extra védelem külföldön, zebracsikók Hatvanpusztán – Newscast",
+      "description": "Magyar Péter felszólította Áder János volt köztársasági elnököt, mondja meg, hogyan szolgálta az országot az, hogy 55 millió forint közpénzből utaztatta a családját az USA-ba. Sulyok Tamás államfő attól fél, hogy utóda politikai kinevezett lesz. A NAV felfüggesztette a nyomozást az ukrán „aranykonvoj” ügyében, azt azonban továbbra is vizsgálják, hogy a NAV törvényszerűen járt-e el a nyomozás során",
+      "link": "https://hvg.hu/itthon/20260710_helikopteres-varosnezes-new-yorkban-extra-vedelem-kulfoldon-zebracsikok-hatvanpusztan-newscast",
+      "date": "2026-07-10",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 55000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_947da5",
+          "name": "New Yorkban",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fce19b",
+          "name": "Newscast Magyar",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_e29df8",
+          "name": "Áder János",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bb913f",
+          "name": "Sulyok Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_578e71f2",
+      "title": "Több mint 1,6 milliárdért vállalta Balásy Gyula cége a BL-döntő szervezési és kommunikációs feladatait",
+      "description": "A közbeszerzést a Rogán Antal irányítása alatt működő Nemzeti Kommunikációs Hivatal bonyolította le.",
+      "link": "https://telex.hu/gazdasag/2026/07/09/tobb-mint-1-6-milliardert-vallalta-balasy-gyula-cege-a-bl-donto-szervezesi-es-kommunikacios-feladatait",
+      "date": "2026-07-09",
+      "source": "Telex",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1600000000,
+      "tags": [
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        },
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0b8728eb",
+      "title": "Letartóztatásban tartaná az ügyészség Fonyód volt fideszes polgármesterét",
+      "description": "2019 és 2023 közötti önkormányzati ügyekben, színlelt szerződésekben nyomoznak a büntetőeljárásban.",
+      "link": "https://telex.hu/belfold/2026/07/10/letartoztatasban-tartana-az-ugyeszseg-fonyod-volt-fideszes-polgarmesteret",
+      "date": "2026-07-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "önkormányzat"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_48dfc082",
       "title": "Az orbáni agytrösztök titkai – podcast a Fidesz szellemi hátországáról",
       "description": "Milyen politikai célokat szolgált az MCC, a Batthyány Lajos Alapítvány, a Danube Institute vagy az Alapjogokért Központ, amikbe közpénzmilliárdokat öntött a Fidesz?",
@@ -4243,24 +4367,104 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_ad1068",
+      "to": "p_bb913f",
+      "type": "business_connection",
+      "cases": [
+        "sc_d26619f2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_947da5",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_fce19b",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_e29df8",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_947da5",
+      "to": "p_fce19b",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_947da5",
+      "to": "p_e29df8",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_fce19b",
+      "to": "p_e29df8",
+      "type": "business_connection",
+      "cases": [
+        "sc_bc1f8090"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b5e4f",
+      "to": "p_7a517f",
+      "type": "political_ally",
+      "cases": [
+        "sc_578e71f2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-09T10:53:20.798352+00:00",
+    "last_updated": "2026-07-10T07:30:37.755986+00:00",
     "version": "3.0.0",
-    "total_cases": 100,
+    "total_cases": 104,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21279300000000,
+    "total_involved_amount_huf": 21280955000000,
     "status_breakdown": {
-      "active": 77,
+      "active": 81,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 23,
-      "pénzügyi": 65,
-      "közbeszerzés": 12
+      "pénzügyi": 68,
+      "közbeszerzés": 13
     },
     "sources": [
       "444",
@@ -4271,16 +4475,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Budapest",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna",
       "Pest",
       "Csongrád-Csanád",
-      "Baranya",
-      "Borsod-Abaúj-Zemplén",
       "Győr-Moson-Sopron",
       "Fejér",
-      "Tolna",
       "Somogy",
       "Országos",
-      "Budapest"
+      "Baranya"
     ]
   }
 }
