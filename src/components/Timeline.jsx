@@ -25,15 +25,39 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
 
   if (!cases.length) return null;
 
+  const CARD_W = 144;
+  const CARD_H = 56;
+  const CARD_SPACING = CARD_W + 6;   // min horizontal gap between cards sharing a date
+  const LANE_GAP = 80;               // vertical distance between stacked lanes on the same side
+  const BASE_OFFSET = 70;            // distance from axis to first lane
+
   const sorted = [...cases].sort((a,b) => a.date.localeCompare(b.date));
   const minDate = new Date(sorted[0].date);
   const maxDate = new Date(sorted[sorted.length-1].date);
   const totalDays = Math.max(1, (maxDate - minDate) / 86400000);
-  const W = Math.max(900, totalDays * 4 + 200);
-  const H = 340;
-  const PAD = 80;
+
+  // Spread cases that share the exact same date across x so they don't all
+  // land on one pixel column (which caused the dense striped overlap).
+  const dateCounts = {};
+  sorted.forEach(c => { dateCounts[c.date] = (dateCounts[c.date] || 0) + 1; });
+  const maxGroupSize = Math.max(1, ...Object.values(dateCounts));
+  const halfClusterExtent = maxGroupSize > 1 ? ((maxGroupSize - 1) / 2) * CARD_SPACING + CARD_W / 2 : 0;
+
+  const coreW = Math.max(900, totalDays * 4 + 200) - 160; // drawable width (same density as before)
+  const PAD = 80 + halfClusterExtent;
+  const W = coreW + PAD * 2;
 
   const xFor = date => PAD + ((new Date(date) - minDate) / 86400000 / totalDays) * (W - PAD*2);
+
+  const dateSeen = {};
+  const xJitter = {};
+  sorted.forEach(c => {
+    const n = dateCounts[c.date];
+    const seen = dateSeen[c.date] || 0;
+    dateSeen[c.date] = seen + 1;
+    xJitter[c.id] = n > 1 ? (seen - (n - 1) / 2) * CARD_SPACING : 0;
+  });
+  const xForCase = c => xFor(c.date) + xJitter[c.id];
 
   const years = [];
   for (let y = minDate.getFullYear(); y <= maxDate.getFullYear(); y++) {
@@ -42,8 +66,37 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
       years.push({ year: y, x: xFor(d.toISOString().slice(0,10)) });
   }
 
-  const rows = {};
-  sorted.forEach((c,i) => { rows[c.id] = i % 2 === 0 ? 0 : 1; });
+  // Pack cards into vertical lanes (alternating above/below the axis) so that
+  // any two cards whose x-ranges would overlap end up on different lanes
+  // instead of stacking on top of each other.
+  const layout = {};
+  const topLaneEnds = [];
+  const bottomLaneEnds = [];
+  const byX = sorted.map(c => ({ c, x: xForCase(c) })).sort((a,b) => a.x - b.x);
+  let sideToggle = 0;
+  byX.forEach(({ c, x }) => {
+    const left = x - CARD_SPACING / 2;
+    const findLane = lanes => {
+      for (let i = 0; i < lanes.length; i++) if (lanes[i] <= left) return i;
+      return lanes.length;
+    };
+    const topLane = findLane(topLaneEnds);
+    const bottomLane = findLane(bottomLaneEnds);
+    let side;
+    if (topLane < bottomLane) side = 'top';
+    else if (bottomLane < topLane) side = 'bottom';
+    else side = (sideToggle++ % 2 === 0) ? 'top' : 'bottom';
+    const lanes = side === 'top' ? topLaneEnds : bottomLaneEnds;
+    const lane = side === 'top' ? topLane : bottomLane;
+    const right = x + CARD_SPACING / 2;
+    if (lane === lanes.length) lanes.push(right); else lanes[lane] = right;
+    layout[c.id] = { side, lane };
+  });
+
+  const halfFor = laneCount => laneCount > 0
+    ? BASE_OFFSET + (laneCount - 1) * LANE_GAP + CARD_H + 24
+    : 170;
+  const H = Math.max(340, Math.round(Math.max(halfFor(topLaneEnds.length), halfFor(bottomLaneEnds.length))) * 2);
 
   // Playback
   const startPlay = useCallback(() => {
@@ -56,7 +109,7 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
       // Auto-scroll to keep up
       if (scrollRef.current && count <= sorted.length) {
         const c = sorted[count-1];
-        const x = xFor(c.date);
+        const x = xForCase(c);
         scrollRef.current.scrollTo({ left: x - 200, behavior: 'smooth' });
       }
       if (count >= sorted.length) {
@@ -156,15 +209,17 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
           {/* Animated progress line */}
           {playing && visibleCount > 0 && visibleCount <= sorted.length && (
             <line x1={PAD} y1={H/2}
-              x2={xFor(sorted[visibleCount-1].date)} y2={H/2}
+              x2={xForCase(sorted[visibleCount-1])} y2={H/2}
               stroke="#3b82f6" strokeWidth="2" opacity="0.4"/>
           )}
 
           {/* Case nodes */}
           {sorted.slice(0, displayCount).map((c, idx) => {
-            const x = xFor(c.date);
-            const isTop = rows[c.id] === 0;
-            const cy = isTop ? H/2 - 70 : H/2 + 70;
+            const x = xForCase(c);
+            const { side, lane } = layout[c.id];
+            const isTop = side === 'top';
+            const offset = BASE_OFFSET + lane * LANE_GAP;
+            const cy = isTop ? H/2 - offset : H/2 + offset;
             const stemY1 = isTop ? H/2 - 9 : H/2 + 9;
             const stemY2 = isTop ? cy + 22 : cy - 22;
             const isSel = selected === c.id;
@@ -190,7 +245,7 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
                   stroke={isSel?'white':darkMode?'#1f2937':'white'}
                   strokeWidth={isSel?2.5:1.5}/>
                 {/* Card */}
-                <foreignObject x={x-72} y={isTop ? cy-52 : cy} width="144" height="56">
+                <foreignObject x={x-CARD_W/2} y={isTop ? cy-CARD_H-4 : cy} width={CARD_W} height={CARD_H}>
                   <div xmlns="http://www.w3.org/1999/xhtml" style={{
                     background: isSel ? STATUS_COLORS[c.status] : isNew ? (darkMode?'#1e3a5f':'#eff6ff') : (darkMode?'#374151':'#fff'),
                     border: `2px solid ${STATUS_COLORS[c.status]}`,
@@ -199,11 +254,16 @@ export default function Timeline({ cases, onCaseSelect, darkMode, selectedId, on
                     color: isSel ? 'white' : (darkMode?'#f3f4f6':'#111827'),
                     boxShadow: isNew ? `0 0 12px ${STATUS_COLORS[c.status]}88` : '0 2px 8px rgba(0,0,0,0.1)',
                     transition: 'all 0.3s',
+                    boxSizing: 'border-box', height: '100%', overflow: 'hidden',
                   }}>
-                    <div style={{fontWeight:700,marginBottom:2}}>
-                      {CAT_ICONS[c.category]} {c.title.length > 40 ? c.title.slice(0,40)+'…' : c.title}
+                    <div style={{
+                      fontWeight:700, marginBottom:2,
+                      display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical',
+                      overflow:'hidden',
+                    }}>
+                      {CAT_ICONS[c.category]} {c.title}
                     </div>
-                    <div style={{opacity:0.7,fontSize:'9px'}}>
+                    <div style={{opacity:0.7,fontSize:'9px',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>
                       {c.date}{c.amount_huf != null ? ` · ${(c.amount_huf/1e9).toLocaleString('hu-HU',{maximumFractionDigits:1})} Mrd HUF` : ''}
                     </div>
                   </div>
