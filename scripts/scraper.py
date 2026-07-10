@@ -49,6 +49,13 @@ EXCLUDE = [
 
 NER_ERA_START = '2010-01-01'
 
+# feedparser alapértelmezett User-Agent nélkül kér — néhány Cloudflare mögötti
+# forrás (pl. magyarnarancs.hu) ezt 403-mal blokkolja. Böngésző-szerű UA-val elkerülhető.
+FEED_REQUEST_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                  '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+}
+
 # ── RSS Proxy beállítás ──────────────────────────────────────────────
 # Ha a PROXY_URL env változó be van állítva, azon keresztül kéri le a feedeket.
 # Cloudflare Worker URL: https://ner-tracker-rss-proxy.<accountname>.workers.dev
@@ -71,18 +78,14 @@ FEEDS = [
     # Nyomozó újságírás (NER-korrupció fókusz)
     {"name":"Direkt36",    "url":"https://direkt36.hu/feed/",                               "source":"Direkt36"},
     {"name":"Atlatszo",    "url":"https://atlatszo.hu/feed/",                               "source":"Átlátszó"},
-    {"name":"AtlatszoPenz","url":"https://atlatszo.hu/category/kozpenz/feed/",              "source":"Átlátszó"},
-    {"name":"Abcug",       "url":"https://abcug.hu/feed/",                                  "source":"Abcúg"},
-    {"name":"G7",          "url":"https://g7.hu/feed/",                                     "source":"G7"},
     # Politikai elemzők, balliberális sajtó
     {"name":"Narancs",     "url":"https://magyarnarancs.hu/rss",                            "source":"Magyar Narancs"},
     {"name":"Merce",       "url":"https://merce.hu/tag/korrupcio/feed/",                    "source":"Mérce"},
-    {"name":"Partizan",    "url":"https://partizan.online/feed",                            "source":"Partizán"},
     # Nemzetközi magyar szerkesztőségek
-    {"name":"SzabadEu",    "url":"https://www.szabad-europa.hu/z/rss",                      "source":"Szabad Európa"},
+    {"name":"SzabadEu",    "url":"https://www.szabadeuropa.hu/api/",                        "source":"Szabad Európa"},
     # Témakör-specifikus feedek
     {"name":"AtlatszoPalyazat","url":"https://atlatszo.hu/tag/palyazat/feed/",             "source":"Átlátszó"},
-    {"name":"HVGKozpenz",  "url":"https://hvg.hu/gazdasag/rss",                            "source":"HVG Gazdaság"},
+    {"name":"HVGKozpenz",  "url":"https://hvg.hu/rss/gazdasag",                            "source":"HVG Gazdaság"},
 ]
 
 REGION_COORDS = {
@@ -257,7 +260,7 @@ def scrape_all():
         raw_count, error = 0, None
         try:
             log.info(f"Fetching {feed['name']}…")
-            d = feedparser.parse(_feed_url(feed['url']))
+            d = feedparser.parse(_feed_url(feed['url']), request_headers=FEED_REQUEST_HEADERS)
             raw_count = len(d.entries)
             for entry in d.entries[:40]:
                 title   = getattr(entry,'title','')
@@ -366,13 +369,13 @@ def backup(data):
     os.makedirs(f'data/archive', exist_ok=True)
     path = f'data/archive/{today}.json'
     if not os.path.exists(path):
-        with open(path,'w') as f: json.dump(data,f,ensure_ascii=False,indent=2)
+        with open(path,'w',encoding='utf-8') as f: json.dump(data,f,ensure_ascii=False,indent=2)
         log.info(f"Backup: {path}")
 
 def load_existing():
     for p in ['public/data/news.json','data/news.json']:
         if os.path.exists(p):
-            with open(p) as f: return json.load(f)
+            with open(p, encoding='utf-8') as f: return json.load(f)
     return {"cases":[],"investigations":[],"connections":[],"metadata":{}}
 
 def log_cleanup(entries):
@@ -469,7 +472,7 @@ def save(data):
     os.makedirs('data',exist_ok=True)
     out = json.dumps(data,indent=2,ensure_ascii=False)
     for p in ['public/data/news.json','data/news.json']:
-        with open(p,'w') as f: f.write(out)
+        with open(p,'w',encoding='utf-8') as f: f.write(out)
     log.info("Mentve.")
 
 
