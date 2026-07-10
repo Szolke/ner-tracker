@@ -1,6 +1,68 @@
 {
   "cases": [
     {
+      "id": "sc_c0ae8ac2",
+      "title": "Titkos kormányhatározatokkal is pénzelte az Orbán-kormány a holdudvarát",
+      "description": "A Makovecz Campus Alapítvány 52 milliárd, a Lázár János-féle Jövő Nemzedék Földje Alapítvány 27,2 milliárd, a BLA 9,8 milliárd, a Kék Bolygó Klímavédelmi Alapítvány 5 milliárd forint közpénzt kapott nem átlátható módon.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/10/titkos-kormanyhatarozatokkal-is-penzelte-az-orban-kormany-a-holdudvarat/",
+      "date": "2026-07-10",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 52000000000,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_34b868",
+          "name": "Makovecz Campus",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_65429a",
+          "name": "Jövő Nemzedék",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b6111f",
+          "name": "Kék Bolygó",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4d3df165",
+      "title": "106 milliárdos károkozás miatt tett feljelentést a Miniszterelnökség, fideszes képviselő alapítványai, médiafigyelő és egyházi közösség is előkerült",
+      "description": "Az átvilágítás részeként öt ügyet tártak fel, amiben gyanús szerződések, kifizetések, összefonódások nyomát találták.",
+      "link": "https://telex.hu/belfold/2026/07/10/miniszterelnokseg-feljelentes-iratok-atvizsgalasa-gyanus-szerzodesek",
+      "date": "2026-07-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 106000000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_d26619f2",
       "title": "Ruff Bálint: A kormányzásnak más célja nem volt, mint hogy bizonyos körök, érdekcsoportok egyre jobban gazdagodjanak",
       "description": "Miniszterként első interjúját adta a volt politikai elemző. Azt mondta, több ezer milliárd forint vándorolt titkos kormányhatározatokkal „magánzsebekbe”. Szó volt Sulyok Tamás eltávolításáról, Orbán és Rogán esetleges feljelentéséről, illetve a Tisza-frakció megosztottságáról is.",
@@ -4447,23 +4509,83 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_34b868",
+      "type": "political_ally",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_65429a",
+      "type": "political_ally",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_b6111f",
+      "type": "political_ally",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_34b868",
+      "to": "p_65429a",
+      "type": "business_connection",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_34b868",
+      "to": "p_b6111f",
+      "type": "business_connection",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_65429a",
+      "to": "p_b6111f",
+      "type": "business_connection",
+      "cases": [
+        "sc_c0ae8ac2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-10T08:34:13.262102+00:00",
+    "last_updated": "2026-07-10T10:52:01.917991+00:00",
     "version": "3.0.0",
-    "total_cases": 104,
+    "total_cases": 106,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21280955000000,
+    "total_involved_amount_huf": 21438955000000,
     "status_breakdown": {
-      "active": 81,
+      "active": 83,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 23,
-      "pénzügyi": 68,
+      "pénzügyi": 70,
       "közbeszerzés": 13
     },
     "sources": [
@@ -4475,15 +4597,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Pest",
-      "Tolna",
-      "Csongrád-Csanád",
-      "Győr-Moson-Sopron",
       "Fejér",
-      "Baranya",
+      "Győr-Moson-Sopron",
       "Országos",
-      "Borsod-Abaúj-Zemplén",
+      "Tolna",
+      "Pest",
+      "Baranya",
       "Somogy",
+      "Csongrád-Csanád",
+      "Borsod-Abaúj-Zemplén",
       "Budapest"
     ]
   }
