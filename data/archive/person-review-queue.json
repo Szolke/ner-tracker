@@ -273,5 +273,18 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-10T08:34:13.266946+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Nemzeti Kommunikációs",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
