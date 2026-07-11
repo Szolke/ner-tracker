@@ -1,81 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_4ffb443c",
-      "title": "Magyar Péter az uniós pénzek felszabadításáról: „Megígértük, megcsináltuk”",
-      "description": "A miniszterelnök és Vitézy Dávid is üdvözölte az EU Tanácsának döntését, amellyel 10 milliárd euró lehívása előtt nyílik meg az út. A tárcavezető azt is elárulta, mire fordítják a források jelentős részét.",
-      "link": "https://hvg.hu/gazdasag/20260710_unios-forrasok-felszabaditasa-magyar-peter-vitezy-david-reakcio",
-      "date": "2026-07-10",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 10000000000,
-      "tags": [
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
-    },
-    {
-      "id": "sc_6ce79325",
-      "title": "9,8 milliárdot adtak Orbánék a választás előtt a határon túli focira, volt, ahol még az irodaszereket és az üzemanyagot is ebből vették",
-      "description": "A kormányváltás után közérdekű adatigényléssel szereztük meg a Bethlen Gábor Alap egyedi támogatásainak dokumentációját, amiből kiderült, hogy a legapróbb tételekre is pénzt kértek a magyar államtól a határon túli fociakadémiák.",
-      "link": "https://444.hu/2026/07/11/98-milliardot-adtak-orbanek-a-valasztas-elott-a-hataron-tuli-focira-volt-ahol-meg-az-irodaszereket-es-az-uzemanyagot-is-ebbol-vettek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-11",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 9800000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_40b268",
-          "name": "Bethlen Gábor",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_c15a9c4e",
-      "title": "Milliárdos fejlesztéstől több milliós fizetésen át pogácsáig mindenre adott pénzt az Orbán-kormány a határon túli focikluboknak",
-      "description": "Az Orbán-kormány nem egész egy év alatt közel 10 milliárd forintot szórt ki 11 határon túli fociklub és -akadémia támogatására. Fejlesztést, személyi kiadásokat és a legkülönfélébb működési költségeket is álltak adóforintokból.",
-      "link": "https://hvg.hu/sport/20260711_milliard-fejlesztes-millio-fizetes-pogacsa-tamogatas-orban-kormany-hataron-tul-fociklub",
-      "date": "2026-07-11",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 10000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_c0ae8ac2",
       "title": "Titkos kormányhatározatokkal is pénzelte az Orbán-kormány a holdudvarát",
       "description": "A Makovecz Campus Alapítvány 52 milliárd, a Lázár János-féle Jövő Nemzedék Földje Alapítvány 27,2 milliárd, a BLA 9,8 milliárd, a Kék Bolygó Klímavédelmi Alapítvány 5 milliárd forint közpénzt kapott nem átlátható módon.",
@@ -4647,42 +4572,41 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-11T09:27:30.503035+00:00",
+    "last_updated": "2026-07-10T10:52:01.917991+00:00",
     "version": "3.0.0",
-    "total_cases": 109,
+    "total_cases": 106,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21468755000000,
+    "total_involved_amount_huf": 21438955000000,
     "status_breakdown": {
-      "active": 86,
+      "active": 83,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 23,
-      "pénzügyi": 73,
+      "pénzügyi": 70,
       "közbeszerzés": 13
     },
     "sources": [
       "444",
       "Direkt36",
       "HVG",
-      "HVG Gazdaság",
       "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
-      "Borsod-Abaúj-Zemplén",
-      "Baranya",
-      "Győr-Moson-Sopron",
-      "Csongrád-Csanád",
-      "Somogy",
-      "Budapest",
-      "Tolna",
       "Fejér",
+      "Győr-Moson-Sopron",
+      "Országos",
+      "Tolna",
       "Pest",
-      "Országos"
+      "Baranya",
+      "Somogy",
+      "Csongrád-Csanád",
+      "Borsod-Abaúj-Zemplén",
+      "Budapest"
     ]
   }
 }
