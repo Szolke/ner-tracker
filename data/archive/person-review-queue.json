@@ -316,5 +316,30 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-12T09:49:43.494286+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]

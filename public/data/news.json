@@ -1,6 +1,39 @@
 {
   "cases": [
     {
+      "id": "sc_6e78a592",
+      "title": "Komoly munka lesz, ha a Tisza tényleg el akarja tüntetni Mészáros Lőrincet és a NER-t a közbeszerzésekből",
+      "description": "A rendszernek nem a hibája, hanem a lényege, hogy a közbeszerzések túlárazását segíti – áll az Integritás Hatóság friss jelentésében. A korrupciós veszély nem a törvénysértés; épp a szabályok betű szerinti betartása vezet a pénz elfolyásához.",
+      "link": "https://hvg.hu/360/20260712_integritas-hatosag-kozbeszerzes-korrupcio-ner-orban-hvg",
+      "date": "2026-07-12",
+      "source": "HVG",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_1b2383",
+          "name": "Mészáros Lőrincet",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_4ffb443c",
       "title": "Magyar Péter az uniós pénzek felszabadításáról: „Megígértük, megcsináltuk”",
       "description": "A miniszterelnök és Vitézy Dávid is üdvözölte az EU Tanácsának döntését, amellyel 10 milliárd euró lehívása előtt nyílik meg az út. A tárcavezető azt is elárulta, mire fordítják a források jelentős részét.",
@@ -4644,16 +4677,26 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_1b2383",
+      "type": "political_ally",
+      "cases": [
+        "sc_6e78a592"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-11T09:27:30.503035+00:00",
+    "last_updated": "2026-07-12T09:49:43.489207+00:00",
     "version": "3.0.0",
-    "total_cases": 109,
+    "total_cases": 110,
     "total_investigations": 4,
     "total_involved_amount_huf": 21468755000000,
     "status_breakdown": {
-      "active": 86,
+      "active": 87,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
@@ -4661,7 +4704,7 @@
     "category_breakdown": {
       "korrupció": 23,
       "pénzügyi": 73,
-      "közbeszerzés": 13
+      "közbeszerzés": 14
     },
     "sources": [
       "444",
@@ -4673,16 +4716,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Borsod-Abaúj-Zemplén",
-      "Baranya",
       "Győr-Moson-Sopron",
-      "Csongrád-Csanád",
-      "Somogy",
-      "Budapest",
-      "Tolna",
       "Fejér",
-      "Pest",
-      "Országos"
+      "Baranya",
+      "Somogy",
+      "Országos",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna",
+      "Csongrád-Csanád",
+      "Budapest",
+      "Pest"
     ]
   }
 }

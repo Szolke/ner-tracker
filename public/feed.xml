@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Sat, 11 Jul 2026 09:27:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 09:49:43 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Komoly munka lesz, ha a Tisza tényleg el akarja tüntetni Mészáros Lőrincet és a NER-t a közbeszerzésekből]]></title>
+    <link>https://hvg.hu/360/20260712_integritas-hatosag-kozbeszerzes-korrupcio-ner-orban-hvg</link>
+    <guid>sc_6e78a592</guid>
+    <pubDate>2026-07-12</pubDate>
+    <description><![CDATA[A rendszernek nem a hibája, hanem a lényege, hogy a közbeszerzések túlárazását segíti – áll az Integritás Hatóság friss jelentésében. A korrupciós veszély nem a törvénysértés; épp a szabályok betű sze | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
   <item>
     <title><![CDATA[Magyar Péter az uniós pénzek felszabadításáról: „Megígértük, megcsináltuk”]]></title>
     <link>https://hvg.hu/gazdasag/20260710_unios-forrasok-felszabaditasa-magyar-peter-vitezy-david-reakcio</link>
@@ -158,14 +166,6 @@
     <pubDate>2026-07-06</pubDate>
     <description><![CDATA[Czeglédy Gergő, Óbuda volt MSZP-s alpolgármestere részletes beismerő vallomásában arról beszélt, hogyan szervezték a kerületi korrupciót Puskás Péterrel, a Fidesz helyi erős emberével. A tökélyre fejl | Budapest | Összeg ismeretlen | korrupció]]></description>
     <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Luxus-bevásárlóutcát is kapott volna a Tőzsdepalotába megálmodott Nemzeti Galéria]]></title>
-    <link>https://telex.hu/belfold/2026/07/06/tozsdepalota-nemzeti-galeria-latvanytervek-tiborcz-istvan</link>
-    <guid>sc_922b444d</guid>
-    <pubDate>2026-07-06</pubDate>
-    <description><![CDATA[Piero Lissoni olasz építész kiposztolta, hogyan alakította volna át a Tiborcz István érdekeltségébe tartozó épületet. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
   </item>
   </channel>
 </rss>
