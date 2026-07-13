@@ -1568,5 +1568,60 @@
         "error": null
       }
     ]
+  },
+  {
+    "run_at": "2026-07-13T11:09:15.761536+00:00",
+    "feeds": [
+      {
+        "name": "Telex",
+        "raw_count": 50,
+        "error": null
+      },
+      {
+        "name": "HVG",
+        "raw_count": 60,
+        "error": null
+      },
+      {
+        "name": "444",
+        "raw_count": 30,
+        "error": null
+      },
+      {
+        "name": "Direkt36",
+        "raw_count": 10,
+        "error": null
+      },
+      {
+        "name": "Atlatszo",
+        "raw_count": 25,
+        "error": null
+      },
+      {
+        "name": "Narancs",
+        "raw_count": 30,
+        "error": null
+      },
+      {
+        "name": "Merce",
+        "raw_count": 0,
+        "error": null
+      },
+      {
+        "name": "SzabadEu",
+        "raw_count": 0,
+        "error": null
+      },
+      {
+        "name": "AtlatszoPalyazat",
+        "raw_count": 11,
+        "error": null
+      },
+      {
+        "name": "HVGKozpenz",
+        "raw_count": 60,
+        "error": null
+      }
+    ]
   }
 ]

@@ -1,79 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_169e3f1a",
-      "title": "Vitézy szerint a sztrádakoncessziós cég legfeljebb fele annyit költött a hálózatra, mint amennyi pénzt kapott",
-      "description": "A közlekedési miniszter ismét nekiment a cégnek, ugyanakkor jelezte: amíg nem zárul le a brüsszeli vizsgálat, nem lépnek.",
-      "link": "https://hvg.hu/gazdasag/20260712_vitezy-david-koncesszio-autopalya-vizsgalat",
-      "date": "2026-07-12",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_5fd9b621",
-      "title": "Több mint félmilliárd forint közpénzt emésztett fel Orbánék elkésett jeruzsálemi presztízsberuházása",
-      "description": "Egy eddig ismeretlen kormányhatározat szerint tavaly több mint félmilliárd forintot tapsolt el a leköszönő kormány a Jeruzsálemi Magyar Akadémia létrehozására, aminek még rendes honlapja sincs.",
-      "link": "https://atlatszo.hu/kozpenz/2026/07/13/tobb-mint-felmilliard-forint-kozpenzt-emesztett-fel-orbanek-elkesett-jeruzsalemi-presztizsberuhazasa/",
-      "date": "2026-07-13",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_ab00b5",
-          "name": "Jeruzsálemi Magyar",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_90f51c99",
-      "title": "3,5 kilométeres magánút építésével vinnék a BYD-gyárból az autókat a dorozsmai vasútállomásra",
-      "description": "A szegedi gyárban várhatóan ezer autó készülne naponta, ezek közül hétszázat a Waberer's vasúti terminálján tennének tehervonatokra. A Tiborcz István érdekeltségében lévő cég most is ellát a BYD-hoz kapcsolódó logisztikai feladatokat: több ezer konténer Kínából Magyarországra szállításában vesz részt.",
-      "link": "https://telex.hu/gazdasag/2026/07/13/3-5-kilometeres-maganut-epitesevel-vinnek-a-byd-gyarbol-az-autokat-a-dorozsmai-vasutallomasra",
-      "date": "2026-07-13",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Csongrád-Csanád",
-      "coordinates": [
-        46.253,
-        20.1414
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_f68206",
-          "name": "Kínából Magyarországra",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_6e78a592",
       "title": "Komoly munka lesz, ha a Tisza tényleg el akarja tüntetni Mészáros Lőrincet és a NER-t a közbeszerzésekből",
       "description": "A rendszernek nem a hibája, hanem a lényege, hogy a közbeszerzések túlárazását segíti – áll az Integritás Hatóság friss jelentésében. A korrupciós veszély nem a törvénysértés; épp a szabályok betű szerinti betartása vezet a pénz elfolyásához.",
@@ -4760,33 +4687,23 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_f68206",
-      "type": "business_connection",
-      "cases": [
-        "sc_90f51c99"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-13T11:09:15.843926+00:00",
+    "last_updated": "2026-07-12T09:49:43.489207+00:00",
     "version": "3.0.0",
-    "total_cases": 113,
+    "total_cases": 110,
     "total_investigations": 4,
     "total_involved_amount_huf": 21468755000000,
     "status_breakdown": {
-      "active": 90,
+      "active": 87,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 23,
-      "pénzügyi": 76,
+      "pénzügyi": 73,
       "közbeszerzés": 14
     },
     "sources": [
@@ -4801,14 +4718,14 @@
     "regions_covered": [
       "Győr-Moson-Sopron",
       "Fejér",
-      "Országos",
-      "Pest",
-      "Borsod-Abaúj-Zemplén",
-      "Budapest",
-      "Csongrád-Csanád",
-      "Somogy",
       "Baranya",
-      "Tolna"
+      "Somogy",
+      "Országos",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna",
+      "Csongrád-Csanád",
+      "Budapest",
+      "Pest"
     ]
   }
 }
