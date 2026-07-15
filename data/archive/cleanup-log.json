@@ -9,5 +9,16 @@
         "reason": "similar_to: Kármán András szerint ezermilliárdos nagyságrendben folyt ki a pénz a költségvetésből a Fidesz-kormány alatt"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-15T10:01:08.601908+00:00",
+    "entries": [
+      {
+        "id": "sc_2e1c3291",
+        "title": "Tarr Zoltán szerint visszaszereztek 1,3 milliárd forintot, amit Orbán János Dénes műveiért fizettek volna ki közpénzből",
+        "action": "skipped_duplicate",
+        "reason": "similar_to: Tarr Zoltánék visszaszereztek 1,3 milliárd forintot, amit Orbán János Dénes műveiért fizettek volna ki"
+      }
+    ]
   }
 ]
