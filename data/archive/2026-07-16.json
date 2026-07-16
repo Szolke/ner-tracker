@@ -1,254 +1,34 @@
 {
   "cases": [
     {
-      "id": "sc_694bec74",
-      "title": "Magyar Péter szerint minden európai országban korrupciónak hívják azt, amit Szijjártó tett",
-      "description": "Mert ahhoz a globális kínai multicéghez igazolt, aminek több száz milliárd forint állami támogatást lobbizott ki korábban.",
-      "link": "https://444.hu/2026/07/15/magyar-peter-szerint-minden-europai-orszagban-korrupcionak-hivjak-azt-amit-szijjarto-tett?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "id": "sc_c5171e2b",
+      "title": "Nem tervezik megszüntetni Varga Judit akadémiáját",
+      "description": "Ezt ígéri a Miskolci Egyetemet még 2027 augusztusig működtető közfeladatot ellátó közérdekű vagyonkezelő alapítvány: megtartja az intézményen belül működő Közép-európai Akadémiát, ahol az exminiszter mentori tevékenységéért havi 2,1 millió forintos fizetést érdemelt ki. Kérdés, a kormány tovább finanszírozza-e az akadémiát, amire a rektori hivatal is számít, vagy a fenntartására költött 3-4 milliá",
+      "link": "https://magyarnarancs.hu/belpol/nem-tervezik-megszuntetni-varga-judit-akademiajat-279694",
       "date": "2026-07-15",
-      "source": "444",
-      "category": "korrupció",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
       "status": "active",
-      "region": "Budapest",
+      "region": "Borsod-Abaúj-Zemplén",
       "coordinates": [
-        47.4979,
-        19.0402
+        48.1035,
+        20.7784
       ],
-      "amount_huf": null,
+      "amount_huf": 4000000000,
       "tags": [
-        "korrupció",
         "EU",
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_659b1330",
-      "title": "Október közepéig rács mögött marad Fonyód volt fideszes polgármestere",
-      "description": "Hidvégi Józsefet csalással és pénzmosással gyanúsítják.",
-      "link": "https://444.hu/2026/07/16/oktober-kozepeig-racs-mogott-marad-fonyod-volt-fideszes-polgarmestere?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-16",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b6815a",
-          "name": "Hidvégi Józsefet",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_2f2fb0a9",
-      "title": "Nagy Ervin feljelentést tesz Orbán János Dénes kifizetései ügyében",
-      "description": "Különösen jelentős vagyoni hátrányt okozó hűtlen kezelés bűntettének gyanúja miatt.",
-      "link": "https://444.hu/2026/07/16/nagy-ervin-feljelentest-tesz-orban-janos-denes-kifizetesei-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-16",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_7f5e87",
-          "name": "Nagy Ervin",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_f7e873",
-          "name": "Orbán János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_39604bda",
-      "title": "Amerikai professzor: Magyar nacionalizmusa nem jobb Orbánénál",
-      "description": "Brett Chloupek szerint Magyar Péter ugyanúgy a magyarság jelentős részében még mindig élő Trianon-szindrómára játszott rá, amikor nemrég Magyarország „önmagával határosságáról” beszélt, mint Orbán Viktor, amikor a szélsőjobbnak tett gesztusokat, és nagy-magyarországos sállal szurkolt egy focimeccsen.",
-      "link": "https://hvg.hu/360/20260716_amerikai-professzor-magyar-nacionalizmusa-nem-jobb-orbanenal",
-      "date": "2026-07-16",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_2e8bfb",
-          "name": "Orbánénál Brett",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b2645755",
-      "title": "Pottyondy Edina: Xi-Jjártó azzal érdemelte ki a BYD-s kegyelemkenyeret, hogy elárulta a hazáját",
-      "description": "A humorista szerint Szijjártó Péter munkaköre nem változik: ugyanúgy kínai érdekekért kell lobbiznia, valamint az EU-t és Magyarországot tönkretennie.",
-      "link": "https://hvg.hu/elet/20260716_pottyondy-edina-szijjarto-peter-byd-parlamenti-mandatum-lemondas-reakcio",
-      "date": "2026-07-16",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_70e38a",
-          "name": "Pottyondy Edina",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_8798e9df",
-      "title": "Még jobban becsomagolták az ingatlanokat Rogán Cecília üzleti környezetében",
-      "description": "Eddig is furcsa összefonódás volt az egykori fideszes miniszterfeleség és egy cég között, de most már nemcsak magántőkelap birtokolja a cégből kivált ingatlanvállalkozásokat, hanem még egy bizalmi vagyonkezelőbe is beletették a vagyont.",
-      "link": "https://hvg.hu/360/20260716_rogan-szendrei-cecilia-digital-minds-ingatlan-prime-real-magantokealap-bizalmi-vagyonkezelo",
-      "date": "2026-07-16",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_ef0fe2",
-          "name": "Rogán Cecília",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_23cfb3fc",
-      "title": "Techet Péter: Magyar Péter „jó populista”, és nem lesz belőle második Orbán Viktor",
-      "description": "Amikor a Fidesz vádolja jogsértéssel a Tiszát, az olyan, mintha a tolvaj kiáltana rendőr után.",
-      "link": "https://hvg.hu/360/20260716_lapszemle-magyarorszag-magyar-peter-alkotmanymodositas-ukrajna-fifa-burgenland",
-      "date": "2026-07-16",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_1bd1f8",
-          "name": "Techet Péter",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_13e813ca",
-      "title": "Meghosszabbították Fonyód volt fideszes polgármesterének letartóztatását",
-      "description": "A gazdasági csalással és pénzmosással gyanúsított volt polgármester esetében továbbra is fennáll az eljárás meghiúsításának és a bűnismétlésnek a veszélye.",
-      "link": "https://telex.hu/belfold/2026/07/16/meghosszabbitottak-fonyod-volt-fideszes-polgarmesterenek-letartoztatasat",
-      "date": "2026-07-16",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_45e657",
-          "name": "Meghosszabbították Fonyód",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_c6b48656",
-      "title": "Feljelentést tett a Transparency International, a NER-elitet helyzetbe hozó 281 milliárd forint közpénz miatt",
-      "description": "Tiborcz István, Mészáros Lőrinc és Jellinek Dániel érdekköre is felbukkant a Baross Gábor Tőkeprogram kedvezményezettei között. A Transparency International kiperelte az iratokat és feljelentést tett.",
-      "link": "https://telex.hu/gazdasag/2026/07/16/transparency-international-mfb-meszaros-lorinc-tiborcz-istvan-nagy-szilard",
-      "date": "2026-07-16",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 281000000000,
-      "tags": [
+        "alapítvány",
         "IT"
       ],
       "involved_persons": [
         {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_e34d28",
-          "name": "Transparency International",
+          "id": "p_5dd937",
+          "name": "Varga Judit",
           "position": "ismeretlen"
         },
         {
-          "id": "p_44b0cb",
-          "name": "Jellinek Dániel",
+          "id": "p_56a261",
+          "name": "Miskolci Egyetemet",
           "position": "ismeretlen"
         }
       ]
@@ -5652,123 +5432,23 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_7f5e87",
-      "to": "p_f7e873",
-      "type": "business_connection",
-      "cases": [
-        "sc_2f2fb0a9"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_2e8bfb",
-      "type": "political_ally",
-      "cases": [
-        "sc_39604bda"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_1bd1f8",
-      "type": "political_ally",
-      "cases": [
-        "sc_23cfb3fc"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_534929",
-      "to": "p_70e38a",
-      "type": "political_ally",
-      "cases": [
-        "sc_b2645755"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_358ac9",
-      "type": "political_ally",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_e34d28",
-      "type": "political_ally",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_44b0cb",
-      "type": "political_ally",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_e34d28",
-      "type": "business_connection",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_44b0cb",
-      "type": "business_connection",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_e34d28",
-      "to": "p_44b0cb",
-      "type": "business_connection",
-      "cases": [
-        "sc_c6b48656"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-16T10:07:16.423772+00:00",
+    "last_updated": "2026-07-15T10:01:08.606899+00:00",
     "version": "3.0.0",
-    "total_cases": 133,
+    "total_cases": 125,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21902355000000,
+    "total_involved_amount_huf": 21625355000000,
     "status_breakdown": {
-      "active": 110,
+      "active": 102,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 25,
-      "pénzügyi": 94,
+      "korrupció": 24,
+      "pénzügyi": 87,
       "közbeszerzés": 14
     },
     "sources": [
@@ -5776,21 +5456,22 @@
       "Direkt36",
       "HVG",
       "HVG Gazdaság",
+      "Magyar Narancs",
       "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Borsod-Abaúj-Zemplén",
-      "Országos",
       "Fejér",
-      "Pest",
-      "Baranya",
-      "Csongrád-Csanád",
-      "Tolna",
       "Somogy",
-      "Győr-Moson-Sopron"
+      "Országos",
+      "Győr-Moson-Sopron",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna",
+      "Pest",
+      "Csongrád-Csanád",
+      "Budapest",
+      "Baranya"
     ]
   }
 }

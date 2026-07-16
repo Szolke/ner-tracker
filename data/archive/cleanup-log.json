@@ -20,5 +20,16 @@
         "reason": "similar_to: Tarr Zoltánék visszaszereztek 1,3 milliárd forintot, amit Orbán János Dénes műveiért fizettek volna ki"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-16T10:07:16.418899+00:00",
+    "entries": [
+      {
+        "id": "sc_c5171e2b",
+        "title": "Nem tervezik megszüntetni Varga Judit akadémiáját",
+        "action": "removed",
+        "reason": "no_secondary_match"
+      }
+    ]
   }
 ]
