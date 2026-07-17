@@ -1,6 +1,311 @@
 {
   "cases": [
     {
+      "id": "sc_ae109c63",
+      "title": "Kóbor állatok hancúroznak a porlepte műtárgyak között – ilyen körülmények között várja a szebb időket a Közlekedési Múzeum gyűjteménye az Északi Járműjavítóban",
+      "description": "Elképesztő állapotok, súlyos állományvédelmi hiányosságok az Északi Járműjavítóban, ahol a kormány százmilliárdos projektet tervez a fideszes főigazgató által vezetett Közlekedési Múzeumnak.",
+      "link": "https://444.hu/2026/07/17/kobor-allatok-hancuroznak-a-porlepte-mutargyak-kozott-ilyen-korulmenyek-kozott-varja-a-szebb-idoket-a-kozlekedesi-muzeum-gyujtemenye-az-eszaki-jarmujavitoban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_4373fb",
+          "name": "Közlekedési Múzeum",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9a81ef",
+          "name": "Északi Járműjavítóban",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_d169a2",
+          "name": "Közlekedési Múzeumnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_fad6af19",
+      "title": "Pintér Bélával és a Katonában is dolgozott az NKA új alelnöke, aki a Bohócdoktoroktól érkezik",
+      "description": "Mattyasovszky-Zsolnay Bence fogja irányítani a Hankó-korszak ügyeinek vizsgálatát is.",
+      "link": "https://444.hu/2026/07/17/pinter-belaval-es-a-katonaban-is-dolgozott-az-nka-uj-alelnoke-aki-a-bohocdoktoroktol-erkezik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_cd9ade",
+          "name": "Pintér Bélával",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b492bf",
+          "name": "Zsolnay Bence",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_30450ec7",
+      "title": "Rogán Antal kiszállt a Káncz Csaba ellen indított rágalmazási peréből, amit a Szőlő utcai szexvád miatt indított",
+      "description": "Magánvádlóként neki kellett volna bizonyítania.",
+      "link": "https://444.hu/2026/07/17/rogan-antal-kiszallt-a-kancz-csaba-ellen-inditott-ragalmazasi-perebol-amit-a-szolo-utcai-szexvad-miatt-inditott?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        },
+        {
+          "id": "p_f5567f",
+          "name": "Káncz Csaba",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0cc76d52",
+      "title": "Feljelentést tesz a kormány a KRÉTA, a Neptun és az állami iratkezelő rendszerek több mint 100 milliárd forintos, gyanús beszerzései miatt",
+      "description": "A közpénzek felelős felhasználása és az átláthatóság érdekében.",
+      "link": "https://444.hu/2026/07/17/feljelentest-tesz-a-kormany-a-kreta-a-neptun-es-az-allami-iratkezelo-rendszerek-tobb-mint-100-milliard-forintos-gyanus-beszerzesei-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_9a018525",
+      "title": "19 ezer titkos megfigyelést engedélyeztek a NER alatt, gyakorlatilag nem volt miniszteri kontroll a jóváhagyásokban",
+      "description": "Szinte százszázalékos arányban bólintottak rá Orbán igazságügyi miniszterei a szolgálatok által kérelmezett titkos megfigyelésekre.",
+      "link": "https://hvg.hu/itthon/20260717_ner-orban-rendszer-titkos-megfigyelesek-alkotmanyvedelmi-hivatal-tek-pegasus",
+      "date": "2026-07-17",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_c75afdc6",
+      "title": "A háromszoros árat bemondó Mészároséknak passzolt le egy nyúlfarknyi autópálya-szakaszt Lázár János",
+      "description": "A koncessziós időszak alatt így összesen 200 milliárddal többe kerülhet az adófizetőknek 59 kilométer autópálya üzemeltetése.",
+      "link": "https://hvg.hu/gazdasag/20260717_autopalya-koncesszio-uzemeltetes-lazar-janos-m6-m8-mkif-zrt-meszaros-lorinc-szijj-laszlo-ekm-kozpenz",
+      "date": "2026-07-17",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_6a97df19",
+      "title": "Rogán Antal kihátrált a rágalmazási ügyből, amely Káncz Csaba ellen indult az Orbán-kormány Szőlő utcai jelentése nyomán",
+      "description": "A volt miniszter magánvádló lett, így azonban nem kívánja folytatni az eljárást – tudta meg a Tisztességes és Igazságos Társadalomért Alapítvány.",
+      "link": "https://hvg.hu/itthon/20260717_szolo-utcai-botrany-rogan-antal-raglmazas-kancz-csaba",
+      "date": "2026-07-17",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        },
+        {
+          "id": "p_f5567f",
+          "name": "Káncz Csaba",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_320cbb",
+          "name": "Igazságos Társadalomért",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_543f21e1",
+      "title": "Túlméretesek a közpénzből felhúzott stadionok, a nézők nagy része pár szezon alatt felszívódik",
+      "description": "Az állam 2010 óta 700 milliárdot költött stadionépítésre, de a klubokat semmi sem ösztönzi arra, hogy növeljék a nézettséget",
+      "link": "https://hvg.hu/gazdasag/20260717_nb-i-stadion-epites-nezoszam-kihasznaltsag-kutatas",
+      "date": "2026-07-17",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 700000000000,
+      "tags": [
+        "stadion"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_bf15d583",
+      "title": "Lázár János egyetlen döntése 200 milliárd forintba kerülhet az adófizetőknek",
+      "description": "Ősszel lejár az M6-os sztráda Budapesttől Dunaújvárosig tartó részének építési-fenntartási szerződése, de az előző kormány ezt is odaadta Mészárosék koncessziójának, ami a lehető legdrágább megoldás.",
+      "link": "https://telex.hu/g7/kozelet/2026/07/17/lazar-janos-m6-dunaujvaros-mkif-koncesszio-meszaros-szijj",
+      "date": "2026-07-17",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_ccc911",
+          "name": "Budapesttől Dunaújvárosig",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6bd09f9b",
+      "title": "Nem biztos, hogy Budapesten kell keresni Orbánék legfeleslegesebb közpénzes luxizását",
+      "description": "Kultúrpalotából patrióta klubhelyiség: névleg kulturális programokat tartanának a sok milliárd forintért megvásárolt és további milliárdokból felújított brüsszeli Magyarország Házában. Csakhogy saját bevallásuk szerint idén ilyen nem volt benne júniusig, viszont a Fidesz európai pártcsaládja rendszeresen használta az épületet.",
+      "link": "https://telex.hu/kulfold/2026/07/17/magyarorszag-haza-brusszel-patriotak-europaert-miniszterelnokseg",
+      "date": "2026-07-17",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_8a637c",
+          "name": "Magyarország Házában",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4589a0ae",
+      "title": "Felülvizsgálja a kormány a Papp László Budapest Sportaréna tízéves bérleti szerződését",
+      "description": "A tíz évre szóló szerződést két héttel a választások előtt írta alá a kormány a Tiborcz István érdekeltségébe tartozó céggel.",
+      "link": "https://telex.hu/gazdasag/2026/07/17/papp-laszlo-sportarena-nemzeti-sportugynokseg-berelti-szerzodes-felulvizsgalat-tiborcz-istvan",
+      "date": "2026-07-17",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "sport"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_10102e",
+          "name": "Papp László",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_008300",
+          "name": "Budapest Sportaréna",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_694bec74",
       "title": "Magyar Péter szerint minden európai országban korrupciónak hívják azt, amit Szijjártó tett",
       "description": "Mert ahhoz a globális kínai multicéghez igazolt, aminek több száz milliárd forint állami támogatást lobbizott ki korábban.",
@@ -5752,23 +6057,134 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_4373fb",
+      "to": "p_9a81ef",
+      "type": "business_connection",
+      "cases": [
+        "sc_ae109c63"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_4373fb",
+      "to": "p_d169a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_ae109c63"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9a81ef",
+      "to": "p_d169a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_ae109c63"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_cd9ade",
+      "to": "p_b492bf",
+      "type": "business_connection",
+      "cases": [
+        "sc_fad6af19"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b5e4f",
+      "to": "p_f5567f",
+      "type": "political_ally",
+      "cases": [
+        "sc_30450ec7",
+        "sc_6a97df19"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b5e4f",
+      "to": "p_320cbb",
+      "type": "political_ally",
+      "cases": [
+        "sc_6a97df19"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_f5567f",
+      "to": "p_320cbb",
+      "type": "business_connection",
+      "cases": [
+        "sc_6a97df19"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_ccc911",
+      "type": "political_ally",
+      "cases": [
+        "sc_bf15d583"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_10102e",
+      "type": "business_connection",
+      "cases": [
+        "sc_4589a0ae"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_008300",
+      "type": "business_connection",
+      "cases": [
+        "sc_4589a0ae"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_10102e",
+      "to": "p_008300",
+      "type": "business_connection",
+      "cases": [
+        "sc_4589a0ae"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-16T10:07:16.423772+00:00",
+    "last_updated": "2026-07-17T09:55:25.055292+00:00",
     "version": "3.0.0",
-    "total_cases": 133,
+    "total_cases": 144,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21902355000000,
+    "total_involved_amount_huf": 23102355000000,
     "status_breakdown": {
-      "active": 110,
+      "active": 121,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 25,
-      "pénzügyi": 94,
+      "korrupció": 26,
+      "pénzügyi": 104,
       "közbeszerzés": 14
     },
     "sources": [
@@ -5782,14 +6198,14 @@
     ],
     "regions_covered": [
       "Budapest",
-      "Borsod-Abaúj-Zemplén",
-      "Országos",
-      "Fejér",
       "Pest",
+      "Országos",
+      "Somogy",
+      "Tolna",
       "Baranya",
       "Csongrád-Csanád",
-      "Tolna",
-      "Somogy",
+      "Fejér",
+      "Borsod-Abaúj-Zemplén",
       "Győr-Moson-Sopron"
     ]
   }

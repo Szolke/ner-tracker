@@ -429,5 +429,18 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-17T09:55:25.061830+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
