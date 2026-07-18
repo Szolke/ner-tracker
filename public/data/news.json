@@ -1,6 +1,184 @@
 {
   "cases": [
     {
+      "id": "sc_85fa9592",
+      "title": "Vitézy Dávid: Lázár János háromszoros áron kötött szerződést Mészáros és Szíjj cégével",
+      "description": "A közlekedési miniszter utánanéz, mit tehet a szerződéssel, ami összesen 200 milliárdos többletterhet jelent az államnak.",
+      "link": "https://hvg.hu/gazdasag/20260717_vitezy-david-meszaros-lorinc-szijj-laszlo-autopalya",
+      "date": "2026-07-17",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_3a53384b",
+      "title": "Eurosport: Deutsch Tamás öccsének cége 10 százalékos tulajdonrésszel a nyereség 99 százalékát kapta",
+      "description": "Négy év alatt közel 1,7 milliárd forint osztalékhoz jutott Deutsch Péter cége.",
+      "link": "https://hvg.hu/gazdasag/20260717_deutsch-peter-ceg-10-szazalek-tulajdon-99-szazalek-nyereseg",
+      "date": "2026-07-17",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1700000000,
+      "tags": [
+        "EU",
+        "sport"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_5fd5c3",
+          "name": "Deutsch Tamás",
+          "position": "EP-képviselő, Fidesz"
+        },
+        {
+          "id": "p_139328",
+          "name": "Deutsch Péter",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_62e76b2e",
+      "title": "Leállt az Ellenpont hírportál, ami luxizással vádolta Forsthoffer Ágnest, aztán kiderült, hogy a luxi ház Mészáros Lőrinc öccséé",
+      "description": "Június közepe óta nincs új cikk.",
+      "link": "https://444.hu/2026/07/17/leallt-az-ellenpont-hirportal-ami-luxizassal-vadolta-forsthoffer-agnest-aztan-kiderult-hogy-a-luxi-haz-meszaros-lorincs-occsee?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_854952",
+          "name": "Forsthoffer Ágnest",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d5c1a4d3",
+      "title": "Első fokon 100 millió forintra büntette a bíróság a Mediaworksöt egy szivárványcsaládot lejárató kampány miatt",
+      "description": "A fideszes bulvárlapok többek között emberkereskedelemmel vádolták a meleg házaspárt.",
+      "link": "https://444.hu/2026/07/17/elso-fokon-100-millio-forintra-buntette-a-birosag-a-mediaworksot-egy-szivarvanycsaladot-lejarato-kampany-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-17",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_9e661772",
+      "title": "Borízű hang #279 [hossz]: Venne ön új autót ettől a használt embertől?",
+      "description": "Rendszerváltás helyett: drogos ország közmédiázik, és milliárdokat fizet az NB 1-es közvetítésekért. OJD, a rendszer egyik csúcsteljesítménye. Hova tűnt Semjén Zsolt? A tinik között is hódít az autós üldözés. Az átigazolási szezon sztárja.",
+      "link": "https://444.hu/2026/07/18/borizu-hang-279-hossz-venne-on-uj-autot-ettol-a-hasznalt-embertol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-18",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_877041",
+          "name": "Semjén Zsolt",
+          "position": "miniszterelnök-helyettes, KDNP elnök"
+        }
+      ]
+    },
+    {
+      "id": "sc_579af416",
+      "title": "Közleményt adott ki a Tiborcz-közeli cég, miután a kormány vizsgálatot indított a Papp László Sportaréna szerződését illetően",
+      "description": "Állításuk szerint a sportcsarnok üzemeltetésére vonatkozó megbízást „egy minden tekintetben szabályos, transzparens és nyílt eljárás során nyerték el”.",
+      "link": "https://hvg.hu/gazdasag/20260717_papp-laszlo-budapest-sportarena-sportert-felelos-allamtitkarsag-kozlemeny-rampart",
+      "date": "2026-07-17",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "sport"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_10102e",
+          "name": "Papp László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_19a92ffb",
+      "title": "Bő másfél milliárdnyi kampányköltést vallott be a Fidesz–KDNP",
+      "description": "Ebből egymilliárd volt állami támogatás, 666 millió pedig választási célra kapott adomány.",
+      "link": "https://telex.hu/belfold/2026/07/18/bo-masfel-milliardnyi-kampanykoltest-vallott-be-a-fidesz-kdnp",
+      "date": "2026-07-18",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 666000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_ae109c63",
       "title": "Kóbor állatok hancúroznak a porlepte műtárgyak között – ilyen körülmények között várja a szebb időket a Közlekedési Múzeum gyűjteménye az Északi Járműjavítóban",
       "description": "Elképesztő állapotok, súlyos állományvédelmi hiányosságok az Északi Járműjavítóban, ahol a kormány százmilliárdos projektet tervez a fideszes főigazgató által vezetett Közlekedési Múzeumnak.",
@@ -6168,23 +6346,53 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_c7f9a1",
+      "to": "p_94af7a",
+      "type": "political_ally",
+      "cases": [
+        "sc_85fa9592"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_5fd5c3",
+      "to": "p_139328",
+      "type": "political_ally",
+      "cases": [
+        "sc_3a53384b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_854952",
+      "type": "political_ally",
+      "cases": [
+        "sc_62e76b2e"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-17T09:55:25.055292+00:00",
+    "last_updated": "2026-07-18T09:23:55.824191+00:00",
     "version": "3.0.0",
-    "total_cases": 144,
+    "total_cases": 151,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23102355000000,
+    "total_involved_amount_huf": 23304821000000,
     "status_breakdown": {
-      "active": 121,
+      "active": 128,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 26,
-      "pénzügyi": 104,
+      "pénzügyi": 111,
       "közbeszerzés": 14
     },
     "sources": [
@@ -6197,16 +6405,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Borsod-Abaúj-Zemplén",
+      "Győr-Moson-Sopron",
+      "Országos",
+      "Csongrád-Csanád",
       "Budapest",
       "Pest",
-      "Országos",
-      "Somogy",
-      "Tolna",
       "Baranya",
-      "Csongrád-Csanád",
+      "Tolna",
       "Fejér",
-      "Borsod-Abaúj-Zemplén",
-      "Győr-Moson-Sopron"
+      "Somogy"
     ]
   }
 }
