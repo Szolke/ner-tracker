@@ -1,6 +1,104 @@
 {
   "cases": [
     {
+      "id": "sc_68c01277",
+      "title": "A Sulyok Tamás melletti tüntetésen bukkant fel a békéscsabai „civil” képviselőjelölt",
+      "description": "Időközi önkormányzati választást tartanak Békéscsaba egyik belvárosi körzetében július 26-án. Az önkormányzati képviselő, Bodóczi István tavasszal fölényes győzelmet aratott a Fidesz jelöltje felett, és lemondott közgyűlési mandátumáról. A Tisza hivatalosan nem állít jelöltet, de van támogatottjuk; a Fidesz sem indít jelöltet, viszont minden bizonnyal a polgármestert adó Hajrá Békéscsaba Egyesület",
+      "link": "https://magyarnarancs.hu/kismagyarorszag/a-sulyok-tamas-melletti-tuntetesen-bukkant-fel-a-bekescsabai-civil-kepviselojelolt-279740",
+      "date": "2026-07-19",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "önkormányzat"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_bb913f",
+          "name": "Sulyok Tamás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_aa92e5",
+          "name": "Bodóczi István",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_4264d1",
+          "name": "Hajrá Békéscsaba",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_f24fc1",
+          "name": "Duna Párt",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b3aa5ada",
+      "title": "Palkovics László barátja és bizalmasa milliárdokkal gyarapodott, miközben az állam rászokott az általa készített szoftverekre",
+      "description": "Fauszt Zoltán cégei gyakran verseny nélküli közbeszerzéseken nyertek milliárdos állami megbízásokat. A Tisza-kormány feljelentést tesz. Fauszt tulajdonosként 3,75 milliárd forintnyi osztalékot vett ki az állammal üzletelő cégeket birtokló Nexius Zrt.-ből.",
+      "link": "https://444.hu/2026/07/19/palkovics-laszlo-baratja-es-bizalmasa-milliardokkal-gyarapodott-mikozben-az-allam-raszokott-az-altala-keszitett-szoftverekre?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-19",
+      "source": "444",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3750000000,
+      "tags": [
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs és felsőoktatási miniszter"
+        },
+        {
+          "id": "p_f6a467",
+          "name": "Fauszt Zoltán",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_df4eeb5f",
+      "title": "Az Orbán-kormány 110 milliárd forinttal sunnyogott be egy német tank fejlesztésébe",
+      "description": "Bár itthon nem verték nagydobra, Magyarország 110 milliárd forint támogatást adott a Rheinmetallnak a Panther harckocsi kifejlesztésére. Ezért cserébe úgy tűnik csak néhány kedvezmény jár a magyar félnek.",
+      "link": "https://hvg.hu/gazdasag/20260719_rheinmetall-kutatas-fejlesztes-panther-tamogatas",
+      "date": "2026-07-19",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 110000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_85fa9592",
       "title": "Vitézy Dávid: Lázár János háromszoros áron kötött szerződést Mészáros és Szíjj cégével",
       "description": "A közlekedési miniszter utánanéz, mit tehet a szerződéssel, ami összesen 200 milliárdos többletterhet jelent az államnak.",
@@ -6376,45 +6474,116 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_aa92e5",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_4264d1",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb913f",
+      "to": "p_f24fc1",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_aa92e5",
+      "to": "p_4264d1",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_aa92e5",
+      "to": "p_f24fc1",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_4264d1",
+      "to": "p_f24fc1",
+      "type": "business_connection",
+      "cases": [
+        "sc_68c01277"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_7d4151",
+      "to": "p_f6a467",
+      "type": "political_ally",
+      "cases": [
+        "sc_b3aa5ada"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-18T09:23:55.824191+00:00",
+    "last_updated": "2026-07-19T09:51:47.366567+00:00",
     "version": "3.0.0",
-    "total_cases": 151,
+    "total_cases": 154,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23304821000000,
+    "total_involved_amount_huf": 23418571000000,
     "status_breakdown": {
-      "active": 128,
+      "active": 131,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 26,
-      "pénzügyi": 111,
-      "közbeszerzés": 14
+      "pénzügyi": 113,
+      "közbeszerzés": 15
     },
     "sources": [
       "444",
       "Direkt36",
       "HVG",
       "HVG Gazdaság",
+      "Magyar Narancs",
       "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
-      "Borsod-Abaúj-Zemplén",
-      "Győr-Moson-Sopron",
-      "Országos",
-      "Csongrád-Csanád",
-      "Budapest",
-      "Pest",
-      "Baranya",
-      "Tolna",
       "Fejér",
-      "Somogy"
+      "Baranya",
+      "Csongrád-Csanád",
+      "Pest",
+      "Országos",
+      "Győr-Moson-Sopron",
+      "Budapest",
+      "Somogy",
+      "Borsod-Abaúj-Zemplén",
+      "Tolna"
     ]
   }
 }

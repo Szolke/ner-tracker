@@ -455,5 +455,22 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-19T09:51:47.373365+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Nexius Zrt",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
