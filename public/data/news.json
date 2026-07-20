@@ -1,12 +1,67 @@
 {
   "cases": [
     {
-      "id": "sc_68c01277",
-      "title": "A Sulyok Tamás melletti tüntetésen bukkant fel a békéscsabai „civil” képviselőjelölt",
-      "description": "Időközi önkormányzati választást tartanak Békéscsaba egyik belvárosi körzetében július 26-án. Az önkormányzati képviselő, Bodóczi István tavasszal fölényes győzelmet aratott a Fidesz jelöltje felett, és lemondott közgyűlési mandátumáról. A Tisza hivatalosan nem állít jelöltet, de van támogatottjuk; a Fidesz sem indít jelöltet, viszont minden bizonnyal a polgármestert adó Hajrá Békéscsaba Egyesület",
-      "link": "https://magyarnarancs.hu/kismagyarorszag/a-sulyok-tamas-melletti-tuntetesen-bukkant-fel-a-bekescsabai-civil-kepviselojelolt-279740",
-      "date": "2026-07-19",
-      "source": "Magyar Narancs",
+      "id": "sc_d531ad22",
+      "title": "Kötelező szenzorok nélkül, kézifékhibával közlekedik több tucat új Credo busz",
+      "description": "A MÁV szerint a \"szoftveres anomália\" ellenére a buszok (Credobus Econell 12 Next) biztonságosan üzemeltethetők.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/20/kotelezo-szenzorok-nelkul-kezifekhibaval-kozlekedik-tobb-tucat-uj-credo-busz/",
+      "date": "2026-07-20",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1c2c5d",
+          "name": "Credobus Econell",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c9ce3124",
+      "title": "Félbehagyott Puskás-sorozatot, utólag lepapírozott támogatásokat és egy nap alatt kiszórt 6,2 milliárdot találtunk a Szerencsejátéktól kikért dokumentumok között",
+      "description": "Közérdekű adatigényléssel kértük ki a Szerencsejáték Service Kft. támogatási és szponzorációs szerződéseit, hogy megtudjuk, mire adtak évente jelentős közpénzt.",
+      "link": "https://444.hu/2026/07/20/felbehagyott-puskas-sorozatot-utolag-lepapirozott-tamogatasokat-es-egy-nap-alatt-kiszort-62-milliardot-talaltunk-a-szerencsejatektol-kikert-dokumentumok-kozott?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-20",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 6200000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_27b09a",
+          "name": "Félbehagyott Puskás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3534ef",
+          "name": "Szerencsejáték Service",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_74ef50b1",
+      "title": "Vitézy: Közpénz költése nélkül három nap alatt százezren kitöltötték a közlekedésbiztonsági konzultációt",
+      "description": "A tárcavezető bejegyzésében odaszúrt a nemzeti konzultációkra milliárdokat kiszóró Orbán-kormánynak.",
+      "link": "https://hvg.hu/itthon/20260720_vitezy-david-kozlekedesbiztonsagi-kerdoiv-kiltoltok",
+      "date": "2026-07-20",
+      "source": "HVG",
       "category": "pénzügyi",
       "status": "active",
       "region": "Budapest",
@@ -16,27 +71,32 @@
       ],
       "amount_huf": null,
       "tags": [
-        "önkormányzat"
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_a50c1295",
+      "title": "Győr alkotmányjogi panaszt nyújt be a szolidaritási hozzájárulás miatt, 13,1 milliárd forint a tét",
+      "description": "A polgármester előterjesztését egyhangúlag támogatta a testület, Pintér Bence szerint ha a kivetett szolidaritási hozzájárulás egészét be kell fizetni, akkor a város „feléli a tartalékainkat, jövőre pedig nincs tovább”.",
+      "link": "https://telex.hu/belfold/2026/07/20/gyor-szolidaritasi-hozzajarulas-pinter-bence-alkotmanyjogi-panasz-rendkivuli-kozgyules",
+      "date": "2026-07-20",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Győr-Moson-Sopron",
+      "coordinates": [
+        47.6829,
+        17.6271
+      ],
+      "amount_huf": 13100000000,
+      "tags": [
+        "IT"
       ],
       "involved_persons": [
         {
-          "id": "p_bb913f",
-          "name": "Sulyok Tamás",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_aa92e5",
-          "name": "Bodóczi István",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_4264d1",
-          "name": "Hajrá Békéscsaba",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_f24fc1",
-          "name": "Duna Párt",
+          "id": "p_c17d81",
+          "name": "Pintér Bence",
           "position": "ismeretlen"
         }
       ]
@@ -6544,23 +6604,33 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_27b09a",
+      "to": "p_3534ef",
+      "type": "business_connection",
+      "cases": [
+        "sc_c9ce3124"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-19T09:51:47.366567+00:00",
+    "last_updated": "2026-07-20T10:50:21.798615+00:00",
     "version": "3.0.0",
-    "total_cases": 154,
+    "total_cases": 157,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23418571000000,
+    "total_involved_amount_huf": 23437871000000,
     "status_breakdown": {
-      "active": 131,
+      "active": 134,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 26,
-      "pénzügyi": 113,
+      "pénzügyi": 116,
       "közbeszerzés": 15
     },
     "sources": [
@@ -6568,22 +6638,21 @@
       "Direkt36",
       "HVG",
       "HVG Gazdaság",
-      "Magyar Narancs",
       "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
-      "Baranya",
-      "Csongrád-Csanád",
       "Pest",
+      "Csongrád-Csanád",
       "Országos",
-      "Győr-Moson-Sopron",
+      "Fejér",
+      "Borsod-Abaúj-Zemplén",
+      "Baranya",
       "Budapest",
       "Somogy",
-      "Borsod-Abaúj-Zemplén",
-      "Tolna"
+      "Tolna",
+      "Győr-Moson-Sopron"
     ]
   }
 }

@@ -31,5 +31,16 @@
         "reason": "no_secondary_match"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-20T10:50:21.792970+00:00",
+    "entries": [
+      {
+        "id": "sc_68c01277",
+        "title": "A Sulyok Tamás melletti tüntetésen bukkant fel a békéscsabai „civil” képviselőjelölt",
+        "action": "removed",
+        "reason": "no_secondary_match"
+      }
+    ]
   }
 ]
