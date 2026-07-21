@@ -481,5 +481,14 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-21T10:24:26.701160+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]

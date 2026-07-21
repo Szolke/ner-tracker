@@ -1,6 +1,139 @@
 {
   "cases": [
     {
+      "id": "sc_0b55fa02",
+      "title": "Nyomozást indított a rendőrség a nagy Tiborcz-trükk miatt Hadházy feljelentése nyomán",
+      "description": "Orbán Viktor veje hatszoros áron adta el egy cégét egy tőzsdén forgó cégének, amiből aztán szintén szembeötlően jó áron szállt ki.",
+      "link": "https://444.hu/2026/07/21/nyomozast-inditott-a-rendorseg-a-nagy-tiborcz-trukk-miatt-hadhazy-feljelentese-nyoman?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-21",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ]
+    },
+    {
+      "id": "sc_597df10f",
+      "title": "Nyomozás indult Tiborcz Istvánhoz köthető cégek manőverei után",
+      "description": "Hadházy Ákos tett feljelentést az Alteo tavalyi akvizíciója nyomán, miután a tőzsdei cég kisbefektetői nagyot buktak egy veszteséges cég felvásárlásán.",
+      "link": "https://hvg.hu/kkv/20260721_tiborcz-istvan-alteo-eltex-nyomozas-feljelentes-hutlen-kezeles-vallalkozas-kkv",
+      "date": "2026-07-21",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_07163e",
+          "name": "Tiborcz Istvánhoz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_068668",
+          "name": "Hadházy Ákos",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_04433a93",
+      "title": "Vitézy Dávid megmutatta a Lázárinfók közvetítőkocsijának használt, állami kisbuszt",
+      "description": "A miniszter közösségi oldalán osztotta meg annak a kisbusznak a fotóját, amit Lázár János minisztersége idején a kampányeseménynek számító Lázárinfóhoz használhattak közvetítőkocsiként. Informálják a hatóságokat, de belső vizsgálat is indult.",
+      "link": "https://hvg.hu/itthon/20260721_vitezy-david-kozzetette-a-lazarinfon-hasznalt-allami-kisbuszrol-keszult-fotot",
+      "date": "2026-07-21",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_5aa2b21c",
+      "title": "Hadházy: Nyomozás indult a Tiborcz-féle Éltex felvásárlása miatt",
+      "description": "Tiborczék köre 18 milliárdért adta el az Éltexet az Alteo nevű cégnek, csak aztán kiderült, hogy nem biztos, hogy annyit is ér.",
+      "link": "https://telex.hu/gazdasag/2026/07/21/hadhazy-akos-alteo-ugy-nyomozas-rendorseg-tiborcz-istvan",
+      "date": "2026-07-21",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 18000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_dce3c43e",
+      "title": "Áll a bál az Operettszínházban, a társulat nyílt levele szerint elvesztették bizalmukat a vezetőségben",
+      "description": "Alacsony anyagi megbecsültségről és a csökkenő szakmai lehetőségekről írnak, az Orbán János Dénessel kapcsolatos feljelentés és vizsgálat szerintük a korábban is jelzett aggályaikat igazolja.",
+      "link": "https://telex.hu/karakter/kultura/2026/07/21/budapesti-operettszinhaz-nyilt-level-tiltakozas-elhatarolodas-orban-janos-denes",
+      "date": "2026-07-21",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_f7e873",
+          "name": "Orbán János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_d531ad22",
       "title": "Kötelező szenzorok nélkül, kézifékhibával közlekedik több tucat új Credo busz",
       "description": "A MÁV szerint a \"szoftveres anomália\" ellenére a buszok (Credobus Econell 12 Next) biztonságosan üzemeltethetők.",
@@ -6614,23 +6747,53 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_07163e",
+      "type": "business_connection",
+      "cases": [
+        "sc_597df10f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_068668",
+      "type": "business_connection",
+      "cases": [
+        "sc_597df10f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_07163e",
+      "to": "p_068668",
+      "type": "business_connection",
+      "cases": [
+        "sc_597df10f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-20T10:50:21.798615+00:00",
+    "last_updated": "2026-07-21T10:24:26.693977+00:00",
     "version": "3.0.0",
-    "total_cases": 157,
+    "total_cases": 162,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23437871000000,
+    "total_involved_amount_huf": 23455871000000,
     "status_breakdown": {
-      "active": 134,
+      "active": 139,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 26,
-      "pénzügyi": 116,
+      "pénzügyi": 121,
       "közbeszerzés": 15
     },
     "sources": [
@@ -6643,16 +6806,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Pest",
-      "Csongrád-Csanád",
-      "Országos",
       "Fejér",
       "Borsod-Abaúj-Zemplén",
-      "Baranya",
+      "Győr-Moson-Sopron",
+      "Pest",
       "Budapest",
       "Somogy",
+      "Országos",
+      "Baranya",
       "Tolna",
-      "Győr-Moson-Sopron"
+      "Csongrád-Csanád"
     ]
   }
 }
