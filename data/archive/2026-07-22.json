@@ -1,82 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_5bcb7af7",
-      "title": "Újraindult a nyomozás a fideszes Simon Miklós ügyében",
-      "description": "Egy fiktív szerződés miatt többeket elítéltek, Simont eddig a mentelmi joga védte.",
-      "link": "https://444.hu/2026/07/21/ujraindult-a-nyomozas-a-fideszes-simon-miklos-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-21",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_19214e",
-          "name": "Simon Miklós",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_fd7ce6e9",
-      "title": "Zaklatók terrorizálása",
-      "description": "Orbán ellenállási nyilatkozata, a Fidesz lefoglalt szerverei, feljelentések és nyomozások meg a vébé álom- és rémálomválogatottja a 444 reggeli hírlevelében.",
-      "link": "https://444.hu/2026/07/22/zaklatok-terrorizalasa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-22",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_ce3ada4c",
-      "title": "Négy cég is kihátrált a felcsúti focicsapat mögül, köztük a Szíjj László-féle Duna Aszfalt",
-      "description": "Ezzel már „csak” 29 támogatója van a klubnak, ebből 18 cég Mészáros Lőrinc érdekeltségébe tartozik.",
-      "link": "https://hvg.hu/kkv/20260722_felcsut-puskas-akademia-cegek-kihatralas-szijj-laszlo-duna-aszfalt",
-      "date": "2026-07-22",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Fejér",
-      "coordinates": [
-        47.118,
-        18.432
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_e19a09",
-          "name": "Duna Aszfalt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_0b55fa02",
       "title": "Nyomozást indított a rendőrség a nagy Tiborcz-trükk miatt Hadházy feljelentése nyomán",
       "description": "Orbán Viktor veje hatszoros áron adta el egy cégét egy tőzsdén forgó cégének, amiből aztán szintén szembeötlően jó áron szállt ki.",
@@ -6853,43 +6777,23 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_e19a09",
-      "type": "political_ally",
-      "cases": [
-        "sc_ce3ada4c"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_fbf7a2",
-      "to": "p_e19a09",
-      "type": "business_connection",
-      "cases": [
-        "sc_ce3ada4c"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-22T10:23:43.978997+00:00",
+    "last_updated": "2026-07-21T10:24:26.693977+00:00",
     "version": "3.0.0",
-    "total_cases": 165,
+    "total_cases": 162,
     "total_investigations": 4,
     "total_involved_amount_huf": 23455871000000,
     "status_breakdown": {
-      "active": 142,
+      "active": 139,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 26,
-      "pénzügyi": 124,
+      "pénzügyi": 121,
       "közbeszerzés": 15
     },
     "sources": [
@@ -6902,15 +6806,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Tolna",
-      "Győr-Moson-Sopron",
       "Fejér",
+      "Borsod-Abaúj-Zemplén",
+      "Győr-Moson-Sopron",
+      "Pest",
+      "Budapest",
       "Somogy",
       "Országos",
-      "Borsod-Abaúj-Zemplén",
       "Baranya",
-      "Budapest",
-      "Pest",
+      "Tolna",
       "Csongrád-Csanád"
     ]
   }
