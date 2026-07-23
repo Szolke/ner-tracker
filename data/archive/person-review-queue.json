@@ -499,5 +499,26 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-23T10:21:32.591378+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar György",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Állami Számvevőszék",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Állami Számvevőszék",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
