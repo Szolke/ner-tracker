@@ -1,6 +1,282 @@
 {
   "cases": [
     {
+      "id": "sc_0f3d7674",
+      "title": "Csak Felcsúton keresztül több mint 3 milliárd forint folyt tavaly az erdélyi fociakadémiákhoz",
+      "description": "A Sepsi OSK tulajdonosa szerint idén azonban még a kapcsolatot sem vették velük.",
+      "link": "https://hvg.hu/gazdasag/20260723_sepsi-osk-fk-csikszereda-magyar-allam-tamogatas-kozpenz-tao-felcsut",
+      "date": "2026-07-23",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Fejér",
+      "coordinates": [
+        47.118,
+        18.432
+      ],
+      "amount_huf": 3000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_40c5c3",
+          "name": "Csak Felcsúton",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d20587f1",
+      "title": "Magyar Péter: A kormány négy ügy miatt tett feljelentést, összesen 1000 milliárd forint érintett",
+      "description": "Tiborcz Istvánhoz kötődő Sofitel-felújítás, Szíjj László afrikai kalandja, bedőlt orosz–magyar vasúti projekt és Észak-Macedóniának nyújtott hitel – Magyar Péter ismertette az ügyeket, amelyekben a Gazdasági és Energetikai Minisztérium tett feljelentést.",
+      "link": "https://hvg.hu/gazdasag/20260723_magyar-peter-gazdasagi-es-energetikai-miniszterium-eximbank-feljelentes",
+      "date": "2026-07-23",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1000000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_07163e",
+          "name": "Tiborcz Istvánhoz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fbf7a2",
+          "name": "Szíjj László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_270f3f77",
+      "title": "Penetráns kampányok, őszinte milliárdosok",
+      "description": "Görnyedt mosómedvék, faszorrú Andrások, vezetőszárra készülő fideszesek, közpénzek Pócs farmján és a Legfőbb Ügyészség felelőssége a 444 napindító hírlevelében.",
+      "link": "https://444.hu/2026/07/24/penetrans-kampanyok-oszinte-milliardosok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-24",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_cc5ba1a4",
+      "title": "24.hu: Hankó Balázs a Fidesz választási veresége után is milliárdokat osztott ki kormányközeli szervezeteknek",
+      "description": "A leköszönő kulturális miniszter több mint hárommilliárd forint támogatásról döntött a választás körüli hetekben, az új kormány azonnali vizsgálatot indított a kifizetések jogszerűsége és célszerűsége miatt.",
+      "link": "https://444.hu/2026/07/24/24hu-hanko-balazs-a-fidesz-valasztasi-veresege-utan-is-milliardokat-osztott-ki-kormanykozeli-szervezeteknek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-24",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_48dec4",
+          "name": "Hankó Balázs",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a552980b",
+      "title": "A Fidesz választási vereségét követő napokban is milliárdokat osztott ki Hankó Balázs minisztériuma",
+      "description": "Repkedtek a százmillliók, jutott belőle a lakiteleki Népfőiskola Alapítványnak, a Kurultajnak, de a választás előtt 3 nappal a Dankó Pista nagyoperettnek is.",
+      "link": "https://hvg.hu/itthon/20260724_fidesz-hanko-balazs-miniszterium-tamogatas-valasztas",
+      "date": "2026-07-24",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_48dec4",
+          "name": "Hankó Balázs",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_1d9a22",
+          "name": "Népfőiskola Alapítványnak",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_d5e6c3",
+          "name": "Dankó Pista",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8bd06de3",
+      "title": "„Sorra buknak ki ügyek, de az államtitkárság nem nyomozati hatóság” – interjú Kálnoki-Kiss Attila sportállamtitkárral",
+      "description": "„Pillanatnyilag úgy érzem magam, mintha egy közel-keleti fúrótoronyparkban dolgoznék, ahol egyszerre nyolcszáz területen fúrunk lefelé, és hol ezt, hol azt találunk” – mondja Kálnoki-Kiss Attila sportállamtitkár, aki szerint „tizenhat évet nem lehet egyik pillanatról a másikra eltörölni”. A HVG-nek beszélt a tao-rendszer felülvizsgálatáról, a Fradihoz kapcsolódó ügyekről és a hazai sportrendezvény",
+      "link": "https://hvg.hu/360/20260724_kalnoki-kiss-attila-sportallamtitkar-magyar-sport-felulvizsgalat-foci-forma1-versenyrendezes",
+      "date": "2026-07-24",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "sport",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_4c3cd5",
+          "name": "Kiss Attila",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_baa04f31",
+      "title": "Volt fővárosi főügyész: Egy esetleges Fidesz-győzelem esetére be voltak tárazva ügyek, Magyar Péterrel szemben is",
+      "description": "Ihász Sándor látványpékségnek nevezte az ügyészséget.",
+      "link": "https://hvg.hu/itthon/20260724_ihasz-sandorvolt-fovarosi-fougyesz-interju-ugyeszeg",
+      "date": "2026-07-24",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_fbe766",
+          "name": "Ihász Sándor",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6c482546",
+      "title": "Radnai Márk: A Fidesz első sora a vádlottak padjára kerülhet",
+      "description": "A Tisza Párt alelnöke szerint csak azok kerülhetik el a felelősségre vonást, akik nem érintettek. És ez szerinte nem csak a fideszesekre vonatkozik.",
+      "link": "https://telex.hu/belfold/2026/07/24/radnai-mark-a-fidesz-elso-sora-a-vadlottak-padjara-kerulhet",
+      "date": "2026-07-24",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_701d96",
+          "name": "Radnai Márk",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0ff72e",
+          "name": "Tisza Párt",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_298ebdd4",
+      "title": "Németh Zsolt szerint nem igaz, hogy a Fidesz bárkit is kirekesztett volna a nemzetből",
+      "description": "Tusványoson szólította fel a fideszes képviselő a Tiszát, hogy fejezzék be a vádaskodást, de az sem tetszik neki, hogy Magyar Péterék Fidesz-maffiáról beszélnek.",
+      "link": "https://telex.hu/belfold/2026/07/24/tusvanyos-2026-semjen-zsolt-nemeth-zsolt-nemzetpolitika",
+      "date": "2026-07-24",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c62c02",
+          "name": "Németh Zsolt",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_fd4da8ac",
+      "title": "Fidesz: Magyar Péter már nem is titkolja, hogy átvette a nyomozó hatóság és az ügyészség irányítását",
+      "description": "Miután Magyar Péter Hankó Balázs felelősségéről posztolt.",
+      "link": "https://telex.hu/belfold/2026/07/24/fidesz-reakcio-magyar-peter-nyomozo-hatosag-ugyeszseg",
+      "date": "2026-07-24",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_d724a4",
+          "name": "Miután Magyar",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_7d5e58",
+          "name": "Péter Hankó",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_397ec06d",
       "title": "„Az az én biciklim is”",
       "description": "\"Sajátos, független státuszom volt, Fidesz-tag sem voltam\" - mondja riportunkban a politikus, aki 1994-től egészen az idei választásig volt országgyűlési képviselő. Felkerestük az egykori rendszervátó lakiteleki Hungarikum Ligetét, ami kapott a leköszönő kormánytól 4,8 milliárd forint támogatást.",
@@ -7266,23 +7542,93 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_fbf7a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_d20587f1"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_07163e",
+      "to": "p_fbf7a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_d20587f1"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_48dec4",
+      "to": "p_1d9a22",
+      "type": "business_connection",
+      "cases": [
+        "sc_a552980b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_48dec4",
+      "to": "p_d5e6c3",
+      "type": "business_connection",
+      "cases": [
+        "sc_a552980b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1d9a22",
+      "to": "p_d5e6c3",
+      "type": "business_connection",
+      "cases": [
+        "sc_a552980b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_701d96",
+      "to": "p_0ff72e",
+      "type": "business_connection",
+      "cases": [
+        "sc_6c482546"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_d724a4",
+      "to": "p_7d5e58",
+      "type": "business_connection",
+      "cases": [
+        "sc_fd4da8ac"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-23T10:21:32.583580+00:00",
+    "last_updated": "2026-07-24T10:15:00.718361+00:00",
     "version": "3.0.0",
-    "total_cases": 173,
+    "total_cases": 183,
     "total_investigations": 4,
-    "total_involved_amount_huf": 27011121000000,
+    "total_involved_amount_huf": 28014121000000,
     "status_breakdown": {
-      "active": 150,
+      "active": 160,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 29,
-      "pénzügyi": 129,
+      "pénzügyi": 139,
       "közbeszerzés": 15
     },
     "sources": [
@@ -7296,15 +7642,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Baranya",
+      "Pest",
+      "Budapest",
       "Győr-Moson-Sopron",
       "Borsod-Abaúj-Zemplén",
-      "Budapest",
-      "Csongrád-Csanád",
       "Fejér",
       "Somogy",
       "Tolna",
-      "Baranya",
-      "Pest",
+      "Csongrád-Csanád",
       "Országos"
     ]
   }

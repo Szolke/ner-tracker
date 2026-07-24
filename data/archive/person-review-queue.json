@@ -520,5 +520,46 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-24T10:15:00.726495+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péterék",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péterrel",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Legfőbb Ügyészség",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Földje Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Energetikai Minisztérium",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Állami Számvevőszék",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
