@@ -1,39 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_f036d62c",
-      "title": "Euronews: Magyar Péter Tisztítótüze miatt lázong az európai szélsőjobb",
-      "description": "Orbán Viktor európai szövetségesei a magyar demokráciát féltik az Orbán-korszak tisztségviselőinek eltávolításától és a Fideszt érintő korrupciós vizsgálatoktól. Az Európai Bizottság ugyanakkor egyelőre nem osztja az aggodalmaikat, és kedvezően értékeli az új kormány jogállamisági reformjait.",
-      "link": "https://hvg.hu/360/20260725_euronews-magyar-peter-tisztitotuze-miatt-lazong-az-europai-szelsojobb",
-      "date": "2026-07-25",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_e38dc3",
-          "name": "Az Európai",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_0f3d7674",
       "title": "Csak Felcsúton keresztül több mint 3 milliárd forint folyt tavaly az erdélyi fociakadémiákhoz",
       "description": "A Sepsi OSK tulajdonosa szerint idén azonban még a kapcsolatot sem vették velük.",
@@ -7645,32 +7612,22 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_e38dc3",
-      "type": "political_ally",
-      "cases": [
-        "sc_f036d62c"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-25T09:45:01.123331+00:00",
+    "last_updated": "2026-07-24T10:15:00.718361+00:00",
     "version": "3.0.0",
-    "total_cases": 184,
+    "total_cases": 183,
     "total_investigations": 4,
     "total_involved_amount_huf": 28014121000000,
     "status_breakdown": {
-      "active": 161,
+      "active": 160,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 30,
+      "korrupció": 29,
       "pénzügyi": 139,
       "közbeszerzés": 15
     },
@@ -7685,16 +7642,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Fejér",
-      "Győr-Moson-Sopron",
-      "Országos",
-      "Pest",
-      "Borsod-Abaúj-Zemplén",
       "Baranya",
+      "Pest",
+      "Budapest",
+      "Győr-Moson-Sopron",
+      "Borsod-Abaúj-Zemplén",
+      "Fejér",
+      "Somogy",
       "Tolna",
       "Csongrád-Csanád",
-      "Somogy"
+      "Országos"
     ]
   }
 }

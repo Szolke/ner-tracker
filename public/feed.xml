@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Fri, 24 Jul 2026 10:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 09:45:01 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Euronews: Magyar Péter Tisztítótüze miatt lázong az európai szélsőjobb]]></title>
+    <link>https://hvg.hu/360/20260725_euronews-magyar-peter-tisztitotuze-miatt-lazong-az-europai-szelsojobb</link>
+    <guid>sc_f036d62c</guid>
+    <pubDate>2026-07-25</pubDate>
+    <description><![CDATA[Orbán Viktor európai szövetségesei a magyar demokráciát féltik az Orbán-korszak tisztségviselőinek eltávolításától és a Fideszt érintő korrupciós vizsgálatoktól. Az Európai Bizottság ugyanakkor egyelő | Budapest | Összeg ismeretlen | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
   <item>
     <title><![CDATA[Csak Felcsúton keresztül több mint 3 milliárd forint folyt tavaly az erdélyi fociakadémiákhoz]]></title>
     <link>https://hvg.hu/gazdasag/20260723_sepsi-osk-fk-csikszereda-magyar-allam-tamogatas-kozpenz-tao-felcsut</link>
@@ -157,14 +165,6 @@
     <guid>sc_5bcb7af7</guid>
     <pubDate>2026-07-21</pubDate>
     <description><![CDATA[Egy fiktív szerződés miatt többeket elítéltek, Simont eddig a mentelmi joga védte. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Zaklatók terrorizálása]]></title>
-    <link>https://444.hu/2026/07/22/zaklatok-terrorizalasa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_fd7ce6e9</guid>
-    <pubDate>2026-07-22</pubDate>
-    <description><![CDATA[Orbán ellenállási nyilatkozata, a Fidesz lefoglalt szerverei, feljelentések és nyomozások meg a vébé álom- és rémálomválogatottja a 444 reggeli hírlevelében. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
