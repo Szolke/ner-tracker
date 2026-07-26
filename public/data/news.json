@@ -1,6 +1,26 @@
 {
   "cases": [
     {
+      "id": "sc_3be119b6",
+      "title": "Orbánéktól érkező milliárdokból építették fel, RMDSZ-es politikusé lehet az erdélyi média",
+      "description": "A Magyar Hang értesülései szerint a Tisza-kormány szakminisztériuma is felfigyelt az ügyletre.",
+      "link": "https://hvg.hu/vilag/20260725_erdelyi-media-rmdsz-politikus",
+      "date": "2026-07-25",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_f036d62c",
       "title": "Euronews: Magyar Péter Tisztítótüze miatt lázong az európai szélsőjobb",
       "description": "Orbán Viktor európai szövetségesei a magyar demokráciát féltik az Orbán-korszak tisztségviselőinek eltávolításától és a Fideszt érintő korrupciós vizsgálatoktól. Az Európai Bizottság ugyanakkor egyelőre nem osztja az aggodalmaikat, és kedvezően értékeli az új kormány jogállamisági reformjait.",
@@ -7658,20 +7678,20 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-25T09:45:01.123331+00:00",
+    "last_updated": "2026-07-26T09:57:47.548323+00:00",
     "version": "3.0.0",
-    "total_cases": 184,
+    "total_cases": 185,
     "total_investigations": 4,
     "total_involved_amount_huf": 28014121000000,
     "status_breakdown": {
-      "active": 161,
+      "active": 162,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 30,
-      "pénzügyi": 139,
+      "pénzügyi": 140,
       "közbeszerzés": 15
     },
     "sources": [
@@ -7685,16 +7705,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Fejér",
-      "Győr-Moson-Sopron",
-      "Országos",
-      "Pest",
-      "Borsod-Abaúj-Zemplén",
-      "Baranya",
-      "Tolna",
       "Csongrád-Csanád",
-      "Somogy"
+      "Fejér",
+      "Baranya",
+      "Somogy",
+      "Budapest",
+      "Borsod-Abaúj-Zemplén",
+      "Pest",
+      "Győr-Moson-Sopron",
+      "Tolna",
+      "Országos"
     ]
   }
 }
