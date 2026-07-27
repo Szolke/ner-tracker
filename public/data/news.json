@@ -1,6 +1,229 @@
 {
   "cases": [
     {
+      "id": "sc_3877c4cb",
+      "title": "Több mint 4,3 milliárd forint közpénzt kapott nyolc év alatt a Fidesz üzeneteit közvetítő felvidéki Ma7",
+      "description": "A Ma7 szerint minden támogatással el tudnak számolni, és akkor is működni fognak, ha megszűnnek a magyarországi támogatások.",
+      "link": "https://444.hu/2026/07/26/tobb-mint-43-milliard-forint-kozpenzt-kapott-nyolc-ev-alatt-a-fidesz-uzeneteit-kozvetito-felvideki-ma7?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 4300000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_cd54682c",
+      "title": "A választás előtti két hónapban három irodaház-vásárlási szerződést is kötött Garancsiékkal az állam, összesen csaknem 120 milliárd forintért",
+      "description": "Az egyiket, egy 30 milliárdosat csak 11 nappal a választások előtt. Adatigényléssel megkaptuk a 600 milliárdos állami irodaház-vásárlások dokumentumait. A Tiborcz-féle zuglói irodaházak ügye már a 2022-es választások előtt elkezdődött, Balázs Attila 2023 húsvétjára kapott 244 milliárdos szerződést. Az állam jogászai jórészt Nagy Márton testvérének régi csapatából kerültek ki.",
+      "link": "https://444.hu/2026/07/27/a-valasztas-elotti-ket-honapban-harom-irodahaz-vasarlasi-szerzodest-is-kotott-garancsiekkal-az-allam-osszesen-csaknem-120-milliard-forintert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-27",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 120000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_e66a7e",
+          "name": "Nagy Márton",
+          "position": "gazdaságfejlesztési miniszter"
+        },
+        {
+          "id": "p_41696a",
+          "name": "Balázs Attila",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2da7e063",
+      "title": "Sem Mészáros, sem Szijj nem építhet kétszeres áron gyorsforgalmi utat Szombathely környékén",
+      "description": "Eredménytelennek nyilvánította az M86-os és M87-es gyorsforgalmi utak koncessziós pályázatát, még az olcsóbb ajánlat is 2033 milliárdba került volna az államnak 30 évre.",
+      "link": "https://hvg.hu/gazdasag/20260727_autopalya-koncesszio-m86-os-m87-es-utepites-szombathely-koszeg-meszaros-lorinc-szijj-laszlo-vitezy-david",
+      "date": "2026-07-27",
+      "source": "HVG",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2033000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_a758d3",
+          "name": "Sem Mészáros",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_7c8cb78c",
+      "title": "Még hetekkel a választás előtt is milliárdos szerződéseket kötött az állam a NER kedvenc ingatlanfejlesztőivel",
+      "description": "Az egyik irodakomplexum vevője rejtélyes okból a Szijjártó Péter vezette külügy volt.",
+      "link": "https://hvg.hu/gazdasag/20260727_ingatlan-tiborcz-istvan-garancsi-istvan-balazs-attila-kiemelt-beruhazas-allami-irodahaz-zuglo-varoskozpont-durer-park-kopaszi-gat",
+      "date": "2026-07-27",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_34b6727e",
+      "title": "Két NER-es csúcsmilliárdos versengett az 1700 milliárdos üzletért, Vitézy elveszi tőlük",
+      "description": "Kilométerenként 8,6 milliárd forintért építette volna meg Mészáros Lőrinc egy új koncesszió keretében a Vas megyei gyorsforgalmi utakat, ami a hasonló utak régiós költségének megközelítőleg a duplája.",
+      "link": "https://telex.hu/g7/kozelet/2026/07/27/m86-m87-szombathely-kormend-koszeg-meszaros-szijj-1700-milliard-vitezy",
+      "date": "2026-07-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1700000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ]
+    },
+    {
+      "id": "sc_e85e6aaf",
+      "title": "120 milliárdért kötött irodaház-vásárlási szerződést a választás előtt Garancsiékkal az állam",
+      "description": "Volt olyan, amit csak 11 nappal a választások előtt.",
+      "link": "https://telex.hu/gazdasag/2026/07/27/120-milliardert-kotott-irodahaz-vasarlasi-szerzodest-a-valasztas-elott-garancsiekkal-az-allam",
+      "date": "2026-07-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 120000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_3607ad79",
+      "title": "Tarr Zoltán első erdélyi útján Markóval fotózkodott, Kelemen Hunorral nem, és a támogatások átvilágítása volt a fő témája",
+      "description": "A Tisza-kormány minisztere akkor érkezett Erdélybe, amikor az RMDSZ vezetői Orbán Viktor tusványosi rendezvényéről siettek Fehéregyházára, és kiderült: egy RMDSZ-es szenátorhoz kerülhet a magyar közpénzmilliárdokból felépített erdélyi médiavagyon.",
+      "link": "https://telex.hu/transtelex/2026/07/27/tarr-zoltan-erdelyi-latogatas-osszefoglalo",
+      "date": "2026-07-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_84462b",
+          "name": "Tarr Zoltán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bab9bd",
+          "name": "Kelemen Hunorral",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_5d37f64f",
+      "title": "Vitézy: 240 milliárdból fejlesztik a lajosmizsei vasútvonalat",
+      "description": "A miniszter szerint ahol most óránként döcög egy dízelvonat, ott helyette 15 percenkénti elővárosi közlekedés lesz.",
+      "link": "https://telex.hu/belfold/2026/07/27/240-milliardbol-fejlesztik-a-lajosmizsei-vasutvonalat",
+      "date": "2026-07-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 240000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_8d799c1a",
+      "title": "Fact-check: Tényleg kötelező a pszichológiai vizsgálat a hatalomra készülő amerikai elnököknek, ahogy Orbán Viktor állította?",
+      "description": "Orbán Viktor azt mondta, korábban jókat nevetett azon, hogy Amerikában pszichológiai alkalmassági vizsgálatnak vetették alá a hatalomra készülő elnököket, ma viszont már nem tartja ezt olyan viccesnek. Utánajártunk, tényleg van-e ilyen kötelező pszichológiai vizsgálat az USA-ban.",
+      "link": "https://telex.hu/ellenorzo/2026/07/27/orban-viktor-donald-trump-pszichologiai-vizsgalat-amerikai-elnokok",
+      "date": "2026-07-27",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ]
+    },
+    {
       "id": "sc_3be119b6",
       "title": "Orbánéktól érkező milliárdokból építették fel, RMDSZ-es politikusé lehet az erdélyi média",
       "description": "A Magyar Hang értesülései szerint a Tisza-kormány szakminisztériuma is felfigyelt az ügyletre.",
@@ -7675,24 +7898,64 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_e66a7e",
+      "to": "p_41696a",
+      "type": "political_ally",
+      "cases": [
+        "sc_cd54682c"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_84462b",
+      "type": "political_ally",
+      "cases": [
+        "sc_3607ad79"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_bab9bd",
+      "type": "political_ally",
+      "cases": [
+        "sc_3607ad79"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_84462b",
+      "to": "p_bab9bd",
+      "type": "business_connection",
+      "cases": [
+        "sc_3607ad79"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-26T09:57:47.548323+00:00",
+    "last_updated": "2026-07-27T11:18:48.389204+00:00",
     "version": "3.0.0",
-    "total_cases": 185,
+    "total_cases": 194,
     "total_investigations": 4,
-    "total_involved_amount_huf": 28014121000000,
+    "total_involved_amount_huf": 32231421000000,
     "status_breakdown": {
-      "active": 162,
+      "active": 171,
       "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
       "korrupció": 30,
-      "pénzügyi": 140,
-      "közbeszerzés": 15
+      "pénzügyi": 148,
+      "közbeszerzés": 16
     },
     "sources": [
       "444",
@@ -7705,16 +7968,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Csongrád-Csanád",
-      "Fejér",
       "Baranya",
-      "Somogy",
-      "Budapest",
-      "Borsod-Abaúj-Zemplén",
       "Pest",
+      "Borsod-Abaúj-Zemplén",
+      "Somogy",
+      "Országos",
+      "Fejér",
+      "Budapest",
+      "Csongrád-Csanád",
       "Győr-Moson-Sopron",
-      "Tolna",
-      "Országos"
+      "Tolna"
     ]
   }
 }
