@@ -644,5 +644,18 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-28T10:32:51.165831+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Nemzeti Petícióra",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Nemzeti Petícióra",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]

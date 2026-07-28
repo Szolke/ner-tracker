@@ -42,5 +42,16 @@
         "reason": "no_secondary_match"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-28T10:32:51.150125+00:00",
+    "entries": [
+      {
+        "id": "sc_ef87a7e4",
+        "title": "Vitézy Dávid: 240 milliárdból újul meg a lajosmizsei vasútvonal",
+        "action": "skipped_duplicate",
+        "reason": "similar_to: Vitézy: 240 milliárdból fejlesztik a lajosmizsei vasútvonalat"
+      }
+    ]
   }
 ]

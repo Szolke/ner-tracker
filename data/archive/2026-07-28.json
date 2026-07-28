@@ -1,181 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_4f934b97",
-      "title": "18,2 milliárd forintnyi közpénzből hirdette a választás előtt az utolsó „nemzeti” „petíciót” a Fidesz-kormány",
-      "description": "Még utoljára rekordot döntöttek.",
-      "link": "https://444.hu/2026/07/28/182-milliard-forintnyi-kozpenzbol-hirdette-a-valasztas-elott-az-utolso-nemzeti-peticiot-a-fidesz-kormany?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-28",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 18200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_d81fa492",
-      "title": "Bús Balázst is meggyanúsította az ügyészség az óbudai korrupciós ügyben",
-      "description": "A volt fideszes polgármester az ügyészség szerint 150 millió forintot kapott a parkfenntartási biznisz vesztegetési pénzeiből.",
-      "link": "https://444.hu/2026/07/28/bus-balazst-is-meggyanusitotta-az-ugyeszseg-az-obudai-korrupcios-ugyben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-28",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 150000000,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_bc61ba",
-          "name": "Bús Balázst",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_eea73676",
-      "title": "A Fidesz-kormány 22,2 milliárd forint közpénzt szórt ki a Nemzeti Petícióra",
-      "description": "Csak a reklámköltések 18,2 milliárd forintot tettek ki.",
-      "link": "https://hvg.hu/gazdasag/20260728_fidesz-kormany-nemzeti-peticio-reklamkoltseg-kozpenz-22-milliard-forint-kozerdeku-adatigenyles",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 22200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3db9125e",
-      "title": "Így költött el sikertelenül ezermilliárdokat az Orbán-kormány az ország újraiparosítására",
-      "description": "Tíz éve hirdette meg az Orbán-kormány az újraiparosítási programját, a helyzet azóta csak rosszabb lett – elemezte a GKI.",
-      "link": "https://hvg.hu/gazdasag/20260728_ujraiparositas-ipar-gki",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_a28fb077",
-      "title": "Nagy Ervin Hankó Balázsnak: Nincs értelme tagadni, hiszen az aláírása ott virít mindenhol",
-      "description": "A kultúráért felelős államtitkár tételesen felsorolta, hogy Hankó hogyan osztott szét milliárdokat olyan szervezeteknek vagy rendezvényekre, amelyek egyértelműen a Fidesz kampányát segítették.",
-      "link": "https://hvg.hu/kultura/20260728_nagy-ervin-hanko-balazsnak-udvozlom-az-europai-demokraciaban",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7f5e87",
-          "name": "Nagy Ervin",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_d49f0a",
-          "name": "Hankó Balázsnak",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a59d612e",
-      "title": "Súlyos munkahelyi balesete után meghalt a Bayer Construct dolgozója, a cég mégis indulhat közbeszerzéseken",
-      "description": "Két munkavédelmi ügy, csaknem százmilliós bírság és egy később elhunyt dolgozó sem jelent automatikus kizárást a közpénzből finanszírozott megrendelésekből. Van ugyanis egy második esély, az úgynevezett öntisztázás, ezzel élt a NER-közeli cég is – tudta meg a HVG.",
-      "link": "https://hvg.hu/360/20260728_munkahelyi-baleset-kozbeszerzes-bayer-construct-halal-ebx",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_6e7afc",
-          "name": "Bayer Construct",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a4fcc299",
-      "title": "Orbán rendszerében volt 4,5 olyan év, amikor az igazságügyi minisztérium minden titkos megfigyelést engedélyezett",
-      "description": "Mindezt lényegében látatlanban, érdemi mérlegelés nélkül, írják a TASZ jogászai a HVG-ben megjelent írásukban, amiben javaslatot is tettek a rendszer átalakítására.",
-      "link": "https://telex.hu/belfold/2026/07/27/titkos-megfigyeles-garanciak-atlathatosag-jogallam",
-      "date": "2026-07-27",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_bbf44db5",
-      "title": "22,2 milliárdos rekordáron futott a Fidesz-kormány utolsó kommunikációs offenzívája",
-      "description": "A 24.hu adatigényléséből kiderül, hogy ebből bruttó 18,2 milliárd forint reklámköltés volt.",
-      "link": "https://telex.hu/gazdasag/2026/07/28/nemzeti-peticio-rekordar-valasztasi-kampany-kommunikacios-kampany-koltsegek",
-      "date": "2026-07-28",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 22200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
       "id": "sc_3877c4cb",
       "title": "Több mint 4,3 milliárd forint közpénzt kapott nyolc év alatt a Fidesz üzeneteit közvetítő felvidéki Ma7",
       "description": "A Ma7 szerint minden támogatással el tudnak számolni, és akkor is működni fognak, ha megszűnnek a magyarországi támogatások.",
@@ -5921,6 +5746,81 @@
       ],
       "verified": true,
       "media_count": 95
+    },
+    {
+      "id": "seed_kea_001",
+      "title": "Közfeladatot ellátó alapítványok (KEA) – 700 milliárd Ft közpénz átláthatatlan alapítványi struktúrában",
+      "description": "2019–2021 között a Fidesz-kormány 38 egyetemet, kulturális intézményt és más állami szervezetet alakított át magánalapítványi formába, miközben ingatlanvagyonukat és évi finanszírozásukat (összesen ~700 Mrd Ft) is átadta. Az alapítványokat Fidesz-közeli kuratóriumok irányítják, az Állami Számvevőszék nem vizsgálhatja őket. Az Alkotmánybíróság aggályokat fogalmazott meg, az EU is vizsgálja a közpénz-védelmi normák megsértését.",
+      "link": "https://hvg.hu/itthon/2021/08/25/kea-alapitvanyok-700-milliard-kozpenz",
+      "date": "2021-08-25",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 700000000000,
+      "tags": [
+        "KEA",
+        "alapítvány",
+        "egyetem",
+        "közpénz",
+        "átláthatatlan"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 61
+    },
+    {
+      "id": "seed_elios_eppo_001",
+      "title": "Elios Innovatív Zrt. – OLAF lezárta vizsgálatát, vádemelés Tiborcz István cégének ügyében",
+      "description": "Az Elios Innovatív Zrt. (Tiborcz István érdekeltségéhez kötött) 2012–2015 között 35 milliárd Ft EU-s forrásból végzett közvilágítás-korszerűsítést manipulált közbeszerzések útján. Az OLAF 2017-ben lezárta vizsgálatát és megállapította a szabálytalanságokat. Az Európai Ügyészség (EPPO) 2021-es megalakulása után átvette az ügyet. 2023-ban vádemelési javaslat született, a büntetőeljárás folyamatban van.",
+      "link": "https://direkt36.hu/2017/12/14/olaf-elios-vizsgalat-tiborcz/",
+      "date": "2017-12-14",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 35000000000,
+      "tags": [
+        "Elios",
+        "OLAF",
+        "EPPO",
+        "Tiborcz",
+        "közvilágítás",
+        "vádemelés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, miniszterelnök veje"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 112
     }
   ],
   "investigations": [
@@ -8038,33 +7938,23 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_7f5e87",
-      "to": "p_d49f0a",
-      "type": "business_connection",
-      "cases": [
-        "sc_a28fb077"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-28T10:32:51.157731+00:00",
+    "last_updated": "2026-07-27T11:18:48.389204+00:00",
     "version": "3.0.0",
-    "total_cases": 200,
+    "total_cases": 194,
     "total_investigations": 4,
-    "total_involved_amount_huf": 31559171000000,
+    "total_involved_amount_huf": 32231421000000,
     "status_breakdown": {
-      "active": 178,
-      "investigation": 14,
+      "active": 171,
+      "investigation": 15,
       "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 31,
-      "pénzügyi": 153,
+      "korrupció": 30,
+      "pénzügyi": 148,
       "közbeszerzés": 16
     },
     "sources": [
@@ -8078,15 +7968,15 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Pest",
       "Baranya",
-      "Győr-Moson-Sopron",
-      "Budapest",
-      "Fejér",
-      "Országos",
-      "Csongrád-Csanád",
+      "Pest",
       "Borsod-Abaúj-Zemplén",
       "Somogy",
+      "Országos",
+      "Fejér",
+      "Budapest",
+      "Csongrád-Csanád",
+      "Győr-Moson-Sopron",
       "Tolna"
     ]
   }
