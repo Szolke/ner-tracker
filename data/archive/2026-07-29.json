@@ -1,172 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_42ec381e",
-      "title": "Konstruált káosz",
-      "description": "Az igazságszolgáltatás és az Alkotmánybíróság döntései ellenére is megtette ezt a NER-ben meghízott milliárdos. Az eset arra is példa, hogyan nem lehet érvényt szerezni bírósági ítéleteknek, azaz mit jelent, amikor valaki a törvényen felül áll.",
-      "link": "https://magyarnarancs.hu/belpol/konstrualt-kaosz-279754",
-      "date": "2026-07-22",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2eab3eca",
-      "title": "Azonosítót cseréltek Mészáros Lőrinc luxusrepülőjén, de így is megtaláltuk",
-      "description": "A Mészáros Lőrinc érdekeltségébe tartozó, korábban OE-LOT lajstromjelű Bombardier Global 6500-as magángép lajstromjele nemrégiben OE-LAD lett.",
-      "link": "https://atlatszo.hu/kozpenz/2026/07/29/azonositot-csereltek-meszaros-lorinc-luxusrepulojen-de-igy-is-megtalaltuk/",
-      "date": "2026-07-29",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_a02b75",
-          "name": "Bombardier Global",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_d30b9832",
-      "title": "Több mint 70 milliárd forint volt az Orbán család cégeinek saját vagyona tavaly",
-      "description": "Ebből 3 milliárd forint volt a nyereség.",
-      "link": "https://444.hu/2026/07/29/tobb-mint-70-milliard-forint-volt-az-orban-csalad-cegeinek-sajat-vagyona?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-29",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 70000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_f588729d",
-      "title": "Megnézték, mekkora vagyont lapátolt össze cégeivel az Orbán család",
-      "description": "Csak a szűkebb család több milliárdos profitot vett ki osztalékként tavaly.",
-      "link": "https://hvg.hu/kkv/20260729_megneztek-mekkora-az-orban-csalad-cegeinek-vagyona-orban-gyozo-viktor-aron-david-kkv-vallalkozas",
-      "date": "2026-07-29",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_0f22e4c3",
-      "title": "Mészáros Lőrinc nem közösködik az állammal, inkább megúszná a nyomozást",
-      "description": "Mészáros Lőrinc azt remélheti egy tulajdonosi átrendeződéstől, hogy a saját magáról elnevezett ásványvíz-palackozóját így nem érinti egy nyomozás. Az eljárást a Készenléti Rendőrség Nemzeti Nyomozó Iroda Korrupciós Bűnözés Elleni Osztálya indította el a Transparency International feljelentése alapján.",
-      "link": "https://hvg.hu/360/20260729_meszaros-lorinc-onallosagra-tor-aqua-lorenzo-asvanyviz-gyarto-allami-tokebefektetes-hvg",
-      "date": "2026-07-29",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_6b567c",
-          "name": "Készenléti Rendőrség",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_9fab27",
-          "name": "Iroda Korrupciós",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_25b7e0",
-          "name": "Bűnözés Elleni",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_7e799857",
-      "title": "70 milliárd forint körül volt az Orbán család cégeinek saját vagyona előző év végén",
-      "description": "A 24.hu összeszedte, hogyan alakult az előző év az Orbán család tagjaihoz fűződő cégekben.",
-      "link": "https://telex.hu/gazdasag/2026/07/29/orban-csalad-cegek-bevetel",
-      "date": "2026-07-29",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 70000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3fd24bb1",
-      "title": "Rápörögtek a Redditen az új kormányzati kék plakátokra, Magyar Péter éjjel egykor szállt be a vitába",
-      "description": "A miniszterelnök szerint az új kormányzati tájékoztatókat össze se lehet hasonlítani a közpénzmilliárdokból finanszírozott gyűlöletkampánnyal.",
-      "link": "https://telex.hu/belfold/2026/07/29/kormanyzati-tajekoztatas-kek-plakat-reddit-magyar-peter-komment",
-      "date": "2026-07-29",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
       "id": "sc_4f934b97",
       "title": "18,2 milliárd forintnyi közpénzből hirdette a választás előtt az utolsó „nemzeti” „petíciót” a Fidesz-kormány",
       "description": "Még utoljára rekordot döntöttek.",
@@ -5845,6 +5679,248 @@
       ],
       "verified": true,
       "media_count": 19
+    },
+    {
+      "id": "seed_bdpst_001",
+      "title": "BDPST Group / Tiborcz István – állami támogatású szállodák és ingatlanok közpénzből",
+      "description": "Tiborcz István, Orbán Viktor veje, a BDPST Group-on keresztül több milliárd forint állami és EU-s forrást kapott szállodafelújításokra. Az Átlátszó kimutatta, hogy a Gellért, a Thermal Hotel és más ingatlanok felújítása olyan pályázatokon nyert, ahol a döntéshozóknak politikai kötöttsége volt. Az EPPO vizsgálja a közpénz-felhasználást. Tiborcz nettóvagyona 2015 óta megsokszorozódott.",
+      "link": "https://atlatszo.hu/kozpenz/2021/03/15/tiborcz-bdpst-allami-tamogatas/",
+      "date": "2021-03-15",
+      "source": "Átlátszó",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 25000000000,
+      "tags": [
+        "BDPST",
+        "Tiborcz",
+        "szálloda",
+        "EPPO",
+        "összefonódás"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, miniszterelnök veje"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 38
+    },
+    {
+      "id": "seed_liget_001",
+      "title": "Liget Budapest projekt – 100+ milliárd Ft közpénzből múzeumok a Városligetbe, átláthatatlan közbeszerzésekkel",
+      "description": "A Liget Budapest projekt keretében 100 milliárd Ft feletti közpénzt fordítanak múzeumok és kulturális intézmények Városligetbe költöztetésére. A közbeszerzések a Magyar Építészeti Múzeum és a Néprajzi Múzeum esetén is súlyos szabálytalanságokat mutattak. Az EPPO és az OLAF is vizsgálja a projekt EU-s finanszírozású elemeit. A civil szervezetek és a főváros tiltakozik a zöldterület beépítése ellen.",
+      "link": "https://atlatszo.hu/kozpenz/2020/06/10/liget-projekt-kozpenz-atlathatatlansag/",
+      "date": "2020-06-10",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Budapest",
+      "coordinates": [
+        47.5168,
+        19.0861
+      ],
+      "amount_huf": 120000000000,
+      "tags": [
+        "Liget",
+        "múzeum",
+        "EPPO",
+        "OLAF",
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_fd1721",
+          "name": "Kásler Miklós",
+          "position": "volt kulturális miniszter"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 29
+    },
+    {
+      "id": "seed_eppo_hu_001",
+      "title": "EPPO magyarországi ügyek – Európai Ügyészség 20+ aktív nyomozása EU-s közpénz-csalás miatt",
+      "description": "Az Európai Ügyészség (EPPO) 2021-es megalakulása óta Magyarország az egyik legaktívabb célországa. 2024 végéig 20+ aktív nyomozás zajlik magyar ügyekben, döntően EU-s kohéziós alapok, agrártámogatások és közbeszerzések visszaélései kapcsán. Az érintett összeg meghaladja a 100 milliárd Ft-ot. Magyarország tartósan a legtöbb EPPO-üggyel rendelkező tagállamok között van.",
+      "link": "https://www.eppo.europa.eu/hu/node/1278",
+      "date": "2022-06-01",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [
+        "EPPO",
+        "EU-s forrás",
+        "nyomozás",
+        "kohéziós alap"
+      ],
+      "involved_persons": [],
+      "verified": true,
+      "media_count": 55
+    },
+    {
+      "id": "seed_agrar_001",
+      "title": "EU-s agrártámogatások – Mészáros-kör és fideszes oligarchák kapják a vidéki földterületek pályázatait",
+      "description": "A Magyar Állami Számvevőszék és az Átlátszó adatai szerint az EU-s agrártámogatások Magyarországon rendkívül koncentráltan jutnak el: a pályázók kis hányada (Mészáros Lőrinc köre, volt Fidesz-politikusok földbirtokai) kapja a kiosztott összegek többségét. Az OLAF vizsgálatot indított. A benyújtott pályázatok fiktív földhasználatra, stróman-gazdákon átmenő pénzekre mutatnak. 2020–2023 között évi 300+ Mrd Ft EU-s agrárpénz érintett.",
+      "link": "https://atlatszo.hu/kozpenz/2023/02/14/eu-agrar-tamogatas-meszaros-oligarchak/",
+      "date": "2023-02-14",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 350000000000,
+      "tags": [
+        "agrár",
+        "EU-s forrás",
+        "OLAF",
+        "Mészáros",
+        "földterület"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt polgármester"
+        },
+        {
+          "id": "p_17ffb0",
+          "name": "Nagy István",
+          "position": "agrárminiszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 42
+    },
+    {
+      "id": "seed_covid_001",
+      "title": "Covid-közbeszerzések – maszkbeszerzések, lélegeztetőgépek, oltóanyag milliárdjai átláthatóság nélkül",
+      "description": "A 2020-2021-es covid-járvány idején a magyar állam több száz milliárd forintot költött maszkra, lélegeztetőgépre és oltóanyagra. A Direkt36 és Átlátszó kiderítette: a közbeszerzéseket kijátszva, politikailag kapcsolt közvetítőcégeknél kötöttek le Kínából importált termékeket drámai felárral. A lélegeztetőgépek egy részét soha nem használták. Az EPPO vizsgálja az ügyet, vádemelés egyes esetekben már megtörtént.",
+      "link": "https://direkt36.hu/2021/03/18/covid-lehezetgep-kozbeszerzesek-visszaelesek/",
+      "date": "2021-03-18",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 200000000000,
+      "tags": [
+        "covid",
+        "lélegeztetőgép",
+        "maszk",
+        "EPPO",
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_7d4151",
+          "name": "Palkovics László",
+          "position": "volt innovációs miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 78
+    },
+    {
+      "id": "seed_vasut_001",
+      "title": "MÁV / vasúti közbeszerzések – Lázár-féle infrastruktúra-fejlesztések Fidesz-közeli kivitelezőkkel",
+      "description": "Az Építési és Közlekedési Minisztérium Lázár János irányítása alatt 2022-től rendkívüli összegű vasút- és útépítési programot indított. A közbeszerzéseket rendre NER-közeli cégek nyerik. A Direkt36 kimutatta, hogy egyes pályázatoknál csak egyetlen ajánlat érkezett. Az EU Kohéziós Alap forrásainak felhasználását az OLAF és az EPPO is vizsgálja. A magyar vasúthálózat állapota az EU-s pénzek ellenére tovább romlik.",
+      "link": "https://direkt36.hu/2023/04/12/mav-vasut-kozbezerzes-lazar/",
+      "date": "2023-04-12",
+      "source": "Direkt36",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 800000000000,
+      "tags": [
+        "MÁV",
+        "vasút",
+        "infrastruktúra",
+        "OLAF",
+        "Lázár"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 33
+    },
+    {
+      "id": "seed_simicska_001",
+      "title": "Simicska Lajos – Közgép és médiabirodalma: Fidesz kasszájától az oligarchaságig, majd szakítás",
+      "description": "Simicska Lajos, Orbán Viktor egykori személyes pénztárosa a Közgép Zrt.-n keresztül éveken át az állami közbeszerzések meghatározó nyertese volt. Médiabirodalmat (HírTV, Magyar Nemzet, Lánchíd Rádió) épített. 2015-ös nyílt szakítása után a cégek kormányközeli kézbe kerültek. Az ügyészség korrupciós nyomozásokat indított, de ezek elhúzódnak. A vagyon átjátszásának módja a NER-rendszer prototípusát mutatja.",
+      "link": "https://direkt36.hu/2015/02/09/simicska-lajos-kozzep-fidesz-kassza/",
+      "date": "2015-02-09",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "closed",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 400000000000,
+      "tags": [
+        "Simicska",
+        "Közgép",
+        "média",
+        "közbeszerzés",
+        "oligarcha"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_bdc3bf",
+          "name": "Simicska Lajos",
+          "position": "vállalkozó, volt Fidesz-kasszás"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 95
     }
   ],
   "investigations": [
@@ -7972,94 +8048,24 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_a02b75",
-      "type": "political_ally",
-      "cases": [
-        "sc_2eab3eca"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_6b567c",
-      "type": "political_ally",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_9fab27",
-      "type": "political_ally",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_25b7e0",
-      "type": "political_ally",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6b567c",
-      "to": "p_9fab27",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6b567c",
-      "to": "p_25b7e0",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_9fab27",
-      "to": "p_25b7e0",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f22e4c3"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-29T10:37:04.826606+00:00",
+    "last_updated": "2026-07-28T10:32:51.157731+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 29704171000000,
+    "total_involved_amount_huf": 31559171000000,
     "status_breakdown": {
-      "active": 185,
-      "investigation": 8,
-      "closed": 5,
+      "active": 178,
+      "investigation": 14,
+      "closed": 6,
       "appeal": 2
     },
     "category_breakdown": {
-      "korrupció": 29,
-      "pénzügyi": 159,
-      "közbeszerzés": 12
+      "korrupció": 31,
+      "pénzügyi": 153,
+      "közbeszerzés": 16
     },
     "sources": [
       "444",
@@ -8072,16 +8078,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Tolna",
       "Pest",
-      "Csongrád-Csanád",
-      "Országos",
       "Baranya",
-      "Fejér",
+      "Győr-Moson-Sopron",
       "Budapest",
+      "Fejér",
+      "Országos",
+      "Csongrád-Csanád",
       "Borsod-Abaúj-Zemplén",
-      "Somogy"
+      "Somogy",
+      "Tolna"
     ]
   }
 }
