@@ -1,6 +1,154 @@
 {
   "cases": [
     {
+      "id": "sc_bf6b03f9",
+      "title": "Szinte mindent rosszul csinált, feljelentették az élelmiszer-pazarlás ellen létrehozott állami céget",
+      "description": "Milliárdokért fejlesztett informatikai rendszert, amelyhez nem is kapott hozzáférést, nem világos, ki mit csinált a dolgozók közül, igazolás nélkül fizettek nem indokolt feladatokért, mellőzték a közbeszerzési eljárást – állapította meg az ÁSZ az állami Élelmiszermentő Központról. A társaság, amelyet az élelmiszer-pazarlás csökkentésére hoztak létre, maga is csak pazarolta az adófizetői milliárdok",
+      "link": "https://hvg.hu/gazdasag/20260729_feljelentes-lett-a-vege-az-eredmenytelen-allami-elelmiszermentesnek",
+      "date": "2026-07-29",
+      "source": "HVG Gazdaság",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_5921ba",
+          "name": "Élelmiszermentő Központról",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_55723cb6",
+      "title": "Közpénzmilliárdokat tapsolt el Balásy Gyula cégeinél a Szuverenitásvédelmi Hivatal",
+      "description": "Lánczi Tamás nemrég megszűnt hivatala még idén is közel másfélmilliárd forintot költött kommunikációra.",
+      "link": "https://hvg.hu/gazdasag/20260730_szuverenitasvedelmi-hivatal-kommunikacio-szerzodes-balasy-gyula-ceg",
+      "date": "2026-07-30",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9621cb",
+          "name": "Lánczi Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_25962c9e",
+      "title": "Cikkünk után leváltották Orbánék milliárdos jeruzsálemi projektjének vezetőjét",
+      "description": "Fél évvel a megnyitása után már le is fejezték azt a jeruzsálemi akadémiát, aminek létrehozására Orbánék több mint egymilliárd forint közpénzt szántak a választások előtt.",
+      "link": "https://atlatszo.hu/impakt/2026/07/30/cikkunk-utan-levaltottak-orbanek-milliardos-jeruzsalemi-projektjenek-vezetojet/",
+      "date": "2026-07-30",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_fbda1581",
+      "title": "Hadházy hiába tett feljelentést, elévülés miatt megállt Simonka újabb ügye",
+      "description": "Hivatali visszaélés miatt kezdeményezett eljárást a volt országgyűlési képviselő, de már későn. Az alapinfót maga a volt fideszes politikus, Simonka György beszélte ki egy indulatos posztban.",
+      "link": "https://hvg.hu/itthon/20260730_hadhazy-hiaba-tett-feljelentest-elevules-miatt-megallt-simonka-ujabb-ugye",
+      "date": "2026-07-30",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_881e52",
+          "name": "Simonka György",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4b6cbe0b",
+      "title": "Rendészeti vezető és bandája fosztogatta a rájuk bízott kórházi parkolóautomatát",
+      "description": "Összesen 23 millió forint készpénzt csapoltak le a kollégák, az ügyészség végrehajtandó börtönt kér rájuk.",
+      "link": "https://hvg.hu/itthon/20260730_korhaz-pakoloautomata-fosztogat-rendeszeti-vezeto",
+      "date": "2026-07-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 23000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_c0a9c5d3",
+      "title": "A Szuverenitásvédelmi Hivatal 3,7 milliárd forintnyi közpénzt költött kommunikációra",
+      "description": "Lánczi Tamás hivatala a Balásy-cégekkel szerződött, és sok esetben nagyon hasonló feladatokra mentek a kifizetések.",
+      "link": "https://telex.hu/belfold/2026/07/30/szuverenitasvedelmi-hivatal-balasy-cegek-koltes-lanczi-tamas-3-7-milliard-keretszerzodes",
+      "date": "2026-07-30",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3700000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_9621cb",
+          "name": "Lánczi Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_42ec381e",
       "title": "Konstruált káosz",
       "description": "Az igazságszolgáltatás és az Alkotmánybíróság döntései ellenére is megtette ezt a NER-ben meghízott milliárdos. Az eset arra is példa, hogyan nem lehet érvényt szerezni bírósági ítéleteknek, azaz mit jelent, amikor valaki a törvényen felül áll.",
@@ -5630,221 +5778,6 @@
       ],
       "verified": true,
       "media_count": 42
-    },
-    {
-      "id": "seed_fudan_001",
-      "title": "Fudan Egyetem Budapest – kínai állami hitelből épülő campus, 200 milliárd Ft közpénz",
-      "description": "A magyar kormány 2021-ben bejelentette egy kínai állami Fudan Egyetem budapesti campusának megépítését 200 milliárd Ft-ot meghaladó kínai hitelből. A projektet a főváros és az ellenzék heves tiltakozása fogadta. A kormány 2021 júniusában formálisan elhalasztotta, de le nem mondta. Az átláthatatlan szerződés és az orosz–kínai kettős hitelfüggőség komoly kockázatot jelent.",
-      "link": "https://444.hu/2021/04/07/budapesti-fudan-egyetem-campus",
-      "date": "2021-04-07",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "appeal",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 200000000000,
-      "tags": [
-        "Fudan",
-        "Kína",
-        "hitel",
-        "campus",
-        "átláthatatlan"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_7d4151",
-          "name": "Palkovics László",
-          "position": "volt innovációs miniszter"
-        }
-      ],
-      "verified": true,
-      "media_count": 65
-    },
-    {
-      "id": "seed_paks2_001",
-      "title": "Paks II. – orosz állami hitelből épülő atomerőmű-bővítés, 30 évre titkosított Rosatom-szerződés",
-      "description": "Magyarország 2014-ben titkos szerződést kötött a Rosatommal a Paksi Atomerőmű két új blokkjának megépítéséről, 12,5 milliárd eurós projektre 10 milliárd eurós orosz hitelt vesznek fel. A szerződés részleteit 30 évre titkosították. Az EU vizsgálatot indított közbeszerzési szabályok megkerülése miatt. Az építkezés 2024-ig nem indult el, az átadás éveket csúszik.",
-      "link": "https://direkt36.hu/2014/01/14/paks-ii-titkos-szerzodes-rosatom/",
-      "date": "2014-01-14",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "investigation",
-      "region": "Tolna",
-      "coordinates": [
-        46.5722,
-        18.8561
-      ],
-      "amount_huf": 4500000000000,
-      "tags": [
-        "Paks",
-        "Rosatom",
-        "atomenergia",
-        "hitel",
-        "titkos szerződés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        }
-      ],
-      "verified": true,
-      "media_count": 120
-    },
-    {
-      "id": "seed_szazfalu_001",
-      "title": "Száz Magyar Falu program – Mészáros-közeli cégek nyerik a falvak felújítási közbeszerzéseit",
-      "description": "A 2019-ben indított Száz Magyar Falu program keretében több száz milliárd forint állt rendelkezésre falvak felújítására. Vizsgálatok szerint a közbeszerzések rendszeresen Mészáros Lőrinc érdekkörébe tartozó vállalkozásokhoz kerültek. Egyes pályázatoknál az ajánlatok manipuláltak, a nyertes cégek politikailag kötődnek a Fideszhez. Az OLAF is vizsgálja az EU-s vidékfejlesztési pénzek felhasználását.",
-      "link": "https://atlatszo.hu/kozpenz/2020/05/12/szaz-magyar-falu-program-meszaros/",
-      "date": "2020-05-12",
-      "source": "Átlátszó",
-      "category": "közbeszerzés",
-      "status": "investigation",
-      "region": "Országos",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 300000000000,
-      "tags": [
-        "falufelújítás",
-        "Mészáros",
-        "közbeszerzés",
-        "vidékfejlesztés",
-        "OLAF"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt polgármester"
-        },
-        {
-          "id": "p_17ffb0",
-          "name": "Nagy István",
-          "position": "agrárminiszter"
-        }
-      ],
-      "verified": true,
-      "media_count": 28
-    },
-    {
-      "id": "seed_rogankozl_001",
-      "title": "Rogán-büdzsé – évi 100–150 milliárd Ft állami hirdetési pénz kormányközeli médiumoknak",
-      "description": "Rogán Antal Miniszterelnöki Kabinetiroda kezelésében évi 100-150 milliárd Ft közpénzt osztanak szét hirdetési formában. Az állami hirdetési piacot a KESMA tagjai és egyéb NER-közeliek uralják. Aki kritikus a kormánnyal, nem kap állami hirdetéseket – ez szerkesztési függetlenséget romboló pénzügyi nyomás. Az Átlátszó és OLAF is vizsgálja.",
-      "link": "https://atlatszo.hu/kozpenz/2022/03/01/allami-hirdetes-kormanykozeliek/",
-      "date": "2022-03-01",
-      "source": "Átlátszó",
-      "category": "korrupció",
-      "status": "investigation",
-      "region": "Országos",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 150000000000,
-      "tags": [
-        "hirdetés",
-        "média",
-        "OLAF",
-        "kommunikáció",
-        "Rogán"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        }
-      ],
-      "verified": true,
-      "media_count": 34
-    },
-    {
-      "id": "seed_nav_001",
-      "title": "NAV – Nemzeti Adó- és Vámhivatal politikai célú adóellenőrzések ellenzéki vállalkozók ellen",
-      "description": "Több vizsgálat és újságírói kutatás mutatta ki, hogy a NAV ellenőrzési aktivitása összefügg az érintett vállalkozók politikai álláspontjával. Orbán-kritikus cégeket aránytalanul gyakran ellenőriznek, míg Fidesz-közeli vállalkozók elkerülik a hatóságot. Az EPPO több ügyet vizsgál NAV-os visszaélések kapcsán. A volt NAV-elnök Vida Ildikó offshore vagyonát az USA szankcionálta.",
-      "link": "https://atlatszo.hu/kozpenz/2021/06/15/nav-politikai-adoellenorzesek/",
-      "date": "2021-06-15",
-      "source": "Átlátszó",
-      "category": "korrupció",
-      "status": "investigation",
-      "region": "Országos",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "NAV",
-        "adóellenőrzés",
-        "EPPO",
-        "offshore"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_099fd2",
-          "name": "Vida Ildikó",
-          "position": "volt NAV elnök"
-        },
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        }
-      ],
-      "verified": true,
-      "media_count": 22
-    },
-    {
-      "id": "seed_mvm_001",
-      "title": "MVM Connect / Magyar Villamos Művek – állami energetikai gigacég átláthatatlan akvizíciói",
-      "description": "Az MVM-csoport (Magyar Villamos Művek) a Fidesz-kormányok alatt rendkívüli mértékben terjeszkedett: médiát, informatikát, gázt, áramot és egyebeket vásárolt össze. Az akvizíciók ára, a döntési folyamat és a stratégiai logika sokszor érthetetlen, a tranzakciók közbeszerzés nélkül történtek. A Direkt36 több esetben kimutatta a politikai motivációt és a körbetartozási struktúrákat.",
-      "link": "https://direkt36.hu/2022/10/05/mvm-connect-allami-energetika-akvizicios/",
-      "date": "2022-10-05",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 500000000000,
-      "tags": [
-        "MVM",
-        "energetika",
-        "privatizáció",
-        "közpénz"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        }
-      ],
-      "verified": true,
-      "media_count": 19
     }
   ],
   "investigations": [
@@ -8042,23 +7975,33 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_7a517f",
+      "to": "p_9621cb",
+      "type": "business_connection",
+      "cases": [
+        "sc_55723cb6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-29T10:37:04.826606+00:00",
+    "last_updated": "2026-07-30T10:22:57.252606+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 29704171000000,
+    "total_involved_amount_huf": 24057894000000,
     "status_breakdown": {
-      "active": 185,
-      "investigation": 8,
+      "active": 190,
+      "investigation": 4,
       "closed": 5,
-      "appeal": 2
+      "appeal": 1
     },
     "category_breakdown": {
-      "korrupció": 29,
-      "pénzügyi": 159,
+      "korrupció": 28,
+      "pénzügyi": 160,
       "közbeszerzés": 12
     },
     "sources": [
@@ -8072,16 +8015,16 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Tolna",
-      "Pest",
-      "Csongrád-Csanád",
       "Országos",
-      "Baranya",
-      "Fejér",
-      "Budapest",
       "Borsod-Abaúj-Zemplén",
-      "Somogy"
+      "Somogy",
+      "Csongrád-Csanád",
+      "Budapest",
+      "Pest",
+      "Tolna",
+      "Baranya",
+      "Győr-Moson-Sopron",
+      "Fejér"
     ]
   }
 }

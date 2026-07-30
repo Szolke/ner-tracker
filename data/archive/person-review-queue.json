@@ -674,5 +674,18 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-30T10:22:57.260997+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Szuverenitásvédelmi Hivatal",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Szuverenitásvédelmi Hivatal",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
