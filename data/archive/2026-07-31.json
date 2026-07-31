@@ -1,187 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_5ab52eb9",
-      "title": "Forsthoffer Ágnes hivatala júniusban 20 millióval növelte a parkfenntartási maffiában érintett cég megbízását",
-      "description": "A Parlament környékén az ügyészségi nyomozás alatt álló parkfenntartó maffia egyik cége gondozza a zöldfelületet tavaly november óta. A céget Kövér László házelnöksége idején bízták meg egy évre, Forsthoffer Ágnes hivatalba lépése után pedig 20 millióval megnövelték a nyertes cég megbízásának keretösszegét.",
-      "link": "https://magyarnarancs.hu/belpol/forsthoffer-agnes-hivatala-juniusban-200-millioval-novelte-a-parkfenntartasi-maffiaban-erintett-ceg-megbizasat-279839",
-      "date": "2026-07-30",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 20000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_5ec4f1",
-          "name": "Forsthoffer Ágnes",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_fae9ee",
-          "name": "Kövér László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0eb4a612",
-      "title": "Arzenálhoz morál: a magyar hadiipar az Orbán-rendszer után",
-      "description": "Egy évtizede hirdette meg a haderő modernizációját az Orbán-kormány, így ismét gyártanak harcjárművet, lőszert és kézifegyvert, de még helikopter-alkatrészt is Magyarországon. Azonban a fegyverkezési erőfeszítést a korrupció árnyéka lengi be, Magyar Péter kormányának pedig még fontosabb dolga lesz visszanyerni a NATO és a közeli szövetségesek bizalmát.",
-      "link": "https://magyarnarancs.hu/av4esazeu/arzenalhoz-moral-a-magyar-hadiipar-az-orban-rendszer-utan-279797",
-      "date": "2026-07-30",
-      "source": "Magyar Narancs",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2eb6a530",
-      "title": "Tarr Zoltán: már 3,3 milliárd forintnál is több közpénzt fizettek vissza az NKA ideiglenes kollégiumának támogatásaiból",
-      "description": "Tarrék azt kérték az érintettektől, ha úgy érzik, nem állt biztos lábakon a támogatásuk, inkább utalják vissza a pénzt. Úgy tűnik, a kérés többeknél értő fülekre talált.",
-      "link": "https://444.hu/2026/07/31/tarr-zoltan-mar-33-milliard-forintnal-is-tobb-kozpenzt-fizettek-vissza-az-nka-ideiglenes-kollegiumanak-tamogatasaibol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-31",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3300000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_84462b",
-          "name": "Tarr Zoltán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a387e23e",
-      "title": "Budapest Airport: Nem kell 1100 métert gyalogolniuk az utasoknak",
-      "description": "A Budapest Airport szerint a nemrég végrehajtott tarifaemelés kiegyensúlyozza a repülőtéri behajtási díjat, tehát a taxisofőröknek a repülőtéri fuvarokkal nem keletkezik plusz költsége, szóval ugyanúgy letehetnék az utasokat ott, ahol eddig.",
-      "link": "https://hvg.hu/gazdasag/20260731_repteri-ingyenes-parkolas-eltorlese-budapesti-taxisok-ferihegy-budapest-airport",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_9ef025",
-          "name": "Budapest Airport",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ff50002e",
-      "title": "A kormány hamarosan állami alapba gyűjtheti a visszaszerzett vagyont",
-      "description": "Pár héten belül 15 százalék Mol- és 10 százalék Richter-részvény tulajdonosa lesz az állam, és ez még csak a kezdet. Az Orbán-kormány tőkeprogramjain és hitelezésein keresztül már rövid távon olyan üzletrészekhez juthat az állam, amelyek a Fideszhez közel álló milliárdosoknál halmozódtak fel.",
-      "link": "https://hvg.hu/360/20260731_vagyonvisszaszerzes-kekvak-mol-richter-reszvenyek-allami-tokebefektetes-magyar-kormany",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5ca3fbe1",
-      "title": "Tarr Zoltán: 3,3 milliárd forintnál is több közpénzt fizettek vissza a Hankó-ügy kedvezményezettjei",
-      "description": "Hankó Balázs, az Orbán-kormány minisztere milliárdokat osztott szét olyan szervezeteknek, amelyek a Fidesz kampányát segítették.",
-      "link": "https://hvg.hu/kultura/20260731_tarr-zoltan-3-3-milliard-forint-kozpenzt-fizettek-hanko-nka",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3300000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_84462b",
-          "name": "Tarr Zoltán",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_48dec4",
-          "name": "Hankó Balázs",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ef861937",
-      "title": "Rákosi és az SZDSZ szellemét is megidézték a parlamentben",
-      "description": "Magyar Péter szerint a Fidesz éppen azt teszi, amivel Kollár Kingát vádolták, de azt is nagyban, és Bóka János, a Fidesz új frakcióvezetője egy nagy Fidesz–KDNP-kivonulással debütált a parlamentben.",
-      "link": "https://telex.hu/video/2026/07/31/parlament-magyar-peter-osszefoglalo-kivonulas-hanko-balazs",
-      "date": "2026-07-31",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c12937",
-          "name": "Kollár Kingát",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_9048ce",
-          "name": "Bóka János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_bf6b03f9",
       "title": "Szinte mindent rosszul csinált, feljelentették az élelmiszer-pazarlás ellen létrehozott állami céget",
       "description": "Milliárdokért fejlesztett informatikai rendszert, amelyhez nem is kapott hozzáférést, nem világos, ki mit csinált a dolgozók közül, igazolás nélkül fizettek nem indokolt feladatokért, mellőzték a közbeszerzési eljárást – állapította meg az ÁSZ az állami Élelmiszermentő Központról. A társaság, amelyet az élelmiszer-pazarlás csökkentésére hoztak létre, maga is csak pazarolta az adófizetői milliárdok",
@@ -5685,6 +5504,280 @@
           "status": "active"
         }
       ]
+    },
+    {
+      "id": "case_011",
+      "title": "Borkai-ügy – győri polgármester korrupciós és erkölcsi botránya",
+      "description": "Borkai Zsolt győri polgármester 2019-ben kompromittáló videók és korrupciós vádak kereszttüzébe került. A vádak szerint hatalmával visszaélve juttatta Győr önkormányzati ingatlanait magánszemélyeknek kedvező áron.",
+      "link": "https://444.hu/2019/10/04/borkai-video-korrupcio",
+      "date": "2019-10-04",
+      "source": "444",
+      "category": "korrupció",
+      "status": "closed",
+      "region": "Győr-Moson-Sopron",
+      "coordinates": [
+        47.6829,
+        17.6271
+      ],
+      "amount_huf": 2500000000,
+      "tags": [
+        "Borkai",
+        "Győr",
+        "önkormányzat",
+        "ingatlan"
+      ],
+      "involved_persons": [
+        {
+          "id": "p015",
+          "name": "Borkai Zsolt",
+          "position": "volt győri polgármester"
+        }
+      ],
+      "verified": true,
+      "media_count": 92,
+      "status_history": [
+        {
+          "date": "2019-10-04",
+          "status": "active"
+        },
+        {
+          "date": "2019-10-20",
+          "status": "investigation"
+        },
+        {
+          "date": "2020-07-15",
+          "status": "closed"
+        }
+      ]
+    },
+    {
+      "id": "case_012",
+      "title": "Quaestor-botrány – 210 milliárd forint kárt okozó befektetési csalás",
+      "description": "A Quaestor Értékpapír Zrt. 2015-ben összeomlott. Kiderült, hogy a cég évekig fedezetlen kötvényeket adott el 210 milliárd forint értékben. A károsultak túlnyomó részét nem kártalanítottak teljes mértékben.",
+      "link": "https://hvg.hu/gazdasag/2015/03/09/quaestor-csod-karositott",
+      "date": "2015-03-09",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "closed",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 210000000000,
+      "tags": [
+        "Quaestor",
+        "befektetési csalás",
+        "kötvény",
+        "károsultak"
+      ],
+      "involved_persons": [
+        {
+          "id": "p016",
+          "name": "Tarsoly Csaba",
+          "position": "Quaestor-vezér"
+        }
+      ],
+      "verified": true,
+      "media_count": 201,
+      "status_history": [
+        {
+          "date": "2015-03-09",
+          "status": "active"
+        },
+        {
+          "date": "2015-04-01",
+          "status": "investigation"
+        },
+        {
+          "date": "2017-12-01",
+          "status": "closed"
+        }
+      ]
+    },
+    {
+      "id": "case_013",
+      "title": "Miskolci ipari park – EU-s forrás szabálytalan felhasználása",
+      "description": "Miskolcon ipari park fejlesztésére fordított EU-s forrás elköltésének vizsgálata. Az OLAF 2023-ban nyitott vizsgálatot az eljárások szabályossága kapcsán.",
+      "link": "https://hvg.hu/gazdasag/2023/08/30/miskolc-ipari-park-eu",
+      "date": "2023-08-30",
+      "source": "HVG",
+      "category": "közbeszerzés",
+      "status": "investigation",
+      "region": "Borsod-Abaúj-Zemplén",
+      "coordinates": [
+        48.1035,
+        20.7784
+      ],
+      "amount_huf": 4700000000,
+      "tags": [
+        "EU",
+        "ipari park",
+        "Miskolc",
+        "OLAF"
+      ],
+      "involved_persons": [
+        {
+          "id": "p017",
+          "name": "Veres Pál",
+          "position": "volt miskolci polgármester"
+        }
+      ],
+      "verified": false,
+      "media_count": 8,
+      "status_history": [
+        {
+          "date": "2023-08-30",
+          "status": "investigation"
+        }
+      ]
+    },
+    {
+      "id": "case_014",
+      "title": "Pécsi városfejlesztési közbeszerzések túlárazása",
+      "description": "Pécs belvárosának rehabilitációjához kapcsolódó közbeszerzési eljárások során a nyertes ajánlatok rendre 30–60%-kal haladták meg a mérnöki becsléseket.",
+      "link": "https://telex.hu/belfold/2024/04/18/pecs-varosfejlesztes-tularazas",
+      "date": "2024-04-18",
+      "source": "Telex",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Baranya",
+      "coordinates": [
+        46.0727,
+        18.2323
+      ],
+      "amount_huf": 3100000000,
+      "tags": [
+        "városfejlesztés",
+        "közbeszerzés",
+        "Pécs",
+        "túlárazás"
+      ],
+      "involved_persons": [
+        {
+          "id": "p018",
+          "name": "Péterffy Attila",
+          "position": "Pécs polgármestere"
+        }
+      ],
+      "verified": false,
+      "media_count": 5,
+      "status_history": [
+        {
+          "date": "2024-04-18",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "case_015",
+      "title": "Balatoni turisztikai fejlesztések – Mészáros-közeli cégek nyernek",
+      "description": "Balatoni turisztikai beruházásokhoz kapcsolódó állami támogatások elosztása politikailag preferált vállalkozóknak. Több projekt piaci ár többszörösén valósult meg.",
+      "link": "https://direkt36.hu/2024/03/01/balaton-turizmus-fejlesztes",
+      "date": "2024-03-01",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Somogy",
+      "coordinates": [
+        46.7611,
+        17.2274
+      ],
+      "amount_huf": 18000000000,
+      "tags": [
+        "turizmus",
+        "Balaton",
+        "fejlesztés",
+        "Mészáros"
+      ],
+      "involved_persons": [
+        {
+          "id": "p001",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó"
+        },
+        {
+          "id": "p009",
+          "name": "Gulyás Gergely",
+          "position": "miniszterelnöki kabinetfőnök"
+        }
+      ],
+      "verified": false,
+      "media_count": 19,
+      "status_history": [
+        {
+          "date": "2024-03-01",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "seed_nka_001",
+      "title": "NKA – Nemzeti Kulturális Alap pályázatok politikai alapon Demeter Szilárd alatt",
+      "description": "A Nemzeti Kulturális Alap Demeter Szilárd elnöksége (2020–) alatt NER-közeli szervezetek kapták a pályázati pénzek oroszlánrészét. Független kulturális intézmények, színházak, filmesek finanszírozása visszaszorult. A döntési mechanizmus átláthatatlan, a kuratóriumi összetétel politikailag homogén. Az évente osztott kb. 8 milliárd Ft közpénz elosztása nem nyilvános szempontok alapján történik.",
+      "link": "https://www.szabad-europa.hu/a/nka-demeter-szilard-kulturalis-alap/31771788.html",
+      "date": "2021-03-15",
+      "source": "Szabad Európa",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 8000000000,
+      "tags": [
+        "NKA",
+        "kultúra",
+        "pályázat",
+        "közpénz"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ccfee4",
+          "name": "Demeter Szilárd",
+          "position": "NKA elnök, PIM főigazgató"
+        }
+      ],
+      "verified": true,
+      "media_count": 18
+    },
+    {
+      "id": "seed_kesma_001",
+      "title": "KESMA – 500 kormányközeli médium egyetlen alapítványba olvasztása versenyhivatali vizsgálat nélkül",
+      "description": "2018. november 28-án Mészáros Lőrinc és más Fidesz-közeli tulajdonosok közel 500 médiavállalkozást adtak át egyetlen Közép-európai Sajtó és Média Alapítványnak. A Gazdasági Versenyhivatal közérdekre hivatkozva vizsgálat nélkül engedélyezte. A KESMA kontrollálja a vidéki sajtó döntő részét, több napilapot, hírportált és rádiót. Az OLAF vizsgálatot indított az EU-s médiapolitika megsértése miatt.",
+      "link": "https://direkt36.hu/2018/11/29/kesma-media-osszeolvadas/",
+      "date": "2018-11-28",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Országos",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "KESMA",
+        "média",
+        "sajtószabadság",
+        "koncentráció",
+        "OLAF"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt polgármester"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        }
+      ],
+      "verified": true,
+      "media_count": 42
     }
   ],
   "investigations": [
@@ -7892,54 +7985,24 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_5ec4f1",
-      "to": "p_fae9ee",
-      "type": "business_connection",
-      "cases": [
-        "sc_5ab52eb9"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_84462b",
-      "to": "p_48dec4",
-      "type": "business_connection",
-      "cases": [
-        "sc_5ca3fbe1"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_c12937",
-      "to": "p_9048ce",
-      "type": "business_connection",
-      "cases": [
-        "sc_ef861937"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-31T10:37:15.204155+00:00",
+    "last_updated": "2026-07-30T10:22:57.252606+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23818214000000,
+    "total_involved_amount_huf": 24057894000000,
     "status_breakdown": {
-      "active": 193,
-      "investigation": 3,
-      "closed": 3,
+      "active": 190,
+      "investigation": 4,
+      "closed": 5,
       "appeal": 1
     },
     "category_breakdown": {
-      "korrupció": 25,
-      "pénzügyi": 165,
-      "közbeszerzés": 10
+      "korrupció": 28,
+      "pénzügyi": 160,
+      "közbeszerzés": 12
     },
     "sources": [
       "444",
@@ -7947,17 +8010,21 @@
       "HVG",
       "HVG Gazdaság",
       "Magyar Narancs",
+      "Szabad Európa",
       "Telex",
       "Átlátszó"
     ],
     "regions_covered": [
+      "Országos",
+      "Borsod-Abaúj-Zemplén",
+      "Somogy",
       "Csongrád-Csanád",
-      "Fejér",
-      "Tolna",
-      "Pest",
       "Budapest",
+      "Pest",
+      "Tolna",
       "Baranya",
-      "Győr-Moson-Sopron"
+      "Győr-Moson-Sopron",
+      "Fejér"
     ]
   }
 }

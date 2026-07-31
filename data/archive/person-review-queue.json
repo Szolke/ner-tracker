@@ -687,5 +687,22 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-07-31T10:37:15.212251+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Szuverenitásvédelmi Hivatal",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
