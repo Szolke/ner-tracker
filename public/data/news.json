@@ -1,6 +1,42 @@
 {
   "cases": [
     {
+      "id": "sc_79b8fa08",
+      "title": "Magyar Péter: 50 milliárddal terhelheti a költségvetést Paks kiesése",
+      "description": "Péntek délutánra sajtótájékoztatót hívott össze Paksra Magyar Péter és Kapitány István. Az atomerőművet le kell majd kapcsolni a Duna alacsony vízállása miatt. A hazai energiaszektor állapotát Brückner Gergellyel, a Telex gazdasági újságírójával elemezzük.",
+      "link": "https://telex.hu/video/2026/07/31/paks-energia-aramellatas-magyar-peter-kapitany-istvan-sajtotajekoztato",
+      "date": "2026-07-31",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 50000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_d1ecae",
+          "name": "Paksra Magyar",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9ec10c",
+          "name": "Kapitány István",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_7bd9b1",
+          "name": "Brückner Gergellyel",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_5ab52eb9",
       "title": "Forsthoffer Ágnes hivatala júniusban 20 millióval növelte a parkfenntartási maffiában érintett cég megbízását",
       "description": "A Parlament környékén az ügyészségi nyomozás alatt álló parkfenntartó maffia egyik cége gondozza a zöldfelületet tavaly november óta. A céget Kövér László házelnöksége idején bízták meg egy évre, Forsthoffer Ágnes hivatalba lépése után pedig 20 millióval megnövelték a nyertes cég megbízásának keretösszegét.",
@@ -5643,48 +5679,6 @@
           "url": "https://ec.europa.eu/competition/state_aid/cases/"
         }
       ]
-    },
-    {
-      "id": "case_009",
-      "title": "Budapest Airport visszavásárlása – 4,3 milliárd eurós állami ügylet",
-      "description": "A magyar állam 2023-ban 4,3 milliárd euróért visszavásárolta a Budapest Liszt Ferenc repülőteret. A tranzakció részleteit nem hozták teljesen nyilvánosságra, a vételár indokoltságát több közgazdász megkérdőjelezte.",
-      "link": "https://telex.hu/gazdasag/2023/11/20/budapest-airport-visszavasarlas",
-      "date": "2023-11-20",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Pest",
-      "coordinates": [
-        47.4369,
-        19.2556
-      ],
-      "amount_huf": 1550000000000,
-      "tags": [
-        "Budapest Airport",
-        "repülőtér",
-        "privatizáció",
-        "visszavásárlás"
-      ],
-      "involved_persons": [
-        {
-          "id": "p009",
-          "name": "Gulyás Gergely",
-          "position": "miniszterelnöki kabinetfőnök"
-        },
-        {
-          "id": "p002",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        }
-      ],
-      "verified": false,
-      "media_count": 44,
-      "status_history": [
-        {
-          "date": "2023-11-20",
-          "status": "active"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -7922,14 +7916,44 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_d1ecae",
+      "to": "p_9ec10c",
+      "type": "business_connection",
+      "cases": [
+        "sc_79b8fa08"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_d1ecae",
+      "to": "p_7bd9b1",
+      "type": "business_connection",
+      "cases": [
+        "sc_79b8fa08"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9ec10c",
+      "to": "p_7bd9b1",
+      "type": "business_connection",
+      "cases": [
+        "sc_79b8fa08"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-07-31T10:37:15.204155+00:00",
+    "last_updated": "2026-08-01T09:56:42.402266+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23818214000000,
+    "total_involved_amount_huf": 22318214000000,
     "status_breakdown": {
       "active": 193,
       "investigation": 3,
@@ -7952,12 +7976,11 @@
     ],
     "regions_covered": [
       "Csongrád-Csanád",
-      "Fejér",
-      "Tolna",
-      "Pest",
-      "Budapest",
       "Baranya",
-      "Győr-Moson-Sopron"
+      "Budapest",
+      "Fejér",
+      "Győr-Moson-Sopron",
+      "Tolna"
     ]
   }
 }

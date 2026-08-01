@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Fri, 31 Jul 2026 10:37:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 09:56:42 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Magyar Péter: 50 milliárddal terhelheti a költségvetést Paks kiesése]]></title>
+    <link>https://telex.hu/video/2026/07/31/paks-energia-aramellatas-magyar-peter-kapitany-istvan-sajtotajekoztato</link>
+    <guid>sc_79b8fa08</guid>
+    <pubDate>2026-07-31</pubDate>
+    <description><![CDATA[Péntek délutánra sajtótájékoztatót hívott össze Paksra Magyar Péter és Kapitány István. Az atomerőművet le kell majd kapcsolni a Duna alacsony vízállása miatt. A hazai energiaszektor állapotát Brückne | Budapest | 50000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Forsthoffer Ágnes hivatala júniusban 20 millióval növelte a parkfenntartási maffiában érintett cég megbízását]]></title>
     <link>https://magyarnarancs.hu/belpol/forsthoffer-agnes-hivatala-juniusban-200-millioval-novelte-a-parkfenntartasi-maffiaban-erintett-ceg-megbizasat-279839</link>
@@ -157,14 +165,6 @@
     <guid>sc_7e799857</guid>
     <pubDate>2026-07-29</pubDate>
     <description><![CDATA[A 24.hu összeszedte, hogyan alakult az előző év az Orbán család tagjaihoz fűződő cégekben. | Budapest | 70000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Rápörögtek a Redditen az új kormányzati kék plakátokra, Magyar Péter éjjel egykor szállt be a vitába]]></title>
-    <link>https://telex.hu/belfold/2026/07/29/kormanyzati-tajekoztatas-kek-plakat-reddit-magyar-peter-komment</link>
-    <guid>sc_3fd24bb1</guid>
-    <pubDate>2026-07-29</pubDate>
-    <description><![CDATA[A miniszterelnök szerint az új kormányzati tájékoztatókat össze se lehet hasonlítani a közpénzmilliárdokból finanszírozott gyűlöletkampánnyal. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
