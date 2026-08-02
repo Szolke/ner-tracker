@@ -717,5 +717,14 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-08-02T09:55:06.273686+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]

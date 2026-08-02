@@ -7949,7 +7949,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-02T09:55:06.266501+00:00",
+    "last_updated": "2026-08-01T09:56:42.402266+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -7975,12 +7975,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Baranya",
       "Csongrád-Csanád",
-      "Fejér",
-      "Tolna",
+      "Baranya",
       "Budapest",
-      "Győr-Moson-Sopron"
+      "Fejér",
+      "Győr-Moson-Sopron",
+      "Tolna"
     ]
   }
 }
