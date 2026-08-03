@@ -1,6 +1,134 @@
 {
   "cases": [
     {
+      "id": "sc_b4e5e073",
+      "title": "289 milliárdot fizet vissza az állam a szén-dioxid-kvóta-adó miatt, amit a Fidesz az ellenfeleire vetett ki",
+      "description": "A Bige László érdekeltségében lévő Nitrogénművek teljes árbevételének 12 százaléka ment el erre.",
+      "link": "https://444.hu/2026/08/03/289-milliardot-fizet-vissza-az-allam-a-szen-dioxid-kvota-ado-miatt-amit-a-fidesz-az-ellenfeleire-vetett-ki?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 289000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_d847ea",
+          "name": "Bige László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_ff53630a",
+      "title": "A költségvetés nagyot spórolt Mészáros Lőrincen",
+      "description": "A tervezettnél kevesebb rendelkezésre állási díjat fizetett a büdzsé a Mészáros Lőrinc és Szíjj László érdekeltségében álló sztrádakoncessziós társaságnak júniusban, az első félévben 2025 első hat hónapjához képest összesen 112 milliárd forinttal kevesebb volt a kiadás. Ennek is köszönhető, hogy júniusban príma eredményt, 424 milliárd forint többletet ért el a büdzsé.",
+      "link": "https://hvg.hu/gazdasag/20260803_junius-koltsegvetes-allamhaztartas-sztradakoncesszio-koncesszios-dij-ebx",
+      "date": "2026-08-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 112000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_3f0779",
+          "name": "Mészáros Lőrincen",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fbf7a2",
+          "name": "Szíjj László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_46d96953",
+      "title": "„A meccskezdéssel spóroltok, miközben a koncertek időpontjai kőbe van vésve?” – fideszes vádakkal üzentek a Fradi-szurkolók a kormánynak és az MLSZ-nek",
+      "description": "Becsúszott egy nyelvtani hiba is.",
+      "link": "https://hvg.hu/sport/20260803_ferencvaros-fradi-szurkolok-energiavalsag-molino-uzenet-fidesz-kubatov-gabor-magyar-kormany-mlsz",
+      "date": "2026-08-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_ad183a09",
+      "title": "Vitézy bejelentette: 2028-tól nem kell megfordítani a vonatokat Szombathely és Zalaegerszeg között",
+      "description": "Egy 12 milliárd forintos beruházásban új deltavágányt építenek, hogy gyorsabb legyen Szombathelyről Zalaegerszegre jutni.",
+      "link": "https://hvg.hu/gazdasag/20260803_vitezy-epitkezes-vonat-szombathely-zalaegerszeg-zalaszentivan",
+      "date": "2026-08-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Zala",
+      "coordinates": [
+        46.6678,
+        16.9897
+      ],
+      "amount_huf": 12000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_31f3db",
+          "name": "Szombathelyről Zalaegerszegre",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9e26efd7",
+      "title": "Magyar Péter: Remélhetőleg 50 milliárd forintnál kevesebbe fog kerülni Paks leállítása",
+      "description": "A miniszterelnök szerint az erőműveket felkészítették, „mindannyian vizsgázunk egy ilyen válsághelyzetben”. Forsthoffer Ágnes együttműködést és nyugalmat kért. Debrecenben vízkorlátozást vezettek be. Karácsony is takarékoskodásra kéri a fővárosiakat. A kánikula és az energiaválság hírei egy helyen, percről percre.",
+      "link": "https://telex.hu/belfold/2026/08/03/kanikula-hoseg-aszaly-energiavalsag-paks-aramszolgaltatas-vizellatas-magyar-peter-mvm",
+      "date": "2026-08-03",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 50000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_5ec4f1",
+          "name": "Forsthoffer Ágnes",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_79b8fa08",
       "title": "Magyar Péter: 50 milliárddal terhelheti a költségvetést Paks kiesése",
       "description": "Péntek délutánra sajtótájékoztatót hívott össze Paksra Magyar Péter és Kapitány István. Az atomerőművet le kell majd kapcsolni a Duna alacsony vízállása miatt. A hazai energiaszektor állapotát Brückner Gergellyel, a Telex gazdasági újságírójával elemezzük.",
@@ -5449,236 +5577,6 @@
           "status": "closed"
         }
       ]
-    },
-    {
-      "id": "case_004",
-      "title": "Állami hirdetési piac torzítása – kormányközeli médiakoncentráció",
-      "description": "Az állami hirdetési büdzsé 80-90%-a kormányközeli médiacégekhez kerül, miközben független újságírók és médiumok elvérznek. A KESMA (Közép-európai Sajtó és Média Alapítvány) 500+ médiaterméket olvasztott össze 2018-ban versenyhatósági vizsgálat nélkül.",
-      "link": "https://direkt36.hu/2023/09/05/allami-hirdetes-media-koncentracio",
-      "date": "2023-09-05",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "investigation",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 85000000000,
-      "tags": [
-        "KESMA",
-        "médiakoncentráció",
-        "állami hirdetés",
-        "sajtószabadság"
-      ],
-      "involved_persons": [
-        {
-          "id": "p005",
-          "name": "Habony Árpád",
-          "position": "kommunikációs tanácsadó"
-        },
-        {
-          "id": "p011",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        }
-      ],
-      "verified": true,
-      "media_count": 134,
-      "status_history": [
-        {
-          "date": "2023-09-05",
-          "status": "active"
-        },
-        {
-          "date": "2024-01-15",
-          "status": "investigation"
-        }
-      ]
-    },
-    {
-      "id": "case_005",
-      "title": "EU-s agrártámogatások koncentrációja Mészáros-közeli gazdáknál",
-      "description": "Magyarország az EU-s agrártámogatások elosztásában a legkoncentráltabb tagállam. A támogatások nagy része néhány száz, politikailag kapcsolt gazdasági szereplőhöz kerül. Az EPPO vizsgálata 2022-ben indult.",
-      "link": "https://telex.hu/belfold/2024/01/22/eu-agrar-tamogatas-koncentracio",
-      "date": "2024-01-22",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "appeal",
-      "region": "Csongrád-Csanád",
-      "coordinates": [
-        46.253,
-        20.1414
-      ],
-      "amount_huf": 42000000000,
-      "tags": [
-        "EU",
-        "agrártámogatás",
-        "koncentráció",
-        "EPPO"
-      ],
-      "involved_persons": [
-        {
-          "id": "p006",
-          "name": "Nagy István",
-          "position": "agrárminiszter"
-        },
-        {
-          "id": "p001",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó"
-        }
-      ],
-      "verified": true,
-      "media_count": 31,
-      "status_history": [
-        {
-          "date": "2024-01-22",
-          "status": "appeal"
-        }
-      ]
-    },
-    {
-      "id": "case_006",
-      "title": "Közfeladatot ellátó alapítványok – 700 milliárd Ft közpénz ellenőrzés nélkül",
-      "description": "2021-ben 11 állami egyetemet és több kulturális intézményt közfeladatot ellátó alapítványok kezelésébe adtak. Az érintett vagyon meghaladja a 700 milliárd forintot. Ezek az alapítványok nem tartoznak közbeszerzési kötelezettség alá és nem nyilvános auditkötelezettség alá. A kuratóriumokat az alapítók (minisztériumok) töltik fel – döntő részben Fidesz-kapcsolatú személyekkel.",
-      "link": "https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard",
-      "date": "2023-11-30",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "investigation",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 700000000000,
-      "tags": [
-        "alapítvány",
-        "egyetem",
-        "közpénz",
-        "transzparencia"
-      ],
-      "involved_persons": [
-        {
-          "id": "p007",
-          "name": "Kásler Miklós",
-          "position": "volt kulturális miniszter"
-        },
-        {
-          "id": "p008",
-          "name": "Palkovics László",
-          "position": "volt innovációs miniszter"
-        }
-      ],
-      "verified": true,
-      "media_count": 88,
-      "status_history": [
-        {
-          "date": "2023-11-30",
-          "status": "investigation"
-        }
-      ],
-      "document_links": [
-        {
-          "title": "Alapítványok listája – Kormány.hu",
-          "url": "https://kormany.hu/alapitvanyok"
-        },
-        {
-          "title": "HVG elemzés – 700 milliárd",
-          "url": "https://hvg.hu/itthon/2023/11/30/alapitvanyok-kozpenz-700-milliard"
-        }
-      ]
-    },
-    {
-      "id": "case_007",
-      "title": "Pegasus kémprogrammal való megfigyelés Magyarországon",
-      "description": "A Forbidden Stories és Amnesty International 2021-es vizsgálata szerint Magyarország az NSO Group Pegasus kémprogramját újságírók, ügyvédek, ellenzéki politikusok és üzletemberek megfigyelésére használta.",
-      "link": "https://direkt36.hu/2021/07/18/magyarorszagon-is-bevet-tek-a-pegasus-kemszoftvert/",
-      "date": "2021-07-18",
-      "source": "Direkt36",
-      "category": "korrupció",
-      "status": "closed",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3000000000,
-      "tags": [
-        "Pegasus",
-        "megfigyelés",
-        "kémszoftver",
-        "újságírók"
-      ],
-      "involved_persons": [
-        {
-          "id": "p011",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        }
-      ],
-      "verified": true,
-      "media_count": 12,
-      "status_history": [
-        {
-          "date": "2021-07-18",
-          "status": "closed"
-        }
-      ]
-    },
-    {
-      "id": "case_008",
-      "title": "Paksi atomerőmű bővítése – átláthatatlan orosz szerződés",
-      "description": "A Paks II bővítési projekt orosz–magyar kormányközi egyezményen alapul. A Rosatom-mal kötött megállapodás részleteit titkosították, az Európai Bizottság kifogásolta az átláthatóság hiányát. A projekt becsült költsége 15 milliárd euró – ez Magyarország éves GDP-jének ~10%-a. Az EB 2023-ban jóváhagyta, de feltételekkel.",
-      "link": "https://444.hu/2024/03/15/paks-ii-szerzodes-titok",
-      "date": "2024-03-15",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Tolna",
-      "coordinates": [
-        46.5722,
-        18.8561
-      ],
-      "amount_huf": 5400000000000,
-      "tags": [
-        "Paks",
-        "Rosatom",
-        "atomenergia",
-        "titkosítás",
-        "EU"
-      ],
-      "involved_persons": [
-        {
-          "id": "p002",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p009",
-          "name": "Gulyás Gergely",
-          "position": "miniszterelnöki kabinetfőnök"
-        }
-      ],
-      "verified": false,
-      "media_count": 156,
-      "status_history": [
-        {
-          "date": "2024-03-15",
-          "status": "active"
-        }
-      ],
-      "document_links": [
-        {
-          "title": "Paks II – Rosatom szerződés titkosítva",
-          "url": "https://444.hu/2024/03/15/paks-ii-szerzodes-titok"
-        },
-        {
-          "title": "EB kifogása – Paks II állami támogatás",
-          "url": "https://ec.europa.eu/competition/state_aid/cases/"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -7946,23 +7844,43 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_3f0779",
+      "type": "political_ally",
+      "cases": [
+        "sc_ff53630a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_3f0779",
+      "to": "p_fbf7a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_ff53630a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-02T09:55:06.266501+00:00",
+    "last_updated": "2026-08-03T11:20:31.154533+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 22318214000000,
+    "total_involved_amount_huf": 16551214000000,
     "status_breakdown": {
-      "active": 193,
-      "investigation": 3,
-      "closed": 3,
-      "appeal": 1
+      "active": 197,
+      "investigation": 1,
+      "closed": 2,
+      "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 25,
-      "pénzügyi": 165,
+      "korrupció": 23,
+      "pénzügyi": 167,
       "közbeszerzés": 10
     },
     "sources": [
@@ -7975,12 +7893,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Baranya",
+      "Zala",
       "Csongrád-Csanád",
+      "Győr-Moson-Sopron",
       "Fejér",
-      "Tolna",
-      "Budapest",
-      "Győr-Moson-Sopron"
+      "Baranya",
+      "Budapest"
     ]
   }
 }
