@@ -1,230 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_c8415f36",
-      "title": "Kikértük az adatokat, több tízmilliárdot költött az Orbán-állam külföldi ingatlanokra – a luxus sokszor fontosabb volt, mint a hasznosság",
-      "description": "Hiába van még Észak-Koreában is ingatlantulajdona Magyarországnak, az Orbán-kormány 16 évében tízmilliárdok mentek el reprezentatív külföldi épületek megvásárlására Washingtontól Teheránig – derült ki a HVG közérdekű adatigénylése nyomán. Mennyibe került a rekorder, a kulturális célokra megvásárolt Magyar Ház a londoni City közepén?",
-      "link": "https://hvg.hu/360/20260804_allami-ingatlan-tulajdon-kulfoldon-orban-kormanyok-kozerdeku-adatigenyles-hvg-ebx",
-      "date": "2026-08-04",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7c9ab0",
-          "name": "Washingtontól Teheránig",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_837e2612",
-      "title": "A kormány eláll a Tiborczékhoz köthető irodaház megvásárlásától",
-      "description": "Magyar Péter miniszterelnök szerint számos szerződésszegést találtak, ezért a NER-es köröktől 300 milliárd forintot követelnek vissza.",
-      "link": "https://444.hu/2026/08/03/a-kormany-elall-a-tiborczekhoz-kotheto-irodahaz-megvasarlasatol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-03",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 300000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_5dcbe78e",
-      "title": "40 milliárd forintot költött az Orbán-kormány külföldi ingatlanok vásárlására 16 év alatt",
-      "description": "A luxus sokszor fontosabb volt, mint a hasznosság.",
-      "link": "https://444.hu/2026/08/04/40-milliard-forintot-koltott-az-orban-kormany-kulfoldi-ingatlanok-vasarlasara-16-ev-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-04",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 40000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3de4eda7",
-      "title": "Százszorosan túlárazott földmutyiról ír Hadházy Ákos Paks II. kapcsán",
-      "description": "A paksi projektet vivő cég 2018 óta 32 milliárd forintért vásárolt olyan földeket, amelyek jó részére még csak szüksége sem volt. Volt olyan erdő, amit a piacihoz képest százszor drágábban vettek meg.",
-      "link": "https://hvg.hu/gazdasag/20260804_foldmutyi-tularazas-paks-ii-ingatlan-hadhazy-akos",
-      "date": "2026-08-04",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 32000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5e564094",
-      "title": "Mészáros Lőrinc gyára cáfolta Magyar Péter vádját",
-      "description": "Szerintük rövid időn belül válaszoltak a Mavir kérésére, hogy csökkentsék az áramfogyasztásukat.",
-      "link": "https://hvg.hu/kkv/20260804_meszaros-lorinc-kall-ingredients-opus-titasz-hunguest-magyar-peter-mavir",
-      "date": "2026-08-04",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        }
-      ]
-    },
-    {
-      "id": "sc_783e1328",
-      "title": "Saját céget alapított Hajdu János, a TEK volt főigazgatója, akit jogellenes fogvatartással gyanúsítanak",
-      "description": "Hajdu a Fidesz biztonsági főnöke lett, miután felmentették a TEK éléről.",
-      "link": "https://telex.hu/belfold/2026/08/03/ceget-alapitott-hajdu-janos-a-tek-volt-igazgatoja",
-      "date": "2026-08-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_3fb7b2",
-          "name": "Hajdu János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_c3181c1b",
-      "title": "Magyar Péter a Mavir vezénylő központjából megüzente Mészáros egyik érdekeltségének, hogy még nem késő visszafogni a fogyasztásukat",
-      "description": "A miniszterelnök szerint a nagyfogyasztó vállalatok már több mint 630 megawattnyi önkéntes korlátozást vállaltak.",
-      "link": "https://telex.hu/belfold/2026/08/03/magyar-peter-mavir-vezenylo-kozpont-nagyfogyasztok-paks-energiafogyasztas",
-      "date": "2026-08-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_85a71888",
-      "title": "1904 milliárd forintot költöttünk beruházásokra. De mit kaptunk cserébe?",
-      "description": "Az elmúlt években a kiosztott támogatási összeg nagyobbik része az akkumulátor- és a járműiparhoz kapcsolódott. De mekkora a befektetések támogatására fordított közpénz hatása a magyar gazdaság egészére?",
-      "link": "https://telex.hu/nevertek/2026/08/04/kulfoldi-beruhazas-gazdasagfejlesztes-export-kkv-k-hozzaadott-ertek",
-      "date": "2026-08-04",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1904000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_398ec88f",
-      "title": "Több tízmilliárd forintot költött külföldi ingatlanokra az Orbán-kormány 2010-től",
-      "description": "A Londoni Magyar Ház volt a legdrágább, a második helyen a müncheni főkonzulátus épülete áll.",
-      "link": "https://telex.hu/gazdasag/2026/08/04/kulfold-ingatlanvasarlas-allam",
-      "date": "2026-08-04",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_458d3c",
-          "name": "Londoni Magyar",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_f4a8e158",
-      "title": "Jócskán túlárazva vehetett földeket a Paks II.-t fejlesztő állami cég, Hadházy Ákos feljelentést tesz",
-      "description": "Az állami cég összesen csaknem 32 milliárd forintért vehetett, gyakran rossz minőségű földeket.",
-      "link": "https://telex.hu/gazdasag/2026/08/04/tularazas-paks-2-bovites-foldvasarlas-pip-nonprofit-kft-hadhazy-akos-feljelentes",
-      "date": "2026-08-04",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 32000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_b4e5e073",
       "title": "289 milliárdot fizet vissza az állam a szén-dioxid-kvóta-adó miatt, amit a Fidesz az ellenfeleire vetett ki",
       "description": "A Bige László érdekeltségében lévő Nitrogénművek teljes árbevételének 12 százaléka ment el erre.",
@@ -5433,6 +5209,374 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_ebe6af25",
+      "title": "A 3 milliárdos állami támogatás ellenére sem készült el az egyházi iskola Körömben",
+      "description": "A kivitelező DENCO Kft.-vel szerződést bontott az Egri Főegyházmegye, az alvállalkozók a pénzükre várnak.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/26/a-3-milliardos-allami-tamogatas-ellenere-sem-keszult-el-az-egyhazi-iskola-koromben/",
+      "date": "2026-06-26",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_600059",
+          "name": "Egri Főegyházmegye",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_155ac6a9",
+      "title": "A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus",
+      "description": "A Direkt36 munkatársai egy budai lakásban találták meg a hazájában korrupcióval vádolt Marcin Romanowskit. Az ingatlan egyik tulajdonosát tavaly ősszel szerződtette le a Kocsis Máté által vezetett fideszes frakció titkári feladatokra.\nThe post A Fidesz-frakció munkatársának lakásában lakik a Magyarországra menekült körözött lengyel politikus first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/a-fidesz-frakcio-munkatarsanak-lakasaban-lakik-a-magyarorszagra-menekult-korozott-lengyel-politikus/",
+      "date": "2026-04-28",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_aa05eb",
+          "name": "Marcin Romanowskit",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b1af4e",
+          "name": "Kocsis Máté",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_e960d544",
+      "title": "Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal",
+      "description": "A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolgozott. A volt miniszter állítja, hogy neki fogalma sem volt ezekről az üzletekről.\nThe post Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal first appeared on Direkt36.",
+      "link": "https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/",
+      "date": "2026-06-18",
+      "source": "Direkt36",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_5e4f38",
+          "name": "Benkő Szilárdnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9aa6e47a",
+      "title": "„A lényegi döntést, utasításokat hozó személyek a következők: Dr. Orbán Viktor volt miniszterelnök”",
+      "description": "Lapunk birtokába jutott egy fotó egy állítólagos ügyészségi dokumentumról. Felsorolják benne, kiknek a büntetőjogi felelősségét kellene tisztázni az úgynevezett aranykonvoj-ügyben. A nevek között ott van Orbán Viktoré is. Farkas Örs exállamtitkárról és Hajdu János ex-TEK-főigazgatóról azt írják, „gyanúsítotti kihallgatásuk indokolt”. Az ügyészség a nyomozásra hivatkozva érdemben nem válaszolt a ké",
+      "link": "https://444.hu/2026/06/25/a-lenyegi-dontest-utasitasokat-hozo-szemelyek-a-kovetkezok-dr-orban-viktor-volt-miniszterelnok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_113aac",
+          "name": "Orbán Viktoré",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ffe26c",
+          "name": "Farkas Örs",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_dc06e222",
+      "title": "Fideszesek vezetőszáron",
+      "description": "Letartóztatott politikusok, Orbán neve az ügyészségi iratokban, Szentendre jövője, minden a focivébéről és 3T a 444 napindító hírlevelében.",
+      "link": "https://444.hu/2026/06/26/fideszesek-vezetoszaron?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_76a07a89",
+      "title": "A Tisza a korrupciós polippal, a Fidesz a Tisza felelősségvállalásának hiányával ugrott neki a Fővárosi Közgyűlés ülésének",
+      "description": "A képviselők meghallgatták az új rendőrfőkapitányt is, aki szerint mindent megtettek a Pride biztonságos lebonyolítása érdekében",
+      "link": "https://444.hu/2026/06/26/a-tisza-a-korrupcios-polippal-a-fidesz-a-tisza-felelossegvallalasanak-hianyaval-ugrott-neki-a-fovarosi-kozgyules-ulesenek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_67f8a8",
+          "name": "Fővárosi Közgyűlés",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d0d65b11",
+      "title": "Letartóztatták Fonyód korábbi, fideszes polgármesterét",
+      "description": "Az ügyészség szerint a gazdasági csalással és pénzmosással gyanúsított Hidvégi József esetében fennáll az elrejtőzés és az eljárás meghiúsításának veszélye.",
+      "link": "https://444.hu/2026/06/26/letartoztattak-fonyod-korabbi-fideszes-polgarmesteret?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_9430f8",
+          "name": "Letartóztatták Fonyód",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0df029",
+          "name": "Hidvégi József",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "case_001",
+      "title": "Elios Innovatív Zrt. – EU-s közvilágítási pályázat csalás",
+      "description": "Az Elios Innovatív Zrt., amelynek tulajdonosa Tiborcz István volt (Orbán Viktor veje), mintegy 35 milliárd forintnyi EU-s közvilágítási fejlesztési pályázatot nyert 35 magyar önkormányzatnál versenykorlátozó módon. Az OLAF 2017-ben megállapította a szabálytalanságot és javasolta az EU-s támogatások visszafizettetését. A magyar ügyészség nem emelt vádat.",
+      "link": "https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/",
+      "date": "2017-03-02",
+      "source": "Direkt36",
+      "category": "korrupció",
+      "status": "closed",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 35000000000,
+      "tags": [
+        "Elios",
+        "EU-s pályázat",
+        "közvilágítás",
+        "OLAF",
+        "visszafizetés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p013",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán vejé"
+        },
+        {
+          "id": "p014",
+          "name": "Polt Péter",
+          "position": "legfőbb ügyész"
+        }
+      ],
+      "verified": true,
+      "media_count": 47,
+      "status_history": [
+        {
+          "date": "2017-03-02",
+          "status": "active"
+        },
+        {
+          "date": "2017-09-15",
+          "status": "investigation"
+        },
+        {
+          "date": "2019-06-01",
+          "status": "closed"
+        }
+      ],
+      "document_links": [
+        {
+          "title": "OLAF jelentés – Elios vizsgálat",
+          "url": "https://ec.europa.eu/anti-fraud/investigations/olaf-reports_en"
+        },
+        {
+          "title": "Elios – Direkt36 eredeti cikk",
+          "url": "https://direkt36.hu/2017/03/02/az-olaf-megallapitotta-az-elios-csalta-az-eu-t/"
+        }
+      ]
+    },
+    {
+      "id": "case_002",
+      "title": "Mészáros Lőrinc vagyongyarapodása – felcsúti vállalkozóból oligarcha",
+      "description": "Mészáros Lőrinc 2010 és 2023 között hazája egyik leggazdagabb emberévé vált – kizárólag állami megrendelések révén. Vagyona becslések szerint 600–800 milliárd forintra nőtt. Cégei évente több százmilliárd forintnyi állami megrendelést kapnak, jellemzően kevés versenytárssal zajló közbeszerzési eljárásokon. Az EPPO 2022 óta vizsgálja az EU-s forrásokkal kapcsolatos ügyleteit.",
+      "link": "https://telex.hu/gazdasag/2023/04/12/meszaros-lorinc-vagyon-cegek",
+      "date": "2023-04-12",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "investigation",
+      "region": "Fejér",
+      "coordinates": [
+        47.5833,
+        18.7167
+      ],
+      "amount_huf": 280000000000,
+      "tags": [
+        "Mészáros",
+        "vagyongyarapodás",
+        "közbeszerzés",
+        "állami megrendelés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p001",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ],
+      "verified": true,
+      "media_count": 189,
+      "status_history": [
+        {
+          "date": "2023-04-12",
+          "status": "active"
+        },
+        {
+          "date": "2023-11-01",
+          "status": "investigation"
+        }
+      ],
+      "document_links": [
+        {
+          "title": "Mészáros cégbirodalom – Forbes elemzés",
+          "url": "https://forbes.hu/uzlet/meszaros-lorinc-ceges-vagyon/"
+        },
+        {
+          "title": "Közpénz Monitor – Mészáros",
+          "url": "https://kozpenzmonitor.hu"
+        }
+      ]
+    },
+    {
+      "id": "case_003",
+      "title": "Közgép Zrt. – útépítési monopólium közbeszerzési manipulációval",
+      "description": "A Mészáros-érdekeltségű Közgép Zrt. a 2010-es évektől dominálta az állami útépítési megrendeléseket. Az Állami Számvevőszék és független elemzők szerint a közbeszerzési eljárások eredményei előre kiszámíthatók voltak.",
+      "link": "https://hvg.hu/gazdasag/2019/06/15/kozgep-utepites-kozbeszerzas",
+      "date": "2019-06-15",
+      "source": "HVG",
+      "category": "közbeszerzés",
+      "status": "closed",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 120000000000,
+      "tags": [
+        "Közgép",
+        "útépítés",
+        "közbeszerzés",
+        "monopólium"
+      ],
+      "involved_persons": [
+        {
+          "id": "p001",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó"
+        },
+        {
+          "id": "p012",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ],
+      "verified": true,
+      "media_count": 23,
+      "status_history": [
+        {
+          "date": "2019-06-15",
+          "status": "active"
+        },
+        {
+          "date": "2020-03-01",
+          "status": "investigation"
+        },
+        {
+          "date": "2021-05-10",
+          "status": "closed"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -7723,21 +7867,21 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-04T10:36:35.377425+00:00",
+    "last_updated": "2026-08-03T11:20:31.154533+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 18421214000000,
+    "total_involved_amount_huf": 16551214000000,
     "status_breakdown": {
-      "active": 200,
-      "investigation": 0,
-      "closed": 0,
+      "active": 197,
+      "investigation": 1,
+      "closed": 2,
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 19,
-      "pénzügyi": 172,
-      "közbeszerzés": 9
+      "korrupció": 23,
+      "pénzügyi": 167,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -7749,12 +7893,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Baranya",
-      "Csongrád-Csanád",
       "Zala",
-      "Budapest",
+      "Csongrád-Csanád",
+      "Győr-Moson-Sopron",
       "Fejér",
-      "Győr-Moson-Sopron"
+      "Baranya",
+      "Budapest"
     ]
   }
 }
