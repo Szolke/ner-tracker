@@ -1,137 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_b3eb0e44",
-      "title": "Meglendült a Mészáros-részvények forgalma, miután bóvli kategóriába minősítették le hétfőn",
-      "description": "Kedd reggel szokatlanul sokan kereskedtek a leminősített Opus-papírokkal, majd elfogyott a lendület. Közben az MBH Bank részvényeiből is adtak-vettek bő egy milliárd forintnyit.",
-      "link": "https://hvg.hu/gazdasag/20260804_meglendul-meszaros-reszveny-forgalom-bovli-kategoria-leminosites-opus",
-      "date": "2026-08-04",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_25129cda",
-      "title": "Vagyonvisszaszerzési eljárást kérnek a tiszások a Rogán feleségének falujában megvásárolt kastély miatt",
-      "description": "A Nemzeti Vagyonvisszaszerzési és Vagyonédelmi Hivatal vizsgálatát kezdeményezte a dédestapolcsányi Serényi-kastély tulajdonosi hátterének felderítésére a Sajó-völgyi Tisza-közösség. A műemlék épületet 2021 nyarán vásárolta meg Rogán Antal feleségének falujában a budapesti belvárosban a fideszes politikus polgármestersége idején kedvező áron ingatlanokhoz jutott ügyvéd, aki azóta már tovább adta a",
-      "link": "https://magyarnarancs.hu/belpol/vagyonvisszaszerzesi-eljarast-kernek-a-tiszasok-a-rogan-felesegenek-falujaban-megvasarolt-kastely-miatt-279851",
-      "date": "2026-08-05",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_8911ce",
-          "name": "Időközben Tiborcz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_e960d544",
-      "title": "Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal",
-      "description": "A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolgozott. A volt miniszter állítja, hogy neki fogalma sem volt ezekről az üzletekről.\nThe post Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal first appeared on Direkt36.",
-      "link": "https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/",
-      "date": "2026-06-18",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_5e4f38",
-          "name": "Benkő Szilárdnak",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a2c2e5c9",
-      "title": "Csak áramra százmilliárdokkal többet kell költenie az országnak a hőség miatt, és nagy a baj a földeken is",
-      "description": "A szárazság miatt kevesebb az áram, miközben a hőség miatt több kellene. Paks nagyon olcsón termel, ezért pénzügyileg is fájó, hogy nyolc turbinájából hét leállt. Gazdasági sokkot nem okoz a krízis, de lesznek fájdalmas hatásai.",
-      "link": "https://444.hu/2026/08/05/hoseg-aszaly-vizhiany-duna-paks-atomeromu-aram-villamosenergia-gdp-inflacio?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-05",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_e1d19f84",
-      "title": "Vitézy Dávid leállíttatta a MÁV fakivágását Zuglóban, és teljes felülvizsgálatot kért",
-      "description": "Saját főtájépítésze is lesz a MÁV-nak, közölte a miniszter.",
-      "link": "https://telex.hu/belfold/2026/08/05/vitezy-david-mav-zuglo-vasut-fakivagas-leallitas-zoldites-klimavaltozas-fenntarthato",
-      "date": "2026-08-05",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
-    },
-    {
       "id": "sc_c8415f36",
       "title": "Kikértük az adatokat, több tízmilliárdot költött az Orbán-állam külföldi ingatlanokra – a luxus sokszor fontosabb volt, mint a hasznosság",
       "description": "Hiába van még Észak-Koreában is ingatlantulajdona Magyarországnak, az Orbán-kormány 16 évében tízmilliárdok mentek el reprezentatív külföldi épületek megvásárlására Washingtontól Teheránig – derült ki a HVG közérdekű adatigénylése nyomán. Mennyibe került a rekorder, a kulturális célokra megvásárolt Magyar Ház a londoni City közepén?",
@@ -5427,6 +5296,143 @@
         "IT"
       ],
       "involved_persons": []
+    },
+    {
+      "id": "sc_6d1adc98",
+      "title": "Galyatetői hotel: Tiborcz István és Orbán Ráhel is felügyeli a közpénzmilliárdos beruházást",
+      "description": "A tulajdonos Galya Top Property Kft. szerint a BDPST Zrt. csak vállalkozóként irányítja a beruházást, amely a 3,9 milliárdos állami támogatás ellenére sem készült el.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/06/15/galyatetoi-hotel-tiborcz-istvan-es-orban-rahel-is-felugyeli-a-kozpenzmilliardos-beruhazast/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3900000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó"
+        },
+        {
+          "id": "p_845761",
+          "name": "Orbán Ráhel",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_8f7d32",
+          "name": "Galya Top",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b67cf6",
+          "name": "Property Kft",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8d448f52",
+      "title": "1,2 milliárdos szerződést húzott ki Tiborczék cégének zsebéből Vitézy minisztériuma",
+      "description": "A Pannon Busz-Rent Kft.és az INFINITOURS Kft. hiába nyerte el a MÁV vonatpótló buszokra kiírt tenderét, mégsem írhatják alá a szerződést.",
+      "link": "https://atlatszo.hu/kozpenz/2026/06/15/12-milliardos-szerzodest-huzott-ki-tiborczek-cegenek-zsebebol-vitezy-miniszteriuma/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [
+        "IT",
+        "tender"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_4b608f",
+          "name": "Pannon Busz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_056b8f",
+          "name": "Rent Kft",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_dfd582e9",
+      "title": "Játékmotorok: hűtlen kezelés miatt nyomoznak az általunk kiderített túlárazás kapcsán",
+      "description": "Egy közadatigénylésünkből derültek ki a részletek, amit a Fidesz-kormány nem, de az új Tisza-kormány megválaszolt.",
+      "link": "https://atlatszo.hu/impakt/2026/06/15/jatekmotorok-hutlen-kezeles-miatt-nyomoznak-az-altalunk-kideritett-tularazas-kapcsan/",
+      "date": "2026-06-15",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5fd005dc",
+      "title": "Elapadtak az állami milliárdok, összezsugorodik a Fidesz médiabirodalma",
+      "description": "Tömeges leépítési hullám a NER-közeli kiadóknál: a választási vereséggel elapadó állami hirdetési pénzek miatt lapbezárások, elbocsátások és megszorítások söpörnek végig a szebb napokat látott orbáni propagandagépezeten.",
+      "link": "https://atlatszo.hu/kozugy/2026/06/17/elapadtak-az-allami-milliardok-osszezsugorodik-a-fidesz-mediabirodalma/",
+      "date": "2026-06-17",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_4f7ddf68",
+      "title": "Nyomozás a MOL-alapítványnál, létszámleépítés a Mediaworksnél",
+      "description": "Heti lapszemlénk.",
+      "link": "https://atlatszo.hu/mutyimondo/2026/06/19/nyomozas-a-mol-alapitvanynal-letszamleepites-a-mediaworksnel/",
+      "date": "2026-06-19",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_61db9a",
+          "name": "Mediaworksnél Heti",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -7714,44 +7720,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_1b5e4f",
-      "to": "p_358ac9",
-      "type": "political_ally",
-      "cases": [
-        "sc_25129cda"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1b5e4f",
-      "to": "p_8911ce",
-      "type": "political_ally",
-      "cases": [
-        "sc_25129cda"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_8911ce",
-      "type": "business_connection",
-      "cases": [
-        "sc_25129cda"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-05T10:32:22.282463+00:00",
+    "last_updated": "2026-08-04T10:36:35.377425+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 18416114000000,
+    "total_involved_amount_huf": 18421214000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -7760,8 +7736,8 @@
     },
     "category_breakdown": {
       "korrupció": 19,
-      "pénzügyi": 173,
-      "közbeszerzés": 8
+      "pénzügyi": 172,
+      "közbeszerzés": 9
     },
     "sources": [
       "444",
@@ -7773,11 +7749,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Zala",
       "Baranya",
+      "Csongrád-Csanád",
+      "Zala",
       "Budapest",
       "Fejér",
-      "Csongrád-Csanád",
       "Győr-Moson-Sopron"
     ]
   }

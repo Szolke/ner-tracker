@@ -764,5 +764,26 @@
         "reason": "blacklisted_institution_pattern"
       }
     ]
+  },
+  {
+    "run_at": "2026-08-05T10:32:22.290674+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Nemzeti Vagyonvisszaszerzési",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Vagyonédelmi Hivatal",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Ház",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
   }
 ]
