@@ -1,63 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_f53d2a59",
-      "title": "Matusik Tamás, a Fővárosi Törvényszék elnöke: A bírói kar azt várja, hogy ne lincshangulatban kelljen működnie",
-      "description": "Mérnökcsaládból ment a jogi karra, a nyomozási bírói pályára a 2006-os demonstrációk terelték. Nem gondolta volna, hogy ilyen viharos lesz az Országos Bírói Tanácsban eltöltött hat évük, a lejárató kampányokért „borzasztó” árat fizettek. A Fővárosi Törvényszék új elnökeként fontosnak tartja, hogy eltöröljék azokat a jogalkotási változásokat, amiket az Orbán-kormány az utolsó évében vezetett be pol",
-      "link": "https://hvg.hu/360/20260806_matusik-tamas-fovarosi-torvenyszek-elnok-hvg-portre-interju",
-      "date": "2026-08-06",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_71fbb8",
-          "name": "Matusik Tamás",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_9d0eee",
-          "name": "Országos Bírói",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_fac478e0",
-      "title": "A Duna apad, de mit tesz a Tisza? Mi lesz a hazai akkumulátorgyártással?",
-      "description": "Az Fidesz-kormány átfogó környezeti vizsgálatok nélkül fogadta el az akkumulátorgyártásra vonatkozó országos stratégiát. Az új kormánynak az energiaválság közepette kell számot vetnie az akkumulátoripar jövőjével. Vélemény.",
-      "link": "https://hvg.hu/360/20260806_duna-tisza-part-akkumulator-gyartas-szabalyozas-akerteis-magyar-akkumulator-szovetseg-energiavalsag",
-      "date": "2026-08-06",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_8ac64c",
-          "name": "Az Fidesz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_b3eb0e44",
       "title": "Meglendült a Mészáros-részvények forgalma, miután bóvli kategóriába minősítették le hétfőn",
       "description": "Kedd reggel szokatlanul sokan kereskedtek a leminősített Opus-papírokkal, majd elfogyott a lendület. Közben az MBH Bank részvényeiből is adtak-vettek bő egy milliárd forintnyit.",
@@ -5438,6 +5381,52 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_f7a1e643",
+      "title": "Utolérheti a Tisztítótűz művelet a Mol-vezért?│Elvitelre",
+      "description": "Elvitelre – a podcast, amelyben a hét legjobb HVG hetilapos és hvg360-as anyagaiból válogatunk. A héten: milliárdos károk és egy távozó miniszterelnök.",
+      "link": "https://hvg.hu/itthon/20260627_utolerheti-a-tisztitotuz-muvelet-a-mol-vezert-elvitelre",
+      "date": "2026-06-27",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_24bd5e",
+          "name": "Elvitelre Elvitelre",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_660f0b02",
+      "title": "Törvényt sérthet a Mohu, amikor díjat számít fel az építési hulladék leadásáért a lakosságtól",
+      "description": "Az állítólagos visszaélések miatt a Mohu július 1-től nem biztosítja az építési-bontási hulladék bizonyos kvótáig ingyenes leadását a lakosság számára, ez azonban a kormányhivatal szerint megsérti a hulladéktörvény rendelkezéseit. Az új, fizetős rendszer a szakemberek szerint az illegális szemétlerakást növeli.",
+      "link": "https://hvg.hu/360/20260627_mohu-bontasi-hulladek-sitt-hulladekudvar-lakossagi-dij-jogsertes",
+      "date": "2026-06-27",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
     }
   ],
   "investigations": [
@@ -7755,20 +7744,10 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_71fbb8",
-      "to": "p_9d0eee",
-      "type": "business_connection",
-      "cases": [
-        "sc_f53d2a59"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-06T10:36:27.596632+00:00",
+    "last_updated": "2026-08-05T10:32:22.282463+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -7795,10 +7774,10 @@
     ],
     "regions_covered": [
       "Zala",
-      "Fejér",
-      "Budapest",
-      "Csongrád-Csanád",
       "Baranya",
+      "Budapest",
+      "Fejér",
+      "Csongrád-Csanád",
       "Győr-Moson-Sopron"
     ]
   }

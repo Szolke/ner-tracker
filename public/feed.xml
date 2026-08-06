@@ -5,8 +5,24 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Wed, 05 Aug 2026 10:32:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 10:36:27 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Matusik Tamás, a Fővárosi Törvényszék elnöke: A bírói kar azt várja, hogy ne lincshangulatban kelljen működnie]]></title>
+    <link>https://hvg.hu/360/20260806_matusik-tamas-fovarosi-torvenyszek-elnok-hvg-portre-interju</link>
+    <guid>sc_f53d2a59</guid>
+    <pubDate>2026-08-06</pubDate>
+    <description><![CDATA[Mérnökcsaládból ment a jogi karra, a nyomozási bírói pályára a 2006-os demonstrációk terelték. Nem gondolta volna, hogy ilyen viharos lesz az Országos Bírói Tanácsban eltöltött hat évük, a lejárató ka | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A Duna apad, de mit tesz a Tisza? Mi lesz a hazai akkumulátorgyártással?]]></title>
+    <link>https://hvg.hu/360/20260806_duna-tisza-part-akkumulator-gyartas-szabalyozas-akerteis-magyar-akkumulator-szovetseg-energiavalsag</link>
+    <guid>sc_fac478e0</guid>
+    <pubDate>2026-08-06</pubDate>
+    <description><![CDATA[Az Fidesz-kormány átfogó környezeti vizsgálatok nélkül fogadta el az akkumulátorgyártásra vonatkozó országos stratégiát. Az új kormánynak az energiaválság közepette kell számot vetnie az akkumulátorip | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Meglendült a Mészáros-részvények forgalma, miután bóvli kategóriába minősítették le hétfőn]]></title>
     <link>https://hvg.hu/gazdasag/20260804_meglendul-meszaros-reszveny-forgalom-bovli-kategoria-leminosites-opus</link>
@@ -149,22 +165,6 @@
     <guid>sc_46d96953</guid>
     <pubDate>2026-08-03</pubDate>
     <description><![CDATA[Becsúszott egy nyelvtani hiba is. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Vitézy bejelentette: 2028-tól nem kell megfordítani a vonatokat Szombathely és Zalaegerszeg között]]></title>
-    <link>https://hvg.hu/gazdasag/20260803_vitezy-epitkezes-vonat-szombathely-zalaegerszeg-zalaszentivan</link>
-    <guid>sc_ad183a09</guid>
-    <pubDate>2026-08-03</pubDate>
-    <description><![CDATA[Egy 12 milliárd forintos beruházásban új deltavágányt építenek, hogy gyorsabb legyen Szombathelyről Zalaegerszegre jutni. | Zala | 12000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Magyar Péter: Remélhetőleg 50 milliárd forintnál kevesebbe fog kerülni Paks leállítása]]></title>
-    <link>https://telex.hu/belfold/2026/08/03/kanikula-hoseg-aszaly-energiavalsag-paks-aramszolgaltatas-vizellatas-magyar-peter-mvm</link>
-    <guid>sc_9e26efd7</guid>
-    <pubDate>2026-08-03</pubDate>
-    <description><![CDATA[A miniszterelnök szerint az erőműveket felkészítették, „mindannyian vizsgázunk egy ilyen válsághelyzetben”. Forsthoffer Ágnes együttműködést és nyugalmat kért. Debrecenben vízkorlátozást vezettek be.  | Budapest | 50000 M HUF | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
