@@ -1,6 +1,197 @@
 {
   "cases": [
     {
+      "id": "sc_08b4e24a",
+      "title": "Mészáros Lőrinc alapkezelője kihátrált, Jellinek Dánielé pedig visszafizette a több milliárdos állami tőketámogatást",
+      "description": "Az MBH és az Indotek alapkezelője is elállt a Lakhatási Tőkeprogramban elnyert tőkeinjekciótól. Ez alapkezelőnként 5 és 20 milliárd forint közé tehető összeget jelent.",
+      "link": "https://magyarnarancs.hu/belpol/meszaros-lorinc-alapkezeloje-kihatralt-jellinek-daniele-pedig-visszafizette-a-tobb-milliardos-allami-toketamogatast-279892",
+      "date": "2026-08-07",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 20000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_b6659c",
+          "name": "Jellinek Dánielé",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c16a28",
+          "name": "Lakhatási Tőkeprogramban",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_45bdcdfd",
+      "title": "Félmilliárd forintot kapott a CÖF „magyarországi vállalkozásoktól” 2025-ben",
+      "description": "Plusz 1,5 millió forintot magánszemélyektől, 80 milliót a Fidesz pártalapítványától, adó 1%-ból pedig 4,5 millió forintot kaptak a Békemenetek szervezői.",
+      "link": "https://atlatszo.hu/kozugy/2026/08/07/felmilliard-forintot-kapott-a-cof-magyarorszagi-vallalkozasoktol-2025-ben/",
+      "date": "2026-08-07",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 5000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_2c15d240",
+      "title": "„Ez most mire volt jó, kedves Takács Péter?” – Gajdos László videóban mondta el, hogy a fideszesek vádjaival ellentétben nem ment szabadságra a vízügyért felelős államtitkára",
+      "description": "Csak ment volna.",
+      "link": "https://444.hu/2026/08/06/ez-most-mire-volt-jo-kedves-takacs-peter-gajdos-laszlo-videoban-mondta-el-hogy-a-fideszesek-vadjaival-ellentetben-nem-ment-szabadsagra-a-vizugyert-felelos-allamtitkara?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-06",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c3a0b3",
+          "name": "Takács Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_53e979",
+          "name": "Gajdos László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a8774c4f",
+      "title": "Az Orbán-kormány 7,2 milliárdért nyitott volna luxuséttermet Brüsszelben",
+      "description": "A Brüsszeli Magyar Ház melletti ingatlant vették volna meg Orbánék, az üzlet végül nem a kormányváltás miatt hiúsult meg.",
+      "link": "https://444.hu/2026/08/07/az-orban-kormany-72-milliardert-nyitott-volna-luxusettermet-brusszelben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-07",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c730ca",
+          "name": "Brüsszeli Magyar",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_444c3152",
+      "title": "„Ez most mire volt jó, kedves Takács Péter?” – Gajdos László megvédte államtitkárát, akit fideszesek azzal vádoltak meg, hogy krízishelyzetben ment nyaralni",
+      "description": "A tárcavezető szerint Kelemen Ágnes tervezetten ment volna szabadságra, de a hőség és vízhiány miatt azt elhalasztotta.",
+      "link": "https://hvg.hu/itthon/20260807_gajdos-laszlo-vizugyi-es-klimapolitikaert-felelos-allamtitkar-fidesz-takacs-peter",
+      "date": "2026-08-07",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c3a0b3",
+          "name": "Takács Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_53e979",
+          "name": "Gajdos László",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b0f7e8",
+          "name": "Kelemen Ágnes",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2bfe5f82",
+      "title": "Zsíros üzletről maradt le egy NER-es cég – luxuséttermet tervezett az Orbán-kormány Brüsszel központjába milliárdokért",
+      "description": "Újabb értékes brüsszeli ingatlan megvásárlására készült az Orbán-kormány a magyar EU-elnökség sok milliárdos főhadiszállása mellett. A házban a magyar gasztronómiát népszerűsítő exkluzív éttermet is nyitottak volna. Nem a kormányváltáson múlt, hogy mégsem költöttek el erre közpénzből 7,2 milliárd forintot.",
+      "link": "https://hvg.hu/360/20260807_brusszel-luxusetterem-orban-kormany-7-2-milliard-forint-ner",
+      "date": "2026-08-07",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_d124b749",
+      "title": "7,2 milliárd forintért vett volna Brüsszel központjában luxusétteremmel bővített ingatlant az Orbán-kormány",
+      "description": "A vásárlás végül nem a kormányváltás miatt hiúsult meg.",
+      "link": "https://telex.hu/belfold/2026/08/07/brusszel-ingatlan-fine-dining-luxusetterem-orban-kormany-vasarol-meghiusul",
+      "date": "2026-08-07",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_f53d2a59",
       "title": "Matusik Tamás, a Fővárosi Törvényszék elnöke: A bírói kar azt várja, hogy ne lincshangulatban kelljen működnie",
       "description": "Mérnökcsaládból ment a jogi karra, a nyomozási bírói pályára a 2006-os demonstrációk terelték. Nem gondolta volna, hogy ilyen viharos lesz az Országos Bírói Tanácsban eltöltött hat évük, a lejárató kampányokért „borzasztó” árat fizettek. A Fővárosi Törvényszék új elnökeként fontosnak tartja, hogy eltöröljék azokat a jogalkotási változásokat, amiket az Orbán-kormány az utolsó évében vezetett be pol",
@@ -5231,213 +5422,6 @@
         "IT"
       ],
       "involved_persons": []
-    },
-    {
-      "id": "sc_8cb8044a",
-      "title": "1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége",
-      "description": "Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi...",
-      "link": "https://atlatszo.hu/kozpenz/2021/08/12/18-milliard-forintot-oszthat-folyoiratoknak-demeter-szilard-kulturalis-ugynoksege/",
-      "date": "2021-08-12",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1800000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_ccfee4",
-          "name": "Demeter Szilárd",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b061033a",
-      "title": "Nem egyedi eset a Pegasus-ügy, Európa-szerte megfigyelnek újságírókat és aktivistákat",
-      "description": "Görögországban idén börtönbüntetést kapott a megfigyelési botrány több szereplője, de általában következmény nélkül maradt a civil szervezet és újságírók lehallgatása.",
-      "link": "https://atlatszo.hu/vilagterkep/2026/06/17/nem-egyedi-eset-a-pegasus-ugy-europa-szerte-megfigyelnek-ujsagirokat-es-aktivistakat/",
-      "date": "2026-06-17",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_89116ad6",
-      "title": "Merre tart az ezeréves német-magyar kapcsolat a kormányváltás után?",
-      "description": "A NER időszakában Alice Weidel többször járt Magyarországon, mint Angela Merkel, Olaf Scholz és Friedrich Merz együttvéve.",
-      "link": "https://atlatszo.hu/vilagterkep/2026/06/18/merre-tart-az-ezereves-nemet-magyar-kapcsolat-a-kormanyvaltas-utan/",
-      "date": "2026-06-18",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "OLAF"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_59a024",
-          "name": "Alice Weidel",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_ad74e5",
-          "name": "Angela Merkel",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6d3789",
-          "name": "Olaf Scholz",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_ff4e55",
-          "name": "Friedrich Merz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_76a34814",
-      "title": "Katasztrofális állapotban a Tiborcz Istvánnal üzletelő szaúdi milliárdoshoz került hőgyészi Apponyi-kastély",
-      "description": "Az egykor messze földön híres műemlék kastélyszálló most betört ablakokkal, lyukas tetővel, penészes, leázott, helyenként leomlott falakkal várja, hogy összedőljön. Videóriport.",
-      "link": "https://atlatszo.hu/orszagszerte/2026/06/25/katasztrofalis-allapotban-a-tiborcz-istvannal-uzletelo-szaudi-milliardoshoz-kerult-hogyeszi-apponyi-kastely/",
-      "date": "2026-06-25",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó"
-        },
-        {
-          "id": "p_2ce1f1",
-          "name": "Tiborcz Istvánnal",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_e0b18b42",
-      "title": "Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátjának",
-      "description": "Benkő Szilárd régóta közeli barátja Szijjártó Péternek. Nemrég két másik céggel közösen egy ruandai, magyar állami pénzekkel finanszírozott beruházásban kapott munkát az egyik érdekeltsége. Podcastunkban az ügy hátteréről és arról is beszélgettünk, tudott-e a korábbi külügyminiszter barátja sikeréről.\nThe post Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátján",
-      "link": "https://www.direkt36.hu/direkt36-podcast-afrikaban-is-jutott-kulugyes-biznisz-szijjarto-peter-legjobb-baratjanak/",
-      "date": "2026-06-24",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_6159d1",
-          "name": "Benkő Szilárd",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_0353fb",
-          "name": "Szijjártó Péternek",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_9627f208",
-      "title": "Több mint 12 milliárd forint közpénz jutott el alapítása óta az erdélyi médiabirodalomhoz",
-      "description": "A juttatások nagy részét titkolt határozatokban osztotta ki.",
-      "link": "https://hvg.hu/elet/20260628_tobb-mint-12-milliard-forint-kozpenz-jutott-alapitasa-ota-az-erdelyi-mediabirodalomhoz",
-      "date": "2026-06-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 12000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_29046c36",
-      "title": "Eltett 60 üveg befőttet, majd törvénytervezetet olvasott és ettől ávéházni kezdett a fideszes Czunyiné, a Védvonal vezetője",
-      "description": "Új Államvédelmi Hatóság épül – elég a gyanú... – elmélkedett a Nemzeti Vagyonvisszaszerzési és Védelmi Hivatalról a fideszes jogsegélyszolgálat, az Orbán Viktor ötletére alapított Védvonal vezetője.",
-      "link": "https://hvg.hu/itthon/20260628_czunyine-mar-az-avh-t-emlegeti-az-vagyonvisszaszerzesi-hivatal",
-      "date": "2026-06-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_082c4e",
-          "name": "Új Államvédelmi",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_e9acad",
-          "name": "Nemzeti Vagyonvisszaszerzési",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_14064b",
-          "name": "Védelmi Hivatalról",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -7765,14 +7749,85 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_b6659c",
+      "type": "political_ally",
+      "cases": [
+        "sc_08b4e24a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_c16a28",
+      "type": "political_ally",
+      "cases": [
+        "sc_08b4e24a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b6659c",
+      "to": "p_c16a28",
+      "type": "business_connection",
+      "cases": [
+        "sc_08b4e24a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_c3a0b3",
+      "to": "p_53e979",
+      "type": "business_connection",
+      "cases": [
+        "sc_2c15d240",
+        "sc_444c3152"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_c3a0b3",
+      "to": "p_b0f7e8",
+      "type": "business_connection",
+      "cases": [
+        "sc_444c3152"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_53e979",
+      "to": "p_b0f7e8",
+      "type": "business_connection",
+      "cases": [
+        "sc_444c3152"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_531e11",
+      "to": "p_c730ca",
+      "type": "business_connection",
+      "cases": [
+        "sc_a8774c4f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-06T10:36:27.596632+00:00",
+    "last_updated": "2026-08-07T08:57:12.381521+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 18416114000000,
+    "total_involved_amount_huf": 18443919000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -7796,10 +7851,10 @@
     "regions_covered": [
       "Zala",
       "Fejér",
-      "Budapest",
-      "Csongrád-Csanád",
       "Baranya",
-      "Győr-Moson-Sopron"
+      "Budapest",
+      "Győr-Moson-Sopron",
+      "Csongrád-Csanád"
     ]
   }
 }
