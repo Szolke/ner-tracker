@@ -1,91 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_7bea9ac4",
-      "title": "Kirúgták a Balásyéknak százmilliárdokat kifolyató Nemzeti Kommunikációs Hivatal és a Rendezvényszervező Ügynökség vezetőjét",
-      "description": "Búcsú Rogán készpénzkifolyató embereitől, akik napi szinten intézték a verseny nélküli közbeszerzéseket.",
-      "link": "https://444.hu/2026/08/08/kirugtak-a-balasyeknak-szazmilliardokat-kifolyato-nemzeti-kommunikacios-hivatal-es-a-rendezvenyszervezo-ugynokseg-vezetojet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-08",
-      "source": "444",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_3fdca3",
-          "name": "Búcsú Rogán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5210a67d",
-      "title": "Átvilágítják a Közép- és Kelet-európai Onkológiai Akadémia Alapítvány működését és gazdálkodását",
-      "description": "Hegedűs Zsolt arról írt, hogy az alapítvány a saját dokumentuma szerint a működését eddig költségvetési forrásból finanszírozta, ami több mint 2 milliárd forint közpénzt jelent.",
-      "link": "https://444.hu/2026/08/08/atvilagitjak-a-kozep-es-kelet-europai-onkologiai-akademia-alapitvany-mukodeset-es-gazdalkodasat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-08",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2000000000,
-      "tags": [
-        "EU",
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7bdfbf",
-          "name": "Onkológiai Akadémia",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2975d4",
-          "name": "Hegedűs Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_69ebfaf2",
-      "title": "Átvilágítják a Kásler-féle onkológiai alapítványt, amely budai luxusvillát vett akadémiájának",
-      "description": "Hegedűs Zsolt egészségügyi miniszter szerint 2,25 milliárd forint közpénzből működött az alapítvány akadémiája, és belső anyagai is utalnak hiányosságokra, számvevőszéki vizsgálatra.",
-      "link": "https://hvg.hu/itthon/20260808_luxusvilla-mukoes-kasler-miklos-onkologia-alapitvany-atvilagitas",
-      "date": "2026-08-08",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2250000000,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_2975d4",
-          "name": "Hegedűs Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_8706dc84",
       "title": "Hadházy szerint Gajdos László a Mol jogászát nevezte ki a Mohu átvilágítására, a miniszter szerint ez butaság",
       "description": "A környezetvédelmi miniszter azt írta: a hulladékkoncesszió felülvizsgálatával Kertész-Káldosi Zsuzsanna vezetésével egy tízfős csapatot bíztak meg, arra azonban nem tért ki, hogy ennek tagja lesz-e az ex-molos Kolesár Gergely.",
@@ -5427,6 +5342,95 @@
         "IT"
       ],
       "involved_persons": []
+    },
+    {
+      "id": "sc_14c17478",
+      "title": "Tegnap gyanúsítottként hallgatták ki, ma már a Fidesz biztonsági igazgatója",
+      "description": "Sűrű napjai vannak Hajdu Jánosnak.",
+      "link": "https://444.hu/2026/06/30/tegnap-gyanusitottkent-hallgattak-ki-ma-mar-a-fidesz-biztonsagi-igazgatoja?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-30",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_d36069",
+          "name": "Hajdu Jánosnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2f8007a7",
+      "title": "A volt TEK-es Hajdu Jánost gyanúsítottként hallgatták ki az aranykonvojügyben",
+      "description": "A TEK egykori főigazgatóját jogellenes fogva tartással gyanúsítják. Orbán reakciója: a Tisza az ukránok érdekeit képviseli.",
+      "link": "https://hvg.hu/itthon/20260629_aranykonvoj-ugy-ugyeszseg-gyanusitotti-kihallgatas-hajdu-janos-tek",
+      "date": "2026-06-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_3a8e99",
+          "name": "Hajdu Jánost",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_11845cd2",
+      "title": "Panyi Szabolcs: Orbán Viktor az aranykonvojügy érintettjeivel egyeztetett Mészáros Lőrinc villájában",
+      "description": "Orbán Viktor és az aranykonvojügyben gyanúsítottként meghallgatott Hajdu János volt TEK-vezér mellett az ügyészségi iratokban szintén emlegetett Demeter Tamás korábbi NAV-elnökhelyettes is ott volt a Kogart-házban tartott egyeztetésen.",
+      "link": "https://hvg.hu/itthon/20260630_orban-viktor-hajdu-janos-demeter-tamas-kogart-haz-talalkozo-aranykonvoj-ugy-panyi-szabolcs",
+      "date": "2026-06-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_dfd7be",
+          "name": "Panyi Szabolcs",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -7905,24 +7909,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_7bdfbf",
-      "to": "p_2975d4",
-      "type": "business_connection",
-      "cases": [
-        "sc_5210a67d"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-09T08:40:10.735233+00:00",
+    "last_updated": "2026-08-08T08:38:12.182983+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17248369000000,
+    "total_involved_amount_huf": 17244119000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -7931,8 +7925,8 @@
     },
     "category_breakdown": {
       "korrupció": 19,
-      "pénzügyi": 172,
-      "közbeszerzés": 9
+      "pénzügyi": 173,
+      "közbeszerzés": 8
     },
     "sources": [
       "444",
@@ -7944,12 +7938,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Csongrád-Csanád",
       "Győr-Moson-Sopron",
       "Baranya",
-      "Csongrád-Csanád",
-      "Fejér",
+      "Budapest",
       "Zala",
-      "Budapest"
+      "Fejér"
     ]
   }
 }
