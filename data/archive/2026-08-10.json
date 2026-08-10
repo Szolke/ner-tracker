@@ -1,83 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_3a67f325",
-      "title": "Németh Balázs rongyrázó különvonatozással vádolta Vitézy Dávidot, a miniszter micimackózva magyarázta el neki, hogy egy felsővezetéket vizsgáló tesztvonatot nézett meg",
-      "description": "Aztán a két politikus még kommentben is egymásba szállt.",
-      "link": "https://444.hu/2026/08/09/nemeth-balazs-rongyrazo-kulonvonatozassal-vadolta-vitezy-davidot-a-miniszter-micimackozva-magyarazta-el-neki-hogy-egy-felsovezeteket-vizsgalo-tesztvonatot-nezett-meg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-09",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_45c449",
-          "name": "Németh Balázs",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6a73c8",
-          "name": "Vitézy Dávidot",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0f69a724",
-      "title": "Tiborczcal repült kötelékben, vajon Ausztráliában már magának fejleszt milliárdos ingatlant?",
-      "description": "Sydney előkelő negyedében készül luxuslakások építésére Komonczi Zsolt, aki eredetileg közösen birtokolta és fejlesztette a Hotel Dorotheát Tiborcz Istvánnal a pesti belvárosban. Ahogy az itthon már megszokott, az üzletember ausztráliai cégeinél sem mindig látszik, hogy ki a végső tulajdonos.",
-      "link": "https://hvg.hu/360/20260810_komonczi-zsolt-ingatlan-ausztralia-tiborcz-ebx",
-      "date": "2026-08-10",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_ecc455",
-          "name": "Komonczi Zsolt",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_7a9375",
-          "name": "Hotel Dorotheát",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2ce1f1",
-          "name": "Tiborcz Istvánnal",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_7bea9ac4",
       "title": "Kirúgták a Balásyéknak százmilliárdokat kifolyató Nemzeti Kommunikációs Hivatal és a Rendezvényszervező Ügynökség vezetőjét",
       "description": "Búcsú Rogán készpénzkifolyató embereitől, akik napi szinten intézték a verseny nélküli közbeszerzéseket.",
@@ -5454,6 +5377,56 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_afaafe7f",
+      "title": "Gulyás Gergely szerint az ügynökakták ma is kutathatók és megismerhetők",
+      "description": "Czakó-Czirbus Pál, a Tisza vezérszónoka arról beszélt, hogy generációkon átívelő sebeket okoztak a megfigyelések. A parlament ülése percről percre.",
+      "link": "https://telex.hu/belfold/2026/06/30/parlament-ules-magyar-peter-szuverenitasvedelmi-hivatal-polgarmesterek",
+      "date": "2026-06-30",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_7fe228",
+          "name": "Gulyás Gergely",
+          "position": "miniszterelnöki kabinetfőnök"
+        },
+        {
+          "id": "p_d13fc6",
+          "name": "Czirbus Pál",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4b6cc421",
+      "title": "Még folyik a nemzetközi vizsgálat Deutsch bántalmazással vádolt felesége ellen",
+      "description": "Deutsch-Lazsányi még korábban lemondott a ritmikusgimnasztika-szövetségben betöltött tisztségeiről, a testület pedig több egykori tanítványát meghallgatta, akik a stílusát és a munkamódszereit nehezményezték.",
+      "link": "https://444.hu/2026/06/29/meg-folyik-a-nemzetkozi-vizsgalat-deutsch-bantalmazassal-vadolt-felesege-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-06-29",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": []
     }
   ],
   "investigations": [
@@ -7942,90 +7915,10 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_94af7a",
-      "to": "p_45c449",
-      "type": "business_connection",
-      "cases": [
-        "sc_3a67f325"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_94af7a",
-      "to": "p_6a73c8",
-      "type": "business_connection",
-      "cases": [
-        "sc_3a67f325"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_45c449",
-      "to": "p_6a73c8",
-      "type": "business_connection",
-      "cases": [
-        "sc_3a67f325"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_ecc455",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f69a724"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_7a9375",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f69a724"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_ecc455",
-      "to": "p_7a9375",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f69a724"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_ecc455",
-      "to": "p_2ce1f1",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f69a724"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_7a9375",
-      "to": "p_2ce1f1",
-      "type": "business_connection",
-      "cases": [
-        "sc_0f69a724"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-10T09:18:02.630093+00:00",
+    "last_updated": "2026-08-09T08:40:10.735233+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -8037,8 +7930,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 18,
-      "pénzügyi": 173,
+      "korrupció": 19,
+      "pénzügyi": 172,
       "közbeszerzés": 9
     },
     "sources": [
@@ -8051,12 +7944,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Zala",
-      "Budapest",
+      "Győr-Moson-Sopron",
+      "Baranya",
       "Csongrád-Csanád",
       "Fejér",
-      "Baranya",
-      "Győr-Moson-Sopron"
+      "Zala",
+      "Budapest"
     ]
   }
 }
