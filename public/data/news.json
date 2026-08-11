@@ -1,6 +1,91 @@
 {
   "cases": [
     {
+      "id": "sc_211856e8",
+      "title": "MÁV-tender: kiénekelte a 7,3 milliárdos sajtot a Homlok-cégek szájából a Swietelsky",
+      "description": "Hiába voltak a legolcsóbbak, mégsem Mészáros Lőrinc exvejének és testvérének a cégei dolgozhatnak a 100-as számú vasútvonal kőbányai szakaszán.",
+      "link": "https://atlatszo.hu/kozpenz/2026/08/11/mav-tender-kienekelte-a-72-milliardos-sajtot-a-homlok-cegek-szajabol-a-swietelsky/",
+      "date": "2026-08-11",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7300000000,
+      "tags": [
+        "tender"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_20ab69",
+          "name": "Swietelsky Hiába",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_16388e0d",
+      "title": "Kizárták Mészáros Lőrinc cégét, az Opus Titász nem kap semmit a hazahozott RRF-pénzekből",
+      "description": "Az átláthatósági követelmények nem teljesítése miatt. Ez lehet az első komolyabb eset, amikor Mészáros-érdekeltség jár pórul.",
+      "link": "https://444.hu/2026/08/11/kizartak-meszaros-lorinc-ceget-az-opus-titasz-nem-kap-semmit-a-hazahozott-rrf-penzekbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-11",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_624f4c",
+          "name": "Kizárták Mészáros",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ae8161",
+          "name": "Opus Titász",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4a724c16",
+      "title": "5,7 milliós bírságot szabtak ki Orbánék hatvanpusztai műemlékrombolása miatt",
+      "description": "Engedély nélkül bontották el az istállókat, de bejelentés nélkül építettek díszmedencét.",
+      "link": "https://telex.hu/belfold/2026/08/10/hatvanpuszta-muemlek-bontas-birsag",
+      "date": "2026-08-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_3a67f325",
       "title": "Németh Balázs rongyrázó különvonatozással vádolta Vitézy Dávidot, a miniszter micimackózva magyarázta el neki, hogy egy felsővezetéket vizsgáló tesztvonatot nézett meg",
       "description": "Aztán a két politikus még kommentben is egymásba szállt.",
@@ -5350,110 +5435,6 @@
       "amount_huf": 2090000000000,
       "tags": [],
       "involved_persons": []
-    },
-    {
-      "id": "sc_dafad978",
-      "title": "50 milliárdnál is nagyobb profitot hozott össze a Szíjj László-féle cégcsoport, de bőven van mit visszafizetniük",
-      "description": "A Szijjártó Pétert jachtoztató oligarcha cégcsoportjának kötelezettségeit tavaly jelentősen megdobta egy 400 millió dolláros kötvénykibocsátás. Kérdés, hogy a Duna Group a következő években miből termeli ki ennek finanszírozását, miközben a Tisza-kormány felülvizsgálja a nagy állami infrastruktúra-beruházásokat, amelyek az elmúlt években a cégcsoport komoly megrendeléseit adták.",
-      "link": "https://hvg.hu/360/20260701_szijj-laszlo-duna-group-kotveny-adossag-tisza-kormany-felulvizsgalat",
-      "date": "2026-07-01",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 50000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_d710f9",
-          "name": "Szijjártó Pétert",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_37cca7",
-          "name": "Duna Group",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_64e81b62",
-      "title": "Kiss László: Ez egy koncepciós per, amit eredetileg Karácsony Gergely és mások leszedésére találtak ki",
-      "description": "Kiss László óbudai polgármester egykori alpolgármestere beismerő vallomást tett, és egy két évtizedes korrupciós paktumról beszélt az ügyészségnek. Kiss szerint szó sincs ilyenről, egy nagyobb, országos korrupciós hálózatot gyanít a lebukott szereplők mögött. Az ügyészség minden ténybeli alapot nélkülözőnek nevezte és visszautasította Kiss László állításait.",
-      "link": "https://telex.hu/belfold/2026/07/01/obudai-korrupcios-ugy-kiss-laszlo-obudai-polgarmester-koncepcios-per-z-zsolt-pannon-park",
-      "date": "2026-07-01",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_938aff",
-          "name": "Karácsony Gergely",
-          "position": "Budapest főpolgármestere"
-        },
-        {
-          "id": "p_f8ac48",
-          "name": "Kiss László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_23fb2e7e",
-      "title": "Financial Times-elemzés: Politikai fedezék lehet Magyar Péternek a reformok lassítására, hogy hazugsággal vádolhatja Orbánt a gigahiány miatt",
-      "description": "Reformok nélkül Németország gazdasági növekedése a nullához fog közelíteni. Új fejezet nyílik a magyar–ukrán kapcsolatokban? Az erős férfiak gyengesége: Vucsics szerb elnök lehet a következő, aki nem akar lemondani a hatalmáról. Témák és vélemények a világsajtóból.",
-      "link": "https://hvg.hu/360/20260630_lapszemle-magyar-peter-orban-viktor-nemetorszag-eu-gazdasag-szerbia-karpataljai-magyarok",
-      "date": "2026-06-30",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_fd0b00",
-          "name": "Financial Times",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_27a03d",
-          "name": "Magyar Péternek",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8022,14 +8003,54 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_20ab69",
+      "type": "political_ally",
+      "cases": [
+        "sc_211856e8"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_624f4c",
+      "type": "political_ally",
+      "cases": [
+        "sc_16388e0d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_ae8161",
+      "type": "political_ally",
+      "cases": [
+        "sc_16388e0d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_624f4c",
+      "to": "p_ae8161",
+      "type": "business_connection",
+      "cases": [
+        "sc_16388e0d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-10T09:18:02.630093+00:00",
+    "last_updated": "2026-08-11T08:53:12.390545+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17248369000000,
+    "total_involved_amount_huf": 17205676000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8037,9 +8058,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 18,
+      "korrupció": 17,
       "pénzügyi": 173,
-      "közbeszerzés": 9
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -8051,12 +8072,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Zala",
       "Budapest",
       "Csongrád-Csanád",
-      "Fejér",
+      "Győr-Moson-Sopron",
       "Baranya",
-      "Győr-Moson-Sopron"
+      "Fejér",
+      "Zala"
     ]
   }
 }

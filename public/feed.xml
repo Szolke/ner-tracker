@@ -5,8 +5,32 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Mon, 10 Aug 2026 09:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 08:53:12 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[MÁV-tender: kiénekelte a 7,3 milliárdos sajtot a Homlok-cégek szájából a Swietelsky]]></title>
+    <link>https://atlatszo.hu/kozpenz/2026/08/11/mav-tender-kienekelte-a-72-milliardos-sajtot-a-homlok-cegek-szajabol-a-swietelsky/</link>
+    <guid>sc_211856e8</guid>
+    <pubDate>2026-08-11</pubDate>
+    <description><![CDATA[Hiába voltak a legolcsóbbak, mégsem Mészáros Lőrinc exvejének és testvérének a cégei dolgozhatnak a 100-as számú vasútvonal kőbányai szakaszán. | Budapest | 7300 M HUF | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
+  <item>
+    <title><![CDATA[Kizárták Mészáros Lőrinc cégét, az Opus Titász nem kap semmit a hazahozott RRF-pénzekből]]></title>
+    <link>https://444.hu/2026/08/11/kizartak-meszaros-lorinc-ceget-az-opus-titasz-nem-kap-semmit-a-hazahozott-rrf-penzekbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_16388e0d</guid>
+    <pubDate>2026-08-11</pubDate>
+    <description><![CDATA[Az átláthatósági követelmények nem teljesítése miatt. Ez lehet az első komolyabb eset, amikor Mészáros-érdekeltség jár pórul. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[5,7 milliós bírságot szabtak ki Orbánék hatvanpusztai műemlékrombolása miatt]]></title>
+    <link>https://telex.hu/belfold/2026/08/10/hatvanpuszta-muemlek-bontas-birsag</link>
+    <guid>sc_4a724c16</guid>
+    <pubDate>2026-08-10</pubDate>
+    <description><![CDATA[Engedély nélkül bontották el az istállókat, de bejelentés nélkül építettek díszmedencét. | Budapest | 7 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Németh Balázs rongyrázó különvonatozással vádolta Vitézy Dávidot, a miniszter micimackózva magyarázta el neki, hogy egy felsővezetéket vizsgáló tesztvonatot nézett meg]]></title>
     <link>https://444.hu/2026/08/09/nemeth-balazs-rongyrazo-kulonvonatozassal-vadolta-vitezy-davidot-a-miniszter-micimackozva-magyarazta-el-neki-hogy-egy-felsovezeteket-vizsgalo-tesztvonatot-nezett-meg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -141,30 +165,6 @@
     <guid>sc_444c3152</guid>
     <pubDate>2026-08-07</pubDate>
     <description><![CDATA[A tárcavezető szerint Kelemen Ágnes tervezetten ment volna szabadságra, de a hőség és vízhiány miatt azt elhalasztotta. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Zsíros üzletről maradt le egy NER-es cég – luxuséttermet tervezett az Orbán-kormány Brüsszel központjába milliárdokért]]></title>
-    <link>https://hvg.hu/360/20260807_brusszel-luxusetterem-orban-kormany-7-2-milliard-forint-ner</link>
-    <guid>sc_2bfe5f82</guid>
-    <pubDate>2026-08-07</pubDate>
-    <description><![CDATA[Újabb értékes brüsszeli ingatlan megvásárlására készült az Orbán-kormány a magyar EU-elnökség sok milliárdos főhadiszállása mellett. A házban a magyar gasztronómiát népszerűsítő exkluzív éttermet is n | Budapest | 7200 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[7,2 milliárd forintért vett volna Brüsszel központjában luxusétteremmel bővített ingatlant az Orbán-kormány]]></title>
-    <link>https://telex.hu/belfold/2026/08/07/brusszel-ingatlan-fine-dining-luxusetterem-orban-kormany-vasarol-meghiusul</link>
-    <guid>sc_d124b749</guid>
-    <pubDate>2026-08-07</pubDate>
-    <description><![CDATA[A vásárlás végül nem a kormányváltás miatt hiúsult meg. | Budapest | 7200 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Matusik Tamás, a Fővárosi Törvényszék elnöke: A bírói kar azt várja, hogy ne lincshangulatban kelljen működnie]]></title>
-    <link>https://hvg.hu/360/20260806_matusik-tamas-fovarosi-torvenyszek-elnok-hvg-portre-interju</link>
-    <guid>sc_f53d2a59</guid>
-    <pubDate>2026-08-06</pubDate>
-    <description><![CDATA[Mérnökcsaládból ment a jogi karra, a nyomozási bírói pályára a 2006-os demonstrációk terelték. Nem gondolta volna, hogy ilyen viharos lesz az Országos Bírói Tanácsban eltöltött hat évük, a lejárató ka | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
