@@ -114,5 +114,16 @@
         "reason": "similar_to: 2,3 milliárd forintot fizetett vissza az államnak az egyik Mészáros Lőrinchez köthető magántőkealap"
       }
     ]
+  },
+  {
+    "run_at": "2026-08-12T09:09:15.253172+00:00",
+    "entries": [
+      {
+        "id": "sc_131f2f8e",
+        "title": "Több mint kétmilliárdot fizetett vissza az államnak egy Mészáros Lőrinchez köthető magántőkealap",
+        "action": "skipped_duplicate",
+        "reason": "similar_to: 2,3 milliárd forintot fizetett vissza az államnak az egyik Mészáros Lőrinchez köthető magántőkealap"
+      }
+    ]
   }
 ]

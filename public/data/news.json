@@ -1,6 +1,256 @@
 {
   "cases": [
     {
+      "id": "sc_a7f28f61",
+      "title": "Érdemtelenül szereztek doktori fokozatot fideszes és KDNP-s politikusok a PTE egyik oktatója szerint, az egyetem vizsgálatot folytat",
+      "description": "Barcsi Tamás, a Pécsi Tudományegyetem oktatója szerint az iskola vezetői az elmúlt években „nemhogy filozófiával, de semmiféle tudománnyal behatóan nem foglalkozó, számukra azonban valamiképpen »hasznos« embereket, illetve jó ismerőseiket” PhD-ösztöndíjhoz, majd PhD-fokozathoz juttatták.",
+      "link": "https://444.hu/2026/08/11/erdemtelenul-szereztek-doktori-fokozatot-fideszes-es-kdnp-s-politikusok-a-pte-egyik-oktatoja-szerint-az-egyetem-vizsgalatot-folytat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-11",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Baranya",
+      "coordinates": [
+        46.0727,
+        18.2323
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_61e872",
+          "name": "Barcsi Tamás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3296ce",
+          "name": "Pécsi Tudományegyetem",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b13bf0c6",
+      "title": "Őrizetbe vettek egy török sportújságírót, mert átigazolási pletykát terjesztett, utána kiderült, hogy születnek az ilyen hazugságok",
+      "description": "A hír eleve olyan fokú képtelenség volt, mintha hősünk arról írt volna, hogy Orbán Viktort felkérték az Európai Ügyészség vezetőjének. Ám a sztori akkor lett igazán vicces, amikor az egyik rémült forrás megnyílt az X-en.",
+      "link": "https://444.hu/2026/08/11/orizetbe-vettek-egy-torok-sportujsagirot-mert-atigazolasi-pletykat-terjesztett-utana-kiderult-hogy-szuletnek-az-ilyen-hazugsagok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-11",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "sport"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_e246fd",
+          "name": "Orbán Viktort",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4727099b",
+      "title": "A Századvég a választások előtt százmilliókért kutatta és elemezte Rogánnak a változó politikai törésvonalakat, sokra nem ment vele a miniszter",
+      "description": "Közérdekű adatigényléssel kikértük, milyen tanulmányokat készített a Századvég, és mindez mennyibe került. Egészen megdöbbentő témák és árak vannak a listában, milliárdokért dolgozott az intézet. A Miniszterelnökség még vizsgálja, mit is kaptak valójában az elmúlt években.",
+      "link": "https://444.hu/2026/08/12/a-szazadveg-a-valasztasok-elott-szazmilliokert-kutatta-es-elemezte-rogannak-a-valtozo-politikai-toresvonalakat-sokra-nem-ment-vele-a-miniszter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-12",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_28b8050b",
+      "title": "Átveszi az állam Krausz Ferenc kutatóközpontját",
+      "description": "A Nobel-díjas fizikus által vezetett Élvonal Alapítvány közfeladatait és a szintén hozzá köthető Molekuláris Ujjlenyomat Kutató Központ Nonprofit Kft.-t is átveszi az állam a közeljövőben. Utóbbi összesen 45 milliárd forint közpénzzel gazdagodott.",
+      "link": "https://444.hu/2026/08/12/atveszi-az-allam-krausz-ferenc-kutatokozpontjat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-12",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 45000000000,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_9dae78",
+          "name": "Krausz Ferenc",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_15372d",
+          "name": "Molekuláris Ujjlenyomat",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b7692b",
+          "name": "Kutató Központ",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_def64519",
+      "title": "7,6 milliárd forintot fizetett ki január és március között a Századvégnek a Fidesz-kormány",
+      "description": "A kutatócég egységáron dolgozott, 200 milliós tanulmányok és 300 milliós közvélemény-kutatások is bőven vannak.",
+      "link": "https://hvg.hu/itthon/20260812_7-6-milliard-forintot-fizetett-ki-januar-es-marcius-kozott-a-szazadvegnek-a-fidesz-kormany",
+      "date": "2026-08-12",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7600000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_39ba63ed",
+      "title": "Az állam veszi át Krausz Ferenc a Fidesz által tízmilliárdokkal kitömött kutatóközpontját",
+      "description": "A Molekuláris Ujjlenyomat Kutató Központ mellett a Nobel-díjas fizikus által vezetett Élvonal Alapítvány vagyona is visszaszáll az államra.",
+      "link": "https://hvg.hu/gazdasag/20260812_krausz-ferenc-elvonal-alapitvany-cmf-allami-atvetel",
+      "date": "2026-08-12",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_9dae78",
+          "name": "Krausz Ferenc",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_15372d",
+          "name": "Molekuláris Ujjlenyomat",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b7692b",
+          "name": "Kutató Központ",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_55abb59e",
+      "title": "Két táborra szakadtak a budapesti ügyvédek: szabad-e védeni a NER-eseket?",
+      "description": "Többekben megütközést keltett, hogy a Budapesti Ügyvédi Kamara elnöke a Fidesz hűtlen kezeléssel gyanúba került vezetői közül többek védelmét is ellátja. A szabad ügyfélválasztást és a védelemhez való jogot elvileg senki sem vitatja, de vannak, akik a közbizalom elvesztésétől tartanak. Mások viszont arra hívják fel a figyelmet, hogy az ügyvédkamarák választásokra készülnek.",
+      "link": "https://hvg.hu/360/20260812_ugyvedek-ner-vedelme-valasztas-kampany-jogallamisag-toth-m-gabor-horvath-lorant",
+      "date": "2026-08-12",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_364021",
+          "name": "Budapesti Ügyvédi",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_628f1ced",
+      "title": "Több mint 7,6 milliárdot fizetett ki az Orbán-kormány a Századvégnek idén január és március között",
+      "description": "A 444.hu kikérte, hogy milyen tanulmányokat, méréseket rendeltek meg Rogánék 26 milliárd forintért a Századvégtől az utolsó két és fél évben.",
+      "link": "https://telex.hu/belfold/2026/08/12/szazadveg-kutatas-tanulmany-kozerdeku-adatigenyles",
+      "date": "2026-08-12",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7600000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_034909f4",
+      "title": "45 milliárd forint közpénzt kapott Krausz Ferenc kutatóközpontja, most az állam veszi át a céget",
+      "description": "A kekvák eltörlésével megszűnik az Élvonal Alapítvány, aminek a Fidesz-kormány a választás előtt ezermilliárdos összeget ígért oda több évtizedre előre csúcskutatásokra és tehetséggondozásra. Az alapítvány alá tartozik a Molekuláris- Ujjlenyomat Kutató Központ, amiről most derült ki, hogy 49 milliárd forint állami támogatást ítéltek meg neki, ebből 45-öt már ki is fizettek.",
+      "link": "https://telex.hu/techtud/2026/08/12/elvonal-alapitvany-cmf-krausz-ferenc-kekva-nonprofit-tudomanyos-es-technologiai-miniszterium-allami-tamogatas",
+      "date": "2026-08-12",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 45000000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_9dae78",
+          "name": "Krausz Ferenc",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b03c4d",
+          "name": "Ujjlenyomat Kutató",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_211856e8",
       "title": "MÁV-tender: kiénekelte a 7,3 milliárdos sajtot a Homlok-cégek szájából a Swietelsky",
       "description": "Hiába voltak a legolcsóbbak, mégsem Mészáros Lőrinc exvejének és testvérének a cégei dolgozhatnak a 100-as számú vasútvonal kőbányai szakaszán.",
@@ -5173,268 +5423,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_d5476a1d",
-      "title": "Alföldi Róbert: Az elmúlt 16 évben nem pályáztam az NKA semmilyen kollégiumához",
-      "description": "Nem kértem, így nem is kaphattam támogatást – írja a színész-rendező, aki jogi lépéseket tesz, amiért a Fidesz oldalán azt állították, hogy több mint kétmilliárdot kapott kulturális támogatásként.",
-      "link": "https://hvg.hu/kultura/20260703_alfoldi-robert-16-ev-nem-palyaztam-nka-semmilyen-kollegiumahoz",
-      "date": "2026-07-03",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_f408cb",
-          "name": "Alföldi Róbert",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_f744f1a2",
-      "title": "Kármán András szerint ezermilliárdos nagyságrendben folyt ki a pénz a költségvetésből a Fidesz-kormány alatt",
-      "description": "A pénzügyminisztert a mohácsi híd ügye döbbentette meg leginkább az előző kormány intézkedései közül.",
-      "link": "https://telex.hu/gazdasag/2026/07/03/karman-andras-kata-szja-mohacsi-hid-vagyonvisszaszerzesi-hivatal",
-      "date": "2026-07-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_387aa4",
-          "name": "Kármán András",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_d5fd9d9d",
-      "title": "Aláírta az uniós támogatási szerződést Vitézy Dávid, kezdődhet a budai fonódó fejlesztése",
-      "description": "32,2 milliárd forint értékű európai uniós támogatásból bővül a budai fonódó villamos.",
-      "link": "https://telex.hu/belfold/2026/07/03/vitezy-david-budai-fonodo-villamos-masodik-utem-unios-tamogatasi-szerzodes-alairas",
-      "date": "2026-07-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 32200000000,
-      "tags": [
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
-    },
-    {
-      "id": "sc_1394f2a0",
-      "title": "„Mindannyian egy kémet tartunk a zsebünkben” – Natalia Krapiva, az Access Now munkatársa az újságírók és civilek megfigyeléséről",
-      "description": "Az új magyar kormány ígéretet tett arra, hogy feltárja az Orbán-korszak megfigyeléseinek teljes körét. Natalia Krapiva szerint ez jó kezdet, de további garanciákra van szükség.",
-      "link": "https://atlatszo.hu/vilagterkep/2026/07/02/mindannyian-egy-kemet-tartunk-a-zsebunkben-natalia-krapiva-az-access-now-munkatarsa-az-ujsagirok-es-civilek-megfigyeleserol/",
-      "date": "2026-07-02",
-      "source": "Átlátszó",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_56fbbf",
-          "name": "Natalia Krapiva",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_d2f7b9",
-          "name": "Access Now",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_29e060a0",
-      "title": "Szijjártó Péter magángépes útjaira 2 milliárd forintot költött tavaly az állam",
-      "description": "Még Pozsonyba és Belgrádba is béreltek neki gépet.",
-      "link": "https://444.hu/2026/07/01/szijjarto-peter-magangepes-utjaira-2-milliard-forintot-koltott-tavaly-az-allam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-01",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_31346e",
-          "name": "Még Pozsonyba",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_f2f67963",
-      "title": "Nem igaz, hogy ezermilliárdból nem csináltunk semmit – interjú a NER sztrádakoncessziós cégének vezetőjével",
-      "description": "Sok évig tartana lezárni a Mészáros Lőrinc és Szíjj László érdekeltségében működő koncessziót – erről is beszélt a HVG-nek adott interjúban Németh Tamás, a Magyar Koncessziós Infrastruktúra Fejlesztő Zrt. vezérigazgatója. Azt mondja, amíg jogszerűen történik, nyitottak a szerződés felbontására is, Orbán Győző teherautóit pedig nem látta az építkezéseken.",
-      "link": "https://hvg.hu/360/20260702_nemeth-tamas-a-sztradakoncesszio-jovoje-ner-vallalkozok",
-      "date": "2026-07-02",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_fc3f75",
-          "name": "Németh Tamás",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_c6b290",
-          "name": "Infrastruktúra Fejlesztő",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_08742957",
-      "title": "Aranykonvoj-ügy: az ügyészségen belül is elkezdték fúrni a legfőbb ügyészt",
-      "description": "A szervezeten belül sokaknak nem tetszett, hogy a vezetés kibújt a felelősség alól. Magyar Péter felszólította Nagy Gábor Bálintot, hogy ha nem tudja megtisztítani a szervezetét a fideszes befolyástól, akkor mondjon le. Hajdu János volt TEK-vezér gyanúsítása után már jóval nagyobb politikai tétje lett az ügynek, a szálak akár Orbán Viktorig érhetnek. Ő inkább megpróbálja átírni a történetet.",
-      "link": "https://telex.hu/belfold/2026/07/02/aranykonvoj-hajdu-janos-orban-viktor-ugyeszseg-gyanusitas-nagy-gabor-balint-legfobb-ugyesz",
-      "date": "2026-07-02",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_2dc953",
-          "name": "Nagy Gábor",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3fb7b2",
-          "name": "Hajdu János",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3b5888",
-          "name": "Orbán Viktorig",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_cee36f32",
-      "title": "Őrsi Gergely letartóztatását meghosszabbítanák, egy fideszest viszont kiengedtek a parkbiznisz gyanúsítottjai közül",
-      "description": "Puskás Péter esetében az ügyészség úgy ítélte meg, a letartóztatása elrendelésének különös okai megszűntek.",
-      "link": "https://444.hu/2026/06/30/orsi-gergely-letartoztatasat-meghosszabbitanak-egy-fideszes-viszont-kiengedtek-a-parkbiznisz-gyanusitottjai-kozul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-06-30",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_70af37",
-          "name": "Őrsi Gergely",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_cf682f",
-          "name": "Puskás Péter",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_21e406ca",
-      "title": "2090 milliárdos lyukat ütöttek Orbánék a költségvetésen a kormányzásuk végén",
-      "description": "Komplett romhalmazt örökítettek a Magyar-kormányra.",
-      "link": "https://444.hu/2026/07/01/2090-milliardos-lyukat-utottek-orbanek-a-koltsegvetesen-a-kormanyzasuk-vegen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-01",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2090000000000,
-      "tags": [],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -8043,14 +8031,77 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_61e872",
+      "to": "p_3296ce",
+      "type": "business_connection",
+      "cases": [
+        "sc_a7f28f61"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_e246fd",
+      "type": "political_ally",
+      "cases": [
+        "sc_b13bf0c6"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9dae78",
+      "to": "p_15372d",
+      "type": "business_connection",
+      "cases": [
+        "sc_39ba63ed",
+        "sc_28b8050b"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9dae78",
+      "to": "p_b7692b",
+      "type": "business_connection",
+      "cases": [
+        "sc_39ba63ed",
+        "sc_28b8050b"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9dae78",
+      "to": "p_b03c4d",
+      "type": "business_connection",
+      "cases": [
+        "sc_034909f4"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_15372d",
+      "to": "p_b7692b",
+      "type": "business_connection",
+      "cases": [
+        "sc_39ba63ed",
+        "sc_28b8050b"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-11T08:53:12.390545+00:00",
+    "last_updated": "2026-08-12T09:09:15.260322+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17205676000000,
+    "total_involved_amount_huf": 15186676000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8058,8 +8109,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 17,
-      "pénzügyi": 173,
+      "korrupció": 16,
+      "pénzügyi": 174,
       "közbeszerzés": 10
     },
     "sources": [
@@ -8074,9 +8125,9 @@
     "regions_covered": [
       "Budapest",
       "Csongrád-Csanád",
-      "Győr-Moson-Sopron",
       "Baranya",
       "Fejér",
+      "Győr-Moson-Sopron",
       "Zala"
     ]
   }
