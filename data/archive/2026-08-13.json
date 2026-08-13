@@ -1,216 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_2d408119",
-      "title": "Rengeteg munka, rengeteg szerelem",
-      "description": "Mészáros Lőrinc becsült vagyona meghaladja az 1600 milliárd forintot. Cégei a 2010-es kormányváltás után sorozatban nyertek állami megrendeléseket, vagyonát évről évre megduplázta. A cégek és a milliárdos osztalékok azonban nem korlátozódnak a családfőre.",
-      "link": "https://magyarnarancs.hu/belpol/rengeteg-munka-rengeteg-szerelem-279912",
-      "date": "2026-08-12",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1600000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        }
-      ]
-    },
-    {
-      "id": "sc_2a5ac4ee",
-      "title": "Magyar: Fenékküszöböt építenek a Dunán Paksnál, szükség esetén két bárkát is elsüllyesztenek",
-      "description": "A románoknál is kipróbált módszerről a miniszterelnök a kihelyezett kormányülésen beszélt. Azt mondta, külső beavatkozás nélkül a Duna jövő hétre annyira leapadhat, hogy ismét felmerülhet a paksi atomerőmű teljes leállítása. A kiemelt kormányzati beruházás 6 milliárd forintba kerül.",
-      "link": "https://444.hu/2026/08/12/magyar-fenekkuszobot-epitenek-a-dunan-paksnal-szukseg-eseten-ket-barkat-is-elsullyesztenek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-12",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 6000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_7e47f2",
-          "name": "Dunán Paksnál",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0bbcfa47",
-      "title": "A Legfőbb Ügyészség döntött arról, hogy jogszerű volt-e lefoglalni a Fidesz szervereit",
-      "description": "Július 21-én a 17 milliárdos NKA-ügyben nyomozó ügyészek jelentek meg abban az adatközpontban, ahol a Fidesz szerverei is működnek. A párt ezután panaszt tett a kutatás és a lefoglalás ellen.",
-      "link": "https://444.hu/2026/08/12/a-legfobb-ugyeszseg-dontott-arrol-jogszeru-volt-e-hogy-lefoglaltak-a-fidesz-szervereit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-12",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 17000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_4a5434db",
-      "title": "Orbánék még a szocialistáknál is paranoiásabbak voltak: évente 56 százalékkal több titkos megfigyelést engedélyeztek, mint a 2010 előtti kormányok",
-      "description": "Néher András, a Tisza Párt országgyűlési képviselője adott be közérdekű adatigénylést, így vált összehasonlíthatóvá, mikor mennyire volt aktív a titkosszolgálat.",
-      "link": "https://444.hu/2026/08/12/orbanek-meg-a-szocialistaknal-is-paranoiasabbak-voltak-evente-56-szazalekkal-tobb-titkos-megfigyelest-engedelyeztek-mint-a-2010-elotti-kormanyok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-12",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c2b0bc",
-          "name": "Néher András",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_0ff72e",
-          "name": "Tisza Párt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_4e894d2f",
-      "title": "Megemelik a vízszintet Paksnál, vizsgálat a mentőknél, szabálytalan lefoglalás a Fidesznél – Newscast",
-      "description": "Hatmilliárd forintos beruházásról döntöttek a paksi kihelyezett kormányülésen szerdán. Nem volt szabályos a Fidesz-szerverek lefoglalása az NKA-ügyben a Legfőbb Ügyészség szerint, ezért meg kell ismételni az eljárást. Házkutatásokat, lefoglalásokat, valamint szemlét tartottak a mentőszolgálatnál egy mentőjárművek beszerzésére irányuló közbeszerzési eljárással összefüggésben. Idén rövidebb lesz az",
-      "link": "https://hvg.hu/itthon/20260813_megemelik-a-vizszintet-paksnal-vizsgalat-a-mentoknel-szabalytalan-lefoglalas-a-fidesznel-newscast",
-      "date": "2026-08-13",
-      "source": "HVG",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_6c3681",
-          "name": "Newscast Hatmilliárd",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_09497db0",
-      "title": "Hegedűs Zsolt: Az egészségügyben nincs helye korrupciónak, mutyinak",
-      "description": "Az egészségügyi miniszter az Országos Mentőszolgálat mentőautó-beszerzései miatt indult nyomozás kapcsán arról írt: minden olyan ügyet, amelyben felvetődik a korrupció, a szabálytalanság vagy a közpénzekkel való visszaélés gyanúja, fel fognak tárni.",
-      "link": "https://hvg.hu/itthon/20260813_hegedus-zsolt-egeszsegugy-korrupcio-nyomozas-orszagos-mentoszolgalat",
-      "date": "2026-08-13",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_2975d4",
-          "name": "Hegedűs Zsolt",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3f7e09",
-          "name": "Országos Mentőszolgálat",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_596e8b4c",
-      "title": "Az MSZP-kormányokkal összehasonlítva látszik igazán, Orbánék milyen mennyiségben adtak engedélyt titkos megfigyelésekre",
-      "description": "56 százalékkal többször figyelték meg a magyarokat az elmúlt 16 évben, mint a szocialisták az azt megelőző nyolcban.",
-      "link": "https://telex.hu/belfold/2026/08/12/orban-kormany-titkos-megfigyelesek-engedely-mszp-kormanyok-osszehasonlitas-56-szazalek",
-      "date": "2026-08-12",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_73459431",
-      "title": "Vádat emeltek a Fidesz-közeli Alapjogokért Központ munkatársa ellen egy horogkeresztes poszt miatt",
-      "description": "Hadházy Ákos feljelentése után tiltott önkényuralmi jelkép használatával vádolják Koskovics Zoltánt.",
-      "link": "https://telex.hu/belfold/2026/08/13/koskovics-zoltan-fidesz-kozeli-alapjogokert-kozpont-elemzo-tiltott-onkenyuralmi-jelkep-horogkereszt-hadhazy-akos-feljelentes",
-      "date": "2026-08-13",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_6124d7",
-          "name": "Alapjogokért Központ",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_863237",
-          "name": "Koskovics Zoltánt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_a7f28f61",
       "title": "Érdemtelenül szereztek doktori fokozatot fideszes és KDNP-s politikusok a PTE egyik oktatója szerint, az egyetem vizsgálatot folytat",
       "description": "Barcsi Tamás, a Pécsi Tudományegyetem oktatója szerint az iskola vezetői az elmúlt években „nemhogy filozófiával, de semmiféle tudománnyal behatóan nem foglalkozó, számukra azonban valamiképpen »hasznos« embereket, illetve jó ismerőseiket” PhD-ösztöndíjhoz, majd PhD-fokozathoz juttatták.",
@@ -5434,6 +5224,205 @@
         "hirdetés"
       ],
       "involved_persons": []
+    },
+    {
+      "id": "sc_6dbeaea4",
+      "title": "Külügyminisztérium: 5 milliárd forint ment el Szijjártó magángépes útjaira 2022 óta, a büntetőjogi felelősség kérdését is vizsgálják",
+      "description": "2024-ben lépték át az egymilliárdos határt, 2025-ben pedig rögtön a kétmilliárdosat is.",
+      "link": "https://444.hu/2026/07/03/kulugyminiszterium-5-milliard-forint-ment-el-szijjarto-magangepes-utjaira-2022-ota-a-buntetojogi-felelosseg-kerdeset-is-vizsgaljak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 5000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_2a7df8a6",
+      "title": "Nyomozás indult egy Tiborcz-féle buszos cég által elnyert vasúti közbeszerzés ügyében",
+      "description": "A versenytársak kizárása után nyert az a konzorcium, aminek egyik tagja egy Tiborcz-érdekeltségű cég volt.",
+      "link": "https://444.hu/2026/07/04/nyomozas-indult-egy-tiborcz-fele-buszos-ceg-altal-elnyert-vasuti-kozbeszerzes-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-04",
+      "source": "444",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "közbeszerzés"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_ba070314",
+      "title": "Egyre többen firtatják Varga Mihály személyi felelősségét a Matolcsy-korszakban eltűnt százmilliárdokért",
+      "description": "A piac a 16 hónapja megújult monetáris politikát láthatóan díjazza. Ám Varga Mihály elnöknek olykor felróják, hogy pénzügyminiszterként szemet hunyt Matolcsy György üzelmei fölött.",
+      "link": "https://hvg.hu/360/20260704_varga-mihaly-kettos-probatetel-tulajdonosi-felelosseg-vizsgaidoszak-hvg",
+      "date": "2026-07-04",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_915aa6",
+          "name": "Varga Mihály",
+          "position": "pénzügyminiszter"
+        },
+        {
+          "id": "p_5e6c41",
+          "name": "Ám Varga",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0a9ee4",
+          "name": "Matolcsy György",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_79cdecee",
+      "title": "Áder János bizonyítékokat vagy bocsánatkérést vár az őt közpénz-kilapátolással vádoló Magyar Pétertől",
+      "description": "A kormányfőt a kormányinfón kérdezték Áderről, ő pedig elmondta a véleményét.",
+      "link": "https://444.hu/2026/07/02/ader-janos-bizonyitekokat-vagy-bocsanatkerest-var-az-ot-kozpenz-kilapatolassal-vadolo-magyar-petertol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-02",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_e29df8",
+          "name": "Áder János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d8df95b5",
+      "title": "Meddig tart ki Hajdu János lojalitása Orbán felé, ha súlyos bűncselekményekkel vádolják?",
+      "description": "Egyre több bizonyíték kerül elő arról, hogyan zajlott az ukrán pénzszállító elleni akció a kampány hajrájában. Átbeszéltük, mit lehet tudni az ügyről.",
+      "link": "https://444.hu/2026/07/02/meddig-tart-ki-hajdu-janos-lojalitasa-orban-fele-ha-sulyos-buncselekmenyekkel-vadoljak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-02",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_3fb7b2",
+          "name": "Hajdu János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_44d168d4",
+      "title": "Az Origo fél év alatt félmilliárdot, a Pesti Srácok kétszázmilliót szakított állami hirdetésekből",
+      "description": "De az is bevett módszere volt a Rogán-tárcának, hogy beszélgetős műsorokba, podcastekbe szakértőt delegált, és ezért fizetett. Mindez a Balásy-cégcsoport lapunk birtokába került szerződéseiből derül ki. Ezek a pénzek hiányoznak most a sorra megszűnő jobboldali médiumoknak.",
+      "link": "https://444.hu/2026/07/03/az-origo-fel-ev-alatt-felmilliardot-a-pesti-sracok-ketszazmilliot-szakitott-allami-hirdetesekbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1c6a73",
+          "name": "Az Origo",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3feb31",
+          "name": "Pesti Srácok",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9258a4b7",
+      "title": "A Legfőbb Ügyészség még mindig Fidesz-közeli cégekkel végezteti a kommunikációs feladatokat",
+      "description": "Pedig meg tudnák oldani házon belül is.",
+      "link": "https://444.hu/2026/07/03/a-legfobb-ugyeszseg-meg-mindig-fidesz-kozeli-cegekkel-vegezteti-a-kommunikacios-feladatokat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_792f6b13",
+      "title": "Fél év alatt több mint félmilliárd forint állami hirdetést kapott a Rogán-féle propagandaminisztériumtól az Origo, de a Mandiner és a Bors is nagyot szakított",
+      "description": "Az egészet Balásy Gyula intézte.",
+      "link": "https://hvg.hu/kkv/20260703_allami-hirdetesek-rogan-antal-propagandaminiszterium-origo-mandiner-bors-balasy-gyula",
+      "date": "2026-07-03",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8105,64 +8094,14 @@
       ],
       "description": "Automatikusan felismert – 2 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_c2b0bc",
-      "to": "p_0ff72e",
-      "type": "business_connection",
-      "cases": [
-        "sc_4a5434db"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_2975d4",
-      "to": "p_3f7e09",
-      "type": "business_connection",
-      "cases": [
-        "sc_09497db0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6124d7",
-      "to": "p_068668",
-      "type": "business_connection",
-      "cases": [
-        "sc_73459431"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6124d7",
-      "to": "p_863237",
-      "type": "business_connection",
-      "cases": [
-        "sc_73459431"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_068668",
-      "to": "p_863237",
-      "type": "business_connection",
-      "cases": [
-        "sc_73459431"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T09:09:49.472879+00:00",
+    "last_updated": "2026-08-12T09:09:15.260322+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16804676000000,
+    "total_involved_amount_huf": 15186676000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8170,8 +8109,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 19,
-      "pénzügyi": 171,
+      "korrupció": 16,
+      "pénzügyi": 174,
       "közbeszerzés": 10
     },
     "sources": [
@@ -8184,12 +8123,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Budapest",
+      "Csongrád-Csanád",
+      "Baranya",
       "Fejér",
       "Győr-Moson-Sopron",
-      "Csongrád-Csanád",
-      "Zala",
-      "Baranya",
-      "Budapest"
+      "Zala"
     ]
   }
 }

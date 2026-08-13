@@ -1,22 +1,5 @@
 [
   {
-    "run_at": "2026-06-30T10:23:27.321893+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Szuverenitásvédelmi Hivatal",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Magyar Péternek",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Rent Kft",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-06-30T10:33:51.654195+00:00",
     "skipped_candidates": [
       {
@@ -829,6 +812,23 @@
       },
       {
         "candidate": "Európai Ügyészség",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Élvonal Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-13T09:09:49.481272+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Legfőbb Ügyészség",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Legfőbb Ügyészség",
         "reason": "blacklisted_institution_pattern"
       },
       {
