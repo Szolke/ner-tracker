@@ -1,60 +1,5 @@
 [
   {
-    "run_at": "2026-07-15T10:01:08.327166+00:00",
-    "feeds": [
-      {
-        "name": "Telex",
-        "raw_count": 50,
-        "error": null
-      },
-      {
-        "name": "HVG",
-        "raw_count": 60,
-        "error": null
-      },
-      {
-        "name": "444",
-        "raw_count": 30,
-        "error": null
-      },
-      {
-        "name": "Direkt36",
-        "raw_count": 10,
-        "error": null
-      },
-      {
-        "name": "Atlatszo",
-        "raw_count": 25,
-        "error": null
-      },
-      {
-        "name": "Narancs",
-        "raw_count": 30,
-        "error": null
-      },
-      {
-        "name": "Merce",
-        "raw_count": 0,
-        "error": null
-      },
-      {
-        "name": "SzabadEu",
-        "raw_count": 0,
-        "error": null
-      },
-      {
-        "name": "AtlatszoPalyazat",
-        "raw_count": 11,
-        "error": null
-      },
-      {
-        "name": "HVGKozpenz",
-        "raw_count": 60,
-        "error": null
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-16T10:07:16.204084+00:00",
     "feeds": [
       {
@@ -1596,6 +1541,61 @@
   },
   {
     "run_at": "2026-08-13T09:09:49.102036+00:00",
+    "feeds": [
+      {
+        "name": "Telex",
+        "raw_count": 50,
+        "error": null
+      },
+      {
+        "name": "HVG",
+        "raw_count": 60,
+        "error": null
+      },
+      {
+        "name": "444",
+        "raw_count": 30,
+        "error": null
+      },
+      {
+        "name": "Direkt36",
+        "raw_count": 10,
+        "error": null
+      },
+      {
+        "name": "Atlatszo",
+        "raw_count": 25,
+        "error": null
+      },
+      {
+        "name": "Narancs",
+        "raw_count": 30,
+        "error": null
+      },
+      {
+        "name": "Merce",
+        "raw_count": 0,
+        "error": null
+      },
+      {
+        "name": "SzabadEu",
+        "raw_count": 0,
+        "error": null
+      },
+      {
+        "name": "AtlatszoPalyazat",
+        "raw_count": 11,
+        "error": null
+      },
+      {
+        "name": "HVGKozpenz",
+        "raw_count": 60,
+        "error": null
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-14T09:05:13.087064+00:00",
     "feeds": [
       {
         "name": "Telex",

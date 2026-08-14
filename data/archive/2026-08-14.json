@@ -1,144 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_5394d426",
-      "title": "Mire lehet elég a Magyar Péter által bejelentett hatmilliárdos beruházás Pakson?",
-      "description": "Hatmilliárd forintból ad magának haladékot az ország arra, hogy elkezdjen másként gondolkodni Paksról, az áramról és az ellátásbiztonságról. A szerdai, kihelyezett kormányülést követően Magyar Péter bejelentette, hogy fenékküszöböt építenek a Duna medrébe, hogy a mostanihoz hasonlóan alacsony vízállás mellett se legyen gond az atomerőmű üzemeltethetőségével. A krízisre adott gyors válasz azonban n",
-      "link": "https://hvg.hu/360/20260813_magyar-peter-paks-atomeromu-fenekkuszob-barka-duna-vizallas-mire-eleg-ebx",
-      "date": "2026-08-13",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_814a0c24",
-      "title": "Hiába próbálkozott a Fidesz az Alkotmánybíróságnál, a kekvák ügyében elutasították",
-      "description": "A beadványt érdemi vizsgálat nélkül utasították vissza. Polt Péter és Handó Tünde írt csak különvéleményt, akik szerint igenis vizsgálni kellett volna a fideszes indítványt.",
-      "link": "https://444.hu/2026/08/14/hiaba-probalkozott-a-fidesz-az-alkotmanybirosagnal-elutasitottak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-14",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_113f50",
-          "name": "Polt Péter",
-          "position": "legfőbb ügyész"
-        },
-        {
-          "id": "p_03fe30",
-          "name": "Handó Tünde",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a41a93ec",
-      "title": "Magyar Péter: Orbán Győző, Tiborcz István és Schmidt Mária eddig semmit sem ajánlott fel a paksi építkezéshez",
-      "description": "A miniszterelnök szerint az elődje milliárdos rokonai és harcostársai „egy kavicsot sem” ajánlottak fel.",
-      "link": "https://444.hu/2026/08/14/magyar-peter-orban-gyozo-tiborcz-istvan-es-schmidt-maria-eddig-semmit-sem-ajanlott-fel-a-paksi-epitkezeshez?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-14",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_0ca9f5",
-          "name": "Orbán Győző",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_912d84",
-          "name": "Schmidt Mária",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ea6cd1c7",
-      "title": "Az Alkotmánybíróság érdemi vizsgálat nélkül visszautasította a Fidesz–KDNP panaszát a kekvákra vonatkozóan",
-      "description": "Az ügy azonban nem zárult le teljesen.",
-      "link": "https://hvg.hu/itthon/20260814_az-alkotmanybirosag-erdemi-vizsgalat-nelkul-elutasitotta-a-fidesz-kdnp-inditvanyat-a-kekvakra-vonatkozoan",
-      "date": "2026-08-14",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c346b0",
-          "name": "Az Alkotmánybíróság",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b12cc0ae",
-      "title": "Kifizettek 315 milliárdot nyolc épületért, az utolsó pillanatban mentették volna meg a szerződést, és most egy banánhéjon csúszhat el az egész",
-      "description": "Több mint 300 milliárdot követel vissza a kormány Tiborcz István üzlettársának cégétől, miután elálltak a Zugló Városközpont nevű irodanegyed megvásárlásától. Az ügy középpontjában egy adminisztratív apróság áll, amit a beruházó figyelmetlenségből és mohóságból felejthetett el elintézni. Ezen múlhat most a zuglói irodakomplexum sorsa.",
-      "link": "https://telex.hu/belfold/2026/08/14/zugloi-irodakomplexum-balazs-attila-kormany-elall-elovasarlasi-jog",
-      "date": "2026-08-14",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 315000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_364462",
-          "name": "Zugló Városközpont",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_2d408119",
       "title": "Rengeteg munka, rengeteg szerelem",
       "description": "Mészáros Lőrinc becsült vagyona meghaladja az 1600 milliárd forintot. Cégei a 2010-es kormányváltás után sorozatban nyertek állami megrendeléseket, vagyonát évről évre megduplázta. A cégek és a milliárdos osztalékok azonban nem korlátozódnak a családfőre.",
@@ -5442,6 +5304,136 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_68cec811",
+      "title": "Magyar Péter szerint az óbudai korrupciós ügy megmutatja kicsiben, hogyan osztotta fel az országot a Fidesz és az MSZP",
+      "description": "A miniszterelnök nagykoalíciós ügynek nevezte a botrányt.",
+      "link": "https://telex.hu/belfold/2026/07/06/magyar-peter-obudai-korrupcios-ugy-fidesz-mszp-czegledy-gergo-puskas-peter-bus-balazs",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_bad9cd12",
+      "title": "Vitézy a fideszes képviselőknek: A korrupciót tekintik szuverenitási kérdésnek",
+      "description": "Magyar Péter a NATO-csúcsra utazott, nélküle tart ülést a Parlament. Vitézy felszólalásával indult az ülés, a Fidesz öt hazugságáról beszélt. Tuzson Bence Hitlert emlegette az alaptörvény-módosítás miatt. Hegedűs Zsolt szerint a Mi Hazánk abortuszvitát kezdeményez.",
+      "link": "https://telex.hu/belfold/2026/07/06/parlament-rendkivuli-ules-magyar-peter-nelkul",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_77b624",
+          "name": "Tuzson Bence",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_2975d4",
+          "name": "Hegedűs Zsolt",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_ef8a02",
+          "name": "Mi Hazánk",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_fcef3d8b",
+      "title": "Vitézy Dávid az autópálya-koncesszióról: Az elmúlt négy évben 1024 milliárd forintot fizettek ki Mészáros és Szíjj  László magántőkealapjainak",
+      "description": "„Ez valójában nem egy koncesszió, hanem egy közpénz-kicsatornázási eszköz” – mondta a közlekedési és beruházási miniszter.",
+      "link": "https://444.hu/2026/07/04/vitezy-david-az-autopalya-koncessziorol-az-elmult-negy-evben-1024-milliard-forintot-fizettek-ki-meszaros-es-szijj-laszlo-magantokealapjainak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-04",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1024000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_91767b",
+          "name": "Szíjj  László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c99f1183",
+      "title": "Lefordítottuk magyarra az Integritás Hatóság 322 oldalas éves jelentését",
+      "description": "Konkrét példákon, az Átlátszó által megírt eseteken keresztül mutatjuk be, milyen korrupciós kockázatokat rejt a magyar közbeszerzési rendszer.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/03/leforditottuk-magyarra-az-integritas-hatosag-322-oldalas-eves-jelenteset/",
+      "date": "2026-07-03",
+      "source": "Átlátszó",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_f772132a",
+      "title": "Szijjártó 2 milliárdért magánrepülőzött tavaly, az Origóba dőlt az állami hirdetés",
+      "description": "Heti lapszemlénk.",
+      "link": "https://atlatszo.hu/mutyimondo/2026/07/03/szijjarto-2-milliardert-maganrepulozott-tavaly-az-origoba-dolt-az-allami-hirdetes/",
+      "date": "2026-07-03",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2000000000,
+      "tags": [
+        "hirdetés"
+      ],
+      "involved_persons": []
     }
   ],
   "investigations": [
@@ -8163,64 +8155,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_113f50",
-      "to": "p_03fe30",
-      "type": "business_connection",
-      "cases": [
-        "sc_814a0c24"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_0ca9f5",
-      "type": "business_connection",
-      "cases": [
-        "sc_a41a93ec"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_912d84",
-      "type": "business_connection",
-      "cases": [
-        "sc_a41a93ec"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_364462",
-      "type": "business_connection",
-      "cases": [
-        "sc_b12cc0ae"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_0ca9f5",
-      "to": "p_912d84",
-      "type": "business_connection",
-      "cases": [
-        "sc_a41a93ec"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T09:05:13.332044+00:00",
+    "last_updated": "2026-08-13T09:09:49.472879+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16093676000000,
+    "total_involved_amount_huf": 16804676000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8228,9 +8170,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 17,
-      "pénzügyi": 174,
-      "közbeszerzés": 9
+      "korrupció": 19,
+      "pénzügyi": 171,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -8242,11 +8184,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Fejér",
       "Győr-Moson-Sopron",
       "Csongrád-Csanád",
-      "Baranya",
       "Zala",
-      "Fejér",
+      "Baranya",
       "Budapest"
     ]
   }
