@@ -5,8 +5,40 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Fri, 14 Aug 2026 09:05:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 08:25:12 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Vitézy bejelentette, hogy százmilliárdos túlárazás miatt Mészárosék mégsem üzemeltethetik az M6-os autópálya 60 kilométeres szakaszát]]></title>
+    <link>https://444.hu/2026/08/14/vitezy-david-bejelentette-nem-meszarosek-uzemeltetik-az-m6-os-autopalya-60-kilometeres-szakaszat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_345022d3</guid>
+    <pubDate>2026-08-14</pubDate>
+    <description><![CDATA[Erről még Lázár János döntött, a levelét érvénytelenítették. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Vitézy Dávid: Tucatjával vannak ügyek, ahol feljelentést tehetünk]]></title>
+    <link>https://444.hu/2026/08/14/vitezy-david-tucatjaval-vannak-ugyek-ahol-feljelentest-tehetunk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_6a49a69d</guid>
+    <pubDate>2026-08-14</pubDate>
+    <description><![CDATA[Belső vizsgálatok zajlanak, és számos ügyben vizsgálják, hogy a feljelentés szükséges-e – mondta a 444-nek Vitézy Dávid, akit arról is megkérdeztünk, keresték-e Lázár Jánost. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A Fidesz szervereit visszaszállították a szolgáltató telephelyére, de a párt nem helyezheti újra üzembe azokat]]></title>
+    <link>https://telex.hu/belfold/2026/08/14/fidesz-szerver-szolgaltato-telephelyere-visszaszallitas-megorzes-havasi-bertalan</link>
+    <guid>sc_cea89ef9</guid>
+    <pubDate>2026-08-14</pubDate>
+    <description><![CDATA[Havasi Bertalan szerint ez szembemegy a Legfőbb Ügyészség határozatával. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Egy uniós eljárás és a magántőkealapos háttér vezetett Mészárosék pályázati kizárásához]]></title>
+    <link>https://telex.hu/gazdasag/2026/08/14/eu-helyreallitasi-alap-energia-palyazat-mfb-opus-titasz</link>
+    <guid>sc_b0751ad4</guid>
+    <pubDate>2026-08-14</pubDate>
+    <description><![CDATA[Pár nappal a hirtelen kizárása előtt az Opus Titász még tízmilliárdokat nyert el az uniós helyreállítási alapból kiírt pályázatokon. A helyreállítási terv módosításában a kormány vállalta a magántőkea | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
   <item>
     <title><![CDATA[Mire lehet elég a Magyar Péter által bejelentett hatmilliárdos beruházás Pakson?]]></title>
     <link>https://hvg.hu/360/20260813_magyar-peter-paks-atomeromu-fenekkuszob-barka-duna-vizallas-mire-eleg-ebx</link>
@@ -133,38 +165,6 @@
     <guid>sc_4727099b</guid>
     <pubDate>2026-08-12</pubDate>
     <description><![CDATA[Közérdekű adatigényléssel kikértük, milyen tanulmányokat készített a Századvég, és mindez mennyibe került. Egészen megdöbbentő témák és árak vannak a listában, milliárdokért dolgozott az intézet. A Mi | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Átveszi az állam Krausz Ferenc kutatóközpontját]]></title>
-    <link>https://444.hu/2026/08/12/atveszi-az-allam-krausz-ferenc-kutatokozpontjat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_28b8050b</guid>
-    <pubDate>2026-08-12</pubDate>
-    <description><![CDATA[A Nobel-díjas fizikus által vezetett Élvonal Alapítvány közfeladatait és a szintén hozzá köthető Molekuláris Ujjlenyomat Kutató Központ Nonprofit Kft.-t is átveszi az állam a közeljövőben. Utóbbi össz | Budapest | 45000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[7,6 milliárd forintot fizetett ki január és március között a Századvégnek a Fidesz-kormány]]></title>
-    <link>https://hvg.hu/itthon/20260812_7-6-milliard-forintot-fizetett-ki-januar-es-marcius-kozott-a-szazadvegnek-a-fidesz-kormany</link>
-    <guid>sc_def64519</guid>
-    <pubDate>2026-08-12</pubDate>
-    <description><![CDATA[A kutatócég egységáron dolgozott, 200 milliós tanulmányok és 300 milliós közvélemény-kutatások is bőven vannak. | Budapest | 7600 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Az állam veszi át Krausz Ferenc a Fidesz által tízmilliárdokkal kitömött kutatóközpontját]]></title>
-    <link>https://hvg.hu/gazdasag/20260812_krausz-ferenc-elvonal-alapitvany-cmf-allami-atvetel</link>
-    <guid>sc_39ba63ed</guid>
-    <pubDate>2026-08-12</pubDate>
-    <description><![CDATA[A Molekuláris Ujjlenyomat Kutató Központ mellett a Nobel-díjas fizikus által vezetett Élvonal Alapítvány vagyona is visszaszáll az államra. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Két táborra szakadtak a budapesti ügyvédek: szabad-e védeni a NER-eseket?]]></title>
-    <link>https://hvg.hu/360/20260812_ugyvedek-ner-vedelme-valasztas-kampany-jogallamisag-toth-m-gabor-horvath-lorant</link>
-    <guid>sc_55abb59e</guid>
-    <pubDate>2026-08-12</pubDate>
-    <description><![CDATA[Többekben megütközést keltett, hogy a Budapesti Ügyvédi Kamara elnöke a Fidesz hűtlen kezeléssel gyanúba került vezetői közül többek védelmét is ellátja. A szabad ügyfélválasztást és a védelemhez való | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>

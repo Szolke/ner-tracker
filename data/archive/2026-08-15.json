@@ -1,120 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_345022d3",
-      "title": "Vitézy bejelentette, hogy százmilliárdos túlárazás miatt Mészárosék mégsem üzemeltethetik az M6-os autópálya 60 kilométeres szakaszát",
-      "description": "Erről még Lázár János döntött, a levelét érvénytelenítették.",
-      "link": "https://444.hu/2026/08/14/vitezy-david-bejelentette-nem-meszarosek-uzemeltetik-az-m6-os-autopalya-60-kilometeres-szakaszat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-14",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        }
-      ]
-    },
-    {
-      "id": "sc_6a49a69d",
-      "title": "Vitézy Dávid: Tucatjával vannak ügyek, ahol feljelentést tehetünk",
-      "description": "Belső vizsgálatok zajlanak, és számos ügyben vizsgálják, hogy a feljelentés szükséges-e – mondta a 444-nek Vitézy Dávid, akit arról is megkérdeztünk, keresték-e Lázár Jánost.",
-      "link": "https://444.hu/2026/08/14/vitezy-david-tucatjaval-vannak-ugyek-ahol-feljelentest-tehetunk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-14",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_0ce9c6",
-          "name": "Lázár Jánost",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_cea89ef9",
-      "title": "A Fidesz szervereit visszaszállították a szolgáltató telephelyére, de a párt nem helyezheti újra üzembe azokat",
-      "description": "Havasi Bertalan szerint ez szembemegy a Legfőbb Ügyészség határozatával.",
-      "link": "https://telex.hu/belfold/2026/08/14/fidesz-szerver-szolgaltato-telephelyere-visszaszallitas-megorzes-havasi-bertalan",
-      "date": "2026-08-14",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_4f5029",
-          "name": "Havasi Bertalan",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b0751ad4",
-      "title": "Egy uniós eljárás és a magántőkealapos háttér vezetett Mészárosék pályázati kizárásához",
-      "description": "Pár nappal a hirtelen kizárása előtt az Opus Titász még tízmilliárdokat nyert el az uniós helyreállítási alapból kiírt pályázatokon. A helyreállítási terv módosításában a kormány vállalta a magántőkealapok átláthatóvá tételét, a cég ennek nem felelt meg, de szerintük csak adatfeltöltési hibák miatt.",
-      "link": "https://telex.hu/gazdasag/2026/08/14/eu-helyreallitasi-alap-energia-palyazat-mfb-opus-titasz",
-      "date": "2026-08-14",
-      "source": "Telex",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_ae8161",
-          "name": "Opus Titász",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_5394d426",
       "title": "Mire lehet elég a Magyar Péter által bejelentett hatmilliárdos beruházás Pakson?",
       "description": "Hatmilliárd forintból ad magának haladékot az ország arra, hogy elkezdjen másként gondolkodni Paksról, az áramról és az ellátásbiztonságról. A szerdai, kihelyezett kormányülést követően Magyar Péter bejelentette, hogy fenékküszöböt építenek a Duna medrébe, hogy a mostanihoz hasonlóan alacsony vízállás mellett se legyen gond az atomerőmű üzemeltethetőségével. A krízisre adott gyors válasz azonban n",
@@ -5449,6 +5335,113 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_5b79d306",
+      "title": "Balesetveszélyes hibákat tárt fel egy tavalyi jelentés a Fradi közpénzmilliárdokból épült stadionjában",
+      "description": "Előfordult, hogy ökölnyi betondarabok potyogtak a kerengőre a Groupamában. A Telexhez eljutott igazságügyi szakértői dokumentum a 12 éve átadott stadionban több mint 240 hibát talált, amikért a kivitelező Market Zrt. a felelős. A cég szerint már minden hibát elhárítottak.",
+      "link": "https://telex.hu/gazdasag/2026/07/07/groupama-arena-stadion-market-epito-zrt-sportfive-hungary-kft-lehullo-betondarabok-kivitelezes",
+      "date": "2026-07-07",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "stadion",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_ab5d6560",
+      "title": "Kié az iskola? – Oktatási fórum az iskolafenntartásról",
+      "description": "A csömöri önkormányzat oktatási-önkormányzati fórumot tart csütörtökön a polgármesteri hivatalban. A téma nagyon is időszerű: érdemes-e minden állami iskolát visszaadni az önkormányzatoknak?",
+      "link": "https://hvg.hu/kultura/20260706_kie-az-iskola-oktatasi-forum-az-iskolafenntartasrol",
+      "date": "2026-07-06",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "OLAF",
+        "önkormányzat"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_2fc937db",
+      "title": "Olyan Fidesz–MSZP közös lopást vallott be Óbuda volt alpolgármestere, amiről az elmúlt 30 évben csak legendák szóltak",
+      "description": "Czeglédy Gergő, Óbuda volt MSZP-s alpolgármestere részletes beismerő vallomásában arról beszélt, hogyan szervezték a kerületi korrupciót Puskás Péterrel, a Fidesz helyi erős emberével. A tökélyre fejlesztett, kétszintes kenőpénzes rendszer állítása szerint a kerület fideszes és baloldali vezetése alatt is működni tudott. Puskást kerestük ezekkel az állításokkal kapcsolatban, de kérdéseinkre nem re",
+      "link": "https://telex.hu/belfold/2026/07/06/obuda-korrupcio-czegledy-gergo-puskas-peter-fidesz-mszp-lopas-vallomas",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_a5f0ba",
+          "name": "Olyan Fidesz",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_7c980d",
+          "name": "Czeglédy Gergő",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_202ad2",
+          "name": "Puskás Péterrel",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_922b444d",
+      "title": "Luxus-bevásárlóutcát is kapott volna a Tőzsdepalotába megálmodott Nemzeti Galéria",
+      "description": "Piero Lissoni olasz építész kiposztolta, hogyan alakította volna át a Tiborcz István érdekeltségébe tartozó épületet.",
+      "link": "https://telex.hu/belfold/2026/07/06/tozsdepalota-nemzeti-galeria-latvanytervek-tiborcz-istvan",
+      "date": "2026-07-06",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_2acb54",
+          "name": "Piero Lissoni",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8220,30 +8213,10 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_c7f9a1",
-      "to": "p_0ce9c6",
-      "type": "political_ally",
-      "cases": [
-        "sc_6a49a69d"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_94af7a",
-      "to": "p_0ce9c6",
-      "type": "business_connection",
-      "cases": [
-        "sc_6a49a69d"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T08:25:12.089971+00:00",
+    "last_updated": "2026-08-14T09:05:13.332044+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -8255,9 +8228,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
+      "korrupció": 17,
       "pénzügyi": 174,
-      "közbeszerzés": 10
+      "közbeszerzés": 9
     },
     "sources": [
       "444",
@@ -8270,11 +8243,11 @@
     ],
     "regions_covered": [
       "Győr-Moson-Sopron",
-      "Budapest",
-      "Baranya",
-      "Fejér",
       "Csongrád-Csanád",
-      "Zala"
+      "Baranya",
+      "Zala",
+      "Fejér",
+      "Budapest"
     ]
   }
 }
