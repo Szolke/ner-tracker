@@ -1,6 +1,103 @@
 {
   "cases": [
     {
+      "id": "sc_0384ea2f",
+      "title": "Egy értelme biztos volt a kekva-rendszernek: milliárdok csorogtak fideszes érdekeltségekbe",
+      "description": "A kekvák voltak a NER vagyonjuttatásainak fő kedvezményezettjei, jóvoltukból egy sor NER-es szereplő, így Balásy Gyula, Sárhegyi Zoltán, Tiborcz István vagy Garancsi István cége lehetett egy kicsit (vagy nagyon) még gazdagabb. Megkérdeztük tőlük, hogy kikkel szerződtek, mennyit kerestek a vezetők és kuratóriumi tagok, hányan dolgoztak.",
+      "link": "https://444.hu/2026/08/16/egy-ertelme-biztos-volt-a-kekva-rendszernek-milliardok-csorogtak-fideszes-erdekeltsegekbe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-16",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_613379",
+          "name": "Garancsi István",
+          "position": "vállalkozó, Videoton FC tulajdonos"
+        },
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c60d17",
+          "name": "Sárhegyi Zoltán",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_778af4e2",
+      "title": "Vitézy Dávid visszaszólt Mészáros Lőrincéknek, szerinte nem elég alaposan magyarázkodnak a 149 milliárdos megbízásról",
+      "description": "A miniszter szerint a magyar adófizetőknek 100 milliárd forintot spórolnak azzal, hogy újra pályáztatják az M6-os autópálya egyik szakaszának üzemeltetését.",
+      "link": "https://telex.hu/gazdasag/2026/08/15/vitezy-david-meszaros-lorinc-szijj-laszlo-m6-autopalya-koltseg",
+      "date": "2026-08-15",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 149000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_afa257",
+          "name": "Mészáros Lőrincéknek",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_7de872ee",
+      "title": "Hárman voltak egy izlandi hotelszobában, egyedül ő maradt életben. Most 12 év börtönbüntetésre ítélték",
+      "description": "Egy francia nő szerint háromtagú családjuk azért érkezett Izlandra 2025-ben, hogy a látszólagos nyaralásuk során együtt vessenek véget az életüknek. Sérülései ellenére a nő életben maradt, és bíróság elé állították gyilkosság vádjával. A tárgyaláson skandináv krimit idéző részletek derültek ki az ügyről.",
+      "link": "https://telex.hu/kulfold/2026/08/15/targyalas-itelet-izland-francia-ir-csalad-ugyeszek-gyilkossag-vad-bunugy-rendorseg",
+      "date": "2026-08-15",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_345022d3",
       "title": "Vitézy bejelentette, hogy százmilliárdos túlárazás miatt Mészárosék mégsem üzemeltethetik az M6-os autópálya 60 kilométeres szakaszát",
       "description": "Erről még Lázár János döntött, a levelét érvénytelenítették.",
@@ -5369,86 +5466,6 @@
           "position": "építési és közlekedési miniszter"
         }
       ]
-    },
-    {
-      "id": "sc_d9199049",
-      "title": "A Fidesz szerint rendőrök vitték el Szakács István megafonos influenszert",
-      "description": "Takács Péter szerint terrorcselekmény előkészülete a gyanú.",
-      "link": "https://444.hu/2026/07/08/allitolag-letartoztattak-szakacs-istvan-megafonos-influenszert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-08",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_ddfefa",
-          "name": "Szakács István",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_c3a0b3",
-          "name": "Takács Péter",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_6ca0b9a8",
-      "title": "Hadházy feljelentést tett a Tiborczhoz köthető cégek akciója miatt, eddig nem utasították el",
-      "description": "Hadházy bennfentes kereskedelem, csalás és hűtlen kezelés gyanúja miatt tett feljelentést az Alteo részvények ügyében.",
-      "link": "https://444.hu/2026/07/08/hadhazy-feljelentest-tett-a-tiborczhoz-kotheto-cegek-akcioja-miatt-eddig-nem-utasitottak-el?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-08",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_c890b1c3",
-      "title": "Bóna Szabolcs újragondolja a Mezőhegyesre tervezett többmilliárdos luxushotel terveit",
-      "description": "A Lázár János felügyelte ménesbirtokon legalább 3,5 milliárdba kerülne a fejlesztés.",
-      "link": "https://telex.hu/belfold/2026/07/08/bona-szabolcs-lazar-janos-mezohegyes-menesbirtok-luxusszalloda",
-      "date": "2026-07-08",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3500000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_c3db67",
-          "name": "Bóna Szabolcs",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8240,14 +8257,94 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_613379",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_7a517f",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_c60d17",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_613379",
+      "to": "p_7a517f",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_613379",
+      "to": "p_c60d17",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_7a517f",
+      "to": "p_c60d17",
+      "type": "business_connection",
+      "cases": [
+        "sc_0384ea2f"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_afa257",
+      "type": "political_ally",
+      "cases": [
+        "sc_778af4e2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_94af7a",
+      "to": "p_afa257",
+      "type": "business_connection",
+      "cases": [
+        "sc_778af4e2"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T08:25:12.089971+00:00",
+    "last_updated": "2026-08-16T08:26:44.414632+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16093676000000,
+    "total_involved_amount_huf": 16239176000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8269,12 +8366,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Budapest",
-      "Baranya",
-      "Fejér",
+      "Zala",
       "Csongrád-Csanád",
-      "Zala"
+      "Budapest",
+      "Fejér",
+      "Baranya",
+      "Győr-Moson-Sopron"
     ]
   }
 }
