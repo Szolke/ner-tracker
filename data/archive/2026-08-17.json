@@ -1,57 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_c0173a10",
-      "title": "Őrizetbe vettek egy férfit, aki a gyanú szerint a távoltartási végzés ellenére fojtogatott egy nőt a Lehel téren",
-      "description": "A férfival szemben zaklatás minősített esete merült fel.",
-      "link": "https://telex.hu/belfold/2026/08/16/orizetbe-vettek-lehel-teri-ferfit-tavoltartasi-vegzes-baratno",
-      "date": "2026-08-16",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_f41d10fe",
-      "title": "Schmidt Mária egész fideszes intézethálózata alól kihúzta a szőnyeget a kormány",
-      "description": "Schmidt Mária közérdekű vagyonkezelő alapítványa tartotta el a Terror Házát és egy sor intézetet, amelyek költségvetési milliárdokból értelmezték újra a történelmet a Fidesz szájíze szerint. Azt egyelőre senki sem tudja, hogy mi lesz a sorsuk.",
-      "link": "https://telex.hu/belfold/2026/08/17/schmidt-maria-terror-haza-xx-szazad-intezet-xxi-szazad-intezet-kekva-alapitvany",
-      "date": "2026-08-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_912d84",
-          "name": "Schmidt Mária",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2ee619",
-          "name": "Terror Házát",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_0384ea2f",
       "title": "Egy értelme biztos volt a kekva-rendszernek: milliárdok csorogtak fideszes érdekeltségekbe",
       "description": "A kekvák voltak a NER vagyonjuttatásainak fő kedvezményezettjei, jóvoltukból egy sor NER-es szereplő, így Balásy Gyula, Sárhegyi Zoltán, Tiborcz István vagy Garancsi István cége lehetett egy kicsit (vagy nagyon) még gazdagabb. Megkérdeztük tőlük, hogy kikkel szerződtek, mennyit kerestek a vezetők és kuratóriumi tagok, hányan dolgoztak.",
@@ -5469,6 +5418,54 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_95eae41b",
+      "title": "A kézdivásárhelyi nadrággyár kivéreztetésével vádolják a zabolai Mikes-örököst",
+      "description": "Az eddig luxusnyaralásokról és a kegyelmi ügyről elhíresült Zabola Estate most egy súlyos sikkasztási ügy középpontjába került. Az ügyészség szerint a Mikes-leszármazott három év alatt 128-szor csapolta meg a gyár kasszáját.",
+      "link": "https://telex.hu/transtelex/2026/07/09/zabola-gregor-mikes-sikkasztas-nadraggyar-osszefoglalo",
+      "date": "2026-07-09",
+      "source": "Telex",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_0f77e5",
+          "name": "Zabola Estate",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_95e873ce",
+      "title": "Felmerül a közpénzek rendszerszintű kiszivattyúzásának gyanúja – az agrárminiszter belenyúl Lázár János mezőhegyesi luxusberuházásába",
+      "description": "Szállodaépítést kezdtek 1,2 milliárdért, de már 3,5 milliárd forintnál jár a számla.",
+      "link": "https://444.hu/2026/07/07/felmerul-a-kozpenzek-rendszerszintu-kiszivattyuzasanak-gyanuja-az-agrarminiszter-belenyul-lazar-janos-mezohegyesi-luxusberuhazasaba?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-07",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8340,24 +8337,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_912d84",
-      "to": "p_2ee619",
-      "type": "business_connection",
-      "cases": [
-        "sc_f41d10fe"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T08:40:29.818979+00:00",
+    "last_updated": "2026-08-16T08:26:44.414632+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16237976000000,
+    "total_involved_amount_huf": 16239176000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8365,8 +8352,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 15,
-      "pénzügyi": 175,
+      "korrupció": 16,
+      "pénzügyi": 174,
       "közbeszerzés": 10
     },
     "sources": [
@@ -8379,11 +8366,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Zala",
       "Csongrád-Csanád",
       "Budapest",
-      "Baranya",
       "Fejér",
-      "Zala",
+      "Baranya",
       "Győr-Moson-Sopron"
     ]
   }

@@ -5,8 +5,24 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Sun, 16 Aug 2026 08:26:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 08:40:29 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Őrizetbe vettek egy férfit, aki a gyanú szerint a távoltartási végzés ellenére fojtogatott egy nőt a Lehel téren]]></title>
+    <link>https://telex.hu/belfold/2026/08/16/orizetbe-vettek-lehel-teri-ferfit-tavoltartasi-vegzes-baratno</link>
+    <guid>sc_c0173a10</guid>
+    <pubDate>2026-08-16</pubDate>
+    <description><![CDATA[A férfival szemben zaklatás minősített esete merült fel. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Schmidt Mária egész fideszes intézethálózata alól kihúzta a szőnyeget a kormány]]></title>
+    <link>https://telex.hu/belfold/2026/08/17/schmidt-maria-terror-haza-xx-szazad-intezet-xxi-szazad-intezet-kekva-alapitvany</link>
+    <guid>sc_f41d10fe</guid>
+    <pubDate>2026-08-17</pubDate>
+    <description><![CDATA[Schmidt Mária közérdekű vagyonkezelő alapítványa tartotta el a Terror Házát és egy sor intézetet, amelyek költségvetési milliárdokból értelmezték újra a történelmet a Fidesz szájíze szerint. Azt egyel | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Egy értelme biztos volt a kekva-rendszernek: milliárdok csorogtak fideszes érdekeltségekbe]]></title>
     <link>https://444.hu/2026/08/16/egy-ertelme-biztos-volt-a-kekva-rendszernek-milliardok-csorogtak-fideszes-erdekeltsegekbe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -150,22 +166,6 @@
     <pubDate>2026-08-13</pubDate>
     <description><![CDATA[Az egészségügyi miniszter az Országos Mentőszolgálat mentőautó-beszerzései miatt indult nyomozás kapcsán arról írt: minden olyan ügyet, amelyben felvetődik a korrupció, a szabálytalanság vagy a közpén | Budapest | Összeg ismeretlen | korrupció]]></description>
     <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Az MSZP-kormányokkal összehasonlítva látszik igazán, Orbánék milyen mennyiségben adtak engedélyt titkos megfigyelésekre]]></title>
-    <link>https://telex.hu/belfold/2026/08/12/orban-kormany-titkos-megfigyelesek-engedely-mszp-kormanyok-osszehasonlitas-56-szazalek</link>
-    <guid>sc_596e8b4c</guid>
-    <pubDate>2026-08-12</pubDate>
-    <description><![CDATA[56 százalékkal többször figyelték meg a magyarokat az elmúlt 16 évben, mint a szocialisták az azt megelőző nyolcban. | Budapest | Összeg ismeretlen | korrupció]]></description>
-    <category>korrupció</category>
-  </item>
-  <item>
-    <title><![CDATA[Vádat emeltek a Fidesz-közeli Alapjogokért Központ munkatársa ellen egy horogkeresztes poszt miatt]]></title>
-    <link>https://telex.hu/belfold/2026/08/13/koskovics-zoltan-fidesz-kozeli-alapjogokert-kozpont-elemzo-tiltott-onkenyuralmi-jelkep-horogkereszt-hadhazy-akos-feljelentes</link>
-    <guid>sc_73459431</guid>
-    <pubDate>2026-08-13</pubDate>
-    <description><![CDATA[Hadházy Ákos feljelentése után tiltott önkényuralmi jelkép használatával vádolják Koskovics Zoltánt. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
   </item>
   </channel>
 </rss>
