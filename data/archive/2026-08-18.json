@@ -1,291 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_2e36f935",
-      "title": "Isteni üzlet",
-      "description": "Amikor Köves Slomó büszke öntudattal védelmezi egyháza üzleti ügyeit, akkor felsejlik Lánczi András 2015-ös mondata: „Amit korrupciónak neveznek, az gyakorlatilag a Fidesz legfőbb politikája.” Nincs ez másképp a NER-kegyelt bizniszegyházak esetében sem – Nagy Ákos és Mezei Márk újabb válasza az EMIH vezetőjének.",
-      "link": "https://magyarnarancs.hu/publicisztika/isteni-uzlet-279916",
-      "date": "2026-08-12",
-      "source": "Magyar Narancs",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_808acb",
-          "name": "Amikor Köves",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_15482b",
-          "name": "Lánczi András",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3bfaae",
-          "name": "Nagy Ákos",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_c1b067",
-          "name": "Mezei Márk",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_3ace70a0",
-      "title": "Tényleg a Világi Oszkár tulajdonában lévő magyar Wagner Csoport véd magyar diplomatákat Afrikában és Ázsiában",
-      "description": "Katonák, kommandósok és ex-légiósok alapították, Orbán barátja, a NER-milliárdos hamar megvette és felfuttatta. A nemrég felszámolt ferencvárosi lőtéren folyt a titkos kiképzés.",
-      "link": "https://444.hu/2026/08/18/tenyleg-a-vilagi-oszkar-tulajdonaban-levo-magyar-wagner-csoport-ved-magyar-diplomatakat-afrikaban-es-azsiaban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-18",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_11eacb",
-          "name": "Világi Oszkár",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_28eee5",
-          "name": "Wagner Csoport",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_e2b187",
-          "name": "Ázsiában Katonák",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_8a641d32",
-      "title": "Nyomoz az OLAF a mosonmagyaróvári egyetemről ellopott pénz miatt",
-      "description": "Hadházy: „Egy NER-es cégnek 287 milliót adtak egy kamu app kifejlesztésére (...) de jóval több pénz is eltűnhetett persze.”",
-      "link": "https://444.hu/2026/08/18/nyomoz-az-olaf-a-mosonmagyarovari-egyetemrol-ellopott-penz-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-18",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 287000000,
-      "tags": [
-        "OLAF"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_309a5b48",
-      "title": "Térképen lett kereshető, hova ment az Orbán-kormány utolsó ciklusában 400 milliárd forint, amit elvileg civil szervezetek kaptak",
-      "description": "A Ruff Bálint vezette Miniszterelnökség hozta nyilvánosságra az adatbázist.",
-      "link": "https://444.hu/2026/08/18/terkepen-lett-keresheto-hova-ment-az-orban-kormany-utolso-ciklusaban-400-milliard-forint-amit-elvileg-civil-szervezetek-kaptak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-18",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 400000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_ad1068",
-          "name": "Ruff Bálint",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_dcca75a7",
-      "title": "A kő nem lesz búcsúcédula, Baka András maradhat államfő – Newscast",
-      "description": "Érvényben marad a 17. Alaptörvény-módosítás. Átfogó vizsgálatot indítanak a 4iG és a magyar állam között az elmúlt években kialakult kapcsolatok feltárására. Új államtitkárt kapott a Vidék- és Településfejlesztési Minisztérium. Orbán Győző nagy mennyiségű követ ajánlott fel. Orbán Viktor, Rogán Antal és Schmidt Mária Horvátországban nyaral. Kezdje a napot a HVG hírpodcastjával!",
-      "link": "https://hvg.hu/itthon/20260818_a-ko-nem-lesz-bucsucedula-baka-andras-maradhat-allamfo-newscast",
-      "date": "2026-08-18",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_6894ae",
-          "name": "Baka András",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_b5e0b3",
-          "name": "Newscast Érvényben",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_159b76f7",
-      "title": "„Ekkora feltalálói díjra nincs észszerű magyarázat” – Pintz György szabadalmi ügyvivő Rogán Antal milliárdokat fialó szabadalmáról",
-      "description": "Lehet-e félnivalója a feltalálóként milliárdokat kaszáló Rogánnak amiatt, hogy a vagyonvisszaszerzési hivatal minden, gyanús körülmények közt meggazdagodott politikus körmére néz? Pintz György szabadalmi ügyvivőt, a terület szakértőjét kérdeztük.",
-      "link": "https://hvg.hu/360/20260818_a-talalmanyi-dij-nagyobb-mint-a-talalmany-rogan-pintz-gyorgy-szabadalom-hvg-ebx",
-      "date": "2026-08-18",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_235f2c",
-          "name": "Pintz György",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_98404698",
-      "title": "Bőven kap állami megbízásokat a Mol vezérhelyettesének kommandósokkal megpakolt biztonsági cége",
-      "description": "Az Orbán Viktorral Szerbiában együtt bulizó Világi Oszkár Inrimas nevű cége 2024 és 2025 között hússzoros növekedést és 3 milliárd forintos bevételt ért el.",
-      "link": "https://hvg.hu/kkv/20260818_vilagi-oszkar-slovnaft-mol-inrimas-orzo-vedo-ceg-bevetel-allami-megbizas",
-      "date": "2026-08-18",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_a97524",
-          "name": "Viktorral Szerbiában",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_11eacb",
-          "name": "Világi Oszkár",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b76293fc",
-      "title": "Hadházy bejelentésére vizsgálatot indított az OLAF a Széchenyi Egyetemmel szemben",
-      "description": "A korábbi országgyűlési képviselőnek egy egymilliárdból fejlesztett alkalmazás lett gyanús.",
-      "link": "https://hvg.hu/itthon/20260818_hadhazy-feljelentesere-vizsgalatot-inditott-az-olaf-a-szechenyi-egyetemmel-szemben",
-      "date": "2026-08-18",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "OLAF"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_836478",
-          "name": "Széchenyi Egyetemmel",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_18d67192",
-      "title": "Világi Oszkár milliárdos árbevételű magán biztonsági cége több szerződést is kötött a Szijjártó-féle külüggyel",
-      "description": "A volt katonákból és kommandósokból álló Inrimas Kft. több afrikai és ázsiai magyar nagykövetséget biztosít.",
-      "link": "https://telex.hu/gazdasag/2026/08/18/vilagi-oszkar-magan-biztonsagi-ceg-inrimas-kft-volt-katonak-exlegiosok-kulugyminiszterium-szerzodes-nagykovetsegek",
-      "date": "2026-08-18",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_11eacb",
-          "name": "Világi Oszkár",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_c0173a10",
       "title": "Őrizetbe vettek egy férfit, aki a gyanú szerint a távoltartási végzés ellenére fojtogatott egy nőt a Lehel téren",
       "description": "A férfival szemben zaklatás minősített esete merült fel.",
@@ -5481,6 +5196,279 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_c15a9c4e",
+      "title": "Milliárdos fejlesztéstől több milliós fizetésen át pogácsáig mindenre adott pénzt az Orbán-kormány a határon túli focikluboknak",
+      "description": "Az Orbán-kormány nem egész egy év alatt közel 10 milliárd forintot szórt ki 11 határon túli fociklub és -akadémia támogatására. Fejlesztést, személyi kiadásokat és a legkülönfélébb működési költségeket is álltak adóforintokból.",
+      "link": "https://hvg.hu/sport/20260711_milliard-fejlesztes-millio-fizetes-pogacsa-tamogatas-orban-kormany-hataron-tul-fociklub",
+      "date": "2026-07-11",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 10000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c0ae8ac2",
+      "title": "Titkos kormányhatározatokkal is pénzelte az Orbán-kormány a holdudvarát",
+      "description": "A Makovecz Campus Alapítvány 52 milliárd, a Lázár János-féle Jövő Nemzedék Földje Alapítvány 27,2 milliárd, a BLA 9,8 milliárd, a Kék Bolygó Klímavédelmi Alapítvány 5 milliárd forint közpénzt kapott nem átlátható módon.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/10/titkos-kormanyhatarozatokkal-is-penzelte-az-orban-kormany-a-holdudvarat/",
+      "date": "2026-07-10",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 52000000000,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_34b868",
+          "name": "Makovecz Campus",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_65429a",
+          "name": "Jövő Nemzedék",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b6111f",
+          "name": "Kék Bolygó",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4d3df165",
+      "title": "106 milliárdos károkozás miatt tett feljelentést a Miniszterelnökség, fideszes képviselő alapítványai, médiafigyelő és egyházi közösség is előkerült",
+      "description": "Az átvilágítás részeként öt ügyet tártak fel, amiben gyanús szerződések, kifizetések, összefonódások nyomát találták.",
+      "link": "https://telex.hu/belfold/2026/07/10/miniszterelnokseg-feljelentes-iratok-atvizsgalasa-gyanus-szerzodesek",
+      "date": "2026-07-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 106000000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_d26619f2",
+      "title": "Ruff Bálint: A kormányzásnak más célja nem volt, mint hogy bizonyos körök, érdekcsoportok egyre jobban gazdagodjanak",
+      "description": "Miniszterként első interjúját adta a volt politikai elemző. Azt mondta, több ezer milliárd forint vándorolt titkos kormányhatározatokkal „magánzsebekbe”. Szó volt Sulyok Tamás eltávolításáról, Orbán és Rogán esetleges feljelentéséről, illetve a Tisza-frakció megosztottságáról is.",
+      "link": "https://444.hu/2026/07/10/ruff-balint-a-kormanyzasnak-mas-celja-nem-volt-mint-hogy-bizonyos-korok-erdekcsoportok-egyre-jobban-gazdagodjanak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-10",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ad1068",
+          "name": "Ruff Bálint",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bb913f",
+          "name": "Sulyok Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_bc1f8090",
+      "title": "Helikopteres városnézés New Yorkban, extra védelem külföldön, zebracsikók Hatvanpusztán – Newscast",
+      "description": "Magyar Péter felszólította Áder János volt köztársasági elnököt, mondja meg, hogyan szolgálta az országot az, hogy 55 millió forint közpénzből utaztatta a családját az USA-ba. Sulyok Tamás államfő attól fél, hogy utóda politikai kinevezett lesz. A NAV felfüggesztette a nyomozást az ukrán „aranykonvoj” ügyében, azt azonban továbbra is vizsgálják, hogy a NAV törvényszerűen járt-e el a nyomozás során",
+      "link": "https://hvg.hu/itthon/20260710_helikopteres-varosnezes-new-yorkban-extra-vedelem-kulfoldon-zebracsikok-hatvanpusztan-newscast",
+      "date": "2026-07-10",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 55000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_947da5",
+          "name": "New Yorkban",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fce19b",
+          "name": "Newscast Magyar",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_e29df8",
+          "name": "Áder János",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bb913f",
+          "name": "Sulyok Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_578e71f2",
+      "title": "Több mint 1,6 milliárdért vállalta Balásy Gyula cége a BL-döntő szervezési és kommunikációs feladatait",
+      "description": "A közbeszerzést a Rogán Antal irányítása alatt működő Nemzeti Kommunikációs Hivatal bonyolította le.",
+      "link": "https://telex.hu/gazdasag/2026/07/09/tobb-mint-1-6-milliardert-vallalta-balasy-gyula-cege-a-bl-donto-szervezesi-es-kommunikacios-feladatait",
+      "date": "2026-07-09",
+      "source": "Telex",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1600000000,
+      "tags": [
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        },
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0b8728eb",
+      "title": "Letartóztatásban tartaná az ügyészség Fonyód volt fideszes polgármesterét",
+      "description": "2019 és 2023 közötti önkormányzati ügyekben, színlelt szerződésekben nyomoznak a büntetőeljárásban.",
+      "link": "https://telex.hu/belfold/2026/07/10/letartoztatasban-tartana-az-ugyeszseg-fonyod-volt-fideszes-polgarmesteret",
+      "date": "2026-07-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "önkormányzat"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_48dfc082",
+      "title": "Az orbáni agytrösztök titkai – podcast a Fidesz szellemi hátországáról",
+      "description": "Milyen politikai célokat szolgált az MCC, a Batthyány Lajos Alapítvány, a Danube Institute vagy az Alapjogokért Központ, amikbe közpénzmilliárdokat öntött a Fidesz?",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/08/az-orbani-think-tankek-titkai-podcast-a-fidesz-szellemi-hatorszagarol/",
+      "date": "2026-07-08",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_dc458c",
+          "name": "Batthyány Lajos",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_a6c4e7",
+          "name": "Danube Institute",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_6124d7",
+          "name": "Alapjogokért Központ",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_69143e35",
+      "title": "Szakács István-ügy: a Belügyminisztérium szűkszavú közleményben mutogat az ügyészségre",
+      "description": "A fideszes influenszert szerda hajnalban vitték el a rendőrök. Az ORFK adatvédelmi okokra hivatkozva nem válaszolt a kérdéseinkre, a BM közleményéből semmi nem derült ki.",
+      "link": "https://444.hu/2026/07/08/szakacs-istvan-ugy-a-belugyminiszterium-szukszavu-kozlemenyben-mutogat-az-ugyeszsegre?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-08",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ddfefa",
+          "name": "Szakács István",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8362,234 +8350,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_808acb",
-      "to": "p_15482b",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_808acb",
-      "to": "p_3bfaae",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_808acb",
-      "to": "p_c1b067",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_15482b",
-      "to": "p_3bfaae",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_15482b",
-      "to": "p_c1b067",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_3bfaae",
-      "to": "p_c1b067",
-      "type": "business_connection",
-      "cases": [
-        "sc_2e36f935"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_11eacb",
-      "to": "p_28eee5",
-      "type": "business_connection",
-      "cases": [
-        "sc_3ace70a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_11eacb",
-      "to": "p_e2b187",
-      "type": "business_connection",
-      "cases": [
-        "sc_3ace70a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_11eacb",
-      "to": "p_b26482",
-      "type": "political_ally",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_11eacb",
-      "to": "p_531e11",
-      "type": "business_connection",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_11eacb",
-      "to": "p_a97524",
-      "type": "business_connection",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_28eee5",
-      "to": "p_e2b187",
-      "type": "business_connection",
-      "cases": [
-        "sc_3ace70a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_1b5e4f",
-      "type": "political_ally",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_6894ae",
-      "type": "political_ally",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_b5e0b3",
-      "type": "political_ally",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_531e11",
-      "type": "political_ally",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b26482",
-      "to": "p_a97524",
-      "type": "political_ally",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1b5e4f",
-      "to": "p_6894ae",
-      "type": "political_ally",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1b5e4f",
-      "to": "p_b5e0b3",
-      "type": "political_ally",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_1b5e4f",
-      "to": "p_235f2c",
-      "type": "political_ally",
-      "cases": [
-        "sc_159b76f7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6894ae",
-      "to": "p_b5e0b3",
-      "type": "business_connection",
-      "cases": [
-        "sc_dcca75a7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_531e11",
-      "to": "p_a97524",
-      "type": "business_connection",
-      "cases": [
-        "sc_98404698"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T08:34:06.879346+00:00",
+    "last_updated": "2026-08-17T08:40:29.818979+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16471608000000,
+    "total_involved_amount_huf": 16237976000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8597,9 +8365,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
+      "korrupció": 15,
       "pénzügyi": 175,
-      "közbeszerzés": 9
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -8611,10 +8379,10 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
-      "Budapest",
       "Csongrád-Csanád",
+      "Budapest",
       "Baranya",
+      "Fejér",
       "Zala",
       "Győr-Moson-Sopron"
     ]
