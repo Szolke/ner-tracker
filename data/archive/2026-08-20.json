@@ -1,32 +1,12 @@
 {
   "cases": [
     {
-      "id": "sc_99152b73",
-      "title": "Havasi: „Péter nem küldött nekem semmit 🙁”",
-      "description": "Orbán volt sajtófőnöke szerint a hivatali visszaélés tankönyvi példája, hogy nem kapja meg az illetményét.",
-      "link": "https://444.hu/2026/08/19/havasi-peter-nem-kuldott-nekem-semmit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-19",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_518e79aa",
-      "title": "Előbb jött a közpénz, aztán a sikerek – hol lenne a Fradi állami milliárdok nélkül?",
-      "description": "Az FTC 38 játékos játékjogát szerezte meg 2019 és 2024 között abból a 11,2 milliárd forintból, ami a Fradivárosra kapott 25 milliárdos állami támogatás részeként került a klubhoz. Mekkora előnyt jelentett ez a többi magyar csapathoz képest, és hogyan költött a Fradi, amikor nem az állam állta a számlát? Megnéztük.",
-      "link": "https://hvg.hu/360/20260819_fradi-fradivaros-allami-tamogatas-kubatov-gabor-kalnoki-kiss-attila-atigazolas-mlsz",
-      "date": "2026-08-19",
-      "source": "HVG",
+      "id": "sc_9d361479",
+      "title": "Vetik az első követ",
+      "description": "Lapzártánkkor még nem tudjuk, sikeres volt-e a fenékküszöb-építés Paksnál, ami megmentheti az erőmű négy blokkját a hazai energiatermelés számára. Arra is van esély, hogy némi eső essen ezen a héten, meg talán a következőn is, ami 50–60 centivel is megemelheti a Duna vízállását, és ez létfontosságú lenne. Ha a fenékküszöb nem működik, és teljesen le kéne állítani a paksi erőmű összes blokkját, a k",
+      "link": "https://magyarnarancs.hu/aszerk/vetik-az-elso-kovet-279956",
+      "date": "2026-08-18",
+      "source": "Magyar Narancs",
       "category": "pénzügyi",
       "status": "active",
       "region": "Budapest",
@@ -34,35 +14,9 @@
         47.4979,
         19.0402
       ],
-      "amount_huf": 11200000000,
+      "amount_huf": 30000000000,
       "tags": [],
       "involved_persons": []
-    },
-    {
-      "id": "sc_62789224",
-      "title": "Balásy Gyula nyomott áron szerezte meg a békéscsabai hűtőháztelepet, aminek fejlesztésére Orbán 12 milliárdot ígért",
-      "description": "Hírhedt, sírós interjújában a gyűlöletplakátokkal és százmilliárdos állami megrendelésekkel az ország egyik leggazdagabb emberévé váló Balásy Gyula azt mondta: elképzelhető, hogy a jövőben a mezőgazdasággal foglalkozik majd komolyabban. Azt nem említette meg, hogy ehhez van egy komplett hűtőház-komplexuma, amit kalandos úton került hozzá. A HVG-nek elmondta, mit kezdene vele.",
-      "link": "https://hvg.hu/360/20260820_balasy-gyula-bekescsaba-hutohaz-megszerez-szovetkezet-magyar-varosok-program",
-      "date": "2026-08-20",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 12000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7a517f",
-          "name": "Balásy Gyula",
-          "position": "ismeretlen"
-        }
-      ]
     },
     {
       "id": "sc_6937c4ec",
@@ -5389,6 +5343,83 @@
       "amount_huf": 150000000000,
       "tags": [],
       "involved_persons": []
+    },
+    {
+      "id": "sc_6a8971a7",
+      "title": "Orbán János Dénes 400 milliója mellé Tarr Zoltánék találtak még 1,3 milliárdnyi támogatást, de ezt sikerült visszaszerezni",
+      "description": "Ennyit fizetett volna a Kárpát-medencei Tehetséggondozó Nonprofit Kft. új operettek megírására.",
+      "link": "https://telex.hu/belfold/2026/07/15/orban-janos-denes-tarr-zoltan-1-3-milliard-tamogatas-visszavesz",
+      "date": "2026-07-15",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1300000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_f7e873",
+          "name": "Orbán János",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bf3d27",
+          "name": "Tarr Zoltánék",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_aec8b9",
+          "name": "Tehetséggondozó Nonprofit",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_7fc5d498",
+      "title": "Életeket menthetett volna, ha a Fidesz plakátkampányai a szűrővizsgálatokról szólnak – interjú Vokó Zoltán népegészségügyi államtitkárral",
+      "description": "A betegadatok minden eddiginél mélyebb elemzésével is hatékonyabbá tennék a megelőzést és a betegségkockázatok kezelését – többek között erről beszélt a HVG-nek adott interjúban Vokó Zoltán népegészségügyért felelős államtitkár és a feladatban szerepet vállaló Kiss Zoltán, az MSD Pharma Hungary Kft. adatkutatási vezetője, a Pécsi Tudományegyetem címzetes egyetemi docense. A szakembereket kérdeztük",
+      "link": "https://hvg.hu/360/20260714_nepegeszsegugy-voko-zoltan-kiss-zoltan-msd-kutatas-rak-daganatos-betegsegek-adatvezerelt",
+      "date": "2026-07-14",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Baranya",
+      "coordinates": [
+        46.0727,
+        18.2323
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_622b1f",
+          "name": "Vokó Zoltán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_80b908",
+          "name": "Kiss Zoltán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_553160",
+          "name": "Pharma Hungary",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3296ce",
+          "name": "Pécsi Tudományegyetem",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8493,11 +8524,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T08:35:12.935057+00:00",
+    "last_updated": "2026-08-19T08:34:37.221005+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16826708000000,
+    "total_involved_amount_huf": 16834808000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8505,8 +8536,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
-      "pénzügyi": 175,
+      "korrupció": 15,
+      "pénzügyi": 176,
       "közbeszerzés": 9
     },
     "sources": [
@@ -8519,10 +8550,10 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Zala",
+      "Baranya",
       "Győr-Moson-Sopron",
       "Fejér",
-      "Baranya",
+      "Zala",
       "Budapest"
     ]
   }

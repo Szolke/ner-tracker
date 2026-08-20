@@ -136,5 +136,22 @@
         "reason": "similar_to: 2,3 milliárd forintot fizetett vissza az államnak az egyik Mészáros Lőrinchez köthető magántőkealap"
       }
     ]
+  },
+  {
+    "run_at": "2026-08-20T08:35:12.930037+00:00",
+    "entries": [
+      {
+        "id": "sc_9d361479",
+        "title": "Vetik az első követ",
+        "action": "removed",
+        "reason": "no_secondary_match"
+      },
+      {
+        "id": "sc_1073c131",
+        "title": "Éhezés vezetett szexuális bántalmazáshoz egy gyerekotthonban – itt vannak az Orbán-kormány eltitkolt gyermekvédelmi jelentései",
+        "action": "skipped_duplicate",
+        "reason": "similar_to: Éhezés vezetett szexuális bántalmazáshoz egy gyerekotthonban – itt vannak az Orbán-kormány eltitkolt gyermekvédelmi jelentései"
+      }
+    ]
   }
 ]

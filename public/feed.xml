@@ -5,14 +5,30 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Wed, 19 Aug 2026 08:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 08:35:12 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title><![CDATA[Vetik az első követ]]></title>
-    <link>https://magyarnarancs.hu/aszerk/vetik-az-elso-kovet-279956</link>
-    <guid>sc_9d361479</guid>
-    <pubDate>2026-08-18</pubDate>
-    <description><![CDATA[Lapzártánkkor még nem tudjuk, sikeres volt-e a fenékküszöb-építés Paksnál, ami megmentheti az erőmű négy blokkját a hazai energiatermelés számára. Arra is van esély, hogy némi eső essen ezen a héten,  | Budapest | 30000 M HUF | pénzügyi]]></description>
+    <title><![CDATA[Havasi: „Péter nem küldött nekem semmit 🙁”]]></title>
+    <link>https://444.hu/2026/08/19/havasi-peter-nem-kuldott-nekem-semmit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_99152b73</guid>
+    <pubDate>2026-08-19</pubDate>
+    <description><![CDATA[Orbán volt sajtófőnöke szerint a hivatali visszaélés tankönyvi példája, hogy nem kapja meg az illetményét. | Budapest | Összeg ismeretlen | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Előbb jött a közpénz, aztán a sikerek – hol lenne a Fradi állami milliárdok nélkül?]]></title>
+    <link>https://hvg.hu/360/20260819_fradi-fradivaros-allami-tamogatas-kubatov-gabor-kalnoki-kiss-attila-atigazolas-mlsz</link>
+    <guid>sc_518e79aa</guid>
+    <pubDate>2026-08-19</pubDate>
+    <description><![CDATA[Az FTC 38 játékos játékjogát szerezte meg 2019 és 2024 között abból a 11,2 milliárd forintból, ami a Fradivárosra kapott 25 milliárdos állami támogatás részeként került a klubhoz. Mekkora előnyt jelen | Budapest | 11200 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Balásy Gyula nyomott áron szerezte meg a békéscsabai hűtőháztelepet, aminek fejlesztésére Orbán 12 milliárdot ígért]]></title>
+    <link>https://hvg.hu/360/20260820_balasy-gyula-bekescsaba-hutohaz-megszerez-szovetkezet-magyar-varosok-program</link>
+    <guid>sc_62789224</guid>
+    <pubDate>2026-08-20</pubDate>
+    <description><![CDATA[Hírhedt, sírós interjújában a gyűlöletplakátokkal és százmilliárdos állami megrendelésekkel az ország egyik leggazdagabb emberévé váló Balásy Gyula azt mondta: elképzelhető, hogy a jövőben a mezőgazda | Budapest | 12000 M HUF | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   <item>
@@ -149,22 +165,6 @@
     <guid>sc_c0173a10</guid>
     <pubDate>2026-08-16</pubDate>
     <description><![CDATA[A férfival szemben zaklatás minősített esete merült fel. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Schmidt Mária egész fideszes intézethálózata alól kihúzta a szőnyeget a kormány]]></title>
-    <link>https://telex.hu/belfold/2026/08/17/schmidt-maria-terror-haza-xx-szazad-intezet-xxi-szazad-intezet-kekva-alapitvany</link>
-    <guid>sc_f41d10fe</guid>
-    <pubDate>2026-08-17</pubDate>
-    <description><![CDATA[Schmidt Mária közérdekű vagyonkezelő alapítványa tartotta el a Terror Házát és egy sor intézetet, amelyek költségvetési milliárdokból értelmezték újra a történelmet a Fidesz szájíze szerint. Azt egyel | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Egy értelme biztos volt a kekva-rendszernek: milliárdok csorogtak fideszes érdekeltségekbe]]></title>
-    <link>https://444.hu/2026/08/16/egy-ertelme-biztos-volt-a-kekva-rendszernek-milliardok-csorogtak-fideszes-erdekeltsegekbe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_0384ea2f</guid>
-    <pubDate>2026-08-16</pubDate>
-    <description><![CDATA[A kekvák voltak a NER vagyonjuttatásainak fő kedvezményezettjei, jóvoltukból egy sor NER-es szereplő, így Balásy Gyula, Sárhegyi Zoltán, Tiborcz István vagy Garancsi István cége lehetett egy kicsit (v | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
