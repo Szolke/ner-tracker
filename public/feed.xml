@@ -5,8 +5,16 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Thu, 20 Aug 2026 08:35:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 08:37:50 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Kirúgta a komlói polgármester a jegyzőt, aki előtte hűtlen kezelés miatt tett feljelentést]]></title>
+    <link>https://atlatszo.hu/orszagszerte/2026/08/20/kirugta-a-komloi-polgarmester-a-jegyzot-aki-elotte-hutlen-kezeles-miatt-tett-feljelentest/</link>
+    <guid>sc_e9ed50df</guid>
+    <pubDate>2026-08-20</pubDate>
+    <description><![CDATA[Polics József (Fidesz-KDNP) szerint a két eset között nincs közvetlen összefüggés. A rendőrség közben elrendelte a nyomozást. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Havasi: „Péter nem küldött nekem semmit 🙁”]]></title>
     <link>https://444.hu/2026/08/19/havasi-peter-nem-kuldott-nekem-semmit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -157,14 +165,6 @@
     <guid>sc_18d67192</guid>
     <pubDate>2026-08-18</pubDate>
     <description><![CDATA[A volt katonákból és kommandósokból álló Inrimas Kft. több afrikai és ázsiai magyar nagykövetséget biztosít. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Őrizetbe vettek egy férfit, aki a gyanú szerint a távoltartási végzés ellenére fojtogatott egy nőt a Lehel téren]]></title>
-    <link>https://telex.hu/belfold/2026/08/16/orizetbe-vettek-lehel-teri-ferfit-tavoltartasi-vegzes-baratno</link>
-    <guid>sc_c0173a10</guid>
-    <pubDate>2026-08-16</pubDate>
-    <description><![CDATA[A férfival szemben zaklatás minősített esete merült fel. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>

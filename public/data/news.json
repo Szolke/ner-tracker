@@ -1,6 +1,30 @@
 {
   "cases": [
     {
+      "id": "sc_e9ed50df",
+      "title": "Kirúgta a komlói polgármester a jegyzőt, aki előtte hűtlen kezelés miatt tett feljelentést",
+      "description": "Polics József (Fidesz-KDNP) szerint a két eset között nincs közvetlen összefüggés. A rendőrség közben elrendelte a nyomozást.",
+      "link": "https://atlatszo.hu/orszagszerte/2026/08/20/kirugta-a-komloi-polgarmester-a-jegyzot-aki-elotte-hutlen-kezeles-miatt-tett-feljelentest/",
+      "date": "2026-08-20",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_034e63",
+          "name": "Polics József",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_99152b73",
       "title": "Havasi: „Péter nem küldött nekem semmit 🙁”",
       "description": "Orbán volt sajtófőnöke szerint a hivatali visszaélés tankönyvi példája, hogy nem kapja meg az illetményét.",
@@ -5371,24 +5395,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_69769f24",
-      "title": "Felmondja a Lounge-csoporttal kötött, összesen 150 milliárd forint értékű megállapodását a kommunikációs hivatal",
-      "description": "A Lounge-csoportot érintő büntetőeljárásra, más intézkedésekre tekintettel, illetve a közpénzek fokozott védelmének érdekében mondja fel a két megállapodást a hivatal.",
-      "link": "https://telex.hu/gazdasag/2026/07/15/felmondja-a-lounge-csoporttal-kotott-osszesen-150-milliard-forint-erteku-megallapodasat-a-kommunikacios-hivatal",
-      "date": "2026-07-15",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 150000000000,
-      "tags": [],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -8493,11 +8499,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T08:35:12.935057+00:00",
+    "last_updated": "2026-08-21T08:37:50.304260+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16826708000000,
+    "total_involved_amount_huf": 16676708000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8519,11 +8525,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Zala",
+      "Budapest",
+      "Baranya",
       "Győr-Moson-Sopron",
       "Fejér",
-      "Baranya",
-      "Budapest"
+      "Zala"
     ]
   }
 }
