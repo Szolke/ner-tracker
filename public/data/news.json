@@ -1,6 +1,145 @@
 {
   "cases": [
     {
+      "id": "sc_7c6c895e",
+      "title": "A német biztonsági szolgálat szerint orosz merényletekhez bekészített fegyvereket találtak egy Berlin melletti erdőben",
+      "description": "A Süddeutsche Zeitung szerint az államra veszélyt jelentő súlyos erőszakos cselekmény tervezése ügyében folyik a nyomozás.",
+      "link": "https://444.hu/2026/08/21/a-nemet-biztonsagi-szolgalat-szerint-orosz-merenyletekhez-bekeszitett-fegyvereket-talaltak-egy-berlin-melletti-erdoben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-21",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_81b784",
+          "name": "Süddeutsche Zeitung",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_9d3c3a46",
+      "title": "Lázár János – egy tollvonás, mínusz 100 milliárd forint",
+      "description": "Vitézy Dávid újabb posztban ír az M6-os autópálya Mészároséknak átadni tervezett szakaszáról. Szerinte kiderült, hogy a NER-es konzorcium háromszor drágábban és rosszabb minőségben dolgozott volna.",
+      "link": "https://444.hu/2026/08/21/lazar-janos-egy-tollvonas-minusz-100-milliard-forint?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-21",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_c8d122be",
+      "title": "A Mi Hazánk Mozgalom feljelentést tesz, mert szerintük az augusztus 20-i rendezvénysorozat közbeszerzése „kamu” volt",
+      "description": "Toroczkai László bejelentette, hogy pártja közbeszerzési eljárásban versenyt korlátozó megállapodás gyanúja miatt tesz feljelentést.",
+      "link": "https://hvg.hu/itthon/20260822_mi-hazank-mozgalom-feljelentest-tesz",
+      "date": "2026-08-22",
+      "source": "HVG",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "közbeszerzés"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ef8a02",
+          "name": "Mi Hazánk",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_5caa69",
+          "name": "Toroczkai László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6d4e58a3",
+      "title": "Lázár János kapott egy papírt három lehetőséggel, és az elsőre azt írta, hogy „Nem!”. Most jön a százmilliárdos szerződésbontás",
+      "description": "Visszalép az új kormány attól, hogy a Mészáros-féle koncessziós cég kezelésébe adja az M6-os autópálya északi szakaszát, amivel tíz év alatt százmilliárd forintot spórolnának meg. Erről korábban Lázár János egy személyben döntött, a Telex birtokába került dokumentumokból pontosan rekonstruálható, ez hogy történt.",
+      "link": "https://telex.hu/gazdasag/2026/08/21/vitezy-david-felmondja-az-mkif-fel-kotott-szerzodest-az-m6-autopalyarol-lazar-azt-irta-a-masikhoz-hogy-nem",
+      "date": "2026-08-21",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_5e7ef934",
+      "title": "174 milliárdból fejlesztik tovább a budapesti agglomeráció egyik legfontosabb vasútvonalát",
+      "description": "Vitézy Dávid szerint 2030-ra gyorsabban és sűrűn járó vonatokkal, illetve akadálymentes peronokkal újul meg a Budapest–Fót–Veresegyház–Őrbottyán–Vác vasútvonal.",
+      "link": "https://telex.hu/belfold/2026/08/22/vasutfeljesztes-budapest-fovaros-agglomeracio-baross-gabor-terv-vitezy-david",
+      "date": "2026-08-22",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 174000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
       "id": "sc_e9ed50df",
       "title": "Kirúgta a komlói polgármester a jegyzőt, aki előtte hűtlen kezelés miatt tett feljelentést",
       "description": "Polics József (Fidesz-KDNP) szerint a két eset között nincs közvetlen összefüggés. A rendőrség közben elrendelte a nyomozást.",
@@ -5208,193 +5347,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_2c3a54a3",
-      "title": "Orbán János Dénes több közpénzt kapott a librettóiért, mint az összes budapesti független színház egy év alatt",
-      "description": "A Színházi Kritikusok Céhe arra kéri a kormányt, hogy indítson vizsgálatot. A Szépírók Társaságának elnöke szerint Európában is példátlan, ami történt.1",
-      "link": "https://444.hu/2026/07/15/orban-janos-denes-tobb-kozpenzt-penzt-kapott-a-librettoiert-mint-az-osszes-budapesti-fuggetlen-szinhaz-egy-ev-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-15",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_f7e873",
-          "name": "Orbán János",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6fd2d9",
-          "name": "Színházi Kritikusok",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_f88819",
-          "name": "Szépírók Társaságának",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_2b8ba222",
-      "title": "Farkas Örs államtitkár igazította el a TEK-főigazgatót az aranykonvoj elleni akcióról – ez is kiderül Hajdu János vallomásából",
-      "description": "A TEK éléről leváltott, most a Fidesz biztonsági igazgatójaként dolgozó Hajdu Jánost az ukrán pénzszállítók jogellenes fogva tartásával gyanúsítják, vallomásában elhangzik Pintér Sándor neve is, beszél a vitatott bilincselésről, államtitkári eligazításról. Arról viszont nem, hogy telefonált-e Orbán Viktorral a rajtütéskor.",
-      "link": "https://hvg.hu/itthon/20260715_farkas-ors-allamtitkar-hajdu-janos-aranykonvoj-ukram-penzszallitok-vallomas-tek",
-      "date": "2026-07-15",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        },
-        {
-          "id": "p_40d72c",
-          "name": "Pintér Sándor",
-          "position": "belügyminiszter"
-        },
-        {
-          "id": "p_ffe26c",
-          "name": "Farkas Örs",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3fb7b2",
-          "name": "Hajdu János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_f2062d1f",
-      "title": "Az Orbán János Dénes-ügy kivizsgálását kérik a kormánytól a színházi kritikusok",
-      "description": "A Színházi Kritikusok Céhe Tarr Zoltán társadalmi kapcsolatokért és kultúráért felelős miniszternek és Nagy Ervin kulturális ügyekért felelős államtitkárnak írt levelet, miután kiderült, Orbán János Dénes az alapítványán keresztül közel félmilliárd forint közpénzt utalt saját magának.",
-      "link": "https://hvg.hu/kultura/20260715_orban-janos-denes-kivizsgalas-szinhazi-kritikusok",
-      "date": "2026-07-15",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "alapítvány",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_428d1a",
-          "name": "János Dénes",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6fd2d9",
-          "name": "Színházi Kritikusok",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_02d904",
-          "name": "Céhe Tarr",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_1d3c78bf",
-      "title": "Tarr Zoltánék visszaszereztek 1,3 milliárd forintot, amit Orbán János Dénes műveiért fizettek volna ki",
-      "description": "További vizsgálatokat is folytatnak.",
-      "link": "https://hvg.hu/kultura/20260715_tarr-zoltan-orban-janos-denes-kmtg-tamogatas-1-3-milliard-forint-hanko-balazs",
-      "date": "2026-07-15",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1300000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_bf3d27",
-          "name": "Tarr Zoltánék",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_f7e873",
-          "name": "Orbán János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_28c81d6d",
-      "title": "Orbán János Dénes és az Operettszínház ügyeinek kivizsgálását kérik Tarr Zoltántól a színházi kritikusok",
-      "description": "A Színházi Kritikusok Céhe nyílt levélben sürget vizsgálatot.",
-      "link": "https://telex.hu/belfold/2026/07/15/szinhazi-kritikusok-cehe-level-tarr-zoltan-orban-janos-denes-operettszinhaz-kivizsgalas",
-      "date": "2026-07-15",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_f7e873",
-          "name": "Orbán János",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_901d0f",
-          "name": "Tarr Zoltántól",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6fd2d9",
-          "name": "Színházi Kritikusok",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8496,14 +8448,24 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_ef8a02",
+      "to": "p_5caa69",
+      "type": "business_connection",
+      "cases": [
+        "sc_c8d122be"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T08:37:50.304260+00:00",
+    "last_updated": "2026-08-22T08:26:29.807109+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16676708000000,
+    "total_involved_amount_huf": 16949408000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8512,8 +8474,8 @@
     },
     "category_breakdown": {
       "korrupció": 16,
-      "pénzügyi": 175,
-      "közbeszerzés": 9
+      "pénzügyi": 174,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -8526,10 +8488,10 @@
     ],
     "regions_covered": [
       "Budapest",
-      "Baranya",
-      "Győr-Moson-Sopron",
       "Fejér",
-      "Zala"
+      "Győr-Moson-Sopron",
+      "Zala",
+      "Baranya"
     ]
   }
 }
