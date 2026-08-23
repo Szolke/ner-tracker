@@ -1,6 +1,44 @@
 {
   "cases": [
     {
+      "id": "sc_91b50d14",
+      "title": "Kiosztottak 500 milliárd forintot a helyreállítási tervből",
+      "description": "Az első adag pénz villamosenergia-hálózat fejlesztésre és okosmérő-telepítési programra megy. Mészáros cége kimaradt.",
+      "link": "https://444.hu/2026/08/22/kiosztottak-500-milliard-forintot-a-helyreallitasi-tervbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-22",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_22c1d3bf",
+      "title": "Vitézy a siófoki gázolásról: ha nem történik baleset, a 40 helyett 100-zal száguldó autós akár szabálysértési bírsággal is megúszhatná",
+      "description": "A miniszter a Telex cikkére reagálva azt írta a Facebookon, hogy a közlekedésbiztonsági kérdőív válaszadóinak többsége szigorúbban büntetné a kirívó gyorshajtást, illetve az így okozott balesetek felelőseit.",
+      "link": "https://telex.hu/belfold/2026/08/22/vitezy-a-siofoki-gazolasrol-ha-nem-tortenik-baleset-a-40-helyett-100-km-oraval-szaguldo-autos-szabalysertesi-birsaggal-is-meguszhatna",
+      "date": "2026-08-22",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Somogy",
+      "coordinates": [
+        46.3568,
+        17.7761
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_7c6c895e",
       "title": "A német biztonsági szolgálat szerint orosz merényletekhez bekészített fegyvereket találtak egy Berlin melletti erdőben",
       "description": "A Süddeutsche Zeitung szerint az államra veszélyt jelentő súlyos erőszakos cselekmény tervezése ügyében folyik a nyomozás.",
@@ -5270,83 +5308,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_c6b48656",
-      "title": "Feljelentést tett a Transparency International, a NER-elitet helyzetbe hozó 281 milliárd forint közpénz miatt",
-      "description": "Tiborcz István, Mészáros Lőrinc és Jellinek Dániel érdekköre is felbukkant a Baross Gábor Tőkeprogram kedvezményezettei között. A Transparency International kiperelte az iratokat és feljelentést tett.",
-      "link": "https://telex.hu/gazdasag/2026/07/16/transparency-international-mfb-meszaros-lorinc-tiborcz-istvan-nagy-szilard",
-      "date": "2026-07-16",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 281000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_e34d28",
-          "name": "Transparency International",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_44b0cb",
-          "name": "Jellinek Dániel",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5368e6b9",
-      "title": "Két nappal a rajtaütés előtt felhívott Farkas Örs – így kezdődik Hajdu János vallomása az aranykonvojügyben",
-      "description": "A bilincselés „vastag félreértés” volt, hogy az ukránok ne gyanúsítottak, hanem tanúk lennének, az fel sem merült – állítja Hajdu János a vallomásában, amely a 444 birtokába került. Visszaemlékezése több helyen ellentmond az akcióban részt vevő NAV-os vezetők tanúvallomásainak, a bűncselekmény elkövetését tagadja. Rengeteg tábornok, egy államtitkár, és egy ponton Pintér Sándor neve is előkerül a 2",
-      "link": "https://444.hu/2026/07/15/ket-nappal-a-rajtautes-elott-felhivott-farkas-ors-igy-kezdodik-hajdu-janos-vallomasa-az-aranykonvojugyben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-15",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_40d72c",
-          "name": "Pintér Sándor",
-          "position": "belügyminiszter"
-        },
-        {
-          "id": "p_ffe26c",
-          "name": "Farkas Örs",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3fb7b2",
-          "name": "Hajdu János",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8461,11 +8422,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T08:26:29.807109+00:00",
+    "last_updated": "2026-08-23T08:27:06.052174+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16949408000000,
+    "total_involved_amount_huf": 17168408000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8487,11 +8448,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Fejér",
+      "Baranya",
       "Győr-Moson-Sopron",
+      "Somogy",
       "Zala",
-      "Baranya"
+      "Fejér",
+      "Budapest"
     ]
   }
 }
