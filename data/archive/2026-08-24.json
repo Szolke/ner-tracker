@@ -1,191 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_f95931e7",
-      "title": "Volt év, amikor bevételeinek több mint harmadát Rogánéktól kapta Mészáros Lőrinc plakátos cége",
-      "description": "Öt év leforgása alatt Mészáros Lőrinc Publimont Kft.-je közel 12 milliárd forint közpénzhez jutott a New Land Medián keresztül, derült ki az Átlátszó által kiperelt dokumentumokból. Ez az összeg ráadásul úgy jött össze, hogy volt, amikor 90 százalékos kedvezményt számolt fel a felcsúti milliárdos.",
-      "link": "https://444.hu/2026/08/24/volt-ev-amikor-beveteleinek-tobb-mint-harmadat-roganektol-kapta-meszaros-lorinc-plakatos-cege?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-24",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Fejér",
-      "coordinates": [
-        47.118,
-        18.432
-      ],
-      "amount_huf": 12000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_cc7a71",
-          "name": "New Land",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_fde34022",
-      "title": "Orbán Viktor több mint negyedmilliárd forint közpénzből magyarázta külföldi hirdetésekben, hogy mi a baja az EU-val",
-      "description": "A magyar kormány akkor kezdett kampányba, amikor súlyos uniós kritikák érték a homofób törvény miatt. A Rogánéktól az Átlátszó által kiperelt egyik dokumentum hosszan listázza, mely lapokban hirdetett és erre mennyi közpénzt költöttek el. És kiderül, hogy kik utasították vissza.",
-      "link": "https://444.hu/2026/08/24/orban-viktor-tobb-mint-negyedmilliard-forint-kozpenzbol-magyarazta-kulfoldi-hirdetesekben-hogy-mi-a-baja-az-eu-val?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-24",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU",
-        "hirdetés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        }
-      ]
-    },
-    {
-      "id": "sc_208fe9fc",
-      "title": "Most lett igazán nagy rejtély, hogy honnan is van milliárdos bevétele Rogán-Szendrei Cecília és Sarka Kata bulvároldalának",
-      "description": "A két üzletasszony bulvárlapja óriási üzleti bravúrt hozott össze az elmúlt években, amit sokan az állami hirdetésekkel magyaráztak. Az Átlátszó által kiperelt dokumentumok alapján azonban máshol kell keresni a siker titkát.",
-      "link": "https://444.hu/2026/08/24/most-lett-igazan-nagy-rejtely-hogy-honnan-is-van-milliardos-bevetele-rogan-szendrei-cecilia-es-sarka-kata-bulvaroldalanak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-24",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "hirdetés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_bea763",
-          "name": "Szendrei Cecília",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_80a5e5",
-          "name": "Sarka Kata",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_10f5b3",
-          "name": "Az Átlátszó",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ccb0d84b",
-      "title": "A NAV szerint az egyszerű szabályok ellenére is sokan trükköznek az alkalmi munkások bejelentésével",
-      "description": "Pedig aki ezt elmulasztja, dolgozónként akár kétmillió forintos bírságot is kaphat.",
-      "link": "https://444.hu/2026/08/24/a-nav-szerint-az-egyszeru-szabalyok-ellenere-is-sokan-trukkoznek-az-alkalmi-munkasok-bejelentesevel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-24",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_a362dd9c",
-      "title": "A The Guardian szerint gyorsan megy az „orbántalanítás” az új Magyarországon",
-      "description": "Magyar Péter kormányzásának első három hónapja alapvető jelentőségű volt a korrupt örökség felszámolása szempontjából. Ez különösen fontos azért is, mert közeleg a határidő, amelyet Brüsszel az átalakításokra szabott a visszatartott 10 milliárd eurónyi támogatás folyósításához.",
-      "link": "https://hvg.hu/360/20260824_lapszemle-guardian-magyar-peter-orban-viktor-magyarorszag-eu",
-      "date": "2026-08-24",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 10000000000,
-      "tags": [
-        "EU"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_69b929",
-          "name": "The Guardian",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_76ad60",
-          "name": "Magyarországon Magyar",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_aceb24bd",
-      "title": "Rogán titkárának apósa, a NER-feleségek segítői és a radar alatt repülők: a propagandahálózat rejtett vámszedői",
-      "description": "Az orbáni kommunikáció közvetítői hálózatát új dokumentumok rángatják a fényre: felbukkan Rogán Antal bizalmasának családi köre, és ismeretlen cégek kérészéletű tevékenysége rajzolódik ki Rogán-Szendrei Cecília és Sarka Kata körül. Az Átlátszó által kiperelt, öt pendrive-on átadott, több mint ezer PDF-ből álló, összesen 125 milliárd forintnyi kormányzati kommunikációs közbeszerzés dokumentációja a",
-      "link": "https://hvg.hu/360/20260824_rogan-antal-balasy-gyula-kiperelt-iratok-rogan-cecilia-nagy-adam-sarka-kata-nepszava-tv2",
-      "date": "2026-08-24",
-      "source": "HVG",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 125000000000,
-      "tags": [
-        "közbeszerzés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_bea763",
-          "name": "Szendrei Cecília",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_80a5e5",
-          "name": "Sarka Kata",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_10f5b3",
-          "name": "Az Átlátszó",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_91b50d14",
       "title": "Kiosztottak 500 milliárd forintot a helyreállítási tervből",
       "description": "Az első adag pénz villamosenergia-hálózat fejlesztésre és okosmérő-telepítési programra megy. Mészáros cége kimaradt.",
@@ -5327,6 +5142,172 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_2f2fb0a9",
+      "title": "Nagy Ervin feljelentést tesz Orbán János Dénes kifizetései ügyében",
+      "description": "Különösen jelentős vagyoni hátrányt okozó hűtlen kezelés bűntettének gyanúja miatt.",
+      "link": "https://444.hu/2026/07/16/nagy-ervin-feljelentest-tesz-orban-janos-denes-kifizetesei-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-16",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_7f5e87",
+          "name": "Nagy Ervin",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_f7e873",
+          "name": "Orbán János",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_39604bda",
+      "title": "Amerikai professzor: Magyar nacionalizmusa nem jobb Orbánénál",
+      "description": "Brett Chloupek szerint Magyar Péter ugyanúgy a magyarság jelentős részében még mindig élő Trianon-szindrómára játszott rá, amikor nemrég Magyarország „önmagával határosságáról” beszélt, mint Orbán Viktor, amikor a szélsőjobbnak tett gesztusokat, és nagy-magyarországos sállal szurkolt egy focimeccsen.",
+      "link": "https://hvg.hu/360/20260716_amerikai-professzor-magyar-nacionalizmusa-nem-jobb-orbanenal",
+      "date": "2026-07-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_2e8bfb",
+          "name": "Orbánénál Brett",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b2645755",
+      "title": "Pottyondy Edina: Xi-Jjártó azzal érdemelte ki a BYD-s kegyelemkenyeret, hogy elárulta a hazáját",
+      "description": "A humorista szerint Szijjártó Péter munkaköre nem változik: ugyanúgy kínai érdekekért kell lobbiznia, valamint az EU-t és Magyarországot tönkretennie.",
+      "link": "https://hvg.hu/elet/20260716_pottyondy-edina-szijjarto-peter-byd-parlamenti-mandatum-lemondas-reakcio",
+      "date": "2026-07-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_70e38a",
+          "name": "Pottyondy Edina",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8798e9df",
+      "title": "Még jobban becsomagolták az ingatlanokat Rogán Cecília üzleti környezetében",
+      "description": "Eddig is furcsa összefonódás volt az egykori fideszes miniszterfeleség és egy cég között, de most már nemcsak magántőkelap birtokolja a cégből kivált ingatlanvállalkozásokat, hanem még egy bizalmi vagyonkezelőbe is beletették a vagyont.",
+      "link": "https://hvg.hu/360/20260716_rogan-szendrei-cecilia-digital-minds-ingatlan-prime-real-magantokealap-bizalmi-vagyonkezelo",
+      "date": "2026-07-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_ef0fe2",
+          "name": "Rogán Cecília",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_23cfb3fc",
+      "title": "Techet Péter: Magyar Péter „jó populista”, és nem lesz belőle második Orbán Viktor",
+      "description": "Amikor a Fidesz vádolja jogsértéssel a Tiszát, az olyan, mintha a tolvaj kiáltana rendőr után.",
+      "link": "https://hvg.hu/360/20260716_lapszemle-magyarorszag-magyar-peter-alkotmanymodositas-ukrajna-fifa-burgenland",
+      "date": "2026-07-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_1bd1f8",
+          "name": "Techet Péter",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_13e813ca",
+      "title": "Meghosszabbították Fonyód volt fideszes polgármesterének letartóztatását",
+      "description": "A gazdasági csalással és pénzmosással gyanúsított volt polgármester esetében továbbra is fennáll az eljárás meghiúsításának és a bűnismétlésnek a veszélye.",
+      "link": "https://telex.hu/belfold/2026/07/16/meghosszabbitottak-fonyod-volt-fideszes-polgarmesterenek-letartoztatasat",
+      "date": "2026-07-16",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_45e657",
+          "name": "Meghosszabbították Fonyód",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8438,97 +8419,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_cc7a71",
-      "type": "political_ally",
-      "cases": [
-        "sc_f95931e7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_bea763",
-      "to": "p_80a5e5",
-      "type": "business_connection",
-      "cases": [
-        "sc_aceb24bd",
-        "sc_208fe9fc"
-      ],
-      "description": "Automatikusan felismert – 2 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_bea763",
-      "to": "p_10f5b3",
-      "type": "business_connection",
-      "cases": [
-        "sc_aceb24bd",
-        "sc_208fe9fc"
-      ],
-      "description": "Automatikusan felismert – 2 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_bea763",
-      "to": "p_1b5e4f",
-      "type": "political_ally",
-      "cases": [
-        "sc_aceb24bd"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_80a5e5",
-      "to": "p_10f5b3",
-      "type": "business_connection",
-      "cases": [
-        "sc_aceb24bd",
-        "sc_208fe9fc"
-      ],
-      "description": "Automatikusan felismert – 2 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_80a5e5",
-      "to": "p_1b5e4f",
-      "type": "political_ally",
-      "cases": [
-        "sc_aceb24bd"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_10f5b3",
-      "to": "p_1b5e4f",
-      "type": "political_ally",
-      "cases": [
-        "sc_aceb24bd"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_69b929",
-      "to": "p_76ad60",
-      "type": "business_connection",
-      "cases": [
-        "sc_a362dd9c"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T08:44:51.259987+00:00",
+    "last_updated": "2026-08-23T08:27:06.052174+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17315408000000,
+    "total_involved_amount_huf": 17168408000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8537,8 +8435,8 @@
     },
     "category_breakdown": {
       "korrupció": 16,
-      "pénzügyi": 173,
-      "közbeszerzés": 11
+      "pénzügyi": 174,
+      "közbeszerzés": 10
     },
     "sources": [
       "444",
@@ -8550,12 +8448,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
-      "Budapest",
-      "Zala",
-      "Somogy",
       "Baranya",
-      "Fejér"
+      "Győr-Moson-Sopron",
+      "Somogy",
+      "Zala",
+      "Fejér",
+      "Budapest"
     ]
   }
 }
