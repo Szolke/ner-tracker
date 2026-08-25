@@ -1,6 +1,146 @@
 {
   "cases": [
     {
+      "id": "sc_98470153",
+      "title": "Nem fellebbeztek az augusztus 20-i közbeszerzés eredményével szemben – vizsgálatról sem tudni a különös tender ügyében",
+      "description": "A Mi Hazánk feljelentést ígért, a Fidesz állítólag a Közbeszerzési Hatósághoz fordult az idei augusztus 20-i rendezvények meghívásos tendere miatt, de úgy tűnik, sem a Közbeszerzési, sem az Integritás Hatóság nem vizsgálódik az ügyben.",
+      "link": "https://hvg.hu/gazdasag/20260824_kozbeszerzes-intergitas-hatosag-vizsgalat-augusztus-20-unnep-rendezveny-megbizas",
+      "date": "2026-08-24",
+      "source": "HVG Gazdaság",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "közbeszerzés",
+        "IT",
+        "tender"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_ef8a02",
+          "name": "Mi Hazánk",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_8d07e4",
+          "name": "Közbeszerzési Hatósághoz",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_57732ba5",
+      "title": "Eltűnt Mészáros Lőrinc az Eszék főszponzorai közül",
+      "description": "70 milliárdot áldozott a klubra, de az áprilisi vereség után kivonulhatott. A Mol sem szponzorálja már a horvátokat.",
+      "link": "https://444.hu/2026/08/24/eltunt-meszaros-lorinc-az-eszek-foszponzorai-kozul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-24",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 70000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_08b3f1",
+          "name": "Eltűnt Mészáros",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4725fb82",
+      "title": "Hűtlen kezelés gyanújával tett feljelentést a Külügyminisztérium a lélegeztetőgép-beszerzések miatt",
+      "description": "Orbán Anita szerint a felsővezetés felelőssége is felmerül. A 300 milliárdos bizniszen Fidesz-közeli szereplők sokat nyertek.",
+      "link": "https://444.hu/2026/08/25/hutlen-kezeles-gyanujaval-tett-feljelentest-a-kulugyminiszterium-a-lelegeztetogep-beszerzesek-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-25",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 300000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_01ca0f",
+          "name": "Orbán Anita",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_84ae0b07",
+      "title": "Trombitás Kristóf trágár módon szidta Mészárost és Tiborczot a mandineres felmondások miatt",
+      "description": "A volt megafonos influenszer számonkérte a milliárdosokon, mit csinálnak a vagyonukkal.",
+      "link": "https://hvg.hu/itthon/20260824_trombitas-kristof-meszaros-tiborcz",
+      "date": "2026-08-24",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7c299d",
+          "name": "Trombitás Kristóf",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6ca3b72e",
+      "title": "Orbán Anita feljelentést tett a Szijjártó-féle lélegeztetőgép-beszerzések ügyében",
+      "description": "A külügyminiszter közlése szerint a tárcánál zajló átvilágítás során talált információk a különösen jelentős vagyoni hátrányt okozó hűtlen kezelés és egyéb bűncselekmények gyanúját vetik fel.",
+      "link": "https://hvg.hu/itthon/20260825_orban-anita-feljelentes-covid-beszerzesek-lelegeztetogep-biznisz-szijjarto-peter",
+      "date": "2026-08-25",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_01ca0f",
+          "name": "Orbán Anita",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_f95931e7",
       "title": "Volt év, amikor bevételeinek több mint harmadát Rogánéktól kapta Mészáros Lőrinc plakátos cége",
       "description": "Öt év leforgása alatt Mészáros Lőrinc Publimont Kft.-je közel 12 milliárd forint közpénzhez jutott a New Land Medián keresztül, derült ki az Átlátszó által kiperelt dokumentumokból. Ez az összeg ráadásul úgy jött össze, hogy volt, amikor 90 százalékos kedvezményt számolt fel a felcsúti milliárdos.",
@@ -5190,143 +5330,6 @@
         "stadion"
       ],
       "involved_persons": []
-    },
-    {
-      "id": "sc_bf15d583",
-      "title": "Lázár János egyetlen döntése 200 milliárd forintba kerülhet az adófizetőknek",
-      "description": "Ősszel lejár az M6-os sztráda Budapesttől Dunaújvárosig tartó részének építési-fenntartási szerződése, de az előző kormány ezt is odaadta Mészárosék koncessziójának, ami a lehető legdrágább megoldás.",
-      "link": "https://telex.hu/g7/kozelet/2026/07/17/lazar-janos-m6-dunaujvaros-mkif-koncesszio-meszaros-szijj",
-      "date": "2026-07-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 200000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_ccc911",
-          "name": "Budapesttől Dunaújvárosig",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_6bd09f9b",
-      "title": "Nem biztos, hogy Budapesten kell keresni Orbánék legfeleslegesebb közpénzes luxizását",
-      "description": "Kultúrpalotából patrióta klubhelyiség: névleg kulturális programokat tartanának a sok milliárd forintért megvásárolt és további milliárdokból felújított brüsszeli Magyarország Házában. Csakhogy saját bevallásuk szerint idén ilyen nem volt benne júniusig, viszont a Fidesz európai pártcsaládja rendszeresen használta az épületet.",
-      "link": "https://telex.hu/kulfold/2026/07/17/magyarorszag-haza-brusszel-patriotak-europaert-miniszterelnokseg",
-      "date": "2026-07-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_8a637c",
-          "name": "Magyarország Házában",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_4589a0ae",
-      "title": "Felülvizsgálja a kormány a Papp László Budapest Sportaréna tízéves bérleti szerződését",
-      "description": "A tíz évre szóló szerződést két héttel a választások előtt írta alá a kormány a Tiborcz István érdekeltségébe tartozó céggel.",
-      "link": "https://telex.hu/gazdasag/2026/07/17/papp-laszlo-sportarena-nemzeti-sportugynokseg-berelti-szerzodes-felulvizsgalat-tiborcz-istvan",
-      "date": "2026-07-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "sport"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_10102e",
-          "name": "Papp László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_008300",
-          "name": "Budapest Sportaréna",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_694bec74",
-      "title": "Magyar Péter szerint minden európai országban korrupciónak hívják azt, amit Szijjártó tett",
-      "description": "Mert ahhoz a globális kínai multicéghez igazolt, aminek több száz milliárd forint állami támogatást lobbizott ki korábban.",
-      "link": "https://444.hu/2026/07/15/magyar-peter-szerint-minden-europai-orszagban-korrupcionak-hivjak-azt-amit-szijjarto-tett?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-15",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "EU",
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_659b1330",
-      "title": "Október közepéig rács mögött marad Fonyód volt fideszes polgármestere",
-      "description": "Hidvégi Józsefet csalással és pénzmosással gyanúsítják.",
-      "link": "https://444.hu/2026/07/16/oktober-kozepeig-racs-mogott-marad-fonyod-volt-fideszes-polgarmestere?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-16",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b6815a",
-          "name": "Hidvégi Józsefet",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8521,14 +8524,34 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_ef8a02",
+      "to": "p_8d07e4",
+      "type": "business_connection",
+      "cases": [
+        "sc_98470153"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_08b3f1",
+      "type": "political_ally",
+      "cases": [
+        "sc_57732ba5"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T08:44:51.259987+00:00",
+    "last_updated": "2026-08-25T08:39:23.565321+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17315408000000,
+    "total_involved_amount_huf": 17485408000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8536,9 +8559,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
+      "korrupció": 15,
       "pénzügyi": 173,
-      "közbeszerzés": 11
+      "közbeszerzés": 12
     },
     "sources": [
       "444",
@@ -8550,12 +8573,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Győr-Moson-Sopron",
       "Budapest",
       "Zala",
       "Somogy",
       "Baranya",
-      "Fejér"
+      "Fejér",
+      "Győr-Moson-Sopron"
     ]
   }
 }
