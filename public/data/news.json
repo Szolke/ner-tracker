@@ -1,6 +1,198 @@
 {
   "cases": [
     {
+      "id": "sc_e0ec9497",
+      "title": "Kármán András elmagyarázta, miért nem élnek a Fidesz kedvelt adósságszépítő trükkjével",
+      "description": "Bár év végén az uniós utalásoknak köszönhetően jelentős likviditás áll majd a kormány rendelkezésére, ebből az elmúlt évek gyakorlatával szemben nem szépítik majd az adósságot. A Tisza már elért 400 milliárd forint megtakarítást, és a Pénzügyminisztérium szerint könnyedén találnak még 300 milliárdot. Ebből lesz a Havária Alap és az első szociális intézkedések fedezete.",
+      "link": "https://hvg.hu/gazdasag/20260825_karman-potkoltsegvetes-megtakaritas-havaria-alap-hiany-allamadossag",
+      "date": "2026-08-25",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 400000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_387aa4",
+          "name": "Kármán András",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_aec2bf",
+          "name": "Havária Alap",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_95e2982b",
+      "title": "Varga Mihály: Az emberek és a cégek is kisebb inflációt várnak, mint pár hónapja",
+      "description": "Elmondta a jegybankelnök, miért döntöttek az újabb kamatcsökkentés mellett, mi várhat a magyar gazdaságra, de megkérdezték arról is, számít-e arra, hogy kikerül még gyanús ügy Matolcsy György elnöksége idejéből.",
+      "link": "https://hvg.hu/gazdasag/20260825_varga-mihaly-mnb-kamatdontes-alapkamat-sajtotajekoztato",
+      "date": "2026-08-25",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_915aa6",
+          "name": "Varga Mihály",
+          "position": "pénzügyminiszter"
+        },
+        {
+          "id": "p_0a9ee4",
+          "name": "Matolcsy György",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_895552da",
+      "title": "Vitézy: A becsült árnál 41 milliárd forinttal olcsóbban lízingel majd járműveket a MÁV és a Magyar Közút",
+      "description": "A közlekedési és beruházási miniszter szerint a versenynek köszönhetően sikerült csaknem a felére szorítani a költségeket.",
+      "link": "https://hvg.hu/gazdasag/20260825_vitezy-david-mav-magyar-kozut-jarmubeszerzes-lizing-verseny",
+      "date": "2026-08-25",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 41000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_1df83724",
+      "title": "Mészáros Lőrincet is verte nyereségrátában egy hevesi vasútépítő cég, amely mellékesen fideszes propagandát is gyárt",
+      "description": "Egy Heves megyei tiszás képviselőjelöltet lejárató röplapon keresztül feltárul a fideszes ellenfeléhez köthető helyi propaganda újság, és a mögötte álló, milliárdos forgalmú vasútépítő cég. Az egykori drogügyi kormánybiztos Horváth Lászlónak a jelek szerint olyan vállalat tolta meg a kampányát, amely még Mészáros V-Hídjánál is nagyobb profitrátával dolgozott a MÁV-nak.",
+      "link": "https://444.hu/2026/08/26/meszaros-lorincet-is-verte-nyeresegrataban-egy-hevesi-vasutepito-ceg-amely-mellekesen-fideszes-propagandat-is-gyart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-26",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_1b2383",
+          "name": "Mészáros Lőrincet",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_90fb43",
+          "name": "Egy Heves",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_a7fd28",
+          "name": "Horváth Lászlónak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a6794707",
+      "title": "Jutalomeső az ügyészségeken: 4,66 milliárd forint bónuszt osztottak szét júniusban",
+      "description": "Átlagosan majdnem egyhavi fizetésnek megfelelő összegnek örülhetett minden ügyészségi alkalmazott Ajkától Paksig, fogalmazótól ügyészig. Persze voltak kivételek: a Legfőbb Ügyészségen csak félhavi apanázs járt, de az így is több volt, mint a nagy átlag.",
+      "link": "https://hvg.hu/itthon/20260826_milliard-jutalom-ugyeszsegek",
+      "date": "2026-08-26",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 4660000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_2e2280",
+          "name": "Ajkától Paksig",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b70f20",
+          "name": "Legfőbb Ügyészségen",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0de71309",
+      "title": "A külügy százmilliárdos nagyságrendűre taksálja a Szijjártó-féle lélegeztetőgép-beszerzések okozta kárt",
+      "description": "A külügyminisztériumi átvilágítás eredményei túlárazást vélelmeznek a pandémiás lélegeztetőgép-beszerzéseknél. A felülvizsgálat során nem találtak arról megfelelő adatokat és dokumentumokat, hogy pontosan milyen stratégia mentén, hogyan hozták meg a beszerzésekről szóló döntéseket annak idején.",
+      "link": "https://hvg.hu/gazdasag/20260826_lelegeztetogep-biznisz-feljelentes-szijjarto-szazmilliardos-kar",
+      "date": "2026-08-26",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5cdb353b",
+      "title": "Megmagyarázta az agrárminisztérium, miért zárta ki egy már megnyert pályázatból Mészáros Lőrinc pulykafeldolgozóját",
+      "description": "A cég két projekttel összesen 33 milliárd forint uniós támogatást kapott.",
+      "link": "https://telex.hu/gazdasag/2026/08/26/agrarminiszterium-pulykafeldolgozo-kizaras-indoklas",
+      "date": "2026-08-26",
+      "source": "Telex",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 33000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ]
+    },
+    {
       "id": "sc_98470153",
       "title": "Nem fellebbeztek az augusztus 20-i közbeszerzés eredményével szemben – vizsgálatról sem tudni a különös tender ügyében",
       "description": "A Mi Hazánk feljelentést ígért, a Fidesz állítólag a Közbeszerzési Hatósághoz fordult az idei augusztus 20-i rendezvények meghívásos tendere miatt, de úgy tűnik, sem a Közbeszerzési, sem az Integritás Hatóság nem vizsgálódik az ügyben.",
@@ -5152,184 +5344,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_fad6af19",
-      "title": "Pintér Bélával és a Katonában is dolgozott az NKA új alelnöke, aki a Bohócdoktoroktól érkezik",
-      "description": "Mattyasovszky-Zsolnay Bence fogja irányítani a Hankó-korszak ügyeinek vizsgálatát is.",
-      "link": "https://444.hu/2026/07/17/pinter-belaval-es-a-katonaban-is-dolgozott-az-nka-uj-alelnoke-aki-a-bohocdoktoroktol-erkezik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-17",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_cd9ade",
-          "name": "Pintér Bélával",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_b492bf",
-          "name": "Zsolnay Bence",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_30450ec7",
-      "title": "Rogán Antal kiszállt a Káncz Csaba ellen indított rágalmazási peréből, amit a Szőlő utcai szexvád miatt indított",
-      "description": "Magánvádlóként neki kellett volna bizonyítania.",
-      "link": "https://444.hu/2026/07/17/rogan-antal-kiszallt-a-kancz-csaba-ellen-inditott-ragalmazasi-perebol-amit-a-szolo-utcai-szexvad-miatt-inditott?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-17",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_f5567f",
-          "name": "Káncz Csaba",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0cc76d52",
-      "title": "Feljelentést tesz a kormány a KRÉTA, a Neptun és az állami iratkezelő rendszerek több mint 100 milliárd forintos, gyanús beszerzései miatt",
-      "description": "A közpénzek felelős felhasználása és az átláthatóság érdekében.",
-      "link": "https://444.hu/2026/07/17/feljelentest-tesz-a-kormany-a-kreta-a-neptun-es-az-allami-iratkezelo-rendszerek-tobb-mint-100-milliard-forintos-gyanus-beszerzesei-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-17",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 100000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_9a018525",
-      "title": "19 ezer titkos megfigyelést engedélyeztek a NER alatt, gyakorlatilag nem volt miniszteri kontroll a jóváhagyásokban",
-      "description": "Szinte százszázalékos arányban bólintottak rá Orbán igazságügyi miniszterei a szolgálatok által kérelmezett titkos megfigyelésekre.",
-      "link": "https://hvg.hu/itthon/20260717_ner-orban-rendszer-titkos-megfigyelesek-alkotmanyvedelmi-hivatal-tek-pegasus",
-      "date": "2026-07-17",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_c75afdc6",
-      "title": "A háromszoros árat bemondó Mészároséknak passzolt le egy nyúlfarknyi autópálya-szakaszt Lázár János",
-      "description": "A koncessziós időszak alatt így összesen 200 milliárddal többe kerülhet az adófizetőknek 59 kilométer autópálya üzemeltetése.",
-      "link": "https://hvg.hu/gazdasag/20260717_autopalya-koncesszio-uzemeltetes-lazar-janos-m6-m8-mkif-zrt-meszaros-lorinc-szijj-laszlo-ekm-kozpenz",
-      "date": "2026-07-17",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 200000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        }
-      ]
-    },
-    {
-      "id": "sc_6a97df19",
-      "title": "Rogán Antal kihátrált a rágalmazási ügyből, amely Káncz Csaba ellen indult az Orbán-kormány Szőlő utcai jelentése nyomán",
-      "description": "A volt miniszter magánvádló lett, így azonban nem kívánja folytatni az eljárást – tudta meg a Tisztességes és Igazságos Társadalomért Alapítvány.",
-      "link": "https://hvg.hu/itthon/20260717_szolo-utcai-botrany-rogan-antal-raglmazas-kancz-csaba",
-      "date": "2026-07-17",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_f5567f",
-          "name": "Káncz Csaba",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_320cbb",
-          "name": "Igazságos Társadalomért",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_543f21e1",
-      "title": "Túlméretesek a közpénzből felhúzott stadionok, a nézők nagy része pár szezon alatt felszívódik",
-      "description": "Az állam 2010 óta 700 milliárdot költött stadionépítésre, de a klubokat semmi sem ösztönzi arra, hogy növeljék a nézettséget",
-      "link": "https://hvg.hu/gazdasag/20260717_nb-i-stadion-epites-nezoszam-kihasznaltsag-kutatas",
-      "date": "2026-07-17",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 700000000000,
-      "tags": [
-        "stadion"
-      ],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -8544,14 +8558,84 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_387aa4",
+      "to": "p_aec2bf",
+      "type": "business_connection",
+      "cases": [
+        "sc_e0ec9497"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_90fb43",
+      "type": "political_ally",
+      "cases": [
+        "sc_1df83724"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_a7fd28",
+      "type": "political_ally",
+      "cases": [
+        "sc_1df83724"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b2383",
+      "to": "p_90fb43",
+      "type": "business_connection",
+      "cases": [
+        "sc_1df83724"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b2383",
+      "to": "p_a7fd28",
+      "type": "business_connection",
+      "cases": [
+        "sc_1df83724"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_90fb43",
+      "to": "p_a7fd28",
+      "type": "business_connection",
+      "cases": [
+        "sc_1df83724"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_2e2280",
+      "to": "p_b70f20",
+      "type": "business_connection",
+      "cases": [
+        "sc_a6794707"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T08:39:23.565321+00:00",
+    "last_updated": "2026-08-26T08:40:27.935578+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 17485408000000,
+    "total_involved_amount_huf": 16964068000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8559,9 +8643,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 15,
+      "korrupció": 14,
       "pénzügyi": 173,
-      "közbeszerzés": 12
+      "közbeszerzés": 13
     },
     "sources": [
       "444",
@@ -8574,11 +8658,11 @@
     ],
     "regions_covered": [
       "Budapest",
-      "Zala",
-      "Somogy",
       "Baranya",
-      "Fejér",
-      "Győr-Moson-Sopron"
+      "Somogy",
+      "Zala",
+      "Győr-Moson-Sopron",
+      "Fejér"
     ]
   }
 }

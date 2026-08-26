@@ -1,18 +1,5 @@
 [
   {
-    "run_at": "2026-07-02T10:38:02.596388+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Magyar Péter",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Magyar Koncessziós",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-03T10:34:15.255852+00:00",
     "skipped_candidates": [
       {
@@ -827,6 +814,19 @@
   {
     "run_at": "2026-08-25T08:39:23.574762+00:00",
     "skipped_candidates": [
+      {
+        "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-26T08:40:27.944650+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Közút",
+        "reason": "blacklisted_institution_pattern"
+      },
       {
         "candidate": "Integritás Hatóság",
         "reason": "blacklisted_institution_pattern"

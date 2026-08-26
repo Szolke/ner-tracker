@@ -5,8 +5,64 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Tue, 25 Aug 2026 08:39:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 08:40:27 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Kármán András elmagyarázta, miért nem élnek a Fidesz kedvelt adósságszépítő trükkjével]]></title>
+    <link>https://hvg.hu/gazdasag/20260825_karman-potkoltsegvetes-megtakaritas-havaria-alap-hiany-allamadossag</link>
+    <guid>sc_e0ec9497</guid>
+    <pubDate>2026-08-25</pubDate>
+    <description><![CDATA[Bár év végén az uniós utalásoknak köszönhetően jelentős likviditás áll majd a kormány rendelkezésére, ebből az elmúlt évek gyakorlatával szemben nem szépítik majd az adósságot. A Tisza már elért 400 m | Budapest | 400000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Varga Mihály: Az emberek és a cégek is kisebb inflációt várnak, mint pár hónapja]]></title>
+    <link>https://hvg.hu/gazdasag/20260825_varga-mihaly-mnb-kamatdontes-alapkamat-sajtotajekoztato</link>
+    <guid>sc_95e2982b</guid>
+    <pubDate>2026-08-25</pubDate>
+    <description><![CDATA[Elmondta a jegybankelnök, miért döntöttek az újabb kamatcsökkentés mellett, mi várhat a magyar gazdaságra, de megkérdezték arról is, számít-e arra, hogy kikerül még gyanús ügy Matolcsy György elnökség | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Vitézy: A becsült árnál 41 milliárd forinttal olcsóbban lízingel majd járműveket a MÁV és a Magyar Közút]]></title>
+    <link>https://hvg.hu/gazdasag/20260825_vitezy-david-mav-magyar-kozut-jarmubeszerzes-lizing-verseny</link>
+    <guid>sc_895552da</guid>
+    <pubDate>2026-08-25</pubDate>
+    <description><![CDATA[A közlekedési és beruházási miniszter szerint a versenynek köszönhetően sikerült csaknem a felére szorítani a költségeket. | Budapest | 41000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Mészáros Lőrincet is verte nyereségrátában egy hevesi vasútépítő cég, amely mellékesen fideszes propagandát is gyárt]]></title>
+    <link>https://444.hu/2026/08/26/meszaros-lorincet-is-verte-nyeresegrataban-egy-hevesi-vasutepito-ceg-amely-mellekesen-fideszes-propagandat-is-gyart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_1df83724</guid>
+    <pubDate>2026-08-26</pubDate>
+    <description><![CDATA[Egy Heves megyei tiszás képviselőjelöltet lejárató röplapon keresztül feltárul a fideszes ellenfeléhez köthető helyi propaganda újság, és a mögötte álló, milliárdos forgalmú vasútépítő cég. Az egykori | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Jutalomeső az ügyészségeken: 4,66 milliárd forint bónuszt osztottak szét júniusban]]></title>
+    <link>https://hvg.hu/itthon/20260826_milliard-jutalom-ugyeszsegek</link>
+    <guid>sc_a6794707</guid>
+    <pubDate>2026-08-26</pubDate>
+    <description><![CDATA[Átlagosan majdnem egyhavi fizetésnek megfelelő összegnek örülhetett minden ügyészségi alkalmazott Ajkától Paksig, fogalmazótól ügyészig. Persze voltak kivételek: a Legfőbb Ügyészségen csak félhavi apa | Budapest | 4660 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[A külügy százmilliárdos nagyságrendűre taksálja a Szijjártó-féle lélegeztetőgép-beszerzések okozta kárt]]></title>
+    <link>https://hvg.hu/gazdasag/20260826_lelegeztetogep-biznisz-feljelentes-szijjarto-szazmilliardos-kar</link>
+    <guid>sc_0de71309</guid>
+    <pubDate>2026-08-26</pubDate>
+    <description><![CDATA[A külügyminisztériumi átvilágítás eredményei túlárazást vélelmeznek a pandémiás lélegeztetőgép-beszerzéseknél. A felülvizsgálat során nem találtak arról megfelelő adatokat és dokumentumokat, hogy pont | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Megmagyarázta az agrárminisztérium, miért zárta ki egy már megnyert pályázatból Mészáros Lőrinc pulykafeldolgozóját]]></title>
+    <link>https://telex.hu/gazdasag/2026/08/26/agrarminiszterium-pulykafeldolgozo-kizaras-indoklas</link>
+    <guid>sc_5cdb353b</guid>
+    <pubDate>2026-08-26</pubDate>
+    <description><![CDATA[A cég két projekttel összesen 33 milliárd forint uniós támogatást kapott. | Budapest | 33000 M HUF | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
   <item>
     <title><![CDATA[Nem fellebbeztek az augusztus 20-i közbeszerzés eredményével szemben – vizsgálatról sem tudni a különös tender ügyében]]></title>
     <link>https://hvg.hu/gazdasag/20260824_kozbeszerzes-intergitas-hatosag-vizsgalat-augusztus-20-unnep-rendezveny-megbizas</link>
@@ -110,62 +166,6 @@
     <pubDate>2026-08-22</pubDate>
     <description><![CDATA[A miniszter a Telex cikkére reagálva azt írta a Facebookon, hogy a közlekedésbiztonsági kérdőív válaszadóinak többsége szigorúbban büntetné a kirívó gyorshajtást, illetve az így okozott balesetek fele | Somogy | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[A német biztonsági szolgálat szerint orosz merényletekhez bekészített fegyvereket találtak egy Berlin melletti erdőben]]></title>
-    <link>https://444.hu/2026/08/21/a-nemet-biztonsagi-szolgalat-szerint-orosz-merenyletekhez-bekeszitett-fegyvereket-talaltak-egy-berlin-melletti-erdoben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_7c6c895e</guid>
-    <pubDate>2026-08-21</pubDate>
-    <description><![CDATA[A Süddeutsche Zeitung szerint az államra veszélyt jelentő súlyos erőszakos cselekmény tervezése ügyében folyik a nyomozás. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Lázár János – egy tollvonás, mínusz 100 milliárd forint]]></title>
-    <link>https://444.hu/2026/08/21/lazar-janos-egy-tollvonas-minusz-100-milliard-forint?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_9d3c3a46</guid>
-    <pubDate>2026-08-21</pubDate>
-    <description><![CDATA[Vitézy Dávid újabb posztban ír az M6-os autópálya Mészároséknak átadni tervezett szakaszáról. Szerinte kiderült, hogy a NER-es konzorcium háromszor drágábban és rosszabb minőségben dolgozott volna. | Budapest | 100000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[A Mi Hazánk Mozgalom feljelentést tesz, mert szerintük az augusztus 20-i rendezvénysorozat közbeszerzése „kamu” volt]]></title>
-    <link>https://hvg.hu/itthon/20260822_mi-hazank-mozgalom-feljelentest-tesz</link>
-    <guid>sc_c8d122be</guid>
-    <pubDate>2026-08-22</pubDate>
-    <description><![CDATA[Toroczkai László bejelentette, hogy pártja közbeszerzési eljárásban versenyt korlátozó megállapodás gyanúja miatt tesz feljelentést. | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
-    <category>közbeszerzés</category>
-  </item>
-  <item>
-    <title><![CDATA[Lázár János kapott egy papírt három lehetőséggel, és az elsőre azt írta, hogy „Nem!”. Most jön a százmilliárdos szerződésbontás]]></title>
-    <link>https://telex.hu/gazdasag/2026/08/21/vitezy-david-felmondja-az-mkif-fel-kotott-szerzodest-az-m6-autopalyarol-lazar-azt-irta-a-masikhoz-hogy-nem</link>
-    <guid>sc_6d4e58a3</guid>
-    <pubDate>2026-08-21</pubDate>
-    <description><![CDATA[Visszalép az új kormány attól, hogy a Mészáros-féle koncessziós cég kezelésébe adja az M6-os autópálya északi szakaszát, amivel tíz év alatt százmilliárd forintot spórolnának meg. Erről korábban Lázár | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[174 milliárdból fejlesztik tovább a budapesti agglomeráció egyik legfontosabb vasútvonalát]]></title>
-    <link>https://telex.hu/belfold/2026/08/22/vasutfeljesztes-budapest-fovaros-agglomeracio-baross-gabor-terv-vitezy-david</link>
-    <guid>sc_5e7ef934</guid>
-    <pubDate>2026-08-22</pubDate>
-    <description><![CDATA[Vitézy Dávid szerint 2030-ra gyorsabban és sűrűn járó vonatokkal, illetve akadálymentes peronokkal újul meg a Budapest–Fót–Veresegyház–Őrbottyán–Vác vasútvonal. | Budapest | 174000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Kirúgta a komlói polgármester a jegyzőt, aki előtte hűtlen kezelés miatt tett feljelentést]]></title>
-    <link>https://atlatszo.hu/orszagszerte/2026/08/20/kirugta-a-komloi-polgarmester-a-jegyzot-aki-elotte-hutlen-kezeles-miatt-tett-feljelentest/</link>
-    <guid>sc_e9ed50df</guid>
-    <pubDate>2026-08-20</pubDate>
-    <description><![CDATA[Polics József (Fidesz-KDNP) szerint a két eset között nincs közvetlen összefüggés. A rendőrség közben elrendelte a nyomozást. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Havasi: „Péter nem küldött nekem semmit 🙁”]]></title>
-    <link>https://444.hu/2026/08/19/havasi-peter-nem-kuldott-nekem-semmit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_99152b73</guid>
-    <pubDate>2026-08-19</pubDate>
-    <description><![CDATA[Orbán volt sajtófőnöke szerint a hivatali visszaélés tankönyvi példája, hogy nem kapja meg az illetményét. | Budapest | Összeg ismeretlen | korrupció]]></description>
-    <category>korrupció</category>
   </item>
   </channel>
 </rss>
