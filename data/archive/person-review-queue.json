@@ -1,22 +1,5 @@
 [
   {
-    "run_at": "2026-07-03T10:34:15.255852+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Nemzeti Vagyonvisszaszerzési",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Legfőbb Ügyészség",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Magyar Pétertől",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-04T10:08:28.923788+00:00",
     "skipped_candidates": [
       {
@@ -829,6 +812,27 @@
       },
       {
         "candidate": "Integritás Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-27T18:50:32.212605+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Híd Zrt",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Dolomit Kft",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Közút",
         "reason": "blacklisted_institution_pattern"
       }
     ]
