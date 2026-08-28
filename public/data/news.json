@@ -1,6 +1,206 @@
 {
   "cases": [
     {
+      "id": "sc_81d41ef1",
+      "title": "A rendőrség hűtlen kezelés miatt nyomoz, mert a kampányoló Lázár több milliárdnyi MÁV-tartozást engedett el",
+      "description": "Fideszes városoknak kedvezett Lázár János a milliárdos gavallérkodással.",
+      "link": "https://hvg.hu/360/20260828_lazar-janos-volanbusz-mav-tartozas-elengedes-hutlen-kezeles-nyomozas",
+      "date": "2026-08-28",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_bd2468a7",
+      "title": "Tordai Bence: Nyomozás indul a 80 milliárdos hűtlen kezelés miatt Paks 2 tőkeemelési ügyében",
+      "description": "Az ügyben Tordai először 2026 januárjában tett feljelentést, de az NNI akkor elutasította azt, arra hivatkozva, hogy nem történt bűncselekmény. Most viszont már megalapozottnak látják a gyanút.",
+      "link": "https://444.hu/2026/08/28/tordai-bence-nyomozas-indul-a-80-milliardos-hutlen-kezeles-miatt-paks-2-tokeemelesi-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-28",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 80000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_935dc9",
+          "name": "Tordai Bence",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_f376b8d8",
+      "title": "HVG: Hűtlen kezelés gyanúja miatt indult eljárás, amiért a kampányidőszakban Lázár János milliárdos MÁV-tartozásokat engedett el",
+      "description": "A volt építési és közlekedési miniszter a Lázárinfók alatt arra utasította a MÁV-ot, hogy több, zömmel fideszes vezetésű település helyi személyszállításból eredő tartozásának jelentős részét engedje el. Ezzel jobb színben tüntethette fel magát ezeken a településeken.",
+      "link": "https://444.hu/2026/08/28/hvg-hutlen-kezeles-gyanuja-miatt-indult-eljaras-amiert-a-kampanyidoszakban-lazar-janos-milliardos-mav-tartozasokat-engedett-el?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-28",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_f8df8465",
+      "title": "Megszünteti az állam a Kásler-féle onkológiai alapítványt, ami egymilliárd forintért vett budai villát",
+      "description": "Hegedűs Zsolt szerint nincs szükségük „közpénzkifolyató kamuszervezetekre és a magyar egészségügyi büdzsét megcsapoló ingatlanbizniszekre”.",
+      "link": "https://444.hu/2026/08/28/megszunteti-az-allam-a-kasler-fele-onkologiai-alapitvanyt-ami-egymilliardert-vet-budai-villat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-28",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_2975d4",
+          "name": "Hegedűs Zsolt",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8aedf03a",
+      "title": "Már nyomoz a rendőrség a Paks II.-ben történt 80 milliárd forintos tőkeemelés miatt",
+      "description": "Különösen nagy vagyoni hátrányt okozó hűtlen kezelést gyanítanak. Érintett lehet Orbán Viktor volt miniszterelnök, valamint Nagy Márton és Szijjártó Péter volt miniszter is.",
+      "link": "https://hvg.hu/kkv/20260828_paks-ii-tiltott-tokeemeles-nyomozas-tordai-bence",
+      "date": "2026-08-28",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 80000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_534929",
+          "name": "Szijjártó Péter",
+          "position": "külügyminiszter"
+        },
+        {
+          "id": "p_e66a7e",
+          "name": "Nagy Márton",
+          "position": "gazdaságfejlesztési miniszter"
+        }
+      ]
+    },
+    {
+      "id": "sc_54500568",
+      "title": "Hűtlen kezelés gyanúja miatt nyomoz a rendőrség a Lázár által elengedett milliárdos tartozások ügyében",
+      "description": "Kecskemét esetében 2 milliárd, Salgótarjánnál 1 milliárd, Nyíregyházánál közel 600 millió, az ellenzéki vezetésű Szombathelynél pedig körülbelül 500 millió forintról volt szó, vagyis összesen több mint 4 milliárd forintról.",
+      "link": "https://telex.hu/belfold/2026/08/28/hvg-hutlen-kezeles-gyanuja-nyomozas-rendorseg-lazar-janos-tartozas-elengedes",
+      "date": "2026-08-28",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_657e3073",
+      "title": "Nyomoz a rendőrség Paks II. 80 milliárdos tőkeemelése miatt",
+      "description": "A nyomozás elrendelését Tordai Bence korábbi független országgyűlési képviselő jelentette be, ő tette a feljelentést az ügyben.",
+      "link": "https://telex.hu/belfold/2026/08/28/paks-ii-nyomozas-tokeemeles-tordai-bence",
+      "date": "2026-08-28",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 80000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_935dc9",
+          "name": "Tordai Bence",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_6081b5fc",
+      "title": "Hegedűs bejelentette: megszűnik a Kásler Miklós minisztersége alatt a rákkutatásra létrehozott alapítvány, ami közpénzből vett budai luxusvillát",
+      "description": "Az egészségügyi miniszter szerint az alapítvány papíron fontos feladatot kapott, de annak ellenére sem ért el kézzelfogható eredményeket, hogy közpénzmilliárdokat költöttek rá.",
+      "link": "https://telex.hu/belfold/2026/08/28/hegedus-zsolt-kozep-es-kelet-europai-onkologiai-akademia-alapitvany-megszunes-kozpenz-luxusvilla",
+      "date": "2026-08-28",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_fd1721",
+          "name": "Kásler Miklós",
+          "position": "volt emberi erőforrások minisztere"
+        }
+      ]
+    },
+    {
       "id": "sc_db3f7d26",
       "title": "A villanyszámlát is közpénzből fizeti, mégsem válaszol az adatigénylésre a Magyarország Barátai Alapítvány",
       "description": "Megalakulása óta összesen több mint 1,5 milliárd forint vissza nem térítendő állami támogatást kapott az Orbán-kormányhoz kötődő alapítvány, mégsem adja ki a kért közérdekű adatokat.",
@@ -5165,227 +5365,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_d531ad22",
-      "title": "Kötelező szenzorok nélkül, kézifékhibával közlekedik több tucat új Credo busz",
-      "description": "A MÁV szerint a \"szoftveres anomália\" ellenére a buszok (Credobus Econell 12 Next) biztonságosan üzemeltethetők.",
-      "link": "https://atlatszo.hu/kozpenz/2026/07/20/kotelezo-szenzorok-nelkul-kezifekhibaval-kozlekedik-tobb-tucat-uj-credo-busz/",
-      "date": "2026-07-20",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1c2c5d",
-          "name": "Credobus Econell",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_c9ce3124",
-      "title": "Félbehagyott Puskás-sorozatot, utólag lepapírozott támogatásokat és egy nap alatt kiszórt 6,2 milliárdot találtunk a Szerencsejátéktól kikért dokumentumok között",
-      "description": "Közérdekű adatigényléssel kértük ki a Szerencsejáték Service Kft. támogatási és szponzorációs szerződéseit, hogy megtudjuk, mire adtak évente jelentős közpénzt.",
-      "link": "https://444.hu/2026/07/20/felbehagyott-puskas-sorozatot-utolag-lepapirozott-tamogatasokat-es-egy-nap-alatt-kiszort-62-milliardot-talaltunk-a-szerencsejatektol-kikert-dokumentumok-kozott?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-20",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 6200000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_27b09a",
-          "name": "Félbehagyott Puskás",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_3534ef",
-          "name": "Szerencsejáték Service",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_74ef50b1",
-      "title": "Vitézy: Közpénz költése nélkül három nap alatt százezren kitöltötték a közlekedésbiztonsági konzultációt",
-      "description": "A tárcavezető bejegyzésében odaszúrt a nemzeti konzultációkra milliárdokat kiszóró Orbán-kormánynak.",
-      "link": "https://hvg.hu/itthon/20260720_vitezy-david-kozlekedesbiztonsagi-kerdoiv-kiltoltok",
-      "date": "2026-07-20",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_a50c1295",
-      "title": "Győr alkotmányjogi panaszt nyújt be a szolidaritási hozzájárulás miatt, 13,1 milliárd forint a tét",
-      "description": "A polgármester előterjesztését egyhangúlag támogatta a testület, Pintér Bence szerint ha a kivetett szolidaritási hozzájárulás egészét be kell fizetni, akkor a város „feléli a tartalékainkat, jövőre pedig nincs tovább”.",
-      "link": "https://telex.hu/belfold/2026/07/20/gyor-szolidaritasi-hozzajarulas-pinter-bence-alkotmanyjogi-panasz-rendkivuli-kozgyules",
-      "date": "2026-07-20",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Győr-Moson-Sopron",
-      "coordinates": [
-        47.6829,
-        17.6271
-      ],
-      "amount_huf": 13100000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c17d81",
-          "name": "Pintér Bence",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b3aa5ada",
-      "title": "Palkovics László barátja és bizalmasa milliárdokkal gyarapodott, miközben az állam rászokott az általa készített szoftverekre",
-      "description": "Fauszt Zoltán cégei gyakran verseny nélküli közbeszerzéseken nyertek milliárdos állami megbízásokat. A Tisza-kormány feljelentést tesz. Fauszt tulajdonosként 3,75 milliárd forintnyi osztalékot vett ki az állammal üzletelő cégeket birtokló Nexius Zrt.-ből.",
-      "link": "https://444.hu/2026/07/19/palkovics-laszlo-baratja-es-bizalmasa-milliardokkal-gyarapodott-mikozben-az-allam-raszokott-az-altala-keszitett-szoftverekre?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-19",
-      "source": "444",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3750000000,
-      "tags": [
-        "közbeszerzés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7d4151",
-          "name": "Palkovics László",
-          "position": "volt innovációs és felsőoktatási miniszter"
-        },
-        {
-          "id": "p_f6a467",
-          "name": "Fauszt Zoltán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_df4eeb5f",
-      "title": "Az Orbán-kormány 110 milliárd forinttal sunnyogott be egy német tank fejlesztésébe",
-      "description": "Bár itthon nem verték nagydobra, Magyarország 110 milliárd forint támogatást adott a Rheinmetallnak a Panther harckocsi kifejlesztésére. Ezért cserébe úgy tűnik csak néhány kedvezmény jár a magyar félnek.",
-      "link": "https://hvg.hu/gazdasag/20260719_rheinmetall-kutatas-fejlesztes-panther-tamogatas",
-      "date": "2026-07-19",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 110000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_85fa9592",
-      "title": "Vitézy Dávid: Lázár János háromszoros áron kötött szerződést Mészáros és Szíjj cégével",
-      "description": "A közlekedési miniszter utánanéz, mit tehet a szerződéssel, ami összesen 200 milliárdos többletterhet jelent az államnak.",
-      "link": "https://hvg.hu/gazdasag/20260717_vitezy-david-meszaros-lorinc-szijj-laszlo-autopalya",
-      "date": "2026-07-17",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 200000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
-    },
-    {
-      "id": "sc_3a53384b",
-      "title": "Eurosport: Deutsch Tamás öccsének cége 10 százalékos tulajdonrésszel a nyereség 99 százalékát kapta",
-      "description": "Négy év alatt közel 1,7 milliárd forint osztalékhoz jutott Deutsch Péter cége.",
-      "link": "https://hvg.hu/gazdasag/20260717_deutsch-peter-ceg-10-szazalek-tulajdon-99-szazalek-nyereseg",
-      "date": "2026-07-17",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1700000000,
-      "tags": [
-        "EU",
-        "sport"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_5fd5c3",
-          "name": "Deutsch Tamás",
-          "position": "EP-képviselő, Fidesz"
-        },
-        {
-          "id": "p_139328",
-          "name": "Deutsch Péter",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8761,14 +8740,34 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_b26482",
+      "to": "p_e66a7e",
+      "type": "political_ally",
+      "cases": [
+        "sc_8aedf03a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_534929",
+      "to": "p_e66a7e",
+      "type": "political_ally",
+      "cases": [
+        "sc_8aedf03a"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T18:50:32.202424+00:00",
+    "last_updated": "2026-08-28T19:53:40.303892+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16964802000000,
+    "total_involved_amount_huf": 16872052000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8777,8 +8776,8 @@
     },
     "category_breakdown": {
       "korrupció": 14,
-      "pénzügyi": 172,
-      "közbeszerzés": 14
+      "pénzügyi": 173,
+      "közbeszerzés": 13
     },
     "sources": [
       "444",
@@ -8790,12 +8789,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Somogy",
-      "Budapest",
-      "Fejér",
-      "Győr-Moson-Sopron",
       "Zala",
-      "Baranya"
+      "Somogy",
+      "Baranya",
+      "Budapest",
+      "Fejér"
     ]
   }
 }
