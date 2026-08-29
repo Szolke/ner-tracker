@@ -1,109 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_2a284659",
-      "title": "M6: Különösen nagy vagyoni hátrányt okozó hűtlen kezelés és hivatali visszaélés bűntettének gyanúja miatt tett feljelentést Vitézy Dávid",
-      "description": "Vitézy szerint a Lázár János, „a szakmai javaslatot figyelmen kívül hagyva, 11 évre vetítve több mint 100 milliárd forinttal drágábban ítélte oda a Mészáros Lőrinc és Szíjj László érdekkörébe tartozó autópálya-koncesszornak a szerződést”.",
-      "link": "https://444.hu/2026/08/29/m6-kulonosen-nagy-vagyoni-hatranyt-okozo-hutlen-kezeles-es-hivatali-visszaeles-buntettenek-gyanuja-miatt-tett-feljelentest-vitezy-david?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-29",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 100000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_adaa32d0",
-      "title": "Egy magyar jacuzzigyártó cég tulajdonosa árulja hárommilliárd forintért a budai luxusvilláját",
-      "description": "Az erről szóló hirdetés több ingatlanos csoportban is megjelent és egyből arról indult meg a találgatás, hogy melyik NER-közeli oligarcha akar elmenekülni az országból, ám Czafik Zsolt valójában már régebb óta árulja az ingatlanát és nem is tartozott az ismerten fideszes kötődésű üzletemberek közé.",
-      "link": "https://hvg.hu/kkv/20260828_jacuzzi-wellis-luxusvilla-buda-elado",
-      "date": "2026-08-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "hirdetés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_f78447",
-          "name": "Czafik Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_8c4b42e3",
-      "title": "Vitézy Dávid minisztériuma feljelentést tett az M6-os autópálya koncessziós szerződése miatt",
-      "description": "A miniszter szerint felmerül a hűtlen kezelés és hivatali visszaélés gyanúja. A Mészáros Lőrinc és Szíjj László érdekkörébe tartozó MKIF Zrt. nagy hasznot húzott az üzletből.",
-      "link": "https://telex.hu/belfold/2026/08/29/vitezy-david-kozlekedesi-es-beruhazasi-miniszter-feljelentes-m6-os-autopalya-koncesszio-lazar-janos-meszaros-lorinc-es-szijj-laszlo-mkif",
-      "date": "2026-08-29",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_81d41ef1",
       "title": "A rendőrség hűtlen kezelés miatt nyomoz, mert a kampányoló Lázár több milliárdnyi MÁV-tartozást engedett el",
       "description": "Fideszes városoknak kedvezett Lázár János a milliárdos gavallérkodással.",
@@ -5393,6 +5290,81 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_04433a93",
+      "title": "Vitézy Dávid megmutatta a Lázárinfók közvetítőkocsijának használt, állami kisbuszt",
+      "description": "A miniszter közösségi oldalán osztotta meg annak a kisbusznak a fotóját, amit Lázár János minisztersége idején a kampányeseménynek számító Lázárinfóhoz használhattak közvetítőkocsiként. Informálják a hatóságokat, de belső vizsgálat is indult.",
+      "link": "https://hvg.hu/itthon/20260721_vitezy-david-kozzetette-a-lazarinfon-hasznalt-allami-kisbuszrol-keszult-fotot",
+      "date": "2026-07-21",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c7f9a1",
+          "name": "Lázár János",
+          "position": "építési és közlekedési miniszter"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_5aa2b21c",
+      "title": "Hadházy: Nyomozás indult a Tiborcz-féle Éltex felvásárlása miatt",
+      "description": "Tiborczék köre 18 milliárdért adta el az Éltexet az Alteo nevű cégnek, csak aztán kiderült, hogy nem biztos, hogy annyit is ér.",
+      "link": "https://telex.hu/gazdasag/2026/07/21/hadhazy-akos-alteo-ugy-nyomozas-rendorseg-tiborcz-istvan",
+      "date": "2026-07-21",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 18000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_dce3c43e",
+      "title": "Áll a bál az Operettszínházban, a társulat nyílt levele szerint elvesztették bizalmukat a vezetőségben",
+      "description": "Alacsony anyagi megbecsültségről és a csökkenő szakmai lehetőségekről írnak, az Orbán János Dénessel kapcsolatos feljelentés és vizsgálat szerintük a korábban is jelzett aggályaikat igazolja.",
+      "link": "https://telex.hu/karakter/kultura/2026/07/21/budapesti-operettszinhaz-nyilt-level-tiltakozas-elhatarolodas-orban-janos-denes",
+      "date": "2026-07-21",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_f7e873",
+          "name": "Orbán János",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8788,45 +8760,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_1dd9b6",
-      "to": "p_c7f9a1",
-      "type": "political_ally",
-      "cases": [
-        "sc_2a284659"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_c7f9a1",
-      "to": "p_fbf7a2",
-      "type": "political_ally",
-      "cases": [
-        "sc_2a284659"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_94af7a",
-      "to": "p_fbf7a2",
-      "type": "business_connection",
-      "cases": [
-        "sc_2a284659",
-        "sc_8c4b42e3"
-      ],
-      "description": "Automatikusan felismert – 2 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T13:37:34.555945+00:00",
+    "last_updated": "2026-08-28T19:53:40.303892+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16954052000000,
+    "total_involved_amount_huf": 16872052000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8834,8 +8775,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
-      "pénzügyi": 171,
+      "korrupció": 14,
+      "pénzügyi": 173,
       "közbeszerzés": 13
     },
     "sources": [
@@ -8848,11 +8789,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
       "Zala",
-      "Fejér",
+      "Somogy",
       "Baranya",
-      "Somogy"
+      "Budapest",
+      "Fejér"
     ]
   }
 }
