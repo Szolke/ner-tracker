@@ -1,14 +1,5 @@
 [
   {
-    "run_at": "2026-07-04T10:08:28.923788+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-05T10:11:00.070932+00:00",
     "skipped_candidates": [
       {
@@ -833,6 +824,15 @@
       },
       {
         "candidate": "Magyar Közút",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-30T13:33:03.893299+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Igazságügyi Minisztériumhoz",
         "reason": "blacklisted_institution_pattern"
       }
     ]

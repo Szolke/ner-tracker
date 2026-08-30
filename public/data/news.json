@@ -1,6 +1,120 @@
 {
   "cases": [
     {
+      "id": "sc_a439f431",
+      "title": "Magánkölcsön lett egy illegális gázolajbizniszből a vádiratban? Az ügyben fideszes alpolgármester is felbukkan",
+      "description": "Több mint 100 milliós tartozás meg nem fizetése, jelentős és nagyobb kárt okozó, üzletszerűen elkövetett csalás bűntette miatt emelt vádat nemrégiben a Gyulai Járási Ügyészség egy férfi ellen. A büntetőügy kiindulópontja egy állítólagos magánkölcsönt vissza nem fizetése volt. Úgy tudjuk, más is állhat a háttérben, s erről a vádirat nem szól. Az ügyben tanúként hallgatták meg Kónya István gyulai fi",
+      "link": "https://magyarnarancs.hu/bun/magankolcson-lett-egy-illegalis-gazolajbizniszbol-a-vadiratban-az-ugyben-fideszes-alpolgarmester-is-felbukkan-280051",
+      "date": "2026-08-30",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_e14f0b",
+          "name": "Gyulai Járási",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_001669",
+          "name": "Kónya István",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_3e8a2cfe",
+      "title": "Vitézy minisztériuma 100 milliárd forint értékű vagyont vesz vissza a felszámolt kekváktól",
+      "description": "Azt ígéri, hogy nem lesz olyan szolgáltatás, amelynek a minősége romlani fog az új rendszerben.",
+      "link": "https://444.hu/2026/08/30/vitezy-miniszteriuma-100-milliard-forint-erteku-vagyont-vesz-vissza-a-felszamolt-kekvaktol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-30",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_3d4d87b6",
+      "title": "Vitézy: Százmilliárd forint értékű vagyon került vissza az államhoz",
+      "description": "Lezárult a kekvák felszámolása.",
+      "link": "https://hvg.hu/gazdasag/20260830_vitezy-szazmilliard-forint-erteku-vagyon-kerult-vissza-az-allamhoz",
+      "date": "2026-08-30",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_6a13e5e8",
+      "title": "Szőlő utcai ügy: Nem árulja el az igazságügyi minisztérium, milyen iratokba tekintettek be Tuzson Bencéék és mire jutott a vizsgálatuk",
+      "description": "A 444 még az Orbán-kormány idején hozott rendelet apropóján adott be közérdekű adatigénylést az Igazságügyi Minisztériumhoz.",
+      "link": "https://telex.hu/belfold/2026/08/30/igazsagugyi-miniszterium-nem-ad-ki-adatokat-szolo-utcai-ugy-tuzson-bence-jelentes-kormanyrendelet",
+      "date": "2026-08-30",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_eb0918",
+          "name": "Tuzson Bencéék",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0ffc892e",
+      "title": "Vitézy: Őszintébb lett volna, ha „magánérdekű közvagyonkezelő alapítványoknak” nevezik el a kekvákat",
+      "description": "A közlekedési és beruházási miniszter azt írta, minisztériuma 100 milliárd forint értékű vagyont vesz vissza a kekváktól.",
+      "link": "https://telex.hu/gazdasag/2026/08/30/vitezy-david-kekva-100-milliardos-vagyon-kozlekedesi-es-beruhazasi-miniszterium",
+      "date": "2026-08-30",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 100000000000,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_2a284659",
       "title": "M6: Különösen nagy vagyoni hátrányt okozó hűtlen kezelés és hivatali visszaélés bűntettének gyanúja miatt tett feljelentést Vitézy Dávid",
       "description": "Vitézy szerint a Lázár János, „a szakmai javaslatot figyelmen kívül hagyva, 11 évre vetítve több mint 100 milliárd forinttal drágábban ítélte oda a Mészáros Lőrinc és Szíjj László érdekkörébe tartozó autópálya-koncesszornak a szerződést”.",
@@ -5259,140 +5373,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_5bcb7af7",
-      "title": "Újraindult a nyomozás a fideszes Simon Miklós ügyében",
-      "description": "Egy fiktív szerződés miatt többeket elítéltek, Simont eddig a mentelmi joga védte.",
-      "link": "https://444.hu/2026/07/21/ujraindult-a-nyomozas-a-fideszes-simon-miklos-ugyeben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-21",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_19214e",
-          "name": "Simon Miklós",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_fd7ce6e9",
-      "title": "Zaklatók terrorizálása",
-      "description": "Orbán ellenállási nyilatkozata, a Fidesz lefoglalt szerverei, feljelentések és nyomozások meg a vébé álom- és rémálomválogatottja a 444 reggeli hírlevelében.",
-      "link": "https://444.hu/2026/07/22/zaklatok-terrorizalasa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-22",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_ce3ada4c",
-      "title": "Négy cég is kihátrált a felcsúti focicsapat mögül, köztük a Szíjj László-féle Duna Aszfalt",
-      "description": "Ezzel már „csak” 29 támogatója van a klubnak, ebből 18 cég Mészáros Lőrinc érdekeltségébe tartozik.",
-      "link": "https://hvg.hu/kkv/20260722_felcsut-puskas-akademia-cegek-kihatralas-szijj-laszlo-duna-aszfalt",
-      "date": "2026-07-22",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Fejér",
-      "coordinates": [
-        47.118,
-        18.432
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_e19a09",
-          "name": "Duna Aszfalt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0b55fa02",
-      "title": "Nyomozást indított a rendőrség a nagy Tiborcz-trükk miatt Hadházy feljelentése nyomán",
-      "description": "Orbán Viktor veje hatszoros áron adta el egy cégét egy tőzsdén forgó cégének, amiből aztán szintén szembeötlően jó áron szállt ki.",
-      "link": "https://444.hu/2026/07/21/nyomozast-inditott-a-rendorseg-a-nagy-tiborcz-trukk-miatt-hadhazy-feljelentese-nyoman?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-21",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        }
-      ]
-    },
-    {
-      "id": "sc_597df10f",
-      "title": "Nyomozás indult Tiborcz Istvánhoz köthető cégek manőverei után",
-      "description": "Hadházy Ákos tett feljelentést az Alteo tavalyi akvizíciója nyomán, miután a tőzsdei cég kisbefektetői nagyot buktak egy veszteséges cég felvásárlásán.",
-      "link": "https://hvg.hu/kkv/20260721_tiborcz-istvan-alteo-eltex-nyomozas-feljelentes-hutlen-kezeles-vallalkozas-kkv",
-      "date": "2026-07-21",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_07163e",
-          "name": "Tiborcz Istvánhoz",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8819,14 +8799,24 @@
       ],
       "description": "Automatikusan felismert – 2 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_e14f0b",
+      "to": "p_001669",
+      "type": "business_connection",
+      "cases": [
+        "sc_a439f431"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T13:37:34.555945+00:00",
+    "last_updated": "2026-08-30T13:33:03.884195+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 16954052000000,
+    "total_involved_amount_huf": 17154152000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
