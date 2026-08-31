@@ -1,186 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_de67abaf",
-      "title": "Kétszer annyiba került a 2024-es influenszer trip, mint azt korábban bevallották",
-      "description": "A pénzből Tiborcz István és Balásy Gyula érdekeltségeinek is jutott.",
-      "link": "https://hvg.hu/gazdasag/20260831_budapest-infulencer-trip-2024-majus-magyar-tursztikai-ugynokseg-koltseg-orban-rahel-tiborcz-istvan-balasy-gyula",
-      "date": "2026-08-31",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_7a517f",
-          "name": "Balásy Gyula",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_aac833f8",
-      "title": "Vitézy Dávid: Teljesült minden feltétel, az uniós helyreállítási alap forrásainak száz százalékát hazahozhatja a kormány",
-      "description": "A miniszter szerint 5500-6000 milliárd forintnyi uniós forrás vált elérhetővé.",
-      "link": "https://hvg.hu/gazdasag/20260831_vitezy-david-unio-helyreallitas-alap-forras-szaz-szazalek-hazahoz-kormany",
-      "date": "2026-08-31",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 6000000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
-    },
-    {
-      "id": "sc_61313212",
-      "title": "Előkerült egy dokumentum, amiből kiderült, hogyan minősítették jónak a kórházi használatra alkalmatlan lélegeztetőgépeket",
-      "description": "Az Orbán-kormány olyan gépeket vett 300 milliárdért, amiknek közel felénél talált problémát a kirendelt katonaorvos.",
-      "link": "https://444.hu/2026/08/31/elokerult-egy-dokumentum-amibol-kiderult-hogyan-minositettek-jonak-a-korhazi-hasznalatra-alkalmatlan-lelegeztetogepeket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-31",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 300000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_42172576",
-      "title": "A Varga Mihály vezette MNB közel ezer oldal adattal és információval segíti a végrehajtási visszaéléseket feltáró bizottságot",
-      "description": "Varga azt mondta, ahol felmerült a visszaélés gyanúja, ők is feljelentést tettek, de a továbbiakban is állnak a vizsgálóbizottság rendelkezésére.",
-      "link": "https://444.hu/2026/08/31/a-varga-mihaly-vezette-mnb-kozel-ezer-oldal-adattal-es-informacioval-segiti-a-vegrehajtasi-visszaeleseket-feltaro-bizottsagot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-31",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_915aa6",
-          "name": "Varga Mihály",
-          "position": "pénzügyminiszter"
-        }
-      ]
-    },
-    {
-      "id": "sc_7162cf47",
-      "title": "A Fradiváros pénzei után nyomozott, megtalálták a Fradi ultrái",
-      "description": "„Kele Jani, kezdj el aggódni...” – üzenték a Fradi ultrái a 24.hu főmunkatársának, akivel arról is beszélgettünk, hogy maradhat-e egy fideszes politikus a legnépszerűbb magyar csapat élén, és hogy véletlen-e, hogy Fradiváros-ügyben éppen akkor közölte az államtitkár, hogy 11,2 milliárd játékosvásárlásra ment a pénzből, amikor Kubatov Gábor bejelentette: újra indulna a posztjáért.",
-      "link": "https://444.hu/2026/08/31/a-fradivaros-penzei-utan-nyomozott-megtalaltak-a-fradi-ultrai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-31",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 11200000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_41a582",
-          "name": "Kele Jani",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_551bc5",
-          "name": "Kubatov Gábor",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_342a2101",
-      "title": "Használatra egyáltalán nem javasolt lélegeztetőgépeket minősített „jónak” és vett meg Szijjártó minisztériuma",
-      "description": "Velkey György államtitkár összefoglalta, milyen minőségi problémákról volt tudomása a Szijjártó-féle külügynek, amikor százmilliárdokért vásárolt – túlnyomórészt máig nem használt – kínai gépeket. A minisztérium feljelentést tett.",
-      "link": "https://hvg.hu/itthon/20260831_katonaorvos-hasznalat-javasol-lelegeztetogep-minosites-vasarlas-szijjarto-peter-miniszterium",
-      "date": "2026-08-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7b2f43",
-          "name": "Velkey György",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_cc0e72db",
-      "title": "Teljesülnek a 3650 milliárdos helyreállítási alap jogalkotási feltételei, jelentette be a határidő napján Vitézy",
-      "description": "A miniszter szerint délután 2 órakor érik el azt az állapotot, hogy Magyarország az összes feltételt teljesítse.",
-      "link": "https://telex.hu/gazdasag/2026/08/31/eu-helyreallitasi-alap-feltetelek-teljesites",
-      "date": "2026-08-31",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3650000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
       "id": "sc_a439f431",
       "title": "Magánkölcsön lett egy illegális gázolajbizniszből a vádiratban? Az ügyben fideszes alpolgármester is felbukkan",
       "description": "Több mint 100 milliós tartozás meg nem fizetése, jelentős és nagyobb kárt okozó, üzletszerűen elkövetett csalás bűntette miatt emelt vádat nemrégiben a Gyulai Járási Ügyészség egy férfi ellen. A büntetőügy kiindulópontja egy állítólagos magánkölcsönt vissza nem fizetése volt. Úgy tudjuk, más is állhat a háttérben, s erről a vádirat nem szól. Az ügyben tanúként hallgatták meg Kónya István gyulai fi",
@@ -5327,6 +5147,232 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_efc666a4",
+      "title": "Jön a casting?",
+      "description": "\"Ha Magyarnak szerencséje van, az ügyészség hamarosan elejti valamely fajsúlyosabb fideszes stikli egyik nagyvadját, vagy valami más nagy figyelmet kiváltó esemény viszi el a fókuszt a kudarcáról. Ha meg nincs, akkor ez után az eset után a valóban szóba jöhető érdemes államfőjelölt személyek várhatóan inkább köszönik, de ebből nem kérnek.\"",
+      "link": "https://magyarnarancs.hu/aszerk/jon-a-casting-279747",
+      "date": "2026-07-22",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_7afcfb",
+          "name": "Ha Magyarnak",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_98bf4eb2",
+      "title": "Badacsonyi turistaházat privatizált Kocsis Máté személyi titkárának cége",
+      "description": "Ugyanez a vállalkozás százmilliós jutalékot kaphatott az Alapjogokért Központ milliárdos villavásárlása után, és ötvenmillió forint plusz áfás sikerdíjat fizetett Schanda Tamás volt fideszes államtitkár cégének.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/23/badacsonyi-turistahazat-privatizalt-kocsis-mate-szemelyi-titkaranak-cege/",
+      "date": "2026-07-23",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b1af4e",
+          "name": "Kocsis Máté",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_6124d7",
+          "name": "Alapjogokért Központ",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9adc0d",
+          "name": "Schanda Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_3d22f8f4",
+      "title": "A korrupció az, amiből Kuna Tibort kihagyják",
+      "description": "Szijjártó régi barátja Andalúziában bekkelte ki a NER keményebb időszakát, miután milliárdosra kereste magát közpénzen. Ma már zsarnokságként emlékezik a rendszerre és visszatérne a magyar médiapiacra.",
+      "link": "https://444.hu/2026/07/23/a-korrupcio-az-amibol-kuna-tibort-kihagyjak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-23",
+      "source": "444",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_750974",
+          "name": "Kuna Tibort",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b26b4b58",
+      "title": "A Transparency perelt, az ÁSZ vizsgálódik, látszanak az összefonódások a közpénzes magántőkealapok mögött álló személyek között",
+      "description": "Még az előző kormány idején kialakított ütemterv szerint ellenőrzi az Állami Számvevőszék a közpénzes tőkeprogramokat. Vizsgálata nem terjed ki azokra az esetekre, amelyek miatt a Transparency International Magyarország most hűtlen kezelés gyanújával feljelentést tett, de – ígérte a HVG-nek – „hasznosítja” a korrupcióellenes szervezettől kapott adatokat.",
+      "link": "https://hvg.hu/360/20260723_transparency-feljelentes-asz-kozpenz-magantokealap-ner",
+      "date": "2026-07-23",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_e34d28",
+          "name": "Transparency International",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2a5c2cfe",
+      "title": "Százmilliós jutalék, privatizáció és 450 milliós NKA-támogatás is gazdagította a fideszes Kocsis Máté személyi titkárának cégeit",
+      "description": "Az Átlátszó szerint Párkai Dávid – akinél korrupcióval gyanúsított volt lengyel igazságügyminiszter-helyettes lakott – cége az Alapjogokért Központ ingatlanvásárlása nyomán gazdagodott mintegy százmilliós jutalékkal.",
+      "link": "https://hvg.hu/itthon/20260723_parkai-david-kocsis-mate-nka-tamogatas-rodosto-vendeghaz-szemelyi-titkar",
+      "date": "2026-07-23",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 450000000,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b1af4e",
+          "name": "Kocsis Máté",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_10f5b3",
+          "name": "Az Átlátszó",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0c7de8",
+          "name": "Párkai Dávid",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_6124d7",
+          "name": "Alapjogokért Központ",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_3241f35b",
+      "title": "Havasi Bertalan követeli vissza a szervereket – jogszerű volt-e a Fidesznél a lefoglalás és mi rá a magyarázat?",
+      "description": "Orbán Viktor diktatúrát kiált, de Magyar György ügyvéd szerint a papírformának megfelelően zajlott a Fidesznél a kutatás és a lefoglalás az NKA-s nyomozás részeként. Úgy vélte, az odaítélt pénzek és a döntéshozatal útját vizsgálhatják. A nyomozó főügyészség szerint „a közreműködés hiánya” miatt is volt szükség adatmásolás helyett a szerverek lefoglalására. Erről Havasi Bertalan nem tud semmit, de",
+      "link": "https://hvg.hu/360/20260723_fidesz-nka-nyomozas-magyar-gyorgy-orban-viktor-havasi-bertalan-ugyeszseg-lefoglalas-szerver",
+      "date": "2026-07-23",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_b26482",
+          "name": "Orbán Viktor",
+          "position": "miniszterelnök"
+        },
+        {
+          "id": "p_4f5029",
+          "name": "Havasi Bertalan",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_4c7c90",
+          "name": "Erről Havasi",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c1472c20",
+      "title": "„Ilyen az, amikor Budapesten tervezik a Balaton jövőjét” – Navracsics Tibor beszólt Vitézy Dávidnak",
+      "description": "Navracsics Tibor nem elégedett a 3550 milliárdos vasútfejlesztési terv Balatonra vonatkozó részleteivel, mivel abból kimaradt a balatoni körvasút. A felvetésre Vitézy Dávid is reagált.",
+      "link": "https://hvg.hu/gazdasag/20260723_navracsics-tibor-balatoni-korvasut-vitezy-david-baross-gabor-terv",
+      "date": "2026-07-23",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3550000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_06c992",
+          "name": "Navracsics Tibor",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_3be1c1",
+          "name": "Vitézy Dávidnak",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -8763,24 +8809,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_41a582",
-      "to": "p_551bc5",
-      "type": "business_connection",
-      "cases": [
-        "sc_7162cf47"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-31T15:50:45.222711+00:00",
+    "last_updated": "2026-08-30T13:33:03.884195+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23564902000000,
+    "total_involved_amount_huf": 17154152000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8788,8 +8824,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 14,
-      "pénzügyi": 173,
+      "korrupció": 16,
+      "pénzügyi": 171,
       "közbeszerzés": 13
     },
     "sources": [
@@ -8802,11 +8838,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Baranya",
+      "Budapest",
       "Zala",
-      "Somogy",
       "Fejér",
-      "Budapest"
+      "Baranya",
+      "Somogy"
     ]
   }
 }
