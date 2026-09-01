@@ -1,6 +1,76 @@
 {
   "cases": [
     {
+      "id": "sc_0a511bc9",
+      "title": "Hivatali visszaélés és hűtlen kezelés miatt nyomoz a rendőrség az Eximbank ellen",
+      "description": "A kormány négy ügyben tett feljelentést, köztük volt az egyik Tiborcz-érdekeltségnek villámgyorsan adott hitel is.",
+      "link": "https://444.hu/2026/09/01/hivatali-visszaeles-es-hutlen-kezeles-miatt-nyomoz-a-rendorseg-az-eximbank-ellen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-01",
+      "source": "444",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_59a58a92",
+      "title": "Engedély nélkül tartották a negyedik hatvanpusztai zebrát, majd az elhullását sem jelentették be időben",
+      "description": "A Mészáros Lőrinchez köthető vadásztársaság az állat tetemét pedig szabálytalanul ásta el.",
+      "link": "https://444.hu/2026/09/01/engedely-nelkul-tartottak-a-negyedik-hatvanpusztai-zebrat-majd-az-elhullasat-sem-jelentettek-be-idoben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-01",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_9f41f7",
+          "name": "Mészáros Lőrinchez",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_f93661f2",
+      "title": "Kisebb hűtő, kevesebb anyag – így trükköztek az 500 milliós uniós támogatásból épült bölcsődénél",
+      "description": "A Közbeszerzési Hatóság bírság kiszabását javasolta a kivitelezőre.",
+      "link": "https://telex.hu/gazdasag/2026/09/01/kazar-bolcsode-unios-tamogatas-jogsertes",
+      "date": "2026-09-01",
+      "source": "Telex",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 500000000,
+      "tags": [
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_de67abaf",
       "title": "Kétszer annyiba került a 2024-es influenszer trip, mint azt korábban bevallották",
       "description": "A pénzből Tiborcz István és Balásy Gyula érdekeltségeinek is jutott.",
@@ -5244,89 +5314,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_298ebdd4",
-      "title": "Németh Zsolt szerint nem igaz, hogy a Fidesz bárkit is kirekesztett volna a nemzetből",
-      "description": "Tusványoson szólította fel a fideszes képviselő a Tiszát, hogy fejezzék be a vádaskodást, de az sem tetszik neki, hogy Magyar Péterék Fidesz-maffiáról beszélnek.",
-      "link": "https://telex.hu/belfold/2026/07/24/tusvanyos-2026-semjen-zsolt-nemeth-zsolt-nemzetpolitika",
-      "date": "2026-07-24",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c62c02",
-          "name": "Németh Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_fd4da8ac",
-      "title": "Fidesz: Magyar Péter már nem is titkolja, hogy átvette a nyomozó hatóság és az ügyészség irányítását",
-      "description": "Miután Magyar Péter Hankó Balázs felelősségéről posztolt.",
-      "link": "https://telex.hu/belfold/2026/07/24/fidesz-reakcio-magyar-peter-nyomozo-hatosag-ugyeszseg",
-      "date": "2026-07-24",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_d724a4",
-          "name": "Miután Magyar",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_7d5e58",
-          "name": "Péter Hankó",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_397ec06d",
-      "title": "„Az az én biciklim is”",
-      "description": "\"Sajátos, független státuszom volt, Fidesz-tag sem voltam\" - mondja riportunkban a politikus, aki 1994-től egészen az idei választásig volt országgyűlési képviselő. Felkerestük az egykori rendszervátó lakiteleki Hungarikum Ligetét, ami kapott a leköszönő kormánytól 4,8 milliárd forint támogatást.",
-      "link": "https://magyarnarancs.hu/belpol/az-az-en-biciklim-is-279752",
-      "date": "2026-07-22",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 4800000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_4416c5",
-          "name": "Hungarikum Ligetét",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -8776,11 +8763,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-31T15:50:45.222711+00:00",
+    "last_updated": "2026-09-01T13:05:39.288151+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23564902000000,
+    "total_involved_amount_huf": 23560602000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8788,9 +8775,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 14,
-      "pénzügyi": 173,
-      "közbeszerzés": 13
+      "korrupció": 15,
+      "pénzügyi": 171,
+      "közbeszerzés": 14
     },
     "sources": [
       "444",
@@ -8802,9 +8789,9 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Somogy",
       "Baranya",
       "Zala",
-      "Somogy",
       "Fejér",
       "Budapest"
     ]

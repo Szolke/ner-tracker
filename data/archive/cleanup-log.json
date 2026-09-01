@@ -274,5 +274,16 @@
         "reason": "similar_to: Éhezés vezetett szexuális bántalmazáshoz egy gyerekotthonban – itt vannak az Orbán-kormány eltitkolt gyermekvédelmi jelentései"
       }
     ]
+  },
+  {
+    "run_at": "2026-09-01T13:05:39.283583+00:00",
+    "entries": [
+      {
+        "id": "sc_1073c131",
+        "title": "Éhezés vezetett szexuális bántalmazáshoz egy gyerekotthonban – itt vannak az Orbán-kormány eltitkolt gyermekvédelmi jelentései",
+        "action": "skipped_duplicate",
+        "reason": "similar_to: Éhezés vezetett szexuális bántalmazáshoz egy gyerekotthonban – itt vannak az Orbán-kormány eltitkolt gyermekvédelmi jelentései"
+      }
+    ]
   }
 ]
