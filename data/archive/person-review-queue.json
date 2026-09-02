@@ -1,26 +1,5 @@
 [
   {
-    "run_at": "2026-07-06T12:03:48.041921+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Magyar Péter",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Magyar Péter",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Nemzeti Galéria",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-07T10:54:10.979048+00:00",
     "skipped_candidates": [
       {
@@ -833,6 +812,15 @@
     "skipped_candidates": [
       {
         "candidate": "Közbeszerzési Hatóság",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-09-02T12:32:56.908761+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Mészáros Kft",
         "reason": "blacklisted_institution_pattern"
       }
     ]
