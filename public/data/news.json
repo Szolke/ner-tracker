@@ -1,6 +1,338 @@
 {
   "cases": [
     {
+      "id": "sc_ca11af5a",
+      "title": "A MOHU egyetért a kormánnyal a hulladékgazdálkodási rendszer felülvizsgálatában",
+      "description": "A társaság szerint is újra kell gondolni a koncessziót a vállalati célok teljesülése érdekében.",
+      "link": "https://hvg.hu/gazdasag/20260903_mohu-magyar-kormany-hulladekgazdalkodas-magyar-peter-vallalati-celok-kotelezettsegek",
+      "date": "2026-09-03",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_1fb08022",
+      "title": "Szijjártóék legalább 15,5 milliárd forintos túlárazással vettek lélegeztetőgépeket és védőeszközöket a külügyi államtitkár szerint",
+      "description": "Velkey György László szerint hat közvetítői cég is nagyot kaszált a Covid-beszerzéseken.",
+      "link": "https://hvg.hu/gazdasag/20260903_koronavirus-lelegeztetogep-biznisz-szijjarto-peter-kulugy-velkey-gyorgy-laszlo",
+      "date": "2026-09-03",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 15500000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7b2f43",
+          "name": "Velkey György",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_0f60c1ee",
+      "title": "Megszólalt az északmacedón kormányfő az Orbán-féle egymilliárd eurós hitelről",
+      "description": "Büntetőeljárás indult az eximbankos hitel miatt Magyarországon. Hrisztijan Mickoszki miniszterelnök szerint a pénz nagy segítség volt az északmacedón gazdaságnak.",
+      "link": "https://hvg.hu/gazdasag/20260903_eszakmacedon-kormanyfo-orban-eximbank-hitel",
+      "date": "2026-09-03",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_473b9d",
+          "name": "Hrisztijan Mickoszki",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_1000d9cd",
+      "title": "Vitézy Dávid a mohácsi Duna-hídról: Megépül, de nem egészen úgy, ahogy Lázárék akarták",
+      "description": "A hídépítést már nem lehet visszafordítani, de a balparti kapcsolódó utat szűkebbre veszik. 74-76 milliárd forintot spórolhatnak így.",
+      "link": "https://hvg.hu/gazdasag/20260904_vitezy-david-mohacsi-duna-hid-megepul-de-nem-teljesen-ugy-ahogy-lazarek-terveztek-ut-csatlakozas",
+      "date": "2026-09-04",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 76000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_0beb0575",
+      "title": "6 milliárd Jászai Gellértnek, több mint 2 milliárd egy Balásy-cégnek – dőlt a pénz a Varga Mihály vezette MNB-től a NER-es oligarchákhoz",
+      "description": "A nemzeti bank kiadta a 2025. január 1. óta kötött szerződései listáját. A Somlai Bálint-féle Raw, Paár Attila vendéglátós cége, a korábban Rogánékkal szerződő Mediaradar is a listán van. Matolcsy az egyik utolsó szerződését egy olyan céggel kötötte, melynek egy fejlesztése ügyében az Európai Csalás Elleni Hivatal indított vizsgálatot.",
+      "link": "https://444.hu/2026/09/03/6-milliard-jaszai-gellertnek-tobb-mint-2-milliard-egy-balasy-cegnek-dolt-a-penz-a-varga-mihaly-vezette-mnb-tol-a-ner-es-oligarchakhoz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 6000000000,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_915aa6",
+          "name": "Varga Mihály",
+          "position": "pénzügyminiszter"
+        },
+        {
+          "id": "p_001162",
+          "name": "Jászai Gellértnek",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_d5ceff",
+          "name": "Somlai Bálint",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_16c517",
+          "name": "Paár Attila",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2a567ba4",
+      "title": "Matolcsy György áll elébe minden vizsgálatnak, de hozzáteszi, hogy az MNB pénze nem adóforintokból származik",
+      "description": "A jegybank volt elnöke arról beszélt, hogy ő soha nem mondott olyat, hogy az MNB-alapítványokhoz került pénzek elvesztették volna a közpénz jellegüket.",
+      "link": "https://444.hu/2026/09/04/matolcsy-gyorgy-all-elebe-minden-vizsgalatnak-de-hozzateszi-hogy-az-mnb-penze-nem-adoforintokbol-szarmazik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-04",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_0a9ee4",
+          "name": "Matolcsy György",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_5deac5da",
+      "title": "Százmilliárdokat osztott szét a haveroknak, Orbán Ráhel szívügyeit intézte, most eltűnne a ködben",
+      "description": "Guller Zoltánnál hatékonyabban kevesen nyomták ki a közpénzt a NER-nek, a végén már két csövön tolta a milliárdokat. Már tíz évvel ezelőtt is összefonódott a pályája Orbán Ráhelével, most viszont azt akarja, hogy mindenki felejtse el őt, hiszen nem közszereplő.",
+      "link": "https://444.hu/2026/09/04/szazmilliardokat-osztott-szet-a-haveroknak-orban-rahel-szivugyeit-intezte-most-eltunne-a-kodben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-04",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_845761",
+          "name": "Orbán Ráhel",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fddc1a",
+          "name": "Guller Zoltánnál",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_0202be",
+          "name": "Orbán Ráhelével",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d8e4081d",
+      "title": "Fedőcégek titokban 125 milliárd forintot termeltek Tiborcz Istvánnak és körének",
+      "description": "A Tiborcz-körhöz vándorló osztalékelsőbbségi milliárdok egyik jelentős donora volt Balázs Attila térkő- és kavicskirály is, akin épp 300 milliárd forintot követel a Tisza-kabinet a zuglói irodanegyed-beruházásnál – írja a Válasz Online.",
+      "link": "https://hvg.hu/itthon/20260904_tiborcz-istvan-fedocegek-125-milliard-osztalekelsobbsegi-reszveny",
+      "date": "2026-09-04",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 125000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_05678a",
+          "name": "Tiborcz Istvánnak",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_41696a",
+          "name": "Balázs Attila",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_717850",
+          "name": "Válasz Online",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c7cc54b3",
+      "title": "Az Orbán-kormány volt miniszterének cége tart továbbképzést az ügyészségnek",
+      "description": "Fellegi Tamás cége is részt vesz az ügyészségi szóvivők képzésében, és élő szerződése szerint egyéb kommunikációs munkákat is végez a Legfőbb Ügyészségnek.",
+      "link": "https://telex.hu/belfold/2026/09/04/legfobb-ugyeszseg-kommunikacios-tovabbkepzes-euroatlantic-zrt-fellegi-tamas",
+      "date": "2026-09-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_a607f2",
+          "name": "Fellegi Tamás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_d3a385",
+          "name": "Legfőbb Ügyészségnek",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b6432988",
+      "title": "Lázár terveivel ellentétben csak 2x1 sávos lesz a mohácsi Duna-hídhoz vezető autóút az alföldi oldalon",
+      "description": "Vitézy Dávid szerint felesleges lett volna a 2x2 sáv, a módosítással több mint 70 milliárdot spórolnak.",
+      "link": "https://telex.hu/gazdasag/2026/09/04/mohacsi-duna-hid-vitezy-david-dontes",
+      "date": "2026-09-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 70000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_07e3b7e1",
+      "title": "125 milliárd forint áramolhatott Tiborczék irányába a NER egyik kedvenc trükkjével",
+      "description": "A Válasz Online cikke szerint Balázs Attila cégeitől és a Köztér nevű médiaprojektet pénzelő vállalattól is folyhatott pénz Tiborczék felé osztalékelsőbbségi részvényeken keresztül.",
+      "link": "https://telex.hu/gazdasag/2026/09/04/tiborcz-istvan-hornung-aron-osztalekelsobbsegi-reszveny-balazs-attila",
+      "date": "2026-09-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 125000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_717850",
+          "name": "Válasz Online",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_41696a",
+          "name": "Balázs Attila",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_6fb04f60",
       "title": "A választások előtt új magasságokba jutott a korrupciógyanús szerződések aránya",
       "description": "Még a szokásosnál is több olyan köszbeszerzés volt 2026 első feléban, ahol az Orbán-rendszer legnagyobb oligarchái verseny nélkül juthattak közpénzhez.",
@@ -5057,239 +5389,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_7e799857",
-      "title": "70 milliárd forint körül volt az Orbán család cégeinek saját vagyona előző év végén",
-      "description": "A 24.hu összeszedte, hogyan alakult az előző év az Orbán család tagjaihoz fűződő cégekben.",
-      "link": "https://telex.hu/gazdasag/2026/07/29/orban-csalad-cegek-bevetel",
-      "date": "2026-07-29",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 70000000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3fd24bb1",
-      "title": "Rápörögtek a Redditen az új kormányzati kék plakátokra, Magyar Péter éjjel egykor szállt be a vitába",
-      "description": "A miniszterelnök szerint az új kormányzati tájékoztatókat össze se lehet hasonlítani a közpénzmilliárdokból finanszírozott gyűlöletkampánnyal.",
-      "link": "https://telex.hu/belfold/2026/07/29/kormanyzati-tajekoztatas-kek-plakat-reddit-magyar-peter-komment",
-      "date": "2026-07-29",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_4f934b97",
-      "title": "18,2 milliárd forintnyi közpénzből hirdette a választás előtt az utolsó „nemzeti” „petíciót” a Fidesz-kormány",
-      "description": "Még utoljára rekordot döntöttek.",
-      "link": "https://444.hu/2026/07/28/182-milliard-forintnyi-kozpenzbol-hirdette-a-valasztas-elott-az-utolso-nemzeti-peticiot-a-fidesz-kormany?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-28",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 18200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_d81fa492",
-      "title": "Bús Balázst is meggyanúsította az ügyészség az óbudai korrupciós ügyben",
-      "description": "A volt fideszes polgármester az ügyészség szerint 150 millió forintot kapott a parkfenntartási biznisz vesztegetési pénzeiből.",
-      "link": "https://444.hu/2026/07/28/bus-balazst-is-meggyanusitotta-az-ugyeszseg-az-obudai-korrupcios-ugyben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-28",
-      "source": "444",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 150000000,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_bc61ba",
-          "name": "Bús Balázst",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_eea73676",
-      "title": "A Fidesz-kormány 22,2 milliárd forint közpénzt szórt ki a Nemzeti Petícióra",
-      "description": "Csak a reklámköltések 18,2 milliárd forintot tettek ki.",
-      "link": "https://hvg.hu/gazdasag/20260728_fidesz-kormany-nemzeti-peticio-reklamkoltseg-kozpenz-22-milliard-forint-kozerdeku-adatigenyles",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 22200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3db9125e",
-      "title": "Így költött el sikertelenül ezermilliárdokat az Orbán-kormány az ország újraiparosítására",
-      "description": "Tíz éve hirdette meg az Orbán-kormány az újraiparosítási programját, a helyzet azóta csak rosszabb lett – elemezte a GKI.",
-      "link": "https://hvg.hu/gazdasag/20260728_ujraiparositas-ipar-gki",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_a28fb077",
-      "title": "Nagy Ervin Hankó Balázsnak: Nincs értelme tagadni, hiszen az aláírása ott virít mindenhol",
-      "description": "A kultúráért felelős államtitkár tételesen felsorolta, hogy Hankó hogyan osztott szét milliárdokat olyan szervezeteknek vagy rendezvényekre, amelyek egyértelműen a Fidesz kampányát segítették.",
-      "link": "https://hvg.hu/kultura/20260728_nagy-ervin-hanko-balazsnak-udvozlom-az-europai-demokraciaban",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7f5e87",
-          "name": "Nagy Ervin",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_d49f0a",
-          "name": "Hankó Balázsnak",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a59d612e",
-      "title": "Súlyos munkahelyi balesete után meghalt a Bayer Construct dolgozója, a cég mégis indulhat közbeszerzéseken",
-      "description": "Két munkavédelmi ügy, csaknem százmilliós bírság és egy később elhunyt dolgozó sem jelent automatikus kizárást a közpénzből finanszírozott megrendelésekből. Van ugyanis egy második esély, az úgynevezett öntisztázás, ezzel élt a NER-közeli cég is – tudta meg a HVG.",
-      "link": "https://hvg.hu/360/20260728_munkahelyi-baleset-kozbeszerzes-bayer-construct-halal-ebx",
-      "date": "2026-07-28",
-      "source": "HVG",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_6e7afc",
-          "name": "Bayer Construct",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a4fcc299",
-      "title": "Orbán rendszerében volt 4,5 olyan év, amikor az igazságügyi minisztérium minden titkos megfigyelést engedélyezett",
-      "description": "Mindezt lényegében látatlanban, érdemi mérlegelés nélkül, írják a TASZ jogászai a HVG-ben megjelent írásukban, amiben javaslatot is tettek a rendszer átalakítására.",
-      "link": "https://telex.hu/belfold/2026/07/27/titkos-megfigyeles-garanciak-atlathatosag-jogallam",
-      "date": "2026-07-27",
-      "source": "Telex",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_bbf44db5",
-      "title": "22,2 milliárdos rekordáron futott a Fidesz-kormány utolsó kommunikációs offenzívája",
-      "description": "A 24.hu adatigényléséből kiderül, hogy ebből bruttó 18,2 milliárd forint reklámköltés volt.",
-      "link": "https://telex.hu/gazdasag/2026/07/28/nemzeti-peticio-rekordar-valasztasi-kampany-kommunikacios-kampany-koltsegek",
-      "date": "2026-07-28",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 22200000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3877c4cb",
-      "title": "Több mint 4,3 milliárd forint közpénzt kapott nyolc év alatt a Fidesz üzeneteit közvetítő felvidéki Ma7",
-      "description": "A Ma7 szerint minden támogatással el tudnak számolni, és akkor is működni fognak, ha megszűnnek a magyarországi támogatások.",
-      "link": "https://444.hu/2026/07/26/tobb-mint-43-milliard-forint-kozpenzt-kapott-nyolc-ev-alatt-a-fidesz-uzeneteit-kozvetito-felvideki-ma7?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-26",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 4300000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -8836,14 +8935,195 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_915aa6",
+      "to": "p_001162",
+      "type": "political_ally",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_915aa6",
+      "to": "p_d5ceff",
+      "type": "political_ally",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_915aa6",
+      "to": "p_16c517",
+      "type": "political_ally",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_001162",
+      "to": "p_d5ceff",
+      "type": "business_connection",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_001162",
+      "to": "p_16c517",
+      "type": "business_connection",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_d5ceff",
+      "to": "p_16c517",
+      "type": "business_connection",
+      "cases": [
+        "sc_0beb0575"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_845761",
+      "to": "p_fddc1a",
+      "type": "business_connection",
+      "cases": [
+        "sc_5deac5da"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_845761",
+      "to": "p_0202be",
+      "type": "business_connection",
+      "cases": [
+        "sc_5deac5da"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_fddc1a",
+      "to": "p_0202be",
+      "type": "business_connection",
+      "cases": [
+        "sc_5deac5da"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_05678a",
+      "type": "business_connection",
+      "cases": [
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_41696a",
+      "type": "business_connection",
+      "cases": [
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_717850",
+      "type": "business_connection",
+      "cases": [
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_05678a",
+      "to": "p_41696a",
+      "type": "business_connection",
+      "cases": [
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_05678a",
+      "to": "p_717850",
+      "type": "business_connection",
+      "cases": [
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_41696a",
+      "to": "p_717850",
+      "type": "business_connection",
+      "cases": [
+        "sc_07e3b7e1",
+        "sc_d8e4081d"
+      ],
+      "description": "Automatikusan felismert – 2 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_531e11",
+      "to": "p_a607f2",
+      "type": "business_connection",
+      "cases": [
+        "sc_c7cc54b3"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_531e11",
+      "to": "p_d3a385",
+      "type": "business_connection",
+      "cases": [
+        "sc_c7cc54b3"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_a607f2",
+      "to": "p_d3a385",
+      "type": "business_connection",
+      "cases": [
+        "sc_c7cc54b3"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-03T12:36:30.626851+00:00",
+    "last_updated": "2026-09-04T12:30:33.072737+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21801002000000,
+    "total_involved_amount_huf": 22081452000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -8851,9 +9131,9 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 16,
-      "pénzügyi": 168,
-      "közbeszerzés": 16
+      "korrupció": 14,
+      "pénzügyi": 171,
+      "közbeszerzés": 15
     },
     "sources": [
       "444",
@@ -8865,12 +9145,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
       "Baranya",
+      "Somogy",
+      "Fejér",
       "Zala",
-      "Hajdú-Bihar",
       "Budapest",
-      "Somogy"
+      "Hajdú-Bihar"
     ]
   }
 }
