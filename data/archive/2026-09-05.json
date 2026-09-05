@@ -1,132 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_9c9ad76f",
-      "title": "Magyar Péter bejelentette, hogy nekimennek a 35 éves autópálya-koncessziónak",
-      "description": "Vitézy Dávid közlekedési miniszter korábban már beszélt arról, hogy rendkívül károsnak tartja a 35 évre szóló autópálya-koncessziót, amit a Mészáros Lőrinc és Szíjj László érdekeltségébe tartozó konzorcium kapott, ezért megvizsgálják, milyen jogi lehetőségeik vannak a beavatkozásra.",
-      "link": "https://444.hu/2026/09/05/magyar-peter-bejelentette-hogy-nekimennek-a-35-eves-autopalya-koncesszionak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-09-05",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5cfa7c81",
-      "title": "Orbán zsarolása után Magyar jogászkodna, ám egyelőre hiába – már egymilliárd eurót bukott emiatt Magyarország",
-      "description": "Az EUrologus számításai szerint augusztus 22-én érte el az egymilliárd eurót az úgynevezett migrációs büntetés. Az Európai Bizottság már 910 millió eurót le is vont az esedékes magyar kifizetésekből. Az ügy tulajdonképpen egyszerűen megoldható lett volna, az Orbán- és a Magyar-kormány azonban azzal, hogy nem csinált semmit, összekuszálta a szálakat.",
-      "link": "https://hvg.hu/eurologus/20260905_migracio-europai-bizottsag-magyar-peter",
-      "date": "2026-09-05",
-      "source": "HVG",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 910000000,
-      "tags": [
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_84c343",
-          "name": "Magyarország Az",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_e38dc3",
-          "name": "Az Európai",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_69d6051d",
-      "title": "Felmentették a munkavégzés alól Gulyás Istvánt, az M5 csatornaigazgatóját, többszöri szabályszegés után",
-      "description": "Vizsgálatot indítottak ellene, és a Duna Médiaszolgáltató Zrt. érvényes protokolljának megfelelően hagyta el a vállalat Kunigunda utcai épületét.",
-      "link": "https://telex.hu/after/2026/09/04/gulyas-istvan-m5-csatornaigazgato-munkavegzes-aloli-felmentes",
-      "date": "2026-09-04",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_dfd9cc",
-          "name": "Gulyás Istvánt",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_7153d3",
-          "name": "Duna Médiaszolgáltató",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_c34ac982",
-      "title": "Magyar Péter belengette Mészáros Lőrinc és Szíjj László autópálya-koncessziójának felülvizsgálatát",
-      "description": "Az előző kormány 2022-ben 35 évre koncesszióba adta a hazai autópálya- és gyorsforgalmi úthálózat nagy részét.",
-      "link": "https://telex.hu/gazdasag/2026/09/05/magyar-peter-autopalya-koncesszio-felulvizsgalat",
-      "date": "2026-09-05",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_ca11af5a",
       "title": "A MOHU egyetért a kormánnyal a hulladékgazdálkodási rendszer felülvizsgálatában",
       "description": "A társaság szerint is újra kell gondolni a koncessziót a vállalati célok teljesülése érdekében.",
@@ -5407,6 +5281,114 @@
         "IT"
       ],
       "involved_persons": []
+    },
+    {
+      "id": "sc_2eab3eca",
+      "title": "Azonosítót cseréltek Mészáros Lőrinc luxusrepülőjén, de így is megtaláltuk",
+      "description": "A Mészáros Lőrinc érdekeltségébe tartozó, korábban OE-LOT lajstromjelű Bombardier Global 6500-as magángép lajstromjele nemrégiben OE-LAD lett.",
+      "link": "https://atlatszo.hu/kozpenz/2026/07/29/azonositot-csereltek-meszaros-lorinc-luxusrepulojen-de-igy-is-megtalaltuk/",
+      "date": "2026-07-29",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_a02b75",
+          "name": "Bombardier Global",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_d30b9832",
+      "title": "Több mint 70 milliárd forint volt az Orbán család cégeinek saját vagyona tavaly",
+      "description": "Ebből 3 milliárd forint volt a nyereség.",
+      "link": "https://444.hu/2026/07/29/tobb-mint-70-milliard-forint-volt-az-orban-csalad-cegeinek-sajat-vagyona?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-07-29",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 70000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_f588729d",
+      "title": "Megnézték, mekkora vagyont lapátolt össze cégeivel az Orbán család",
+      "description": "Csak a szűkebb család több milliárdos profitot vett ki osztalékként tavaly.",
+      "link": "https://hvg.hu/kkv/20260729_megneztek-mekkora-az-orban-csalad-cegeinek-vagyona-orban-gyozo-viktor-aron-david-kkv-vallalkozas",
+      "date": "2026-07-29",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_0f22e4c3",
+      "title": "Mészáros Lőrinc nem közösködik az állammal, inkább megúszná a nyomozást",
+      "description": "Mészáros Lőrinc azt remélheti egy tulajdonosi átrendeződéstől, hogy a saját magáról elnevezett ásványvíz-palackozóját így nem érinti egy nyomozás. Az eljárást a Készenléti Rendőrség Nemzeti Nyomozó Iroda Korrupciós Bűnözés Elleni Osztálya indította el a Transparency International feljelentése alapján.",
+      "link": "https://hvg.hu/360/20260729_meszaros-lorinc-onallosagra-tor-aqua-lorenzo-asvanyviz-gyarto-allami-tokebefektetes-hvg",
+      "date": "2026-07-29",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_6b567c",
+          "name": "Készenléti Rendőrség",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9fab27",
+          "name": "Iroda Korrupciós",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_25b7e0",
+          "name": "Bűnözés Elleni",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -9134,34 +9116,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_84c343",
-      "to": "p_e38dc3",
-      "type": "business_connection",
-      "cases": [
-        "sc_5cfa7c81"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_dfd9cc",
-      "to": "p_7153d3",
-      "type": "business_connection",
-      "cases": [
-        "sc_69d6051d"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T11:38:50.428057+00:00",
+    "last_updated": "2026-09-04T12:30:33.072737+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 22012362000000,
+    "total_involved_amount_huf": 22081452000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9183,12 +9145,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Hajdú-Bihar",
-      "Zala",
       "Baranya",
       "Somogy",
+      "Fejér",
+      "Zala",
       "Budapest",
-      "Fejér"
+      "Hajdú-Bihar"
     ]
   }
 }
