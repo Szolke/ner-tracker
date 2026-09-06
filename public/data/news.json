@@ -9157,7 +9157,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T11:38:50.428057+00:00",
+    "last_updated": "2026-09-06T11:57:49.062374+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -9183,12 +9183,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Hajdú-Bihar",
-      "Zala",
       "Baranya",
-      "Somogy",
       "Budapest",
-      "Fejér"
+      "Zala",
+      "Fejér",
+      "Hajdú-Bihar",
+      "Somogy"
     ]
   }
 }
