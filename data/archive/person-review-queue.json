@@ -1,18 +1,5 @@
 [
   {
-    "run_at": "2026-07-10T07:30:37.760800+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Nemzeti Kommunikációs",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-10T08:18:30.102806+00:00",
     "skipped_candidates": [
       {
@@ -833,6 +820,19 @@
       },
       {
         "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-09-07T13:58:56.185190+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Energetikai Minisztérium",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Fejlesztési",
         "reason": "blacklisted_institution_pattern"
       }
     ]
