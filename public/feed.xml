@@ -5,8 +5,32 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Mon, 07 Sep 2026 13:58:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 12:37:24 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Holoda Attila: A rezsicsökkentés káros, át kell alakítani]]></title>
+    <link>https://hvg.hu/gazdasag/20260907_holoda-attila-rezsicsokkentes-energia-paks-kozos-koltseg-podcast</link>
+    <guid>sc_db8b9b8c</guid>
+    <pubDate>2026-09-07</pubDate>
+    <description><![CDATA[A paksi atomerőmű augusztusi, kormányzati kríziskezelése, a napokban kiírt szélerőmű építési tender, a Brüsszelből hazahozható, fejlesztési százmilliárdok drasztikus irányváltást jeleznek az energiapo | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
+  <item>
+    <title><![CDATA[Az Integritás Hatóságnak adott válaszai alapján a TISZA-kormány sem sieti el a közbeszerzési rendszer átfogó reformját]]></title>
+    <link>https://atlatszo.hu/kozpenz/2026/09/08/az-integritas-hatosagnak-adott-valaszai-alapjan-a-tisza-kormany-sem-sieti-el-a-kozbeszerzesi-rendszer-atfogo-reformjat/</link>
+    <guid>sc_6c63268a</guid>
+    <pubDate>2026-09-08</pubDate>
+    <description><![CDATA[Ugyan a kormány a javaslatok többségével egyetért, olyan területeken nem látják indokoltak a közbeavatkozást, ahol köztudottan magas a korrupció kockázata. | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
+    <category>közbeszerzés</category>
+  </item>
+  <item>
+    <title><![CDATA[„Önkényuralmi rendszert” épít a Magyar-kormány – Deutsch Tamásék levélben riadóztatták Brüsszelt]]></title>
+    <link>https://hvg.hu/vilag/20260908_fidesz-europai-parlament-jogallamisag-deutsch-tamas-gal-kinga-ebx</link>
+    <guid>sc_96318ff7</guid>
+    <pubDate>2026-09-08</pubDate>
+    <description><![CDATA[A legsúlyosabb vádakat a vagyonvisszaszerzési hivatallal kapcsolatban fogalmazza meg Deutsch Tamás és Gál Kinga az EP-képviselőknek küldött levelükben, amelyben a magyar demokrácia felszámolására figy | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Feljelentést tesz a Gazdasági és Energetikai Minisztérium a Tiborczéknak adott állami kölcsön miatt]]></title>
     <link>https://444.hu/2026/09/07/feljelentest-tesz-a-gazdasagi-es-energetikai-miniszterium-a-tiborczeknak-adott-allami-kolcson-miatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -142,30 +166,6 @@
     <pubDate>2026-09-04</pubDate>
     <description><![CDATA[Fellegi Tamás cége is részt vesz az ügyészségi szóvivők képzésében, és élő szerződése szerint egyéb kommunikációs munkákat is végez a Legfőbb Ügyészségnek. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Lázár terveivel ellentétben csak 2x1 sávos lesz a mohácsi Duna-hídhoz vezető autóút az alföldi oldalon]]></title>
-    <link>https://telex.hu/gazdasag/2026/09/04/mohacsi-duna-hid-vitezy-david-dontes</link>
-    <guid>sc_b6432988</guid>
-    <pubDate>2026-09-04</pubDate>
-    <description><![CDATA[Vitézy Dávid szerint felesleges lett volna a 2x2 sáv, a módosítással több mint 70 milliárdot spórolnak. | Budapest | 70000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[125 milliárd forint áramolhatott Tiborczék irányába a NER egyik kedvenc trükkjével]]></title>
-    <link>https://telex.hu/gazdasag/2026/09/04/tiborcz-istvan-hornung-aron-osztalekelsobbsegi-reszveny-balazs-attila</link>
-    <guid>sc_07e3b7e1</guid>
-    <pubDate>2026-09-04</pubDate>
-    <description><![CDATA[A Válasz Online cikke szerint Balázs Attila cégeitől és a Köztér nevű médiaprojektet pénzelő vállalattól is folyhatott pénz Tiborczék felé osztalékelsőbbségi részvényeken keresztül. | Budapest | 125000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[A választások előtt új magasságokba jutott a korrupciógyanús szerződések aránya]]></title>
-    <link>https://hvg.hu/gazdasag/20260902_korrupcio-valasztasok-crbc-gyorsjelentes-meszaros-lorinc-szijj-laszlo-szerzodes-verseny-kozbeszerzes</link>
-    <guid>sc_6fb04f60</guid>
-    <pubDate>2026-09-02</pubDate>
-    <description><![CDATA[Még a szokásosnál is több olyan köszbeszerzés volt 2026 első feléban, ahol az Orbán-rendszer legnagyobb oligarchái verseny nélkül juthattak közpénzhez. | Budapest | Összeg ismeretlen | korrupció]]></description>
-    <category>korrupció</category>
   </item>
   </channel>
 </rss>

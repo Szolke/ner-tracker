@@ -1,97 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_db8b9b8c",
-      "title": "Holoda Attila: A rezsicsökkentés káros, át kell alakítani",
-      "description": "A paksi atomerőmű augusztusi, kormányzati kríziskezelése, a napokban kiírt szélerőmű építési tender, a Brüsszelből hazahozható, fejlesztési százmilliárdok drasztikus irányváltást jeleznek az energiapolitikában. Tud-e ez a változtatás jó is lenni a lakossági fogyasztónak, és miben kell az eredményes átalakuláshoz a háztartásoknak és a vállalkozásoknak változniuk? - erről szól a friss Közös költség.",
-      "link": "https://hvg.hu/gazdasag/20260907_holoda-attila-rezsicsokkentes-energia-paks-kozos-koltseg-podcast",
-      "date": "2026-09-07",
-      "source": "HVG Gazdaság",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT",
-        "tender"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_fbe9a1",
-          "name": "Holoda Attila",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_6c63268a",
-      "title": "Az Integritás Hatóságnak adott válaszai alapján a TISZA-kormány sem sieti el a közbeszerzési rendszer átfogó reformját",
-      "description": "Ugyan a kormány a javaslatok többségével egyetért, olyan területeken nem látják indokoltak a közbeavatkozást, ahol köztudottan magas a korrupció kockázata.",
-      "link": "https://atlatszo.hu/kozpenz/2026/09/08/az-integritas-hatosagnak-adott-valaszai-alapjan-a-tisza-kormany-sem-sieti-el-a-kozbeszerzesi-rendszer-atfogo-reformjat/",
-      "date": "2026-09-08",
-      "source": "Átlátszó",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció",
-        "közbeszerzés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_dbdf31",
-          "name": "Az Integritás",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_96318ff7",
-      "title": "„Önkényuralmi rendszert” épít a Magyar-kormány – Deutsch Tamásék levélben riadóztatták Brüsszelt",
-      "description": "A legsúlyosabb vádakat a vagyonvisszaszerzési hivatallal kapcsolatban fogalmazza meg Deutsch Tamás és Gál Kinga az EP-képviselőknek küldött levelükben, amelyben a magyar demokrácia felszámolására figyelmeztetnek.",
-      "link": "https://hvg.hu/vilag/20260908_fidesz-europai-parlament-jogallamisag-deutsch-tamas-gal-kinga-ebx",
-      "date": "2026-09-08",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_5fd5c3",
-          "name": "Deutsch Tamás",
-          "position": "EP-képviselő, Fidesz"
-        },
-        {
-          "id": "p_3cbdb2",
-          "name": "Deutsch Tamásék",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_f19fdf",
-          "name": "Gál Kinga",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_b50dca67",
       "title": "Feljelentést tesz a Gazdasági és Energetikai Minisztérium a Tiborczéknak adott állami kölcsön miatt",
       "description": "A Magyar Fejlesztési Bank 77 milliárd forint értékben vett kötvényeket a Waberer’s-től, ami Kapitáyn István szerint felveti a hűtlen kezelés és hivatali visszaélés gyanúját.",
@@ -5439,6 +5348,84 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_bf6b03f9",
+      "title": "Szinte mindent rosszul csinált, feljelentették az élelmiszer-pazarlás ellen létrehozott állami céget",
+      "description": "Milliárdokért fejlesztett informatikai rendszert, amelyhez nem is kapott hozzáférést, nem világos, ki mit csinált a dolgozók közül, igazolás nélkül fizettek nem indokolt feladatokért, mellőzték a közbeszerzési eljárást – állapította meg az ÁSZ az állami Élelmiszermentő Központról. A társaság, amelyet az élelmiszer-pazarlás csökkentésére hoztak létre, maga is csak pazarolta az adófizetői milliárdok",
+      "link": "https://hvg.hu/gazdasag/20260729_feljelentes-lett-a-vege-az-eredmenytelen-allami-elelmiszermentesnek",
+      "date": "2026-07-29",
+      "source": "HVG Gazdaság",
+      "category": "közbeszerzés",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "közbeszerzés",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_5921ba",
+          "name": "Élelmiszermentő Központról",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_55723cb6",
+      "title": "Közpénzmilliárdokat tapsolt el Balásy Gyula cégeinél a Szuverenitásvédelmi Hivatal",
+      "description": "Lánczi Tamás nemrég megszűnt hivatala még idén is közel másfélmilliárd forintot költött kommunikációra.",
+      "link": "https://hvg.hu/gazdasag/20260730_szuverenitasvedelmi-hivatal-kommunikacio-szerzodes-balasy-gyula-ceg",
+      "date": "2026-07-30",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7a517f",
+          "name": "Balásy Gyula",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9621cb",
+          "name": "Lánczi Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_25962c9e",
+      "title": "Cikkünk után leváltották Orbánék milliárdos jeruzsálemi projektjének vezetőjét",
+      "description": "Fél évvel a megnyitása után már le is fejezték azt a jeruzsálemi akadémiát, aminek létrehozására Orbánék több mint egymilliárd forint közpénzt szántak a választások előtt.",
+      "link": "https://atlatszo.hu/impakt/2026/07/30/cikkunk-utan-levaltottak-orbanek-milliardos-jeruzsalemi-projektjenek-vezetojet/",
+      "date": "2026-07-30",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
     }
   ],
   "investigations": [
@@ -9246,40 +9233,10 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_5fd5c3",
-      "to": "p_3cbdb2",
-      "type": "political_ally",
-      "cases": [
-        "sc_96318ff7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_5fd5c3",
-      "to": "p_f19fdf",
-      "type": "political_ally",
-      "cases": [
-        "sc_96318ff7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_3cbdb2",
-      "to": "p_f19fdf",
-      "type": "business_connection",
-      "cases": [
-        "sc_96318ff7"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-08T12:37:24.908391+00:00",
+    "last_updated": "2026-09-07T13:58:56.177827+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
@@ -9292,8 +9249,8 @@
     },
     "category_breakdown": {
       "korrupció": 14,
-      "pénzügyi": 170,
-      "közbeszerzés": 16
+      "pénzügyi": 171,
+      "közbeszerzés": 15
     },
     "sources": [
       "444",
@@ -9305,12 +9262,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Hajdú-Bihar",
-      "Baranya",
       "Zala",
-      "Budapest",
       "Somogy",
-      "Fejér"
+      "Fejér",
+      "Baranya",
+      "Budapest",
+      "Hajdú-Bihar"
     ]
   }
 }
