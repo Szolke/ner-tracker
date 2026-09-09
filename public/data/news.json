@@ -1,6 +1,194 @@
 {
   "cases": [
     {
+      "id": "sc_ee39bc9e",
+      "title": "Hatósági ellenőrzés indul a Gondosóra program miatt",
+      "description": "Adatvédelmi vizsgálat indul arról, hogy felhasználhatta-e a Fidesz a Gondosórát hordó idősek adatait.",
+      "link": "https://hvg.hu/gazdasag/20260908_hatosagi-ellenorzes-naih-gondosora-program-adatvedelem",
+      "date": "2026-09-08",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_f2c5fba3",
+      "title": "Benyújtották a törvényjavaslatot a fideszes szuperhatóság megszüntetéséről",
+      "description": "Újabb lépés a dohány- és autópályakoncessziós szerződések felülvizsgálatának folyamatában.",
+      "link": "https://hvg.hu/gazdasag/20260908_szabalyozott-tevekenysegek-felugyeleti-hatosaga-sztfh-torvenyjavaslat-megszuntetes-vitezy-david",
+      "date": "2026-09-08",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_7b45d8cc",
+      "title": "Szabálytalanul adott ki termeket, nyugdíjba küldte a tankerület a tatabányai Bárdos gimnázium igazgatóját",
+      "description": "Konkrét hiányosságokat tárt fel a tatabányai Bárdos László Gimnáziumban a Tatabányai Tankerületi Központ vizsgálata, amely egy júliusi panaszbejelentés nyomán indult. „A fenntartói vizsgálat eredményeképpen a Tatabányai Tankerület megteszi az ingatlanhasznosítási gyakorlat miatt szükséges munkáltatói intézkedéseket” –  közölték. A fideszes kapcsolatokkal rendelkező Pleier Tamás igazgató az idei ta",
+      "link": "https://magyarnarancs.hu/kismagyarorszag/szabalytalanul-adott-ki-termeket-nyugdijba-kuldte-a-tankerulet-a-tatabanyai-bardos-gimnazium-igazgatojat-280105",
+      "date": "2026-09-09",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_11bfed",
+          "name": "Bárdos László",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_e8aeb9",
+          "name": "Tatabányai Tankerületi",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_bb7860",
+          "name": "Tatabányai Tankerület",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_10d132",
+          "name": "Pleier Tamás",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b8c69a17",
+      "title": "Nyilvánosságra hozzák az elmúlt 16 év titkosított kormányhatározatait",
+      "description": "Első körben a Századvéget érintő 13 dokumentumot mutattak meg. Elég sok milliárdnyi közpénzről esik bennük szó. Összesen mintegy 100 határozat lesz nyilvános.",
+      "link": "https://444.hu/2026/09/09/nyilvanossagra-hoztak-az-elmult-16-ev-titkositott-kormanyhatarozatait?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-09",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_70356ebe",
+      "title": "Kiadták az Orbán-kormányok századvéges megrendeléseiről szóló titkolt határozatokat",
+      "description": "Az eddig titkosított határozatok összesen mintegy 65 milliárd forint értékű megrendelésről szólnak.",
+      "link": "https://hvg.hu/itthon/20260909_orban-kormany-kormanyhatarozat-nyilvanossagra-hozas-szazadveg-megrendelesek",
+      "date": "2026-09-09",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 65000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_462bc8cd",
+      "title": "Újabb pert vesztett Magyarország az EU-val szemben",
+      "description": "Elutasította az Európai Unió Törvényszéke Magyarország keresetét, amelyben még az Orbán-kormány az Európai Békekeret (EPF) bizottságának az ukrán fegyveres erők támogatásáról szóló határozatát támadta meg. A bíróság nem azért utasította el a keresetet, mert megalapozatlannak találta a magyar jogi érveket, hanem azért, mert álláspontja szerint nincs hatásköre az ilyen, a közös kül- és biztonságpoli",
+      "link": "https://hvg.hu/eurologus/20260909_europai-torvenyszek-itelet-jog",
+      "date": "2026-09-09",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_42e63e",
+          "name": "Törvényszéke Magyarország",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_5aa983c7",
+      "title": "Mészáros Lőrinc érdekeltségén át vezet az út az optimális hazai energiaellátás megteremtéséhez",
+      "description": "A magyar erőművi mixből fájón hiányzik néhány modern gázerőmű. Az új egységek, megkésve bár, de épülnek, az egyiken a Tisza-kormány célkeresztjében álló Mészáros Lőrinc dolgozik.",
+      "link": "https://hvg.hu/360/20260909_hvg-energiaellatas-aramtermeles-gazeromu-tisza-kormany-meszaros-lorinc-paks-mvm-orosz-import",
+      "date": "2026-09-09",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ]
+    },
+    {
+      "id": "sc_66a83f34",
+      "title": "Nyilvánosak az Orbán-kormányok századvéges tanulmányokról szóló titkosított kormányhatározatai",
+      "description": "Első körben 14, összesen mintegy 65 milliárd forintról szóló határozatot tettek közzé.",
+      "link": "https://telex.hu/belfold/2026/09/09/szazadveg-alapitvany-titkos-kormanyhatarozatok-nyilvanossagra-hozta",
+      "date": "2026-09-09",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 65000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_db8b9b8c",
       "title": "Holoda Attila: A rezsicsökkentés káros, át kell alakítani",
       "description": "A paksi atomerőmű augusztusi, kormányzati kríziskezelése, a napokban kiírt szélerőmű építési tender, a Brüsszelből hazahozható, fejlesztési százmilliárdok drasztikus irányváltást jeleznek az energiapolitikában. Tud-e ez a változtatás jó is lenni a lakossági fogyasztónak, és miben kell az eredményes átalakuláshoz a háztartásoknak és a vállalkozásoknak változniuk? - erről szól a friss Közös költség.",
@@ -5222,223 +5410,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_79b8fa08",
-      "title": "Magyar Péter: 50 milliárddal terhelheti a költségvetést Paks kiesése",
-      "description": "Péntek délutánra sajtótájékoztatót hívott össze Paksra Magyar Péter és Kapitány István. Az atomerőművet le kell majd kapcsolni a Duna alacsony vízállása miatt. A hazai energiaszektor állapotát Brückner Gergellyel, a Telex gazdasági újságírójával elemezzük.",
-      "link": "https://telex.hu/video/2026/07/31/paks-energia-aramellatas-magyar-peter-kapitany-istvan-sajtotajekoztato",
-      "date": "2026-07-31",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 50000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_d1ecae",
-          "name": "Paksra Magyar",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_9ec10c",
-          "name": "Kapitány István",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_7bd9b1",
-          "name": "Brückner Gergellyel",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5ab52eb9",
-      "title": "Forsthoffer Ágnes hivatala júniusban 20 millióval növelte a parkfenntartási maffiában érintett cég megbízását",
-      "description": "A Parlament környékén az ügyészségi nyomozás alatt álló parkfenntartó maffia egyik cége gondozza a zöldfelületet tavaly november óta. A céget Kövér László házelnöksége idején bízták meg egy évre, Forsthoffer Ágnes hivatalba lépése után pedig 20 millióval megnövelték a nyertes cég megbízásának keretösszegét.",
-      "link": "https://magyarnarancs.hu/belpol/forsthoffer-agnes-hivatala-juniusban-200-millioval-novelte-a-parkfenntartasi-maffiaban-erintett-ceg-megbizasat-279839",
-      "date": "2026-07-30",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 20000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_5ec4f1",
-          "name": "Forsthoffer Ágnes",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_fae9ee",
-          "name": "Kövér László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_0eb4a612",
-      "title": "Arzenálhoz morál: a magyar hadiipar az Orbán-rendszer után",
-      "description": "Egy évtizede hirdette meg a haderő modernizációját az Orbán-kormány, így ismét gyártanak harcjárművet, lőszert és kézifegyvert, de még helikopter-alkatrészt is Magyarországon. Azonban a fegyverkezési erőfeszítést a korrupció árnyéka lengi be, Magyar Péter kormányának pedig még fontosabb dolga lesz visszanyerni a NATO és a közeli szövetségesek bizalmát.",
-      "link": "https://magyarnarancs.hu/av4esazeu/arzenalhoz-moral-a-magyar-hadiipar-az-orban-rendszer-utan-279797",
-      "date": "2026-07-30",
-      "source": "Magyar Narancs",
-      "category": "korrupció",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "korrupció"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_2eb6a530",
-      "title": "Tarr Zoltán: már 3,3 milliárd forintnál is több közpénzt fizettek vissza az NKA ideiglenes kollégiumának támogatásaiból",
-      "description": "Tarrék azt kérték az érintettektől, ha úgy érzik, nem állt biztos lábakon a támogatásuk, inkább utalják vissza a pénzt. Úgy tűnik, a kérés többeknél értő fülekre talált.",
-      "link": "https://444.hu/2026/07/31/tarr-zoltan-mar-33-milliard-forintnal-is-tobb-kozpenzt-fizettek-vissza-az-nka-ideiglenes-kollegiumanak-tamogatasaibol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-07-31",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3300000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_84462b",
-          "name": "Tarr Zoltán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a387e23e",
-      "title": "Budapest Airport: Nem kell 1100 métert gyalogolniuk az utasoknak",
-      "description": "A Budapest Airport szerint a nemrég végrehajtott tarifaemelés kiegyensúlyozza a repülőtéri behajtási díjat, tehát a taxisofőröknek a repülőtéri fuvarokkal nem keletkezik plusz költsége, szóval ugyanúgy letehetnék az utasokat ott, ahol eddig.",
-      "link": "https://hvg.hu/gazdasag/20260731_repteri-ingyenes-parkolas-eltorlese-budapesti-taxisok-ferihegy-budapest-airport",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_9ef025",
-          "name": "Budapest Airport",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ff50002e",
-      "title": "A kormány hamarosan állami alapba gyűjtheti a visszaszerzett vagyont",
-      "description": "Pár héten belül 15 százalék Mol- és 10 százalék Richter-részvény tulajdonosa lesz az állam, és ez még csak a kezdet. Az Orbán-kormány tőkeprogramjain és hitelezésein keresztül már rövid távon olyan üzletrészekhez juthat az állam, amelyek a Fideszhez közel álló milliárdosoknál halmozódtak fel.",
-      "link": "https://hvg.hu/360/20260731_vagyonvisszaszerzes-kekvak-mol-richter-reszvenyek-allami-tokebefektetes-magyar-kormany",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5ca3fbe1",
-      "title": "Tarr Zoltán: 3,3 milliárd forintnál is több közpénzt fizettek vissza a Hankó-ügy kedvezményezettjei",
-      "description": "Hankó Balázs, az Orbán-kormány minisztere milliárdokat osztott szét olyan szervezeteknek, amelyek a Fidesz kampányát segítették.",
-      "link": "https://hvg.hu/kultura/20260731_tarr-zoltan-3-3-milliard-forint-kozpenzt-fizettek-hanko-nka",
-      "date": "2026-07-31",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 3300000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_84462b",
-          "name": "Tarr Zoltán",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_48dec4",
-          "name": "Hankó Balázs",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ef861937",
-      "title": "Rákosi és az SZDSZ szellemét is megidézték a parlamentben",
-      "description": "Magyar Péter szerint a Fidesz éppen azt teszi, amivel Kollár Kingát vádolták, de azt is nagyban, és Bóka János, a Fidesz új frakcióvezetője egy nagy Fidesz–KDNP-kivonulással debütált a parlamentben.",
-      "link": "https://telex.hu/video/2026/07/31/parlament-magyar-peter-osszefoglalo-kivonulas-hanko-balazs",
-      "date": "2026-07-31",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c12937",
-          "name": "Kollár Kingát",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_9048ce",
-          "name": "Bóka János",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9276,14 +9247,74 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_11bfed",
+      "to": "p_e8aeb9",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_11bfed",
+      "to": "p_bb7860",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_11bfed",
+      "to": "p_10d132",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_e8aeb9",
+      "to": "p_bb7860",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_e8aeb9",
+      "to": "p_10d132",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bb7860",
+      "to": "p_10d132",
+      "type": "business_connection",
+      "cases": [
+        "sc_7b45d8cc"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-08T12:37:24.908391+00:00",
+    "last_updated": "2026-09-09T12:44:24.871598+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 22085639000000,
+    "total_involved_amount_huf": 22159019000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9291,8 +9322,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 14,
-      "pénzügyi": 170,
+      "korrupció": 13,
+      "pénzügyi": 171,
       "közbeszerzés": 16
     },
     "sources": [
@@ -9305,12 +9336,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Hajdú-Bihar",
-      "Baranya",
-      "Zala",
+      "Fejér",
       "Budapest",
+      "Hajdú-Bihar",
       "Somogy",
-      "Fejér"
+      "Baranya",
+      "Zala"
     ]
   }
 }
