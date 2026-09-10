@@ -1,6 +1,68 @@
 {
   "cases": [
     {
+      "id": "sc_9dd8171d",
+      "title": "125 milliárd forint a tét évente – felszámolná a tao-rendszert a sportban az Állami Számvevőszék",
+      "description": "Pósfai Gábor belügyminiszter is beszélt arról csütörtökön, hogy felülvizsgálják a tao-támogatások rendszerét.",
+      "link": "https://444.hu/2026/09/10/125-milliard-forint-a-tet-evente-felszamolna-a-tao-rendszert-a-sportban-az-allami-szamvevoszek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-10",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 125000000000,
+      "tags": [
+        "sport"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_f01900",
+          "name": "Pósfai Gábor",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2c2c685a",
+      "title": "Összeszámoltuk, mennyi közpénzt szereznek vissza Magyarék – nem véletlenül menekülnek a NER császárai",
+      "description": "Kreatív módszerekkel és buldózerrel is nekiment már Magyar Péter a NER vagyonának. Legalább 1000 milliárd forint vagyon és több tízezermilliárd forintnyi pénzáramlás sorsáról van szó.",
+      "link": "https://hvg.hu/360/20260910_vagyonvisszaszerzes-bajban-a-holdudvar-kulfoldre-menekulok-hvg",
+      "date": "2026-09-10",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1000000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_a768724a",
+      "title": "Napi öt poszt, nulla üresjárat, 2,77 milliárd megjelenés – egy év Magyar Péter Facebook-oldalán",
+      "description": "A közvélekedés szerint Magyar Péter egy szál Facebook-oldallal döntötte meg a Fidesz 16 éven át tartó hatalmát. Megnéztük, mi történt ezen az oldalon az elmúlt egy évben.",
+      "link": "https://telex.hu/belfold/2026/09/10/napi-ot-poszt-2-77-milliard-megjelenes-egy-ev-magyar-peter-facebook-oldalan",
+      "date": "2026-09-10",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2770000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_ee39bc9e",
       "title": "Hatósági ellenőrzés indul a Gondosóra program miatt",
       "description": "Adatvédelmi vizsgálat indul arról, hogy felhasználhatta-e a Fidesz a Gondosórát hordó idősek adatait.",
@@ -116,33 +178,6 @@
         "IT"
       ],
       "involved_persons": []
-    },
-    {
-      "id": "sc_462bc8cd",
-      "title": "Újabb pert vesztett Magyarország az EU-val szemben",
-      "description": "Elutasította az Európai Unió Törvényszéke Magyarország keresetét, amelyben még az Orbán-kormány az Európai Békekeret (EPF) bizottságának az ukrán fegyveres erők támogatásáról szóló határozatát támadta meg. A bíróság nem azért utasította el a keresetet, mert megalapozatlannak találta a magyar jogi érveket, hanem azért, mert álláspontja szerint nincs hatásköre az ilyen, a közös kül- és biztonságpoli",
-      "link": "https://hvg.hu/eurologus/20260909_europai-torvenyszek-itelet-jog",
-      "date": "2026-09-09",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "EU",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_42e63e",
-          "name": "Törvényszéke Magyarország",
-          "position": "ismeretlen"
-        }
-      ]
     },
     {
       "id": "sc_5aa983c7",
@@ -5360,56 +5395,6 @@
       "amount_huf": null,
       "tags": [],
       "involved_persons": []
-    },
-    {
-      "id": "sc_ad183a09",
-      "title": "Vitézy bejelentette: 2028-tól nem kell megfordítani a vonatokat Szombathely és Zalaegerszeg között",
-      "description": "Egy 12 milliárd forintos beruházásban új deltavágányt építenek, hogy gyorsabb legyen Szombathelyről Zalaegerszegre jutni.",
-      "link": "https://hvg.hu/gazdasag/20260803_vitezy-epitkezes-vonat-szombathely-zalaegerszeg-zalaszentivan",
-      "date": "2026-08-03",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Zala",
-      "coordinates": [
-        46.6678,
-        16.9897
-      ],
-      "amount_huf": 12000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_31f3db",
-          "name": "Szombathelyről Zalaegerszegre",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_9e26efd7",
-      "title": "Magyar Péter: Remélhetőleg 50 milliárd forintnál kevesebbe fog kerülni Paks leállítása",
-      "description": "A miniszterelnök szerint az erőműveket felkészítették, „mindannyian vizsgázunk egy ilyen válsághelyzetben”. Forsthoffer Ágnes együttműködést és nyugalmat kért. Debrecenben vízkorlátozást vezettek be. Karácsony is takarékoskodásra kéri a fővárosiakat. A kánikula és az energiaválság hírei egy helyen, percről percre.",
-      "link": "https://telex.hu/belfold/2026/08/03/kanikula-hoseg-aszaly-energiavalsag-paks-aramszolgaltatas-vizellatas-magyar-peter-mvm",
-      "date": "2026-08-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 50000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_5ec4f1",
-          "name": "Forsthoffer Ágnes",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9310,11 +9295,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-09T12:44:24.871598+00:00",
+    "last_updated": "2026-09-10T12:42:24.364200+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 22159019000000,
+    "total_involved_amount_huf": 23224789000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9336,12 +9321,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
-      "Budapest",
-      "Hajdú-Bihar",
       "Somogy",
       "Baranya",
-      "Zala"
+      "Budapest",
+      "Hajdú-Bihar",
+      "Fejér"
     ]
   }
 }
