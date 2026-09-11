@@ -1,6 +1,54 @@
 {
   "cases": [
     {
+      "id": "sc_071fafe8",
+      "title": "Megnéztük a Kommentár Alapítvány közpénzből lett ingatlanbirodalmát",
+      "description": "Az Orbán-kormány egyik legnagyobb állami forrásokkal feltőkésített elitképzőjének háttérintézménye, a Kommentár Alapítvány hat év alatt 28 milliárd forintnyi közpénzt költött ingatlanfejlesztésekre. Videóriport.",
+      "link": "https://atlatszo.hu/kozpenz/2026/09/11/megneztuk-a-kommentar-alapitvany-kozpenzbol-lett-ingatlanbirodalmat/",
+      "date": "2026-09-11",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 28000000000,
+      "tags": [
+        "alapítvány",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b182c6f5",
+      "title": "14 újabb gyanúsítottja van a második leggazdagabb magyart is utolérő óbudai korrupciós ügynek",
+      "description": "Az ügyészség már 47 gyanúsítottat hallgatott ki abban az ügyben, amelyben a hatóság szerint főként fideszes és MSZP-s politikusok egymás közt megosztoztak a vesztegetési pénzeken.",
+      "link": "https://hvg.hu/kkv/20260911_obudai-korrupcios-ugy-gyanusitottak-kozponti-nyomozo-fougyeszseg-vesztegetes",
+      "date": "2026-09-11",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "korrupció",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_9dd8171d",
       "title": "125 milliárd forint a tét évente – felszámolná a tao-rendszert a sportban az Állami Számvevőszék",
       "description": "Pósfai Gábor belügyminiszter is beszélt arról csütörtökön, hogy felülvizsgálják a tao-támogatások rendszerét.",
@@ -5343,58 +5391,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_ff53630a",
-      "title": "A költségvetés nagyot spórolt Mészáros Lőrincen",
-      "description": "A tervezettnél kevesebb rendelkezésre állási díjat fizetett a büdzsé a Mészáros Lőrinc és Szíjj László érdekeltségében álló sztrádakoncessziós társaságnak júniusban, az első félévben 2025 első hat hónapjához képest összesen 112 milliárd forinttal kevesebb volt a kiadás. Ennek is köszönhető, hogy júniusban príma eredményt, 424 milliárd forint többletet ért el a büdzsé.",
-      "link": "https://hvg.hu/gazdasag/20260803_junius-koltsegvetes-allamhaztartas-sztradakoncesszio-koncesszios-dij-ebx",
-      "date": "2026-08-03",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 112000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_3f0779",
-          "name": "Mészáros Lőrincen",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_fbf7a2",
-          "name": "Szíjj László",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_46d96953",
-      "title": "„A meccskezdéssel spóroltok, miközben a koncertek időpontjai kőbe van vésve?” – fideszes vádakkal üzentek a Fradi-szurkolók a kormánynak és az MLSZ-nek",
-      "description": "Becsúszott egy nyelvtani hiba is.",
-      "link": "https://hvg.hu/sport/20260803_ferencvaros-fradi-szurkolok-energiavalsag-molino-uzenet-fidesz-kubatov-gabor-magyar-kormany-mlsz",
-      "date": "2026-08-03",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -9295,11 +9291,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T12:42:24.364200+00:00",
+    "last_updated": "2026-09-11T12:36:56.456373+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 23224789000000,
+    "total_involved_amount_huf": 23140789000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9307,8 +9303,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 13,
-      "pénzügyi": 171,
+      "korrupció": 14,
+      "pénzügyi": 170,
       "közbeszerzés": 16
     },
     "sources": [
@@ -9321,11 +9317,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Fejér",
       "Somogy",
-      "Baranya",
-      "Budapest",
       "Hajdú-Bihar",
-      "Fejér"
+      "Baranya",
+      "Budapest"
     ]
   }
 }

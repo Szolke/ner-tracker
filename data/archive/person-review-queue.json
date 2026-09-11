@@ -1,18 +1,5 @@
 [
   {
-    "run_at": "2026-07-10T10:52:01.922072+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Földje Alapítvány",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-11T09:27:30.507837+00:00",
     "skipped_candidates": [
       {
@@ -841,6 +828,23 @@
       },
       {
         "candidate": "Állami Számvevőszék",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-09-11T12:36:56.465976+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Kommentár Alapítvány",
         "reason": "blacklisted_institution_pattern"
       },
       {
