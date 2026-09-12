@@ -1,22 +1,5 @@
 [
   {
-    "run_at": "2026-07-11T09:27:30.507837+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Földje Alapítvány",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Magyar Péter",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-12T09:49:43.494286+00:00",
     "skipped_candidates": [
       {
@@ -845,6 +828,27 @@
       },
       {
         "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-09-12T11:58:18.735619+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magnet Bank",
         "reason": "blacklisted_institution_pattern"
       },
       {

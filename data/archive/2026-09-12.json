@@ -1,122 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_56bc8bd9",
-      "title": "A Gránit vezetői a sajtóból tudták meg, hogy Tiborcz István eladta a bank egy részét",
-      "description": "Nem zárult még le az a hozzávetőleg 10-15 milliárd forint közötti ügylet, amellyel a Magnet Bank-vezér Fáy Zsolt vezette konzorcium beszáll a Gránit Bankba. Még nem látni, milyen együttműködési lehetőségek nyílnak a két pénzintézet között, s milyen kockázatokat generálnak a Gránit portfóliójában a kormány vagyonvisszaszerzési lépései.",
-      "link": "https://hvg.hu/gazdasag/20260911_eladas-bank-fay-zsolt-magnet-bank-vezer-tiborcz-granit-reszvenyei",
-      "date": "2026-09-11",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 15000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_6c1a74",
-          "name": "Fáy Zsolt",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_031257",
-          "name": "Gránit Bankba",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_1c683715",
-      "title": "A Fidesznél sokkal egyszerűbb és olcsóbb megoldást talált a Tisza a dízelesek támogatására",
-      "description": "Cserébe az intézkedés kevéssé látványos, hiszen közvetlenül csak azok találkoznak vele, akik támogatást kapnak. Mindez 5,8 milliárd forintba kerül majd a kormánynak.",
-      "link": "https://hvg.hu/gazdasag/20260911_dizel-tamogatas-koltseg-koltsegvetes-mennyibe-kerul-ki-mennyit-kap",
-      "date": "2026-09-11",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 5800000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_74575493",
-      "title": "Orbán egykori államtitkára azt állítja, a volt kormányfő utasítására a kialkudottnál 5 milliárddal drágábban kellett visszavásárolni az Antenna Hungáriát",
-      "description": "Havasi Bertalan, a Fidesz kommunikációs igazgatója szerint ez kacsa.",
-      "link": "https://444.hu/2026/09/11/orban-viktor-egykori-allamtitkara-azt-allitja-hogy-a-volt-miniszterelnok-utasitasa-miatt-a-kialkudottnal-5-milliarddal-dragabban-kellett-visszavasarolni-az-antenna-hungariat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-09-11",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 5000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_b85f6d",
-          "name": "Antenna Hungáriát",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_4f5029",
-          "name": "Havasi Bertalan",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_737fd8fd",
-      "title": "Jászai Gellért és a 4iG is büntetőfeljelentést tesz Vályi-Nagy Vilmos ellen",
-      "description": "A cégcsoport szerint az Orbán-kormány egykori államtitkárával készült Partizán-interjú hazugságokra és minden alapot nélkülöző vádakra épül.",
-      "link": "https://hvg.hu/itthon/20260911_jaszai-gellert-4ig-buntetofeljelentes-valyi-nagy-vilmos-volt-allamtitkar-partizan-interju",
-      "date": "2026-09-11",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_186d43",
-          "name": "Jászai Gellért",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_83451c",
-          "name": "Nagy Vilmos",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_071fafe8",
       "title": "Megnéztük a Kommentár Alapítvány közpénzből lett ingatlanbirodalmát",
       "description": "Az Orbán-kormány egyik legnagyobb állami forrásokkal feltőkésített elitképzőjének háttérintézménye, a Kommentár Alapítvány hat év alatt 28 milliárd forintnyi közpénzt költött ingatlanfejlesztésekre. Videóriport.",
@@ -5413,6 +5297,100 @@
       "amount_huf": null,
       "tags": [],
       "involved_persons": []
+    },
+    {
+      "id": "sc_85a71888",
+      "title": "1904 milliárd forintot költöttünk beruházásokra. De mit kaptunk cserébe?",
+      "description": "Az elmúlt években a kiosztott támogatási összeg nagyobbik része az akkumulátor- és a járműiparhoz kapcsolódott. De mekkora a befektetések támogatására fordított közpénz hatása a magyar gazdaság egészére?",
+      "link": "https://telex.hu/nevertek/2026/08/04/kulfoldi-beruhazas-gazdasagfejlesztes-export-kkv-k-hozzaadott-ertek",
+      "date": "2026-08-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1904000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_398ec88f",
+      "title": "Több tízmilliárd forintot költött külföldi ingatlanokra az Orbán-kormány 2010-től",
+      "description": "A Londoni Magyar Ház volt a legdrágább, a második helyen a müncheni főkonzulátus épülete áll.",
+      "link": "https://telex.hu/gazdasag/2026/08/04/kulfold-ingatlanvasarlas-allam",
+      "date": "2026-08-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_458d3c",
+          "name": "Londoni Magyar",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_f4a8e158",
+      "title": "Jócskán túlárazva vehetett földeket a Paks II.-t fejlesztő állami cég, Hadházy Ákos feljelentést tesz",
+      "description": "Az állami cég összesen csaknem 32 milliárd forintért vehetett, gyakran rossz minőségű földeket.",
+      "link": "https://telex.hu/gazdasag/2026/08/04/tularazas-paks-2-bovites-foldvasarlas-pip-nonprofit-kft-hadhazy-akos-feljelentes",
+      "date": "2026-08-04",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 32000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_068668",
+          "name": "Hadházy Ákos",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_b4e5e073",
+      "title": "289 milliárdot fizet vissza az állam a szén-dioxid-kvóta-adó miatt, amit a Fidesz az ellenfeleire vetett ki",
+      "description": "A Bige László érdekeltségében lévő Nitrogénművek teljes árbevételének 12 százaléka ment el erre.",
+      "link": "https://444.hu/2026/08/03/289-milliardot-fizet-vissza-az-allam-a-szen-dioxid-kvota-ado-miatt-amit-a-fidesz-az-ellenfeleire-vetett-ki?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 289000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_d847ea",
+          "name": "Bige László",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -9310,64 +9288,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_6c1a74",
-      "type": "business_connection",
-      "cases": [
-        "sc_56bc8bd9"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_031257",
-      "type": "business_connection",
-      "cases": [
-        "sc_56bc8bd9"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_6c1a74",
-      "to": "p_031257",
-      "type": "business_connection",
-      "cases": [
-        "sc_56bc8bd9"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_b85f6d",
-      "to": "p_4f5029",
-      "type": "business_connection",
-      "cases": [
-        "sc_74575493"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_186d43",
-      "to": "p_83451c",
-      "type": "business_connection",
-      "cases": [
-        "sc_737fd8fd"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T11:58:18.726032+00:00",
+    "last_updated": "2026-09-11T12:36:56.456373+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20941589000000,
+    "total_involved_amount_huf": 23140789000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9389,11 +9317,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Fejér",
       "Somogy",
-      "Baranya",
-      "Budapest",
       "Hajdú-Bihar",
-      "Fejér"
+      "Baranya",
+      "Budapest"
     ]
   }
 }
