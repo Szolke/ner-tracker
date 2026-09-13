@@ -1,6 +1,30 @@
 {
   "cases": [
     {
+      "id": "sc_5fa357e0",
+      "title": "Megvan, mennyibe került a paksi leállás. Ki fizesse a számlát?",
+      "description": "A Regionális Energiagazdasági Kutatóközpont szakembereinek számítása szerint a kiesett atomerőművi termelés mintegy 37,4 milliárd forintos árampiaci többletköltséggel járt.",
+      "link": "https://telex.hu/g7/vallalat/2026/09/13/paksi-leallas-rekk-szamitas-koltseg-felelosseg-mvm-atomeromu",
+      "date": "2026-09-13",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 37400000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_3a4eb4",
+          "name": "Regionális Energiagazdasági",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_56bc8bd9",
       "title": "A Gránit vezetői a sajtóból tudták meg, hogy Tiborcz István eladta a bank egy részét",
       "description": "Nem zárult még le az a hozzávetőleg 10-15 milliárd forint közötti ügylet, amellyel a Magnet Bank-vezér Fáy Zsolt vezette konzorcium beszáll a Gránit Bankba. Még nem látni, milyen együttműködési lehetőségek nyílnak a két pénzintézet között, s milyen kockázatokat generálnak a Gránit portfóliójában a kormány vagyonvisszaszerzési lépései.",
@@ -5395,24 +5419,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_c3181c1b",
-      "title": "Magyar Péter a Mavir vezénylő központjából megüzente Mészáros egyik érdekeltségének, hogy még nem késő visszafogni a fogyasztásukat",
-      "description": "A miniszterelnök szerint a nagyfogyasztó vállalatok már több mint 630 megawattnyi önkéntes korlátozást vállaltak.",
-      "link": "https://telex.hu/belfold/2026/08/03/magyar-peter-mavir-vezenylo-kozpont-nagyfogyasztok-paks-energiafogyasztas",
-      "date": "2026-08-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
     }
   ],
   "investigations": [
@@ -9363,11 +9369,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T11:58:18.726032+00:00",
+    "last_updated": "2026-09-13T13:07:12.520032+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20941589000000,
+    "total_involved_amount_huf": 20978989000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9389,11 +9395,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Somogy",
-      "Baranya",
       "Budapest",
-      "Hajdú-Bihar",
-      "Fejér"
+      "Fejér",
+      "Baranya",
+      "Somogy",
+      "Hajdú-Bihar"
     ]
   }
 }
