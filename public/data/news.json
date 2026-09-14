@@ -1,6 +1,48 @@
 {
   "cases": [
     {
+      "id": "sc_73b80238",
+      "title": "G7: Több mint 37 milliárd forintba kerülhetett az augusztusi paksi leállás",
+      "description": "A lap szerint, ha az MVM magánvállalat lenne, egyértelmű, hogy a tulajdonosokat kellene, hogy terhelje a veszteség.",
+      "link": "https://hvg.hu/kkv/20260914_g7-augusztusi-paksi-leallas-koltsege-vesztesegek",
+      "date": "2026-09-14",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 37000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_a123da81",
+      "title": "Mészáros Lőrinc: Nem szeretnék elmenni az április 12-én történtek után",
+      "description": "A milliárdos abban reménykedik, hogy a magyar nagytőkét nem akarja felszámolni a kormány.",
+      "link": "https://hvg.hu/kkv/20260914_meszaros-lorinc-csaladi-nap-beszed",
+      "date": "2026-09-14",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ]
+    },
+    {
       "id": "sc_5fa357e0",
       "title": "Megvan, mennyibe került a paksi leállás. Ki fizesse a számlát?",
       "description": "A Regionális Energiagazdasági Kutatóközpont szakembereinek számítása szerint a kiesett atomerőművi termelés mintegy 37,4 milliárd forintos árampiaci többletköltséggel járt.",
@@ -5369,56 +5411,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_5e564094",
-      "title": "Mészáros Lőrinc gyára cáfolta Magyar Péter vádját",
-      "description": "Szerintük rövid időn belül válaszoltak a Mavir kérésére, hogy csökkentsék az áramfogyasztásukat.",
-      "link": "https://hvg.hu/kkv/20260804_meszaros-lorinc-kall-ingredients-opus-titasz-hunguest-magyar-peter-mavir",
-      "date": "2026-08-04",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        }
-      ]
-    },
-    {
-      "id": "sc_783e1328",
-      "title": "Saját céget alapított Hajdu János, a TEK volt főigazgatója, akit jogellenes fogvatartással gyanúsítanak",
-      "description": "Hajdu a Fidesz biztonsági főnöke lett, miután felmentették a TEK éléről.",
-      "link": "https://telex.hu/belfold/2026/08/03/ceget-alapitott-hajdu-janos-a-tek-volt-igazgatoja",
-      "date": "2026-08-03",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_3fb7b2",
-          "name": "Hajdu János",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9369,11 +9361,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-13T13:07:12.520032+00:00",
+    "last_updated": "2026-09-14T14:44:08.334237+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20978989000000,
+    "total_involved_amount_huf": 21015989000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9395,11 +9387,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
+      "Hajdú-Bihar",
       "Fejér",
+      "Budapest",
       "Baranya",
-      "Somogy",
-      "Hajdú-Bihar"
+      "Somogy"
     ]
   }
 }

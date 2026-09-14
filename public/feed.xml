@@ -5,8 +5,24 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Sun, 13 Sep 2026 13:07:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 14:44:08 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[G7: Több mint 37 milliárd forintba kerülhetett az augusztusi paksi leállás]]></title>
+    <link>https://hvg.hu/kkv/20260914_g7-augusztusi-paksi-leallas-koltsege-vesztesegek</link>
+    <guid>sc_73b80238</guid>
+    <pubDate>2026-09-14</pubDate>
+    <description><![CDATA[A lap szerint, ha az MVM magánvállalat lenne, egyértelmű, hogy a tulajdonosokat kellene, hogy terhelje a veszteség. | Budapest | 37000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Mészáros Lőrinc: Nem szeretnék elmenni az április 12-én történtek után]]></title>
+    <link>https://hvg.hu/kkv/20260914_meszaros-lorinc-csaladi-nap-beszed</link>
+    <guid>sc_a123da81</guid>
+    <pubDate>2026-09-14</pubDate>
+    <description><![CDATA[A milliárdos abban reménykedik, hogy a magyar nagytőkét nem akarja felszámolni a kormány. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Megvan, mennyibe került a paksi leállás. Ki fizesse a számlát?]]></title>
     <link>https://telex.hu/g7/vallalat/2026/09/13/paksi-leallas-rekk-szamitas-koltseg-felelosseg-mvm-atomeromu</link>
@@ -150,22 +166,6 @@
     <pubDate>2026-09-07</pubDate>
     <description><![CDATA[A paksi atomerőmű augusztusi, kormányzati kríziskezelése, a napokban kiírt szélerőmű építési tender, a Brüsszelből hazahozható, fejlesztési százmilliárdok drasztikus irányváltást jeleznek az energiapo | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
     <category>közbeszerzés</category>
-  </item>
-  <item>
-    <title><![CDATA[Az Integritás Hatóságnak adott válaszai alapján a TISZA-kormány sem sieti el a közbeszerzési rendszer átfogó reformját]]></title>
-    <link>https://atlatszo.hu/kozpenz/2026/09/08/az-integritas-hatosagnak-adott-valaszai-alapjan-a-tisza-kormany-sem-sieti-el-a-kozbeszerzesi-rendszer-atfogo-reformjat/</link>
-    <guid>sc_6c63268a</guid>
-    <pubDate>2026-09-08</pubDate>
-    <description><![CDATA[Ugyan a kormány a javaslatok többségével egyetért, olyan területeken nem látják indokoltak a közbeavatkozást, ahol köztudottan magas a korrupció kockázata. | Budapest | Összeg ismeretlen | közbeszerzés]]></description>
-    <category>közbeszerzés</category>
-  </item>
-  <item>
-    <title><![CDATA[„Önkényuralmi rendszert” épít a Magyar-kormány – Deutsch Tamásék levélben riadóztatták Brüsszelt]]></title>
-    <link>https://hvg.hu/vilag/20260908_fidesz-europai-parlament-jogallamisag-deutsch-tamas-gal-kinga-ebx</link>
-    <guid>sc_96318ff7</guid>
-    <pubDate>2026-09-08</pubDate>
-    <description><![CDATA[A legsúlyosabb vádakat a vagyonvisszaszerzési hivatallal kapcsolatban fogalmazza meg Deutsch Tamás és Gál Kinga az EP-képviselőknek küldött levelükben, amelyben a magyar demokrácia felszámolására figy | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
   </item>
   </channel>
 </rss>
