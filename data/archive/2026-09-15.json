@@ -1,111 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_3832a7c4",
-      "title": "Orbán Anita feljelentést tesz, mert Szijjártóék 4 milliárddal többet költöttek magángépes repkedésre, mint amennyibe a business osztály került volna",
-      "description": "A honvédségi gépek költségét még csak bele se számolták, pedig azzal is egyre többet repkedtek a minisztériumban, ahol elvileg kifejezetten takarékoskodni kellett volna az utazásokkal.",
-      "link": "https://444.hu/2026/09/15/orban-anita-feljelentest-tesz-mert-szijjartoek-4-milliarddal-tobbet-koltottek-magangepes-repkedesre-mint-amennyibe-a-business-osztaly-kerult-volna?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-09-15",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 4000000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_01ca0f",
-          "name": "Orbán Anita",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_6494821c",
-      "title": "Lázár Jánost 13 millió forintra bírságolták a batidai erdőben épült létesítmények miatt, amiket el is kell bontania",
-      "description": "„Mulasztást lehet, hogy elkövettem, de szándékos jogsértést, károkozást soha” – írta a volt miniszter, aki hosszú idő után posztolt újra.",
-      "link": "https://444.hu/2026/09/15/lazar-janost-13-millio-forintra-birsagoltak-a-batidai-erdoben-epult-letesitmenyek-miatt-amiket-el-is-kell-bontania?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-09-15",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 13000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        },
-        {
-          "id": "p_0ce9c6",
-          "name": "Lázár Jánost",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_2b3be6a6",
-      "title": "A TV2 jóváhagyása is kellett ahhoz, hogy A tanúval induljon újra az M1",
-      "description": "A TV2 kizárólagos forgalmazási jogot vásárolt a filmre, így hiába tett korábban a közmédia is hasonlóan, csak Mészáros Lőrinc érdekeltségének jóváhagyásával vetíthették A tanút júliusban.",
-      "link": "https://hvg.hu/elet/20260915_kozmedia-leallas-ujraindulas-a-tanu-tv2-jovahagyas-meszaros-lorinc-nemzeti-filmintezet-sugarzasi-jog",
-      "date": "2026-09-15",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        }
-      ]
-    },
-    {
-      "id": "sc_be56a67e",
-      "title": "A politikából kilépő Lázár János arról posztolt, tíz év után bírságolták meg, mert engedély nélkül építkezett az erdejében",
-      "description": "Lázárt nemrég még azzal bízták meg, hogy mérje fel a Fidesz állapotát. Most arról írt, amíg hagyják, erdőgazdálkodással szeretne foglalkozni.",
-      "link": "https://telex.hu/belfold/2026/09/15/lazar-janos-politika-erdogazdalkodas-beruhazas-engedely",
-      "date": "2026-09-15",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_c7f9a1",
-          "name": "Lázár János",
-          "position": "építési és közlekedési miniszter"
-        }
-      ]
-    },
-    {
       "id": "sc_73b80238",
       "title": "G7: Több mint 37 milliárd forintba kerülhetett az augusztusi paksi leállás",
       "description": "A lap szerint, ha az MVM magánvállalat lenne, egyértelmű, hogy a tulajdonosokat kellene, hogy terhelje a veszteség.",
@@ -5428,6 +5323,94 @@
           "position": "BKK volt vezérigazgató"
         }
       ]
+    },
+    {
+      "id": "sc_c8415f36",
+      "title": "Kikértük az adatokat, több tízmilliárdot költött az Orbán-állam külföldi ingatlanokra – a luxus sokszor fontosabb volt, mint a hasznosság",
+      "description": "Hiába van még Észak-Koreában is ingatlantulajdona Magyarországnak, az Orbán-kormány 16 évében tízmilliárdok mentek el reprezentatív külföldi épületek megvásárlására Washingtontól Teheránig – derült ki a HVG közérdekű adatigénylése nyomán. Mennyibe került a rekorder, a kulturális célokra megvásárolt Magyar Ház a londoni City közepén?",
+      "link": "https://hvg.hu/360/20260804_allami-ingatlan-tulajdon-kulfoldon-orban-kormanyok-kozerdeku-adatigenyles-hvg-ebx",
+      "date": "2026-08-04",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_7c9ab0",
+          "name": "Washingtontól Teheránig",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_837e2612",
+      "title": "A kormány eláll a Tiborczékhoz köthető irodaház megvásárlásától",
+      "description": "Magyar Péter miniszterelnök szerint számos szerződésszegést találtak, ezért a NER-es köröktől 300 milliárd forintot követelnek vissza.",
+      "link": "https://444.hu/2026/08/03/a-kormany-elall-a-tiborczekhoz-kotheto-irodahaz-megvasarlasatol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-03",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 300000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_5dcbe78e",
+      "title": "40 milliárd forintot költött az Orbán-kormány külföldi ingatlanok vásárlására 16 év alatt",
+      "description": "A luxus sokszor fontosabb volt, mint a hasznosság.",
+      "link": "https://444.hu/2026/08/04/40-milliard-forintot-koltott-az-orban-kormany-kulfoldi-ingatlanok-vasarlasara-16-ev-alatt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-04",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 40000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_3de4eda7",
+      "title": "Százszorosan túlárazott földmutyiról ír Hadházy Ákos Paks II. kapcsán",
+      "description": "A paksi projektet vivő cég 2018 óta 32 milliárd forintért vásárolt olyan földeket, amelyek jó részére még csak szüksége sem volt. Volt olyan erdő, amit a piacihoz képest százszor drágábban vettek meg.",
+      "link": "https://hvg.hu/gazdasag/20260804_foldmutyi-tularazas-paks-ii-ingatlan-hadhazy-akos",
+      "date": "2026-08-04",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 32000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_068668",
+          "name": "Hadházy Ákos",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -9378,11 +9361,11 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-15T13:08:30.501794+00:00",
+    "last_updated": "2026-09-14T14:44:08.334237+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20648002000000,
+    "total_involved_amount_huf": 21015989000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9404,11 +9387,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Hajdú-Bihar",
       "Fejér",
       "Budapest",
-      "Hajdú-Bihar",
-      "Somogy",
-      "Baranya"
+      "Baranya",
+      "Somogy"
     ]
   }
 }
