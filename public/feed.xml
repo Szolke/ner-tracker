@@ -5,8 +5,56 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Tue, 15 Sep 2026 13:08:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:08:47 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Seszták Miklósig és Tiborcz Istvánig érhet el a Volánbusz-ügy]]></title>
+    <link>https://hvg.hu/360/20260916_jellinek-daniel-szivek-norbert-orizetben-volanbusz-sesztak-miklos-tiborcz-istvan</link>
+    <guid>sc_54116f4b</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[Bár a hírek eddig üzletemberek, Jellinek Dániel, Szivek Norbert és Komonczi Zsolt meggyanúsításáról szóltak, amit múlt héten a Nemzeti Nyomozó Iroda jelentett be, kedden már a Központi Nyomozó Főügyés | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Mészáros Lőrinc ásványvizes cége 3 milliárd forint EU-s támogatást kapott a Fidesz-kormánytól]]></title>
+    <link>https://atlatszo.hu/kozpenz/2026/09/16/meszaros-lorinc-asvanyvizes-cege-3-milliard-forint-eu-s-tamogatast-kapott-a-fidesz-kormanytol/</link>
+    <guid>sc_c17b890d</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[Az albertirsai üzem technológiai fejlesztésére, melynek összköltsége 7,7 milliárd forint volt. Vagyis a beruházás 40 százalékát közpénzből fizette Mészáros cége. | Budapest | 3000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[„Szexuális erőszak bűntettének megállapítására alkalmas”]]></title>
+    <link>https://444.hu/2026/09/16/szexualis-eroszak-buntettenek-megallapitasara-alkalmas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_aa485a19</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[A Kúria és a főügyészség szerint igenis megállapítható a szexuális erőszak a képzőművészeti egyetem kollégiumában történt ügyben, annak ellenére, hogy az elsőfokú ítélet szerint nem történt bűncselekm | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Csóró öltönyös gimnazistából ingatlanmágnás, Tiborcz üzlettársából vezetőszáron előállított gyanúsított – kicsoda Jellinek Dániel?]]></title>
+    <link>https://hvg.hu/360/20260916_jellinek-daniel-ingatlan-milliardos-letartoztatas-volanbusz</link>
+    <guid>sc_78593409</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[A magyar üzleti elit egyik talányos személyisége az ötvenéves Jellinek Dániel, aki a NER-korszak első felében radar alatt repült, majd Tiborcz István üzletfeleként a rendszer haszonélvezője lett. Egy  | Budapest | Összeg ismeretlen | korrupció]]></description>
+    <category>korrupció</category>
+  </item>
+  <item>
+    <title><![CDATA[Az Orbán elleni feljelentés iratai már a Központi Nyomozó Főügyészségnél vannak az ATV szerint]]></title>
+    <link>https://hvg.hu/itthon/20260916_orban-viktor-fekete-gyor-andras-feljelentes-kozponti-nyomozo-fougyeszseg-nvvh-fenyegetes</link>
+    <guid>sc_a7071953</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[A feljelentést Fekete-Győr András tette a rendőrségen a volt miniszterelnök „maffiaszerű fenyegetőzése” miatt. | Győr-Moson-Sopron | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Főleg magyarok keresik a Fidesz 5 milliárd forintos Tisza-hajóit]]></title>
+    <link>https://hvg.hu/kkv/20260916_tisza-nyaralohajozas-helyzet-kulfoldiek</link>
+    <guid>sc_491e0d0e</guid>
+    <pubDate>2026-09-16</pubDate>
+    <description><![CDATA[Eredetileg hosszabb időre érkező külföldi vendégekre kívántak célozni az állam pénzből vett tiszai nyaralóhajókkal, de a hajókat többségében magyarok bérlik ki, inkább csak pár napokra. A hajókat üzem | Budapest | 5000 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Orbán Anita feljelentést tesz, mert Szijjártóék 4 milliárddal többet költöttek magángépes repkedésre, mint amennyibe a business osztály került volna]]></title>
     <link>https://444.hu/2026/09/15/orban-anita-feljelentest-tesz-mert-szijjartoek-4-milliarddal-tobbet-koltottek-magangepes-repkedesre-mint-amennyibe-a-business-osztaly-kerult-volna?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
@@ -117,54 +165,6 @@
     <guid>sc_9dd8171d</guid>
     <pubDate>2026-09-10</pubDate>
     <description><![CDATA[Pósfai Gábor belügyminiszter is beszélt arról csütörtökön, hogy felülvizsgálják a tao-támogatások rendszerét. | Budapest | 125000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Összeszámoltuk, mennyi közpénzt szereznek vissza Magyarék – nem véletlenül menekülnek a NER császárai]]></title>
-    <link>https://hvg.hu/360/20260910_vagyonvisszaszerzes-bajban-a-holdudvar-kulfoldre-menekulok-hvg</link>
-    <guid>sc_2c2c685a</guid>
-    <pubDate>2026-09-10</pubDate>
-    <description><![CDATA[Kreatív módszerekkel és buldózerrel is nekiment már Magyar Péter a NER vagyonának. Legalább 1000 milliárd forint vagyon és több tízezermilliárd forintnyi pénzáramlás sorsáról van szó. | Budapest | 1000000 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Napi öt poszt, nulla üresjárat, 2,77 milliárd megjelenés – egy év Magyar Péter Facebook-oldalán]]></title>
-    <link>https://telex.hu/belfold/2026/09/10/napi-ot-poszt-2-77-milliard-megjelenes-egy-ev-magyar-peter-facebook-oldalan</link>
-    <guid>sc_a768724a</guid>
-    <pubDate>2026-09-10</pubDate>
-    <description><![CDATA[A közvélekedés szerint Magyar Péter egy szál Facebook-oldallal döntötte meg a Fidesz 16 éven át tartó hatalmát. Megnéztük, mi történt ezen az oldalon az elmúlt egy évben. | Budapest | 2770 M HUF | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Hatósági ellenőrzés indul a Gondosóra program miatt]]></title>
-    <link>https://hvg.hu/gazdasag/20260908_hatosagi-ellenorzes-naih-gondosora-program-adatvedelem</link>
-    <guid>sc_ee39bc9e</guid>
-    <pubDate>2026-09-08</pubDate>
-    <description><![CDATA[Adatvédelmi vizsgálat indul arról, hogy felhasználhatta-e a Fidesz a Gondosórát hordó idősek adatait. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Benyújtották a törvényjavaslatot a fideszes szuperhatóság megszüntetéséről]]></title>
-    <link>https://hvg.hu/gazdasag/20260908_szabalyozott-tevekenysegek-felugyeleti-hatosaga-sztfh-torvenyjavaslat-megszuntetes-vitezy-david</link>
-    <guid>sc_f2c5fba3</guid>
-    <pubDate>2026-09-08</pubDate>
-    <description><![CDATA[Újabb lépés a dohány- és autópályakoncessziós szerződések felülvizsgálatának folyamatában. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Szabálytalanul adott ki termeket, nyugdíjba küldte a tankerület a tatabányai Bárdos gimnázium igazgatóját]]></title>
-    <link>https://magyarnarancs.hu/kismagyarorszag/szabalytalanul-adott-ki-termeket-nyugdijba-kuldte-a-tankerulet-a-tatabanyai-bardos-gimnazium-igazgatojat-280105</link>
-    <guid>sc_7b45d8cc</guid>
-    <pubDate>2026-09-09</pubDate>
-    <description><![CDATA[Konkrét hiányosságokat tárt fel a tatabányai Bárdos László Gimnáziumban a Tatabányai Tankerületi Központ vizsgálata, amely egy júliusi panaszbejelentés nyomán indult. „A fenntartói vizsgálat eredménye | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Nyilvánosságra hozzák az elmúlt 16 év titkosított kormányhatározatait]]></title>
-    <link>https://444.hu/2026/09/09/nyilvanossagra-hoztak-az-elmult-16-ev-titkositott-kormanyhatarozatait?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
-    <guid>sc_b8c69a17</guid>
-    <pubDate>2026-09-09</pubDate>
-    <description><![CDATA[Első körben a Századvéget érintő 13 dokumentumot mutattak meg. Elég sok milliárdnyi közpénzről esik bennük szó. Összesen mintegy 100 határozat lesz nyilvános. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>

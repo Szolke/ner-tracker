@@ -1,6 +1,176 @@
 {
   "cases": [
     {
+      "id": "sc_54116f4b",
+      "title": "Seszták Miklósig és Tiborcz Istvánig érhet el a Volánbusz-ügy",
+      "description": "Bár a hírek eddig üzletemberek, Jellinek Dániel, Szivek Norbert és Komonczi Zsolt meggyanúsításáról szóltak, amit múlt héten a Nemzeti Nyomozó Iroda jelentett be, kedden már a Központi Nyomozó Főügyészség számolt be három ember őrizetbe vételéről ugyancsak a Volánbusz-üggyel összefüggésben. A nyomozás több szálon fut, és Seszták Miklós kereszténydemokrata képviselő is gyanúsított lehet.",
+      "link": "https://hvg.hu/360/20260916_jellinek-daniel-szivek-norbert-orizetben-volanbusz-sesztak-miklos-tiborcz-istvan",
+      "date": "2026-09-16",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_f3dc79",
+          "name": "Seszták Miklósig",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9f0ef1",
+          "name": "Tiborcz Istvánig",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_44b0cb",
+          "name": "Jellinek Dániel",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_c17b890d",
+      "title": "Mészáros Lőrinc ásványvizes cége 3 milliárd forint EU-s támogatást kapott a Fidesz-kormánytól",
+      "description": "Az albertirsai üzem technológiai fejlesztésére, melynek összköltsége 7,7 milliárd forint volt. Vagyis a beruházás 40 százalékát közpénzből fizette Mészáros cége.",
+      "link": "https://atlatszo.hu/kozpenz/2026/09/16/meszaros-lorinc-asvanyvizes-cege-3-milliard-forint-eu-s-tamogatast-kapott-a-fidesz-kormanytol/",
+      "date": "2026-09-16",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 3000000000,
+      "tags": [
+        "EU"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        }
+      ]
+    },
+    {
+      "id": "sc_aa485a19",
+      "title": "„Szexuális erőszak bűntettének megállapítására alkalmas”",
+      "description": "A Kúria és a főügyészség szerint igenis megállapítható a szexuális erőszak a képzőművészeti egyetem kollégiumában történt ügyben, annak ellenére, hogy az elsőfokú ítélet szerint nem történt bűncselekmény. A 444 megszerezte a főügyészség indítványát, amelyből kiderül, mivel érvelnek. Az első tárgyalás decemberben várható.",
+      "link": "https://444.hu/2026/09/16/szexualis-eroszak-buntettenek-megallapitasara-alkalmas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-16",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_78593409",
+      "title": "Csóró öltönyös gimnazistából ingatlanmágnás, Tiborcz üzlettársából vezetőszáron előállított gyanúsított – kicsoda Jellinek Dániel?",
+      "description": "A magyar üzleti elit egyik talányos személyisége az ötvenéves Jellinek Dániel, aki a NER-korszak első felében radar alatt repült, majd Tiborcz István üzletfeleként a rendszer haszonélvezője lett. Egy kiterjedt vesztegetési ügybe keveredve most fizeti meg ennek az árát.",
+      "link": "https://hvg.hu/360/20260916_jellinek-daniel-ingatlan-milliardos-letartoztatas-volanbusz",
+      "date": "2026-09-16",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_358ac9",
+          "name": "Tiborcz István",
+          "position": "vállalkozó, Orbán Viktor veje"
+        },
+        {
+          "id": "p_44b0cb",
+          "name": "Jellinek Dániel",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a7071953",
+      "title": "Az Orbán elleni feljelentés iratai már a Központi Nyomozó Főügyészségnél vannak az ATV szerint",
+      "description": "A feljelentést Fekete-Győr András tette a rendőrségen a volt miniszterelnök „maffiaszerű fenyegetőzése” miatt.",
+      "link": "https://hvg.hu/itthon/20260916_orban-viktor-fekete-gyor-andras-feljelentes-kozponti-nyomozo-fougyeszseg-nvvh-fenyegetes",
+      "date": "2026-09-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Győr-Moson-Sopron",
+      "coordinates": [
+        47.6829,
+        17.6271
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_99efb5",
+          "name": "Központi Nyomozó",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_dd153d",
+          "name": "Győr András",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_491e0d0e",
+      "title": "Főleg magyarok keresik a Fidesz 5 milliárd forintos Tisza-hajóit",
+      "description": "Eredetileg hosszabb időre érkező külföldi vendégekre kívántak célozni az állam pénzből vett tiszai nyaralóhajókkal, de a hajókat többségében magyarok bérlik ki, inkább csak pár napokra. A hajókat üzemeltető Mahart jövőre újra rámenne a külföldiekre.",
+      "link": "https://hvg.hu/kkv/20260916_tisza-nyaralohajozas-helyzet-kulfoldiek",
+      "date": "2026-09-16",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 5000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
       "id": "sc_3832a7c4",
       "title": "Orbán Anita feljelentést tesz, mert Szijjártóék 4 milliárddal többet költöttek magángépes repkedésre, mint amennyibe a business osztály került volna",
       "description": "A honvédségi gépek költségét még csak bele se számolták, pedig azzal is egyre többet repkedtek a minisztériumban, ahol elvileg kifejezetten takarékoskodni kellett volna az utazásokkal.",
@@ -5271,163 +5441,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_fac478e0",
-      "title": "A Duna apad, de mit tesz a Tisza? Mi lesz a hazai akkumulátorgyártással?",
-      "description": "Az Fidesz-kormány átfogó környezeti vizsgálatok nélkül fogadta el az akkumulátorgyártásra vonatkozó országos stratégiát. Az új kormánynak az energiaválság közepette kell számot vetnie az akkumulátoripar jövőjével. Vélemény.",
-      "link": "https://hvg.hu/360/20260806_duna-tisza-part-akkumulator-gyartas-szabalyozas-akerteis-magyar-akkumulator-szovetseg-energiavalsag",
-      "date": "2026-08-06",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_8ac64c",
-          "name": "Az Fidesz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b3eb0e44",
-      "title": "Meglendült a Mészáros-részvények forgalma, miután bóvli kategóriába minősítették le hétfőn",
-      "description": "Kedd reggel szokatlanul sokan kereskedtek a leminősített Opus-papírokkal, majd elfogyott a lendület. Közben az MBH Bank részvényeiből is adtak-vettek bő egy milliárd forintnyit.",
-      "link": "https://hvg.hu/gazdasag/20260804_meglendul-meszaros-reszveny-forgalom-bovli-kategoria-leminosites-opus",
-      "date": "2026-08-04",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_25129cda",
-      "title": "Vagyonvisszaszerzési eljárást kérnek a tiszások a Rogán feleségének falujában megvásárolt kastély miatt",
-      "description": "A Nemzeti Vagyonvisszaszerzési és Vagyonédelmi Hivatal vizsgálatát kezdeményezte a dédestapolcsányi Serényi-kastély tulajdonosi hátterének felderítésére a Sajó-völgyi Tisza-közösség. A műemlék épületet 2021 nyarán vásárolta meg Rogán Antal feleségének falujában a budapesti belvárosban a fideszes politikus polgármestersége idején kedvező áron ingatlanokhoz jutott ügyvéd, aki azóta már tovább adta a",
-      "link": "https://magyarnarancs.hu/belpol/vagyonvisszaszerzesi-eljarast-kernek-a-tiszasok-a-rogan-felesegenek-falujaban-megvasarolt-kastely-miatt-279851",
-      "date": "2026-08-05",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1b5e4f",
-          "name": "Rogán Antal",
-          "position": "miniszter, Kabinetirodát vezető"
-        },
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_8911ce",
-          "name": "Időközben Tiborcz",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_e960d544",
-      "title": "Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal",
-      "description": "A Direkt36 nyomozása szerint már egy magyar hitelből zajló afrikai beruházásban is feltűnt Szijjártó Péter legjobb barátjának, Benkő Szilárdnak a cége, amely sok más külügyhöz kötődő projekten is dolgozott. A volt miniszter állítja, hogy neki fogalma sem volt ezekről az üzletekről.\nThe post Szijjártó Péter legjobb barátjának különös története az állami milliárdokkal first appeared on Direkt36.",
-      "link": "https://www.direkt36.hu/szijjarto-peter-legjobb-baratjanak-kulonos-tortenete-az-allami-milliardokkal/",
-      "date": "2026-06-18",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_5e4f38",
-          "name": "Benkő Szilárdnak",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_a2c2e5c9",
-      "title": "Csak áramra százmilliárdokkal többet kell költenie az országnak a hőség miatt, és nagy a baj a földeken is",
-      "description": "A szárazság miatt kevesebb az áram, miközben a hőség miatt több kellene. Paks nagyon olcsón termel, ezért pénzügyileg is fájó, hogy nyolc turbinájából hét leállt. Gazdasági sokkot nem okoz a krízis, de lesznek fájdalmas hatásai.",
-      "link": "https://444.hu/2026/08/05/hoseg-aszaly-vizhiany-duna-paks-atomeromu-aram-villamosenergia-gdp-inflacio?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-05",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_e1d19f84",
-      "title": "Vitézy Dávid leállíttatta a MÁV fakivágását Zuglóban, és teljes felülvizsgálatot kért",
-      "description": "Saját főtájépítésze is lesz a MÁV-nak, közölte a miniszter.",
-      "link": "https://telex.hu/belfold/2026/08/05/vitezy-david-mav-zuglo-vasut-fakivagas-leallitas-zoldites-klimavaltozas-fenntarthato",
-      "date": "2026-08-05",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9375,14 +9388,94 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_f3dc79",
+      "type": "business_connection",
+      "cases": [
+        "sc_54116f4b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_358ac9",
+      "to": "p_9f0ef1",
+      "type": "business_connection",
+      "cases": [
+        "sc_54116f4b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_f3dc79",
+      "to": "p_9f0ef1",
+      "type": "business_connection",
+      "cases": [
+        "sc_54116f4b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_f3dc79",
+      "to": "p_44b0cb",
+      "type": "business_connection",
+      "cases": [
+        "sc_54116f4b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_9f0ef1",
+      "to": "p_44b0cb",
+      "type": "business_connection",
+      "cases": [
+        "sc_54116f4b"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_531e11",
+      "to": "p_99efb5",
+      "type": "business_connection",
+      "cases": [
+        "sc_a7071953"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_531e11",
+      "to": "p_dd153d",
+      "type": "business_connection",
+      "cases": [
+        "sc_a7071953"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_99efb5",
+      "to": "p_dd153d",
+      "type": "business_connection",
+      "cases": [
+        "sc_a7071953"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-15T13:08:30.501794+00:00",
+    "last_updated": "2026-09-16T13:08:47.758900+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20648002000000,
+    "total_involved_amount_huf": 20656002000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9390,8 +9483,8 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 14,
-      "pénzügyi": 170,
+      "korrupció": 15,
+      "pénzügyi": 169,
       "közbeszerzés": 16
     },
     "sources": [
@@ -9404,11 +9497,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Fejér",
-      "Budapest",
+      "Győr-Moson-Sopron",
       "Hajdú-Bihar",
+      "Baranya",
+      "Fejér",
       "Somogy",
-      "Baranya"
+      "Budapest"
     ]
   }
 }
