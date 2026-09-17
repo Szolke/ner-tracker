@@ -1,265 +1,6 @@
 {
   "cases": [
     {
-      "id": "sc_71f7f748",
-      "title": "Pulykakakast kéne venni",
-      "description": "Az Orbán-kormány tavasszal megítélte, majd nyáron a Tisza-kabinet visszavonta a honi pulykahúspiac legnagyobb szereplője, a szarvasi Gallicoop Zrt. 33 milliárd forintos fejlesztési támogatását. Az elutasítás indoklása szerint a tulajdonosi kör nem transzparens. A cég a bírósághoz fordul.",
-      "link": "https://magyarnarancs.hu/belpol/pulykakakast-kene-venni-280166",
-      "date": "2026-09-16",
-      "source": "Magyar Narancs",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 33000000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_531e11",
-          "name": "Az Orbán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_2dee805a",
-      "title": "Az ügyészség másodszor is felülbírálta a rendőrséget a Vitézy-féle fellebbezéshez csatolt hamis nyilatkozatok ügyében",
-      "description": "Az ügyben az Átlátszó tényfeltáró cikkei nyomán olvasónk tett feljelentést, ám a rendőrség a választások előtt másodszor is megszüntette a nyomozást.",
-      "link": "https://atlatszo.hu/kozugy/2026/09/16/az-ugyeszseg-masodszor-is-felulbiralta-a-rendorseget-a-vitezy-fele-fellebbezeshez-csatolt-hamis-nyilatkozatok-ugyeben/",
-      "date": "2026-09-16",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_4e6365fb",
-      "title": "Magas élet a bukás után: cseh bulvármilliárdos esküvőjén vélték látni az Orbán–Tiborcz házaspárt Olaszországban",
-      "description": "Ringo Starr kastélya, leállított sípálya Svájcban, Porschéval direkt elütött nő – ilyen egy igazi cseh lagzi.",
-      "link": "https://444.hu/2026/09/17/magas-elet-a-bukas-utan-cseh-bulvarmilliardos-eskuvojen-veltek-latni-az-orbantiborcz-hazaspart-olaszorszagban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-09-17",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_84fad1",
-          "name": "Olaszországban Ringo",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_b0e34372",
-      "title": "Képeken: Orbán Ráhel és Tiborcz István cseh milliárdos esküvőjére mentek",
-      "description": "Hadházy Ákos korábbi országgyűlési képviselő szerint „ha valódi szándék lenne rá”, már előzetesben lenne a volt miniszterelnök veje.",
-      "link": "https://hvg.hu/itthon/20260917_cseh-milliardos-radovan-vitek-eskuvo-tiborcz-istvan-orban-rahel",
-      "date": "2026-09-17",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_845761",
-          "name": "Orbán Ráhel",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_803dc907",
-      "title": "Többmilliárdnyi magyarországi közpénz ment a szlovákiai magyar sajtóra, most bemutatták, mire költötték el",
-      "description": "A határon túli támogatások egyik legnagyobb kedvezményezettje volt a Fidesz üzeneteit átvevő szlovákiai magyar médiacsoport.",
-      "link": "https://hvg.hu/gazdasag/20260917_szlovakia-magyar-sajto-tamogatas",
-      "date": "2026-09-17",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_c4eadf7f",
-      "title": "Két év alatt kétmilliárd forint ment el Orbán Viktor külföldi útjaira, több tízmilliót költött el kísérőivel a VIP-várókban",
-      "description": "A választások előtti szűk két és fél évben összesen 95 utat foglaltak le Orbánnak, ezek közül csupán nyolc alkalommal fordult elő, hogy nem különgéppel ment külföldre.",
-      "link": "https://telex.hu/gazdasag/2026/09/17/orban-viktor-kulfoldi-utak-ket-ev-ketmilliard-forint-vip-varok",
-      "date": "2026-09-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_b26482",
-          "name": "Orbán Viktor",
-          "position": "miniszterelnök"
-        }
-      ]
-    },
-    {
-      "id": "sc_b696d529",
-      "title": "Egymillió forintra bírságolták Takács Pétert a háziorvosokról tett kijelentése és egy szülővel folytatott, trágár üzenetváltása miatt",
-      "description": "A határozattal kapcsolatban megkerestük a fideszes képviselőt, de nem akart válaszolni a kérdéseinkre.",
-      "link": "https://telex.hu/belfold/2026/09/17/egymillio-forintra-birsagoltak-takacs-peter-nyilvanos-megszolalas",
-      "date": "2026-09-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_af287a",
-          "name": "Takács Pétert",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_49f14802",
-      "title": "Felszámolják a rovarfehérje-üzemet, amiben Áder János alapítványa is érdekelt volt",
-      "description": "A cégben több Fidesz-közeli szereplő bírt érdekeltséggel.",
-      "link": "https://telex.hu/gazdasag/2026/09/17/agroloop-hungary-gyar-rovar-feherje-felszamolas-cegbirosag",
-      "date": "2026-09-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_e29df8",
-          "name": "Áder János",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_2104fb84",
-      "title": "Több milliárd forintnyi közpénz ment az Orbán-kormány szócsöveként működő szlovákiai lapra",
-      "description": "A lap nyomtatását Világi Oszkár cége végezte, terjesztését pedig egy olyan honlap nélküli cég, amelynek tulajdonosai a Magyar Szövetséghez kötődnek.",
-      "link": "https://telex.hu/gazdasag/2026/09/17/12-millio-euro-magyar-kozpenz-ma7-szlovakia-vilagi-oszkar-magyar-szovetseg",
-      "date": "2026-09-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_11eacb",
-          "name": "Világi Oszkár",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_e9cb42a0",
-      "title": "Tiborcz István és Orbán Ráhel részt vettek Radovan Vítek cseh milliárdos esküvőjén",
-      "description": "Tavaly Vítek érdekeltségétől került a Marriott Hotel Tiborcz érdekeltségébe.",
-      "link": "https://telex.hu/kulfold/2026/09/17/tiborcz-istvan-orban-rahel-radovan-vitek-eskuvo-marriott-hotel-bdpst",
-      "date": "2026-09-17",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_845761",
-          "name": "Orbán Ráhel",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2d13cd",
-          "name": "Radovan Vítek",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_885165",
-          "name": "Tavaly Vítek",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
       "id": "sc_54116f4b",
       "title": "Seszták Miklósig és Tiborcz Istvánig érhet el a Volánbusz-ügy",
       "description": "Bár a hírek eddig üzletemberek, Jellinek Dániel, Szivek Norbert és Komonczi Zsolt meggyanúsításáról szóltak, amit múlt héten a Nemzeti Nyomozó Iroda jelentett be, kedden már a Központi Nyomozó Főügyészség számolt be három ember őrizetbe vételéről ugyancsak a Volánbusz-üggyel összefüggésben. A nyomozás több szálon fut, és Seszták Miklós kereszténydemokrata képviselő is gyanúsított lehet.",
@@ -5416,6 +5157,290 @@
           "position": "ismeretlen"
         }
       ]
+    },
+    {
+      "id": "sc_e62972eb",
+      "title": "Hadházy felháborodott, hogy kit neveztek ki a Mohu koncessziójának felülvizsgálatára, Gajdos László kommentben cáfolta az állítást",
+      "description": "A korábbi képviselő szerint a Mol egykori jogásza kapta a feladatot, a miniszter erre azt kommentelte, hogy Hadházy „butaságot beszél és terjeszt, ténybeli ismeretek nélkül”.",
+      "link": "https://telex.hu/belfold/2026/08/07/hadhazy-akos-gajdos-laszlo-mohu-koncesszio-allamtitkar-kinevezes-vita",
+      "date": "2026-08-07",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_53e979",
+          "name": "Gajdos László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_cad19e94",
+      "title": "2,3 milliárd forintot fizetett vissza az államnak az egyik Mészáros Lőrinchez köthető magántőkealap",
+      "description": "Vitézy Dávid szerint jól halad a vagyonvisszaszerzés.",
+      "link": "https://telex.hu/belfold/2026/08/08/vagyonvisszaszerzes-2-3-milliard-meszaros-lorinv-magantokealap-vitezy-david",
+      "date": "2026-08-08",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 2300000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_9f41f7",
+          "name": "Mészáros Lőrinchez",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_08b4e24a",
+      "title": "Mészáros Lőrinc alapkezelője kihátrált, Jellinek Dánielé pedig visszafizette a több milliárdos állami tőketámogatást",
+      "description": "Az MBH és az Indotek alapkezelője is elállt a Lakhatási Tőkeprogramban elnyert tőkeinjekciótól. Ez alapkezelőnként 5 és 20 milliárd forint közé tehető összeget jelent.",
+      "link": "https://magyarnarancs.hu/belpol/meszaros-lorinc-alapkezeloje-kihatralt-jellinek-daniele-pedig-visszafizette-a-tobb-milliardos-allami-toketamogatast-279892",
+      "date": "2026-08-07",
+      "source": "Magyar Narancs",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 20000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_b6659c",
+          "name": "Jellinek Dánielé",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c16a28",
+          "name": "Lakhatási Tőkeprogramban",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_45bdcdfd",
+      "title": "Félmilliárd forintot kapott a CÖF „magyarországi vállalkozásoktól” 2025-ben",
+      "description": "Plusz 1,5 millió forintot magánszemélyektől, 80 milliót a Fidesz pártalapítványától, adó 1%-ból pedig 4,5 millió forintot kaptak a Békemenetek szervezői.",
+      "link": "https://atlatszo.hu/kozugy/2026/08/07/felmilliard-forintot-kapott-a-cof-magyarorszagi-vallalkozasoktol-2025-ben/",
+      "date": "2026-08-07",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 5000000,
+      "tags": [
+        "alapítvány"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_2c15d240",
+      "title": "„Ez most mire volt jó, kedves Takács Péter?” – Gajdos László videóban mondta el, hogy a fideszesek vádjaival ellentétben nem ment szabadságra a vízügyért felelős államtitkára",
+      "description": "Csak ment volna.",
+      "link": "https://444.hu/2026/08/06/ez-most-mire-volt-jo-kedves-takacs-peter-gajdos-laszlo-videoban-mondta-el-hogy-a-fideszesek-vadjaival-ellentetben-nem-ment-szabadsagra-a-vizugyert-felelos-allamtitkara?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-06",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c3a0b3",
+          "name": "Takács Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_53e979",
+          "name": "Gajdos László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_a8774c4f",
+      "title": "Az Orbán-kormány 7,2 milliárdért nyitott volna luxuséttermet Brüsszelben",
+      "description": "A Brüsszeli Magyar Ház melletti ingatlant vették volna meg Orbánék, az üzlet végül nem a kormányváltás miatt hiúsult meg.",
+      "link": "https://444.hu/2026/08/07/az-orban-kormany-72-milliardert-nyitott-volna-luxusettermet-brusszelben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-08-07",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_531e11",
+          "name": "Az Orbán",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_c730ca",
+          "name": "Brüsszeli Magyar",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_444c3152",
+      "title": "„Ez most mire volt jó, kedves Takács Péter?” – Gajdos László megvédte államtitkárát, akit fideszesek azzal vádoltak meg, hogy krízishelyzetben ment nyaralni",
+      "description": "A tárcavezető szerint Kelemen Ágnes tervezetten ment volna szabadságra, de a hőség és vízhiány miatt azt elhalasztotta.",
+      "link": "https://hvg.hu/itthon/20260807_gajdos-laszlo-vizugyi-es-klimapolitikaert-felelos-allamtitkar-fidesz-takacs-peter",
+      "date": "2026-08-07",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_c3a0b3",
+          "name": "Takács Péter",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_53e979",
+          "name": "Gajdos László",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_b0f7e8",
+          "name": "Kelemen Ágnes",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_2bfe5f82",
+      "title": "Zsíros üzletről maradt le egy NER-es cég – luxuséttermet tervezett az Orbán-kormány Brüsszel központjába milliárdokért",
+      "description": "Újabb értékes brüsszeli ingatlan megvásárlására készült az Orbán-kormány a magyar EU-elnökség sok milliárdos főhadiszállása mellett. A házban a magyar gasztronómiát népszerűsítő exkluzív éttermet is nyitottak volna. Nem a kormányváltáson múlt, hogy mégsem költöttek el erre közpénzből 7,2 milliárd forintot.",
+      "link": "https://hvg.hu/360/20260807_brusszel-luxusetterem-orban-kormany-7-2-milliard-forint-ner",
+      "date": "2026-08-07",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_d124b749",
+      "title": "7,2 milliárd forintért vett volna Brüsszel központjában luxusétteremmel bővített ingatlant az Orbán-kormány",
+      "description": "A vásárlás végül nem a kormányváltás miatt hiúsult meg.",
+      "link": "https://telex.hu/belfold/2026/08/07/brusszel-ingatlan-fine-dining-luxusetterem-orban-kormany-vasarol-meghiusul",
+      "date": "2026-08-07",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 7200000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_f53d2a59",
+      "title": "Matusik Tamás, a Fővárosi Törvényszék elnöke: A bírói kar azt várja, hogy ne lincshangulatban kelljen működnie",
+      "description": "Mérnökcsaládból ment a jogi karra, a nyomozási bírói pályára a 2006-os demonstrációk terelték. Nem gondolta volna, hogy ilyen viharos lesz az Országos Bírói Tanácsban eltöltött hat évük, a lejárató kampányokért „borzasztó” árat fizettek. A Fővárosi Törvényszék új elnökeként fontosnak tartja, hogy eltöröljék azokat a jogalkotási változásokat, amiket az Orbán-kormány az utolsó évében vezetett be pol",
+      "link": "https://hvg.hu/360/20260806_matusik-tamas-fovarosi-torvenyszek-elnok-hvg-portre-interju",
+      "date": "2026-08-06",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_71fbb8",
+          "name": "Matusik Tamás",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_9d0eee",
+          "name": "Országos Bírói",
+          "position": "ismeretlen"
+        }
+      ]
     }
   ],
   "investigations": [
@@ -9443,74 +9468,14 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_2d13cd",
-      "type": "business_connection",
-      "cases": [
-        "sc_e9cb42a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_358ac9",
-      "to": "p_885165",
-      "type": "business_connection",
-      "cases": [
-        "sc_e9cb42a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_845761",
-      "to": "p_068668",
-      "type": "business_connection",
-      "cases": [
-        "sc_b0e34372"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_845761",
-      "to": "p_2d13cd",
-      "type": "business_connection",
-      "cases": [
-        "sc_e9cb42a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_845761",
-      "to": "p_885165",
-      "type": "business_connection",
-      "cases": [
-        "sc_e9cb42a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
-    },
-    {
-      "from": "p_2d13cd",
-      "to": "p_885165",
-      "type": "business_connection",
-      "cases": [
-        "sc_e9cb42a0"
-      ],
-      "description": "Automatikusan felismert – 1 közös ügy",
-      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-17T13:02:47.912288+00:00",
+    "last_updated": "2026-09-16T13:08:47.758900+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20645097000000,
+    "total_involved_amount_huf": 20656002000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9532,11 +9497,11 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Somogy",
-      "Hajdú-Bihar",
-      "Fejér",
-      "Baranya",
       "Győr-Moson-Sopron",
+      "Hajdú-Bihar",
+      "Baranya",
+      "Fejér",
+      "Somogy",
       "Budapest"
     ]
   }
