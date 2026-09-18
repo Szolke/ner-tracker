@@ -1,6 +1,234 @@
 {
   "cases": [
     {
+      "id": "sc_410dedc8",
+      "title": "Kapitány István: Mindent meg fogunk oldani orosz gáz nélkül",
+      "description": "Jövőre meg lesz oldva az EU által elvárt leválás az orosz gázról – mondta egy interjúban a gazdasági és energetikai miniszter. Beszélt a dízeltámogatásról is, ami havi 10 milliárd forintba kerül majd a költségvetésnek. A Telexnek adott interjúban beszélt Paksról és a vagyonadóról is.",
+      "link": "https://hvg.hu/gazdasag/20260918_kapitany-istvan-interju-a-telexen-dizeltamogatas-paks-gazellatas-energia-vagyonado",
+      "date": "2026-09-18",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 10000000000,
+      "tags": [
+        "EU",
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_9ec10c",
+          "name": "Kapitány István",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_192fbe4f",
+      "title": "38 milliós bárpult, 3,7 milliós kanapék, 4,5 milliós székek – csak a bútorok 1,2 milliárdba kerültek Rogán Antal luxusminisztériumában",
+      "description": "Megkaptuk a tételes listát arról, mit és mennyiért vettek Rogán Antal egykori minisztériumába, a Dísz téren lévő épületbe. Aranybudi nincs, egymilliós mosdó és 4,5 milliós íróasztal viszont van. A képekről ismerős szivarszoba berendezése 24 millióba került, a vele szemben lévő bárpult 38-ba. Utóbbi volt a legdrágább egyedi tétel a minisztériumban.",
+      "link": "https://444.hu/2026/09/18/38-millios-barpult-37-millios-kanapek-45-millios-szekek-csak-a-butorok-12-milliardba-kerultek-rogan-antal-luxusminiszteriumaban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-18",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1200000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        }
+      ]
+    },
+    {
+      "id": "sc_30936208",
+      "title": "Újrakezdte a tárgyalásokat a kormány a Norvég Alapról, több mint 92 milliárd forint érkezhet Magyarországra",
+      "description": "Az előző ciklusban Magyarország egyetlen forinthoz sem jutott hozzá, mert az Orbán-kormány nem fogadta el, hogy a civil szervezeteknek szánt forrásokról az államtól független szereplők döntsenek.",
+      "link": "https://444.hu/2026/09/18/ujrakezdte-a-targyalasokat-a-kormany-a-norveg-alaprol-tobb-mint-92-milliard-forint-erkezhet-magyarorszagra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-18",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 92000000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_0678e6",
+          "name": "Norvég Alapról",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_1f86db",
+          "name": "Magyarországra Az",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_81bf7a5d",
+      "title": "Mészáros és Szíjj 23 ezer milliárdja: Magyar Péter szerint az autópálya-koncessziós szerződésnek „vége van”, feljelentést is tesznek – ez volt a kormányinfó",
+      "description": "Részletesen bemutatták, hogy húzta le az államot (annak hathatós segítségével) a Mészáros Lőrinc és Szíjj László vezette konzorcium. A Tisza-kormány reményei szerint akár az év végéig meg lehet szüntetni a mai állás szerint több mint 23 ezer milliárd forint értékű szerződést, de ehhez a NER nagyjainak a hozzájárulása is kell.",
+      "link": "https://hvg.hu/gazdasag/20260918_a-kormany-veget-vet-meszaros-lorinc-sztradabizniszenek-eloben-a-kormanyinforol",
+      "date": "2026-09-18",
+      "source": "HVG",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_fbf7a2",
+          "name": "Szíjj László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_4ddb1b4b",
+      "title": "A kormány száműzi a sportszervezetek éléről a politikusokat – a jövőben Szijjártó, Kubatov és Deutsch sem lehet majd elnök",
+      "description": "A döntést a Fidesz-kormányok alatt tapasztalt visszaélésekkel indokolták.",
+      "link": "https://hvg.hu/sport/20260918_magyar-peter-kormany-sportszervezetek-politikusok-elnoki-pozicio-kubatov-gabor-szijjarto-peter-deutsch-tamas",
+      "date": "2026-09-18",
+      "source": "HVG",
+      "category": "korrupció",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "EU",
+        "sport",
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_9da65300",
+      "title": "38 milliós bárpult, milliós székek – csak a berendezés 1,27 milliárd forintba került Rogán Antal minisztériumában",
+      "description": "A Várkapitányság kiadta az adatokat a 444-nek, a lap összesítése szerint a Miniszterelnöki Kabinetiroda teljes kialakítása 27 milliárd forintba került.",
+      "link": "https://telex.hu/belfold/2026/09/18/rogan-antal-miniszterelnoki-kabinetiroda-epulet-luxus-varkapitanysag",
+      "date": "2026-09-18",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1270000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1b5e4f",
+          "name": "Rogán Antal",
+          "position": "miniszter, Kabinetirodát vezető"
+        }
+      ]
+    },
+    {
+      "id": "sc_19ca006c",
+      "title": "Kikerült a YouTube-ra Orbán kötcsei beszéde, a volt miniszterelnök a választási vereség okáról beszélt",
+      "description": "Mindenkit emlékeztetnék arra, hogy luxizásra vonatkozó vád akkor is volt, amikor nyertünk. Akkor is volt simicskázás, amikor nyertünk. Úgy is nyertünk választást, hogy mészárosoztak, mondta, majd rátért a valódi okra.",
+      "link": "https://telex.hu/belfold/2026/09/18/orban-viktor-kotcsei-beszed-fidesz-kdnp-valasztas-ertekelo",
+      "date": "2026-09-18",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": []
+    },
+    {
+      "id": "sc_314e82ba",
+      "title": "Újra tárgyal a kormány a Norvég Alappal, 92 milliárd forint érkezhet",
+      "description": "Orbán Anita szerint jól haladnak a tárgyalások.",
+      "link": "https://telex.hu/belfold/2026/09/18/orban-anita-norveg-alap-targyalas-92-milliard-forint",
+      "date": "2026-09-18",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 92000000000,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_bbe35f",
+          "name": "Norvég Alappal",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_01ca0f",
+          "name": "Orbán Anita",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_65478357",
+      "title": "Bejelentette a kormány, hogy felbontanák Mészárosék húszezer milliárdos autópálya-koncesszióját",
+      "description": "2021-ben 35 évre a Mészáros–Szíjj-féle cég kapta meg a magyar autópályák nagy részének működtetését, mostanáig több mint 700 milliárd forintot fizettünk ki ezért. Az új kormány elállna az üzlettől, de a részletekről még tárgyalna a koncesszorral.",
+      "link": "https://telex.hu/gazdasag/2026/09/18/mkif-meszaros-lorinc-szijj-laszlo-koncesszio-kormany-megszuntetes-targyalasok",
+      "date": "2026-09-18",
+      "source": "Telex",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 700000000000,
+      "tags": [],
+      "involved_persons": []
+    },
+    {
       "id": "sc_71f7f748",
       "title": "Pulykakakast kéne venni",
       "description": "Az Orbán-kormány tavasszal megítélte, majd nyáron a Tisza-kabinet visszavonta a honi pulykahúspiac legnagyobb szereplője, a szarvasi Gallicoop Zrt. 33 milliárd forintos fejlesztési támogatását. Az elutasítás indoklása szerint a tulajdonosi kör nem transzparens. A cég a bírósághoz fordul.",
@@ -5138,284 +5366,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_0f69a724",
-      "title": "Tiborczcal repült kötelékben, vajon Ausztráliában már magának fejleszt milliárdos ingatlant?",
-      "description": "Sydney előkelő negyedében készül luxuslakások építésére Komonczi Zsolt, aki eredetileg közösen birtokolta és fejlesztette a Hotel Dorotheát Tiborcz Istvánnal a pesti belvárosban. Ahogy az itthon már megszokott, az üzletember ausztráliai cégeinél sem mindig látszik, hogy ki a végső tulajdonos.",
-      "link": "https://hvg.hu/360/20260810_komonczi-zsolt-ingatlan-ausztralia-tiborcz-ebx",
-      "date": "2026-08-10",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_358ac9",
-          "name": "Tiborcz István",
-          "position": "vállalkozó, Orbán Viktor veje"
-        },
-        {
-          "id": "p_ecc455",
-          "name": "Komonczi Zsolt",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_7a9375",
-          "name": "Hotel Dorotheát",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2ce1f1",
-          "name": "Tiborcz Istvánnal",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_7bea9ac4",
-      "title": "Kirúgták a Balásyéknak százmilliárdokat kifolyató Nemzeti Kommunikációs Hivatal és a Rendezvényszervező Ügynökség vezetőjét",
-      "description": "Búcsú Rogán készpénzkifolyató embereitől, akik napi szinten intézték a verseny nélküli közbeszerzéseket.",
-      "link": "https://444.hu/2026/08/08/kirugtak-a-balasyeknak-szazmilliardokat-kifolyato-nemzeti-kommunikacios-hivatal-es-a-rendezvenyszervezo-ugynokseg-vezetojet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-08",
-      "source": "444",
-      "category": "közbeszerzés",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "közbeszerzés",
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_3fdca3",
-          "name": "Búcsú Rogán",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_5210a67d",
-      "title": "Átvilágítják a Közép- és Kelet-európai Onkológiai Akadémia Alapítvány működését és gazdálkodását",
-      "description": "Hegedűs Zsolt arról írt, hogy az alapítvány a saját dokumentuma szerint a működését eddig költségvetési forrásból finanszírozta, ami több mint 2 milliárd forint közpénzt jelent.",
-      "link": "https://444.hu/2026/08/08/atvilagitjak-a-kozep-es-kelet-europai-onkologiai-akademia-alapitvany-mukodeset-es-gazdalkodasat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-08",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2000000000,
-      "tags": [
-        "EU",
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_7bdfbf",
-          "name": "Onkológiai Akadémia",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_2975d4",
-          "name": "Hegedűs Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_69ebfaf2",
-      "title": "Átvilágítják a Kásler-féle onkológiai alapítványt, amely budai luxusvillát vett akadémiájának",
-      "description": "Hegedűs Zsolt egészségügyi miniszter szerint 2,25 milliárd forint közpénzből működött az alapítvány akadémiája, és belső anyagai is utalnak hiányosságokra, számvevőszéki vizsgálatra.",
-      "link": "https://hvg.hu/itthon/20260808_luxusvilla-mukoes-kasler-miklos-onkologia-alapitvany-atvilagitas",
-      "date": "2026-08-08",
-      "source": "HVG",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2250000000,
-      "tags": [
-        "alapítvány"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_2975d4",
-          "name": "Hegedűs Zsolt",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_8706dc84",
-      "title": "Hadházy szerint Gajdos László a Mol jogászát nevezte ki a Mohu átvilágítására, a miniszter szerint ez butaság",
-      "description": "A környezetvédelmi miniszter azt írta: a hulladékkoncesszió felülvizsgálatával Kertész-Káldosi Zsuzsanna vezetésével egy tízfős csapatot bíztak meg, arra azonban nem tért ki, hogy ennek tagja lesz-e az ex-molos Kolesár Gergely.",
-      "link": "https://hvg.hu/gazdasag/20260807_mol-mohu-kolesar-gergely-elo-kornyezet-miniszterium-gajdos-laszlo-hulladekkoncesszio",
-      "date": "2026-08-07",
-      "source": "HVG Gazdaság",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_53e979",
-          "name": "Gajdos László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_955353",
-          "name": "Káldosi Zsuzsanna",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_00229a",
-          "name": "Kolesár Gergely",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_8cb8044a",
-      "title": "1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége",
-      "description": "Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi...",
-      "link": "https://atlatszo.hu/kozpenz/2021/08/12/18-milliard-forintot-oszthat-folyoiratoknak-demeter-szilard-kulturalis-ugynoksege/",
-      "date": "2021-08-12",
-      "source": "Átlátszó",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 1800000000,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_ccfee4",
-          "name": "Demeter Szilárd",
-          "position": "NKA elnök, PIM főigazgató"
-        }
-      ]
-    },
-    {
-      "id": "sc_e0b18b42",
-      "title": "Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátjának",
-      "description": "Benkő Szilárd régóta közeli barátja Szijjártó Péternek. Nemrég két másik céggel közösen egy ruandai, magyar állami pénzekkel finanszírozott beruházásban kapott munkát az egyik érdekeltsége. Podcastunkban az ügy hátteréről és arról is beszélgettünk, tudott-e a korábbi külügyminiszter barátja sikeréről.\nThe post Direkt36 podcast – Afrikában is jutott külügyes biznisz Szijjártó Péter legjobb barátján",
-      "link": "https://www.direkt36.hu/direkt36-podcast-afrikaban-is-jutott-kulugyes-biznisz-szijjarto-peter-legjobb-baratjanak/",
-      "date": "2026-06-24",
-      "source": "Direkt36",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_534929",
-          "name": "Szijjártó Péter",
-          "position": "külügyminiszter"
-        },
-        {
-          "id": "p_6159d1",
-          "name": "Benkő Szilárd",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_0353fb",
-          "name": "Szijjártó Péternek",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_f040c540",
-      "title": "Gajdos László szerint butaság, hogy a Mol volt jogászára bízták a MOHU-koncesszió felülvizsgálatát",
-      "description": "A kinevezést Hadházy Ákos kifogásolta a Facebookon. Meg is kapta a minisztertől, hogy  „ténybeli ismeretek nélkül vádaskodik\", akár egy fideszes.",
-      "link": "https://444.hu/2026/08/07/gajdos-laszlo-szerint-butasag-hogy-a-mol-volt-jogaszara-biztak-a-mohu-koncesszio-felulvizsgalatat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-07",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [],
-      "involved_persons": [
-        {
-          "id": "p_53e979",
-          "name": "Gajdos László",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_068668",
-          "name": "Hadházy Ákos",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_ab07968b",
-      "title": "2,3 milliárdot fizettetett vissza Mészáros Lőrincékkel Vitézy egy Lázárral kötött szerződésből",
-      "description": "A kormány ennyit szerzett vissza egy 64 milliárdos szerződésből, de azt ígérik, folytatják.",
-      "link": "https://444.hu/2026/08/08/23-milliardot-fizettetett-vissza-meszaros-lorincekkel-vitezy-egy-lazarral-kotott-szerzodesbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-08",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 2300000000,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_f3bfb9",
-          "name": "Mészáros Lőrincékkel",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9503,14 +9453,34 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_0678e6",
+      "to": "p_1f86db",
+      "type": "business_connection",
+      "cases": [
+        "sc_30936208"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_bbe35f",
+      "to": "p_01ca0f",
+      "type": "business_connection",
+      "cases": [
+        "sc_314e82ba"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-17T13:02:47.912288+00:00",
+    "last_updated": "2026-09-18T12:42:40.652482+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 20645097000000,
+    "total_involved_amount_huf": 21533217000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9518,13 +9488,12 @@
       "appeal": 0
     },
     "category_breakdown": {
-      "korrupció": 15,
+      "korrupció": 16,
       "pénzügyi": 169,
-      "közbeszerzés": 16
+      "közbeszerzés": 15
     },
     "sources": [
       "444",
-      "Direkt36",
       "HVG",
       "HVG Gazdaság",
       "Magyar Narancs",
@@ -9532,12 +9501,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
+      "Budapest",
       "Somogy",
       "Hajdú-Bihar",
       "Fejér",
-      "Baranya",
       "Győr-Moson-Sopron",
-      "Budapest"
+      "Baranya"
     ]
   }
 }
