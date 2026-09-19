@@ -1,18 +1,5 @@
 [
   {
-    "run_at": "2026-07-18T09:23:55.828703+00:00",
-    "skipped_candidates": [
-      {
-        "candidate": "Földje Alapítvány",
-        "reason": "blacklisted_institution_pattern"
-      },
-      {
-        "candidate": "Integritás Hatóság",
-        "reason": "blacklisted_institution_pattern"
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-19T09:51:47.373365+00:00",
     "skipped_candidates": [
       {
@@ -837,6 +824,35 @@
       },
       {
         "candidate": "Gallicoop Zrt",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      }
+    ]
+  },
+  {
+    "run_at": "2026-09-19T12:16:54.656407+00:00",
+    "skipped_candidates": [
+      {
+        "candidate": "Magyar Péter",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Kommentár Alapítvány",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Gallicoop Zrt",
+        "reason": "blacklisted_institution_pattern"
+      },
+      {
+        "candidate": "Magyar Péter",
         "reason": "blacklisted_institution_pattern"
       },
       {

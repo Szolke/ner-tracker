@@ -1,6 +1,105 @@
 {
   "cases": [
     {
+      "id": "sc_f3596b51",
+      "title": "Magyar Péter izomból levillogta Mészáros Lőrincet az autópályáról",
+      "description": "A Tisza-kormány felszámolja a sztrádakoncessziót, de szüksége van a Mészáros Lőrinc és Szíjj László érdekeltségében álló koncessziós társaság együttműködésére. Vitézy Dávid és Magyar Péter klasszikus “rossz zsaru, még rosszabb zsaru” felállásban adtak ultimátumot. Az együttműködés minden bizonnyal meglesz, a koncesszió felgöngyölítése így is évekbe telik majd.",
+      "link": "https://hvg.hu/360/20260918_sztrada-koncesszio-autopalya-mkif-magyar-meszaros-szijj",
+      "date": "2026-09-18",
+      "source": "HVG Gazdaság",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": null,
+      "tags": [
+        "IT"
+      ],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_94af7a",
+          "name": "Vitézy Dávid",
+          "position": "BKK volt vezérigazgató"
+        },
+        {
+          "id": "p_1b2383",
+          "name": "Mészáros Lőrincet",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_fbf7a2",
+          "name": "Szíjj László",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
+      "id": "sc_8cb8044a",
+      "title": "1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége",
+      "description": "Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi...",
+      "link": "https://atlatszo.hu/kozpenz/2021/08/12/18-milliard-forintot-oszthat-folyoiratoknak-demeter-szilard-kulturalis-ugynoksege/",
+      "date": "2021-08-12",
+      "source": "Átlátszó",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 1800000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_ccfee4",
+          "name": "Demeter Szilárd",
+          "position": "NKA elnök, PIM főigazgató"
+        }
+      ]
+    },
+    {
+      "id": "sc_5581909c",
+      "title": "Ha Várkonyi Andreával havonta csak 10 milliót költenének, akkor ez az összeg 14.575 évig lenne elég – Magyar Péter Mészáros Lőrincnek üzent, hosszan sorolta, mennyi pénz az autópálya-koncesszió 23 ezer milliárdja",
+      "description": "35  éven keresztül minden egyes órában 96 millió forint közpénzt utaltak volna Mészáros és Szíjj cégének, ha érvényben marad a koncessziós szerződés az autópályákra.",
+      "link": "https://444.hu/2026/09/19/ha-varkonyi-andreaval-havonta-csak-10-milliot-koltenenek-akkor-ez-az-osszeg-14575-evig-lenne-eleg-magyar-peter-meszaros-lorincnek-uzent-hosszan-sorolta-mennyi-penz-az-autopalya-koncesszio-23-ezer-milliardja?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "date": "2026-09-19",
+      "source": "444",
+      "category": "pénzügyi",
+      "status": "active",
+      "region": "Budapest",
+      "coordinates": [
+        47.4979,
+        19.0402
+      ],
+      "amount_huf": 10000000,
+      "tags": [],
+      "involved_persons": [
+        {
+          "id": "p_1dd9b6",
+          "name": "Mészáros Lőrinc",
+          "position": "vállalkozó, volt felcsúti polgármester"
+        },
+        {
+          "id": "p_5061f2",
+          "name": "Ha Várkonyi",
+          "position": "ismeretlen"
+        },
+        {
+          "id": "p_eefce3",
+          "name": "Mészáros Lőrincnek",
+          "position": "ismeretlen"
+        }
+      ]
+    },
+    {
       "id": "sc_410dedc8",
       "title": "Kapitány István: Mindent meg fogunk oldani orosz gáz nélkül",
       "description": "Jövőre meg lesz oldva az EU által elvárt leválás az orosz gázról – mondta egy interjúban a gazdasági és energetikai miniszter. Beszélt a dízeltámogatásról is, ami havi 10 milliárd forintba kerül majd a költségvetésnek. A Telexnek adott interjúban beszélt Paksról és a vagyonadóról is.",
@@ -5276,96 +5375,6 @@
           "position": "ismeretlen"
         }
       ]
-    },
-    {
-      "id": "sc_16388e0d",
-      "title": "Kizárták Mészáros Lőrinc cégét, az Opus Titász nem kap semmit a hazahozott RRF-pénzekből",
-      "description": "Az átláthatósági követelmények nem teljesítése miatt. Ez lehet az első komolyabb eset, amikor Mészáros-érdekeltség jár pórul.",
-      "link": "https://444.hu/2026/08/11/kizartak-meszaros-lorinc-ceget-az-opus-titasz-nem-kap-semmit-a-hazahozott-rrf-penzekbol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-11",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_1dd9b6",
-          "name": "Mészáros Lőrinc",
-          "position": "vállalkozó, volt felcsúti polgármester"
-        },
-        {
-          "id": "p_624f4c",
-          "name": "Kizárták Mészáros",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_ae8161",
-          "name": "Opus Titász",
-          "position": "ismeretlen"
-        }
-      ]
-    },
-    {
-      "id": "sc_4a724c16",
-      "title": "5,7 milliós bírságot szabtak ki Orbánék hatvanpusztai műemlékrombolása miatt",
-      "description": "Engedély nélkül bontották el az istállókat, de bejelentés nélkül építettek díszmedencét.",
-      "link": "https://telex.hu/belfold/2026/08/10/hatvanpuszta-muemlek-bontas-birsag",
-      "date": "2026-08-10",
-      "source": "Telex",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": 7000000,
-      "tags": [],
-      "involved_persons": []
-    },
-    {
-      "id": "sc_3a67f325",
-      "title": "Németh Balázs rongyrázó különvonatozással vádolta Vitézy Dávidot, a miniszter micimackózva magyarázta el neki, hogy egy felsővezetéket vizsgáló tesztvonatot nézett meg",
-      "description": "Aztán a két politikus még kommentben is egymásba szállt.",
-      "link": "https://444.hu/2026/08/09/nemeth-balazs-rongyrazo-kulonvonatozassal-vadolta-vitezy-davidot-a-miniszter-micimackozva-magyarazta-el-neki-hogy-egy-felsovezeteket-vizsgalo-tesztvonatot-nezett-meg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "date": "2026-08-09",
-      "source": "444",
-      "category": "pénzügyi",
-      "status": "active",
-      "region": "Budapest",
-      "coordinates": [
-        47.4979,
-        19.0402
-      ],
-      "amount_huf": null,
-      "tags": [
-        "IT"
-      ],
-      "involved_persons": [
-        {
-          "id": "p_94af7a",
-          "name": "Vitézy Dávid",
-          "position": "BKK volt vezérigazgató"
-        },
-        {
-          "id": "p_45c449",
-          "name": "Németh Balázs",
-          "position": "ismeretlen"
-        },
-        {
-          "id": "p_6a73c8",
-          "name": "Vitézy Dávidot",
-          "position": "ismeretlen"
-        }
-      ]
     }
   ],
   "investigations": [
@@ -9473,14 +9482,64 @@
       ],
       "description": "Automatikusan felismert – 1 közös ügy",
       "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_5061f2",
+      "type": "political_ally",
+      "cases": [
+        "sc_5581909c"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1dd9b6",
+      "to": "p_eefce3",
+      "type": "political_ally",
+      "cases": [
+        "sc_5581909c"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_94af7a",
+      "to": "p_1b2383",
+      "type": "business_connection",
+      "cases": [
+        "sc_f3596b51"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_1b2383",
+      "to": "p_fbf7a2",
+      "type": "business_connection",
+      "cases": [
+        "sc_f3596b51"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
+    },
+    {
+      "from": "p_5061f2",
+      "to": "p_eefce3",
+      "type": "business_connection",
+      "cases": [
+        "sc_5581909c"
+      ],
+      "description": "Automatikusan felismert – 1 közös ügy",
+      "auto": true
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-18T12:42:40.652482+00:00",
+    "last_updated": "2026-09-19T12:16:54.650772+00:00",
     "version": "3.0.0",
     "total_cases": 200,
     "total_investigations": 4,
-    "total_involved_amount_huf": 21533217000000,
+    "total_involved_amount_huf": 21535020000000,
     "status_breakdown": {
       "active": 200,
       "investigation": 0,
@@ -9501,12 +9560,12 @@
       "Átlátszó"
     ],
     "regions_covered": [
-      "Budapest",
-      "Somogy",
       "Hajdú-Bihar",
-      "Fejér",
+      "Somogy",
+      "Budapest",
+      "Baranya",
       "Győr-Moson-Sopron",
-      "Baranya"
+      "Fejér"
     ]
   }
 }

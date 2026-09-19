@@ -5,8 +5,32 @@
     <link>https://ner-tracker.pages.dev</link>
     <description>Magyar kormányzati korrupciós ügyek, közbeszerzési visszaélések és pénzügyi anomáliák</description>
     <language>hu</language>
-    <lastBuildDate>Fri, 18 Sep 2026 12:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 12:16:54 +0000</lastBuildDate>
     <atom:link href="https://ner-tracker.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title><![CDATA[Magyar Péter izomból levillogta Mészáros Lőrincet az autópályáról]]></title>
+    <link>https://hvg.hu/360/20260918_sztrada-koncesszio-autopalya-mkif-magyar-meszaros-szijj</link>
+    <guid>sc_f3596b51</guid>
+    <pubDate>2026-09-18</pubDate>
+    <description><![CDATA[A Tisza-kormány felszámolja a sztrádakoncessziót, de szüksége van a Mészáros Lőrinc és Szíjj László érdekeltségében álló koncessziós társaság együttműködésére. Vitézy Dávid és Magyar Péter klasszikus  | Budapest | Összeg ismeretlen | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[1,8 milliárd forintot oszthat folyóiratoknak Demeter Szilárd kulturális ügynöksége]]></title>
+    <link>https://atlatszo.hu/kozpenz/2021/08/12/18-milliard-forintot-oszthat-folyoiratoknak-demeter-szilard-kulturalis-ugynoksege/</link>
+    <guid>sc_8cb8044a</guid>
+    <pubDate>2021-08-12</pubDate>
+    <description><![CDATA[Június 22-ikén adta hírül a kultura.hu, hogy megalakult az a két szakmai kollégium, amelyik döntéselőkészítési folyamat során jóváhagyta a Petőfi... | Budapest | 1800 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
+  <item>
+    <title><![CDATA[Ha Várkonyi Andreával havonta csak 10 milliót költenének, akkor ez az összeg 14.575 évig lenne elég – Magyar Péter Mészáros Lőrincnek üzent, hosszan sorolta, mennyi pénz az autópálya-koncesszió 23 ezer milliárdja]]></title>
+    <link>https://444.hu/2026/09/19/ha-varkonyi-andreaval-havonta-csak-10-milliot-koltenenek-akkor-ez-az-osszeg-14575-evig-lenne-eleg-magyar-peter-meszaros-lorincnek-uzent-hosszan-sorolta-mennyi-penz-az-autopalya-koncesszio-23-ezer-milliardja?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication</link>
+    <guid>sc_5581909c</guid>
+    <pubDate>2026-09-19</pubDate>
+    <description><![CDATA[35  éven keresztül minden egyes órában 96 millió forint közpénzt utaltak volna Mészáros és Szíjj cégének, ha érvényben marad a koncessziós szerződés az autópályákra. | Budapest | 10 M HUF | pénzügyi]]></description>
+    <category>pénzügyi</category>
+  </item>
   <item>
     <title><![CDATA[Kapitány István: Mindent meg fogunk oldani orosz gáz nélkül]]></title>
     <link>https://hvg.hu/gazdasag/20260918_kapitany-istvan-interju-a-telexen-dizeltamogatas-paks-gazellatas-energia-vagyonado</link>
@@ -141,30 +165,6 @@
     <guid>sc_49f14802</guid>
     <pubDate>2026-09-17</pubDate>
     <description><![CDATA[A cégben több Fidesz-közeli szereplő bírt érdekeltséggel. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Több milliárd forintnyi közpénz ment az Orbán-kormány szócsöveként működő szlovákiai lapra]]></title>
-    <link>https://telex.hu/gazdasag/2026/09/17/12-millio-euro-magyar-kozpenz-ma7-szlovakia-vilagi-oszkar-magyar-szovetseg</link>
-    <guid>sc_2104fb84</guid>
-    <pubDate>2026-09-17</pubDate>
-    <description><![CDATA[A lap nyomtatását Világi Oszkár cége végezte, terjesztését pedig egy olyan honlap nélküli cég, amelynek tulajdonosai a Magyar Szövetséghez kötődnek. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Tiborcz István és Orbán Ráhel részt vettek Radovan Vítek cseh milliárdos esküvőjén]]></title>
-    <link>https://telex.hu/kulfold/2026/09/17/tiborcz-istvan-orban-rahel-radovan-vitek-eskuvo-marriott-hotel-bdpst</link>
-    <guid>sc_e9cb42a0</guid>
-    <pubDate>2026-09-17</pubDate>
-    <description><![CDATA[Tavaly Vítek érdekeltségétől került a Marriott Hotel Tiborcz érdekeltségébe. | Budapest | Összeg ismeretlen | pénzügyi]]></description>
-    <category>pénzügyi</category>
-  </item>
-  <item>
-    <title><![CDATA[Seszták Miklósig és Tiborcz Istvánig érhet el a Volánbusz-ügy]]></title>
-    <link>https://hvg.hu/360/20260916_jellinek-daniel-szivek-norbert-orizetben-volanbusz-sesztak-miklos-tiborcz-istvan</link>
-    <guid>sc_54116f4b</guid>
-    <pubDate>2026-09-16</pubDate>
-    <description><![CDATA[Bár a hírek eddig üzletemberek, Jellinek Dániel, Szivek Norbert és Komonczi Zsolt meggyanúsításáról szóltak, amit múlt héten a Nemzeti Nyomozó Iroda jelentett be, kedden már a Központi Nyomozó Főügyés | Budapest | Összeg ismeretlen | pénzügyi]]></description>
     <category>pénzügyi</category>
   </item>
   </channel>
